@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <title>{{ page.leader-rank }} | {% for item in page.leader-name %}{{ item }} {% endfor %} | The United States Army</title>
+    <meta property="keywords" name="keywords" content="US Army,Army,ARMY.mil,army leaders,secretary of the army,army leadership,us army biographies,army bios,us army biographies"/>
+    <meta property="description" name="description" content="{{ site.data.master[page.rank-idx].meta-description }}"/>
+    <meta property="og:image" content="{{ page.leader-image }}"/>
+    <meta property="og:title" content="{{ page.leader-rank }} | The United States Army"/>
+    <meta property="og:site_name" content="{{ page.leader-rank }} | The United States Army"/>
+    <meta property="og:description" content="{{ page.leader-rank }} | The United States Army"/>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.army.mil/leaders{{ page.url }}">
+    <link rel="canonical" href="https://www.army.mil/leaders{{ page.url }}">
+    <link rel="stylesheet" href="/e2/css/rv7/leaders/style.css">
+</head>
+<body id="{{ page.active }}" class="{{ page.id }}">
+    {% include globals/elements/upgrade.html %}
+    {% include globals/elements/header.html %}
+    
+    <div class="main">
+        {% include masthead.html %}
+        
+        {{ content }}
+        
+        {% include other-leaders.html %}
+    </div>
+    
+    {% include globals/elements/footer.html %}
+    {% include scripts.html %}
+</body>
+</html>
+
