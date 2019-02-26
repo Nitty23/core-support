@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 /* https://github.com/RedHatBrand/overpass */
 
 /* Webfont: Overpass-Bold */
@@ -93,53 +88,29 @@
     text-rendering: optimizeLegibility;
 }
 
-
 body {
     font-family: 'Overpass', sans-serif;
 }
 
-.navbar {
-    font-size: 18px;
-    background-image: linear-gradient(260deg, #FEC325 0%, #231F20 100%);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
-}
-
-.main-nav {
-    list-style-type: none;
-    display: none;
-}
-
-.nav-links,
 .logo {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.main-nav li {
-    text-align: right;
-    padding-right: 4%;
-    margin: 15px auto;
-}
-
-.logo {
-    display: inline-block;
     font-size: 22px;
     margin-top: 10px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
-.navbar-toggle {
+.core-logo-text{
+    font-size: 20px;
+    color: white;
+}
+
+header{
     position: absolute;
-    top: 1%;
-    right: 4%;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 150%;
 }
 
-.active {
-    display: block;
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 70px;
 }
 
 .support-container{
@@ -148,10 +119,6 @@ body {
 
 .topics-content{
     padding: 0% 5%
-}
-
-.core-logo-text{
-    font-size:2.5vh
 }
 
 .topics-pill-menu{
@@ -177,16 +144,53 @@ body {
     border-left-width: 4px; 
 }
 
-img {
-    padding: 5% 0%;
+.inner-supp-mast{
+    position: absolute;
+}
+.outer-supp-mast{
 }
 
-.army-profile{
-    margin-top:20%
+.row{
+    margin-bottom: 30px;
 }
-.army-profile-a{
-    font-size:300%;
+
+/*Homepage Topic Boxes*/
+/*------------------------------------------------------------------------*/
+
+.supp-topic-box{
+    border: 2px solid lightgray;
+    padding: 30px;
+    height: 13vw;
 }
+.supp-topic-icon-box{
+    padding-bottom: 10%;
+    text-align: center;
+}
+.supp-topic-icon{
+    vertical-align: middle;
+    color: goldenrod;
+    font-size: 200%;
+    text-align: center;
+}
+
+.supp-topic-text{
+    color: lightgray;
+    text-align: center;
+}
+
+.supp-searchbox{
+    z-index: 3;
+    margin: 12% 15% 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+    min-width: 70%;
+}
+
+/*------------------------------------------------------------------------*/
 
 @-moz-keyframes spin {
     from {
@@ -223,14 +227,11 @@ img {
         -webkit-transform-origin: 41.5px 12px 0;
         transform-origin: 41.5px 12px 0;
 }
+
 /*Responsive Website Code*/
-/*------------------*/
+/*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
-
-    .core-logo-text{
-        font-size:2.0vmax
-    }
 
     .support-container{
         margin: 1% 4%;
@@ -241,9 +242,6 @@ img {
         margin-left: -30%;
     }
 
-    img {
-        padding: 1% 0%;
-    }
 
     .topics-pill-menu{
         border-right-style: solid;
@@ -275,32 +273,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 70px;
-        align-items: center;
-    }
-
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .main-nav li {
-        margin: 0;
-    }
-
-    .nav-links {
-        margin-left: 40px;
-    }
-
-    .logo {
-        margin-top: 0;
-    }
 
     .navbar-toggle {
         display: none;
@@ -310,5 +282,4 @@ img {
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
     }
-
 }  

@@ -1,0 +1,31 @@
+--- 
+layout: default 
+metatitle: U.S. Army Core Support | Subtopic
+title: subtopic
+description: U.S. Army Core Support | Subtopic
+---
+{% include supp-header.html %}
+<div class="core-support subtopic">
+        <div class="container">
+            <div class="inner-container">
+
+            <!-- First narrow nav column here -->
+            {% include supp-sidenav.html %}
+            <!-- Second wider content column here -->
+            {{content}}
+
+       </div>
+    </div>
+</div>
+
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>$(document).foundation();</script>
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+    });
+
+</script>
