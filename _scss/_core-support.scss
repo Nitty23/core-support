@@ -154,6 +154,21 @@ header{
     margin-bottom: 30px;
 }
 
+.topic-title{
+    font-size: 2em;
+    font-weight: normal !important;
+}
+
+.topic-text{
+    color: gray;
+    font-weight: normal !important;
+}
+
+.topic-link{
+    color: #0063ff;
+    font-weight: normal !important;
+}
+
 /*Homepage Topic Boxes*/
 /*------------------------------------------------------------------------*/
 
@@ -169,7 +184,12 @@ header{
 .supp-topic-icon{
     vertical-align: middle;
     color: goldenrod;
-    font-size: 200%;
+    font-size: 350%;
+    text-align: center;
+}
+
+.supp-topic-title{
+    color: goldenrod;
     text-align: center;
 }
 

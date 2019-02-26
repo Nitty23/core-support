@@ -1,0 +1,45 @@
+--- 
+layout: default 
+metatitle: U.S. Army Core Support PM
+title: CORE Support Subtopics
+description: U.S. Army CORE Support Subtopics
+id: st
+search-id: Subtopics
+active: st
+---
+<div class="main" role="main">
+    {% include supp-header.html %}
+    <div class="hidden" id="searchId">{{ page.search-id }}</div>
+
+    <div class="container" style="margin-top: 35%">
+
+        <div class="inner-container">
+
+            <div class="row">
+                <h2>SUBTOPIC PAGE</h2>
+            </div>
+
+            <div class="row">
+                <!-- First narrow nav column here -->
+                {% include supp-sidenav.html %}
+                <!-- Second wider content column here -->
+                {{content}}
+            </div> <!-- end of row -->
+
+       </div> <!-- end of inner container -->
+
+    </div> <!-- end of outer container -->
+
+</div> <!-- end of main -->
+
+<!-- <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>$(document).foundation();</script>
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+    });
+
+</script> -->
