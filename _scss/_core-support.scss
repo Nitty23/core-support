@@ -88,14 +88,29 @@
     text-rendering: optimizeLegibility;
 }
 
+/*Support General Layout*/
+/*------------------------------------------------------------------------*/
 body {
     font-family: 'Overpass', sans-serif;
 }
 
+.row{
+    margin-bottom: 30px;
+}
+
+.topic-content-row{
+    margin-bottom: 13.5em;
+    margin-top: 4em;
+}
+
+/*Support Header*/
+/*------------------------------------------------------------------------*/
 .logo {
     font-size: 22px;
     margin-top: 10px;
     margin-left: 5%;
+    text-decoration: none !important;
+    font-weight: normal !important;
 }
 
 .core-logo-text{
@@ -107,95 +122,20 @@ header{
     position: absolute;
 }
 
+.supp-header{
+padding: 0; z-index: 3; position: fixed;
+}
+
 .navbar {
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    height: 60px;
+}
+
+.supp-mobile-navbar {
     background: rgba(0, 0, 0, 0.5);
     display: flex;
-    height: 70px;
-}
-
-.support-container{
-    margin: 5% 20%;
-}
-
-.topics-content{
-    padding: 0% 5%
-}
-
-.topics-pill-menu{
-    border-right-style: solid;
-    border-right-color:#727365;
-    border-right-width: 1px;
-}
-
-.title_pill{
-    color:black;
-    font-weight: 600;  
-}
-
-.secondary_pill{
-    color:#727365;
-    font-weight: 400;   
-}
-.tertiary_pill{
-    color:#727365;
-    font-weight: 400;
-    border-left-style: solid;
-    border-left-color:#FEC325;;
-    border-left-width: 4px; 
-}
-
-.inner-supp-mast{
-    position: absolute;
-}
-.outer-supp-mast{
-}
-
-.row{
-    margin-bottom: 30px;
-}
-
-.topic-title{
-    font-size: 2em;
-    font-weight: normal !important;
-}
-
-.topic-text{
-    color: gray;
-    font-weight: normal !important;
-}
-
-.topic-link{
-    color: #0063ff;
-    font-weight: normal !important;
-}
-
-/*Homepage Topic Boxes*/
-/*------------------------------------------------------------------------*/
-
-.supp-topic-box{
-    border: 2px solid lightgray;
-    padding: 30px;
-    height: 13vw;
-}
-.supp-topic-icon-box{
-    padding-bottom: 10%;
-    text-align: center;
-}
-.supp-topic-icon{
-    vertical-align: middle;
-    color: goldenrod;
-    font-size: 350%;
-    text-align: center;
-}
-
-.supp-topic-title{
-    color: goldenrod;
-    text-align: center;
-}
-
-.supp-topic-text{
-    color: lightgray;
-    text-align: center;
+    height: 60px;
 }
 
 .supp-searchbox{
@@ -210,7 +150,14 @@ header{
     min-width: 70%;
 }
 
-/*------------------------------------------------------------------------*/
+.close-search{
+}
+
+.inner-supp-mast{
+    position: absolute;
+}
+.outer-supp-mast{
+}
 
 @-moz-keyframes spin {
     from {
@@ -248,47 +195,128 @@ header{
         transform-origin: 41.5px 12px 0;
 }
 
-/*Responsive Website Code*/
+/*Support SideNav*/
+/*------------------------------------------------------------------------*/
+.topics-pill-menu{
+    border-right-style: solid;
+    border-right-color:#727365;
+    border-right-width: 1px;
+}
+
+.title_pill{
+    color:black;
+    font-weight: 600;  
+}
+
+.secondary_pill{
+    color:#727365;
+    font-weight: 400;   
+}
+.tertiary_pill{
+    color:#727365;
+    font-weight: 400;
+    border-left-style: solid;
+    border-left-color:#FEC325;;
+    border-left-width: 4px; 
+}
+
+/*Support Homepage Topic Boxes*/
+/*------------------------------------------------------------------------*/
+
+.supp-topic-box{
+    border: 2px solid lightgray;
+    padding: 30px;
+    height: 13vw;
+}
+.supp-topic-icon-box{
+    padding-bottom: 10%;
+    text-align: center;
+}
+.supp-topic-icon{
+    vertical-align: middle;
+    color: goldenrod;
+    font-size: 350%;
+    text-align: center;
+}
+
+.supp-topic-title{
+    color: goldenrod;
+    text-align: center;
+}
+
+.supp-topic-text{
+    color: lightgray;
+    text-align: center;
+}
+
+.topic-title{
+    font-size: 2em;
+    font-weight: normal !important;
+}
+
+.topic-text{
+    color: gray;
+    font-weight: normal !important;
+}
+
+.topic-link{
+    color: #0063ff;
+    font-weight: normal !important;
+}
+
+.topics-content{
+    padding: 0% 5%
+}
+/*------------------------------------------------------------------------*/
+/*
+/*              Responsive Mobile Code
+/*
 /*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
+    .topics-content{
+        margin-left: 0%;
+    }
 
-    .support-container{
-        margin: 1% 4%;
+    .topicspan{
+        width: unset !important;
+        margin-top: 30px;
+    }
+
+    .supp-searchbox{
+        margin: 0%;
     }
 
     .topics-content{
-
-        margin-left: -30%;
+        padding: 5% 5%;
     }
 
-
-    .topics-pill-menu{
-        border-right-style: solid;
-        border-right-color:#727365;
-        border-right-width: 1px;
-        padding-right: 30%;
+    .close-search{
+        margin-left: 5%;
+        padding-top: 3%;
     }
 
-    .title_pill{
-        color:black;
-        font-weight: 600;
-        font-size: 2% !important;
-
+    .supp-searchbox{
+        z-index: 3;
+        margin: 1% 5% 0% 1%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid white;
+        border-radius: 28px;
+        background: white; 
+        color: lightgrey;
+        min-width: 80%;
     }
 
-    .secondary_pill{
-        color:#727365;
-        font-weight: 400;   
-        font-size: 2% !important;
+    .inner-supp-mast{
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
     }
-    .tertiary_pill{
-        color:#727365;
-        font-weight: 400;
-        border-left-style: solid;
-        border-left-color:#FEC325;;
-        border-left-width: 4px; 
-        font-size: 2% !important;
+
+    .row{
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
     }
 }
 

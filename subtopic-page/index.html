@@ -1,5 +1,5 @@
 --- 
-layout: default 
+layout: subtopic
 metatitle: U.S. Army Core Support PM
 title: CORE Support Subtopics
 description: U.S. Army CORE Support Subtopics
@@ -7,23 +7,25 @@ id: st
 search-id: Subtopics
 active: st
 ---
-<div class="main" role="main">
+<div class="" role="main"></div>
     {% include supp-header.html %}
     <div class="hidden" id="searchId">{{ page.search-id }}</div>
 
-    <div class="container" style="margin-top: 35%">
+    <div class="container">
 
         <div class="inner-container">
 
-            <div class="row">
-                <h2>SUBTOPIC PAGE</h2>
-            </div>
+            <div class="row topic-content-row">
 
-            <div class="row">
                 <!-- First narrow nav column here -->
-                {% include supp-sidenav.html %}
+                <div class="span3 topics-pill-menu hide-for-small-only">
+                    {% include supp-sidenav.html %}    
+                </div>                
                 <!-- Second wider content column here -->
-                {{content}}
+                <div class="span9 topicspan">
+                    {% include supp-subtopics.html %}    
+                </div>
+                
             </div> <!-- end of row -->
 
        </div> <!-- end of inner container -->
@@ -32,7 +34,8 @@ active: st
 
 </div> <!-- end of main -->
 
-<!-- <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>$(document).foundation();</script>
 <script>
     let mainNav = document.getElementById('js-menu');
@@ -42,4 +45,4 @@ active: st
     mainNav.classList.toggle('active');
     });
 
-</script> -->
+</script>

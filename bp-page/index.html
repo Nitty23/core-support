@@ -12,7 +12,7 @@ active: bp
 
     <div class="hidden" id="searchId">{{ page.search-id }}</div>
 
-    <div class="container" style="margin-top: 35%">
+    <div class="container">
         <div class="inner-container">
 
             <div class="row">
@@ -66,5 +66,15 @@ active: bp
     </div> <!-- end of outer container-->
 </div> <!-- end of main -->
     
-<!-- <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>$(document).foundation();</script> -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>$(document).foundation();</script>
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+    });
+
+</script>
