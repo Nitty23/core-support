@@ -24,40 +24,40 @@ active: mc
 
             <div class="row">
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">What is CORE?</a></h4>
+                    <h4><a href="../subtopic-page/">What is CORE?</a></h4>
                 </div>
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">Who is eligible for a CORE Account?</a></h4>
+                    <h4><a href="../subtopic-page/">Who is eligible for a CORE Account?</a></h4>
                 </div>
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">Your Organization</a></h4>
+                    <h4><a href="../subtopic-page/">Your Organization</a></h4>
                 </div>
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">Content Approval Process</a></h4>
+                    <h4><a href="../subtopic-page/">Content Approval Process</a></h4>
                 </div>
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">Your Page</a></h4>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="span12">
-                    <h4><a href="/subtopic-page/">CORE Glossary</a></h4>
-                </div>
-                <div class="span12">
-                    <h4><a href="/subtopic-page/">Functionality</a></h4>
-                </div>
-                <div class="span12">
-                    <h4><a href="/subtopic-page/">Article / Inbox Actions</a></h4>
-                </div>
-                <div class="span12">
-                    <h4><a href="/subtopic-page/">Page Actions</a></h4>
+                    <h4><a href="../subtopic-page/">Your Page</a></h4>
                 </div>
             </div>
 
             <div class="row">
                 <div class="span12">
-                    <h4><a href="/subtopic-page/">Using CORE</a></h4>
+                    <h4><a href="../subtopic-page/">CORE Glossary</a></h4>
+                </div>
+                <div class="span12">
+                    <h4><a href="../subtopic-page/">Functionality</a></h4>
+                </div>
+                <div class="span12">
+                    <h4><a href="../subtopic-page/">Article / Inbox Actions</a></h4>
+                </div>
+                <div class="span12">
+                    <h4><a href="../subtopic-page/">Page Actions</a></h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span12">
+                    <h4><a href="../subtopic-page/">Using CORE</a></h4>
                 </div>
             </div> <!-- end of row -->
 
@@ -66,5 +66,15 @@ active: mc
     </div> <!-- end of outer container-->
 </div> <!-- end of main -->
     
-<!-- <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>$(document).foundation();</script> -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>$(document).foundation();</script>
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+    });
+
+</script>
