@@ -11,6 +11,9 @@ pids
 *.seed
 *.pid.lock
 
+# Images
+*.jpg
+
 # Jekyll build files
 _site
 
