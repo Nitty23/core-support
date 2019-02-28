@@ -16,22 +16,10 @@ module.exports = function(grunt) {
         browserify: {
             libs: {
                 files: {
-                    '_js/bundled/header.js': ['_js/globals/header.js', '_js/globals/top-btn.js']
-                },
-                options: {
-                    transform: ['babelify']
-                }
-            },
-            social: {
-                files: {
                     '_js/bundled/core-support.js': [configs, '_js/core-support.js']
                 },
                 options: {
-                    transform: ['babelify'],
-                    alias: [
-                        './_js/globals/modules/Helper.js:Helper',
-                        './_js/globals/navs.js:Nav'
-                    ]
+                    transform: ['babelify']
                 }
             }
         },
@@ -44,7 +32,6 @@ module.exports = function(grunt) {
             build: {
                 files: [{
                     src: [
-                        '_js/bundled/header.js',
                         '_js/bundled/core-support.js'
                     ],
                     dest: 'e2/js/rv7/core-support/<%= pkg.name %>.min.js'
