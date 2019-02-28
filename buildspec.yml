@@ -8,6 +8,7 @@ phases:
         - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
         - apt-get install -y nodejs
         - gem install bundler
+        - gem list bundle
         - bundle install
         - npm install
         - npm install -g grunt-cli
