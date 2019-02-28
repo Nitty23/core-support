@@ -174,7 +174,6 @@ padding: 0; z-index: 3; position: fixed;
     color: #fff;
     overflow: hidden;
     position: relative;
-
 }
 
 .overlay-effect{
@@ -394,9 +393,27 @@ padding: 0; z-index: 3; position: fixed;
         color: lightgrey;
     }
 
+
+    .mast-img{
+        height: -webkit-fill-available;
+    }
+
+    .overlay-effect{
+    @include custom-linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(35, 31, 32, 0.5) 0px, rgba(35, 31, 32, 0.8) 50%, rgba(35, 31, 32, 0.5));
+    height: 7%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    }
+
     .supp-mast-img{
         width: 100%;
         position: absolute;
+        height: 7%;
+        top: 0;
+        background-color: #231F20;
+        color: #fff;
+        overflow: hidden;
     }
 
     .inner-supp-mast{
