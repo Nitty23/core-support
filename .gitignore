@@ -11,6 +11,9 @@ pids
 *.seed
 *.pid.lock
 
+# Jekyll build files
+_site
+
 # SASS cache files
 .sass-cache
 
