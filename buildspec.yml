@@ -7,9 +7,9 @@ phases:
         - dpkg-reconfigure locales
         - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
         - apt-get install -y nodejs
-        - gem install bundler
+        - gem install bundler -v 2.0.1
         - gem list bundle
-        - bundle install
+        - bundle _2.0.1_ install
         - npm install
         - npm install -g grunt-cli
   build:
