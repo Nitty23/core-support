@@ -365,12 +365,12 @@ padding: 0; z-index: 3; position: fixed;
         padding: 1px 1px;
         cursor: pointer;
     }
+
     .close-btn:hover {
         transition: 0.3s;
         color: black;
-      }
-
-
+    }
+    
     .supp-mobile-navbar {
         background: rgba(0, 0, 0, 0.5);
         display: flex;
