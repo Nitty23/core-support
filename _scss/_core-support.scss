@@ -238,18 +238,24 @@ padding: 0; z-index: 3; position: fixed;
 
 .secondary_pill{
     color:#727365;
-    font-weight: 400;   
+    font-weight: 400;
+    white-space: nowrap;   
 }
 .tertiary_pill{
     color:#727365;
     font-weight: 400;
     border-left-style: solid;
     border-left-color:#FEC325;;
-    border-left-width: 4px; 
+    border-left-width: 4px;
+    white-space: nowrap;
 }
 
 .submenu-toggle{
     outline-color: white;
+}
+
+.is-accordion-submenu{
+    margin: 5% !important;
 }
 
 /*Support Homepage Topic Boxes*/
