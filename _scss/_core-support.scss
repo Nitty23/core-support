@@ -231,23 +231,29 @@ padding: 0; z-index: 3; position: fixed;
     border-right-width: 1px;
 }
 
-.title_pill{
+.title-pill{
     color:black;
     font-weight: 600;  
 }
 
-.secondary_pill{
+.secondary-pill{
     color:#727365;
     font-weight: 400;
     white-space: nowrap;   
 }
-.tertiary_pill{
+.tertiary-pill{
     color:#727365;
     font-weight: 400;
     border-left-style: solid;
     border-left-color:#FEC325;;
     border-left-width: 4px;
     white-space: nowrap;
+}
+
+.quaternary-pill{
+    color:#727365;
+    font-weight: 400;
+    white-space: nowrap;  
 }
 
 .submenu-toggle{
