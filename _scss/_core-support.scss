@@ -248,6 +248,10 @@ padding: 0; z-index: 3; position: fixed;
     border-left-width: 4px; 
 }
 
+.submenu-toggle{
+    outline-color: white;
+}
+
 /*Support Homepage Topic Boxes*/
 /*------------------------------------------------------------------------*/
 
@@ -370,7 +374,7 @@ padding: 0; z-index: 3; position: fixed;
         transition: 0.3s;
         color: black;
     }
-    
+
     .supp-mobile-navbar {
         background: rgba(0, 0, 0, 0.5);
         display: flex;
