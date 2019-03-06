@@ -252,10 +252,15 @@ padding: 0; z-index: 3; position: fixed;
 
 .submenu-toggle{
     outline-color: white;
+    height: 20px;
 }
 
 .is-accordion-submenu{
     margin: 5% !important;
+}
+
+.longtitle{
+    background-color: white;
 }
 
 /*Support Homepage Topic Boxes*/
