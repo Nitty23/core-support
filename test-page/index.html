@@ -1,0 +1,92 @@
+--- 
+layout: topics 
+metatitle: U.S. Army Core Support | Test Page
+title: Test Page
+description: This page is used for testing support page layout concepts and site building
+topic: Accounts & Preferences
+---
+
+<div class="main" role="main">
+    {% include supp-header.html %}
+
+    <div class="container">
+
+        <div class="inner-container">
+                                
+            <div class="row topic-content-row">
+                <!-- First narrow nav column here -->
+                <div class="span3 topics-pill-menu hide-for-small-only">
+                        {% include supp-sidenav.html %}  
+                </div>                               
+                <!-- Second wider content column here -->
+                <div class="span9 topicspan">
+
+                    <div class="topics-content">
+                        <section>
+                            {% for topic in site.data.accounts_preferences.focusarea %}
+                            <div class="topic-subtext">{{topic.title}}</div>
+                                <ul>
+                                    {% for subtopic in topic.subtopics %}
+                                        {% for item in subtopic %}
+                                            {% if item[0] == 'subtitle' %}
+                                                <span class="topic-title"><b>{{ item[1] }}</b></span>
+                                                <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
+                                            {% elsif item[0] == 'sections' %}
+                                                {% for section in subtopic.sections %} <!-- For example section.sectiontitle in '-1:' -->
+                                                    {% for part in section %}
+                                                        {% if part[0] == 'note' %}
+                                                            <div class="topic-text-note"><div class="supp-note"><strong>Note: </strong>{{part[1]}}</div></div><br><br>
+                                                        {% elsif part[0] == 'learn' %}
+                                                            <div class="topic-text-learn"><div class="supp-note"><a href='#' class="underline-link">Some link about CORE.</a><strong> LEARN MORE ></strong></div></div><br><br>
+                                                        {% elsif part[0] == 'sectiontitle' %}
+                                                            <span class="subtopic-title"><b>{{part[1]}}</b></span><br><br>
+                                                        {% elsif part[0] == 'paratitle' %}
+                                                            <span class="topic-text"><strong>{{part[1]}}</strong></span>
+                                                        {% elsif part[0] == 'itemlist' %}
+                                                            {% for li in section.itemlist %}   
+                                                                {% for each in li %}
+                                                                    {% if forloop.first == true %} 
+                                                                        <p>{{each[1]}}:</p>
+                                                                    {% else %}
+                                                                        <span class="bullet-item">{{each[1]}}</span>
+                                                                    {% endif %}
+                                                                {% endfor %}
+                                                                <br>
+                                                            {% endfor %}
+                                                        {% else %}                                  
+                                                            <p class="topic-text">{{part[1]}}</p>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endfor %}  
+                                            {% else %}                                        
+                                            <p class="topic-text">{{ item[1] }}</p>
+                                            {% endif %}
+                                        {% endfor %}
+                                        <br>
+                                        <br>                                        
+                                    {% endfor %}
+                                </ul>
+                                <br>
+                                <br>
+                                <br>
+                                <hr>
+                                <br>
+                                <br>
+                                <br>
+                            {% endfor %}
+                            
+                        </section>
+                    </div>
+
+                </div> <!-- End of Second column here -->
+            </div>
+
+        </div> <!-- End of inner containter here -->
+
+    </div> <!-- End of inner containter here -->
+
+</div> <!-- end of main -->
+    
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion&vis-only).min.js"></script>
+<script>$(document).foundation();</script>

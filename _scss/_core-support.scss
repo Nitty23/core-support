@@ -303,20 +303,48 @@ padding: 0; z-index: 3; position: fixed;
     font-weight: normal !important;
 }
 
+.underline-link{
+    text-decoration: underline;
+    color: darkblue;
+}
+
 .subtopic-title{
     font-size: 1.4em;
-    font-weight: normal !important;
+    font-weight: 600 !important;
+}
+
+.supp-note{
+    padding: 12px;
 }
 
 .topic-text{
-    color: gray;
+    color: black;
     font-weight: normal !important;
 }
 
-.topic-text-tip{
+.topic-subtext{
+    color: gray;
+    font-weight: normal !important;
+    font-size: small;
+}
+
+.topic-text-note{
     background-color: lightblue;
-    color: blue;
-    border-left: 5px solid gray;
+    color: darkblue;
+    border-left: 5px solid lightgray;
+}
+
+.bullet-item{
+    display: list-item; 
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 6%;
+}
+
+.topic-text-learn{
+    background-color: lightyellow;
+    color: darkblue;
+    border-left: 5px solid lightgray;
 }
 
 .topic-link{
@@ -501,6 +529,14 @@ padding: 0; z-index: 3; position: fixed;
 
     .topic-text{
         font-size: small;
+    }
+
+    .subtopic-title{
+        font-size: smaller
+    }
+
+    .topic-subtext{
+        font-size: x-small;
     }
 
     .row-mobile{
