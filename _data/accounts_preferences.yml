@@ -1,13 +1,27 @@
-# Rules - 
-# 1) Key: Value
-# 2) Keys should not be the same name inside a level/group...Ex 'para' followed by 'para2'
+# Layout in Levels:
+#
+# topic\                     (ie Getting Started)
+#       subtopic\             (ie What is CORE?)
+#                section\      (ie Who is eligible for a CORE Account?)
+#                        part\  (ie CORE is intented for)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) Key : Value (the basic syntax for data in yml)
+# 2) Keys should not be the same name inside a level/group...Ex 'para1' followed by 'para2'
+# 3) A level is distinguished by the indentation of that column.
+# 4) A grouping in distinguished by the '-' next to a group title.
+# 5) Do not use tabs, use two spaces when going to a lower level.
+# 6) Code Assumption, titles are always ordered first in groups, with content following.
+# 7) Code Assumption, there can be only one title per grouping in a level.
+# 8) Code Assumption, subtopic titles always get a updated-last statement.
+# 9) Code Assumption, Notes and Learn sections only have one part.
+# 9) Code Assumption, Itemlists can only exist on th 4th level in a section.
 
 focusarea:
   - title: Getting Started
     subtopics:
-
-      - one:
-        subtitle: What is CORE?
+      - subtitle: What is CORE?
         video: <img src="/e2/images/rv7/core-support/videoplaceholder.jpg">
         description: Welcome to CORE, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
         para1: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences.
@@ -30,9 +44,7 @@ focusarea:
                 two: Publisher(s)
                 three: Editor(s)
                 four: Contributor(s)
-          - learn: 
-              text: Roles and permissions in CORE
-              link: /ap-page/#getting-started
+          - learn: <a class="underline-link" href="/ap-page/#getting-started">Roles and permissions in CORE</a>
           - sectiontitle: Content Approval Process
             image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
             para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your Inbox, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.
@@ -44,14 +56,11 @@ focusarea:
                 four: Available in CORE search results, making it easy for other users to find and share your articles
           - sectiontitle: Your Page
             para1: CORE also offers qualifying organizations the ability to promote their content and organization information further through an Organization Page, hosted on www.army.mil  (www.army.mil/organization_name). We provide a branded, mobile-optimized template and publishers to customize the navigation and page layout to highlight content that is important to their organization, such as featured articles, videos, leaders, and resources.
-          - learn: 
-              text: Roles and permissions in CORE
-              link: /ap-page/#getting-started
+          - learn: <a class="underline-link" href="/ap-page/#getting-started">CORE Pages</a>
           - sectiontitle: Public Affairs Community
             para1: A key feature of the Community section is the User Directory. This is a searchable list of public affairs professionals in the Army that provides organization and contact information about each user. This is a great way for you to connect and coordinate with other members of the Army public affairs community.
 
-      - two:
-        subtitle: CORE Glossary
+      - subtitle: CORE Glossary
         sections:
           - paratitle: Article
             para1: Individual story created on CORE.
@@ -66,30 +75,27 @@ focusarea:
           - paratitle: Share
             para1: Sharing allows you to collaborate on a draft with other users.
 
-      - three:
-        subtitle: Understanding Roles and Permissions in CORE
+      - subtitle: Understanding Roles and Permissions in CORE
 
-      - four:
-        subtitle: Log in to CORE
+      - subtitle: Log in to CORE
 
   - title: Account Settings
     subtopics:
-      - one:
-        subtitle: Your Profile
+      - subtitle: Your Profile
         para1: Your profile in CORE consists of information linked to your account settings. It is publicly accessible to all CORE users in the User Directory.
-        itemlist:
-          - listname: Your profile includes
-            one: Associated organization(s) 
-            two: Title/rank
-            three: Your full name
-            four: Profile picture
-            five: Contact information (phone numbers and email addresses)
-            six: Short bio description (up to 350 characters)
-            seven: Website or link
-            eight: Social media accounts
         image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
         sections:
-          - sectiontitle: View your Profile            
+          - itemlist:
+              - listname: Your profile includes
+                one: Associated organization(s) 
+                two: Title/rank
+                three: Your full name
+                four: Profile picture
+                five: Contact information (phone numbers and email addresses)
+                six: Short bio description (up to 350 characters)
+                seven: Website or link
+                eight: Social media accounts
+            sectiontitle: View your Profile            
             para1: 1. Click Community in the main navigation to access your My Organization page.
             para2: 2. Click your name at the top of your team member list. This opens a card with all of your profile
           - note: All CORE users can view your profile information by searching for your name on the User Directory tab.
@@ -102,36 +108,30 @@ focusarea:
           - sectiontitle: Why can’t I change my role in CORE?         
             para1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your My Organization page.
 
-      - two:
-        subtitle: Changing your home organization
+      - subtitle: Changing your home organization
 
-      - three:
-        subtitle: Adjust email preferences
-      - four:
-        subtitle: Connect social media accounts
+      - subtitle: Adjust email preferences
 
-      - five:
-        subtitle: Delete or deactivate your account
+      - subtitle: Connect social media accounts
 
-      - six:
-        subtitle: Connect your Profile to Google Analytics
+      - subtitle: Delete or deactivate your account
+
+      - subtitle: Connect your Profile to Google Analytics
 
   - title: Upload Images
-
     subtopics:
-      - one:
+      - subtitle: Images
         para1: There are multiple locations where you can upload images in CORE, including your profile photo in your Account Settings, as well as organization logos and leaders’ photos on your Page. Specifications for the image’s file type and size may differ depending on the purpose of the image. However, the overall process for uploading, changing or removing images is the same everywhere.
-        subtitle: Upload a New Image
+        
+      - subtitle: Upload a New Image
         para2: There are two options for uploading a new image
         itemlist:
         itemlist:
         para3: A loading bar will appear to show the image upload progress. It will be replaced with your image once it has successfully uploaded.
 
-      - two:
-        subtitle: Change an Existing Image
+      - subtitle: Change an Existing Image
 
-      - three:
-        subtitle: Remove Image
+      - subtitle: Remove Image
       
 
         

@@ -128,7 +128,9 @@ header{
 }
 
 .supp-header{
-padding: 0; z-index: 3; position: fixed;
+    padding: 0; 
+    z-index: 3; 
+    position: relative;
 }
 
 .navbar {
@@ -306,6 +308,7 @@ padding: 0; z-index: 3; position: fixed;
 .underline-link{
     text-decoration: underline;
     color: darkblue;
+    font-weight: 400;
 }
 
 .subtopic-title{

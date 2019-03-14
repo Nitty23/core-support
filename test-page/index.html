@@ -28,16 +28,32 @@ topic: Accounts & Preferences
                                 <ul>
                                     {% for subtopic in topic.subtopics %}
                                         {% for item in subtopic %}
-                                            {% if item[0] == 'subtitle' %}
+                                            {% if item[0] == 'subtitle' and forloop.last == true %}
+                                                <span class="topic-title"><b>{{ item[1] }}</b></span>
+                                                <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
+                                                <br>
+                                                <br>
+                                                <p style="text-align: center;">********************************<br>NO CONTENT IN THIS SECTION YET.<br> STANDBY FOR UPDATES<br>********************************</p>
+                                            {% elsif item[0] == 'subtitle' and forloop.last == false %}
                                                 <span class="topic-title"><b>{{ item[1] }}</b></span>
                                                 <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
                                             {% elsif item[0] == 'sections' %}
                                                 {% for section in subtopic.sections %} <!-- For example section.sectiontitle in '-1:' -->
                                                     {% for part in section %}
                                                         {% if part[0] == 'note' %}
-                                                            <div class="topic-text-note"><div class="supp-note"><strong>Note: </strong>{{part[1]}}</div></div><br><br>
+                                                            <div class="topic-text-note">
+                                                                <div class="supp-note">
+                                                                    <strong>Note: </strong>{{part[1]}}
+                                                                </div>
+                                                            </div>
+                                                            <br><br>
                                                         {% elsif part[0] == 'learn' %}
-                                                            <div class="topic-text-learn"><div class="supp-note"><a href='#' class="underline-link">Some link about CORE.</a><strong> LEARN MORE ></strong></div></div><br><br>
+                                                            <div class="topic-text-learn">
+                                                                <div class="supp-note">
+                                                                    {{part[1]}}. <strong>LEARN MORE ></strong>
+                                                                </div>
+                                                            </div>
+                                                            <br><br>
                                                         {% elsif part[0] == 'sectiontitle' %}
                                                             <span class="subtopic-title"><b>{{part[1]}}</b></span><br><br>
                                                         {% elsif part[0] == 'paratitle' %}
