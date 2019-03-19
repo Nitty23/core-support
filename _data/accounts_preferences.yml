@@ -7,24 +7,24 @@
 # ******************************************************************************************
 # Rules & Assumptions- 
 #
-# 1) Key : Value (the basic syntax for data in yml)
-# 2) Keys should not be the same name inside a level/group...Ex 'para1' followed by 'para2'
-# 3) A level is distinguished by the indentation of that column.
-# 4) A grouping in distinguished by the '-' next to a group title.
-# 5) Do not use tabs, use two spaces when going to a lower level.
-# 6) Code Assumption, titles are always ordered first in groups, with content following.
-# 7) Code Assumption, there can be only one title per grouping in a level.
-# 8) Code Assumption, subtopic titles always get a updated-last statement.
-# 9) Code Assumption, Notes and Learn sections only have one part.
-# 9) Code Assumption, Itemlists can only exist on th 4th level in a section.
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and us of a '-' character.
+# 2) Different Keys should not have the same name inside a Level...An Example to use is 'para1' followed by 'para2'
+# 3) Do not use tabs, use two spaces when going declaring a new level.
+# 4) Code Assumption, titles are always ordered first in a Level, with content following.
+# 5) Code Assumption, there can be only one title per level.
+# 6) Code Assumption, subtopic titles always get a "updated-last" statement.
+# 7) Code Assumption, Notes and Learn sections only have one "part".
+# 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
+# 9) Links in shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
 
 focusarea:
   - title: Getting Started
     subtopics:
       - subtitle: What is CORE?
         video: <img src="/e2/images/rv7/core-support/videoplaceholder.jpg">
-        description: Welcome to CORE, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
-        para1: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences.
+        description: Welcome to <a href="/">CORE Support</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
+        para1: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences. Here's an external <a href="http://www.google.com">Google</a> link. Here's an internal <a href="/ap-page/#account-settings">Account Settings</a> link.
         sections:
           - sectiontitle: Who is eligible for a CORE Account?
             itemlist:

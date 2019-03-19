@@ -106,7 +106,27 @@ body {
 .topic-center-row{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+h3, h5 {
+    font-style: normal;
+    color: black;
+    text-transform: none;
+}
+
+h3:after, h5:after {
+    display: none;
+}
+
+.support-text{
+    font-weight: lighter;
+}
+
+.support-text-centered{
+    text-align: center;
+}
+
 
 /*Support Header*/
 /*------------------------------------------------------------------------*/
@@ -275,9 +295,9 @@ header{
 /*------------------------------------------------------------------------*/
 
 .supp-topic-box{
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     padding: 30px;
-    height: 13vw;
+    min-height: 15em;
 }
 .supp-topic-icon-box{
     padding-bottom: 10%;
@@ -292,11 +312,6 @@ header{
 
 .supp-topic-title{
     color: goldenrod;
-    text-align: center;
-}
-
-.supp-topic-text{
-    color: lightgray;
     text-align: center;
 }
 
@@ -362,22 +377,37 @@ header{
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
 .find-row{
-    margin:10% 0 5% 0; 
-    display: flex; 
-    justify-content: space-around !important;
+    margin: 7% 0% 7%;
+    padding: 3% 0%;
+    background-color: goldenrod;
+}
+
+.find-col{
+    margin-bottom:2.5%;
 }
 
 .find-btn{
-    background-color: black; 
-    padding: 15px 5px; 
-    border-radius: 8px; 
+    background-color: white;
+    border-radius: 55px; 
     margin-top: 6%;
+    padding: 7%;
+}
+
+.find-title{
+    font-size: 1.65em;
+    color: white;
+    font-weight: bold; 
+}
+
+.find-text{
+    font-size: 1.3em;
+    color: white;
 }
 
 .find-btn-text{
     font-weight: bold; 
-    color: white; 
-    padding: 20px;
+    font-size: 1.65em;
+    color: goldenrod;
 }
 
 /*------------------------------------------------------------------------*/
@@ -387,10 +417,7 @@ header{
 /*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
-    .supp-topic-box{
-        height: unset;
-    }
-    
+  
     .topics-content{
         margin-left: 0%;
     }
@@ -492,40 +519,6 @@ header{
 
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
-    .find-row{
-        margin:10% 0 5% 0; 
-        display: grid; 
-        justify-content: unset !important;
-    }
-
-    .find-btn{
-        background-color: black; 
-        padding: 15px 5px; 
-        border-radius: 8px; 
-        margin-top: 6%;
-    }
-
-    .find-btn-text{
-        font-weight: bold; 
-        color: white; 
-        padding: 20px;
-        font-size: 1em;
-    }
-
-    .span7-mobile{
-        min-width: 100%;
-    }
-
-    .span4-mobile{
-        width: unset !important; 
-        display: inline;
-        padding: 20px !important;
-    }
-
-    .span3-mobile{
-        min-width: 100%;
-    }
-
     .topic-title{
         font-size: 1.75em;
     }
@@ -542,22 +535,14 @@ header{
         font-size: x-small;
     }
 
-    .row-mobile{
-        display: inline;
-    }
-    .topic-center-row{
-        margin-top: 200px !important;
+    .mobile-center{
+        text-align:center;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 769px) {
 
-    .navbar-toggle {
-        display: none;
-    }
-
-    .logo:hover,
-    .nav-links:hover {
-        color: rgba(255, 255, 255, 1);
+    .mobile-center{
+        text-align:center;
     }
 }  
