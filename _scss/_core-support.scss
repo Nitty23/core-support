@@ -109,13 +109,13 @@ body {
     text-align: center;
 }
 
-h3, h5 {
+h3, h4, h5 {
     font-style: normal;
     color: black;
     text-transform: none;
 }
 
-h3:after, h5:after {
+h3:after, h4:after, h5:after {
     display: none;
 }
 
@@ -127,6 +127,14 @@ h3:after, h5:after {
     text-align: center;
 }
 
+section{
+    overflow: visible;
+    padding-left: 4%;
+}
+
+.remove-space{
+    margin-top: -9rem;
+}
 
 /*Support Header*/
 /*------------------------------------------------------------------------*/
@@ -251,6 +259,7 @@ header{
     border-right-style: solid;
     border-right-color:#727365;
     border-right-width: 1px;
+    font-size: 85%;
 }
 
 .title-pill{
@@ -261,21 +270,11 @@ header{
 .secondary-pill{
     color:#727365;
     font-weight: 400;
-    white-space: nowrap;   
-}
-.tertiary-pill{
-    color:#727365;
-    font-weight: 400;
     border-left-style: solid;
     border-left-color:#FEC325;;
     border-left-width: 4px;
     white-space: nowrap;
-}
-
-.quaternary-pill{
-    color:#727365;
-    font-weight: 400;
-    white-space: nowrap;  
+    display: flex;
 }
 
 .submenu-toggle{
@@ -285,10 +284,6 @@ header{
 
 .is-accordion-submenu{
     margin: 5% !important;
-}
-
-.longtitle{
-    background-color: white;
 }
 
 /*Support Homepage Topic Boxes*/
@@ -313,6 +308,10 @@ header{
 .supp-topic-title{
     color: goldenrod;
     text-align: center;
+}
+
+.area-title{
+
 }
 
 .topic-title{
@@ -366,8 +365,7 @@ header{
 }
 
 .topic-link{
-    color: #0063ff;
-    font-weight: normal !important;
+    font-weight: lighter !important;
 }
 
 .topics-content{
@@ -517,6 +515,10 @@ header{
         margin-top: 30px !important;
     }
 
+    .remove-space{
+        margin-top: 0rem;
+    }
+
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
     .topic-title{
@@ -545,4 +547,5 @@ header{
     .mobile-center{
         text-align:center;
     }
-}  
+    
+}

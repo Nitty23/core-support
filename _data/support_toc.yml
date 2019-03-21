@@ -1,0 +1,177 @@
+toc:
+  - topic: Accounts & Preferences
+    subtopic:
+      - page: Getting Started
+        url: /topics/#getting-started
+        section:
+          - page: What is CORE?
+            url: /accounts-preferences/gs/what-is.html
+          - page: CORE Glossary
+            url: /accounts-preferences/gs/core-glossary.html
+          - page: Roles and Permissions
+            url: /accounts-preferences/gs/roles-and.html
+          - page: Log in to CORE
+            url: /accounts-preferences/gs/log-in.html
+      - page: Account Settings
+        url: /topics/#account-settings
+        section:
+          - page: Your Profile
+            url: /accounts-preferences/as/your-profile.html
+          - page: Your Organization
+            url: /accounts-preferences/as/your-org.html
+          - page: Email Preferences
+            url: /accounts-preferences/as/email-pref.html
+          - page: Connect social media accounts
+            url: /accounts-preferences/as/connect-social.html
+          - page: Delete or Deactivate
+            url: /accounts-preferences/as/delete-or.html
+          - page: Google Analytics
+            url: /accounts-preferences/as/google-analytics.html
+      - page: Uploading Images
+        url: /topics/#uploading-images
+        section:
+          - page: New Images
+            url: /accounts-preferences/ui/new-images.html
+          - page: Existing Images
+            url: /accounts-preferences/ui/existing-images.html
+          - page: Remove Images
+            url: /accounts-preferences/ui/remove-images.html
+
+  - topic: Creating Content
+    subtopic:
+      - page: Writing Articles
+        url: /topics/#writing-articles
+        section: 
+          - page: Create Articles
+            url: /creating-content/wa/create-articles.html
+          - page: Import from DVIDS
+            url: /creating-content/wa/import-from.html
+          - page: Edit Articles
+            url: /creating-content/wa/edit-articles.html
+          - page: Formatting text
+            url: /creating-content/wa/formatting-text.html
+          - page: Images
+            url: /creating-content/wa/images.html
+          - page: Video
+            url: /creating-content/wa/video.html
+          - page: Documents
+            url: /creating-content/wa/documents.html
+          - page: Article Settings
+            url: /creating-content/wa/article-settings.html
+          - page: Preview Articles
+            url: /creating-content/wa/preview-articles.html
+      - page: Images
+        url: /topics/#images
+        section: 
+          - page: Editing Images
+            url: /creating-content/i/editing-images.html
+          - page: Cropping Images
+            url: /creating-content/i/cropping-images.html
+          - page: Moving Images
+            url: /creating-content/i/moving-images.html
+      - page: Managing Articles
+        url: /topics/#managing-articles
+        section: 
+          - page: Page Traffic
+            url: /creating-content/ma/page-traffic.html
+          - page: Article Inbox
+            url: /creating-content/ma/article-inbox.html
+          - page: Tags
+            url: /creating-content/ma/tags.html
+          - page: Scheduled Release
+            url: /creating-content/ma/scheduled-release.html
+          - page: Submit Drafts
+            url: /creating-content/ma/submit-drafts.html
+          - page: Review Drafts
+            url: /creating-content/ma/review-drafts.html
+          - page: Content Approval Process
+            url: /creating-content/ma/cap.html
+          - page: Unpublished Articles
+            url: /creating-content/ma/unpublished-articles.html
+      - page: Best Practices
+        url: /topics/#best-practices
+        section: 
+          - page: Formatting Text
+            url: /creating-content/bp/formatting-text.html
+          - page: Keyboard Shortcuts
+            url: /creating-content/bp/keyboard-shortcuts.html
+          - page: Promoting Content
+            url: /creating-content/bp/promoting-content.html
+          - page: SOE
+            url: /creating-content/bp/soe.html
+          - page: Publishing API
+            url: /creating-content/bp/publishing-api.html
+
+  - topic: Page Management
+    subtopic:
+      - page: Settings
+        url: /topics/#page-settings
+        section: 
+          - page: CORE Pages
+            url: /page-management/ps/core-pages.html
+          - page: Create Pages
+            url: /page-management/ps/create-pages.html
+          - page: Your Settings
+            url: /page-management/ps/your-settings.html
+          - page: Organization Traffic
+            url: /page-management/ps/org-traffic.html
+          - page: Page Logo
+            url: /page-management/ps/page-logo.html
+          - page: Social Media
+            url: /page-management/ps/social-media.html
+          - page: Google Analytics
+            url: /page-management/ps/google-analytics.html
+          - page: Deactivating Pages
+            url: /page-management/ps/deactivting-pages.html
+          - page: Page FAQs
+            url: /page-management/ps/page-faq.html
+      - page: Layout
+        url: /topics/#page-layouts
+        section: 
+          - page: Page Navigation
+            url: /page-management/pn/page-navigation.html
+          - page: Content Sections
+            url: /page-management/pn/content-sections.html
+          - page: News List Sections
+            url: /page-management/pn/news-list.html
+          - page: Text Sections
+            url: /page-management/pn/text-sections.html
+          - page: Video Sections
+            url: /page-management/pn/video-sections.html
+          - page: Leader Sections
+            url: /page-management/pn/leader-sections.html
+          - page: Accordion Sections
+            url: /page-management/pn/accordion-sections.html
+          - page: Move a Content Section
+            url: /page-management/pn/move-a.html
+          - page: Delete a Content Section
+            url: /page-management/pn/delete-a.html
+      - page: Page Articles
+        url: /topics/#page-articles
+        section: 
+          - page: Featured News Articles
+            url: /page-management/pa/featured-news.html
+          - page: Remove Articles
+            url: /page-management/pa/remove-articles.html
+
+  - topic: Core Community
+    subtopic:
+      - page: Admin Management
+        url: /core-community/am/remove-articles.html
+      - page: User Directory
+        url: /core-community/ud/remove-articles.html
+      - page: Org Directory
+        url: /core-community/od/remove-articles.html
+
+  - topic: Best Practices
+    subtopic:
+      - page: Headlines
+        url: /best-practices/h/remove-articles.html
+      - page: Photos and Images
+        url: /best-practices/pi/remove-articles.html
+      - page: Styleguide
+        url: /best-practices/sg/remove-articles.html
+      - page: SEO Tips
+        url: /best-practices/st/remove-articles.html
+      - page: Page Navigation
+        url: /best-practices/pn/remove-articles.html

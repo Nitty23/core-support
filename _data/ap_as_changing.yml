@@ -1,0 +1,61 @@
+# Layout in Levels:
+# 
+# topic\                     (ie Getting Started)
+#       subtopic\             (ie What is CORE?)
+#                section\      (ie Who is eligible for a CORE Account?)
+#                        part\  (ie CORE is intented for)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and us of a '-' character.
+# 2) Different Keys should not have the same name inside a Level...An Example to use is 'para1' followed by 'para2'
+# 3) Do not use tabs, use two spaces when going declaring a new level.
+# 4) Code Assumption, titles are always ordered first in a Level, with content following.
+# 5) Code Assumption, there can be only one title per level.
+# 6) Code Assumption, subtopic titles always get a "updated-last" statement.
+# 7) Code Assumption, Notes and Learn sections only have one "part".
+# 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
+# 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
+
+topics:
+  - title: Account Settings
+    subtopics:
+      - subtitle: Changing your home organization
+        para1: Your affiliation with an organization is one of the most important settings in CORE. It ensures that your content is pushed to the proper chain of command and makes it easier for other CORE members to find and share your content.
+        sections:
+          - sectiontitle: View your Organization(s)         
+            para1: 1) Click on your avatar in the top-right corner of the page. 
+            para2: 2) In the dropdown, you will see your home organization name.
+            para3: 3) Click Profile & Settings from the dropdown.
+            para4: 4) From the Profile tab, your current organization is also displayed at the top with the option to change to a new organization.
+          - sectiontitle: Change Your Home Organization   
+            para1: There are two ways to change your organization affiliation in CORE.
+          - sectiontitle: OPTION 1":" From your Profile      
+            para1: 1) From the Profile tab, your current organization is displayed at the top. 
+            para2: 2) Click <strong>Change Organization</strong>.
+            para3: 3) In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. 
+            para4: 4) Select an organization from the auto-suggested list.
+            para5: 5) Click <strong>Update</strong> to confirm your new organization.
+          - sectiontitle: OPTION 2":" From My Organization  
+            para1: 1) Click <strong>Community</strong> in the main menu.
+            para2: 2) From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the (3 dot icon) located at the far right side.
+            para3: 3) Select <strong>Change Organization</strong> from the dropdown options. 
+            para4: 4) This opens the same Change Organization lightbox as your Profile. Enter your new organization into the search box.
+            para5: 5) Select an organization from the auto-suggested list.
+            para6: 6) Click <strong>Update</strong> to confirm your new organization.
+          - sectiontitle: 
+            para1: You will notice that your organization and team members automatically change on My Organization tab. All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
+          - note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your My Organization page.
+          - sectiontitle: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
+            para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to request a new organization is added to CORE.
+            itemlist:
+              - listname: What happens when I change my organization?
+                one: Your Profile is updated.
+                two: Your <a href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
+                three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
+                four: You role is reverted to contributor.
+          - sectiontitle: Why did my role change when I changed organizations?
+            para1: While you can change your organization without needing approval, your role within the new team is controlled by your new administrator. We automatically send a notification to your administrator when you join their organization, encouraging them to take action regarding your role.
+            para2: In the meantime, your role is reverted to a contributor, so that you can continue to create new content and submit it for review with the appropriate organization. If you need advanced permissions, please reach out to your administrator(s) directly. You can locate their contact information on your <a href="http://core.ardev.us/community">My Organization</a> page.
+

@@ -1,5 +1,5 @@
 # Layout in Levels:
-#
+# 
 # topic\                     (ie Getting Started)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
@@ -16,9 +16,9 @@
 # 6) Code Assumption, subtopic titles always get a "updated-last" statement.
 # 7) Code Assumption, Notes and Learn sections only have one "part".
 # 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
-# 9) Links in shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
+# 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
 
-focusarea:
+topics:
   - title: Getting Started
     subtopics:
       - subtitle: What is CORE?
@@ -75,7 +75,7 @@ focusarea:
           - paratitle: Share
             para1: Sharing allows you to collaborate on a draft with other users.
 
-      - subtitle: Understanding Roles and Permissions in CORE
+      - subtitle: Roles and Permissions
 
       - subtitle: Log in to CORE
 
@@ -108,27 +108,27 @@ focusarea:
           - sectiontitle: Why can’t I change my role in CORE?         
             para1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your My Organization page.
 
-      - subtitle: Changing your home organization
+      - subtitle: Your Organization
 
-      - subtitle: Adjust email preferences
+      - subtitle: Email Preferences
 
       - subtitle: Connect social media accounts
 
-      - subtitle: Delete or deactivate your account
+      - subtitle: Delete or Deactivate
 
-      - subtitle: Connect your Profile to Google Analytics
+      - subtitle: Google Analytics
 
-  - title: Upload Images
+  - title: Uploading Images
     subtopics:
-      - subtitle: Images
+      - subtitle: 
         para1: There are multiple locations where you can upload images in CORE, including your profile photo in your Account Settings, as well as organization logos and leaders’ photos on your Page. Specifications for the image’s file type and size may differ depending on the purpose of the image. However, the overall process for uploading, changing or removing images is the same everywhere.
         
-      - subtitle: Upload a New Image
+      - subtitle: New Images
         para2: There are two options for uploading a new image
         itemlist:
         itemlist:
         para3: A loading bar will appear to show the image upload progress. It will be replaced with your image once it has successfully uploaded.
 
-      - subtitle: Change an Existing Image
+      - subtitle: Existing Images
 
-      - subtitle: Remove Image
+      - subtitle: Remove Images

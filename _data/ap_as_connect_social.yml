@@ -1,0 +1,50 @@
+# Layout in Levels:
+# 
+# topic\                     (ie Getting Started)
+#       subtopic\             (ie What is CORE?)
+#                section\      (ie Who is eligible for a CORE Account?)
+#                        part\  (ie CORE is intented for)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and us of a '-' character.
+# 2) Different Keys should not have the same name inside a Level...An Example to use is 'para1' followed by 'para2'
+# 3) Do not use tabs, use two spaces when going declaring a new level.
+# 4) Code Assumption, titles are always ordered first in a Level, with content following.
+# 5) Code Assumption, there can be only one title per level.
+# 6) Code Assumption, subtopic titles always get a "updated-last" statement.
+# 7) Code Assumption, Notes and Learn sections only have one "part".
+# 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
+# 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
+# 0) DO NOT USE ':' in any text or titles of keys or values
+
+topics:
+  - title: Account Settings
+    subtopics:
+      - subtitle: Connect your social media accounts
+        para1: Add your personal or organization social media accounts to your CORE account settings. Doing so will add a link to your social media account on your profile card in the User Directory, allowing other CORE members to connect with you via these platforms.
+        sections:
+          - itemlist:
+              - listname: Accepted social media platforms
+                one: Facebook
+                two: Twitter
+                three: YouTube
+                four: LinkedIn
+                five: Flickr
+                six: SmugMug
+                seven: Vimeo
+                eight: SoundCloud
+                nine: Ustream
+                ten: Pintrest
+                eleven: Slideshare
+                twelve: Blogger
+                thirteen: Periscope
+                fourteen: Issuu
+          - sectiontitle: Want to add a new platform? Contact the CORE Support Team.
+          - sectiontitle: Adding your social media accounts
+            para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
+            para2: 2) From the Profile tab, click the (X icon) to the right of your secondary email address.
+            para4: 3) Click Save at the top-right corner of the page.
+
+          - note: At this time, adding your social media accounts does not allow CORE to post anything to your account. We plan to work on the capability to post directly to your platforms in the future.
