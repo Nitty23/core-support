@@ -1,41 +1,41 @@
 toc:
-  - topic: Accounts & Preferences
+  - topic: Account Preferences
     subtopic:
       - page: Getting Started
         url: /topics/#getting-started
         section:
           - page: What is CORE?
-            url: /accounts-preferences/gs/what-is.html
+            url: /account-preferences/gs/what-is.html
           - page: CORE Glossary
-            url: /accounts-preferences/gs/core-glossary.html
+            url: /account-preferences/gs/core-glossary.html
           - page: Roles and Permissions
-            url: /accounts-preferences/gs/roles-and.html
+            url: /account-preferences/gs/roles-and.html
           - page: Log in to CORE
-            url: /accounts-preferences/gs/log-in.html
+            url: /account-preferences/gs/log-in.html
       - page: Account Settings
         url: /topics/#account-settings
         section:
           - page: Your Profile
-            url: /accounts-preferences/as/your-profile.html
+            url: /account-preferences/as/your-profile.html
           - page: Your Organization
-            url: /accounts-preferences/as/your-org.html
+            url: /account-preferences/as/your-org.html
           - page: Email Preferences
-            url: /accounts-preferences/as/email-pref.html
-          - page: Connect social media accounts
-            url: /accounts-preferences/as/connect-social.html
+            url: /account-preferences/as/email-pref.html
+          - page: Connect social media account
+            url: /account-preferences/as/connect-social.html
           - page: Delete or Deactivate
-            url: /accounts-preferences/as/delete-or.html
+            url: /account-preferences/as/delete-or.html
           - page: Google Analytics
-            url: /accounts-preferences/as/google-analytics.html
+            url: /account-preferences/as/google-analytics.html
       - page: Uploading Images
         url: /topics/#uploading-images
         section:
           - page: New Images
-            url: /accounts-preferences/ui/new-images.html
+            url: /account-preferences/ui/new-images.html
           - page: Existing Images
-            url: /accounts-preferences/ui/existing-images.html
+            url: /account-preferences/ui/existing-images.html
           - page: Remove Images
-            url: /accounts-preferences/ui/remove-images.html
+            url: /account-preferences/ui/remove-images.html
 
   - topic: Creating Content
     subtopic:

@@ -1,0 +1,37 @@
+# Layout in Levels:
+# 
+#                  topic\                     (ie Getting Started)
+#                        subtopic\             (ie What is CORE?)
+#                                 section\      (ie Who is eligible for a CORE Account?)
+#                                         part\  (ie CORE is intented for)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and us of a '-' character.
+# 2) Different Keys should not have the same name inside a Level...An Example to use is 'para1' followed by 'para2'
+# 3) Do not use tabs, use two spaces when going declaring a new level.
+# 4) Code Assumption, titles are always ordered first in a Level, with content following.
+# 5) Code Assumption, there can be only one title per level.
+# 6) Code Assumption, subtopic titles always get a "updated-last" statement.
+# 7) Code Assumption, Notes and Learn sections only have one "part".
+# 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
+# 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
+
+topics:
+  - title: Getting Started
+    subtopics:
+      - subtitle: Log in to CORE
+        sections:
+          - paratitle: Placeholder
+            para1: Individual story created on CORE.
+          - paratitle: Page
+            para1: Pages are a way for organizations to group articles together.
+          - paratitle: Tag
+            para1: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
+          - paratitle: Theme
+            para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics. 
+          - paratitle: Follow
+            para1: Following allows you to create a feed of articles that are relevant to you. You can browse articles from specific users, organizations or tags that you follow and easily add them to your Page, post them on social media, or share them with other users.
+          - paratitle: Share
+            para1: Sharing allows you to collaborate on a draft with other users.

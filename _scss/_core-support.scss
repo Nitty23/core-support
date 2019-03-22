@@ -311,12 +311,19 @@ header{
 }
 
 .area-title{
-
+    font-weight: 600;
+    font-size: xx-large;
 }
 
 .topic-title{
     font-size: 2em;
     font-weight: normal !important;
+}
+
+.topics-title{
+    font-size: 1em;
+    font-weight: 700;
+    color: goldenrod;
 }
 
 .underline-link{
@@ -365,7 +372,9 @@ header{
 }
 
 .topic-link{
-    font-weight: lighter !important;
+    font-weight: 600;
+    font-size: 1em;
+    color: #858687;
 }
 
 .topics-content{

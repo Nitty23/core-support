@@ -1,12 +1,14 @@
 --- 
 layout: topics 
 metatitle: U.S. Army CORE Support | Topics Page
-title: CORE Support Topics Page
-description: This page provides a list of all topics and subtopics for CORE Support
-tohome: ../
+title: Your Profile
+area: account-prefs
+topic: getting-started
+tohome: ../../../../
 ---
 
 <div class="main" role="main">
+    {% assign datafile = site.data.ap_as_profile %}
     {% include supp-header.html %}
 
     <div class="container">
@@ -20,7 +22,7 @@ tohome: ../
                 </div>                               
                 <!-- Second wider content column here -->
                 <div class="column large-9 medium-8 small-12 topicspan">
-                    {% include supp-topics.html %}                      
+                    {% include subtopics.html %}                      
                 </div> <!-- End of Second column here -->
             </div>
 

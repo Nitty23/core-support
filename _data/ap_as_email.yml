@@ -19,10 +19,9 @@
 # 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
 # 0) DO NOT USE ':' in any text or titles of keys or values
 
-topics:
   - title: Account Settings
     subtopics:
-      - subtitle: Adjust email preferences
+      - subtitle: Email Preferences
         para1: Your Account Settings page allows you to add or change email addresses, as well as change your email notifications.
         para2: By default, your primary email is set to your @mail.mil email address. This cannot be changed or deleted. However, you can add a secondary email address. Both addresses will appear in your profile, but email notifications will only be sent to your primary email.
         sections:

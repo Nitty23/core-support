@@ -19,10 +19,10 @@
 # 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
 # 0) DO NOT USE ':' in any text or titles of keys or values
 
-topics:
+
   - title: Account Settings
     subtopics:
-      - subtitle: Connecting to your Profile to Google Analytics
+      - subtitle: Google Analytics
         para1: Google Analytics is a free web analytics tool that generates detailed statistics on a website. All content released from CORE to <a href="http://www.army.mil">www.army.mil</a> is automatically connected to Google Analytics, allowing you to track article pageviews and basic traffic data through your Released Inbox.
         sections:
           - sectiontitle: 
