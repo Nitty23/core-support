@@ -19,7 +19,7 @@
 # 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
 # 0) DO NOT USE ':' in any text or titles of keys or values
 
-topics:
+
   - title: Account Settings
     subtopics:
       - subtitle: So what’s the difference?

@@ -157,21 +157,21 @@ toc:
   - topic: Core Community
     subtopic:
       - page: Admin Management
-        url: /core-community/am/remove-articles.html
+        url: ../
       - page: User Directory
-        url: /core-community/ud/remove-articles.html
+        url: ../
       - page: Org Directory
-        url: /core-community/od/remove-articles.html
+        url: ../
 
   - topic: Best Practices
     subtopic:
       - page: Headlines
-        url: /best-practices/h/remove-articles.html
+        url: ../
       - page: Photos and Images
-        url: /best-practices/pi/remove-articles.html
+        url: ../
       - page: Styleguide
-        url: /best-practices/sg/remove-articles.html
+        url: ../
       - page: SEO Tips
-        url: /best-practices/st/remove-articles.html
+        url: ../
       - page: Page Navigation
-        url: /best-practices/pn/remove-articles.html
+        url: ../
