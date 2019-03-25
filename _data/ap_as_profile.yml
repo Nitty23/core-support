@@ -17,7 +17,7 @@
 # 7) Code Assumption, Notes and Learn sections only have one "part".
 # 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
 # 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
-
+# 0) DO NOT USE ':' in any text or titles of keys or values except urls
 
   - title: Account Settings
     subtopics:

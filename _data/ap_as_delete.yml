@@ -17,18 +17,19 @@
 # 7) Code Assumption, Notes and Learn sections only have one "part".
 # 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
 # 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
-# 0) DO NOT USE ':' in any text or titles of keys or values
-
+# 0) DO NOT USE ':' in any text or titles of keys or values except urls
 
   - title: Account Settings
     subtopics:
-      - subtitle: So what’s the difference?
-        para1: <strong>Deactivating your account</strong> is temporary and can be restored at any time, simply by signing in to the deactivated account. Your profile is removed from My Organization and the User Directory, but your account information is still in our database.
-        para2: <strong>Deleting an account</strong> is permanent and cannot be undone. Your profile information and settings are completely removed from the CORE database.
+      - subtitle: Delete or Deactivate
+        para1: When you’re ready to leave the CORE community, contact the CORE Support Team and request to deactivate or delete your account. For both options, your profile information will disappear from CORE, but they do not affect any of the content that you produced. Your content will remain active in CORE and on www.army.mil, but you will have not have access to edit it.
         sections:
+          - sectiontitle: So what’s the difference?
+            para1: <strong>Deactivating your account</strong> is temporary and can be restored at any time, simply by signing in to the deactivated account. Your profile is removed from My Organization and the User Directory, but your account information is still in our database.
+            para2: <strong>Deleting an account</strong> is permanent and cannot be undone. Your profile information and settings are completely removed from the CORE database.
           - sectiontitle: What is your profile information?
           - itemlist:
-              - listname: Your profile information includes":"
+              - listname: Your profile information includes
                 one: Title / Rank
                 two: Full name
                 three: Profile picture
@@ -38,7 +39,7 @@
                 seven: Social media accounts
             image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
           - itemlist:
-              - listname: The following content is not considered profile information and will not be deleted as part of a request to deactivate or delete an account":"
+              - listname: The following content is not considered profile information and will not be deleted as part of a request to deactivate or delete an account
                 one: Articles created or media uploaded by the user
                 two: A user’s actions from article history log
           - note: At this time, you must contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.

@@ -19,8 +19,38 @@ tohome: ../
                     {% include supp-sidenav.html %}  
                 </div>                               
                 <!-- Second wider content column here -->
-                <div class="column large-9 medium-8 small-12 topicspan">
-                    {% include supp-topics.html %}                      
+                <div class="column large-9 medium-8 topicspan">
+
+                        {% for topic in site.data.support_toc %}
+                            {% if forloop.first == false %}
+                            <div class="section-break {{topic.topicid}}-section-break top skrollable skrollable-after" -top="opacity:0;top:-200px;">
+                                </div>
+                            </section>
+                            <br>
+                            <hr>
+                            {% endif %}
+
+                        <section id="{{topic.topicid}}" class="scroll-container section">
+                            <h3 class="area-title">{{ topic.title }}</h3>
+                            {% for subtopic in topic.subtopics %}
+                                {% if forloop.first == false %}
+                                    <br>
+                                {% endif %}
+                            <div class="row">
+                                <div class="column large-12">
+                                    <span class="topics-title">{{ subtopic.title }}</span>
+                                </div>
+                            </div>
+                                {% for section in subtopic.sections %}
+                                <div class="row">
+                                    <div class="column large-12">
+                                        <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+
                 </div> <!-- End of Second column here -->
             </div>
 
