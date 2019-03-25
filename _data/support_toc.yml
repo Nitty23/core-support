@@ -1,8 +1,8 @@
   - title: Account Preferences
-    topicid: account-prefs
+    id: account-prefs
     subtopics:
       - title: Getting Started
-        url: /topics/#getting-started
+        id: getting-started
         sections:
           - title: What is CORE?
             url: /account-preferences/gs/what_is.html
@@ -13,7 +13,7 @@
           - title: Log in to CORE
             url: /account-preferences/gs/log_in.html
       - title: Account Settings
-        url: /topics/#account-settings
+        id: account-settings
         sections:
           - title: Your Profile
             url: /account-preferences/as/your_profile.html
@@ -28,7 +28,7 @@
           - title: Google Analytics
             url: /account-preferences/as/google_analytics.html
       - title: Uploading Images
-        url: /topics/#uploading-images
+        id: uploading-images
         sections:
           - title: New Images
             url: /account-preferences/ui/new_images.html
@@ -38,10 +38,10 @@
             url: /account-preferences/ui/remove_images.html
 
   - title: Creating Content
-    topicid: creating-content
+    id: creating-content
     subtopics:
       - title: Writing Articles
-        url: /topics/#writing-articles
+        id: writing-articles
         sections: 
           - title: Create Articles
             url: /creating-content/wa/create_articles.html
@@ -62,7 +62,7 @@
           - title: Preview Articles
             url: /creating-content/wa/preview_articles.html
       - title: Images
-        url: /topics/#images
+        id: images
         sections: 
           - title: Editing Images
             url: /creating-content/i/editing_images.html
@@ -71,7 +71,7 @@
           - title: Moving Images
             url: /creating-content/i/moving_images.html
       - title: Managing Articles
-        url: /topics/#managing-articles
+        id: managing-articles
         sections: 
           - title: Page Traffic
             url: /creating-content/ma/page_traffic.html
@@ -90,7 +90,7 @@
           - title: Unpublished Articles
             url: /creating-content/ma/unpublished_articles.html
       - title: Best Practices
-        url: /topics/#best-practices
+        id: best-practices
         sections: 
           - title: Formatting Text
             url: /creating-content/bp/formatting_text.html
@@ -104,10 +104,10 @@
             url: /creating-content/bp/publishing_api.html
 
   - title: Page Management
-    topicid: page-management
+    id: page-management
     subtopics:
       - title: Settings
-        url: /topics/#page-settings
+        id: page-settings
         sections: 
           - title: CORE Pages
             url: /page-management/ps/core_pages.html
@@ -128,7 +128,7 @@
           - title: Page FAQs
             url: /page-management/ps/page_faq.html
       - title: Layout
-        url: /topics/#page-layouts
+        id: page-layouts
         sections: 
           - title: Page Navigation
             url: /page-management/pn/page_navigation.html
@@ -149,7 +149,7 @@
           - title: Delete a Content Section
             url: /page-management/pn/delete_a.html
       - title: Page Articles
-        url: /topics/#page-articles
+        id: page-articles
         sections: 
           - title: Featured News Articles
             url: /page-management/pa/featured_news.html
@@ -157,25 +157,25 @@
             url: /page-management/pa/remove_articles.html
 
   - title: Core Community
-    topicid: core-community
+    id: core-community
     subtopics:
       - title: Admin Management
-        url: ../
+        id: 
       - title: User Directory
-        url: ../
+        id: 
       - title: Org Directory
-        url: ../
+        id: 
 
   - title: Best Practices
-    topicid: best-practices
+    id: best-practices
     subtopics:
       - title: Headlines
-        url: ../
+        id: 
       - title: Photos and Images
-        url: ../
+        id: 
       - title: Styleguide
-        url: ../
+        id: 
       - title: SEO Tips
-        url: ../
+        id: 
       - title: Page Navigation
-        url: ../
+        id: 

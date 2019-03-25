@@ -109,6 +109,10 @@ body {
     text-align: center;
 }
 
+.topicspan{
+    padding-left: 3%;
+}
+
 h3, h4, h5 {
     font-style: normal;
     color: black;
@@ -129,7 +133,6 @@ h3:after, h4:after, h5:after {
 
 section{
     overflow: visible;
-    padding-left: 4%;
 }
 
 .remove-space{
@@ -432,6 +435,7 @@ header{
     .topicspan{
         width: unset !important;
         margin-top: 30px;
+        padding-left: 3%;
     }
 
     .topics-content{
