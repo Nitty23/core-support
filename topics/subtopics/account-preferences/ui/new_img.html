@@ -1,13 +1,15 @@
 --- 
 layout: topics 
 metatitle: U.S. Army CORE Support | Topics Page
-title: What is CORE?
+title: New Images
 area: account-prefs
-topic: getting-started
+topicid: uploading-images
+topictitle: Uploading Images
 ---
 
 <div class="main" role="main">
-    {% include supp-header.html %}
+    {% assign datafile = site.data.ap_ui_new %}
+    {% include header.html %}
 
     <div class="container">
 
@@ -20,13 +22,16 @@ topic: getting-started
                 </div>                               
                 <!-- Second wider content column here -->
                 <div class="column large-9 medium-8 small-12 topicspan">
-                    {% include subtopics.html %}                      
+                    <div class="topics-content">
+                        <a href="{{ page.tohome }}">CORE Support</a><span class="topnav-subtopic"> &gt; </span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}">{{ page.topictitle }}</a><span> &gt; </span><span class="topnav-subtopic">{{ page.title }}</span>
+                        {% include subtopics.html %}
+                    </div>
                 </div> <!-- End of Second column here -->
             </div>
 
         </div> <!-- End of inner containter here -->
         <div class="remove-space"></div>
-        {% include supp-cantfind.html %}
+        {% include cantfind.html %}
     </div> <!-- End of inner containter here -->
 
 </div> <!-- end of main -->

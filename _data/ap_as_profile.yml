@@ -8,16 +8,15 @@
 # Rules & Assumptions- 
 #
 # 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and us of a '-' character.
-# 2) Different Keys should not have the same name inside a Level...An Example to use is 'para1' followed by 'para2'
-# 3) Do not use tabs, use two spaces when going declaring a new level.
-# 4) Code Assumption, titles are always ordered first in a Level, with content following.
-# 5) Code Assumption, there can be only one title per level.
-# 6) Code Assumption, subtopic titles always get a "updated-last" statement.
-# 7) Code Assumption, Notes and Learn sections only have one "part".
-# 8) Code Assumption, Itemlists can only exist on th 3rd level in a "section", with the individual items on the 4th level considered "parts".
-# 9) Links shall be written as follows -External: <a href="http://www.google.com">Google</a> Internal: <a href="/ap-page/#account-settings">Account Settings</a>
-# 0) DO NOT USE ':' in any text or titles of keys or values except urls
+# 2) Levels are distinguished by the indentation of that column and use of the dash ie '-'.
+# 3)  Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 4) Do not use tabs, use two spaces when declaring a new level.
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#account-settings">Account Settings</a>
+# 6) DO NOT USE ':' in any text or titles of keys or values except urls
+# 7) Code Assumption - Titles are always ordered first, with content following, with only one title per level.
+# 8) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 9) Code Assumption - Notes and Learn sections can only have one "part".
+# 0) Code Assumption - Itemlists can only exist on the 3rd level "section", with items as "parts" on the 4th level.
 
   - title: Account Settings
     subtopics:

@@ -1,0 +1,42 @@
+--- 
+layout: topics 
+metatitle: U.S. Army CORE Support | Topics Page
+title: Import from DVIDS
+area: creating-content
+topicid: writing-articles
+topictitle: Writing Articles
+tohome: ../../../../
+---
+
+<div class="main" role="main">
+    {% assign datafile = site.data.cc_wa_import %}
+    {% include header.html %}
+
+    <div class="container">
+
+        <div class="inner-container">
+                                
+            <div class="row topic-content-row">
+                <!-- First narrow nav column here -->
+                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+                    {% include subtopics_sidenav.html %}  
+                </div>                               
+                <!-- Second wider content column here -->
+                <div class="column large-9 medium-8 small-12 topicspan">
+                    <div class="topics-content">
+                        <a href="{{ page.tohome }}">CORE Support</a><span class="topnav-subtopic"> &gt; </span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}">{{ page.topictitle }}</a><span> &gt; </span><span class="topnav-subtopic">{{ page.title }}</span>
+                        {% include subtopics.html %}
+                    </div>
+                </div> <!-- End of Second column here -->
+            </div>
+
+        </div> <!-- End of inner containter here -->
+        <div class="remove-space"></div>
+        {% include cantfind.html %}
+    </div> <!-- End of inner containter here -->
+
+</div> <!-- end of main -->
+    
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
+<script>$(document).foundation();</script>

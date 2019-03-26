@@ -1,67 +1,66 @@
-<div class="topics-content">
-    <section>
-        {% for topic in datafile %}
-        <div class="topic-subtext">{{topic.title}}</div>
-            <ul>
-                {% for subtopic in topic.subtopics %}
-                    {% for item in subtopic %}
-                        {% if item[0] == 'subtitle' and forloop.last == true %}
-                            <br>
-                            <br>
-                            <span class="topic-title"><b>{{ item[1] }}</b></span>
-                            <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
-                            <br>
-                            <br>
-                            <p style="text-align: center;">********************************<br>NO CONTENT IN THIS SECTION YET.<br> STANDBY FOR UPDATES<br>********************************</p>
-                        {% elsif item[0] == 'subtitle' and forloop.last == false %}
-                            <span class="topic-title"><b>{{ item[1] }}</b></span>
-                            <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
-                        {% elsif item[0] == 'sections' %}
-                            {% for section in subtopic.sections %}
-                                {% for part in section %}
-                                    {% if part[0] == 'note' %}
-                                        <div class="topic-text-note">
-                                            <div class="supp-note">
-                                                <strong>Note: </strong>{{part[1]}}
-                                            </div>
+<section>
+    {% for topic in datafile %}
+    <br>
+    <br>
+        <ul>
+            {% for subtopic in topic.subtopics %}
+                {% for item in subtopic %}
+                    {% if item[0] == 'subtitle' and forloop.last == true %}
+                        <br>
+                        <br>
+                        <span class="topic-title"><b>{{ item[1] }}</b></span>
+                        <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
+                        <br>
+                        <br>
+                        <p style="text-align: center;">********************************<br>NO CONTENT IN THIS SECTION YET.<br> STANDBY FOR UPDATES<br>********************************</p>
+                    {% elsif item[0] == 'subtitle' and forloop.last == false %}
+                        <span class="topic-title"><b>{{ item[1] }}</b></span>
+                        <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
+                    {% elsif item[0] == 'sections' %}
+                        {% for section in subtopic.sections %}
+                            {% for part in section %}
+                                {% if part[0] == 'note' %}
+                                    <div class="topic-text-note">
+                                        <div class="supp-note">
+                                            <strong>Note: </strong>{{part[1]}}
                                         </div>
-                                        <br><br>
-                                    {% elsif part[0] == 'learn' %}
-                                        <div class="topic-text-learn">
-                                            <div class="supp-note">
-                                                {{part[1]}}. <strong>LEARN MORE ></strong>
-                                            </div>
+                                    </div>
+                                    <br><br>
+                                {% elsif part[0] == 'learn' %}
+                                    <div class="topic-text-learn">
+                                        <div class="supp-note">
+                                            {{part[1]}}. <strong>LEARN MORE ></strong>
                                         </div>
-                                        <br><br>
-                                    {% elsif part[0] == 'sectiontitle' %}
-                                        <span class="subtopic-title"><b>{{part[1]}}</b></span><br><br>
-                                    {% elsif part[0] == 'paratitle' %}
-                                        <span class="topic-text"><strong>{{part[1]}}</strong></span>
-                                    {% elsif part[0] == 'itemlist' %}
-                                        {% for li in section.itemlist %}   
-                                            {% for each in li %}
-                                                {% if forloop.first == true %} 
-                                                    <p>{{each[1]}}:</p>
-                                                {% else %}
-                                                    <span class="bullet-item">{{each[1]}}</span>
-                                                {% endif %}
-                                            {% endfor %}
-                                            <br>
+                                    </div>
+                                    <br><br>
+                                {% elsif part[0] == 'sectiontitle' %}
+                                    <span class="subtopic-title"><b>{{part[1]}}</b></span><br><br>
+                                {% elsif part[0] == 'paratitle' %}
+                                    <span class="topic-text"><strong>{{part[1]}}</strong></span>
+                                {% elsif part[0] == 'itemlist' %}
+                                    {% for li in section.itemlist %}   
+                                        {% for each in li %}
+                                            {% if forloop.first == true %} 
+                                                <p>{{each[1]}}:</p>
+                                            {% else %}
+                                                <span class="bullet-item">{{each[1]}}</span>
+                                            {% endif %}
                                         {% endfor %}
-                                    {% else %}                                  
-                                        <p class="topic-text">{{part[1]}}</p>
-                                    {% endif %}
-                                {% endfor %}
-                            {% endfor %}  
-                        {% else %}                                        
-                        <p class="topic-text">{{ item[1] }}</p>
-                        {% endif %}
-                    {% endfor %}
-                    <br>
-                    <br>                                        
+                                        <br>
+                                    {% endfor %}
+                                {% else %}                                  
+                                    <p class="topic-text">{{part[1]}}</p>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}  
+                    {% else %}                                        
+                    <p class="topic-text">{{ item[1] }}</p>
+                    {% endif %}
                 {% endfor %}
-            </ul>
-        {% endfor %}
-        
-    </section>
-</div>
+                <br>
+                <br>                                        
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    
+</section>

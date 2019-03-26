@@ -31,11 +31,11 @@
         id: uploading-images
         sections:
           - title: New Images
-            url: /account-preferences/ui/new_images.html
+            url: /account-preferences/ui/new_img.html
           - title: Existing Images
-            url: /account-preferences/ui/existing_images.html
+            url: /account-preferences/ui/existing_img.html
           - title: Remove Images
-            url: /account-preferences/ui/remove_images.html
+            url: /account-preferences/ui/remove_img.html
 
   - title: Creating Content
     id: creating-content
@@ -50,26 +50,26 @@
           - title: Edit Articles
             url: /creating-content/wa/edit_articles.html
           - title: Formatting text
-            url: /creating-content/wa/formatting_text.html
+            url: /creating-content/wa/form_text.html
           - title: Images
             url: /creating-content/wa/images.html
           - title: Video
             url: /creating-content/wa/video.html
           - title: Documents
-            url: /creating-content/wa/documents.html
+            url: /creating-content/wa/docs.html
           - title: Article Settings
             url: /creating-content/wa/article_settings.html
           - title: Preview Articles
             url: /creating-content/wa/preview_articles.html
-      - title: Images
-        id: images
+      - title: Article Images
+        id: article-images
         sections: 
           - title: Editing Images
-            url: /creating-content/i/editing_images.html
+            url: /creating-content/ai/editing_img.html
           - title: Cropping Images
-            url: /creating-content/i/cropping_images.html
+            url: /creating-content/ai/cropping_img.html
           - title: Moving Images
-            url: /creating-content/i/moving_images.html
+            url: /creating-content/ai/moving_img.html
       - title: Managing Articles
         id: managing-articles
         sections: 
@@ -80,7 +80,7 @@
           - title: Tags
             url: /creating-content/ma/tags.html
           - title: Scheduled Release
-            url: /creating-content/ma/scheduled_release.html
+            url: /creating-content/ma/scheduled_rel.html
           - title: Submit Drafts
             url: /creating-content/ma/submit_drafts.html
           - title: Review Drafts
@@ -88,20 +88,20 @@
           - title: Content Approval Process
             url: /creating-content/ma/cap.html
           - title: Unpublished Articles
-            url: /creating-content/ma/unpublished_articles.html
+            url: /creating-content/ma/unpub_articles.html
       - title: Best Practices
         id: best-practices
         sections: 
           - title: Formatting Text
-            url: /creating-content/bp/formatting_text.html
+            url: /creating-content/bp/form_text.html
           - title: Keyboard Shortcuts
-            url: /creating-content/bp/keyboard_shortcuts.html
+            url: /creating-content/bp/key_short.html
           - title: Promoting Content
-            url: /creating-content/bp/promoting_content.html
+            url: /creating-content/bp/promo_content.html
           - title: SOE
             url: /creating-content/bp/soe.html
           - title: Publishing API
-            url: /creating-content/bp/publishing_api.html
+            url: /creating-content/bp/pub_api.html
 
   - title: Page Management
     id: page-management

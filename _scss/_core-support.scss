@@ -260,7 +260,7 @@ header{
         transform-origin: 41.5px 12px 0;
 }
 
-/*Support SideNav*/
+/*Support Top & SideNav*/
 /*------------------------------------------------------------------------*/
 .topics-pill-menu{
     border-right-style: solid;
@@ -291,6 +291,11 @@ header{
 
 .is-accordion-submenu{
     margin: 5% !important;
+}
+
+.topnav-subtopic{
+    font-weight: bold;
+    color: gray;
 }
 
 /*Support Homepage Topic Boxes*/

@@ -1,0 +1,38 @@
+{% for topic in site.data.support_toc %}
+    {% if forloop.first == false %}
+        <div class="section-break {{topic.id}}-section-break top skrollable skrollable-after" -top="opacity:0;top:-200px;">
+        </div>
+        </section>
+        <br>
+        <hr>
+    {% endif %}
+
+<section id="{{topic.id}}" class="scroll-container section">
+    <h3 class="area-title">{{ topic.title }}</h3>
+    {% for subtopic in topic.subtopics %}
+        {% if forloop.first == false %}                                
+            <div class="section-break {{subtopic.id}}-section-break top skrollable skrollable-after" -top="opacity:0;top:-200px;">
+            </div>
+            </section>
+            <br>
+        {% endif %}                            
+        <section id="{{subtopic.id}}" class="scroll-container section">
+            <div class="row">
+                <div class="column large-12">
+                    <span class="topics-title">{{ subtopic.title }}</span>
+                </div>
+            </div>
+        {% for section in subtopic.sections %}
+        <div class="row">
+            <div class="column large-12">
+                <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+            </div>
+        </div>
+        {% endfor %}
+        {% if forloop.last == true %}                                
+            <div class="section-break top skrollable skrollable-after" -top="opacity:0;top:-200px;">
+            </div>
+            </section>
+        {% endif %} 
+    {% endfor %}
+{% endfor %}
