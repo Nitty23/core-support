@@ -144,7 +144,7 @@ section{
 }
 
 .sect-spacing{
-    padding-top: 9%;
+    padding-top: 15%;
 }
 
 /*Support Header*/
@@ -267,10 +267,7 @@ header{
 
 /*Support Top & SideNav*/
 /*------------------------------------------------------------------------*/
-.topics-pill-menu{
-    border-right-style: solid;
-    border-right-color:#727365;
-    border-right-width: 1px;
+.topics-pill-menu{    
     font-size: 85%;
     padding-top: 7%
 }
@@ -284,7 +281,7 @@ header{
     color:#727365;
     font-weight: 400;
     border-left-style: solid;
-    border-left-color:#FEC325;;
+    border-left-color: #fec325;
     border-left-width: 4px;
     white-space: nowrap;
     display: flex;
@@ -304,6 +301,15 @@ header{
     color: gray;
 }
 
+.test-nav{
+    z-index: 3;
+    position: fixed;
+    margin-left: 18.75%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.1);
+}
+
 /*Support Homepage Topic Boxes*/
 /*------------------------------------------------------------------------*/
 
@@ -318,13 +324,13 @@ header{
 }
 .supp-topic-icon{
     vertical-align: middle;
-    color: goldenrod;
+    color: #fec325;
     font-size: 350%;
     text-align: center;
 }
 
 .supp-topic-title{
-    color: goldenrod;
+    color: #fec325;
     text-align: center;
 }
 
@@ -342,7 +348,7 @@ header{
 .topics-title{
     font-size: 1em;
     font-weight: 700;
-    color: goldenrod;
+    color: #fec325;
 }
 
 .underline-link{
@@ -405,7 +411,7 @@ header{
 .find-row{
     margin: 7% 0% 7%;
     padding: 3% 0%;
-    background-color: goldenrod;
+    background-color: #fec325;
 }
 
 .find-col{
@@ -433,7 +439,7 @@ header{
 .find-btn-text{
     font-weight: bold; 
     font-size: 1.65em;
-    color: goldenrod;
+    color: #fec325;
 }
 
 /*------------------------------------------------------------------------*/

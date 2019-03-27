@@ -1,38 +1,67 @@
 {% for topic in site.data.support_toc %}
     {% if forloop.first == false %}
-        <div class="section-break {{topic.id}}-section-break">
-        </div>
+        <div class="section-break {{topic.id}}-section-break"></div>
         </section>
         <br>
         <hr>
     {% endif %}
 
-<section id="{{topic.id}}" class="section sect-spacing">
-    <h3 class="area-title">{{ topic.title }}</h3>
+    <section id="{{topic.id}}" class="section sect-spacing">
+        <h3 class="area-title">{{ topic.title }}</h3>
+
     {% for subtopic in topic.subtopics %}
         {% if forloop.first == false %}                                
-            <div class="section-break {{subtopic.id}}-section-break">
+                    <div id="{{subtopic.id}}"></div>
+                </div>
             </div>
             </section>
             <br>
+        {% else %} 
+            <div id="{{subtopic.id}}"></div>
+            <br>
+            <br>
+            <br>
+            <br>
         {% endif %}                            
-        <section id="{{subtopic.id}}" class="section">
-            <div class="row">
-                <div class="column large-12">
-                    <span class="topics-title">{{ subtopic.title }}</span>
+            <section class="section">
+                <div class="row">
+                    <div class="column large-12">
+                        <span class="topics-title">{{ subtopic.title }}</span>                
+            {% for section in subtopic.sections %}
+                {% if forloop.first == true %}        
+                <br>
+                <br>
+                <div class="row">
+                    <div class="column large-12">
+                        <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+                    </div>
                 </div>
-            </div>
-        {% for section in subtopic.sections %}
-        <div class="row">
-            <div class="column large-12">
-                <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
-            </div>
-        </div>
-        {% endfor %}
-        {% if forloop.last == true %}                                
-            <div class="section-break">
-            </div>
+                {% elsif forloop.last == true %}
+                <div class="row">
+                    <div class="column large-12">
+                        <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+                    </div>
+                </div>  
+                {% else %}  
+                <div class="row">
+                    <div class="column large-12">
+                        <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+                    </div>
+                </div>
+                {% endif %}  
+            {% endfor %}
+        {% if forloop.last == true %}    
+                    </div>                            
+                <div class="section-break"></div>
+                </div>
             </section>
+            <br>
+            <br>
+            <br>
         {% endif %} 
     {% endfor %}
+    {% if forloop.last == true %}                                
+        <div class="section-break"></div>
+        </section>
+    {% endif %} 
 {% endfor %}

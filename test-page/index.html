@@ -7,20 +7,25 @@ tohome: ../
 ---
 
 {% include header.html %}
+<div class="test-nav column large-3 medium-4 topics-pill-menu hide-for-small-only">
+    {% include topics_sidenav.html %}
+</div>
+
+
 <div class="main" role="main">
 
     <div class="container">
 
-        <div class="inner-container">
+        <div class="inner-container"> 
                                 
             <div class="row topic-content-row">
                 <!-- First narrow nav column here -->
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                    {% include topics_sidenav.html %}  
+                    
                 </div>                               
                 <!-- Second wider content column here -->
                 <div class="column large-9 medium-8 topicspan">
-                    {% include topics.html %} 
+                    {% include topics.html %}   
                 </div> <!-- End of Second column here -->
             </div>
 
