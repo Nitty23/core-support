@@ -106,7 +106,7 @@
   - title: Page Management
     id: page-management
     subtopics:
-      - title: Settings
+      - title: Page Settings
         id: page-settings
         sections: 
           - title: CORE Pages
@@ -127,27 +127,27 @@
             url: /page-management/ps/deactivting_pages.html
           - title: Page FAQs
             url: /page-management/ps/page_faq.html
-      - title: Layout
+      - title: Page Layout
         id: page-layouts
         sections: 
           - title: Page Navigation
-            url: /page-management/pn/page_navigation.html
+            url: /page-management/pl/page_nav.html
           - title: Content Sections
-            url: /page-management/pn/content_sections.html
+            url: /page-management/pl/content_sections.html
           - title: News List Sections
-            url: /page-management/pn/news_list.html
+            url: /page-management/pl/news_list.html
           - title: Text Sections
-            url: /page-management/pn/text_sections.html
+            url: /page-management/pl/text_sections.html
           - title: Video Sections
-            url: /page-management/pn/video_sections.html
+            url: /page-management/pl/video_sections.html
           - title: Leader Sections
-            url: /page-management/pn/leader_sections.html
+            url: /page-management/pl/leader_sections.html
           - title: Accordion Sections
-            url: /page-management/pn/accordion_sections.html
+            url: /page-management/pl/accordion_sections.html
           - title: Move a Content Section
-            url: /page-management/pn/move_a.html
+            url: /page-management/pl/move_a.html
           - title: Delete a Content Section
-            url: /page-management/pn/delete_a.html
+            url: /page-management/pl/delete_a.html
       - title: Page Articles
         id: page-articles
         sections: 
