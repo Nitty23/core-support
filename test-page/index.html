@@ -1,13 +1,13 @@
 --- 
 layout: topics 
-metatitle: U.S. Army Core Support | Test Page
-title: Test Page
-description: This page is used for testing support page layout concepts and site building
-topic: Account Preferences
+metatitle: U.S. Army CORE Support | Test Page
+title: CORE Support Test Page
+description: Testing for dev
+tohome: ../
 ---
 
+{% include header.html %}
 <div class="main" role="main">
-    {% include header.html %}
 
     <div class="container">
 
@@ -16,46 +16,17 @@ topic: Account Preferences
             <div class="row topic-content-row">
                 <!-- First narrow nav column here -->
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                        {% include topics_sidenav.html %}  
+                    {% include topics_sidenav.html %}  
                 </div>                               
                 <!-- Second wider content column here -->
                 <div class="column large-9 medium-8 topicspan">
-
-                        {% for topic in site.data.support_toc %}
-                            {% if forloop.first == false %}
-                            <div class="section-break {{topic.topicid}}-section-break top skrollable skrollable-after" -top="opacity:0;top:-200px;">
-                                </div>
-                            </section>
-                            <br>
-                            <hr>
-                            {% endif %}
-
-                        <section id="{{topic.topicid}}" class="scroll-container section">
-                            <h3 class="area-title">{{ topic.title }}</h3>
-                            {% for subtopic in topic.subtopics %}
-                                {% if forloop.first == false %}
-                                    <br>
-                                {% endif %}
-                            <div class="row">
-                                <div class="column large-12">
-                                    <span class="topics-title">{{ subtopic.title }}</span>
-                                </div>
-                            </div>
-                                {% for section in subtopic.sections %}
-                                <div class="row">
-                                    <div class="column large-12">
-                                        <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            {% endfor %}
-                        {% endfor %}
-
+                    {% include topics.html %} 
                 </div> <!-- End of Second column here -->
             </div>
 
         </div> <!-- End of inner containter here -->
-
+        <div class="remove-space"></div>
+        {% include cantfind.html %}
     </div> <!-- End of inner containter here -->
 
 </div> <!-- end of main -->

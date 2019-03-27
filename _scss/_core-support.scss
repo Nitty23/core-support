@@ -100,7 +100,7 @@ body {
 
 .topic-content-row{
     margin-bottom: 13.5em;
-    margin-top: 4em;
+    margin-top: 0em;
 }
 
 .topic-center-row{
@@ -143,6 +143,10 @@ section{
     margin-bottom: 0px !important;
 }
 
+.sect-spacing{
+    padding-top: 9%;
+}
+
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
@@ -163,9 +167,10 @@ header{
 }
 
 .supp-header{
-    padding: 0; 
-    z-index: 3; 
-    position: relative;
+    padding: 0;
+    min-width: 100%;
+    z-index: 3;
+    position: fixed;
 }
 
 .navbar {
@@ -267,6 +272,7 @@ header{
     border-right-color:#727365;
     border-right-width: 1px;
     font-size: 85%;
+    padding-top: 7%
 }
 
 .title-pill{
@@ -325,6 +331,7 @@ header{
 .area-title{
     font-weight: 600;
     font-size: xx-large;
+    text-align: left
 }
 
 .topic-title{
@@ -503,9 +510,12 @@ header{
         color: lightgrey;
     }
 
-
     .mast-img{
         height: -webkit-fill-available;
+    }
+
+    .sect-spacing{
+        padding-top: 15%;
     }
 
     .overlay-effect{

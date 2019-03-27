@@ -89,19 +89,19 @@
             url: /creating-content/ma/cap.html
           - title: Unpublished Articles
             url: /creating-content/ma/unpub_articles.html
-      - title: Best Practices
-        id: best-practices
+      - title: Content Practices
+        id: content-practices
         sections: 
           - title: Formatting Text
-            url: /creating-content/bp/form_text.html
+            url: /creating-content/cp/form_text.html
           - title: Keyboard Shortcuts
-            url: /creating-content/bp/key_short.html
+            url: /creating-content/cp/key_short.html
           - title: Promoting Content
-            url: /creating-content/bp/promo_content.html
+            url: /creating-content/cp/promo_content.html
           - title: SOE
-            url: /creating-content/bp/soe.html
+            url: /creating-content/cp/soe.html
           - title: Publishing API
-            url: /creating-content/bp/pub_api.html
+            url: /creating-content/cp/pub_api.html
 
   - title: Page Management
     id: page-management
