@@ -403,7 +403,7 @@ header{
 }
 
 .topics-content{
-    padding: 0% 5%
+    padding: 10% 5%
 }
 
 /*Support Cant Find Section*/
@@ -450,10 +450,6 @@ header{
 
 @media screen and (max-width: 768px) {
   
-    .topics-content{
-        margin-left: 0%;
-    }
-
     .topicspan{
         width: unset !important;
         margin-top: 30px;
@@ -461,7 +457,9 @@ header{
     }
 
     .topics-content{
-        padding: 5% 5%;
+        padding: 15% 5%;
+        margin-left: 0%;
+        font-size: smaller;
     }
 
     .close-search{
