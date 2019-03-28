@@ -347,8 +347,8 @@ textarea {
     border: inset 6px;
     content: '';
     border-bottom-width: 0;
-    border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-top-style: none;
+    border-color: #fec325 transparent transparent;
     position: absolute;
     top: 50%;
     margin-top: -3px;
@@ -390,8 +390,8 @@ textarea {
     border: inset 6px;
     content: '';
     border-bottom-width: 0;
-    border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-top-style: none;
+    border-color: #fec325 transparent transparent;
     top: 0;
     bottom: 0;
     margin: auto; }
