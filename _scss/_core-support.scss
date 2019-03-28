@@ -147,6 +147,19 @@ section{
     padding-top: 15%;
 }
 
+.topic-spacer{
+    padding-bottom: 7.2em;
+}
+
+.subtopic-spacer{
+padding-bottom: 3.6em;
+}
+
+.topic-hr{
+    margin-top: -7em;
+    margin-bottom: -3em;
+}
+
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
@@ -201,6 +214,14 @@ header{
     background: white; 
     color: lightgrey;
     min-width: 70%;
+}
+
+.mast-title{
+    position: absolute;
+    z-index: 3 !important;
+    margin: -14% 0% 0% 41%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .inner-supp-mast{
@@ -449,6 +470,10 @@ header{
 /*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
+    .topic-hr {
+        margin-top: -6em;
+        margin-bottom: -1em;
+    }
   
     .topicspan{
         width: unset !important;

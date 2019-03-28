@@ -3,7 +3,7 @@
         <div class="section-break {{topic.id}}-section-break"></div>
         </section>
         <br>
-        <hr>
+        <hr class="topic-hr">
     {% endif %}
 
     <section id="{{topic.id}}" class="section sect-spacing">
@@ -11,17 +11,13 @@
 
     {% for subtopic in topic.subtopics %}
         {% if forloop.first == false %}                                
-                    <div id="{{subtopic.id}}"></div>
+                    <div id="{{subtopic.id}}" class="subtopic-spacer"></div>
                 </div>
             </div>
             </section>
             <br>
         {% else %} 
-            <div id="{{subtopic.id}}"></div>
-            <br>
-            <br>
-            <br>
-            <br>
+            <div id="{{subtopic.id}}" class="topic-spacer"></div>
         {% endif %}                            
             <section class="section">
                 <div class="row">
