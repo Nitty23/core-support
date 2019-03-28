@@ -20,10 +20,9 @@
   - title: Coming Soon
     subtopics:
       - subtitle: Content coming soon...
-        description: We will update this section with support material very soon.
         sections:
           - sectiontitle: Placeholder
-            para1: Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here.
+          - note: We will update this section with support material very soon.
             para2: Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here.
           - sectiontitle: Placeholder
             para1: Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here. Temporary text of a paragraph here.

@@ -160,22 +160,22 @@
     id: core-community
     subtopics:
       - title: Admin Management
-        id: 
+        id: admin-mangement
       - title: User Directory
-        id: 
+        id: user-directory
       - title: Org Directory
-        id: 
+        id: org-directory
 
   - title: Best Practices
     id: best-practices
     subtopics:
       - title: Headlines
-        id: 
+        id: head-lines
       - title: Photos and Images
-        id: 
+        id: photos-images
       - title: Styleguide
-        id: 
+        id: style-guide
       - title: SEO Tips
-        id: 
+        id: soe-tips
       - title: Page Navigation
-        id: 
+        id: page-nav
