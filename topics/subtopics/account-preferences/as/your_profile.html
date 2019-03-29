@@ -8,23 +8,28 @@ topictitle: Account Settings
 tohome: ../../../../
 ---
 
-<div class="main" role="main">
+
     {% assign datafile = site.data.ap_as_profile %}
     {% include header.html %}
-
-    <div class="container">
-
-        <div class="inner-container">
+    <div class="test-nav column large-3 medium-4 topics-pill-menu hide-for-small-only">
+        {% include subtopics_sidenav.html %} 
+    </div>
+    
+    <div class="main" role="main">
+    
+        <div class="container">
+    
+            <div class="inner-container">
                                 
             <div class="row topic-content-row">
                 <!-- First narrow nav column here -->
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                    {% include subtopics_sidenav.html %}  
+
                 </div>                               
                 <!-- Second wider content column here -->
                 <div class="column large-9 medium-8 small-12 topicspan">
                     <div class="topics-content">
-                        <a href="{{ page.tohome }}">CORE Support</a><span class="topnav-subtopic"> &gt; </span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}">{{ page.topictitle }}</a><span> &gt; </span><span class="topnav-subtopic">{{ page.title }}</span>
+                        <a href="{{ page.tohome }}">CORE Support</a><span class="topnav-subtopic"> &gt; </span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}">{{ page.topictitle }}</a><span class="topnav-subtopic"> &gt; </span><span class="topnav-subtopic">{{ page.title }}</span>
                         {% include subtopics.html %}
                     </div>
                 </div> <!-- End of Second column here -->
