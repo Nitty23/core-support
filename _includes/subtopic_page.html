@@ -1,37 +1,24 @@
---- 
-layout: topics 
-metatitle: U.S. Army CORE Support | Test Page
-title: Test Page
-area: account-prefs
-topicid: getting-started
-topictitle: Testing
-description: Testing for dev
-tohome: ../
----
 {% include header.html %}
-
-{% assign datafile = site.data.ap_gs_gloss %}
 <div class="main" role="main">
     <div class="container">
         <div class="inner-container">
-    
             <div class="row topicspan">
-                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">            
+
+                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
                     {% for topic in site.data.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                             <li>
-                                <a href="./#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
                                 <ul class="menu vertical nested">
                                     {% for subtopic in topic.subtopics %}
                                     <li>
-                                        <a href="./#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
                             </li>
                         </ul>
                     {% endfor %}
-        
                 </div>
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">

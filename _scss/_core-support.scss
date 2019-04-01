@@ -110,7 +110,7 @@ body {
 }
 
 .topicspan{
-    padding-left: 3%;
+    padding-top: 8%;
 }
 
 h3, h4, h5 {
@@ -144,7 +144,7 @@ section{
 }
 
 .sect-spacing{
-    padding-top: 15%;
+    padding-top: 14%;
 }
 
 .topic-spacer{
@@ -289,7 +289,9 @@ header{
 
 .topics-pill-menu{    
     font-size: 85%;
-    padding-top: 7%
+    position: fixed;
+    background-color: white;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .title-pill{
@@ -425,7 +427,7 @@ header{
 }
 
 .topics-content{
-    padding: 17% 5%;
+    padding: 0% 3%;
 }
 
 /*Support Cant Find Section*/
@@ -470,20 +472,18 @@ header{
 /*
 /*------------------------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 639px) {
     .topic-hr {
         margin-top: -6em;
         margin-bottom: -1em;
     }
   
     .topicspan{
-        width: unset !important;
-        margin-top: 30px;
-        padding-left: 3%;
+        padding-top: 8%;
     }
 
     .topics-content{
-        padding: 15% 5%;
+        padding: 0% 1%;
         margin-left: 0%;
         font-size: smaller;
     }
@@ -541,7 +541,7 @@ header{
     }
 
     .sect-spacing{
-        padding-top: 15%;
+        padding-top:0%;
     }
 
     .overlay-effect{
@@ -584,10 +584,17 @@ header{
     }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 769px) {
+@media screen and (max-width: 1200px) {
 
     .mobile-center{
-        text-align:center;
+        text-align: center;
     }
     
+    .topicspan{
+        padding-top: 9%;
+    }
+
+    .sect-spacing{
+        padding-top: 13%;
+    }
 }

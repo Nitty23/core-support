@@ -5,35 +5,4 @@ title: CORE Support Topic Page
 tohome: ../
 ---
 
-{% include header.html %}
-<div class="test-nav column large-3 medium-4 topics-pill-menu hide-for-small-only">
-    {% include topics_sidenav.html %}
-</div>
-
-<div class="main" role="main">
-
-    <div class="container">
-
-        <div class="inner-container"> 
-                                
-            <div class="row topic-content-row">
-                <!-- First narrow nav column here -->
-                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                    
-                </div>                               
-                <!-- Second wider content column here -->
-                <div class="column large-9 medium-8 topicspan">
-                    {% include topics.html %}   
-                </div> <!-- End of Second column here -->
-            </div>
-
-        </div> <!-- End of inner containter here -->
-        <div class="remove-space"></div>
-        {% include cantfind.html %}
-    </div> <!-- End of inner containter here -->
-
-</div> <!-- end of main -->
-    
-<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
-<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
-<script>$(document).foundation();</script>
+{% include topic_page.html %}
