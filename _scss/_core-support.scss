@@ -334,6 +334,17 @@ header{
     border-right-color: rgba(0, 0, 0, 0.1);
 }
 
+.menu{
+    background: white;
+
+    a{
+        color: black;
+        &:hover {
+            color: #fec325;
+        }
+    }
+}
+
 /*Support Homepage Topic Boxes*/
 /*------------------------------------------------------------------------*/
 

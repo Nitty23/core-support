@@ -1,8 +1,8 @@
   - title: Account Preferences
-    id: account-prefs
+    id: account-preferences
     subtopics:
       - title: Getting Started
-        id: getting-started
+        id: gs
         sections:
           - title: What is CORE?
             url: /account-preferences/gs/what_is.html

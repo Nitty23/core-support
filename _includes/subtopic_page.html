@@ -1,24 +1,32 @@
+
+{% assign suburl = page.url | split: "/" %}
 {% include header.html %}
+<div>{{ page.suburl }}</div>
 <div class="main" role="main">
     <div class="container">
         <div class="inner-container">
             <div class="row topicspan">
-
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
                     {% for topic in site.data.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-                            <li>
+                            <li>                                
                                 <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
                                 <ul class="menu vertical nested">
                                     {% for subtopic in topic.subtopics %}
-                                    <li>
-                                        <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
-                                    </li>
+                                        {% if subtopic.id == suburl[4] %}
+                                        <li class="is-active">
+                                            <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        </li>
+                                        {% else %}
+                                        <li>
+                                            <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        </li>
+                                        {% endif %}
                                     {% endfor %}
                                 </ul>
                             </li>
                         </ul>
-                    {% endfor %}
+                    {% endfor %}                    
                 </div>
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
