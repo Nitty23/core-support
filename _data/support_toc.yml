@@ -13,7 +13,7 @@
           - title: Log in to CORE
             url: /account-preferences/gs/log_in.html
       - title: Account Settings
-        id: account-settings
+        id: as
         sections:
           - title: Your Profile
             url: /account-preferences/as/your_profile.html
@@ -28,7 +28,7 @@
           - title: Google Analytics
             url: /account-preferences/as/google_analytics.html
       - title: Uploading Images
-        id: uploading-images
+        id: ui
         sections:
           - title: New Images
             url: /account-preferences/ui/new_img.html
@@ -41,7 +41,7 @@
     id: creating-content
     subtopics:
       - title: Writing Articles
-        id: writing-articles
+        id: wa
         sections: 
           - title: Create Articles
             url: /creating-content/wa/create_articles.html
@@ -62,7 +62,7 @@
           - title: Preview Articles
             url: /creating-content/wa/preview_articles.html
       - title: Article Images
-        id: article-images
+        id: ai
         sections: 
           - title: Editing Images
             url: /creating-content/ai/editing_img.html
@@ -71,7 +71,7 @@
           - title: Moving Images
             url: /creating-content/ai/moving_img.html
       - title: Managing Articles
-        id: managing-articles
+        id: ma
         sections: 
           - title: Page Traffic
             url: /creating-content/ma/page_traffic.html
@@ -90,7 +90,7 @@
           - title: Unpublished Articles
             url: /creating-content/ma/unpub_articles.html
       - title: Content Practices
-        id: content-practices
+        id: cp
         sections: 
           - title: Formatting Text
             url: /creating-content/cp/form_text.html
@@ -107,7 +107,7 @@
     id: page-management
     subtopics:
       - title: Page Settings
-        id: page-settings
+        id: ps
         sections: 
           - title: CORE Pages
             url: /page-management/ps/core_pages.html
@@ -128,7 +128,7 @@
           - title: Page FAQs
             url: /page-management/ps/page_faq.html
       - title: Page Layout
-        id: page-layouts
+        id: pl
         sections: 
           - title: Page Navigation
             url: /page-management/pl/page_nav.html
@@ -149,7 +149,7 @@
           - title: Delete a Content Section
             url: /page-management/pl/delete_a.html
       - title: Page Articles
-        id: page-articles
+        id: pa
         sections: 
           - title: Featured News Articles
             url: /page-management/pa/featured_news.html
@@ -160,22 +160,22 @@
     id: core-community
     subtopics:
       - title: Admin Management
-        id: admin-mangement
+        id: am
       - title: User Directory
-        id: user-directory
+        id: ud
       - title: Org Directory
-        id: org-directory
+        id: od
 
   - title: Best Practices
     id: best-practices
     subtopics:
       - title: Headlines
-        id: head-lines
+        id: hl
       - title: Photos and Images
-        id: photos-images
+        id: pi
       - title: Styleguide
-        id: style-guide
+        id: sg
       - title: SEO Tips
-        id: soe-tips
+        id: st
       - title: Page Navigation
-        id: page-nav
+        id: pn

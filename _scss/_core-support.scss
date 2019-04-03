@@ -295,8 +295,8 @@ header{
 }
 
 .title-pill{
-    color:black;
-    font-weight: 600;  
+    color:lighten(grey, 15%);
+    font-weight: 900;  
 }
 
 .secondary-pill{
@@ -320,9 +320,16 @@ header{
     margin: 5% !important;
 }
 
+.topnav-bread{
+    font-weight: bold;
+    color: black;
+    font-size: smaller;
+}
+
 .topnav-subtopic{
     font-weight: bold;
     color: gray;
+    font-size: smaller;
 }
 
 .test-nav{
@@ -334,15 +341,17 @@ header{
     border-right-color: rgba(0, 0, 0, 0.1);
 }
 
-.menu{
-    background: white;
 
-    a{
-        color: black;
-        &:hover {
-            color: #fec325;
-        }
-    }
+
+.is-active{
+    color: #fec325 !important;
+    font-weight: bold; 
+    display: block !important
+}
+
+.is-active-parent{
+    color: black !important;
+    font-weight: bold !important;
 }
 
 /*Support Homepage Topic Boxes*/

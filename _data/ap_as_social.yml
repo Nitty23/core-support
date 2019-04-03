@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash ie '-'.
 # 3)  Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#account-settings">Account Settings</a>
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#as">Account Settings</a>
 # 6) DO NOT USE ':' in any text or titles of keys or values except urls
 # 7) Code Assumption - Titles are always ordered first, with content following, with only one title per level.
 # 8) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.

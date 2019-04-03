@@ -7,15 +7,22 @@
         <div class="inner-container">
             <div class="row topicspan">
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                    {% for topic in site.data.support_toc %}
-                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-                            <li>                                
-                                <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
-                                <ul class="menu vertical nested">
+                        {% for topic in site.data.support_toc %}
+                            {% if topic.id == suburl[3] %}
+                                <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                                    <li>                                
+                                        <a href="../../../#{{ topic.id }}" class="is-active-parent title-pill">{{ topic.title }}</a>
+                                        <ul class="menu vertical nested is-active">
+                            {% else %}
+                                <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                                    <li>                                
+                                        <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                        <ul class="menu vertical nested">
+                            {% endif %}
                                     {% for subtopic in topic.subtopics %}
                                         {% if subtopic.id == suburl[4] %}
-                                        <li class="is-active">
-                                            <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        <li>
+                                            <a href="../../../#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
                                         </li>
                                         {% else %}
                                         <li>
@@ -26,12 +33,12 @@
                                 </ul>
                             </li>
                         </ul>
-                    {% endfor %}                    
+                    {% endfor %}                  
                 </div>
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
-                        <a href="{{ page.tohome }}">CORE Support</a><span class="topnav-subtopic"> &gt; </span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}">{{ page.topictitle }}</a><span class="topnav-subtopic"> &gt; </span><span class="topnav-subtopic">{{ page.title }}</span>
+                        <a href="{{ page.tohome }}" class="topnav-bread">CORE Support</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
                         {% include subtopics.html %}
                     </div>
                 </div> <!-- End of Second column here -->
@@ -47,3 +54,35 @@
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
 <script>$(document).foundation();</script>
+
+<!-- 
+                    {% for topic in site.data.support_toc %}
+                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                            <li>
+                                {% for subtopic in topic.subtopics %}
+                                    {% if subtopic.id == suburl[4] %}
+                                        {% assign topictest == true %}
+                                    {% endif %}
+                                    {% if topictest == true %}
+                                        <a href="../../../#{{ topic.id }}" class="title-pill is-active-parent">{{ topic.title }}</a>
+                                        <ul class="menu vertical nested is-active">
+                                    {% else  %}
+                                        <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                        <ul class="menu vertical nested">
+                                    {% endif %}
+                                {% endfor %}
+                                {% for subtopic in topic.subtopics %}
+                                    {% if subtopic.id == suburl[4] %}
+                                            <li>
+                                                <a href="../../../#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
+                                            </li>
+                                    {% else  %}
+                                            <li>
+                                                <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                            </li>
+                                    {% endif %}
+                                {% endfor %}
+                                </ul>
+                            </li>
+                        </ul>
+                    {% endfor %}  -->
