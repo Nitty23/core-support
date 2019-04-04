@@ -24,7 +24,7 @@ phases:
         - git submodule init
         - git submodule update --recursive
         - git submodule foreach git pull origin master
-        - sudo ln -s ./armydotmil.github.io/_scss ./_scss/globals
+        - sudo ln -s /armydotmil.github.io/_scss /_scss/globals
         - echo "******** Run Pre Task ********"
         - grunt production
         - echo "******** Building Jekyll site ********"
@@ -41,7 +41,7 @@ phases:
         - git submodule init
         - git submodule update --recursive
         - git submodule foreach git pull origin master
-        - sudo ln -s ./armydotmil.github.io/_scss ./_scss/globals
+        - sudo ln -s /armydotmil.github.io/_scss /_scss/globals
         - echo "******** Run Pre Task ********"
         - grunt production
         - echo "******** Building Jekyll site ********"
