@@ -1,0 +1,31 @@
+{% for topic in site.data.support_toc %}
+    <section class="scroll-container section">
+        <div class="anchor">
+            <a id="{{topic.id}}"> </a>
+            <h3 class="area-title">{{ topic.title }}</h3>
+        </div>    
+    {% for subtopic in topic.subtopics %}
+            <div class="row">
+                <div class="column large-12 anchor">
+                    <a id="{{subtopic.id}}"> </a>
+                    <span class="topics-title">{{ subtopic.title }}</span>
+                </div>
+            </div>               
+        {% for section in subtopic.sections %}              
+            <div class="row">
+                <div class="column large-12">
+                    <a class="topic-link" href="./subtopics{{ section.url }}">{{ section.title }}</a>
+                </div>
+            </div>
+        {% endfor %}
+        {% if forloop.last == false %}
+            <br>
+            <br>
+        {% endif %}    
+    {% endfor %}
+    {% if forloop.last == false %}
+        <div class="topic-spacer">
+        </div>
+        <hr class="topic-hr">
+    {% endif %}
+{% endfor %}

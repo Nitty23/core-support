@@ -1,0 +1,40 @@
+{% include header.html %}
+<div class="main" role="main">
+    <div class="container">
+        <div class="inner-container">
+            <div class="row topicspan">
+
+                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+                    {% for topic in site.data.support_toc %}
+                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                            <li>                                
+                                <a href="./#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                <ul class="menu vertical nested">
+                        {% for subtopic in topic.subtopics %}  
+                                    <li>
+                                        <a href="./#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                    </li>
+                        {% endfor %}
+                                </ul>
+                            </li>
+                        </ul>
+                    {% endfor %}                  
+                </div>
+
+                <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
+                    <div class="topics-content">
+                        {% include topics.html %}
+                    </div>
+                </div> <!-- End of Second column here -->
+            </div>
+        </div> <!-- End of inner containter here -->
+        <div class="remove-space"></div>
+        {% include cantfind.html %}
+    </div> <!-- End of outer containter here -->
+</div> <!-- end of main -->
+
+
+
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
+<script>$(document).foundation();</script>

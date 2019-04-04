@@ -8,6 +8,7 @@ phases:
         - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
         - apt-get install -y nodejs
         - gem install bundler
+        - gem list bundle
         - bundle install
         - npm install
         - npm install -g grunt-cli
@@ -30,9 +31,9 @@ phases:
         - echo "******** Run Post Task ********"
         - grunt post-production
         - echo "******** Uploading to S3 ********"
-        - aws s3 sync _site/ s3://$S3_BUCKET_0/acft --exclude "e2/*"
-        - aws s3 sync _site/e2/js/rv7/acft s3://$S3_BUCKET_0/e2/js/rv7/acft
-        - aws s3 sync _site/e2/css/rv7/acft s3://$S3_BUCKET_0/e2/css/rv7/acft
+        - aws s3 sync _site/ s3://$S3_BUCKET_0/core-support --exclude "e2/*"
+        - aws s3 sync _site/e2/js/rv7/core-support s3://$S3_BUCKET_0/e2/js/rv7/core-support
+        - aws s3 sync _site/e2/css/rv7/core-support s3://$S3_BUCKET_0/e2/css/rv7/core-support
         - echo "******** CHANGE BRANCH ********"
         - git checkout $GIT_BRANCH_1
         - echo "******** UPDATE SUBMODULE ********"
@@ -46,6 +47,6 @@ phases:
         - echo "******** Run Post Task ********"
         - grunt post-production
         - echo "******** Uploading to S3 ********"
-        - aws s3 sync _site/ s3://$S3_BUCKET_1/acft  --exclude "e2/*"
-        - aws s3 sync _site/e2/js/rv7/acft s3://$S3_BUCKET_1/e2/js/rv7/acft
-        - aws s3 sync _site/e2/css/rv7/acft s3://$S3_BUCKET_1/e2/css/rv7/acft
+        - aws s3 sync _site/ s3://$S3_BUCKET_1/core-support  --exclude "e2/*"
+        - aws s3 sync _site/e2/js/rv7/core-support s3://$S3_BUCKET_1/e2/js/rv7/core-support
+        - aws s3 sync _site/e2/css/rv7/core-support s3://$S3_BUCKET_1/e2/css/rv7/core-support

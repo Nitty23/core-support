@@ -13,32 +13,8 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        critical: {
-            test: {
-                options: {
-                    inline: true,
-                    minify: true,
-                    base: './',
-                    css: [
-                        '_site/e2/css/rv7/core-support/style.css'
-                    ],
-                    dimensions: [{
-                        height: 768,
-                        width: 1366
-                    }, {
-                        height: 640,
-                        width: 360
-                    }, {
-                        height: 568,
-                        width: 320
-                    }]
-                },
-                src: './_site/index.html',
-                dest: './_site/index.html'
-            }
-        },
         browserify: {
-            acft: {
+            libs: {
                 files: {
                     '_js/bundled/core-support.js': [configs, '_js/core-support.js']
                 },
@@ -87,7 +63,6 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-critical');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-browserify');
@@ -95,6 +70,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('production', ['browserify', 'uglify', 'sass']);
 
-    grunt.registerTask('post-production', ['usebanner', 'critical']);
+    grunt.registerTask('post-production', ['usebanner']);
 
 };

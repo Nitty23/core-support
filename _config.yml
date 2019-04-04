@@ -2,18 +2,15 @@ encoding: utf-8
 
 env: production
 
-exclude: ['package-lock.json','rss.xml','copy','buildspec.yml', 'Gemfile','Gemfile.lock','Gruntfile.js', 'package.json', 'readme.md', 'sftpCache.json' ,'node_modules','us-army-homepage','armydotmil.github.io']
+exclude: ['buildspec.yml','package-lock.json','Gemfile', 'Gemfile.lock', 'Gruntfile.js', 'package.json', 'readme.md', 'README.md', 'sftpCache.json' ,'node_modules','armydotmil.github.io' ]
     
 plugins:
   - octopress-minify-html
-  - octopress-autoprefixer
-  - jekyll-minifier
   
 sass:
   sass_dir: _scss
   style: compressed
-  
-jekyll-minifier:
-  exclude: ['*.html','*.css','*.scss']
 
-title: acft
+title: Core-Support
+
+collections_dir: _topics
