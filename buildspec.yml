@@ -22,8 +22,9 @@ phases:
         - echo "******** CHANGE BRANCH ********"
         - git checkout $GIT_BRANCH_0
         - echo "******** UPDATE SUBMODULE ********"
+        - git submodule add https://github.com/armydotmil/armydotmil.github.io.git
         - git submodule init
-        - git submodule update
+        - git submodule update --recursive
         - git submodule foreach git pull origin master
         - echo "******** Run Pre Task ********"
         - grunt production
@@ -38,8 +39,9 @@ phases:
         - echo "******** CHANGE BRANCH ********"
         - git checkout $GIT_BRANCH_1
         - echo "******** UPDATE SUBMODULE ********"
+        - git submodule add https://github.com/armydotmil/armydotmil.github.io.git
         - git submodule init
-        - git submodule update
+        - git submodule update --recursive
         - git submodule foreach git pull origin master
         - echo "******** Run Pre Task ********"
         - grunt production
