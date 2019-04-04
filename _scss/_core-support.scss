@@ -103,6 +103,16 @@ body {
     margin-top: 0em;
 }
 
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -160px;
+}
+
+.anchor {
+    position: relative;
+}
+
 .topic-center-row{
     display: flex;
     justify-content: center;
@@ -148,7 +158,7 @@ section{
 }
 
 .topic-spacer{
-    padding-bottom: 7.2em;
+    padding-bottom: 1em;
 }
 
 .subtopic-spacer{
@@ -156,8 +166,6 @@ padding-bottom: 3.6em;
 }
 
 .topic-hr{
-    margin-top: -7em;
-    margin-bottom: -3em;
     border-top-color: transparent;
 }
 
@@ -447,7 +455,7 @@ header{
 }
 
 .topics-content{
-    padding: 0% 3%;
+    padding: 0% 0%;
 }
 
 /*Support Cant Find Section*/
