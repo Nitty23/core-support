@@ -113,10 +113,17 @@ body {
     position: relative;
 }
 
+.masthead-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white;
+}
+
 .topic-center-row{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: 600;
 }
 
 .topicspan{
@@ -139,6 +146,9 @@ h3:after, h4:after, h5:after {
 
 .support-text-centered{
     text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+    color: #7D828C;
 }
 
 section{
@@ -365,25 +375,47 @@ header{
 /*Support Homepage Topic Boxes*/
 /*------------------------------------------------------------------------*/
 
-.supp-topic-box{
-    border: 1px solid lightgray;
+.topic-box{
+    display: block;
+    position: relative;
+    overflow: hidden;
     padding: 30px;
-    min-height: 15em;
+    border: solid 1px rgba(75,86,100,0.2);
+    height: 240px;
+}
+
+a:hover.topic-box{
+    box-shadow: 0 5px 15px rgba(75,86,100,1);
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    text-decoration: none;
 }
 .supp-topic-icon-box{
     padding-bottom: 10%;
     text-align: center;
 }
 .supp-topic-icon{
-    vertical-align: middle;
     color: #fec325;
     font-size: 350%;
     text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    max-width: 100%;
+    display: block;
 }
 
 .supp-topic-title{
     color: #fec325;
     text-align: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-bottom: 1em;
 }
 
 .area-title{
