@@ -49,39 +49,13 @@
 </div> <!-- end of main -->
 
 
-
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
 <script>$(document).foundation();</script>
-
-<!-- 
-                    {% for topic in site.data.support_toc %}
-                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-                            <li>
-                                {% for subtopic in topic.subtopics %}
-                                    {% if subtopic.id == suburl[4] %}
-                                        {% assign topictest == true %}
-                                    {% endif %}
-                                    {% if topictest == true %}
-                                        <a href="../../../#{{ topic.id }}" class="title-pill is-active-parent">{{ topic.title }}</a>
-                                        <ul class="menu vertical nested is-active">
-                                    {% else  %}
-                                        <a href="../../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
-                                        <ul class="menu vertical nested">
-                                    {% endif %}
-                                {% endfor %}
-                                {% for subtopic in topic.subtopics %}
-                                    {% if subtopic.id == suburl[4] %}
-                                            <li>
-                                                <a href="../../../#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
-                                            </li>
-                                    {% else  %}
-                                            <li>
-                                                <a href="../../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
-                                            </li>
-                                    {% endif %}
-                                {% endfor %}
-                                </ul>
-                            </li>
-                        </ul>
-                    {% endfor %}  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.accordion-menu').click(function(e){
+        $('.accordion-menu').not($(this)).foundation('hideAll');
+        });
+    });
+</script>
