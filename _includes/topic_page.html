@@ -43,5 +43,8 @@
         $('.accordion-menu').click(function(e){
         $('.accordion-menu').not($(this)).foundation('hideAll');
         });
+        $('.title-pill').click(function(e){
+        $(this.parentElement.parentElement).foundation('showAll');
+        });
     });
 </script>

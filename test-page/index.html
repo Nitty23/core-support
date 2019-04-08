@@ -7,6 +7,7 @@ topicid: gs
 topictitle: Testing
 description: Testing for dev
 tohome: ../
+sectnav: ./
 ---
 {% include header.html %}
 
@@ -19,89 +20,89 @@ tohome: ../
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
                     <ul class="vertical menu accordion-menu"  data-accordion-menu data-submenu-toggle="true">
                         <li>
-                            <a href="../../../#account-preferences" class="title-pill">Account Preferences</a>
+                            <a href="{{page.sectnav}}#account-preferences" class="title-pill">Account Preferences</a>
                             <ul class="menu vertical nested">
                                 <li>
-                                    <a href="../../../#gs" class="secondary-pill">Getting Started</a>
+                                    <a href="{{page.sectnav}}#gs" class="secondary-pill">Getting Started</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#as" class="secondary-pill">Account Settings</a>
+                                    <a href="{{page.sectnav}}#as" class="secondary-pill">Account Settings</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#ui" class="secondary-pill">Uploading Images</a>
+                                    <a href="{{page.sectnav}}#ui" class="secondary-pill">Uploading Images</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                         <li>
-                            <a href="../../../#creating-content" class="title-pill">Creating Content</a>
+                            <a href="{{page.sectnav}}#creating-content" class="title-pill">Creating Content</a>
                             <ul class="menu vertical nested">
                                 <li>
-                                    <a href="../../../#wa" class="secondary-pill">Writing Articles</a>
+                                    <a href="{{page.sectnav}}#wa" class="secondary-pill">Writing Articles</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#ai" class="secondary-pill">Article Images</a>
+                                    <a href="{{page.sectnav}}#ai" class="secondary-pill">Article Images</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#ma" class="secondary-pill">Managing Articles</a>
+                                    <a href="{{page.sectnav}}#ma" class="secondary-pill">Managing Articles</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#cp" class="secondary-pill">Content Practices</a>
+                                    <a href="{{page.sectnav}}#cp" class="secondary-pill">Content Practices</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="vertical menu accordion-menu""  data-accordion-menu data-submenu-toggle="true">
                         <li>
-                            <a href="../../../#page-management" class="title-pill">Page Management</a>
+                            <a href="{{page.sectnav}}#page-management" class="title-pill">Page Management</a>
                             <ul class="menu vertical nested">
                                 <li>
-                                    <a href="../../../#ps" class="secondary-pill">Page Settings</a>
+                                    <a href="{{page.sectnav}}#ps" class="secondary-pill">Page Settings</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#pl" class="secondary-pill">Page Layout</a>
+                                    <a href="{{page.sectnav}}#pl" class="secondary-pill">Page Layout</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#pa" class="secondary-pill">Page Articles</a>
+                                    <a href="{{page.sectnav}}#pa" class="secondary-pill">Page Articles</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="vertical menu accordion-menu"  data-accordion-menu data-submenu-toggle="true">
                         <li>
-                            <a href="../../../#core-community" class="title-pill">Core Community</a>
+                            <a href="{{page.sectnav}}#core-community" class="title-pill">Core Community</a>
                             <ul class="menu vertical nested">
                                 <li>
-                                    <a href="../../../#am" class="secondary-pill">Admin Management</a>
+                                    <a href="{{page.sectnav}}#am" class="secondary-pill">Admin Management</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#ud" class="secondary-pill">User Directory</a>
+                                    <a href="{{page.sectnav}}#ud" class="secondary-pill">User Directory</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#od" class="secondary-pill">Org Directory</a>
+                                    <a href="{{page.sectnav}}#od" class="secondary-pill">Org Directory</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                         <li>
-                            <a href="../../../#best-practices" class="title-pill">Best Practices</a>
+                            <a href="{{page.sectnav}}#best-practices" class="title-pill">Best Practices</a>
                             <ul class="menu vertical nested">
                                 <li>
-                                    <a href="../../../#hl" class="secondary-pill">Headlines</a>
+                                    <a href="{{page.sectnav}}#hl" class="secondary-pill">Headlines</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#pi" class="secondary-pill">Photos and Images</a>
+                                    <a href="{{page.sectnav}}#pi" class="secondary-pill">Photos and Images</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#sg" class="secondary-pill">Styleguide</a>
+                                    <a href="{{page.sectnav}}#sg" class="secondary-pill">Styleguide</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#st" class="secondary-pill">SEO Tips</a>
+                                    <a href="{{page.sectnav}}#st" class="secondary-pill">SEO Tips</a>
                                 </li>
                                 <li>
-                                    <a href="../../../#pn" class="secondary-pill">Page Navigation</a>
+                                    <a href="{{page.sectnav}}#pn" class="secondary-pill">Page Navigation</a>
                                 </li>
                             </ul>
                         </li>
@@ -130,6 +131,9 @@ tohome: ../
 $(document).ready(function(){
     $('.accordion-menu').click(function(e){
       $('.accordion-menu').not($(this)).foundation('hideAll');
+    });
+    $('.title-pill').click(function(e){
+      $(this.parentElement.parentElement).foundation('showAll');
     });
 });
 </script>
