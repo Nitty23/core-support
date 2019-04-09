@@ -3,27 +3,28 @@
 # topic\                     (ie Getting Started)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie CORE is intented for)
+#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
 # Rules & Assumptions- 
 #
 # 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash ie '-'.
-# 3)  Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
+# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#as">Account Settings</a>
-# 6) DO NOT USE ':' in any text or titles of keys or values except urls
-# 7) Code Assumption - Titles are always ordered first, with content following, with only one title per level.
-# 8) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
-# 9) Code Assumption - Notes and Learn sections can only have one "part".
-# 0) Code Assumption - Itemlists can only exist on the 3rd level "section", with items as "parts" on the 4th level.
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
+# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
+# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
+# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Account Settings
     subtopics:
       - subtitle: Email Preferences
-        para1: Your Account Settings page allows you to add or change email addresses, as well as change your email notifications.
-        para2: By default, your primary email is set to your @mail.mil email address. This cannot be changed or deleted. However, you can add a secondary email address. Both addresses will appear in your profile, but email notifications will only be sent to your primary email.
         sections:
+          - sectiontitle:
+            para1: Your Account Settings page allows you to add or change email addresses, as well as change your email notifications.
+            para2: By default, your primary email is set to your @mail.mil email address. This cannot be changed or deleted. However, you can add a secondary email address. Both addresses will appear in your profile, but email notifications will only be sent to your primary email.
           - sectiontitle: Add a new email address    
             para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
             para2: 2) From the Profile tab, enter your secondary email address.

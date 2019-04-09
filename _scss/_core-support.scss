@@ -474,6 +474,13 @@ a:hover.topic-box{
     padding-left: 6%;
 }
 
+.num-item{
+    display: list-item; 
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 6%;
+}
+
 .topic-text-learn{
     background-color: lightyellow;
     color: darkblue;

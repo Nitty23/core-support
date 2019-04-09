@@ -3,46 +3,54 @@
 # topic\                     (ie Getting Started)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie CORE is intented for)
+#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
 # Rules & Assumptions- 
 #
 # 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash ie '-'.
-# 3)  Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
+# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#as">Account Settings</a>
-# 6) DO NOT USE ':' in any text or titles of keys or values except urls
-# 7) Code Assumption - Titles are always ordered first, with content following, with only one title per level.
-# 8) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
-# 9) Code Assumption - Notes and Learn sections can only have one "part".
-# 0) Code Assumption - Itemlists can only exist on the 3rd level "section", with items as "parts" on the 4th level.
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
+# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
+# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
+# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Getting Started
     subtopics:
       - subtitle: Roles and Permissions
-        description: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
         sections:
+          - sectiontitle:
+            description: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
           - sectiontitle: TYPE OF ROLES
-          - paratitle: Contributor
+            paratitle: Contributor
             para1: Contributors have access to standard features, like creating stories and uploading files to CORE. They must submit all draft content to an Editor for review, prior to release. However, they can retract and delete their own content. This is the default role for new CORE members or users that are transitioning to a new organization.
-          - paratitle: Releasing Contributor
+          - sectiontitle:
+            paratitle: Releasing Contributor
             para1: Releasing Contributors have access to the same standard features as a Contributor, but they have authority to release their own content.
-          - paratitle: Editor
+          - sectiontitle:
+            paratitle: Editor
             para1: Editors can edit, release and retract articles from all users within their organization. They can permanently delete their own articles, but not team members’ content.
-          - Note: Only the original creator can permanently delete a package from CORE. 
-          - paratitle: Publisher
+            note: Only the original creator can permanently delete a package from CORE. 
+          - sectiontitle:
+            paratitle: Publisher
             para1: Publishers have access to managing all aspects of their organization’s content and webpage. This includes updating metadata, social media, and contact information, as well as adding content elements (e.g. news lists, video players, and leader boxes).
           - paratitle: Administrators
             para1: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <strong>Owner</strong>.
-          - Note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
-          - paratitle: Owners
+            note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
+          - sectiontitle:
+            paratitle: Owners
             para1: An owner is the sole user responsible for a CORE organization. They control all of the same management and settings as administrators, but owners also have the ability to delete the organization and transfer ownership to a new user.
-          - paratitle: 
+          - sectiontitle:
+            paratitle: 
             para1: There are two additional roles you should know about. <strong>Master Editor</strong> and <strong>CORE Administrators</strong>. They are roles reserved for HQDA-level personnel and manage all users and organizations in CORE.
-          - paratitle: Master Editor
+          - sectiontitle:
+            paratitle: Master Editor
             para1: Master Editors have access to edit and release content from any user within CORE. This role does not have any administrative access to users, pages or organizations.
-          - paratitle: Super Admin
+          - sectiontitle:
+            paratitle: Super Admin
             para1: Super Admin control the highest-level security and administrative settings for all CORE users, pages and organizations. This role is reserved for Army.mil Web team and Digital Media Division personnel to assist with support to the entire CORE community.
           - sectiontitle: ROLES AND PERMISSIONS
             para1: Read the table below to see more of what each role can do.

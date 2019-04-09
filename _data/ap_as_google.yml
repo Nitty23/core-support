@@ -3,26 +3,27 @@
 # topic\                     (ie Getting Started)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie CORE is intented for)
+#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
 # Rules & Assumptions- 
 #
 # 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash ie '-'.
-# 3)  Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
+# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/ap-page/#as">Account Settings</a>
-# 6) DO NOT USE ':' in any text or titles of keys or values except urls
-# 7) Code Assumption - Titles are always ordered first, with content following, with only one title per level.
-# 8) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
-# 9) Code Assumption - Notes and Learn sections can only have one "part".
-# 0) Code Assumption - Itemlists can only exist on the 3rd level "section", with items as "parts" on the 4th level.
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
+# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
+# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
+# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Account Settings
     subtopics:
       - subtitle: Google Analytics
-        para1: Google Analytics is a free web analytics tool that generates detailed statistics on a website. All content released from CORE to <a href="http://www.army.mil">www.army.mil</a> is automatically connected to Google Analytics, allowing you to track article pageviews and basic traffic data through your Released Inbox.
         sections:
+          - sectiontitle:
+            para1: Google Analytics is a free web analytics tool that generates detailed statistics on a website. All content released from CORE to <a href="http://www.army.mil">www.army.mil</a> is automatically connected to Google Analytics, allowing you to track article pageviews and basic traffic data through your Released Inbox.
           - sectiontitle: 
             learn: <a class="underline-link" href="#">Learn more about tracking article page traffic in CORE</a>
             para1: If you want to dive deeper into metrics, you can connect your articles to Google Analytics for visitor tracking and other reporting. CORE also offers Google Analytics integration, giving you access to track data on all articles that you create directly from a personal Google Analytics account.
@@ -37,6 +38,7 @@
             para2: Your Google Analytics tracking ID will automatically appear in the Advanced Settings section of every article that you create. Once an article is released, you will be able to monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your personal Google Analytics account. 
             image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
             para3: It can take up to 24 hours for data to appear in your reports. However, you can <a href="https://support.google.com/analytics/answer/1008083">check your web-tracking </a> setup immediately.
-          - note: This tracking ID is associated with your CORE account. If it is changed in your Advanced Settings (e.g. because you move to a new organization), then the tracking ID will change on all of your old articles.
-          - note2: If your Google Analytics account was set-up to track content from your entire organization, please contact your administrator to ensure the tracking ID is added to your organization information on My Organization page. This will ensure your content is association with the appropriate organization, even if you move to a new team. 
-          - learn: <a href="#">Learn how to connect your organization to Google Analytics.</a>
+            note: This tracking ID is associated with your CORE account. If it is changed in your Advanced Settings (e.g. because you move to a new organization), then the tracking ID will change on all of your old articles.
+          - sectiontitle: 
+            note: If your Google Analytics account was set-up to track content from your entire organization, please contact your administrator to ensure the tracking ID is added to your organization information on My Organization page. This will ensure your content is association with the appropriate organization, even if you move to a new team. 
+            learn: <a href="#">Learn how to connect your organization to Google Analytics.</a>
