@@ -17,3 +17,6 @@ collections_dir: _topics
 
 jekyll-minifier:
   exclude: ['*.html','*.css','*.scss']
+
+gems:
+  - jekyll-last-modified-at

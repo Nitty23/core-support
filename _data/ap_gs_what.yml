@@ -24,7 +24,7 @@
         sections:
           - sectiontitle:
             video: <img src="/e2/images/rv7/core-support/videoplaceholder.jpg">
-            description: Welcome to <a href="/">CORE Support</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
+            description: Welcome to <a href="../../../../">CORE Support</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
             para1: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences.
           - sectiontitle: Who is eligible for a CORE Account?
             itemlist:
@@ -46,7 +46,7 @@
                 three: Editor(s)
                 four: Contributor(s)
           - sectiontitle:
-            learn: <a class="underline-link" href="/ap-page/#gs">Roles and permissions in CORE</a>
+            learn: <a class="underline-link" href="./roles_and.html">Roles and permissions in CORE</a>
           - sectiontitle: Content Approval Process
             image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
             para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your Inbox, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.

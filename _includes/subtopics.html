@@ -9,7 +9,7 @@
                 {% case type %}
                     {% when 'subtitle' %}
                         <span class="topic-title"><b>{{ item[1] }}</b></span>
-                        <p class="topic-subtext">Last updated September 18, 2018(PLACEHOLDER)</p>
+                        <p class="topic-subtext">Last updated {{ page.last_modified_at | date: '%B %d, %Y' }}</p>
                     {% when 'sections' %}
                     {% for section in subtopic.sections %}
                         {% for part in section %}

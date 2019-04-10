@@ -25,40 +25,44 @@
           - sectiontitle:
             para1: Your Account Settings page allows you to add or change email addresses, as well as change your email notifications.
             para2: By default, your primary email is set to your @mail.mil email address. This cannot be changed or deleted. However, you can add a secondary email address. Both addresses will appear in your profile, but email notifications will only be sent to your primary email.
-          - sectiontitle: Add a new email address    
-            para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
-            para2: 2) From the Profile tab, enter your secondary email address.
-            para3: 3) Click Save at the top-right corner of the page.
-
-          - sectiontitle: Remove an email address
-            para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
-            para2: 2) From the Profile tab, click the (X icon) to the right of your secondary email address.
-            para3: 3) Click Save at the top-right corner of the page.
-          - note: Your @mail.mil email address cannot be changed or deleted.
-
-          - sectiontitle: Add a new email address    
-            para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
-            para2: 2) Click on the Notifications tab.
-            para3: 3) Adjust your email preferences by clicking the On or Off toggle buttons.
-            para4: 4) Click Save at the top-right corner of the page.
+          - sectiontitle:
+            numlist:  
+              - listname: <strong>Add a new email address</strong>
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
+                two: From the <strong>Profile</strong> tab, enter your secondary email address.
+                three: Click <strong>Save</strong> at the top-right corner of the page.
+          - sectiontitle:
+            numlist:  
+              - listname: <strong>Remove an email address</strong>
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
+                two: From the <strong>Profile</strong> tab, click the (X icon) to the right of your secondary email address.
+                three: Click <strong>Save</strong> at the top-right corner of the page.
+            note: Your @mail.mil email address cannot be changed or deleted.
+          - sectiontitle:
+            numlist:  
+              - listname: <strong>Change email notifications</strong>
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
+                two: Click on the Notifications tab.
+                three: Adjust your email preferences by clicking the <strong>On</strong> or <strong>Off</strong> toggle buttons.
+                four: Click <strong>Save</strong> at the top-right corner of the page.
 
           - sectiontitle: After Launch Updates (DON’T ADD NOW)
           - sectiontitle: Change primary email address
             itemlist:
               - listname: Type of email notifications
-                one: Inbox notifications":" emails about your articles 
-                two: Inbox notifications (for editors)":" emails when new articles are submitted for review
-                three: Page notifications":" emails about your organization page
-                four: New Follower notifications":" when a CORE user follows your content
-                five: Following":" new articles released by users and organizations that you follow
-                six: Tagged content":" top stories curated around specific topics (tags) that you follow.
+                one: Inbox notifications - emails about your articles 
+                two: Inbox notifications (for editors) - emails when new articles are submitted for review
+                three: Page notifications - emails about your organization page
+                four: New Follower notifications - when a CORE user follows your content
+                five: Following - new articles released by users and organizations that you follow
+                six: Tagged content - top stories curated around specific topics (tags) that you follow.
                 seven: Army Headquarters notifications
-                eight: Blog/Product announcements":" news about CORE features, best practices or questions related to user research
-                nine: All email":" Turn off all non-administrative emails from CORE.
+                eight: Blog/Product announcements - news about CORE features, best practices or questions related to user research
+                nine: All email - Turn off all non-administrative emails from CORE.
 
           - sectiontitle: Notifications that you can’t turn off
             itemlist:
-              - listname: Team Management notifications":" emails related to your organization (If you are an admin, these are actions that affect other users in your team. If you are a team member, these are actions performed by your Admin or a Super Admin that change your account.)
+              - listname: Team Management notifications - emails related to your organization (If you are an admin, these are actions that affect other users in your team. If you are a team member, these are actions performed by your Admin or a Super Admin that change your account.)
                 one: Invitations/requests to join a team 
                 two: Role change
                 three: Removal from team

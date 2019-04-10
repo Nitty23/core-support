@@ -38,7 +38,7 @@
             paratitle: Publisher
             para1: Publishers have access to managing all aspects of their organization’s content and webpage. This includes updating metadata, social media, and contact information, as well as adding content elements (e.g. news lists, video players, and leader boxes).
           - paratitle: Administrators
-            para1: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <strong>Owner</strong>.
+            para1: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <i>Owner</i>.
             note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
           - sectiontitle:
             paratitle: Owners
