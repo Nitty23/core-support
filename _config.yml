@@ -6,6 +6,7 @@ exclude: ['buildspec.yml','package-lock.json','Gemfile', 'Gemfile.lock', 'Gruntf
     
 plugins:
   - octopress-minify-html
+  - jekyll-last-modified-at
   
 sass:
   sass_dir: _scss
@@ -17,6 +18,3 @@ collections_dir: _topics
 
 jekyll-minifier:
   exclude: ['*.html','*.css','*.scss']
-
-gems:
-  - jekyll-last-modified-at
