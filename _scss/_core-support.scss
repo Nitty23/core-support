@@ -354,17 +354,6 @@ header{
     font-size: smaller;
 }
 
-.test-nav{
-    z-index: 3;
-    position: fixed;
-    margin-left: 18.75%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: rgba(0, 0, 0, 0.1);
-}
-
-
-
 .is-active{
     color: #fec325 !important;
     font-weight: bold; 
@@ -384,7 +373,7 @@ header{
     position: relative;
     overflow: hidden;
     padding: 30px;
-    border: solid 1px rgba(75,86,100,0.2);
+    border: solid 1px #ccc;
     height: 240px;
 }
 
