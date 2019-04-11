@@ -310,26 +310,29 @@ header{
 /*Support Top & SideNav*/
 /*------------------------------------------------------------------------*/
 
-.topics-pill-menu{    
-    font-size: 85%;
+.topics-pill-menu{
     position: fixed;
     background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .title-pill{
-    color:lighten(grey, 15%);
-    font-weight: 900;  
+    color:#252525;
+    font-weight: 900;
+    font-size: 1.125em;
+    white-space: nowrap;
+
 }
 
 .secondary-pill{
-    color:#727365;
+    color:#666666;
     font-weight: 400;
     border-left-style: solid;
     border-left-color: #fec325;
     border-left-width: 4px;
     white-space: nowrap;
     display: flex;
+    font-size: 1.125em;
 }
 
 .submenu-toggle{
@@ -375,7 +378,7 @@ header{
     overflow: hidden;
     padding: 30px;
     border: solid 1px #ccc;
-    height: 240px;
+    height: 250px;
 }
 
 a:hover.topic-box{
@@ -484,11 +487,13 @@ a:hover.topic-box{
 .topic-link{
     font-weight: 600;
     font-size: 1em;
-    color: #858687;
+    color: #252525;
+    font-family: 'Overpass';
+    font-weight: normal;
 }
 
 .topics-content{
-    padding: 0% 0%;
+    padding-left: 4%;
 }
 
 /*Support Cant Find Section*/
@@ -538,14 +543,21 @@ a:hover.topic-box{
         margin-top: 0em;
         margin-bottom: 1em;
     }
+
+    .topic-box{
+        height: 277px !important;
+        width: 140% !important;
+        margin-left: -20% !important;
+    }
   
     .topicspan{
-        padding-top: 8%;
+        padding-top: 10% !important;
     }
 
     .topics-content{
         padding: 0% 1%;
         margin-left: 0%;
+        margin-top: 15%;
         font-size: smaller;
     }
 
@@ -566,6 +578,10 @@ a:hover.topic-box{
     .close-btn:hover {
         transition: 0.3s;
         color: black;
+    }
+
+    .find-col{
+        margin-bottom:10% !important;
     }
 
     .supp-mobile-navbar {
@@ -602,7 +618,11 @@ a:hover.topic-box{
     }
 
     .sect-spacing{
-        padding-top:0%;
+        padding-top:0% !important;
+    }
+
+    .support-text-centered {
+        margin: 0% 9% !important;
     }
 
     .overlay-effect{
@@ -657,5 +677,9 @@ a:hover.topic-box{
 
     .sect-spacing{
         padding-top: 13%;
+    }
+
+    .support-text-centered {
+        margin: 0% 7%;
     }
 }
