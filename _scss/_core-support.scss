@@ -239,7 +239,7 @@ header{
 .mast-title{
     position: absolute;
     z-index: 3 !important;
-    top: 40%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -250,6 +250,7 @@ header{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 600px;
 }
 
 .masthead-img{
@@ -511,19 +512,19 @@ a:hover.topic-box{
 
 .find-title{
     font-size: 1.65em;
-    color: white;
+    color: #231f20;
     font-weight: bold; 
 }
 
 .find-text{
     font-size: 1.3em;
-    color: white;
+    color: #231f20;
 }
 
 .find-btn-text{
     font-weight: bold; 
     font-size: 1.65em;
-    color: #fec325;
+    color: #231f20;
 }
 
 /*------------------------------------------------------------------------*/
@@ -534,8 +535,8 @@ a:hover.topic-box{
 
 @media screen and (max-width: 639px) {
     .topic-hr {
-        margin-top: -6em;
-        margin-bottom: -1em;
+        margin-top: 0em;
+        margin-bottom: 1em;
     }
   
     .topicspan{
