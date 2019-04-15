@@ -152,7 +152,7 @@ h3:after, h4:after, h5:after {
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     font-size: 14px;
-    color: #7D828C;
+    color: #4d4d4d;
 }
 
 section{
@@ -210,7 +210,7 @@ header{
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.8);
+    background: black;
     display: flex;
     height: 60px;
 }
@@ -313,12 +313,11 @@ header{
 .topics-pill-menu{
     position: fixed;
     background-color: white;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .title-pill{
     color:#252525;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1.125em;
     white-space: nowrap;
 
@@ -382,13 +381,15 @@ header{
 }
 
 a:hover.topic-box{
-    box-shadow: 0 5px 15px rgba(75,86,100,1);
+    box-shadow: 0 0px 15px rgba(0,0,0,0.1);
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     -ms-transition: all .4s ease-out;
     -o-transition: all .4s ease-out;
     transition: all .4s ease-out;
     text-decoration: none;
+    border-color: #ccc;
+
 }
 .supp-topic-icon-box{
     padding-bottom: 10%;
@@ -407,7 +408,7 @@ a:hover.topic-box{
 }
 
 .supp-topic-title{
-    color: #fec325;
+    color: black;
     text-align: center;
     align-content: center;
     font-size: 18px;
@@ -487,13 +488,13 @@ a:hover.topic-box{
 .topic-link{
     font-weight: 600;
     font-size: 1em;
-    color: #252525;
+    color: #666666;
     font-family: 'Overpass';
     font-weight: normal;
 }
 
 .topics-content{
-    padding-left: 4%;
+    padding-left: 15%;
 }
 
 /*Support Cant Find Section*/
@@ -511,8 +512,8 @@ a:hover.topic-box{
 .find-btn{
     background-color: white;
     border-radius: 55px;
-    height: 70px;
-    width: 300px;
+    height: 50px;
+    width: 250px;
 }
 
 .find-title{
@@ -528,7 +529,7 @@ a:hover.topic-box{
 
 .find-btn-text{
     font-weight: bold; 
-    font-size: 1.65em;
+    font-size: 1.25em;
     color: #231f20;
 }
 
@@ -585,7 +586,7 @@ a:hover.topic-box{
     }
 
     .supp-mobile-navbar {
-        background: rgba(0, 0, 0, 0.5);
+        background: black;
         display: flex;
         height: 55px;
         position: relative;
