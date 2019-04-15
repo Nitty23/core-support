@@ -1,0 +1,181 @@
+  - title: Account Preferences
+    id: account-preferences
+    subtopics:
+      - title: Getting Started
+        id: gs
+        sections:
+          - title: What is CORE?
+            url: /account-preferences/gs/what_is
+          - title: CORE Glossary
+            url: /account-preferences/gs/core_gloss
+          - title: Roles and Permissions
+            url: /account-preferences/gs/roles_and
+          - title: Log in to CORE
+            url: /account-preferences/gs/log_in
+      - title: Account Settings
+        id: as
+        sections:
+          - title: Your Profile
+            url: /account-preferences/as/your_profile
+          - title: Your Organization
+            url: /account-preferences/as/your_org
+          - title: Email Preferences
+            url: /account-preferences/as/email_pref
+          - title: Connect social media account
+            url: /account-preferences/as/connect_social
+          - title: Delete or Deactivate
+            url: /account-preferences/as/delete_or
+          - title: Google Analytics
+            url: /account-preferences/as/google_analytics
+      - title: Uploading Images
+        id: ui
+        sections:
+          - title: New Images
+            url: /account-preferences/ui/new_img
+          - title: Existing Images
+            url: /account-preferences/ui/existing_img
+          - title: Remove Images
+            url: /account-preferences/ui/remove_img
+
+  - title: Creating Content
+    id: creating-content
+    subtopics:
+      - title: Writing Articles
+        id: wa
+        sections: 
+          - title: Create Articles
+            url: /creating-content/wa/create_articles
+          - title: Import from DVIDS
+            url: /creating-content/wa/import_from
+          - title: Edit Articles
+            url: /creating-content/wa/edit_articles
+          - title: Formatting text
+            url: /creating-content/wa/form_text
+          - title: Images
+            url: /creating-content/wa/images
+          - title: Video
+            url: /creating-content/wa/video
+          - title: Documents
+            url: /creating-content/wa/docs
+          - title: Article Settings
+            url: /creating-content/wa/article_settings
+          - title: Preview Articles
+            url: /creating-content/wa/preview_articles
+      - title: Article Images
+        id: ai
+        sections: 
+          - title: Editing Images
+            url: /creating-content/ai/editing_img
+          - title: Cropping Images
+            url: /creating-content/ai/cropping_img
+          - title: Moving Images
+            url: /creating-content/ai/moving_img
+      - title: Managing Articles
+        id: ma
+        sections: 
+          - title: Page Traffic
+            url: /creating-content/ma/page_traffic
+          - title: Article Inbox
+            url: /creating-content/ma/article_inbox
+          - title: Tags
+            url: /creating-content/ma/tags
+          - title: Scheduled Release
+            url: /creating-content/ma/scheduled_rel
+          - title: Submit Drafts
+            url: /creating-content/ma/submit_drafts
+          - title: Review Drafts
+            url: /creating-content/ma/review_drafts
+          - title: Content Approval Process
+            url: /creating-content/ma/cap
+          - title: Unpublished Articles
+            url: /creating-content/ma/unpub_articles
+      - title: Content Practices
+        id: cp
+        sections: 
+          - title: Formatting Text
+            url: /creating-content/cp/form_text
+          - title: Keyboard Shortcuts
+            url: /creating-content/cp/key_short
+          - title: Promoting Content
+            url: /creating-content/cp/promo_content
+          - title: SOE
+            url: /creating-content/cp/soe
+          - title: Publishing API
+            url: /creating-content/cp/pub_api
+
+  - title: Page Management
+    id: page-management
+    subtopics:
+      - title: Page Settings
+        id: ps
+        sections: 
+          - title: CORE Pages
+            url: /page-management/ps/core_pages
+          - title: Create Pages
+            url: /page-management/ps/create_pages
+          - title: Your Settings
+            url: /page-management/ps/your_settings
+          - title: Organization Traffic
+            url: /page-management/ps/org_traffic
+          - title: Page Logo
+            url: /page-management/ps/page_logo
+          - title: Social Media
+            url: /page-management/ps/social_media
+          - title: Google Analytics
+            url: /page-management/ps/google_analytics
+          - title: Deactivating Pages
+            url: /page-management/ps/deactivting_pages
+          - title: Page FAQs
+            url: /page-management/ps/page_faq
+      - title: Page Layout
+        id: pl
+        sections: 
+          - title: Page Navigation
+            url: /page-management/pl/page_nav
+          - title: Content Sections
+            url: /page-management/pl/content_sections
+          - title: News List Sections
+            url: /page-management/pl/news_list
+          - title: Text Sections
+            url: /page-management/pl/text_sections
+          - title: Video Sections
+            url: /page-management/pl/video_sections
+          - title: Leader Sections
+            url: /page-management/pl/leader_sections
+          - title: Accordion Sections
+            url: /page-management/pl/accordion_sections
+          - title: Move a Content Section
+            url: /page-management/pl/move_a
+          - title: Delete a Content Section
+            url: /page-management/pl/delete_a
+      - title: Page Articles
+        id: pa
+        sections: 
+          - title: Featured News Articles
+            url: /page-management/pa/featured_news
+          - title: Remove Articles
+            url: /page-management/pa/remove_articles
+
+  - title: Core Community
+    id: core-community
+    subtopics:
+      - title: Admin Management
+        id: am
+      - title: User Directory
+        id: ud
+      - title: Org Directory
+        id: od
+
+  - title: Best Practices
+    id: best-practices
+    subtopics:
+      - title: Headlines
+        id: hl
+      - title: Photos and Images
+        id: pi
+      - title: Styleguide
+        id: sg
+      - title: SEO Tips
+        id: st
+      - title: Page Navigation
+        id: pn

@@ -9,6 +9,7 @@
   "author": "army",
   "license": "ISC",
   "dependencies": {
+    "simple-jekyll-search": "^1.7.2",
     "twitter-fetcher": "^17.0.3",
     "youtube-iframe-player": "^1.0.1"
   },
