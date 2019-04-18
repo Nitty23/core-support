@@ -14,18 +14,60 @@
             </svg>
             <span class="core-logo-text">&nbsp; | &nbsp;Support</span>
         </a>
-    </div>
-    <div class="supp-mobile-navbar show-for-small-only">
-        <div class="supp-searchbox">
-            <div style="margin: 10px 20px; font-style: italic; font-size: 16px; color: #B3B3B3;">Search ...   
-            </div>
-            <i style="color: #fec325; font-size: 126%; margin: 12px 20px;" class="fas fa-search"></i>
+<!-- SEARCH OPEN BUTTON -->
+        <div id="turnon-search-btn" class="hide-for-small-only">
+            <button id="turnon-search-btn" onclick="turnonSearchSect()">
+                <i style="color:#fec325;font-size:126%;margin:20px 20px" class="fas fa-search"></i>
+            </button>            
         </div>
-        <div class="close-search">
-            <button class="close-btn">
-                <i style="vertical-align: middle; color: white; font-size: 150%;" class="fas fa-times"></i>
-            </button>
-        </div>
+<!-- SEARCH CLOSE BUTTON AND SEARCH SECTION -->
+        <div class="hide hide-for-small-only" id="turnoff-search-btn">
+            <button class="close-btn" onclick="turnoffSearchSect()">
+                <i style="color: white; font-size:126%; margin:20px 20px;" class="fas fa-times"></i>
+            </button>            
+        </div>        
     </div>
 </header>
+{% include search_sect.html %}
+
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
+<script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
+<script type="text/javascript">
+//       Search button logic *************
+    function turnonSearchSect(){
+        var onBtn = document.getElementById("turnon-search-btn");
+        onBtn.classList.add("hide");
+        var offBtn = document.getElementById("turnoff-search-btn");
+        offBtn.classList.remove("hide");
+        var onsect = document.getElementById("search-sect");
+        onsect.classList.remove("hide");
+    }
+    function turnoffSearchSect(){
+        var onBtn = document.getElementById("turnon-search-btn");
+        onBtn.classList.remove("hide");
+        var offBtn = document.getElementById("turnoff-search-btn");
+        offBtn.classList.add("hide");
+        var onsect = document.getElementById("search-sect");
+        onsect.classList.add("hide");
+    } // End Search button logic *************
+
+    $(document.getElementById('search-input')).on('keyup', function (e) {
+    if (e.keyCode == 13) {
+        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+        window.location.href = '../search/';
+    }
+});
+</script>
+<script>
+    simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '../../search.json',
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+    });
+</script>
     

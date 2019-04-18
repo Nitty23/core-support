@@ -1,0 +1,58 @@
+--- 
+layout: topics 
+metatitle: U.S. Army CORE Support | Results Page
+title: Results Page
+area: search-results
+topicid: gs
+topictitle: Search Results
+description: Core Support results for the users search
+tohome: ../
+---
+{% include header.html %}
+
+<div class="main" role="main">
+
+    <div class="container">
+        <div class="inner-container">
+            <br>
+            <br>
+            
+            <div class="row align-center">
+                <div class="column" style="margin-top: 2%; min-height: 13em;">
+                    <ul id="results-container"></ul>
+                </div>
+            </div> <!-- end of row -->
+
+        </div> <!-- end of inner -->
+
+        {% include cantfind.html %}
+
+    </div> <!-- end of outer -->
+</div> <!-- end of main -->
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
+<script src="{{ site.baseurl }}/simple-jekyll-search.js"></script>
+<script>$(document).foundation();</script>
+
+<script>
+function winner(){
+    setTimeout(() => {
+        window.simpleJekyllSearch.search('t');
+        turnonSearchSect();
+      }, 500)
+    };
+
+document.getElementById('search-input').value = sessionStorage.searchTerm;
+simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '../search.json',
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="{tohome}./topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br>{excerpt}</li><hr><br>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome'],
+    success: winner
+});
+
+</script>

@@ -23,11 +23,6 @@
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
-                        <!-- HTML elements for search -->
-                            <h2>SEARCH TOPICS HERE:</h2>
-                            <input type="text" id="search-input" placeholder="search ...">
-                            <br/>
-                            <ul id="results-container"></ul>
                         {% include topics2.html %}
                     </div>
                 </div> <!-- End of Second column here -->
@@ -55,12 +50,23 @@
         $(this.parentElement.parentElement).foundation('showAll');
         });
     });
+    $(document.getElementById('search-input')).on('keyup', function (e) {
+    if (e.keyCode == 13) {
+        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+        window.location.href = '../../test-page/results.html';
+
+    }
+});
 </script>
 <script>
-SimpleJekyllSearch.init({
+    simpleJekyllSearch = new SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '../../search.json',
-    searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
-})
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+    });
 </script>
