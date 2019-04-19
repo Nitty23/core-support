@@ -31,7 +31,7 @@
 {% include search_sect.html %}
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
-<script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
 <script type="text/javascript">
 //       Search button logic *************
     function turnonSearchSect(){
@@ -53,14 +53,22 @@
 
     var searchLocation = '';
     function setSearchPath(){
-        if ((window.location.pathname = '/core-support/topics/') || (window.location.pathname = '/topics/')){
-            searchLocation = '../search/';
-        }else if ((window.location.pathname = '/core-support/topics/') || (window.location.pathname = '/topics/')){
-            searchLocation = '../../../search/';
-        }else if ((window.location.pathname = '/core-support/search/') || (window.location.pathname = '/search/')){
-            searchLocation = './';
+        if(window.location.hostname === '127.0.0.1'){
+            if (window.location.pathname === '/topics/'){
+                searchLocation = '../search/';
+            }else if (window.location.pathname === '/search/'){
+                searchLocation = './';
+            }else{
+                searchLocation = '../../../search/';
+            }
         }else{
-            searchLocation = '../';
+            if (window.location.pathname === '/core-support/topics/'){
+                searchLocation = '../search/';
+            }else if (window.location.pathname === '/core-support/search/'){
+                searchLocation = './';
+            }else{
+                searchLocation = '../../../search/';
+            }
         }
     }
     
@@ -73,16 +81,5 @@
     }
 });
 </script>
-<script>
-    simpleJekyllSearch = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '../../search.json',
-    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-    noResultsText: 'No results found',
-    limit: 10,
-    fuzzy: false,
-    exclude: ['Welcome']
-    });
-</script>
+
     
