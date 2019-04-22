@@ -1,0 +1,705 @@
+/* https://github.com/RedHatBrand/overpass */
+
+/* Webfont: Overpass-Bold */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Bold.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Bold.svg#Overpass-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-BoldItalic */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Bold-Italic.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Bold-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Bold-Italic.svg#Overpass-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Reg */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Regular.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Regular.svg#Overpass-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Italic */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Italic.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Italic.svg#Overpass-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Light */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Light.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Light.svg#Overpass-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-LightItalic */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-Light-Italic.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-Light-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-Light-Italic.svg#Overpass-LightItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-ExtraLight */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-ExtraLight.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-ExtraLight.svg#Overpass-ExtraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-ExtraLightItalic */
+@font-face {
+    font-family: 'Overpass';
+    src: url('/e2/fonts/rv7/overpass/Overpass-ExtraLight-Italic.woff') format('woff'), /* Modern Browsers */
+        url('/e2/fonts/rv7/overpass/Overpass-ExtraLight-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/e2/fonts/rv7/overpass/Overpass-ExtraLight-Italic.svg#Overpass-ExtraLightItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/*Support General Layout*/
+/*------------------------------------------------------------------------*/
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+.topic-content-row{
+    margin-bottom: 13.5em;
+    margin-top: 0em;
+}
+
+a {
+color: mediumblue;
+}
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -160px;
+}
+
+.anchor {
+    position: relative;
+}
+
+.masthead-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white;
+}
+
+.topic-center-row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.topicspan{
+    padding-top: 8%;
+}
+
+h3, h4, h5 {
+    font-style: normal;
+    color: black;
+    text-transform: none;
+}
+
+h3:after, h4:after, h5:after {
+    display: none;
+}
+
+.support-text{
+    font-weight: lighter;
+}
+
+.support-text-centered{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+section{
+    overflow: visible;
+}
+
+.remove-space{
+    margin-top: -6rem;
+}
+
+.homepage-title{
+    margin-bottom: 0px !important;
+}
+
+.sect-spacing{
+    padding-top: 14%;
+}
+
+.topic-spacer{
+    padding-bottom: 1em;
+}
+
+.subtopic-spacer{
+padding-bottom: 3.6em;
+}
+
+.topic-hr{
+    border-top-color: transparent;
+}
+
+/*Support Header*/
+/*------------------------------------------------------------------------*/
+.logo {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+.core-logo-text{
+    font-size: 20px;
+    color: white;
+}
+
+header{
+    position: absolute;
+}
+
+.supp-header{
+    padding: 0;
+    min-width: 100%;
+    z-index: 3;
+    position: fixed;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.supp-searchbox{
+    z-index: 3 !important;
+    margin: 12% 5% 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+    min-width: 70%;
+}
+
+.mast-searchbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 28px;
+    background: white;
+    color: lightgrey;
+    min-width: 40%;
+}
+
+.results-searchbox{
+    margin: 70px 5% 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+}
+
+.mast-title{
+    position: absolute;
+    z-index: 3 !important;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-supp-mast{
+    position: absolute;
+    z-index: 3 !important;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+}
+
+.masthead-img{
+    width: 100%;
+}
+
+.results-mast{
+    position: absolute;
+    z-index: 2 !important;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+}
+.overlay-effect{
+    @include custom-linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(35, 31, 32, 0.5) 0px, rgba(35, 31, 32, 0.8) 50%, rgba(35, 31, 32, 0.5));
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.outer-masthead{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+        animation: spin .8s linear infinite;
+        -moz-animation: spin .8s linear infinite;
+        -webkit-animation: spin .8s linear infinite;
+        -moz-transform-origin: 41.5px 12px 0;
+        -webkit-transform-origin: 41.5px 12px 0;
+        transform-origin: 41.5px 12px 0;
+}
+
+/*Support Top & SideNav*/
+/*------------------------------------------------------------------------*/
+
+.topics-pill-menu{
+    position: fixed;
+    background-color: white;
+}
+
+.title-pill{
+    color:#252525;
+    font-weight: 600;
+    font-size: 1.125em;
+    white-space: nowrap;
+
+}
+
+.secondary-pill{
+    color:#666666;
+    font-weight: 400;
+    border-left-style: solid;
+    border-left-color: #fec325;
+    border-left-width: 4px;
+    white-space: nowrap;
+    display: flex;
+    font-size: 1.125em;
+}
+
+.submenu-toggle{
+    outline-color: white;
+    height: 25px;
+    font-size: large;
+    transform: rotate(180deg);
+}
+
+.is-accordion-submenu{
+    margin: 5% !important;
+}
+
+.topnav-bread{
+    font-weight: bold;
+    color: black;
+    font-size: smaller;
+}
+
+.topnav-subtopic{
+    font-weight: bold;
+    color: gray;
+    font-size: smaller;
+}
+
+.is-active{
+    color: #fec325 !important;
+    font-weight: bold; 
+    display: block !important
+}
+
+.is-active-parent{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+/*Support Homepage Topic Boxes*/
+/*------------------------------------------------------------------------*/
+
+.topic-box{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    border: solid 1px #ccc;
+    height: 250px;
+}
+
+a:hover.topic-box{
+    box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    text-decoration: none;
+    border-color: #ccc;
+
+}
+.supp-topic-icon-box{
+    padding-bottom: 10%;
+    text-align: center;
+}
+.supp-topic-icon{
+    color: #fec325;
+    font-size: 350%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    max-width: 100%;
+    display: block;
+}
+
+.supp-topic-title{
+    color: black;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-bottom: 1em;
+}
+
+.area-title{
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: left
+}
+
+.topic-title{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.topics-title{
+    font-size: 1em;
+    font-weight: 600;
+    color: #fec325;
+}
+
+.underline-link{
+    text-decoration: underline;
+    color: darkblue;
+    font-weight: 400;
+}
+
+.subtopic-title{
+    font-size: 1.4em;
+    font-weight: 600 !important;
+}
+
+.supp-note{
+    padding: 12px;
+}
+
+.topic-text{
+    color: black;
+    font-weight: normal !important;
+}
+
+.topic-subtext{
+    color: gray;
+    font-weight: normal !important;
+    font-size: small;
+}
+
+.topic-text-note{
+    background-color: lightblue;
+    color: darkblue;
+    border-left: 5px solid lightgray;
+}
+
+.bullet-item{
+    display: list-item; 
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 6%;
+}
+
+.num-item{
+    display: list-item; 
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 6%;
+}
+
+.topic-text-learn{
+    background-color: lightyellow;
+    color: darkblue;
+    border-left: 5px solid lightgray;
+}
+
+.topic-link{
+    font-weight: 600;
+    font-size: 1em;
+    color: #666666;
+    font-family: 'Overpass';
+    font-weight: normal;
+}
+
+.topics-content{
+    padding-left: 15%;
+}
+
+/*Support Cant Find Section*/
+/*------------------------------------------------------------------------*/
+.find-row{
+    margin: 7% 0% 7%;
+    padding: 3% 0%;
+    background-color: #fec325;
+}
+
+.find-col{
+    margin-bottom:2.5%;
+}
+
+.find-btn{
+    background-color: white;
+    border-radius: 55px;
+    height: 50px;
+    width: 250px;
+}
+
+.find-title{
+    font-size: 1.65em;
+    color: #231f20;
+    font-weight: bold; 
+}
+
+.find-text{
+    font-size: 1.3em;
+    color: #231f20;
+}
+
+.find-btn-text{
+    font-weight: bold; 
+    font-size: 1.25em;
+    color: #231f20;
+}
+
+/*------------------------------------------------------------------------*/
+/*
+/*              Responsive Mobile Code
+/*
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 639px) {
+    .topic-hr {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    .topic-box{
+        height: 277px !important;
+        width: 140% !important;
+        margin-left: -20% !important;
+    }
+  
+    .topicspan{
+        padding-top: 10% !important;
+    }
+
+    .topics-content{
+        padding: 0% 1%;
+        margin-left: 0%;
+        margin-top: 15%;
+        font-size: smaller;
+    }
+
+    .close-search{
+        padding-top: 4%;
+        margin-left: -1.5em;
+    }
+
+    .close-btn{
+        background-color: none;
+        border: none;
+
+        color: white;
+        padding: 1px 1px;
+        cursor: pointer;
+    }
+
+    .close-btn:hover {
+        transition: 0.3s;
+        color: black;
+    }
+
+    .find-col{
+        margin-bottom:10% !important;
+    }
+
+    .supp-mobile-navbar {
+        background: black;
+        display: flex;
+        height: 55px;
+        position: relative;
+        min-width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .supp-searchbox{
+        z-index: 3;
+        margin: 1%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid white;
+        border-radius: 28px;
+        background: white; 
+        color: lightgrey;
+        min-width: 85%;
+    }
+  
+    .mast-searchbox{
+        z-index: 3;
+        margin: 25% 5% 0% 1%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid white;
+        border-radius: 28px;
+        background: white; 
+        color: lightgrey;
+    }
+
+    .sect-spacing{
+        padding-top:0% !important;
+    }
+
+    .support-text-centered {
+        margin: 0% 9% !important;
+    }
+
+    .overlay-effect{
+    @include custom-linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(35, 31, 32, 0.5) 0px, rgba(35, 31, 32, 0.8) 50%, rgba(35, 31, 32, 0.5));
+    height: 7%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    }
+
+    .row{
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+    }
+
+    .remove-space{
+        margin-top: 0rem;
+    }
+
+    /*Support Cant Find Section*/
+    /*------------------------------------------------------------------------*/
+    .topic-title{
+        font-size: 1.75em;
+    }
+
+    .topic-text{
+        font-size: small;
+    }
+
+    .subtopic-title{
+        font-size: smaller
+    }
+
+    .topic-subtext{
+        font-size: x-small;
+    }
+
+    .mobile-center{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .mobile-center{
+        text-align: center;
+    }
+    
+    .topicspan{
+        padding-top: 9%;
+    }
+
+    .sect-spacing{
+        padding-top: 13%;
+    }
+
+    .support-text-centered {
+        margin: 0% 7%;
+    }
+}
