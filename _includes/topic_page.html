@@ -33,8 +33,6 @@
     </div> <!-- End of outer containter here -->
 </div> <!-- end of main -->
 
-
-
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
 <script>$(document).foundation();</script>
@@ -45,19 +43,26 @@
         });
         $('.title-pill').click(function(e){
         $(this.parentElement.parentElement).foundation('showAll');
-        });
+        });      
     });
-</script>
-<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
-<script type="text/javascript">
-    simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '../search/search.json',
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
+    $(document).ready(function(){
+        var targetId = location.hash;
+        var x = document.querySelectorAll("a.title-pill");
+        var a = document.querySelectorAll("a.secondary-pill");
+        var y, b;
+        for (y in x){
+            if(x[y].hash === targetId){
+            x[y].style.fontWeight = "bold";
+            x[y].className = "title-pill is-active-parent";
+            $( x[y] ).siblings( 'ul' ).addClass("is-active");
+            }
+        }
+        for (b in a){
+            if(a[b].hash === targetId){
+            a[b].className = "secondary-pill is-active";
+            $( a[b] ).parents( 'ul' ).addClass("is-active");
+            }
+        }    
     });
+
 </script>
