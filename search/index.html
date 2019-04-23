@@ -42,7 +42,7 @@ tohome: ../
     simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '../search/search.json',
+        json: './search.json',
         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="{tohome}./topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br>{excerpt}</li><hr><br>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         limit: 10,
