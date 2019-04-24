@@ -573,6 +573,29 @@ a:hover.topic-box{
     margin: 1em 0;
 }
 
+input::placeholder {
+    color: #B3B3B3 !important;
+    font-size: 16px !important;
+    font-style: italic !important;
+}
+
+#turnon-search-btn:hover{
+    background-color:#666666;
+}
+
+#turnoff-search-btn:hover{
+    background-color:#666666;
+}
+
+.search-btn:focus{
+    outline: none;
+}
+
+.search-icons{
+    color:#fec325;
+    font-size:126%;
+    margin:20px 20px;
+}
 
 /*------------------------------------------------------------------------*/
 /*
@@ -601,20 +624,6 @@ a:hover.topic-box{
         margin-left: 0%;
         margin-top: 15%;
         font-size: smaller;
-    }
-
-    .close-btn{
-        background-color: none;
-        border: none;
-
-        color: white;
-        padding: 1px 1px;
-        cursor: pointer;
-    }
-
-    .close-btn:hover {
-        transition: 0.3s;
-        color: black;
     }
 
     .find-col{
