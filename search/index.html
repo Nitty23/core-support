@@ -33,23 +33,29 @@ tohome: ../
 <script>$(document).foundation();</script>
 
 <script type="text/javascript">
-    $(document).ready(function(){turnonSearchSect()});
+    $(document).ready(function(){
+        turnonSearchSect();
+    });
     document.getElementById('search-input').value = sessionStorage.searchTerm;
     function winner(){
         setTimeout(() => {
             window.simpleJekyllSearch.search(sessionStorage.searchTerm);
             turnonSearchSect();
         }, 500)
+        setTimeout(() => {
+            // Fade-in Highlight text function
+        }, 800)
         };
     simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '../search.json',
-        // json: '../search.json',
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="../topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br>{excerpt}</li><hr><br>',
+        json: './search.json',
+        // json: './search.json' LOCAL,
+        // json: '../search.json' PRODUCTION,
+        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="../topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br><br>Topic relative terms: [ {tags} ]</li><hr><br>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
-        limit: 10,
-        fuzzy: true,
+        fuzzy: false,
         success: winner
     });
+    
 </script>

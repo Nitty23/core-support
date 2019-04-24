@@ -107,6 +107,16 @@ a {
 color: mediumblue;
 }
 
+#search-input { 
+    outline: none;
+    margin:10px 20px;
+    font-style: italic;
+    font-size: 16px;
+    color: #B3B3B3;
+    border: none;
+    width: 600px;
+}
+
 .anchor a {
     position: absolute;
     left: 0px;
