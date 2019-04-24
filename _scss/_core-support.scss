@@ -107,16 +107,6 @@ a {
 color: mediumblue;
 }
 
-#search-input { 
-    outline: none;
-    margin:10px 20px;
-    font-style: italic;
-    font-size: 16px;
-    color: #B3B3B3;
-    border: none;
-    width: 600px;
-}
-
 .anchor a {
     position: absolute;
     left: 0px;
@@ -224,37 +214,6 @@ header{
     display: flex;
     height: 60px;
     justify-content: space-between;
-}
-
-.supp-searchbox{
-    z-index: 3 !important;
-    margin: 12% 5% 0% 15%;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
-    border-radius: 28px;
-    background: white; 
-    color: lightgrey;
-    min-width: 70%;
-}
-
-.mast-searchbox{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 28px;
-    background: white;
-    color: lightgrey;
-    min-width: 40%;
-}
-
-.results-searchbox{
-    margin: 70px 5% 0% 1%;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid grey;
-    border-radius: 28px;
-    background: white; 
-    color: lightgrey;
 }
 
 .mast-title{
@@ -562,6 +521,59 @@ a:hover.topic-box{
     color: #231f20;
 }
 
+/*Search Content*/
+/*-----------------------------------------------------------------*/
+
+#search-input { 
+    outline: none;
+    margin:10px 20px;
+    font-style: italic;
+    font-size: 16px;
+    color: #B3B3B3;
+    border: none;
+    width: 600px;
+}
+
+.supp-searchbox{
+    z-index: 3 !important;
+    margin: 12% 5% 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+    min-width: 70%;
+}
+
+.mast-searchbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 28px;
+    background: white;
+    color: lightgrey;
+    min-width: 40%;
+}
+
+.results-searchbox{
+    margin: 70px 5% 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+}
+
+.search-text{
+    color: #666666;
+}
+
+.search-hr{
+    margin: 1em 0;
+}
+
+
 /*------------------------------------------------------------------------*/
 /*
 /*              Responsive Mobile Code
@@ -589,11 +601,6 @@ a:hover.topic-box{
         margin-left: 0%;
         margin-top: 15%;
         font-size: smaller;
-    }
-
-    .close-search{
-        padding-top: 4%;
-        margin-left: -1.5em;
     }
 
     .close-btn{

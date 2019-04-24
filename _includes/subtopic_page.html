@@ -10,22 +10,22 @@
                             {% if topic.id == suburl[2] %}
                                 <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                                     <li>                                
-                                        <a href="../../#{{ topic.id }}" class="is-active-parent title-pill">{{ topic.title }}</a>
+                                        <a href="../../topics/#{{ topic.id }}" class="is-active-parent title-pill">{{ topic.title }}</a>
                                         <ul class="menu vertical nested is-active">
                             {% else %}
                                 <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                                     <li>                                
-                                        <a href="../../#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                        <a href="../../topics/#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
                                         <ul class="menu vertical nested">
                             {% endif %}
                                     {% for subtopic in topic.subtopics %}
                                         {% if subtopic.id == suburl[3] %}
                                         <li>
-                                            <a href="../../#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
+                                            <a href="../../topics/#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
                                         </li>
                                         {% else %}
                                         <li>
-                                            <a href="../../#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                            <a href="../../topics/#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
                                         </li>
                                         {% endif %}
                                     {% endfor %}

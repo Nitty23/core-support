@@ -52,7 +52,7 @@ tohome: ../
         json: './search.json',
         // json: './search.json' LOCAL,
         // json: '../search.json' PRODUCTION,
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="../topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br><br>Topic relative terms: [ {tags} ]</li><hr><br>',
+        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a><br></span><a href="../topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-subtopic">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{title}</span><br><br><span class="search-text">Relative terms: [ {tags} ]</span></li><hr class="search-hr"><br>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner
