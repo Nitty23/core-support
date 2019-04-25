@@ -180,22 +180,16 @@ padding-bottom: 3.6em;
 }
 
 .topic-hr{
-    border-top-color: transparent;
+    border-top-color: inherit;
 }
 
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 5%;
+    margin-top: 18px;
+    margin-left: 3%;
     text-decoration: none !important;
     font-weight: normal !important;
-}
-
-.core-logo-text{
-    font-size: 20px;
-    color: white;
 }
 
 header{
@@ -606,6 +600,11 @@ input::placeholder {
     color:#fec325;
     font-size:126%;
     margin:20px 20px;
+}
+
+.searchbox-hr{
+    width: 100%;
+    margin: 0 0 !important;
 }
 
 /*------------------------------------------------------------------------*/

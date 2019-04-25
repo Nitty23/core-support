@@ -19,7 +19,7 @@ tohome: ../
             
             <div class="row align-center">
                 <div class="column" style="margin-top: 2%; min-height: 13em;">
-                    <h3><span id="result-total">...</span>&nbsp;Search Results</h3><br><br>
+                    <h3><span id="result-total">...</span>&nbsp;<span id="results-title">Search Results</span></h3><br><br>
                     <ul id="results-container"></ul>
                 </div>
             </div> <!-- end of row -->
@@ -46,6 +46,11 @@ tohome: ../
         setTimeout(() => {
             window.simpleJekyllSearch.search(sessionStorage.searchTerm);            
             var resultTotal = $('topics').length;
+            if (resultTotal === 1){
+                document.getElementById('results-title').textContent="Search Result";
+            }else{
+                document.getElementById('results-title').textContent="Search Results";
+            }
             document.getElementById('result-total').textContent=resultTotal;
             $("topics").each(function() {
             $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>'" + sessionStorage.searchTerm + "'</span>"));
