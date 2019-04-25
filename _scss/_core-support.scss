@@ -569,6 +569,17 @@ a:hover.topic-box{
     color: #666666;
 }
 
+.search-term{
+    animation: fadein 3s;
+    color: #fec325;
+    font-weight: 600;
+    font-size: 130%;
+}
+@keyframes fadein {
+    from {color: #666666; font-size: 100%; font-weight: 400;}
+    to {color: #fec325; font-size: 130%; font-weight: 600}
+}
+
 .search-hr{
     margin: 1em 0;
 }
