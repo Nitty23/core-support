@@ -36,6 +36,10 @@ tohome: ../
 <script type="text/javascript">
     $(document).ready(function(){
         turnonSearchSect();
+        $("#search-input").focus(function(){
+            $("#results-container").fadeOut(1000);
+            document.getElementById('result-total').textContent="0";
+        });
     });
     document.getElementById('search-input').value = sessionStorage.searchTerm;
     function winner(){
