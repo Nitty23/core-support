@@ -188,8 +188,7 @@ padding-bottom: 3.6em;
 .logo {
     background: black;
     width: 100%;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 18px;
 }
 
 header{
@@ -337,6 +336,12 @@ header{
     font-weight: bold;
     color: gray;
     font-size: smaller;
+}
+
+.topnav-subtopic-bread{
+    font-weight: normal;
+    color: gray;
+    font-size: small;
 }
 
 .is-active{
