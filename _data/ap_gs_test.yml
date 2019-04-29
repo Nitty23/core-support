@@ -1,6 +1,6 @@
 # Layout in Levels:
 # 
-# topic\                     (ie Getting Started)
+# topic\                     (ie CORE Basics)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
 #                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
@@ -18,7 +18,7 @@
 # 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
-  - title: Getting Started
+  - title: CORE Basics
     subtopics:
       - subtitle: What is CORE?
         sections:
@@ -44,7 +44,7 @@
                 two: Publisher(s)
                 three: Editor(s)
                 four: Contributor(s)
-          - learn: <a class="underline-link" href="/ap-page/#gs">Roles and permissions in CORE</a>
+          - learn: <a class="underline-link" href="/ap-page/#cb">Roles and permissions in CORE</a>
           - sectiontitle: Content Approval Process
             image: <img src="/e2/images/rv7/core-support/320x460_img_placeholder.png">
             para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your Inbox, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.
@@ -56,6 +56,6 @@
                 four: Available in CORE search results, making it easy for other users to find and share your articles
           - sectiontitle: Your Page
             para1: CORE also offers qualifying organizations the ability to promote their content and organization information further through an Organization Page, hosted on www.army.mil  (www.army.mil/organization_name). We provide a branded, mobile-optimized template and publishers to customize the navigation and page layout to highlight content that is important to their organization, such as featured articles, videos, leaders, and resources.
-          - learn: <a class="underline-link" href="/ap-page/#gs">CORE Pages</a>
+          - learn: <a class="underline-link" href="/ap-page/#cb">CORE Pages</a>
           - sectiontitle: Public Affairs Community
             para1: A key feature of the Community section is the User Directory. This is a searchable list of public affairs professionals in the Army that provides organization and contact information about each user. This is a great way for you to connect and coordinate with other members of the Army public affairs community.

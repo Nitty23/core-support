@@ -1,6 +1,6 @@
 # Layout in Levels:
 # 
-# topic\                     (ie Getting Started)
+# topic\                     (ie CORE Basics)
 #       subtopic\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
 #                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
@@ -18,7 +18,7 @@
 # 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
-  - title: Getting Started
+  - title: CORE Basics
     subtopics:
       - subtitle: Roles and Permissions
         sections:

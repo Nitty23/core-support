@@ -1,41 +1,41 @@
-  - title: Account Preferences
-    id: account-preferences
+  - title: Getting Started
+    id: core-basics
     subtopics:
-      - title: Getting Started
-        id: gs
+      - title: CORE Basics
+        id: cb
         sections:
           - title: What is CORE?
-            url: /account-preferences/gs/what_is
+            url: /core-basics/cb/what_is
           - title: CORE Glossary
-            url: /account-preferences/gs/core_gloss
+            url: /core-basics/cb/core_gloss
           - title: Roles and Permissions
-            url: /account-preferences/gs/roles_and
+            url: /core-basics/cb/roles_and
           - title: Log in to CORE
-            url: /account-preferences/gs/log_in
+            url: /core-basics/cb/log_in
       - title: Account Settings
         id: as
         sections:
           - title: Your Profile
-            url: /account-preferences/as/your_profile
+            url: /core-basics/as/your_profile
           - title: Your Organization
-            url: /account-preferences/as/your_org
+            url: /core-basics/as/your_org
           - title: Email Preferences
-            url: /account-preferences/as/email_pref
+            url: /core-basics/as/email_pref
           - title: Connect social media account
-            url: /account-preferences/as/connect_social
+            url: /core-basics/as/connect_social
           - title: Delete or Deactivate
-            url: /account-preferences/as/delete_or
+            url: /core-basics/as/delete_or
           - title: Google Analytics
-            url: /account-preferences/as/google_analytics
+            url: /core-basics/as/google_analytics
       - title: Uploading Images
         id: ui
         sections:
           - title: New Images
-            url: /account-preferences/ui/new_img
+            url: /core-basics/ui/new_img
           - title: Existing Images
-            url: /account-preferences/ui/existing_img
+            url: /core-basics/ui/existing_img
           - title: Remove Images
-            url: /account-preferences/ui/remove_img
+            url: /core-basics/ui/remove_img
 
   - title: Creating Content
     id: creating-content
