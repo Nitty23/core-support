@@ -130,9 +130,20 @@ color: mediumblue;
     font-weight: 600;
 }
 
-.topicspan{
-    padding-top: 8%;
+.topicspan{    
+    padding-top: 6%;
 }
+
+.topicspan-plus{    
+    padding-top: 6%;
+    animation: slideBack 0.7s;
+}
+
+@keyframes slideBack {
+    from {padding-top: 13% }
+    to {padding-top: 6% }
+}
+
 
 h3, h4, h5 {
     font-style: normal;
@@ -230,14 +241,6 @@ header{
     width: 100%;
 }
 
-.results-mast{
-    position: absolute;
-    z-index: 2 !important;
-    top: 45px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 600px;
-}
 .overlay-effect{
     @include custom-linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(35, 31, 32, 0.5) 0px, rgba(35, 31, 32, 0.8) 50%, rgba(35, 31, 32, 0.5));
     height: 100%;
@@ -545,25 +548,6 @@ a:hover.topic-box{
     min-width: 70%;
 }
 
-.mast-searchbox{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 28px;
-    background: white;
-    color: lightgrey;
-    min-width: 40%;
-}
-
-.results-searchbox{
-    margin: 70px 5% 0% 1%;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid grey;
-    border-radius: 28px;
-    background: white; 
-    color: lightgrey;
-}
-
 .search-text{
     color: #666666;
 }
@@ -583,33 +567,79 @@ a:hover.topic-box{
     margin: 1em 0;
 }
 
+.search-icons{
+    color:#fec325;
+    font-size:126%;
+    margin:10px 20px;
+}
+
+.searchbox-hr{
+    width: 100%;
+    margin: 0 0 !important;
+}
+
+.mast-searchbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 28px;
+    background: white;
+    color: lightgrey;
+    min-width: 40%;
+}
+
+.results-mast{
+    position: absolute;
+    z-index: 2 !important;
+    top: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #666666;
+}
+
+.results-searchbox{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 28px;
+    background: white; 
+    color: lightgrey;
+    margin: 35px 0px;
+    width: 600px;
+}
+
 input::placeholder {
     color: #B3B3B3 !important;
     font-size: 16px !important;
     font-style: italic !important;
 }
 
-#turnon-search-btn:hover{
+#search-icons:hover{
     background-color:#666666;
 }
 
-#turnoff-search-btn:hover{
-    background-color:#666666;
-}
-
-.search-btn:focus{
+#search-btn:focus{
     outline: none;
 }
 
-.search-icons{
-    color:#fec325;
-    font-size:126%;
-    margin:20px 20px;
+.search-btn-container{
+    display: flex;
+    justify-content: center;
 }
 
-.searchbox-hr{
-    width: 100%;
-    margin: 0 0 !important;
+.searchbox-space{
+    animation: slide 0.7s;
+    padding-top: 13% !important;
+}
+
+@keyframes slide {
+    from {padding-top: 6% }
+    to {padding-top: 13% }
+}
+
+.hider{
+    display: none;
 }
 
 /*------------------------------------------------------------------------*/
@@ -632,6 +662,17 @@ input::placeholder {
   
     .topicspan{
         padding-top: 10% !important;
+    }
+
+
+    .topicspan-plus{    
+        padding-top: 10%;
+        animation: slideBack 0.7s;
+    }
+
+    @keyframes slideBack {
+        from {padding-top: 13% }
+        to {padding-top: 10% }
     }
 
     .topics-content{
@@ -703,6 +744,10 @@ input::placeholder {
         margin-top: 0rem;
     }
 
+    .searchbox-space {
+        padding-top: 2% !important;
+    }
+
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
     .topic-title{
@@ -736,11 +781,31 @@ input::placeholder {
         padding-top: 9%;
     }
 
+    .topicspan-plus{    
+        padding-top: 9%;
+        animation: slideBack 0.7s;
+    }
+
+    @keyframes slideBack {
+        from {padding-top: 21% }
+        to {padding-top: 9% }
+    }
+
     .sect-spacing{
         padding-top: 13%;
     }
 
     .support-text-centered {
         margin: 0% 7%;
+    }
+
+    .searchbox-space{
+        animation: slide 0.5s;
+        padding-top: 21% !important;
+    }
+    
+    @keyframes slide {
+        from {padding-top: 9% }
+        to {padding-top: 21% }
     }
 }

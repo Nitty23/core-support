@@ -3,42 +3,33 @@
         <a href="{{page.tohome}}">
             <img  class="logo" src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"/> 
         </a>
-<!-- SEARCH OPEN BUTTON -->
-        <div id="turnon-search-btn" class="hide-for-small-only">
-            <button id="turnon-search-btn" class="search-btn" onclick="turnonSearchSect()">
+        <button class="hide-for-small-only" id="search-btn">
+            <i class="fas fa-search search-icons"></i>
+        </button>
+    </div>
+    <div class="results-mast hide-for-small-only hider" id="search-sect">
+        <div class="search-btn-container">
+            <div class="results-searchbox">
+                <input type="text" id="search-input" placeholder="search ...">
                 <i class="fas fa-search search-icons"></i>
-            </button>            
-        </div>
-<!-- SEARCH CLOSE BUTTON AND SEARCH SECTION -->
-        <div class="hide hide-for-small-only" id="turnoff-search-btn">
-            <button class="search-btn" onclick="turnoffSearchSect()">
-                <i style="color: white;" class="fas fa-times search-icons"></i>
-            </button>            
-        </div>        
+            </div>
+        </div>            
     </div>
 </header>
-{% include search_sect.html %}
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
 <script type="text/javascript">
 //       Search button logic *************
-    function turnonSearchSect(){
-        var onBtn = document.getElementById("turnon-search-btn");
-        onBtn.classList.add("hide");
-        var offBtn = document.getElementById("turnoff-search-btn");
-        offBtn.classList.remove("hide");
-        var onsect = document.getElementById("search-sect");
-        onsect.classList.remove("hide");
-    }
-    function turnoffSearchSect(){
-        var onBtn = document.getElementById("turnon-search-btn");
-        onBtn.classList.remove("hide");
-        var offBtn = document.getElementById("turnoff-search-btn");
-        offBtn.classList.add("hide");
-        var onsect = document.getElementById("search-sect");
-        onsect.classList.add("hide");
-    } // End Search button logic *************
+$(document).ready(function(){
+    $("#search-btn").click(function(){
+        $( ".topicspan" ).addClass("topicspan-plus");
+        $( this, "i" ).toggleClass( "fa-search fa-times" );
+        $( "#search-sect" ).slideToggle();
+        $( "#topic-sect-spacer" ).toggleClass( "topicspan searchbox-space" );
+  });
+});
+//       End Search button logic *************
 
     var searchLocation = '';
     function setSearchPath(){
