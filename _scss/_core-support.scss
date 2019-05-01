@@ -502,8 +502,18 @@ a:hover.topic-box{
 .find-btn{
     background-color: white;
     border-radius: 55px;
-    height: 50px;
-    width: 250px;
+    padding: 15px 30px;
+    // height: 50px;
+    // width: 250px;
+    outline: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.find-btn:hover{
+    background-color: #EEEEEE;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .find-title{
