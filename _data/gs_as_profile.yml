@@ -34,12 +34,12 @@
                 six: Short bio description (up to 350 characters)
                 seven: Website or link
                 eight: Social media accounts
-            image: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_yourprofile1.png">
+            image1: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_yourprofile1.png">
           - sectiontitle: View your Profile            
             para1: 1. Click Community in the main navigation to access your My Organization page.
-            image: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
+            image1: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
             para2: 2. Click your name at the top of your team member list. This opens a card with all of your profile.
-            image: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile2.png">
+            image2: <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile2.png">
             note: All CORE users can view your profile information by searching for your name on the User Directory tab.
           - sectiontitle: Edit your Profile           
             para1: There are two ways to edit your profile information in CORE.
