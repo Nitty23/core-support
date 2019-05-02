@@ -304,7 +304,15 @@ header{
     font-weight: 600;
     font-size: 1.125em;
     white-space: nowrap;
+}
 
+.title-pill:hover {
+    text-decoration: none;
+}
+
+.title-pill-carrot{
+    padding-left: 32px;
+    vertical-align: sub;
 }
 
 .secondary-pill{

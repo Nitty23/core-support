@@ -1,4 +1,3 @@
-
 {% assign suburl = page.url | split: "/" %}
 {% include header.html %}
 <div class="main" role="main">
@@ -39,7 +38,7 @@
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
                         <a href="{{ page.tohome }}" class="topnav-bread">CORE Support</a><span class="topnav-subtopic-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-subtopic-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
-                        {% include subtopics.html %}
+                        {% include subtop_generator.html %}
                     </div>
                 </div> <!-- End of Second column here -->
             </div>

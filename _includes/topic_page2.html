@@ -1,14 +1,15 @@
+TEST
 {% include header.html %}
 <div class="main" role="main">
     <div class="container">
         <div class="inner-container">
-            <div class="row topicspan">
-
+            <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
+            <div class="row ">
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
                     {% for topic in site.data.support_toc2 %}
-                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                        <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
-                                <a href="./#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot hider">&#x2303;</span></a>
                                 <ul class="menu vertical nested">
                         {% for subtopic in topic.subtopics %}  
                                     <li>
@@ -33,38 +34,22 @@
     </div> <!-- End of outer containter here -->
 </div> <!-- end of main -->
 
-
-
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
 <script>$(document).foundation();</script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $('.accordion-menu').click(function(e){
-        $('.accordion-menu').not($(this)).foundation('hideAll');
-        });
+        // Hides all dropdown menus except clicked
         $('.title-pill').click(function(e){
-        $(this.parentElement.parentElement).foundation('showAll');
+            $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+        // Adds Carrot symbol to active menu item only
+            var activeMenu = $('.title-pill-carrot', this);
+            $('.title-pill-carrot').not(activeMenu).addClass('hider');
+            $(activeMenu).toggleClass('hider');
         });
-    });
-    $(document.getElementById('search-input')).on('keyup', function (e) {
-    if (e.keyCode == 13) {
-        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
-        window.location.href = '../../test-page/results.html';
-
-    }
-});
-</script>
-<script>
-    simpleJekyllSearch = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '../../search.json',
-    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-    noResultsText: 'No results found',
-    limit: 10,
-    fuzzy: false,
-    exclude: ['Welcome']
+        // Used if Menu Titles have links
+        // $('.title-pill').click(function(e){
+        //     $(this.parentElement.parentElement).foundation('showAll');
+        // });
     });
 </script>

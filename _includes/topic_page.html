@@ -6,9 +6,9 @@
             <div class="row ">
                 <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
                     {% for topic in site.data.support_toc %}
-                        <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                        <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
-                                <a href="./#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot hider">&#x2303;</span></a>
                                 <ul class="menu vertical nested">
                         {% for subtopic in topic.subtopics %}  
                                     <li>
@@ -23,7 +23,7 @@
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
-                        {% include topics.html %}
+                        {% include topic_generator.html %}
                     </div>
                 </div> <!-- End of Second column here -->
             </div>
@@ -37,32 +37,37 @@
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis-only).min.js"></script>
 <script>$(document).foundation();</script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.accordion-menu').click(function(e){
-        $('.accordion-menu').not($(this)).foundation('hideAll');
-        });
-        $('.title-pill').click(function(e){
-        $(this.parentElement.parentElement).foundation('showAll');
-        });      
+    // Activates menu item selected fron URL #
+    // $(document).ready(function(){
+    //     var targetId = location.hash;
+    //     var x = document.querySelectorAll("a.title-pill");
+    //     var a = document.querySelectorAll("a.secondary-pill");
+    //     var y, b;
+    //     for (y in x){
+    //         if(x[y].hash === targetId){
+    //         x[y].style.fontWeight = "bold";
+    //         x[y].className = "title-pill is-active-parent";
+    //         $( x[y] ).find( this, '.title-pill-carrot' ).toggleClass('hider');
+    //         $( x[y] ).siblings( 'ul' ).addClass("is-active");
+    //         }
+    //     }
+    //     for (b in a){
+    //         if(a[b].hash === targetId){
+    //         a[b].className = "secondary-pill is-active";
+    //         $( a[b] ).parents( 'ul' ).addClass("is-active");
+    //         }
+    //     }
+    // });
+    // Hides all dropdown menus except clicked
+    $('.title-pill').click(function(e){
+        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+    // Adds Carrot symbol to active menu item only
+        var activeMenu = $('.title-pill-carrot', this);
+        $('.title-pill-carrot').not(activeMenu).addClass('hider');
+        $(activeMenu).toggleClass('hider');
     });
-    $(document).ready(function(){
-        var targetId = location.hash;
-        var x = document.querySelectorAll("a.title-pill");
-        var a = document.querySelectorAll("a.secondary-pill");
-        var y, b;
-        for (y in x){
-            if(x[y].hash === targetId){
-            x[y].style.fontWeight = "bold";
-            x[y].className = "title-pill is-active-parent";
-            $( x[y] ).siblings( 'ul' ).addClass("is-active");
-            }
-        }
-        for (b in a){
-            if(a[b].hash === targetId){
-            a[b].className = "secondary-pill is-active";
-            $( a[b] ).parents( 'ul' ).addClass("is-active");
-            }
-        }    
-    });
-
+    // Used if Menu Titles have links
+    // $('.title-pill').click(function(e){
+    //     $(this.parentElement.parentElement).foundation('showAll');
+    // });
 </script>

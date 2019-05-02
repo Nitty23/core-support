@@ -1,5 +1,5 @@
 {% for topic in site.data.support_toc %}
-    <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+    <ul class="vertical menu accordion-menu" data-accordion-menu>
         <li>
             <a href="./#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
             <ul class="menu vertical nested">
@@ -14,7 +14,7 @@
 {% endfor %}
 
 <div class="column large-12">
-    <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+    <ul class="vertical menu accordion-menu" data-accordion-menu>
         <li> <a href="../../../#core-basics" class="title-pill">Getting Started</a>
             <ul class="menu vertical nested">            
             </ul>
