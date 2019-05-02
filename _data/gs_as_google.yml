@@ -36,7 +36,7 @@
                 five: Copy and paste your tracking ID into the “Google Analytics Tracking ID” field.
                 six: Click Save at the top-right corner of the page.
             para2: Your Google Analytics tracking ID will automatically appear in the Advanced Settings section of every article that you create. Once an article is released, you will be able to monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your personal Google Analytics account. 
-            image: <img src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             note: This tracking ID is associated with your CORE account. If it is changed in your Advanced Settings (e.g. because you move to a new organization), then the tracking ID will change on all of your old articles.
             para3: It can take up to 24 hours for data to appear in your reports. However, you can <a href="https://support.google.com/analytics/answer/1008083">check your web-tracking </a> setup immediately.
           - sectiontitle: 
