@@ -1,41 +1,41 @@
 - title: Getting Started
-  id: core-basics
+  id: getting-started
   subtopics:
     - title: CORE Basics
       id: cb
       sections:
         - title: What is CORE?
-          url: /core-basics/cb/what_is.html
+          url: /getting-started/cb/what_is.html
         - title: CORE Glossary
-          url: /core-basics/cb/core_gloss.html
+          url: /getting-started/cb/core_gloss.html
         - title: Roles and Permissions
-          url: /core-basics/cb/roles_and.html
+          url: /getting-started/cb/roles_and.html
         - title: Log in to CORE
-          url: /core-basics/cb/log_in.html
+          url: /getting-started/cb/log_in.html
     - title: Account Settings
       id: as
       sections:
         - title: Your Profile
-          url: /core-basics/as/your_profile.html
+          url: /getting-started/as/your_profile.html
         - title: Your Organization
-          url: /core-basics/as/your_org.html
+          url: /getting-started/as/your_org.html
         - title: Email Preferences
-          url: /core-basics/as/email_pref.html
+          url: /getting-started/as/email_pref.html
         - title: Connect social media account
-          url: /core-basics/as/connect_social.html
+          url: /getting-started/as/connect_social.html
         - title: Delete or Deactivate
-          url: /core-basics/as/delete_or.html
+          url: /getting-started/as/delete_or.html
         - title: Google Analytics
-          url: /core-basics/as/google_analytics.html
+          url: /getting-started/as/google_analytics.html
     - title: Uploading Images
       id: ui
       sections:
         - title: New Images
-          url: /core-basics/ui/new_img.html
+          url: /getting-started/ui/new_img.html
         - title: Existing Images
-          url: /core-basics/ui/existing_img.html
+          url: /getting-started/ui/existing_img.html
         - title: Remove Images
-          url: /core-basics/ui/remove_img.html
+          url: /getting-started/ui/remove_img.html
 
 - title: Creating Content
   id: creating-content
