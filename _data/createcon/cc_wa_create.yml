@@ -1,0 +1,110 @@
+# Layout in Levels:
+# 
+# topic\                     (ie CORE Basics)
+#       subtopic\             (ie What is CORE?)
+#                section\      (ie Who is eligible for a CORE Account?)
+#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
+# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 4) Do not use tabs, use two spaces when declaring a new level.
+# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
+# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
+# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
+# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 0) Code Assumption - Only one Note and only one Learn per section.
+
+  - title: Creating Content
+    subtopics:
+      - subtitle: Create an Article
+        sections:
+          - sectiontitle:
+            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats - <br> <em>https://www.army.mil/article-id/</em>  and  <em>https://www.army.mil/article-id/article-title</em>
+            para2: Keep reading below to learn about some basic features available in our article editor.
+            video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
+          - sectiontitle: Step 1 - Create a New Article
+            numlist:
+              - listname: Initial procedure for the user
+                one: Click <strong>Create</strong> on the main menu.
+                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+          - sectiontitle: Step 2 - Add a Title
+            para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            image2: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit The Importance of a Quality Headline.
+          - sectiontitle: Step 3 - Customize the Author
+            para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
+            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a href="http://www.army.mil">www.army.mil</a>.
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            numlist:  
+              - listname: To edit the author
+                one: Click on the creator’s name to activate the author field.
+                two: Edit your name, or change it to another person’s name altogether.
+                three: If you co-wrote an article, click on Add an author... and enter a new name.
+                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+          - sectiontitle: Step 4 - Write and Format
+            para1: Your new draft includes a basic text box to help you get started. Click <strong>Start typing, or copy and paste your article here…</strong>
+            numlist:  
+              - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
+                one: Highlight a word or phrase you want.
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            note: Check out Formatting Text to learn more about all the formatting features.
+          - sectiontitle: Step 5 - Add Media
+            para1: From the WYSIWYG editor, you can also upload images and documents, or embed a video from YouTube. These media elements can be inserted anywhere within your article body.
+            numlist:  
+              - listname: To add an image, document or video
+                one: Go to a new line in your article body and position your cursor where you want to insert your media element.
+                two: Click the (icon), (icon), (icon) or (icon) in the WYSIWYG Toolbar.
+                three: A lightbox editor will appear, depending on the type of media that you selected to insert.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png"><br><span class="tab">a. For Images or Documents, click the (icon) to browse and upload images from your desktop. You can also drag and drop files on top of the  <strong>Drag & Drop</strong> placeholder box.</span><br><span class="tab">b. For Videos, click Enter a YouTube link… and paste the YouTube video URL.</span><br>
+                four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            learn: Adding and editing media in your articles, visit <a href="../../creating-content/wa/imgages.html">Images</a>, <a href="../../creating-content/wa/videos.html">Videos</a>, <a href="../../creating-content/wa/docs.html">Documents</a>
+          - sectiontitle: Step 6 - Add Army Themes and tags
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            para1: You can organize your article by relevant topics by adding tags and Army Themes to your Article Settings sidebar. 
+            para2: Tags categorize your content by keywords, allowing more people to discover it on CORE and Army.mil. They are used in search results, in custom news feeds, as well as on published articles under Related Stories.
+            numlist:  
+              - listname: To add a tag
+                one: Click Add a tag… in the right sidebar.
+                two: Enter a topic or keyword. As you type, CORE will auto-suggest popular tags along with the number of times that each tag has been added to an article.
+                three: Continue typing and click Enter on your keyboard to add a new tag, or select a popular tag from the dropdown list to increase the chance that your article is discovered.
+                four: You can add more tags, or remove a tag by clicking the X to the right of the tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+          - sectiontitle: 
+            para1: Army Themes are categories that align your article with the Secretary of the Army’s priorities. This allows Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the Public Affairs Portal (CAC access required for login).
+            numlist:  
+              - listname: To add an Army Theme
+                one: Click Add a strategic theme… in the right sidebar.
+                two: Select a theme from the dropdown list. The theme will appear as a tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                three: You can add more themes, or remove a theme by clicking the X to the right of the tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            note: Although you can add multiple tags and themes to your article, we recommend only adding 1 or 2 themes and up to 5 tags per article to streamline your communication efforts.
+            learn: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics. To learn more, visit Article Settings.
+          - sectiontitle: Step 7 - Save or Release
+            para1: Once you’re done with your article, you have a few options
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            paratitle: Why can’t I release my article?
+            para2: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.
+            para3: Double check your role on My Organization page. If you are a Contributor, you will have the ability to Submit for Review, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
+          - sectiontitle:
+            paratitle: What happens when I release my article?
+            itemlist:  
+              - listname: When you release an article in CORE
+                one: Your article will have a permanent URL on www.army.mil/article/[articleID], and will be available for anyone to read.
+                two: Your article will be discoverable by search engines such as Google, and by the search feature on www.army.mil itself.
+                three: Your article will be available to update in the Released list of your Inbox, as well as your Editor’s Inbox. 
+                four: Your article will be displayed in the All Content feed and will be available for CORE users to preview, post to social media, or add to their organization page.
+                five: If you added tags to your article, it will be displayed on all relevant tag pages. CORE users can access these pages by clicking a tag in the All Content feed.
+                six: Your article will automatically display on any organization page that has a Tagged News section based on tags added to your article.
+                seven: If your organization page has a Latest News section, your article will automatically display at the beginning of this feed.
+                eight: If your organization page has a Featured News section, your article will be available for publisher’s to manually add to the news feed.
+          - sectiontitle:
+            paratitle: What can I do with my content after it is released?
+            itemlist:  
+              - listname: One word...engage! Now that your article is visible to the public, use it to reach your audiences on a digital platform. You can do this by
+                one: Featuring it on your organization’s CORE Page
+                two: Posting it to your social media accounts
+                three: Sharing it with other users across the Army network
+            learn: More about ways to engage can be found by visiting <a href="../../creating-content/co/promote.html">Promoting Content</a>
+

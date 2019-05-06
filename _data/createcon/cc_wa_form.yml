@@ -18,9 +18,9 @@
 # 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
-  - title: Writing Articles
+  - title: Creating Content
     subtopics:
-      - subtitle: Writing an Article
+      - subtitle: Formatting Text
         sections:
           - sectiontitle:
             para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats <br> https://www.army.mil/article-id/  and  https://www.army.mil/article-id/article-title
