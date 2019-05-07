@@ -130,6 +130,10 @@ color: mediumblue;
     font-weight: 600;
 }
 
+.art-icons{
+    width: 20px;
+}
+
 .data-img{
     position: sticky;
     left: 55.5%;
@@ -477,6 +481,13 @@ a:hover.topic-box{
     list-style-type: disc;
     list-style-position: inside;
     padding-left: 6%;
+}
+
+.subbullet-item{
+    display: list-item; 
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 11%;
 }
 
 .num-item{

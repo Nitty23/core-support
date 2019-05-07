@@ -42,24 +42,46 @@
                                 {% when 'itemlist' %}
                                     {% for li in section.itemlist %}   
                                         {% for each in li %}
-                                            {% if forloop.first == true %} 
-                                                <p>{{ each[1] }}:</p>
+                                            {% if forloop.first == true %}
+                                                <ul>
+                                                    <p>{{ each[1] }}:</p>
+                                            {% elsif each[0] == 'list' %}
+                                                {% for item in li.list %}
+                                                    {% if forloop.first == true %} 
+                                                    <li class="bullet-item">{{ item[1] }}:</li>
+                                                        <ul>
+                                                    {% else %}
+                                                            <li class="subbullet-item">{{ item[1] }}</li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                                        </ul>
                                             {% else %}
-                                                <span class="bullet-item">{{ each[1] }}</span>
+                                                    <li class="bullet-item">{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
+                                                </ul>
                                     {% endfor %}
                                 {% when 'numlist' %}
                                     {% for li in section.numlist %}
                                         {% for each in li %}
                                             {% if forloop.first == true %}
-                                            <ol>
-                                                <p>{{ each[1] }}:</p>
+                                                <ol>
+                                                    <p>{{ each[1] }}:</p>
+                                            {% elsif each[0] == 'list' %}
+                                                {% for item in li.list %}
+                                                    {% if forloop.first == true %}
+                                                    <li class="num-item">{{ item[1] }}:</li>
+                                                        <ul>
+                                                    {% else %}
+                                                            <li class="subbullet-item">{{ item[1] }}</li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                                        </ul>
                                             {% else %}
-                                                <span class="num-item">&nbsp{{ each[1] }}</span>
+                                                    <li class="num-item">&nbsp{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
-                                            </ol>
+                                                </ol>
                                     {% endfor %}
                                 {% else %}
                                     <p>{{ part[1] }}</p>
