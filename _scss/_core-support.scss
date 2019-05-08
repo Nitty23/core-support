@@ -315,7 +315,7 @@ header{
 .title-pill{
     color:#252525;
     font-weight: 600;
-    font-size: 1.125em;
+    font-size: 1rem;
     white-space: nowrap;
 }
 
@@ -329,14 +329,14 @@ header{
 }
 
 .secondary-pill{
-    color:#666666;
+    color:#252525;
     font-weight: 400;
     border-left-style: solid;
     border-left-color: #fec325;
     border-left-width: 4px;
     white-space: nowrap;
     display: flex;
-    font-size: 1.125em;
+    font-size: 1rem;
 }
 
 .submenu-toggle{
@@ -351,18 +351,18 @@ header{
 }
 
 .topnav-bread{
-    font-weight: bold;
+    font-weight: 500;
     color: black;
     font-size: smaller;
 }
 
 .topnav-subtopic{
-    font-weight: bold;
+    font-weight: 600 !important;
     color: gray;
     font-size: smaller;
 }
 
-.topnav-subtopic-bread{
+.topnav-arrow-bread{
     font-weight: normal;
     color: gray;
     font-size: small;
@@ -429,8 +429,8 @@ a:hover.topic-box{
 
 .area-title{
     font-weight: 600;
-    font-size: xx-large;
-    text-align: left
+    font-size: 2rem;
+    text-align: left;
 }
 
 .topic-title{
@@ -439,7 +439,7 @@ a:hover.topic-box{
 }
 
 .topics-title{
-    font-size: 1em;
+    font-size: 1.125em;
     font-weight: 600;
     color: #fec325;
 }

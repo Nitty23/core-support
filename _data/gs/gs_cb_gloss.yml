@@ -26,17 +26,46 @@
             paratitle: <dfn>Article</dfn>
             para1: Individual story created on CORE.
           - sectiontitle:
+            paratitle: <dfn>Deactivate</dfn>
+            para1: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
+          - sectiontitle:
+            paratitle: <dfn>Delete</dfn>
+            para1: You must contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
+          - sectiontitle:
+            paratitle: <dfn>Delete</dfn>
+            para1: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
+          - sectiontitle:
             paratitle: <dfn>Page</dfn>
             para1: Pages are a way for organizations to group articles together.
+          - sectiontitle:
+            paratitle: <dfn>Page Actions</dfn>
+            para1: None
+          - sectiontitle:
+            paratitle: <dfn>Preview</dfn>
+            para1: None
+          - sectiontitle:
+            paratitle: <dfn>Publish</dfn>
+            para1: This action publicly releases updates on an organization’s Page to www.army.mil. 
+          - sectiontitle:
+            paratitle: <dfn>Reject</dfn>
+            para1: Reject <img class= "art-icons" src="https://static.thenounproject.com/png/1774295-200.png"> removes a “Pending Review” article from an Editor’s Inbox and sends it back to the creator’s Draft list. This is an indication that the article needs more work before it is ready to be released.
+          - sectiontitle:
+            paratitle: <dfn>Release</dfn>
+            para1: Release <img class= "art-icons" src="https://static.thenounproject.com/png/1409443-200.png"> publishes an article to Army.mil, making it publicly accessible from its own dedicated URL - https://www.army.mil/article-id/
+          - sectiontitle:
+            paratitle: <dfn>Retract</dfn>
+            para1: Retract <img class= "art-icons" src="https://static.thenounproject.com/png/2092766-200.png"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
+          - sectiontitle:
+            paratitle: <dfn>Schedule</dfn>
+            para1: Scheduling <img class= "art-icons" src="https://static.thenounproject.com/png/2480065-200.png"> allows users to set a future release date and time for an article. The article will appear in your Released Inbox list, but it will not become publicly available on Army.mil until 
+          - sectiontitle:
+            paratitle: <dfn>Submit</dfn>
+            para1: Submitting an article for review <img class= "art-icons" src="https://static.thenounproject.com/png/2094739-200.png"> sends it to the organization’s editor inbox. This action is limited to Contributors, since they do not have authority to release their own content.
           - sectiontitle:
             paratitle: <dfn>Tag</dfn>
             para1: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
           - sectiontitle:
             paratitle: <dfn>Theme</dfn>
-            para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics. 
-          - sectiontitle:
-            paratitle: <dfn>Follow</dfn>
-            para1: Following allows you to create a feed of articles that are relevant to you. You can browse articles from specific users, organizations or tags that you follow and easily add them to your Page, post them on social media, or share them with other users.
-          - sectiontitle:
-            paratitle: <dfn>Share</dfn>
-            para1: Sharing allows you to collaborate on a draft with other users.
+            para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
+          
+
