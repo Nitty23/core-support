@@ -110,10 +110,20 @@ color: mediumblue;
 .anchor a {
     position: absolute;
     left: 0px;
-    top: -160px;
+    top: -110px;
 }
 
 .anchor {
+    position: relative;
+}
+
+.sub-anchor a{
+    position: absolute;
+    left: 0px;
+    top: -120px;
+}
+
+.sub-anchor {
     position: relative;
 }
 
@@ -353,13 +363,13 @@ header{
 .topnav-bread{
     font-weight: 500;
     color: black;
-    font-size: smaller;
+    font-size: 1rem;
 }
 
 .topnav-subtopic{
     font-weight: 600 !important;
-    color: gray;
-    font-size: smaller;
+    color: #252525;
+    font-size: 1rem;
 }
 
 .topnav-arrow-bread{
@@ -431,6 +441,7 @@ a:hover.topic-box{
     font-weight: 600;
     font-size: 2rem;
     text-align: left;
+    margin-bottom: 23px;
 }
 
 .topic-title{

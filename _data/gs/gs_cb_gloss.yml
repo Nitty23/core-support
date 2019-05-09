@@ -22,30 +22,21 @@
     subtopics:
       - subtitle: CORE Glossary
         sections:
-          - sectiontitle:
+          - sectiontitle: GENERAL TERMS
             paratitle: <dfn>Article</dfn>
             para1: Individual story created on CORE.
-          - sectiontitle:
-            paratitle: <dfn>Deactivate</dfn>
-            para1: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
-          - sectiontitle:
-            paratitle: <dfn>Delete</dfn>
-            para1: You must contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
-          - sectiontitle:
-            paratitle: <dfn>Delete</dfn>
-            para1: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
           - sectiontitle:
             paratitle: <dfn>Page</dfn>
             para1: Pages are a way for organizations to group articles together.
           - sectiontitle:
-            paratitle: <dfn>Page Actions</dfn>
-            para1: None
+            paratitle: <dfn>Theme</dfn>
+            para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
+          - sectiontitle: ARTICLE / INBOX ACTIONS
+            paratitle: <dfn>Delete</dfn>
+            para1: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
           - sectiontitle:
             paratitle: <dfn>Preview</dfn>
             para1: None
-          - sectiontitle:
-            paratitle: <dfn>Publish</dfn>
-            para1: This action publicly releases updates on an organization’s Page to www.army.mil. 
           - sectiontitle:
             paratitle: <dfn>Reject</dfn>
             para1: Reject <img class= "art-icons" src="https://static.thenounproject.com/png/1774295-200.png"> removes a “Pending Review” article from an Editor’s Inbox and sends it back to the creator’s Draft list. This is an indication that the article needs more work before it is ready to be released.
@@ -64,8 +55,14 @@
           - sectiontitle:
             paratitle: <dfn>Tag</dfn>
             para1: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
+          - sectiontitle: PAGE ACTIONS
+            paratitle: <dfn>Deactivate</dfn>
+            para1: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
           - sectiontitle:
-            paratitle: <dfn>Theme</dfn>
-            para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
+            paratitle: <dfn>Delete</dfn>
+            para1: You must contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
+          - sectiontitle:
+            paratitle: <dfn>Publish</dfn>
+            para1: This action publicly releases updates on an organization’s Page to www.army.mil. 
           
 
