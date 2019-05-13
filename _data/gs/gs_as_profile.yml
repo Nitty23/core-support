@@ -49,7 +49,7 @@
             para1: There are two ways to edit your profile information in CORE.
             numlist:
               - listname: OPTION 1 - From your Account Settings
-                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 list:
                   listname: From your profile page, you can
                   one: Change your display name and contact information
@@ -61,9 +61,9 @@
           - sectiontitle:
             numlist:
               - listname: OPTION 2 - From the User Directory
-                one: Click Community in the main navigation to access your My Organization page.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-                two: Locate your name at the top of your organization’s team member list. Click the (ellipsis icon) located at the far right side.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-                three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png"><br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                one: Click Community in the main navigation to access your My Organization page.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                two: Locate your name at the top of your organization’s team member list. Click the (ellipsis icon) located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png"><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 four: When you’re done making changes, click Update button at the bottom of the Edit Profile lightbox.
           - sectiontitle: Why can’t I change my username?        
             para1: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system to verify a user’s identity and permissions. Your CORE username is tied to your AKO account and can only be changed through the AKO system.

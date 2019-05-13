@@ -30,7 +30,7 @@
             numlist:
               - listname: Initial procedure for the user
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
           - sectiontitle: Step 2 - Add a Title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
@@ -45,13 +45,13 @@
                 one: Click on the creator’s name to activate the author field.
                 two: Edit your name, or change it to another person’s name altogether.
                 three: If you co-wrote an article, click on Add an author... and enter a new name.
-                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
           - sectiontitle: Step 4 - Write and Format
             para1: Your new draft includes a basic text box to help you get started. Click <strong>Start typing, or copy and paste your article here…</strong>
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
-                two: Click on <strong>Formatting Options</strong> in the toolbar.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             note: Check out Formatting Text to learn more about all the formatting features.
           - sectiontitle: Step 5 - Add Media
             para1: From the WYSIWYG editor, you can also upload images and documents, or embed a video from YouTube. These media elements can be inserted anywhere within your article body.
@@ -62,7 +62,7 @@
                 list: 
                   listname: A lightbox editor will appear, depending on the type of media that you selected to insert
                   one: For Images or Documents, click the <img class= "art-icons" src="https://static.thenounproject.com/png/2475295-200.png"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="https://static.thenounproject.com/png/2475295-200.png"> <strong>Drag & Drop</strong> placeholder box.
-                  two: For Videos, click Enter a YouTube link… and paste the YouTube video URL.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                  two: For Videos, click Enter a YouTube link… and paste the YouTube video URL.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             para2: To learn more about adding and editing media in your articles -
@@ -76,17 +76,17 @@
                 one: Click Add a tag… in the right sidebar.
                 two: Enter a topic or keyword. As you type, CORE will auto-suggest popular tags along with the number of times that each tag has been added to an article.
                 three: Continue typing and click Enter on your keyboard to add a new tag, or select a popular tag from the dropdown list to increase the chance that your article is discovered.
-                four: You can add more tags, or remove a tag by clicking the X to the right of the tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                four: You can add more tags, or remove a tag by clicking the X to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
           - sectiontitle: 
             para1: Army Themes are categories that align your article with the Secretary of the Army’s priorities. This allows Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the Public Affairs Portal (CAC access required for login).
             numlist:  
               - listname: To add an Army Theme
                 one: Click Add a strategic theme… in the right sidebar.
-                two: Select a theme from the dropdown list. The theme will appear as a tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-                three: You can add more themes, or remove a theme by clicking the X to the right of the tag.<br><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                two: Select a theme from the dropdown list. The theme will appear as a tag.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                three: You can add more themes, or remove a theme by clicking the X to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             note: Although you can add multiple tags and themes to your article, we recommend only adding 1 or 2 themes and up to 5 tags per article to streamline your communication efforts.
             para2: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics.
-            learn: Visit <a href="../../creating-content/co/article_settings.html">Article Settings</a>
+            learn: Visit <a href="../../creating-content/wa/article_settings.html">Article Settings</a>
           - sectiontitle: Step 7 - Save or Release
             para1: Once you’re done with your article, you have a few options
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">

@@ -19,8 +19,7 @@
             </div>
         {% endfor %}
         {% if forloop.last == false %}
-            <br>
-            <br>
+            <span class="subtopic-spacer"></span>
         {% endif %}    
     {% endfor %}
     {% if forloop.last == false %}
@@ -28,4 +27,5 @@
         </div>
         <hr class="topic-hr">
     {% endif %}
+    </section>
 {% endfor %}

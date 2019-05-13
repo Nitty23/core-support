@@ -4,7 +4,8 @@
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
             <div class="row ">
-                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+                <aside class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+                    <nav>
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
@@ -18,9 +19,10 @@
                                 </ul>
                             </li>
                         </ul>
-                    {% endfor %}                  
-                </div>
-
+                    {% endfor %}
+                    </nav>                 
+                </aside>
+                
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
                         {% include topic_generator.html %}

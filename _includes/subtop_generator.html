@@ -1,50 +1,47 @@
-<section>
+<article class="article-space">
     {% for topic in datafile %}
-    <br>
-    <br>
-        <ul>
         {% for subtopic in topic.subtopics %}
             {% for item in subtopic %}
                 {% assign type = item[0] %}
                 {% case type %}
                     {% when 'subtitle' %}
-                        <span class="topic-title"><b>{{ item[1] }}</b></span>
-                        <p class="topic-subtext">Last updated {{ filemod | date: '%B %d, %Y' }}</p>
+                            <header>
+                                <h1 class="topic-title">{{ item[1] }}</h1>
+                                <p class="topic-subtext">Last updated {{ filemod | date: '%B %d, %Y' }}</p>
+                            </header>
                     {% when 'sections' %}
                     {% for section in subtopic.sections %}
+                            <section class="sect-space">
                         {% for part in section %}
                             {% assign type = part[0] %}
                             {% case type %}
                                 {% when 'sectiontitle' %}
                                     {% if part[1] %}
-                                    <span class="subtopic-title"><b>{{ part[1] }}</b></span><br>
-                                    {% else %}
-                                    <div></div>                       
+                                    <header>
+                                        <h2 class="subtopic-sect-title">{{ part[1] }}</h2>
+                                    </header>
+                                    {% else %}                     
                                     {% endif %}
                                 {% when 'paratitle' %}
-                                    <span class="topic-text"><strong>{{ part[1] }}</strong></span>
+                                    <h3 class="para-title">{{ part[1] }}</h3>
                                 {% when 'note' %}
                                     <div class="topic-text-note">
-                                        <div class="supp-note">
+                                        <div class="supp-post-it">
                                             <strong>Note: </strong>{{ part[1] }}
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                 {% when 'learn' %}
                                     <div class="topic-text-learn">
-                                        <div class="supp-note">
+                                        <div class="supp-post-it">
                                             {{ part[1] }}. <strong>LEARN MORE ></strong>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                 {% when 'itemlist' %}
                                     {% for li in section.itemlist %}   
                                         {% for each in li %}
                                             {% if forloop.first == true %}
+                                                <h4 class="list-title">{{ each[1] }}:</h4>
                                                 <ul>
-                                                    <p>{{ each[1] }}:</p>
                                             {% elsif each[0] == 'list' %}
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %} 
@@ -65,8 +62,8 @@
                                     {% for li in section.numlist %}
                                         {% for each in li %}
                                             {% if forloop.first == true %}
+                                                <h4 class="list-title">{{ each[1] }}:</h4>
                                                 <ol>
-                                                    <p>{{ each[1] }}:</p>
                                             {% elsif each[0] == 'list' %}
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %}
@@ -87,11 +84,10 @@
                                     <p>{{ part[1] }}</p>
                             {% endcase %}
                         {% endfor %}
-                        <br>
+                            </section>
                     {% endfor %}
                 {% endcase %}
             {% endfor %}
         {% endfor %}
-        </ul>
     {% endfor %}
-</section>
+</article>

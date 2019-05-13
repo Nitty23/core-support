@@ -5,39 +5,43 @@
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
             <div class="row ">
-                <div class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
-                        {% for topic in site.data.toc.support_toc %}
-                            {% if topic.id == suburl[1] %}
-                                <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-                                    <li>                                
-                                        <a href="../../topics/#{{ topic.id }}" class="is-active-parent title-pill">{{ topic.title }}</a>
-                                        <ul class="menu vertical nested is-active">
-                            {% else %}
-                                <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-                                    <li>                                
-                                        <a href="../../topics/#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
-                                        <ul class="menu vertical nested">
-                            {% endif %}
-                                    {% for subtopic in topic.subtopics %}
-                                        {% if subtopic.id == suburl[2] %}
+                <aside class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+                    <nav>
+                    {% for topic in site.data.toc.support_toc %}
+                        {% if topic.id == suburl[1] %}
+                            <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                                <li>                                
+                                    <a href="../../topics/#{{ topic.id }}" class="is-active-parent title-pill">{{ topic.title }}</a>
+                                    <ul class="menu vertical nested is-active">
+                        {% else %}
+                            <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                                <li>                                
+                                    <a href="../../topics/#{{ topic.id }}" class="title-pill">{{ topic.title }}</a>
+                                    <ul class="menu vertical nested">
+                        {% endif %}
+                        {% for subtopic in topic.subtopics %}
+                            {% if subtopic.id == suburl[2] %}
                                         <li>
                                             <a href="../../topics/#{{ subtopic.id }}" class="is-active secondary-pill">{{ subtopic.title }}</a>
                                         </li>
-                                        {% else %}
+                            {% else %}
                                         <li>
                                             <a href="../../topics/#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
                                         </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                        </ul>
-                    {% endfor %}                  
-                </div>
+                            {% endif %}
+                        {% endfor %}
+                                    </ul>
+                                </li>
+                            </ul>
+                    {% endfor %}
+                    </nav>
+                </aside>
 
                 <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
                     <div class="topics-content">
-                        <a href="{{ page.tohome }}" class="topnav-bread">CORE Support</a><span class="topnav-arrow-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-arrow-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
+                        <nav>
+                            <a href="{{ page.tohome }}" class="topnav-bread">CORE Support</a><span class="topnav-arrow-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-arrow-bread">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
+                        </nav>
                         {% include subtop_generator.html %}
                     </div>
                 </div> <!-- End of Second column here -->

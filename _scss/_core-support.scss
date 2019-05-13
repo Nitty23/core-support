@@ -127,6 +127,14 @@ color: mediumblue;
     position: relative;
 }
 
+.article-space{
+    margin-top: 3rem;
+}
+
+.sect-space{
+    margin: 1rem 0 1.5rem 0;
+}
+
 .masthead-title{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
@@ -145,10 +153,11 @@ color: mediumblue;
 }
 
 .data-img{
-    position: sticky;
-    left: 55.5%;
-    margin-top: 25px;
+    margin: 25px 0 10px 0;
     border: 1px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .topicspan{    
@@ -190,7 +199,7 @@ h3:after, h4:after, h5:after {
 }
 
 section{
-    overflow: visible;
+    // overflow: visible;
 }
 
 .remove-space{
@@ -198,7 +207,8 @@ section{
 }
 
 .homepage-title{
-    margin-bottom: 0px !important;
+    margin-top: 3em;
+    margin-bottom: 0px;
 }
 
 .sect-spacing{
@@ -210,8 +220,11 @@ section{
 }
 
 .subtopic-spacer{
-padding-bottom: 3.6em;
+    margin: 5rem;
+    display: block;
 }
+
+
 
 .topic-hr{
     border-top-color: inherit;
@@ -225,11 +238,7 @@ padding-bottom: 3.6em;
     margin: 18px;
 }
 
-header{
-    position: absolute;
-}
-
-.supp-header{
+.cs-header{
     padding: 0;
     min-width: 100%;
     z-index: 3;
@@ -254,7 +263,7 @@ header{
 .inner-supp-mast{
     position: absolute;
     z-index: 3 !important;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 600px;
@@ -460,9 +469,16 @@ a:hover.topic-box{
 .subtopic-title{
     font-size: 1.4em;
     font-weight: 600 !important;
+    text-transform: inherit;
 }
 
-.supp-note{
+.subtopic-sect-title{
+    font-size: 1.4em;
+    font-weight: 600 !important;
+    text-transform: inherit;
+}
+
+.supp-post-it{
     padding: 12px;
 }
 
@@ -471,16 +487,25 @@ a:hover.topic-box{
     font-weight: normal !important;
 }
 
+.para-title{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: inherit;
+}
+
+.list-title{
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    text-transform: inherit;
+    margin: inherit;
+}
+
 .topic-subtext{
     color: gray;
     font-weight: normal !important;
     font-size: small;
-}
-
-.topic-text-note{
-    background-color: lightblue;
-    color: darkblue;
-    border-left: 5px solid lightgray;
 }
 
 .bullet-item{
@@ -508,6 +533,14 @@ a:hover.topic-box{
     background-color: lightyellow;
     color: darkblue;
     border-left: 5px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+.topic-text-note{
+    background-color: lightblue;
+    color: darkblue;
+    border-left: 5px solid lightgray;
+    margin-bottom: 2rem;
 }
 
 .topic-link{
