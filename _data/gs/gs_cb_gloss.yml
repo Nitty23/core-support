@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
 # 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
@@ -57,10 +57,10 @@
             para1: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
           - sectiontitle: PAGE ACTIONS
             paratitle: <dfn>Deactivate</dfn>
-            para1: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
+            para1: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a class="underline-link" href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
           - sectiontitle:
             paratitle: <dfn>Delete</dfn>
-            para1: You must contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
+            para1: You must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
           - sectiontitle:
             paratitle: <dfn>Publish</dfn>
             para1: This action publicly releases updates on an organization’s Page to www.army.mil. 

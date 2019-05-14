@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
 # 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.

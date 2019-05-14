@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
 # 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
@@ -23,7 +23,7 @@
       - subtitle: Create an Article
         sections:
           - sectiontitle:
-            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats - <br> <em>https://www.army.mil/article-id/</em>  and  <em>https://www.army.mil/article-id/article-title</em>
+            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats - <br> <em>https://www.army.mil/article-id/</em>  and  <em>https://www.army.mil/article-id/article-title</em>
             para2: Keep reading below to learn about some basic features available in our article editor.
             video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
           - sectiontitle: Step 1 - Create a New Article
@@ -38,7 +38,7 @@
             note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit The Importance of a Quality Headline.
           - sectiontitle: Step 3 - Customize the Author
             para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
-            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a href="http://www.army.mil">www.army.mil</a>.
+            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             numlist:  
               - listname: To edit the author
@@ -66,7 +66,7 @@
                 four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             para2: To learn more about adding and editing media in your articles -
-            learn: Visit <a href="../../creating-content/wa/imgages.html">Images</a>, <a href="../../creating-content/wa/videos.html">Videos</a>, <a href="../../creating-content/wa/docs.html">Documents</a>
+            learn: Visit <a href="../../creating-content/wa/imgages.html">Images</a>, <a class="underline-link" href="../../creating-content/wa/videos.html">Videos</a>, <a class="underline-link" href="../../creating-content/wa/docs.html">Documents</a>
           - sectiontitle: Step 6 - Add Army Themes and tags
             image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             para1: You can organize your article by relevant topics by adding tags and Army Themes to your Article Settings sidebar. 

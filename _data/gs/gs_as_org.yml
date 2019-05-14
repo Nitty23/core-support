@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
 # 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
 # 6) Most titles are bold, but bolden other content as such - <strong> your bold content </strong>
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
@@ -55,14 +55,14 @@
             para1: You will notice that your organization and team members automatically change on My Organization tab. All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
             note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your My Organization page.
           - sectiontitle: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
-            para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to request a new organization is added to CORE.
+            para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to request a new organization is added to CORE.
             itemlist:
               - listname: What happens when I change my organization?
                 one: Your Profile is updated.
-                two: Your <a href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
+                two: Your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
                 three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
                 four: You role is reverted to contributor.
           - sectiontitle: Why did my role change when I changed organizations?
             para1: While you can change your organization without needing approval, your role within the new team is controlled by your new administrator. We automatically send a notification to your administrator when you join their organization, encouraging them to take action regarding your role.
-            para2: In the meantime, your role is reverted to a contributor, so that you can continue to create new content and submit it for review with the appropriate organization. If you need advanced permissions, please reach out to your administrator(s) directly. You can locate their contact information on your <a href="http://core.ardev.us/community">My Organization</a> page.
+            para2: In the meantime, your role is reverted to a contributor, so that you can continue to create new content and submit it for review with the appropriate organization. If you need advanced permissions, please reach out to your administrator(s) directly. You can locate their contact information on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
 

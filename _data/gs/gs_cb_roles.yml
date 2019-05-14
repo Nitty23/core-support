@@ -11,7 +11,7 @@
 # 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
 # 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
 # 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a href="http://www.google.com">Google</a> and internal as <a href="/topics/#as">Account Settings</a>
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
@@ -23,7 +23,7 @@
       - subtitle: Roles and Permissions
         sections:
           - sectiontitle:
-            description: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
+            description: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
           - sectiontitle: TYPE OF ROLES
             paratitle: Contributor
             para1: Contributors have access to standard features, like creating stories and uploading files to CORE. They must submit all draft content to an Editor for review, prior to release. However, they can retract and delete their own content. This is the default role for new CORE members or users that are transitioning to a new organization.
@@ -54,7 +54,7 @@
             para1: Super Admin control the highest-level security and administrative settings for all CORE users, pages and organizations. This role is reserved for Army.mil Web team and Digital Media Division personnel to assist with support to the entire CORE community.
           - sectiontitle: ROLES AND PERMISSIONS
             para1: Read the table below to see more of what each role can do.
-            para2: <a href="https://docs.google.com/spreadsheets/d/1J7MKicP9OFMG8cMkTEPT4rORU_8kx9_sMo-1OCZwewQ/edit#gid=0">Features can be pulled from this Google Sheets</a>
+            para2: <a class="underline-link" href="https://docs.google.com/spreadsheets/d/1J7MKicP9OFMG8cMkTEPT4rORU_8kx9_sMo-1OCZwewQ/edit#gid=0">Features can be pulled from this Google Sheets</a>
             para3: (suggest leaving off Master editor and Super Admin and just keep it to the organization roles)
 
 
