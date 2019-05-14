@@ -25,16 +25,16 @@
                                 {% when 'paratitle' %}
                                     <h3 class="para-title">{{ part[1] }}</h3>
                                 {% when 'note' %}
-                                    <div class="topic-text-note">
-                                        <div class="supp-post-it">
-                                            <strong>Note: </strong>{{ part[1] }}
-                                        </div>
+                                    <div class="supp-post-it topic-text-note">
+                                        <strong>Note: </strong>{{ part[1] }}
                                     </div>
                                 {% when 'learn' %}
-                                    <div class="topic-text-learn">
-                                        <div class="supp-post-it">
-                                            {{ part[1] }}. <strong>LEARN MORE ></strong>
-                                        </div>
+                                    <div class="supp-post-it topic-text-learn">
+                                        <strong>Learn more </strong>{{ part[1] }}
+                                    </div>
+                                {% when 'tip' %}
+                                    <div class="supp-post-it topic-text-tip">
+                                        <strong>Tip: </strong>{{ part[1] }}
                                     </div>
                                 {% when 'itemlist' %}
                                     {% for li in section.itemlist %}   
@@ -67,7 +67,7 @@
                                             {% elsif each[0] == 'list' %}
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %}
-                                                    <li class="num-item">{{ item[1] }}:</li>
+                                                    <li class="num-item">&nbsp{{ item[1] }}:</li>
                                                         <ul>
                                                     {% else %}
                                                             <li class="subbullet-item">{{ item[1] }}</li>
@@ -81,7 +81,7 @@
                                                 </ol>
                                     {% endfor %}
                                 {% else %}
-                                    <p>{{ part[1] }}</p>
+                                    <p class="article-para">{{ part[1] }}</p>
                             {% endcase %}
                         {% endfor %}
                             </section>

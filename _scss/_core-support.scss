@@ -104,7 +104,10 @@ body {
 }
 
 a {
-color: mediumblue;
+    color: #0071bb;
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
 }
 
 .anchor a {
@@ -128,11 +131,16 @@ color: mediumblue;
 }
 
 .article-space{
-    margin-top: 3rem;
+    margin-top: 3.75rem;
+}
+
+.article-para {
+    margin-bottom: 1.875em;
 }
 
 .sect-space{
-    margin: 1rem 0 1.5rem 0;
+    margin: 2.5rem 0 2.5rem 0;
+    overflow: visible;
 }
 
 .masthead-title{
@@ -198,10 +206,6 @@ h3:after, h4:after, h5:after {
     color: #4d4d4d;
 }
 
-section{
-    // overflow: visible;
-}
-
 .remove-space{
     margin-top: -6rem;
 }
@@ -211,9 +215,6 @@ section{
     margin-bottom: 0px;
 }
 
-.sect-spacing{
-    padding-top: 14%;
-}
 
 .topic-spacer{
     padding-bottom: 1em;
@@ -371,7 +372,7 @@ section{
 
 .topnav-bread{
     font-weight: 500;
-    color: black;
+    color: #252525;
     font-size: 1rem;
 }
 
@@ -450,36 +451,39 @@ a:hover.topic-box{
 }
 
 .topic-title{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
+    color: #252525;
 }
 
 .topics-title{
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 600;
     color: #fec325;
 }
 
 .underline-link{
-    text-decoration: underline;
-    color: darkblue;
+    text-decoration: none;
     font-weight: 400;
+    color: #0071bb;
+    border-bottom: 1px solid #ccc;
 }
 
 .subtopic-title{
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 600 !important;
     text-transform: inherit;
 }
 
 .subtopic-sect-title{
-    font-size: 1.4em;
+    font-size: 1.5rem;
     font-weight: 600 !important;
     text-transform: inherit;
+    margin: 1.875em 0 1.875rem 0;
 }
 
 .supp-post-it{
-    padding: 12px;
+    padding: 10px;
 }
 
 .topic-text{
@@ -499,20 +503,20 @@ a:hover.topic-box{
     font-weight: normal;
     font-size: 1rem;
     text-transform: inherit;
-    margin: inherit;
+    margin: 1.875rem 0 1.875rem 0;
 }
 
 .topic-subtext{
-    color: gray;
+    color: #7f7f7f;
     font-weight: normal !important;
-    font-size: small;
+    font-size: 0.875rem;
 }
 
 .bullet-item{
     display: list-item; 
     list-style-type: disc;
     list-style-position: inside;
-    padding-left: 6%;
+    margin-left: 1.25rem;
 }
 
 .subbullet-item{
@@ -530,17 +534,24 @@ a:hover.topic-box{
 }
 
 .topic-text-learn{
-    background-color: lightyellow;
-    color: darkblue;
-    border-left: 5px solid lightgray;
-    margin-bottom: 2rem;
+    background-color: #fbf2d0;
+    color: #06363C;
+    border-left: 5px solid #D1CAAD;
+    margin-bottom: 1rem;
 }
 
 .topic-text-note{
-    background-color: lightblue;
-    color: darkblue;
-    border-left: 5px solid lightgray;
-    margin-bottom: 2rem;
+    background-color: #fbf2d0;
+    color: #06363C;
+    border-left: 5px solid #D1CAAD;
+    margin-bottom: 1rem;
+}
+
+.topic-text-tip{
+    background-color: #def1f4;
+    color: #06363C;
+    border-left: 5px solid #BECFD1;
+    margin-bottom: 1rem;
 }
 
 .topic-link{
@@ -797,10 +808,6 @@ input::placeholder {
         color: lightgrey;
     }
 
-    .sect-spacing{
-        padding-top:0% !important;
-    }
-
     .support-text-centered {
         margin: 0% 9% !important;
     }
@@ -867,10 +874,6 @@ input::placeholder {
     @keyframes slideBack {
         from {padding-top: 21% }
         to {padding-top: 9% }
-    }
-
-    .sect-spacing{
-        padding-top: 13%;
     }
 
     .support-text-centered {
