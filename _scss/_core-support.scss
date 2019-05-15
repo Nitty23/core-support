@@ -94,6 +94,10 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+    text-align: left;
+}
+
 .row{
     margin-bottom: 30px;
 }
@@ -101,13 +105,6 @@ body {
 .topic-content-row{
     margin-bottom: 13.5em;
     margin-top: 0em;
-}
-
-.article-link {
-    color: #0071bb;
-    text-decoration: none;
-    font-weight: 400;
-    border-bottom: 1px solid #ccc;
 }
 
 .anchor a {
@@ -136,6 +133,39 @@ body {
 
 .article-para {
     margin-bottom: 1.875em;
+}
+
+.article-sidenav{
+}
+
+.article-sidenav-list{
+    text-transform: none;
+    list-style-type: none;
+}
+
+.article-sidenav-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: none;
+    color: #252525;
+    list-style-type: none;    
+    margin-bottom: .75rem;
+}
+
+.article-sidenav-item {
+    margin-bottom: .75rem;
+}
+
+.article-sidenav-link:hover {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.article-sidenav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: none;
+    color: #252525;
 }
 
 .sect-space{
@@ -563,13 +593,13 @@ a:hover.topic-box{
 }
 
 .topics-content{
-    padding-left: 15%;
+    padding-right: 0;
 }
 
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
 .find-row{
-    margin: 9% 0% 5%;
+    margin-bottom: 3.75rem;
     padding: 3% 0%;
     background-color: #fec325;
 }
@@ -738,6 +768,10 @@ input::placeholder {
 /*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 639px) {
+    h1, h2, h3, h4, h5 {
+        text-align: left;
+    }
+
     .topic-hr {
         margin-top: 0em;
         margin-bottom: 1em;
@@ -856,7 +890,15 @@ input::placeholder {
     }
 }
 
+/*------------------------------------------------------------------------*/
+/*
+/*              Responsive Tablet Code
+/*
+/*------------------------------------------------------------------------*/
 @media screen and (max-width: 1200px) {
+    h1, h2, h3, h4, h5 {
+        text-align: left;
+    }
 
     .mobile-center{
         text-align: center;
