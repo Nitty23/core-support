@@ -13,27 +13,7 @@
                         {% include subtop_generator.html %}
                     </div>
                 </div> <!-- End of Second column here -->
-                <aside class="column large-3 medium-4 hide-for-small-only article-sidenav">
-                    <nav>
-                        <h2 class="article-sidenav-title">Articles in this section</h2>
-                        <ul class="article-sidenav-list">
-                        {% for topic in site.data.toc.support_toc %}
-                            {% for subtopic in topic.subtopics %}
-                                {% if subtopic.id == suburl[2] %}
-                                    {% for section in subtopic.sections %}
-                                        {% assign targeturl = section.url | split: "/" %}
-                                        {% if targeturl[3] != suburl[3]%}                                    
-                                            <li class="article-sidenav-item">
-                                                <a href="../..{{ section.url }}" class="article-sidenav-link">{{ section.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}
-                        </ul>
-                    </nav>
-                </aside>
+                {% include subtop_sidenav.html %}
             </div>
         </div> <!-- End of inner containter here -->
         {% include cantfind.html %}

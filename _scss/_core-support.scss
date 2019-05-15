@@ -177,6 +177,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     color: white;
+    font-size: 2rem;
 }
 
 .topic-center-row{
@@ -286,7 +287,7 @@ h3:after, h4:after, h5:after {
 .mast-title{
     position: absolute;
     z-index: 3 !important;
-    top: 36%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -297,7 +298,6 @@ h3:after, h4:after, h5:after {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 600px;
 }
 
 .masthead-img{
@@ -626,19 +626,19 @@ a:hover.topic-box{
 }
 
 .find-title{
-    font-size: 1.65em;
+    font-size: 1.65rem;
     color: #231f20;
     font-weight: bold; 
 }
 
 .find-text{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: #231f20;
 }
 
 .find-btn-text{
     font-weight: bold; 
-    font-size: 1.25em;
+    font-size: 1.25rem;
     color: #231f20;
 }
 
@@ -703,7 +703,20 @@ a:hover.topic-box{
     border-radius: 28px;
     background: white;
     color: lightgrey;
-    min-width: 40%;
+    width: 600px;
+}
+
+.mast-search-input{
+    margin: 10px 20px;
+    font-style: italic;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+
+.mast-search-icon{
+    color: #fec325;
+    font-size: 126%;
+    margin: 12px 20px;
 }
 
 .results-mast{
@@ -763,13 +776,16 @@ input::placeholder {
 
 /*------------------------------------------------------------------------*/
 /*
-/*              Responsive Mobile Code
+/*              Responsive Mobile Style
 /*
 /*------------------------------------------------------------------------*/
-
 @media screen and (max-width: 639px) {
     h1, h2, h3, h4, h5 {
         text-align: left;
+    }
+
+    search-input{
+
     }
 
     .topic-hr {
@@ -800,9 +816,25 @@ input::placeholder {
 
     .topics-content{
         padding: 0% 1%;
-        margin-left: 0%;
-        margin-top: 15%;
-        font-size: smaller;
+        margin-top: 5%;
+    }
+    
+    .results-searchbox{
+        width: 400px;
+    }
+
+    .masthead-title{
+        width: 300px;
+    }
+
+    .mast-title{
+        top: 0;
+        margin: 0 !important;
+    }
+
+    .find-mobile{
+        margin: 2.5rem 0 2.5rem 0;
+        overflow: visible;
     }
 
     .find-col{
@@ -833,13 +865,13 @@ input::placeholder {
   
     .mast-searchbox{
         z-index: 3;
-        margin: 25% 5% 0% 1%;
         display: flex;
         justify-content: space-between;
         border: 1px solid white;
         border-radius: 28px;
         background: white; 
         color: lightgrey;
+        width: 400px;
     }
 
     .support-text-centered {
@@ -869,10 +901,6 @@ input::placeholder {
 
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
-    .topic-title{
-        font-size: 1.75em;
-    }
-
     .topic-text{
         font-size: small;
     }
@@ -881,18 +909,18 @@ input::placeholder {
         font-size: smaller
     }
 
-    .topic-subtext{
-        font-size: x-small;
-    }
-
     .mobile-center{
         text-align:center;
+    }
+
+    .inner-supp-mast {
+        top: 60%;
     }
 }
 
 /*------------------------------------------------------------------------*/
 /*
-/*              Responsive Tablet Code
+/*              Responsive Tablet Style
 /*
 /*------------------------------------------------------------------------*/
 @media screen and (max-width: 1200px) {
@@ -904,6 +932,11 @@ input::placeholder {
         text-align: center;
     }
     
+    .find-mobile{
+        margin: 2.5rem 0 2.5rem 0;
+        overflow: visible;
+    }
+
     .topicspan{
         padding-top: 9%;
     }
@@ -930,5 +963,14 @@ input::placeholder {
     @keyframes slide {
         from {padding-top: 9% }
         to {padding-top: 21% }
+    }
+
+    .mast-title{
+        top: 25%;
+        margin: 0 !important;
+    }
+
+    .inner-supp-mast {
+        top: 60%;
     }
 }
