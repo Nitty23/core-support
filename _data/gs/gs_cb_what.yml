@@ -35,8 +35,7 @@
             para1: In order to publicly release content to the www.army.mil community, you must be a Public Affairs professional who has graduated from the Defense Information School (DINFOS), and have release authority for your command or organization. The release authority can also grant others permission to release content, as long as the content is reviewed by the releasing authority.
             para2: Anyone with an AKO account can create a CORE account, allowing them to join an Army organization and submit content for review. However, all content produced by these contributors requires approval and release by a DINFOS-trained Public Affairs professional.
             note: Commanders must ensure all people who publish information on web pages within the Army.mil domain, receive DINFOS/OPSEC IA training in accordance with AR 530-1. This is Public Affairs Officer/OPSEC training specific to people whose duties include operating or maintaining Army.mil sites.
-          - sectiontitle: CORE BASICS
-            paratitle: <b>Your Organization</b>
+          - sectiontitle: Your Organization
             para1: CORE is comprised of Army organizations, and each one is made up of team members with varying roles and permissions. Administrators manage capabilities for all users within their organization, allowing members to produce articles, upload media, edit and release content, or publish the organization’s web page. This team management tool simplifies the content approval process.
             itemlist:
               - listname: As a whole, a CORE organization consists of the following people 

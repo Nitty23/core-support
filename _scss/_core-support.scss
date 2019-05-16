@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-para {
-    margin-bottom: 1.875em;
+    margin-bottom: 1.25em;
 }
 
 .article-sidenav{
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .sect-space{
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 2.1875rem 0 2.1875rem 0;
     overflow: visible;
 }
 
@@ -499,6 +499,12 @@ a:hover.topic-box{
     border-bottom: 1px solid #ccc;
 }
 
+.underline-link:hover{
+    text-decoration: none;
+    color: #00558c;
+    border-bottom-color: #00558c;
+}
+
 .subtopic-title{
     font-size: 1.4rem;
     font-weight: 600 !important;
@@ -509,7 +515,7 @@ a:hover.topic-box{
     font-size: 1.5rem;
     font-weight: 600 !important;
     text-transform: inherit;
-    margin: 1.875em 0 1.875rem 0;
+    margin: 1.25em 0 1.25rem 0;
 }
 
 .supp-post-it{
@@ -533,7 +539,7 @@ a:hover.topic-box{
     font-weight: normal;
     font-size: 1rem;
     text-transform: inherit;
-    margin: 1.875rem 0 1.875rem 0;
+    margin: 1.25rem 0 1.25rem 0;
 }
 
 .topic-subtext{
@@ -833,7 +839,7 @@ input::placeholder {
     }
 
     .find-mobile{
-        margin: 2.5rem 0 2.5rem 0;
+        margin: 2.1875rem 0 2.1875rem 0;
         overflow: visible;
     }
 
@@ -933,7 +939,7 @@ input::placeholder {
     }
     
     .find-mobile{
-        margin: 2.5rem 0 2.5rem 0;
+        margin: 2.1875rem 0 2.1875rem 0;
         overflow: visible;
     }
 
