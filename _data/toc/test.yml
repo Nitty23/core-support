@@ -20,9 +20,9 @@
 
   - title: CORE Basics
     subtopics:
-      - subtitle: CORE Glossary 
+      - subtitle: TEST CORE Glossary TEST
         sections:
-          - sectiontitle: GENERAL TERMS
+          - sectiontitle: TEST TERMS
             lexicon: 
               - title: Article
                 definition: Individual story created on CORE.

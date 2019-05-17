@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-space{
-    margin-top: 3.75rem;
+    margin-top: 3.125rem;
 }
 
 .article-para {
@@ -136,6 +136,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-sidenav{
+    margin-top: 5.25rem;
 }
 
 .article-sidenav-list{
@@ -166,6 +167,15 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
     text-transform: none;
     color: #252525;
+}
+
+.gloss-title{
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.gloss-def{
+    margin-bottom: 1.25rem;
 }
 
 .sect-space{
@@ -606,7 +616,7 @@ a:hover.topic-box{
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
 .find-row{
-    margin-bottom: 3.75rem;
+    margin-bottom: 3.125rem;
     padding: 3% 0%;
     background-color: #fec325;
 }

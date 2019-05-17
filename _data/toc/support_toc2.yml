@@ -7,7 +7,7 @@
         - title: What is CORE?
           url: /getting-started/cb/what_is.html
         - title: CORE Glossary
-          url: /getting-started/cb/core_gloss.html
+          url: /test-page/topics/test.html
         - title: Roles and Permissions
           url: /getting-started/cb/roles_and.html
         - title: Log in to CORE
@@ -23,6 +23,8 @@
           url: /getting-started/as/email_pref.html
         - title: Connect social media account
           url: /getting-started/as/connect_social.html
+        - title: Upload Profile Photo
+          url: /getting-started/as/upload.html
         - title: Delete or Deactivate
           url: /getting-started/as/delete_or.html
         - title: Google Analytics
@@ -43,8 +45,8 @@
     - title: Writing Articles
       id: wa
       sections: 
-        - title: Create Articles
-          url: /creating-content/wa/create_articles.html
+        - title: Create an Article
+          url: /creating-content/wa/create_article.html
         - title: Import from DVIDS
           url: /creating-content/wa/import_from.html
         - title: Edit Articles

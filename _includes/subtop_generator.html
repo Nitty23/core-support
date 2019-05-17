@@ -24,6 +24,13 @@
                                     {% endif %}
                                 {% when 'paratitle' %}
                                     <h3 class="para-title">{{ part[1] }}</h3>
+                                {% when 'lexicon' %}
+                                    <div class="row">
+                                    {% for term in section.lexicon %}
+                                        <dfn class="columns large-3 medium-3 small-3 gloss-title">{{ term.title }}</dfn>
+                                        <dd class="columns large-8 medium-8 small-8 large-offset-1 gloss-def">{{ term.definition }}</dd>
+                                    {% endfor %}
+                                    </div>
                                 {% when 'note' %}
                                     <div class="supp-post-it topic-text-note">
                                         <strong>Note: </strong>{{ part[1] }}
