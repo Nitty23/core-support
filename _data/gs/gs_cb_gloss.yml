@@ -35,17 +35,17 @@
           - sectiontitle: ARTICLE / INBOX ACTIONS
             lexicon: 
               - title: Delete
-                definition: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
+                definition: Delete <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
               - title: Reject
-                definition: Reject <img class= "art-icons" src="https://static.thenounproject.com/png/1774295-200.png"> removes a “Pending Review” article from an Editor’s Inbox and sends it back to the creator’s Draft list. This is an indication that the article needs more work before it is ready to be released.
+                definition: Reject <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> removes a “Pending Review” article from an Editor’s Inbox and sends it back to the creator’s Draft list. This is an indication that the article needs more work before it is ready to be released.
               - title: Release
-                definition: Release <img class= "art-icons" src="https://static.thenounproject.com/png/1409443-200.png"> publishes an article to Army.mil, making it publicly accessible from its own dedicated URL - https://www.army.mil/article-id/
+                definition: Release <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> publishes an article to Army.mil, making it publicly accessible from its own dedicated URL - https://www.army.mil/article-id/
               - title: Retract
-                definition: Retract <img class= "art-icons" src="https://static.thenounproject.com/png/2092766-200.png"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
+                definition: Retract <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
               - title: Schedule
-                definition: Scheduling <img class= "art-icons" src="https://static.thenounproject.com/png/2480065-200.png"> allows users to set a future release date and time for an article. The article will appear in your Released Inbox list, but it will not become publicly available on Army.mil until 
+                definition: Scheduling <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> allows users to set a future release date and time for an article. The article will appear in your Released Inbox list, but it will not become publicly available on Army.mil until 
               - title: Submit
-                definition: Submitting an article for review <img class= "art-icons" src="https://static.thenounproject.com/png/2094739-200.png"> sends it to the organization’s editor inbox. This action is limited to Contributors, since they do not have authority to release their own content.
+                definition: Submitting an article for review <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/submit_article.svg"> sends it to the organization’s editor inbox. This action is limited to Contributors, since they do not have authority to release their own content.
               - title: Preview
                 definition: None
           - sectiontitle: PAGE ACTIONS
