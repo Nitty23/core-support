@@ -33,7 +33,8 @@
             para1: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
           - sectiontitle: ARTICLE / INBOX ACTIONS
             paratitle: <dfn>Delete</dfn>
-            para1: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
+            para1: Delete <img class= "art-icons" src="https://static.thenounproject.com/png/1561048-200.png">
+<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
           - sectiontitle:
             paratitle: <dfn>Preview</dfn>
             para1: None
