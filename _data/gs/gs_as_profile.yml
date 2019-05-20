@@ -25,7 +25,7 @@
           - sectiontitle:
             para1: Your profile in CORE consists of information linked to your account settings. It is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>
             para2: Keep reading below to learn about some basic features available in your profile.
-            video: <img src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_what1.jpg">
+            video: src="https://www.youtube.com/embed/jv96WKme3Mo"
             itemlist:
               - listname: Your profile includes
                 one: Associated organization(s) 

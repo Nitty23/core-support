@@ -22,8 +22,8 @@
     subtopics:
       - subtitle: What is CORE?
         sections:
-          - sectiontitle:
-            video: <img src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_what1.jpg">
+          - sectiontitle:            
+            video: src="https://www.youtube.com/embed/jv96WKme3Mo"
             description: Welcome to <a class="underline-link" href="../../../../">CORE Support</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
             para1: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences.
           - sectiontitle: Who is eligible for a CORE Account?

@@ -24,11 +24,20 @@
                                     {% endif %}
                                 {% when 'paratitle' %}
                                     <h3 class="para-title">{{ part[1] }}</h3>
+                                {% when 'video' %}
+                                    <div class="responsive-embed widescreen">
+                                        <iframe class="article-para" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen {{ part[1] }}></iframe>
+                                    </div>
                                 {% when 'lexicon' %}
                                     <div class="row">
                                     {% for term in section.lexicon %}
                                         <dfn class="columns large-3 medium-3 small-3 gloss-title">{{ term.title }}</dfn>
                                         <dd class="columns large-8 medium-8 small-8 large-offset-1 gloss-def">{{ term.definition }}</dd>
+                                        {% if term.note %}
+                                        <div class="columns large-12 medium-12 small-12 supp-post-it topic-text-note">
+                                            <strong>Note: </strong>{{ term.note }}
+                                        </div>
+                                        {% endif %}
                                     {% endfor %}
                                     </div>
                                 {% when 'note' %}
