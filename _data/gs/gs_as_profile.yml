@@ -54,7 +54,7 @@
                   listname: From your profile page, you can
                   one: Change your display name and contact information
                   two: Enter a short description about yourself (up to 350 characters)
-                  three: Change your profile image by clicking on the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/camera.svg"> on your current avatar and select an image from your device. You can also drag and drop an image on top of the current avatar. To learn more, visit Upload Images.
+                  three: Change your profile image by clicking on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> on your current avatar and select an image from your device. You can also drag and drop an image on top of the current avatar. To learn more, visit Upload Images.
                 three: When you’re done with making changes, click the Save button in the top-right corner of the page.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">            
             image2: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile2.png">
