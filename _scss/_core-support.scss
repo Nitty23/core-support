@@ -199,6 +199,7 @@ h1, h2, h3, h4, h5 {
 
 .art-icons{
     width: 20px;
+    height: 20px;
 }
 
 .data-img{
@@ -736,7 +737,7 @@ a:hover.topic-box{
     margin: 12px 20px;
 }
 
-.results-mast{
+.search-mast{
     position: absolute;
     z-index: 2 !important;
     top: 60px;
@@ -747,7 +748,7 @@ a:hover.topic-box{
     border-bottom: 1px solid #666666;
 }
 
-.results-searchbox{
+.dropdown-searchbox{
     display: flex;
     justify-content: space-between;
     border: 1px solid grey;
@@ -768,7 +769,7 @@ input::placeholder {
     background-color:#666666;
 }
 
-#search-btn:focus{
+.nav-btn:focus{
     outline: none;
 }
 
@@ -836,7 +837,7 @@ input::placeholder {
         margin-top: 5%;
     }
     
-    .results-searchbox{
+    .dropdown-searchbox{
         width: 400px;
     }
 

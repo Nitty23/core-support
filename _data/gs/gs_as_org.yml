@@ -46,7 +46,7 @@
             numlist:  
               - listname: <strong>OPTION 2 </strong>- From My Organization 
                 one: Click <strong>Community</strong> in the main menu.
-                two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the (3 dot icon) located at the far right side.
+                two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> located at the far right side.
                 three: Select <strong>Change Organization</strong> from the dropdown options. 
                 four: This opens the same Change Organization lightbox as your Profile. Enter your new organization into the search box.
                 five: Select an organization from the auto-suggested list.
