@@ -43,7 +43,7 @@
           - sectiontitle: Want to add a new platform? Contact the CORE Support Team.
           - sectiontitle: Adding your social media accounts
             para1: 1) Click on your avatar in the top-right corner of the page and click Profile & Settings from the dropdown.
-            para2: 2) From the Profile tab, click the (X icon) to the right of your secondary email address.
+            para2: 2) From the Profile tab, click the <img class= "art-icons" src= "/e2/images/rv7/core-support/ui-media/x_icon.svg"> to the right of your secondary email address.
             para4: 3) Click Save at the top-right corner of the page.
 
             note: At this time, adding your social media accounts does not allow CORE to post anything to your account. We plan to work on the capability to post directly to your platforms in the future.

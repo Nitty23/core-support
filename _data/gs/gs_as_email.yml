@@ -35,7 +35,7 @@
             numlist:  
               - listname: <strong>Remove an email address</strong>
                 one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
-                two: From the <strong>Profile</strong> tab, click the (X icon) to the right of your secondary email address.
+                two: From the <strong>Profile</strong> tab, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to the right of your secondary email address.
                 three: Click <strong>Save</strong> at the top-right corner of the page.
             note: Your @mail.mil email address cannot be changed or deleted.
           - sectiontitle:
