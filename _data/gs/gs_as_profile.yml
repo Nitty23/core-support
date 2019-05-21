@@ -56,13 +56,12 @@
                   two: Enter a short description about yourself (up to 350 characters)
                   three: Change your profile image by clicking on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> on your current avatar and select an image from your device. You can also drag and drop an image on top of the current avatar. To learn more, visit Upload Images.
                 three: When you’re done with making changes, click the Save button in the top-right corner of the page.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">            
-            image2: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile2.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_save_profile.png">           
           - sectiontitle:
             numlist:
               - listname: OPTION 2 - From the User Directory
-                one: Click Community in the main navigation to access your My Organization page.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-                two: Locate your name at the top of your organization’s team member list. Click the (ellipsis icon) located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                one: Click Community in the main navigation to access your My Organization page.image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png"> 
+                two: Locate your name at the top of your organization’s team member list. Click the <img class= "art-icons" src= "/e2/images/rv7/core-support/ui-media/ellipsis.svg"> (ellipsis icon) located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
                 three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png"><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 four: When you’re done making changes, click Update button at the bottom of the Edit Profile lightbox.
           - sectiontitle: Why can’t I change my username?        
