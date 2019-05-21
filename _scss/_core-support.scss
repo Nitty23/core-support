@@ -137,6 +137,10 @@ h1, h2, h3, h4, h5 {
 
 .article-sidenav{
     margin-top: 5.25rem;
+    border-top: 5px solid goldenrod;
+    padding: 9px;
+    border-bottom: 2px solid goldenrod;
+    background-color: rgba(255, 234, 179, .15);
 }
 
 .article-sidenav-list{
@@ -389,6 +393,17 @@ h3:after, h4:after, h5:after {
     vertical-align: sub;
 }
 
+.mobile-nested{
+    margin-top: -60px !important;
+}
+
+#mobile-dropdown-menu{
+    position: fixed;
+    z-index: 3;
+    top: 60px;
+    width: 100%;
+}
+
 .secondary-pill{
     color:#252525;
     font-weight: 400;
@@ -400,6 +415,45 @@ h3:after, h4:after, h5:after {
     font-size: 1rem;
 }
 
+.mobile-title-pills{
+    color:white;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.mobile-sec-pills{
+    font-size: 18% !important;
+    color: white;
+    text-decoration: none;
+    font-weight: normal
+}
+
+.mobile-hr{
+    margin: .75em 20px 0.75rem;
+    border-color: #666666;
+}
+
+.mobile-li{
+    max-height: 40px;
+}
+
+.mobile-accord{
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.mobile-dropdown-container{
+    background-color: #252525;
+    font-size: 5rem;
+}
+
+.mobile-accord{
+    line-height: 0;
+    margin-bottom: 0;
+}
+
 .submenu-toggle{
     outline-color: white;
     height: 25px;
@@ -407,8 +461,9 @@ h3:after, h4:after, h5:after {
     transform: rotate(180deg);
 }
 
+//fix
 .is-accordion-submenu{
-    margin: 5% !important;
+    margin: 5%;
 }
 
 .topnav-bread{
@@ -791,6 +846,7 @@ input::placeholder {
 .hider{
     display: none;
 }
+
 
 /*------------------------------------------------------------------------*/
 /*
