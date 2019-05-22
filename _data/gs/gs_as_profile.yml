@@ -62,7 +62,7 @@
               - listname: OPTION 2 - From the User Directory
                 one: Click Community in the main navigation to access your My Organization page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png"> 
                 two: Locate your name at the top of your organization’s team member list. Click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> (ellipsis)  located at the far right side. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
-                three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png"><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_account_setting1.png"><img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 four: When you’re done making changes, click Update button at the bottom of the Edit Profile lightbox.
           - sectiontitle: Why can’t I change my username?        
             para1: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system to verify a user’s identity and permissions. Your CORE username is tied to your AKO account and can only be changed through the AKO system.
