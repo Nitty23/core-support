@@ -44,7 +44,8 @@
           - sectiontitle:
             numlist:  
               - listname: <strong>OPTION 2 </strong>- From My Organization 
-                one: Click <strong>Community</strong> in the main menu. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
+                one: Click <strong>Community</strong> in the main menu. <br>
+                <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
                 two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the  <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">  located at the far right side.<img src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
                 three: Select <strong>Change Organization</strong> from the dropdown options. 
                 four: This opens the same Change Organization lightbox as your Profile. Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_search.png">
@@ -52,7 +53,9 @@
                 six: Click <strong>Update</strong> to confirm your new organization and close the lightbox. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_search_save.png">
           - sectiontitle: 
             para1: You will notice that your organization and team members automatically change on My Organization tab. All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
-            note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your My Organization page. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_organization.png">
+            note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your My Organization page. 
+         <br>
+<img src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_organization.png">
           - sectiontitle: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
             para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to request a new organization is added to CORE.
             itemlist:
