@@ -37,7 +37,7 @@
             para4: <br><hr><br>
           - sectiontitle: 
             itemlist:
-              - listname: How do I obtain an username and password?
+              - listname: <strong? How do I obtain an username and password? </strong>
                 one: Click Create Account (AKO) underneath the Login buttons. This will redirect you to the AKO Account Registration page.
                 two: Enter your Social Security Number. <br> NOTE -The SSN provided is compared with your information in the AKO Enterprise Directory Database (EDD), and is used solely to verify that you are authorized to have an AKO account.
                 three: What happens next? Is a confirmation email sent to user?
