@@ -28,7 +28,7 @@
             numlist:  
               - listname: <strong>View your Organization(s)</strong>
                 one: Click on your avatar in the top-right corner of the page.
-                two: In the dropdown, click <strong>Profile & Settings</strong> from the dropdown. <img src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_john_doe_profile_dropdown.png">
+                two: In the dropdown, click <strong>Profile & Settings</strong> from the dropdown. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
                 three: From the <strong>Profile</strong> tab, your current organization is also displayed at the top with the option to change to a new organization. <img src="/e2/images/rv7/core-support/getting-started/cb/gs_as_acct_settings_profile.png">
           - sectiontitle:
             paratitle: Change Your Home Organization
@@ -37,10 +37,10 @@
             numlist:  
               - listname: <strong>OPTION 1 </strong>- From your Profile  
                 one: From the <strong>Profile</strong> tab, your current organization is displayed at the top.
-                two: Click <strong>Change Organization</strong>.<img src="/e2/images/rv7/core-support/getting-started/cb/gs_as_change_organization.png">
-                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img scr"/e2/images/rv7/core-support/getting-started/cb/ga_as_change_org_lightbox.png">
+                two: Click <strong>Change Organization</strong>.<img src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_organization.png">
+                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img scr"/e2/images/rv7/core-support/getting-started/as/ga_as_change_org_lightbox.png">
                 four: Select an organization from the auto-suggested list.
-                five: Click <strong>Update</strong> to confirm your new organization. <img src="/e2/images/rv7/core-support/getting-started/cb/gs_as_viewyourprofile1.png">
+                five: Click <strong>Update</strong> to confirm your new organization. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
           - sectiontitle:
             numlist:  
               - listname: <strong>OPTION 2 </strong>- From My Organization 
