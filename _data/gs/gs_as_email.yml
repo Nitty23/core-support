@@ -28,21 +28,21 @@
           - sectiontitle:
             numlist:  
               - listname: <strong>Add a new email address</strong>
-                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
-                two: From the <strong>Profile</strong> tab, enter your secondary email address.
-                three: Click <strong>Save</strong> at the top-right corner of the page.
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/john_doe_dropdown.png">
+                two: From the <strong>Profile</strong> tab, enter your secondary email address. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/gs_as_profile_secondary_email.png">
+                three: Click <strong>Save</strong> at the top-right corner of the page. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/gs_as_email_save.png">
           - sectiontitle:
             numlist:  
               - listname: <strong>Remove an email address</strong>
-                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
-                two: From the <strong>Profile</strong> tab, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to the right of your secondary email address.
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/john_doe_dropdown.png">
+                two: From the <strong>Profile</strong> tab, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to the right of your secondary email address. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/gs_as_email_remove.png">
                 three: Click <strong>Save</strong> at the top-right corner of the page.
             note: Your @mail.mil email address cannot be changed or deleted.
           - sectiontitle:
             numlist:  
               - listname: <strong>Change email notifications</strong>
-                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.
-                two: Click on the Notifications tab.
+                one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/john_doe_dropdown.png">
+                two: Click on the Notifications tab. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as/gs_as_email_notifications.png">
                 three: Adjust your email preferences by clicking the <strong>On</strong> or <strong>Off</strong> toggle buttons.
                 four: Click <strong>Save</strong> at the top-right corner of the page.
 
