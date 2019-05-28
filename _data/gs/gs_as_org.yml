@@ -45,8 +45,7 @@
             numlist:  
               - listname: <strong>OPTION 2 </strong>- From My Organization 
                 one: Click <strong>Community</strong> in the main menu.
-                <br>
-<img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
+                <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
                 two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the  <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">  located at the far right side.<img src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
                 three: Select <strong>Change Organization</strong> from the dropdown options. 
                 four: This opens the same Change Organization lightbox as your Profile. Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_search.png">
