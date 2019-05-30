@@ -11,13 +11,13 @@ tohome: ../
 <header>
     <nav class="cs-header">
         <div class="navbar">
-            <div style="width:33%; display: flex;">
-                <button id="mobile-nav-btn" class="nav-btn show-for-small-only column small-4">
+            <div class="hamburger-container">
+                <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
                     <i class="fas fa-bars search-icons"></i>
                 </button>
             </div>
-            <div style="width:33%; display: flex; justify-content: center;">
-                <a href="{{page.tohome}}" class="">
+            <div class="logo-container">
+                <a href="{{page.tohome}}">
                     <img class="logo"
                         srcset="
                             /e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
@@ -67,18 +67,12 @@ tohome: ../
     </nav>    
 </header>
 
-
 <div class="main" role="main">
-
     <div class="container">
-        <div class="inner-container">
-            <br>
-            <br>
-            
-            <div class="row align-center topicspan">
+        <div class="inner-container">        
+            <div class="row align-center search-page-container">
                 <div class="column" style="margin-top: 2%; min-height: 13em;">
-                    <br>
-                    <h3><span id="result-total">...</span>&nbsp;<span id="results-title">Search Results</span></h3><br><br>
+                    <h3><span id="result-total">...</span>&nbsp;<span id="results-title">Search Results</span></h3>
                     <ul id="results-container"></ul>
                 </div>
             </div> <!-- end of row -->
