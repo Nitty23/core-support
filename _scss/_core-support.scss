@@ -187,13 +187,6 @@ h1, h2, h3, h4, h5 {
     overflow: visible;
 }
 
-.masthead-title{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif !important;
-    color: white;
-    font-size: 2rem;
-}
-
 .topic-center-row{
     display: flex;
     justify-content: center;
@@ -281,8 +274,17 @@ h3:after, h4:after, h5:after {
 /*------------------------------------------------------------------------*/
 .logo {
     background: black;
-    width: 100%;
-    margin: 18px;
+    height: 20px;
+    margin: 20px;
+}
+
+.logo-container {
+    width: 66%;
+    display: flex;
+}
+
+.hamburger-container{
+    width:0%;
 }
 
 .cs-header{
@@ -296,27 +298,30 @@ h3:after, h4:after, h5:after {
     background: black;
     display: flex;
     height: 60px;
-    justify-content: space-between;
+}
+
+.mast-title-container{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mast-title{
-    position: absolute;
-    z-index: 3 !important;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white;
+    font-size: 2rem;
 }
 
-.inner-supp-mast{
-    position: absolute;
-    z-index: 3 !important;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.masthead-img{
+.mast-img{
     width: 100%;
+}
+
+.mast-container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .overlay-effect{
@@ -325,12 +330,6 @@ h3:after, h4:after, h5:after {
     position: absolute;
     width: 100%;
     z-index: 2;
-}
-
-.outer-masthead{
-    position: relative;
-    text-align: center;
-    color: white;
 }
 
 @-moz-keyframes spin {
@@ -402,6 +401,7 @@ h3:after, h4:after, h5:after {
     z-index: 3;
     top: 60px;
     width: 100%;
+    padding-top: 30px;
 }
 
 .secondary-pill{
@@ -419,24 +419,24 @@ h3:after, h4:after, h5:after {
     color:white;
     font-weight: 600;
     font-size: 1rem;
-    white-space: nowrap;
+    //white-space: nowrap;
     text-decoration: none;
 }
 
 .mobile-sec-pills{
-    font-size: 18% !important;
+    font-size: 1rem !important;
     color: white;
     text-decoration: none;
     font-weight: normal
 }
 
 .mobile-hr{
-    margin: .75em 20px 0.75rem;
+    margin: 1.75em 5px 1.75rem;
     border-color: #666666;
 }
 
 .mobile-li{
-    max-height: 40px;
+    //max-height: 40px;
 }
 
 .mobile-accord{
@@ -446,12 +446,12 @@ h3:after, h4:after, h5:after {
 
 .mobile-dropdown-container{
     background-color: #252525;
-    font-size: 5rem;
+    //font-size: 5rem;
 }
 
 .mobile-accord{
-    line-height: 0;
-    margin-bottom: 0;
+    //line-height: 0;
+    //margin-bottom: 0;
 }
 
 .submenu-toggle{
@@ -770,13 +770,17 @@ a:hover.topic-box{
     margin: 0 0 !important;
 }
 
-.mast-searchbox{
+.mast-search-container{
     display: flex;
     justify-content: space-between;
     border-radius: 28px;
     background: white;
     color: lightgrey;
     width: 600px;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mast-search-input{
@@ -835,7 +839,7 @@ input::placeholder {
 
 .searchbox-space{
     animation: slide 0.7s;
-    padding-top: 13% !important;
+    padding-top: 13%;
 }
 
 @keyframes slide {
@@ -858,8 +862,16 @@ input::placeholder {
         text-align: left;
     }
 
-    search-input{
+    .logo {
+        background: black;
+        height: 50%;
+        margin: 15% 15px 15px 15px;
+    }
 
+    .logo-container {
+        width: 33%;
+        display: flex;
+        justify-content: center;
     }
 
     .topic-hr {
@@ -877,6 +889,10 @@ input::placeholder {
         padding-top: 10% !important;
     }
 
+    .hamburger-container{
+        width:33%;
+        display: flex;
+    }
 
     .topicspan-plus{    
         padding-top: 10%;
@@ -894,16 +910,15 @@ input::placeholder {
     }
     
     .dropdown-searchbox{
-        width: 400px;
-    }
-
-    .masthead-title{
         width: 300px;
     }
 
-    .mast-title{
-        top: 0;
-        margin: 0 !important;
+    .mast-title-container{
+        top: 30%;
+    }
+
+    .mast-search-container{
+        bottom: 30%;
     }
 
     .find-mobile{
@@ -923,29 +938,6 @@ input::placeholder {
         min-width: 100%;
         display: flex;
         justify-content: space-around;
-    }
-
-    .supp-searchbox{
-        z-index: 3;
-        margin: 1%;
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid white;
-        border-radius: 28px;
-        background: white; 
-        color: lightgrey;
-        min-width: 85%;
-    }
-  
-    .mast-searchbox{
-        z-index: 3;
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid white;
-        border-radius: 28px;
-        background: white; 
-        color: lightgrey;
-        width: 400px;
     }
 
     .support-text-centered {
@@ -970,7 +962,7 @@ input::placeholder {
     }
 
     .searchbox-space {
-        padding-top: 2% !important;
+        padding-top: 2%;
     }
 
     /*Support Cant Find Section*/
@@ -987,9 +979,6 @@ input::placeholder {
         text-align:center;
     }
 
-    .inner-supp-mast {
-        top: 60%;
-    }
 }
 
 /*------------------------------------------------------------------------*/
@@ -1031,7 +1020,7 @@ input::placeholder {
 
     .searchbox-space{
         animation: slide 0.5s;
-        padding-top: 21% !important;
+        padding-top: 30%;
     }
     
     @keyframes slide {
@@ -1039,12 +1028,14 @@ input::placeholder {
         to {padding-top: 21% }
     }
 
-    .mast-title{
-        top: 25%;
-        margin: 0 !important;
+    .mast-title-container{
+        top: 45%;
+        width: 300px;
     }
 
-    .inner-supp-mast {
-        top: 60%;
+    .mast-search-container{
+        bottom: 10%;
+        width: 300px;
     }
+
 }

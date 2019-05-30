@@ -4,7 +4,12 @@
             <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
                 <i class="fas fa-bars search-icons"></i>
             </button>
-            <a href="{{page.tohome}}"><img  class="logo" src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"/></a>
+            <a href="{{page.tohome}}">
+                <img  class="logo" src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"
+                    srcset="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
+                            /e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg 768w"
+                alt="CORE Support Logo"/>
+            </a>
             <button id="search-btn" class="nav-btn">
                 <i class="fas fa-search search-icons"></i>
             </button> 
@@ -13,12 +18,12 @@
     <div class="search-mast hider" id="search-sect">
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
-                <input type="text" id="search-input" placeholder="search ...">
+                <input type="search" id="search-input" aria-label="Search through site content" placeholder="search ...">
                 <i class="fas fa-search search-icons"></i>
             </div>
         </div>            
     </div>
-    <div id="mobile-dropdown-menu" class="hider show-for-small-only">
+    <nav id="mobile-dropdown-menu" class="hider show-for-small-only">
         <div class="mobile-dropdown-container">
             <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
             {% for topic in site.data.toc.support_toc %}
@@ -37,12 +42,26 @@
             {% endfor %}
             </ul>
         </div>            
-    </div>
+    </nav>
 </header>
 
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
+
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
+<script>$(document).foundation();</script>
+<!-- <script type="text/javascript">
+    $(document).ready(function(){
+        $('.accordion-menu').click(function(e){
+        $('.accordion-menu').not($(this)).foundation('hideAll');
+        });
+        $('.mobile-title-pills').click(function(e){
+        $(this.parentElement.parentElement).foundation('showAll');
+        });
+    });
+</script> -->
+
 <script type="text/javascript">
 
 $(document).ready(function(){
@@ -87,13 +106,13 @@ $(document).ready(function(){
     }
     
     $(document.getElementById('search-input')).on('keyup', function (e) {
-    if (e.keyCode == 13) {
-        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
-        setSearchPath();
-        console.log("SEARCHLOC: " + searchLocation)
-        window.location.href = searchLocation;
-    }
-});
+        if (e.keyCode == 13) {
+            sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+            setSearchPath();
+            console.log("SEARCHLOC: " + searchLocation)
+            window.location.href = searchLocation;
+        }
+    });
 </script>
 
     
