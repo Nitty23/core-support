@@ -1,23 +1,40 @@
+<header>
+    <nav class="cs-header">
+        <div class="navbar">
+            <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
+                <i class="fas fa-bars search-icons"></i>
+            </button>
+            <a href="{{page.tohome}}">
+                <img  class="logo" src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"
+                    srcset="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
+                            /e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg 768w"
+                alt="CORE Support Logo"/>
+            </a>
+        </div>
+    </nav>
+    <nav id="mobile-dropdown-menu" class="hider show-for-small-only">
+        <div class="mobile-dropdown-container">
+            <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
+            {% for topic in site.data.toc.support_toc %}
+                    <li>                                
+                        <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
+                        <hr class="mobile-hr">
+                        <ul class="menu vertical nested" style="margin-top: -60px !important">
+                {% for subtopic in topic.subtopics %}  
+                            <li class="mobile-li">
+                                <a href="{{page.tohome}}topics/#{{ subtopic.id }}" class="mobile-sec-pills article-sidenav-link">{{ subtopic.title }}</a>
+                            </li>                           
+                {% endfor %}
+                            <hr class="mobile-hr"> 
+                        </ul>                       
+                    </li>
+            {% endfor %}
+            </ul>
+        </div>            
+    </nav>    
+</header>
 
-<div class="outer-masthead">
-    <img class="masthead-img" src="/e2/images/rv7/banners/core-support/coresupport_masthead-1600.jpg"
-                 srcset="/e2/images/rv7/banners/core-support/coresupport_masthead-2500.jpg 2500w,
-                         /e2/images/rv7/banners/core-support/coresupport_masthead-1600.jpg 1600w,
-                         /e2/images/rv7/banners/core-support/coresupport_masthead-1200.jpg 1200w,
-                         /e2/images/rv7/banners/core-support/coresupport_masthead-992.jpg 992w,
-                         /e2/images/rv7/banners/core-support/coresupport_masthead-768.jpg 768w,/e2/images/rv7/banners/core-support/coresupport_masthead-480.jpg 480w"
-                 alt="Core Support Masthead"/>
-    
-    <div class="row mast-title">
-        <h3 class="masthead-title">How can we help?</h3>
-    </div>
 
-    <div class="inner-supp-mast mast-searchbox">
-        <input class="mast-search-input" type="text" id="search-input" placeholder="Search ...">
-        <i class="fas fa-search mast-search-icon"></i>
-    </div>
-        
-</div>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
 <script type="text/javascript">
@@ -30,3 +47,24 @@ if (e.keyCode == 13) {
 }
 });
 </script>
+
+<script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
+<script>$(document).foundation();</script>
+<!-- <script type="text/javascript">
+    $(document).ready(function(){
+        $('.accordion-menu').click(function(e){
+            $('.accordion-menu').not($(this)).foundation('hideAll');
+        });
+        $('.mobile-title-pills').click(function(e){
+            $(this.parentElement.parentElement).foundation('showAll');
+        });
+        $("#mobile-nav-btn").click(function(){
+            $( this ).children("i" ).toggleClass( "fa-bars fa-times" );
+            $( "#mobile-dropdown-menu" ).slideToggle();
+        });
+        $(".mobile-sec-pills").click(function(){
+            $( "#mobile-dropdown-menu" ).slideToggle();
+            $( "#mobile-nav-btn" ).children( "i" ).toggleClass( "fa-bars fa-times" );
+        });
+    });
+</script> -->

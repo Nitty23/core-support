@@ -46,7 +46,7 @@
           - sectiontitle:
             learn: <a class="underline-link" href="./roles_and.html">Roles and permissions in CORE</a>
           - sectiontitle: Content Approval Process
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_what2.png">
+            image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_cap_animation_600x58px.gif">
             para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your Inbox, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.
             itemlist:
               - listname: After an article is released, it is automatically
