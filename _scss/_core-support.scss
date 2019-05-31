@@ -857,7 +857,7 @@ input::placeholder {
 }
 
 .search-page-container{
-    margin-top: 15%;
+    margin-top: 10% !important;
 }
 
 #results-container{
@@ -999,6 +999,10 @@ input::placeholder {
 
     .mobile-center{
         text-align:center;
+    }
+
+    .search-page-container{
+        margin-top: 50% !important;
     }
 
 }
