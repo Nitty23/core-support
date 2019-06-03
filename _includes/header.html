@@ -1,24 +1,30 @@
 <header>
     <nav class="cs-header">
         <div class="navbar">
-            <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
-                <i class="fas fa-bars search-icons"></i>
-            </button>
-            <a href="{{page.tohome}}">
-                <img class="logo"
-                     srcset="
-                         /e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
-                         /e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg 768w
-                         "
-                     src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"
-                     alt="CORE Support Logo"
-                />
-            </a>
-            <button id="search-btn" class="nav-btn">
-                <i class="fas fa-search search-icons"></i>
-            </button> 
+            <div class="hamburger-container">
+                <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
+                    <i class="fas fa-bars search-icons"></i>
+                </button>
+            </div>
+            <div class="logo-container">
+                <a href="{{page.tohome}}">
+                    <img class="logo"
+                        srcset="
+                            /e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
+                            /e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg 768w
+                            "
+                        src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"
+                        alt="CORE Support Logo"
+                   />
+                </a>
+            </div>
+            <div style="width:33%; display: flex; justify-content: flex-end;">
+                <button id="search-btn" class="nav-btn">
+                    <i class="fas fa-search search-icons"></i>
+                </button> 
+            </div>            
         </div>
-    </nav>        
+    </nav>
     <div class="search-mast hider" id="search-sect">
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
@@ -27,47 +33,44 @@
             </div>
         </div>            
     </div>
-    <nav id="mobile-dropdown-menu" class="hider show-for-small-only">
-        <div class="mobile-dropdown-container">
-            <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
+    <nav id="mobile-dropdown-menu" class="hider show-for-small-only mobile-dropdown-container">
+        <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
             {% for topic in site.data.toc.support_toc %}
-                    <li>                                
+                    <li style="padding:0px 10px">                             
                         <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
                         <hr class="mobile-hr">
-                        <ul class="menu vertical nested" style="margin-top: -60px !important">
+                        <ul class="menu vertical nested">
                 {% for subtopic in topic.subtopics %}  
                             <li class="mobile-li">
                                 <a href="{{page.tohome}}topics/#{{ subtopic.id }}" class="mobile-sec-pills article-sidenav-link">{{ subtopic.title }}</a>
-                            </li>                           
+                            </li>
+                            {% if forloop.last == true %}
+                            <hr class="mobile-hr" style="margin-left: -3%;">
+                            {% endif %}
                 {% endfor %}
-                            <hr class="mobile-hr"> 
                         </ul>                       
                     </li>
             {% endfor %}
             </ul>
         </div>            
-    </nav>
+    </nav>    
 </header>
 
-
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
-
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
 <script>$(document).foundation();</script>
-<!-- <script type="text/javascript">
-    $(document).ready(function(){
-        $('.accordion-menu').click(function(e){
-        $('.accordion-menu').not($(this)).foundation('hideAll');
-        });
-        $('.mobile-title-pills').click(function(e){
-        $(this.parentElement.parentElement).foundation('showAll');
-        });
+<script type="text/javascript">
+  // Hides all dropdown menus except clicked
+  $('.title-pill').click(function(e){
+        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+  // Adds Carrot symbol to active menu item only
+        var activeMenu = $('.title-pill-carrot', this);
+        $('.title-pill-carrot').not(activeMenu).addClass('hider');
+        $(activeMenu).toggleClass('hider');
     });
-</script> -->
+</script>
 
 <script type="text/javascript">
-
 $(document).ready(function(){
     //       Search button logic *************
     $("#search-btn").click(function(){
@@ -110,13 +113,11 @@ $(document).ready(function(){
     }
     
     $(document.getElementById('search-input')).on('keyup', function (e) {
-        if (e.keyCode == 13) {
-            sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
-            setSearchPath();
-            console.log("SEARCHLOC: " + searchLocation)
-            window.location.href = searchLocation;
-        }
-    });
+    if (e.keyCode == 13) {
+        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+        setSearchPath();
+        console.log("SEARCHLOC: " + searchLocation)
+        window.location.href = searchLocation;
+    }
+});
 </script>
-
-    
