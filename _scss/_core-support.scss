@@ -735,9 +735,9 @@ a:hover.topic-box{
 
 #search-input { 
     outline: none;
-    margin:10px 20px;
+    margin: 10px 20px;
     font-style: italic;
-    font-size: 16px;
+    font-size: 1.25rem;
     color: #B3B3B3;
     border: none;
 }
@@ -818,7 +818,6 @@ a:hover.topic-box{
     background-color: white;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #666666;
 }
 
 .dropdown-searchbox{
@@ -862,6 +861,18 @@ input::placeholder {
 
 #results-container{
     margin-top: 2rem;
+}
+
+#results-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.result-excerpt{
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 @keyframes slide {

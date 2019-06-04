@@ -65,8 +65,13 @@ tohome: ../
     <div class="container">
         <div class="inner-container">        
             <div class="row align-center search-page-container">
-                <div class="column" style="margin-top: 2%; min-height: 13em;">
-                    <h3><span id="result-total">...</span>&nbsp;<span id="results-title">Search Results</span></h3>
+                <div class="column" style="margin-top: 50px; min-height: 13em;">
+                    <h3 id="results-title">Search Results</h3>
+                    <div style="text-align: center; color: #7f7f7f;">
+                        <span id="result-total">...</span>
+                        <span id= search-term class="result-title"></span>
+                    </div>
+                    
                     <ul id="results-container"></ul>
                 </div>
             </div> <!-- end of row -->
@@ -92,7 +97,7 @@ tohome: ../
         turnonSearchSect();
         $("#search-input").focus(function(){
             $("#results-container").fadeOut(1000);
-            document.getElementById('result-total').textContent="0";
+            document.getElementById('result-total').textContent="0 results for";
         });
         //       Search button logic *************
         $("#search-btn").click(function(){
@@ -118,10 +123,13 @@ tohome: ../
             var resultTotal = $('topics').length;
             if (resultTotal === 1){
                 document.getElementById('results-title').textContent="Search Result";
+                document.getElementById('result-total').textContent=resultTotal + " result for";
+                document.getElementById('search-term').textContent = '"' + sessionStorage.searchTerm + '"';
             }else{
                 document.getElementById('results-title').textContent="Search Results";
-            }
-            document.getElementById('result-total').textContent=resultTotal;
+                document.getElementById('result-total').textContent=resultTotal + " results for";
+                document.getElementById('search-term').textContent = '"' + sessionStorage.searchTerm + '"';
+            }            
             $("topics").each(function() {
             $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>'" + sessionStorage.searchTerm + "'</span>"));
             turnonSearchSect();
@@ -139,7 +147,7 @@ tohome: ../
         json: './search.json',
         // json: './search.json' LOCAL,
         // json: '../search.json' PRODUCTION,
-        searchResultTemplate: '<li><a href="..{url}?query={query}" title="{desc}">{title}</a><br></span><a href="../topics/#{topicid}" class="topnav-bread">{topictitle}</a><span class="topnav-arrow-bread">&#10095;</span><span class="topnav-subtopic topnav-bread">{title}</span><br><br><topics class="search-text">Relative terms: [ {tags} ]</topics></li><hr class="search-hr"><br>',
+        searchResultTemplate: '<li><topics><a href="..{url}?query={query}" title="{desc}">{title}</a></topics><br></span><span class="result-excerpt">{excerpt}</span><br><br>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner

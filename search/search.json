@@ -8,8 +8,9 @@ layout: null
       "tags"       : "{{ post.tags | join: ', ' }}",
       "url"        : "{{ site.baseurl }}{{ post.url }}",
       "topicid"    : "{{ post.topicid }}",
-      "tohome"    : "{{ post.tohome }}",
-      "topictitle" : "{{ post.topictitle }}"
+      "tohome"     : "{{ post.tohome }}",
+      "topictitle" : "{{ post.topictitle }}",
+      "excerpt"    : "{{ post.excerpt }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
