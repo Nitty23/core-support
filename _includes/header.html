@@ -34,41 +34,30 @@
         </div>            
     </div>
     <nav id="mobile-dropdown-menu" class="hider show-for-small-only mobile-dropdown-container">
+    {% for topic in site.data.toc.support_toc %}
         <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
-            {% for topic in site.data.toc.support_toc %}
-                    <li style="padding:0px 10px">                             
-                        <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
-                        <hr class="mobile-hr">
-                        <ul class="menu vertical nested">
+            <li style="padding:0px 10px">                             
+                <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
+                <hr class="mobile-hr">
+                <ul class="menu vertical nested">
                 {% for subtopic in topic.subtopics %}  
-                            <li class="mobile-li">
-                                <a href="{{page.tohome}}topics/#{{ subtopic.id }}" class="mobile-sec-pills article-sidenav-link">{{ subtopic.title }}</a>
-                            </li>
-                            {% if forloop.last == true %}
-                            <hr class="mobile-hr" style="margin-left: -3%;">
-                            {% endif %}
-                {% endfor %}
-                        </ul>                       
+                    <li class="mobile-li">
+                        <a href="{{page.tohome}}topics/#{{ subtopic.id }}" class="mobile-sec-pills article-sidenav-link">{{ subtopic.title }}</a>
                     </li>
-            {% endfor %}
-            </ul>
-        </div>            
+                    {% if forloop.last == true %}
+                    <hr class="mobile-hr" style="margin-left: -3%;">
+                    {% endif %}
+                {% endfor %}
+                </ul>                       
+            </li>            
+        </ul>
+    {% endfor %}   
     </nav>    
 </header>
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
 <script>$(document).foundation();</script>
-<script type="text/javascript">
-  // Hides all dropdown menus except clicked
-  $('.title-pill').click(function(e){
-        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
-  // Adds Carrot symbol to active menu item only
-        var activeMenu = $('.title-pill-carrot', this);
-        $('.title-pill-carrot').not(activeMenu).addClass('hider');
-        $(activeMenu).toggleClass('hider');
-    });
-</script>
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -82,7 +71,7 @@ $(document).ready(function(){
     //       End Search button logic *************
     $("#mobile-nav-btn").click(function(){
         $( this ).children("i" ).toggleClass( "fa-bars fa-times" );
-        $( "#mobile-dropdown-menu" ).slideToggle();
+        $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
     });
     $(".mobile-sec-pills").click(function(){
         $( "#mobile-dropdown-menu" ).slideToggle();
