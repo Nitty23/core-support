@@ -145,7 +145,53 @@ tohome: ../
         json: './search.json',
         // json: './search.json' LOCAL,
         // json: '../search.json' PRODUCTION,
-        searchResultTemplate: '<li><topics><a href="..{url}?query={query}" title="{desc}">{title}</a></topics><br></span><span class="result-excerpt">{excerpt}</span><br><br>',
+        searchResultTemplate: '<li><a href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="search-text">Relative terms: [ {tags} ]</topics></li><hr class="search-hr"><br>',
+        noResultsText: "Try again by typing a valid search term, then press 'Enter'",
+        fuzzy: false,
+        success: winner
+    });
+    // Hides all dropdown menus except clicked
+    $('.title-pill').click(function(e){
+        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+    // Adds Carrot symbol to active menu item only
+        var activeMenu = $('.title-pill-carrot', this);
+        $('.title-pill-carrot').not(activeMenu).addClass('hider');
+        $(activeMenu).toggleClass('hider');
+    });
+</script>
+
+
+<script type="text/javascript">
+    var searchLocation = '';
+    function setSearchPath(){
+        if(window.location.hostname === '127.0.0.1'){
+            if (window.location.pathname === '/topics/'){
+                searchLocation = '../search/';
+            }else if (window.location.pathname === '/search/'){
+                searchLocation = './';
+            }else{
+                searchLocation = '../../search/';
+            }
+        }else{
+            if (window.location.pathname === '/core-support/topics/'){
+                searchLocation = '../search/';
+            }else if (window.location.pathname === '/core-support/search/'){
+                searchLocation = './';
+            }else{
+                searchLocation = '../../search/';
+            }
+        }
+    }
+    $(document.getElementById('search-input')).on('keyup', function (e) {
+        if (e.keyCode == 13) {
+            sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+            setSearchPath();
+            console.log("SEARCHLOC: " + searchLocation)
+            window.location.href = searchLocation;
+        }
+    });
+</script>
+
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner
