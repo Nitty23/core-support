@@ -9,8 +9,7 @@ layout: null
       "url"        : "{{ site.baseurl }}{{ post.url }}",
       "topicid"    : "{{ post.topicid }}",
       "tohome"     : "{{ post.tohome }}",
-      "topictitle" : "{{ post.topictitle }}",
-      "excerpt"    : "{{ post.excerpt }}"
+      "topictitle" : "{{ post.topictitle }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
