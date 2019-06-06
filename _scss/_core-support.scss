@@ -735,6 +735,7 @@ a:hover.topic-box{
     font-size: 1.25rem;
     color: #B3B3B3;
     border: none;
+    width: 100%;
 }
 
 .supp-searchbox{
@@ -762,6 +763,12 @@ a:hover.topic-box{
 @keyframes fadein {
     from {color: #666666; font-size: 100%; font-weight: 400;}
     to {color: #fec325; font-size: 130%; font-weight: 600}
+}
+
+#search-term{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #252525;
 }
 
 .search-hr{
@@ -822,7 +829,7 @@ a:hover.topic-box{
     border-radius: 28px;
     background: white; 
     color: lightgrey;
-    margin: 35px 0px;
+    margin: 3.75rem 0rem;
     width: 600px;
 }
 
@@ -855,19 +862,28 @@ input::placeholder {
 }
 
 #results-container{
-    margin-top: 2rem;
+    margin-top: 2.1875rem;
 }
 
 #results-title{
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
 }
 
+#result-total{
+    font-size: 0.875rem;
+    color: #7f7f7f;
+}
+
 .result-title{
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 500;
-    color: #252525;
+    color: #252525
+}
+
+.result-topic-container{
+    margin-bottom: 2.5rem;
 }
 
 .result-excerpt{
@@ -875,6 +891,7 @@ input::placeholder {
     font-weight: 400;
     font-size: 1rem;
 }
+
 
 @keyframes slide {
     from {padding-top: 6% }

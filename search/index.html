@@ -67,9 +67,9 @@ tohome: ../
             <div class="row align-center search-page-container">
                 <div class="column" style="margin-top: 50px; min-height: 13em;">
                     <h3 id="results-title">Search Results</h3>
-                    <div style="text-align: center; color: #7f7f7f;">
+                    <div style="text-align: center;">
                         <span id="result-total">...</span>
-                        <span id= search-term class="result-title"></span>
+                        <span id="search-term"></span>
                     </div>                    
                     <ul id="results-container"></ul>
                 </div>
@@ -145,7 +145,7 @@ tohome: ../
         json: './search.json',
         // json: './search.json' LOCAL,
         // json: '../search.json' PRODUCTION,
-        searchResultTemplate: '<li><a href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="search-text">Relative terms: [ {tags} ]</topics></li><hr class="search-hr"><br>',
+        searchResultTemplate: '<li class="result-topic-container"><a class="result-title" href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="result-excerpt">{summary}</topics>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner
