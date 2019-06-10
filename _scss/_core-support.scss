@@ -138,9 +138,10 @@ h1, h2, h3, h4, h5 {
 .article-sidenav{
     margin-top: 5.25rem;
     border-top: 5px solid #fec325;
-    padding: 9px;
+    padding: 20px;
     border-bottom: 2px solid #fec325;
     background-color: rgba(255, 234, 179, .15);
+    margin-left: 20%
 }
 
 .article-sidenav-list{
@@ -153,12 +154,11 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
     text-transform: none;
     color: #252525;
-    list-style-type: none;    
-    margin-bottom: .75rem;
+    list-style-type: none;
 }
 
 .article-sidenav-item {
-    margin-bottom: .75rem;
+    margin-top: .75rem;
 }
 
 .article-sidenav-link:hover {
@@ -626,10 +626,10 @@ a:hover.topic-box{
 }
 
 .bullet-item{
-    display: list-item; 
+    display: list-item;
     list-style-type: disc;
-    list-style-position: inside;
     margin-left: 1.25rem;
+    padding-left: 0.25rem;
 }
 
 .subbullet-item{
@@ -731,9 +731,8 @@ a:hover.topic-box{
 #search-input { 
     outline: none;
     margin: 10px 20px;
-    font-style: italic;
-    font-size: 1.25rem;
-    color: #B3B3B3;
+    font-size: 1rem;
+    color: black;
     border: none;
     width: 100%;
 }
@@ -778,7 +777,7 @@ a:hover.topic-box{
 .search-icons{
     color:#fec325;
     font-size:126%;
-    margin:10px 20px;
+    margin:12px 20px;
 }
 
 .searchbox-hr{
@@ -801,8 +800,8 @@ a:hover.topic-box{
 
 .mast-search-input{
     margin: 10px 20px;
-    font-style: italic;
-    font-size: 16px;
+    font-style: normal;
+    font-size: 1rem;
     color: #B3B3B3;
 }
 
@@ -817,7 +816,7 @@ a:hover.topic-box{
     z-index: 2 !important;
     top: 60px;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255,255,255,.9);
     display: flex;
     justify-content: center;
 }
@@ -831,12 +830,6 @@ a:hover.topic-box{
     color: lightgrey;
     margin: 3.75rem 0rem;
     width: 600px;
-}
-
-input::placeholder {
-    color: #B3B3B3 !important;
-    font-size: 16px !important;
-    font-style: italic !important;
 }
 
 #search-icons:hover{
@@ -1015,6 +1008,13 @@ input::placeholder {
     .searchbox-space {
         padding-top: 2%;
     }
+
+    .article-sidenav{
+        margin-top: .5rem;
+        margin-left: 0%;
+        margin-bottom: 1.5rem;
+    }
+
 
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
