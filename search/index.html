@@ -122,7 +122,7 @@ tohome: ../
             // trim result text summaries down 
             $("topics").each(function(i) {
                 var topicsText = $(this).text();
-                var newText = topicsText.split("2019")[1];
+                var newText = topicsText.split("**")[1];
                 console.log("ORIGTEXT " + i + ":" + topicsText);
                 console.log("NEWTEXT " + i + ":" + newText);
                 if(!newText){
