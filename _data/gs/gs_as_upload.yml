@@ -30,7 +30,7 @@
           - sectiontitle: What is your profile information?
             numlist:  
               - listname: <strong>OPTION 1 </strong>- Drag and Drop  
-                one: Select your new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/test/gs_as_new_image_from_computer">
+                one: Select your new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_new_image_from_computer">
                 two: Drag and drop the file on top of the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> Upload Photo icon. A yellow border will appear around the placeholder, indicating where your image can be released.
           - sectiontitle:
             numlist:  
