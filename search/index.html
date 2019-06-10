@@ -123,6 +123,8 @@ tohome: ../
             $("topics").each(function(i) {
                 var topicsText = $(this).text();
                 var newText = topicsText.split("2019")[1];
+                console.log("ORIGTEXT " + i + ":" + topicsText);
+                console.log("NEWTEXT " + i + ":" + newText);
                 if(!newText){
                     $(this).text("No content on this page, this is the Topic directory page");
                 }else{
