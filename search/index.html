@@ -83,7 +83,7 @@ tohome: ../
 </div> <!-- end of main -->
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.js"></script>
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
 <script>$(document).foundation();</script>
 
@@ -119,6 +119,17 @@ tohome: ../
         setTimeout(() => {
             window.simpleJekyllSearch.search(sessionStorage.searchTerm);            
             var resultTotal = $('topics').length;
+            // trim result text summaries down 
+            $("topics").each(function(i) {
+                var topicsText = $(this).text();
+                var newText = topicsText.split("2019")[1];
+                if(!newText){
+                    $(this).text("No content on this page, this is the Topic directory page");
+                }else{
+                $(this).text(newText);
+                }
+            })
+            // Adjust Search title to be plural or not
             if (resultTotal === 1){
                 document.getElementById('results-title').textContent="Search Result";
                 document.getElementById('result-total').textContent=resultTotal + " result for";
@@ -127,12 +138,12 @@ tohome: ../
                 document.getElementById('results-title').textContent="Search Results";
                 document.getElementById('result-total').textContent=resultTotal + " results for";
                 document.getElementById('search-term').textContent = '"' + sessionStorage.searchTerm + '"';
-            }            
+            }
+            // idk    
             $("topics").each(function() {
-            $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>'" + sessionStorage.searchTerm + "'</span>"));
-            turnonSearchSect();
-        }, 500)
-
+                $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>'" + sessionStorage.searchTerm + "'</span>"));
+                turnonSearchSect();
+            })
         setTimeout(() => {
             // Fade-in Highlight text function
             });
@@ -145,7 +156,7 @@ tohome: ../
         json: './search.json',
         // json: './search.json' LOCAL,
         // json: '../search.json' PRODUCTION,
-        searchResultTemplate: '<li class="result-topic-container"><a class="result-title" href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="result-excerpt">{summary}</topics>',
+        searchResultTemplate: '<li class="result-topic-container"><a class="result-title" href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="result-excerpt">{excerpt}</topics>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner
@@ -159,7 +170,6 @@ tohome: ../
         $(activeMenu).toggleClass('hider');
     });
 </script>
-
 
 <script type="text/javascript">
     var searchLocation = '';
@@ -192,23 +202,7 @@ tohome: ../
     });
 </script>
 
-        noResultsText: "Try again by typing a valid search term, then press 'Enter'",
-        fuzzy: false,
-        success: winner
-    });
-    // Hides all dropdown menus except clicked
-    $('.title-pill').click(function(e){
-        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
-    // Adds Carrot symbol to active menu item only
-        var activeMenu = $('.title-pill-carrot', this);
-        $('.title-pill-carrot').not(activeMenu).addClass('hider');
-        $(activeMenu).toggleClass('hider');
-    });
-</script>
-
-
 <script type="text/javascript">
-
     var searchLocation = '';
     function setSearchPath(){
         if(window.location.hostname === '127.0.0.1'){

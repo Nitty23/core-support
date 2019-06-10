@@ -7,7 +7,7 @@
                     {% when 'subtitle' %}
                             <header>
                                 <h1 class="topic-title">{{ item[1] }}</h1>
-                                <p class="topic-subtext">Last updated {{ filemod | date: '%B %d, %Y' }}</p>
+                                <p class="topic-subtext">-Last Updated: {{ filemod | date: '%B %d, %Y' }}</p>
                             </header>
                     {% when 'sections' %}
                     {% for section in subtopic.sections %}
