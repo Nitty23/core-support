@@ -30,11 +30,11 @@
             numlist:
               - listname: Initial procedure for the user
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article.jpg">
+                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <img src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article.jpg">
           - sectiontitle: Step 2 - Add a Title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline1.jpg">
-            image2: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline.png">
+            image1: <img src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline1.jpg">
+            image2: <img src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline.png">
             note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit The Importance of a Quality Headline.
           - sectiontitle: Step 3 - Customize the Author
             para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
