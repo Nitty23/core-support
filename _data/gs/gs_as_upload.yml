@@ -1,10 +1,3 @@
-# Layout in Levels:
-# 
-# topic\                     (ie CORE Basics)
-#       subtopic\             (ie What is CORE?)
-#                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
-# ******************************************************************************************
 # Rules & Assumptions- 
 #
 # 1) (The basic syntax for yml data) Key : Value pairings and Levels.
@@ -23,11 +16,9 @@
       - subtitle: Upload Profile Photos
         sections:
           - sectiontitle:
-            para1: There are multiple locations where you can upload images in CORE, including your profile photo in your Account Settings, as well as organization logos and leaders’ photos on your Page. Specifications for the image’s file type and size may differ depending on the purpose of the image. However, the overall process for uploading, changing or removing images is the same everywhere.
-          - sectiontitle: New Images
-            para1: There are two options for uploading a new image
-            para2: <strong>Deleting an account</strong> is permanent and cannot be undone. Your profile information and settings are completely removed from the CORE database.
-          - sectiontitle: What is your profile information?
+            para1: Your profile photo is publicly accessible to all CORE users in the User Directory, as well as to your team members on My Organization. It helps other members of the CORE Community identify you and your content, but it will never be available on www.army.mil in conjunction with your released articles. You can also see your profile photo in the top right corner of the page when you're logged into CORE. 
+            para2: By default, your profile photo is your initials, but you can modify it in your account settings at any time.
+          - sectiontitle: Logo Specifications
             numlist:  
               - listname: <strong>OPTION 1 </strong>- Drag and Drop  
                 one: Select your new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_new_image_from_computer.jpg">
