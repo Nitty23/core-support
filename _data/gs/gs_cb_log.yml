@@ -25,16 +25,17 @@
           - sectiontitle:
             description: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system, which manages access to secure Army sites by verifying a user’s identity and permissions. All personnel issued a Common Access Card (CAC) are automatically provisioned in the EAMS-A enterprise directory, giving them access to login to CORE.
             note: Although anyone with an AKO account has access to login, CORE is intended for 46Q/46R/46Z or 46A Soldiers, 1035- or 1082-series DA civilians or contractors serving in a Public Affairs capacity.
-          - sectiontitle: You can login to CORE using EAMS-A with just a few clicks.
-            para1: 1) On the <a class="underline-link" href="https://static.ardev.us/core/">CORE homepage</a>, click Login with EAMS-A in the page banner. This will direct you to the EAMS-A Single Sign-On page.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_eamsa_signon.png">
-            itemlist:
-              - listname: 2) There are two ways to login to CORE from EAMS-A Single Sign-On page.
-                one: Insert your CAC into a card reader and click <strong>CAC/PKI Login</strong>.
-                two: If you do not have a CAC reader, enter your AKO username and password and click <strong>Login</strong>.
-            para3: 3) Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard.
-            image2: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_core_dashboard.png">
-            para4: <br><hr><br>
+            para1: Whether you’re a new user trying to create an account or a more experienced member of the CORE community, you can login to CORE using EAMS-A with just a few clicks.
+            numlist:
+                - listname:
+                  one: On the <a class="underline-link" href="https://static.ardev.us/core/">CORE homepage</a>, click Login with EAMS-A in the page banner. This will direct you to the EAMS-A Single Sign-On page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_eamsa_signon.png">
+                  two: There are two ways to login to CORE from EAMS-A Single Sign-On page.
+                  itemlist:
+                    - listname: 
+                      one: Insert your CAC into a card reader and click <strong>CAC/PKI Login</strong>.
+                      two: If you do not have a CAC reader, enter your AKO username and password and click <strong>Login</strong>.
+                  three: Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_core_dashboard.png">
+            para2: <hr>
           - sectiontitle: 
             itemlist:
               - listname: <strong> How do I obtain an username and password? </strong>
