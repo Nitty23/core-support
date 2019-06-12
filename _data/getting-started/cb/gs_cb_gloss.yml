@@ -22,7 +22,7 @@
     articles:
       - subtitle: CORE Glossary 
         sections:
-          - sectiontitle: GENERAL TERMS
+          - sectiontitle: General Terms
             lexicon: 
               - title: Article
                 definition: Individual story created on CORE.
@@ -32,14 +32,14 @@
                 definition: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
               - title: Tag
                 definition: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
-          - sectiontitle: ARTICLE / INBOX ACTIONS
+          - sectiontitle: Article & Inbox Actions
             lexicon: 
               - title: Delete
                 definition: Delete <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> moves a draft or released article to the creator’s Deleted Inbox list. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
               - title: Reject
                 definition: Reject <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> removes a “Pending Review” article from an Editor’s Inbox and sends it back to the creator’s Draft list. This is an indication that the article needs more work before it is ready to be released.
               - title: Release
-                definition: Release <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> publishes an article to Army.mil, making it publicly accessible from its own dedicated URL - https://www.army.mil/article-id/
+                definition: Release <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> publishes an article to Army.mil, making it publicly accessible from its own dedicated URL - <em>https://www.army.mil/article-id</em>
               - title: Retract
                 definition: Retract <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
               - title: Schedule
@@ -47,13 +47,13 @@
               - title: Submit
                 definition: Submitting an article for review <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/submit_article.svg"> sends it to the organization’s editor inbox. This action is limited to Contributors, since they do not have authority to release their own content.
               - title: Preview
-                definition: None
-          - sectiontitle: PAGE ACTIONS
+                definition: Previewing an article hides all editing functionality, allowing users to see how their live article will appear on multiple devices.
+          - sectiontitle: Page Actions
             lexicon:
               - title: Deactivate
-                definition: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  <a class="underline-link" href="www.army.mil/organization-name">www.army.mil/organization-name</a>. The organization’s administrator can activate and publish the Page at any time.
+                definition: Deactivating page will revert it to a draft status in CORE and remove it from being publicly available on  www.army.mil/<em>organization-name</em>. The organization’s administrator can activate and publish the Page at any time.
               - title: Delete
-                definition: You must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> to delete a page or organization from the CORE Community.
+                definition: You must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a> to delete a page or organization from the CORE Community.
               - title: Publish
                 definition: This action publicly releases updates on an organization’s Page to www.army.mil. 
               
