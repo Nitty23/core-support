@@ -29,18 +29,19 @@
               - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE</strong>
                 one: Facebook
                 two: Twitter
-                three: YouTube
-                four: LinkedIn
-                five: Flickr
-                six: SmugMug
-                seven: Vimeo
-                eight: SoundCloud
-                nine: Ustream
-                ten: Pintrest
-                eleven: Slideshare
-                twelve: Blogger
-                thirteen: Periscope
-                fourteen: Issuu
+                three: Instagram
+                four: YouTube
+                five: LinkedIn
+                six: Flickr
+                seven: SmugMug
+                eight: Vimeo
+                nine: SoundCloud
+                ten: Ustream
+                eleven: Pintrest
+                twelve: Slideshare
+                thirteen: Blogger
+                fourteen: Periscope
+                fifteen: Issuu
             note: <strong>Want to add a new platform?</strong> Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a>.
           - sectiontitle: Adding your social media accounts
             itemlist:
