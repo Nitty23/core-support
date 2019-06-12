@@ -10,9 +10,9 @@
                             <li>                                
                                 <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot hider">&#x2303;</span></a>
                                 <ul class="menu vertical nested">
-                        {% for subtopic in topic.subtopics %}  
+                        {% for article in topic.articles %}  
                                     <li>
-                                        <a href="./#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        <a href="./#{{ article.id }}" class="secondary-pill">{{ article.title }}</a>
                                     </li>
                         {% endfor %}
                                 </ul>

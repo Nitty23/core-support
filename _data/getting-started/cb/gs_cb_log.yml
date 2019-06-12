@@ -1,0 +1,52 @@
+# Layout in Levels:
+# 
+# topic\                     (ie CORE Basics)
+#       article\             (ie What is CORE?)
+#                section\      (ie Who is eligible for a CORE Account?)
+#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
+# ******************************************************************************************
+# Rules & Assumptions- 
+#
+# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
+# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
+# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
+# 4) Do not use tabs, use two spaces when declaring a new level.
+# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
+# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
+# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
+# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
+# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
+# 0) Code Assumption - Only one Note and only one Learn per section.
+
+  - title: CORE Basics
+    articles:
+      - subtitle: Logging in to CORE
+        sections:
+          - sectiontitle:
+            description: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system, which manages access to secure Army sites by verifying a user’s identity and permissions. All personnel issued a Common Access Card (CAC) are automatically provisioned in the EAMS-A enterprise directory, giving them access to login to CORE.
+            note: Although anyone with an AKO account has access to login, CORE is intended for 46Q/46R/46Z or 46A Soldiers, 1035- or 1082-series DA civilians or contractors serving in a Public Affairs capacity.
+            numlist:
+                - listname: Whether you’re a new user trying to create an account or a more experienced member of the CORE community, you can login to CORE using EAMS-A with just a few clicks.
+                  one: On the <a class="underline-link" href="https://static.ardev.us/core/">CORE homepage</a>, click Login with EAMS-A in the page banner. This will direct you to the EAMS-A Single Sign-On page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_eamsa_signon.png">
+                  two: There are two ways to login to CORE from EAMS-A Single Sign-On page.
+                  list:
+                    listname: 
+                    one: Insert your CAC into a card reader and click <strong>CAC/PKI Login</strong>.
+                    two: If you do not have a CAC reader, enter your AKO username and password and click <strong>Login</strong>.
+                  three: Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_core_dashboard.png">
+          - sectiontitle:
+            learn: <strong>First time user?</strong> If you are logging into CORE for the first time, you will be directed to an account creation page. You will be prompted to join an organization to ensure that your content is pushed to the proper chain of command. Once you join an organization, you can set up <a class="underline-link" href="./your_profile.html">your profile</a> or navigate to the CORE Dashboard.
+            para1: <hr>
+          - sectiontitle: 
+            paratitle: How do I obtain an username and password?
+            para1: If you don’t have access to a CAC reader, you will only be able to login with your AKO username and password. If you don’t have an AKO account, click Create Account (AKO), located underneath the Login buttons. This will redirect you to the AKO Account Registration page.
+          - sectiontitle: 
+            paratitle: What if I forgot my AKO password?
+            para1: If you forgot your AKO password, click <strong>Reset Password (AKO)</strong> on the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page, and you will be prompted to enter your username or email address to choose a method to reset your password. 
+          - sectiontitle: 
+            paratitle: Can I set up or change my password?
+            para1: CORE does not support passwords. Your password to access CORE via the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page is the same password you use to access AKO. If you would like to change it, then click <strong>Reset Password (AKO)</strong>, located underneath the Login buttons. You can also directly login to AKO and change it through your account settings.
+
+
+
+

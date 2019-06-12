@@ -4,14 +4,14 @@
             <a id="{{topic.id}}"> </a>
             <h3 class="area-title">{{ topic.title }}</h3>
         </div>    
-    {% for subtopic in topic.subtopics %}
+    {% for article in topic.articles %}
             <div class="row">
                 <div class="column large-12 anchor">
-                    <a id="{{subtopic.id}}"> </a>
-                    <span class="topics-title">{{ subtopic.title }}</span>
+                    <a id="{{article.id}}"> </a>
+                    <span class="topics-title">{{ article.title }}</span>
                 </div>
             </div>               
-        {% for section in subtopic.sections %}              
+        {% for section in article.sections %}              
             <div class="row">
                 <div class="column large-12">
                     <a class="topic-link" href="../..{{ section.url }}">{{ section.title }}</a>

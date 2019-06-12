@@ -1,7 +1,7 @@
 # Layout in Levels:
 # 
 # topic\                     (ie CORE Basics)
-#       subtopic\             (ie What is CORE?)
+#       article\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
 #                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
@@ -15,11 +15,11 @@
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Creating Content
-    subtopics:
+    articles:
       - subtitle: Create an Article
         sections:
           - sectiontitle:
@@ -30,11 +30,11 @@
             numlist:
               - listname: Initial procedure for the user
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+                two: Click <strong>New Article</strong> to open a draft article page. A yellow border will appear around the placeholder, indicating where your image can be released. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article.jpg">
           - sectiontitle: Step 2 - Add a Title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-            image2: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline1.jpg">
+            image2: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline.png">
             note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit The Importance of a Quality Headline.
           - sectiontitle: Step 3 - Customize the Author
             para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
@@ -113,4 +113,3 @@
                 two: Posting it to your social media accounts
                 three: Sharing it with other users across the Army network
             learn: Visit <a href="../../creating-content/co/promote.html">Promoting Content</a>
-

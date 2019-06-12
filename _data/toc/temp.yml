@@ -2,7 +2,7 @@
 # Layout in Levels:
 # 
 # topic\                     (ie CORE Basics)
-#       subtopic\             (ie What is CORE?)
+#       article\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
 #                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
@@ -16,11 +16,11 @@
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Coming Soon
-    subtopics:
+    articles:
       - subtitle: Content coming soon...
         sections:
           - note: We will update this section with support material very soon.

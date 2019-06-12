@@ -1,7 +1,7 @@
 # Layout in Levels:
 # 
 # topic\                     (ie CORE Basics)
-#       subtopic\             (ie What is CORE?)
+#       article\             (ie What is CORE?)
 #                section\      (ie Who is eligible for a CORE Account?)
 #                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
 # ******************************************************************************************
@@ -15,11 +15,11 @@
 # 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
 # 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
 # 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Subtopic titles always get followed by a "updated-last" statement.
+# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
   - title: Account Settings
-    subtopics:
+    articles:
       - subtitle: Upload Profile Photos
         sections:
           - sectiontitle:
@@ -32,6 +32,16 @@
               - listname: <strong>OPTION 1 </strong>- Drag and Drop  
                 one: Select your new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_new_image_from_computer.jpg">
                 two: Drag and drop the file on top of the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> Upload Photo icon. A yellow border will appear around the placeholder, indicating where your image can be released.
+            para1: Your profile photo is publicly accessible to all CORE users in the User Directory, as well as to your team members on My Organization. It helps other members of the CORE Community identify you and your content, but it will never be available on www.army.mil in conjunction with your released articles. You can also see your profile photo in the top right corner of the page when you're logged into CORE. 
+            para2: By default, your profile photo is your initials, but you can modify it in your account settings at any time.
+          - sectiontitle: Logo Specifications
+            para1: Use these recommended guidelines when uploading a new profile photo.
+            itemlist:
+              - listname:  
+                one: JPG, PNG or GIF file (no animated GIFs)
+                two: Minimum of 200 x 200 px
+                three: Max file size of 20 MB
+           note: If you upload an image that is not square, CORE will automatically crop your image from the center of the photo. For best results, we recommend that you make any cropping or scaling modifications to your photo, prior to upload.
           - sectiontitle:
             numlist:  
               - listname: <strong>OPTION 2 </strong>- Browse Computer

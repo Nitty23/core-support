@@ -3,9 +3,9 @@
         <h2 class="article-sidenav-title">Articles in this section</h2>
         <ul class="article-sidenav-list">
         {% for topic in site.data.toc.support_toc %}
-            {% for subtopic in topic.subtopics %}
-                {% if subtopic.id == suburl[2] %}
-                    {% for section in subtopic.sections %}
+            {% for article in topic.articles %}
+                {% if article.id == suburl[2] %}
+                    {% for section in article.sections %}
                         {% assign targeturl = section.url | split: "/" %}
                         {% if targeturl[3] != suburl[3]%}                                    
                             <li class="article-sidenav-item">

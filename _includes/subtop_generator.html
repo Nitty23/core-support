@@ -1,7 +1,7 @@
 <article class="article-space">
     {% for topic in datafile %}
-        {% for subtopic in topic.subtopics %}
-            {% for item in subtopic %}
+        {% for article in topic.articles %}
+            {% for item in article %}
                 {% assign type = item[0] %}
                 {% case type %}
                     {% when 'subtitle' %}
@@ -10,7 +10,7 @@
                                 <p class="topic-subtext">Last Updated: <time>{{ filemod | date: '%B %d, %Y' }}</time>**</p>
                             </header>
                     {% when 'sections' %}
-                    {% for section in subtopic.sections %}
+                    {% for section in article.sections %}
                             <section class="sect-space">
                         {% for part in section %}
                             {% assign type = part[0] %}
