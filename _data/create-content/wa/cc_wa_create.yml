@@ -87,17 +87,9 @@
             note: Although you can add multiple tags and themes to your article, we recommend only adding 1 or 2 themes and up to 5 tags per article to streamline your communication efforts.
             para2: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics.
             learn: Visit <a href="../../creating-content/wa/article_settings.html">Article Settings</a>
-- sectiontitle: Step 7 - Save or Release
+          - sectiontitle: Step 7 - Save or Release
             para1: Once you’re done with your article, you have a few options
-            lexicon:
-            - title: <strong>To save the article as a draft</strong>
-              definition: Click <strong>Save.</strong>
-            - title: <strong>To publish the article to www.army.mil</strong>
-              definition: Click <strong>Release.</strong>
-            - title: <strong>To schedule the article to publish in the future</strong>
-              definition: Click the Calendar icon. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit Schedule a Release.
-            - title: <strong>To submit article for review by a senior editor</strong>
-              definition: Click <strong>Submit for Review</strong>. To learn more, visit Submit a Draft.
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             paratitle: Why can’t I release my article?
             para2: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.
             para3: Double check your role on My Organization page. If you are a Contributor, you will have the ability to Submit for Review, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
