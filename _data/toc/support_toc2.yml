@@ -1,6 +1,6 @@
 - title: Getting Started
   id: getting-started
-  subtopics:
+  articles:
     - title: CORE Basics
       id: cb
       sections:
@@ -41,7 +41,7 @@
 
 - title: Creating Content
   id: creating-content
-  subtopics:
+  articles:
     - title: Writing Articles
       id: wa
       sections: 
@@ -107,7 +107,7 @@
 
 - title: Page Management
   id: page-management
-  subtopics:
+  articles:
     - title: Page Settings
       id: ps
       sections: 
@@ -160,7 +160,7 @@
 
 - title: CORE Community
   id: core-community
-  subtopics:
+  articles:
     - title: Admin Management
       id: am
     - title: User Directory
@@ -170,7 +170,7 @@
 
 - title: Best Practices
   id: best-practices
-  subtopics:
+  articles:
     - title: General Tips
       id: gt
       sections: 

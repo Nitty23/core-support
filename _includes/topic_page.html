@@ -41,9 +41,9 @@
                         <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
                         <hr class="mobile-hr">
                         <ul class="menu vertical nested">
-                {% for subtopic in topic.subtopics %}  
+                {% for article in topic.articles %}  
                             <li class="mobile-li">
-                                <a href="{{page.tohome}}topics/#{{ subtopic.id }}" class="mobile-sec-pills article-sidenav-link">{{ subtopic.title }}</a>
+                                <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
                             </li>
                             {% if forloop.last == true %}
                             <hr class="mobile-hr" style="margin-left: -3%;">
@@ -69,9 +69,9 @@
                             <li>                                
                                 <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot hider">&#x2303;</span></a>
                                 <ul class="menu vertical nested">
-                        {% for subtopic in topic.subtopics %}  
+                        {% for article in topic.articles %}  
                                     <li>
-                                        <a href="./#{{ subtopic.id }}" class="secondary-pill">{{ subtopic.title }}</a>
+                                        <a href="./#{{ article.id }}" class="secondary-pill">{{ article.title }}</a>
                                     </li>
                         {% endfor %}
                                 </ul>
