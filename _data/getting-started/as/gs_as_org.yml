@@ -57,14 +57,14 @@
           - sectiontitle: 
             paratitle: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
             para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization in CORE.
-            - sectiontitle: 
-              paratitle: What happens when I change my organization?
-              itemlist:
-              - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE</strong>
-                one: Your Profile is updated.
-                two: Your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
-                three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
-                four: You role is reverted to contributor.
+          - sectiontitle: 
+            paratitle: What happens when I change my organization?
+            itemlist:
+            - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE</strong>
+              one: Your Profile is updated.
+              two: Your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
+              three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
+              four: You role is reverted to contributor.
           - sectiontitle: 
             paratitle: Why did my role change when I changed organizations?
             para1: While you can change your organization without needing approval, your role within the new team is controlled by your new administrator. We automatically send a notification to your administrator when you join their organization, encouraging them to take action regarding your role.
