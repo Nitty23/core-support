@@ -42,5 +42,5 @@
             para3: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking </a> setup immediately.
             para4: <hr>
           - sectiontitle: 
-            paratitle: How do I set up my Google Analytics account to track my entire organization?
+            paratitle: How do I set up a Google Analytics account to track my entire organization?
             para1: If your Google Analytics account was set-up to track content from your entire organization, please contact your administrator to ensure the tracking ID is added to your organization information on My Organization page. This will ensure your content is associated with the appropriate organization, even if you move to a new team. Learn how to <a class="underline-link" href="#">connect your organization to Google Analytics.</a>
