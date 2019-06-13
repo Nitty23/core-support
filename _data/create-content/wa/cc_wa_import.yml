@@ -23,17 +23,36 @@
       - subtitle: Import from DVIDS
         sections:
           - sectiontitle:
-            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats <br> https://www.army.mil/article-id/  and  https://www.army.mil/article-id/article-title
-            para2: Keep reading below to learn about some basic features available in our article editor.
-            video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
-          - sectiontitle: <strong>Step 1 - Create a New Article</strong>
-            para1: 1. Click <strong>Create</strong> on the main menu.
-            para2: 2. Click <strong>New Article</strong> to open a draft article page.
-          - sectiontitle: <strong>Step 2 - Add a Title</strong>
-            para1: 1. Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-            note: At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.
-          - sectiontitle: <strong>Step 3 - Customize the Author</strong>
-            para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
-            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
-            para3: 
+            para1: If you have an article published on <a class="underline-link" href="https://www.dvidshub.net/">DVIDS</a> and would like to import it to CORE, you can use our handy import tool. The import tool is currently limited to news assets released from the Army. 
+          - sectiontitle: Import an article
+            numlist:
+              - listname: 
+                one: Click <strong>Create</strong> on the main menu.
+                two: Click <strong>Import from DVIDS</strong> to open the import tool. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids1.jpg">
+                three: Paste the URL of the DVIDS article you'd like to import into the search field. You can also search by keyword, author, unit or story ID.
+                four: Click the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/dvids_import.svg"> button located at the far right side.
+                five: Select one of the two import options from the dropdown menu:
+                six: From your imported article page, notice the article status displayed at the top of the right sidebar. The status reflects the option that you chose in the previous step: Draft or Released.
+                seven: Edit the article and click <strong>Release</strong> to publish it on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
+            para1: Articles that are imported as released will automatically be backdated to the original publish date in DVIDS. However, if you make any changes to the article in CORE and then re-publish it, then the release date will be updated.
+            para2: Although you cannot directly import media assets using the DVIDS import tool, all images associated with a news story will automatically import and display in a slideshow at the top of your article. You can change images to display in a grid layout or move them to a new position in the article at any time. To learn more, visit Adding Images to Articles.
+            note: CORE only supports embedded videos from YouTube, so you cannot import videos directly from DVIDS. To add a video to your article or Page, you will need to download it from DVIDS and upload it to YouTube first. To learn more, visit <a class="underline-link" href="./videos.html">Adding Video to Articles</a>.
+          - sectiontitle: View Imported Articles
+            para1: If a DVIDS article has already been imported into CORE, you will see a green “Imported” button in the DVIDS news feed.
+            numlist:
+              - listname:
+                one: From the <strong>DVIDS Import</strong> tool, locate the article that you want.
+                two: Click the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> icon.
+                three: Click <strong>View CORE Article</strong> to go to the imported article.
+            para2: From the article page, you can view important information in the <a class="underline-link" href="./article_settings.html">Article Settings</a>, such as the article ID, release status, link on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and history log. With this information, you can add the article to your Page, share it on social media, or contact the CORE user who imported if changes are needed.
+            para3: <hr>
+          - sectiontitle:
+            paratitle: Why can’t I find my content in the DVIDS Import search tool?
+            numlist:
+              - listname: At this time, CORE only imports news assets released from the Army. As a result, your content may not display in the DVIDS Import search tool if
+                one: The news asset was released by a DVIDS user that is associated with another military branch (i.e. Joint, Navy, Marines, Air Force, Coast Guard or Civilian). If this occurs, you will need to copy/paste your story from DVIDS into a new draft and release.
+                two: The asset is any type of content other than news, to include images, videos, audio, graphics, publications, podcasts, and webcasts. If this occurs, you will need to download the asset and upload the media file directly to your article or Page.
+          - sectiontitle:
+            paratitle: I searched for my article using the DVIDS story ID, but there are no results available for import. Why?
+            para1: DVIDS uses IDs for multiple types of content (news, images, videos, audio, publications and webcasts). In order to narrow results specifically for news assets, enter <strong>news:</strong> into the search field before the ID.
+            para2: For example, entering “<strong>312086</strong>” will return no results. However, entering “<strong>news:312086</strong>” will return one article.
