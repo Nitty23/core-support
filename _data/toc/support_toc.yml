@@ -89,7 +89,7 @@
         - title: View article page traffic
           url: /creating-content/ma/page_traffic.html
     - title: Released Content
-      id:rc
+      id: rc
       sections:
         - title: All Content 101
           url: /creating-content/rc/all_content_101.html
