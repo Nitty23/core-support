@@ -15,29 +15,20 @@
     - title: Account Settings
       id: as
       sections:
-        - title: Your Profile
+        - title: Your profile
           url: /getting-started/as/your_profile.html
-        - title: Your Organization
+        - title: Your organization
           url: /getting-started/as/your_org.html
-        - title: Email Preferences
+        - title: Email preferences
           url: /getting-started/as/email_pref.html
-        - title: Connect social media account
+        - title: Connect your social media accounts
           url: /getting-started/as/connect_social.html
-        - title: Upload Profile Photo
+        - title: Upload profile photo
           url: /getting-started/as/upload.html
-        - title: Delete or Deactivate
+        - title: Delete or deactivate you account
           url: /getting-started/as/delete_or.html
-        - title: Google Analytics
+        - title: Connect your account to Google Analytics
           url: /getting-started/as/google_analytics.html
-    - title: Uploading Images
-      id: ui
-      sections:
-        - title: New Images
-          url: /getting-started/ui/new_img.html
-        - title: Existing Images
-          url: /getting-started/ui/existing_img.html
-        - title: Remove Images
-          url: /getting-started/ui/remove_img.html
 
 - title: Creating Content
   id: creating-content
@@ -45,12 +36,10 @@
     - title: Writing Articles
       id: wa
       sections: 
-        - title: Create an Article
+        - title: Create an article
           url: /creating-content/wa/create_article.html
         - title: Import from DVIDS
           url: /creating-content/wa/import_from.html
-        - title: Edit Articles
-          url: /creating-content/wa/edit_articles.html
         - title: Formatting text
           url: /creating-content/wa/form_text.html
         - title: Images
@@ -61,6 +50,10 @@
           url: /creating-content/wa/docs.html
         - title: Article Settings
           url: /creating-content/wa/article_settings.html
+        - title: Tags
+          url: /creating-content/wa/tags.html
+        - title: Army Themes
+          url: /creating-content/wa/army_themes.html
         - title: Preview Articles
           url: /creating-content/wa/preview_articles.html
     - title: Article Images
@@ -75,22 +68,35 @@
     - title: Managing Articles
       id: ma
       sections: 
-        - title: Page Traffic
-          url: /creating-content/ma/page_traffic.html
         - title: Inbox 101
           url: /creating-content/ma/inbox_101.html
-        - title: Tags
-          url: /creating-content/ma/tags.html
-        - title: Scheduled Release
-          url: /creating-content/ma/scheduled_rel.html
-        - title: Submit Drafts
+        - title: Edit articles
+          url: /creating-content/ma/edit_article.html
+        - title: Submit drafts
           url: /creating-content/ma/submit_drafts.html
-        - title: Review Drafts
+        - title: Review drafts
           url: /creating-content/ma/review_drafts.html
-        - title: Content Approval Process
-          url: /creating-content/ma/cap.html
-        - title: Unpublished Articles
-          url: /creating-content/ma/unpub_articles.html
+        - title: Schedule a release
+          url: /creating-content/ma/scheduled_rel.html
+        - title: Change the release date
+          url: /creating-content/ma/change_release.html
+        - title: Retract an article
+          url: /creating-content/ma/retract_article.html
+        - title: Delete an article
+          url: /creating-content/ma/delete_article.html
+        - title: Restore a deleted article
+          url: /creating-content/ma/restore_deleted.html
+        - title: View article page traffic
+          url: /creating-content/ma/page_traffic.html
+    - title: Released Content
+      id:rc
+      sections:
+        - title: All Content 101
+          url: /creating-content/rc/all_content_101.html
+        - title: Tag feeds
+          url: /creating-content/rc/tag_feeds.html
+        - title: RSS feeds
+          url: /creating-content/rc/rss_feeds.html
     - title: Content Optimization
       id: co
       sections: 
