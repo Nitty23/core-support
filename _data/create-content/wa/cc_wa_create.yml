@@ -95,7 +95,7 @@
               - title: Publish the article publicly to www.army.mil 
                 definition: Click <strong>Release</strong>.
               - title: Schedule the article to publish in the future
-                definition: Click the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_rel.html">Schedule a Release</a>.
+                definition: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_rel.html">Schedule a Release</a>.
               - title: Submit article for review by a senior editor
                 definition: Click <strong>Submit for Review</strong>. To learn more, visit <a class="underline-link" href="../../creating-content/ma/submit_drafts.html">Submit a Draft</a>.
             para2: <hr>
