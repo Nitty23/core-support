@@ -92,7 +92,7 @@
       id: rc
       sections:
         - title: All Content 101
-          url: /creating-content/rc/all_content_101.html
+          url: /creating-content/rc/all_content.html
         - title: Tag feeds
           url: /creating-content/rc/tag_feeds.html
         - title: RSS feeds
