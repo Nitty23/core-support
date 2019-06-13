@@ -64,7 +64,7 @@
                   two: For <strong>Videos</strong>, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_video_lightbox.png">
-            learn: To learn more about adding and editing media in your articles, visit <a href="../../creating-content/wa/images.html">Images</a>, <a class="underline-link" href="../../creating-content/wa/videos.html">Videos</a>, <a class="underline-link" href="../../creating-content/wa/docs.html">Documents</a>.
+            learn: To learn more about adding and editing media in your articles, visit <a class="underline-link" href="../../creating-content/wa/images.html">Images</a>, <a class="underline-link" href="../../creating-content/wa/videos.html">Videos</a>, <a class="underline-link" href="../../creating-content/wa/docs.html">Documents</a>.
           - sectiontitle: Step 6 - Add Army Themes and tags
             image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_and_themes.png">
             para1: You can organize your article by relevant topics by adding tags and Army Themes to your Article Settings sidebar. 
@@ -76,7 +76,7 @@
                 three: Continue typing and click <strong>Enter</strong> on your keyboard to add a new tag, or select a popular tag from the dropdown list to increase the chance that your article is discovered.
                 four: You can add more tags, or remove a tag by clicking the X to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_themes_and_tags_sidebar.png">
           - sectiontitle: 
-            para1: <strong>Army Themes</strong> are categories that align your article with the Secretary of the Army’s priorities. This allows Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal (CAC access required for login).
+            para1: <strong>Army Themes</strong> are categories that align your article with the Secretary of the Army’s priorities. This allows Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal</a> (CAC access required for login).
             numlist:  
               - listname: To add an Army Theme
                 one: Click <strong>Add a strategic theme…</strong> in the right sidebar.
