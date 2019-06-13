@@ -23,37 +23,37 @@
       - subtitle: Upload Profile Photos
         sections:
           - sectiontitle:
-            para1: Your profile photo is publicly accessible to all CORE users in the User Directory, as well as to your team members on My Organization. It helps other members of the CORE Community identify you and your content, but it will never be available on www.army.mil in conjunction with your released articles. You can also see your profile photo in the top right corner of the page when you're logged into CORE.
+            para1: Your profile photo is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, as well as to your team members on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a>. It helps other members of the CORE Community identify you and your content, but it will never be available on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> in conjunction with your released articles. You can also see your profile photo in the top right corner of the page when you're logged into CORE.
             para2: By default, your profile photo is your initials, but you can modify it in your account settings at any time. 
           - sectiontitle: Logo Specifications
             itemlist:
-              - listname: Use these recommended guidelines when uploading a new profile photo.
+              - listname: Use these recommended guidelines when uploading a new profile photo
                 one: JPG, PNG or GIF file (no animated GIFs)
                 two: Minimum of 200 X 200 px
                 three: Max file size of 20 MB
             tip: If you upload an image that is not square, CORE will automatically crop your image from the center of the photo. For best results, we recommend that you make any cropping or scaling modifications to your photo, prior to upload.
           - sectiontitle: Upload a New Profile Photo
-            para1: There are two options for uploading a new image
+            para1: There are two options for uploading a new image.
             numlist:  
-              - listname: <strong>OPTION 1 </strong>- Drag and Drop  
+              - listname: <strong>OPTION 1 - Drag and Drop</strong>
                 one: Select your new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_new_image_from_computer.jpg">
                 two: Drag and drop the file on top of the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> <strong>Upload Photo</strong> icon. A yellow border will appear around the placeholder, indicating where your image can be released.
           - sectiontitle:
             numlist:
-              - listname: <strong>OPTION 2 </strong>- Browse Computer
-                one: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> Upload Photo icon. 
-                two: Click Upload New Photo from the dropdown. <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+              - listname: <strong>OPTION 2 - Browse Computer</strong>
+                one: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> <strong>Upload Photo</strong> icon. 
+                two: Click <strong>Upload New Photo</strong> from the dropdown. <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
                 three: Browse and select a new image from your computer. <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
             para1: A loading bar will appear to show the image upload progress. It will be replaced with your image once it has successfully uploaded.
           - sectiontitle: Change an Existing Photo
-            para1: There are two options for uploading a new image
+            para1: There are two options for uploading a new image.
             numlist:  
-              - listname: <strong>OPTION 1 </strong>- Drag and Drop  
+              - listname: <strong>OPTION 1 - Drag and Drop</strong>
                 one: Select your new image from your computer.
                 two: Drag and drop the file on top of your existing logo. A yellow border will appear around your existing image, indicating where your image can be released.
           - sectiontitle: 
             numlist:  
-              - listname: <strong>OPTION 2 </strong>- Browse Computer
+              - listname: <strong>OPTION 2 - Browse Computer</strong>
                 one: Click on your existing logo.
                 two: Click <strong>Change Photo</strong> from the dropdown.
                 three: Browse and select a new image from your computer
