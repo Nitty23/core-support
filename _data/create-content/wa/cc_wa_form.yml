@@ -28,9 +28,9 @@
             numlist:
               - listname: There are two ways to format your text
                 one: <strong>Format as you type</strong> - What You See Is What You Get! You can easily format as you type by using the WYSIWYG Text Toolbar. Each symbol is described below.
-                two: <strong>Use keyboard shortcuts</strong> - You can also use <a class="underline-link" href="../../creating-content/cp/key_short.html">keyboard shortcuts</a> to format selected text.
+                two: <strong>Use keyboard shortcuts</strong> - You can also use <a class="underline-link" href="../../creating-content/cp/key_short.html">keyboard shortcuts</a> to format selected text. <img class= "data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
           - sectiontitle: Bold
-            para1: To bold, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg"> in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg"> to apply the bold formatting.
+            para1: To bold, click the text_format_bar.png in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg"> to apply the bold formatting.
             para2: Keyboard shortcut - <strong>⌘ + B / Ctrl + B</strong>
           - sectiontitle: Italics
             para1: To italicize, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg"> in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg"> to apply the italics formatting.
