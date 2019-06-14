@@ -29,7 +29,7 @@
             para1: If you want to dive deeper into metrics, you can connect your articles to Google Analytics for visitor tracking and other reporting. CORE also offers Google Analytics integration, giving you access to track data on all articles that you create directly from a personal Google Analytics account.
           - sectiontitle: Add a personal Google Analytics tracking ID
             numlist:
-              - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE:</strong>
+              - listname:
                 one: To start, you’ll need to <a class="underline-link" href="https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/">sign up for a Google Analytics account.</a>
                 two: Once your account is set up, <a class="underline-link" href="https://support.google.com/analytics/answer/1032385?hl=en">locate your tracking ID.</a> It will look something like UA-00000000–2.
                 three: In CORE, click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.

@@ -199,8 +199,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .art-icons{
-    width: 20px;
-    height: 20px;
+    max-width: auto;
+    max-height: 16px;
+    margin: 0 3px;
 }
 
 .data-img{
@@ -247,6 +248,13 @@ h3, h4, h5 {
 
 h3:after, h4:after, h5:after {
     display: none;
+}
+
+.support-hr{
+    margin: 1.75em 0;
+    border: none;
+    background-color: #ddd;
+    height: 1px;
 }
 
 .support-text{
@@ -635,15 +643,15 @@ a:hover.topic-box{
 .subbullet-item{
     display: list-item; 
     list-style-type: circle;
-    list-style-position: inside;
-    padding-left: 11%;
+    padding-left: .5em;
+    margin-left: 4em;
 }
 
 .num-item{
     display: list-item; 
     list-style-type: decimal;
-    list-style-position: inside;
-    padding-left: 6%;
+    padding-left: .5em;
+    margin-left: 2em;
 }
 
 .topic-text-learn{
