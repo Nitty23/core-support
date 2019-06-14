@@ -20,14 +20,14 @@
 
   - title: Account Settings
     articles:
-      - subtitle: Delete or Deactivate
+      - subtitle: Delete or Deactivate your Account
         sections:
           - sectiontitle:
-            para1: When you’re ready to leave the CORE community, contact the CORE Support Team and request to deactivate or delete your account. For both options, your profile information will disappear from CORE, but they do not affect any of the content that you produced. Your content will remain active in CORE and on www.army.mil, but you will have not have access to edit it.
+            para1: When you’re ready to leave the CORE community, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a> and request to deactivate or delete your account. For both options, your profile information will disappear from CORE, but they do not affect any of the content that you produced. Your content will remain active in CORE and on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, but you will not have access to edit it.
           - sectiontitle: So what’s the difference?
-            para1: <strong>Deactivating your account</strong> is temporary and can be restored at any time, simply by signing in to the deactivated account. Your profile is removed from My Organization and the User Directory, but your account information is still in our database.
+            para1: <strong>Deactivating your account</strong> is temporary and can be restored at any time, simply by signing in to the deactivated account. Your profile is removed from <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> and the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, but your account information is still in our database.
             para2: <strong>Deleting an account</strong> is permanent and cannot be undone. Your profile information and settings are completely removed from the CORE database.
-          - sectiontitle: What is your profile information?
+          - sectiontitle: Your Profile Information
             itemlist:
               - listname: Your profile information includes
                 one: Title / Rank
@@ -43,4 +43,4 @@
               - listname: The following content is not considered profile information and will not be deleted as part of a request to deactivate or delete an account
                 one: Articles created or media uploaded by the user
                 two: A user’s actions from article history log
-            note: At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.
+            note: <strong>At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a> and request to deactivate or delete your account.</strong> We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.

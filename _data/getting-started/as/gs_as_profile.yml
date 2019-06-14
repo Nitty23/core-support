@@ -23,8 +23,9 @@
       - subtitle: Your Profile
         sections:
           - sectiontitle:
-            para1: Your profile in CORE consists of information linked to your account settings. It is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>
-            para2: Keep reading below to learn about some basic features available in your profile.
+            para1: Your profile in CORE consists of information linked to your account settings, and it helps members of the CORE Community identify you and your content. It is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, as well as to your team members on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a>.
+            para2: It is important to keep your profile up-to-date, especially your basic contact information and home organization. This will allow you to stay connected with the Army-wide public affairs community. Consider enhancing your profile by uploading a photo of yourself or adding your social media accounts.
+            para3: Keep reading below to learn about some basic features available in your profile.
             video: src="https://www.youtube.com/embed/jv96WKme3Mo"
             itemlist:
               - listname: Your profile includes
@@ -37,31 +38,34 @@
                 seven: Website or link
                 eight: Social media accounts
             image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_yourprofile1.png">
-          - sectiontitle:  
+          - sectiontitle: View your Profile 
             numlist:
-              - listname: View your Profile
+              - listname: To access your profile
                 one: Click <strong>Community</strong> in the main navigation to access your My Organization page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
                 two: Click your name at the top of your team member list. This opens a card with all of your profile. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile2.png">
-            note: All CORE users can view your profile information by searching for your name on the User Directory tab.
+            note: All CORE users can view your profile information by searching for your name on the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a> tab.
           - sectiontitle: Edit your Profile           
             para1: There are two ways to edit your profile information in CORE.
             numlist:
-              - listname: OPTION 1 - From your Account Settings
+              - listname: <strong>OPTION 1 - From your Account Settings</strong>
                 one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
                 list:
                   listname: From your profile page, you can
                   one: Change your display name and contact information
                   two: Enter a short description about yourself (up to 350 characters)
-                  three: Change your profile image by clicking on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> on your current avatar and select an image from your device. You can also drag and drop an image on top of the current avatar. To learn more, visit Upload Images.
-                three: When you’re done with making changes, click the Save button in the top-right corner of the page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_account_profile1.png">  <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_account_profile2.png">          
+                  three: Change your profile image by clicking on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> icon on your current avatar and select an image from your device. You can also drag and drop an image on top of the current avatar. To learn more, visit <a class="underline-link" href="./upload.html">Upload Profile Photo</a>.
+                three: When you’re done with making changes, click the <strong>Save</strong> button in the top-right corner of the page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_account_profile1.png">  <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_account_profile2.png">          
           - sectiontitle:
             numlist:
-              - listname: OPTION 2 - From My Organisation
-                one: Click Community in the main navigation to access your My Organization page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png"> 
-                two: Locate your name at the top of your organization’s team member list. Click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> (ellipsis)  located at the far right side. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_your_name.png">
-                three: Select Edit Profile & Settings from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_edit_profile.png"><img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_profile_lightbox.png">
-                four: When you’re done making changes, click Update button at the bottom of the Edit Profile lightbox.
-          - sectiontitle: Why can’t I change my username?        
+              - listname: <strong>OPTION 2 - From My Organization</strong>
+                one: Click <strong>Community</strong> in the main navigation to access your My Organization page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png"> 
+                two: Locate your name at the top of your organization’s team member list. Click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> located at the far right side. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_your_name.png">
+                three: Select <strong>Edit Profile & Settings</strong> from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_edit_profile.png"><img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_profile_lightbox.png">
+                four: When you’re done making changes, click the <strong>Update</strong> button at the bottom of the Edit Profile lightbox.
+            para1: <hr>
+          - sectiontitle: 
+            paratitle: Why can’t I change my username?        
             para1: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system to verify a user’s identity and permissions. Your CORE username is tied to your AKO account and can only be changed through the AKO system.
-          - sectiontitle: Why can’t I change my role in CORE?         
-            para1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your My Organization page.
+          - sectiontitle: 
+            paratitle: Why can’t I change my role in CORE?         
+            para1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
