@@ -26,7 +26,7 @@
             para1: Your affiliation with an organization is one of the most important settings in CORE. It ensures that your content is pushed to the proper chain of command and makes it easier for other CORE members to find and share your content.
           - sectiontitle: View your Organization(s)
             numlist:  
-              - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE</strong>
+              - listname:
                 one: Click on your avatar in the top-right corner of the page.
                 two: In the dropdown, click <strong>Profile & Settings</strong> from the dropdown. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
                 three: From the <strong>Profile</strong> tab, your current organization is also displayed at the top with the option to change to a new organization. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_as_acct_settings_profile.png">
@@ -60,7 +60,7 @@
           - sectiontitle: 
             paratitle: What happens when I change my organization?
             itemlist:
-            - listname: <strong>REMOVE THIS AFTER NICK FIXES THE COLON ISSUE</strong>
+            - listname: 
               one: Your Profile is updated.
               two: Your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
               three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
