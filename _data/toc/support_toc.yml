@@ -9,23 +9,23 @@
         - title: CORE Glossary
           url: /getting-started/cb/core_gloss.html
         - title: Roles and Permissions
-          url: /getting-started/cb/roles_and.html
+          url: /getting-started/cb/roles_and_preferences.html
         - title: Log in to CORE
           url: /getting-started/cb/log_in.html
     - title: Account Settings
       id: as
       sections:
-        - title: Your profile
+        - title: Your Profile
           url: /getting-started/as/your_profile.html
-        - title: Your organization
+        - title: Your Organization
           url: /getting-started/as/your_org.html
-        - title: Email preferences
+        - title: Email Preferences
           url: /getting-started/as/email_pref.html
         - title: Connect your social media accounts
           url: /getting-started/as/connect_social.html
-        - title: Upload profile photo
+        - title: Upload Profile Photo
           url: /getting-started/as/upload.html
-        - title: Delete or deactivate you account
+        - title: Delete or Deactivate your Account
           url: /getting-started/as/delete_or.html
         - title: Connect your account to Google Analytics
           url: /getting-started/as/google_analytics.html
@@ -70,23 +70,23 @@
       sections: 
         - title: Inbox 101
           url: /creating-content/ma/inbox_101.html
-        - title: Edit articles
+        - title: Edit Articles
           url: /creating-content/ma/edit_article.html
-        - title: Submit drafts
+        - title: Submit Drafts
           url: /creating-content/ma/submit_drafts.html
-        - title: Review drafts
+        - title: Review Drafts
           url: /creating-content/ma/review_drafts.html
-        - title: Schedule a release
+        - title: Schedule a Release
           url: /creating-content/ma/scheduled_rel.html
-        - title: Change the release date
+        - title: Change the Release Date
           url: /creating-content/ma/change_release.html
-        - title: Retract an article
+        - title: Retract an Article
           url: /creating-content/ma/retract_article.html
-        - title: Delete an article
+        - title: Delete an Article
           url: /creating-content/ma/delete_article.html
-        - title: Restore a deleted article
+        - title: Restore a Deleted Article
           url: /creating-content/ma/restore_deleted.html
-        - title: View article page traffic
+        - title: View Article Page Traffic
           url: /creating-content/ma/page_traffic.html
     - title: Released Content
       id: rc
@@ -97,19 +97,6 @@
           url: /creating-content/rc/tag_feeds.html
         - title: RSS feeds
           url: /creating-content/rc/rss_feeds.html
-    - title: Content Optimization
-      id: co
-      sections: 
-        - title: Formatting Text
-          url: /creating-content/cp/form_text.html
-        - title: Keyboard Shortcuts
-          url: /creating-content/cp/key_short.html
-        - title: Promoting Content
-          url: /creating-content/cp/promo_content.html
-        - title: SOE
-          url: /creating-content/cp/soe.html
-        - title: Publishing API
-          url: /creating-content/cp/pub_api.html
 
 - title: Page Management
   id: page-management
@@ -119,74 +106,111 @@
       sections: 
         - title: CORE Pages
           url: /page-management/ps/core_pages.html
-        - title: Create Pages
-          url: /page-management/ps/create_pages.html
-        - title: Your Settings
-          url: /page-management/ps/your_settings.html
-        - title: Organization Traffic
-          url: /page-management/ps/org_traffic.html
+        - title: Create a Page
+          url: /page-management/ps/create_page.html
+        - title: Page Settings
+          url: /page-management/ps/page_settings.html
+        - title: Organization Page Traffic
+          url: /page-management/ps/organization_page_traffic.html
         - title: Page Logo
           url: /page-management/ps/page_logo.html
         - title: Social Media
           url: /page-management/ps/social_media.html
-        - title: Google Analytics
-          url: /page-management/ps/google_analytics.html
-        - title: Deactivating Pages
-          url: /page-management/ps/deactivting_pages.html
+        - title: Connecting your Page to Google Analytics
+          url: /page-management/ps/connect_page_to_google_analytics.html
+        - title: Deactivate your Page
+          url: /page-management/ps/deactivate_pages.html
+        - title: Disabled Page
+          url: /page-management/ps/disabled_pages.html
         - title: Page FAQs
           url: /page-management/ps/page_faq.html
     - title: Page Layout
       id: pl
       sections: 
         - title: Page Navigation
-          url: /page-management/pl/page_nav.html
+          url: /page-management/pl/page_navigation.html
         - title: Content Sections
           url: /page-management/pl/content_sections.html
-        - title: News List Sections
+        - title: News List Section
           url: /page-management/pl/news_list.html
-        - title: Text Sections
+        - title: Text Section
           url: /page-management/pl/text_sections.html
-        - title: Video Sections
-          url: /page-management/pl/video_sections.html
-        - title: Leader Sections
-          url: /page-management/pl/leader_sections.html
-        - title: Accordion Sections
-          url: /page-management/pl/accordion_sections.html
+        - title: Video Section
+          url: /page-management/pl/video_section.html
+        - title: Leader Section
+          url: /page-management/pl/leader_section.html
+        - title: Accordion Section
+          url: /page-management/pl/accordion_section.html
         - title: Move a Content Section
           url: /page-management/pl/move_a.html
         - title: Delete a Content Section
           url: /page-management/pl/delete_a.html
-    - title: Page Articles
-      id: pa
+    - title: Managing Articles on Page
+      id: ma
       sections: 
-        - title: Featured News Articles
-          url: /page-management/pa/featured_news.html
+        - title: Latest News
+          url: /page-management/ma/latest_news.html
+        - title: Tagged News
+          url: /page-management/ma/tagged_news.html
+        - title: Featured News
+          url: /page-management/ma/featured_news.html
         - title: Remove Articles
-          url: /page-management/pa/remove_articles.html
-
+          url: /page-management/ma/remove_articles.html
+          
 - title: CORE Community
   id: core-community
   articles:
-    - title: Admin Management
-      id: am
-    - title: User Directory
-      id: ud
-    - title: Org Directory
-      id: od
-
+    - title: My Organization
+      id: mo
+      sections:
+        - title: Navigating My Organization
+          url: /core-community/mo/navigating_my_organization.html
+        - title: Edit Profile
+          url: /core-community/mo/edit_profile.html
+        - title: Change Organization
+          url: /core-community/mo/change_organization.html
+        - title: Join an Organization
+          url: /core-community/mo/join_organization.html
+        - title: Change User Roles
+          url: /core-community/mo/change_user_roles.html
+        - title: Remove user from your Organization
+          url: /core-community/mo/remove_user_from_organization.html
+    - title: Connecting
+      id: c
+      sections:
+        - title: User Directory
+          url: /core-community/c/user_directory.html
+        - title: Organization Directory
+          url: /core-community/c/organization_directory.html
+        - title: Request a New Organization
+          url: /core-community/c/request_new_organization.html
+          
 - title: Best Practices
   id: best-practices
   articles:
-    - title: General Tips
-      id: gt
+    - title: Articles and Pages
+      id: ap
       sections: 
-        - title: Headlines
-          url: /best-practices/gt/headlines.html
-        - title: Photos and Images
-          url: /best-practices/gt/photos_img.html
-        - title: Styleguide
-          url: /best-practices/gt/styleguide.html
-        - title: SEO Tips
-          url: /best-practices/gt/seo.html
+        - title: The Importance of Quality Headlines
+          url: /best-practices/ap/quality_headlines.html
+        - title: Selecting Quality Imagery
+          url: /best-practices/ap/selecting_quality_imagery.html
+        - title: Army.mil Style Guide
+          url: /best-practices/ap/army_style_guide.html
+        - title: Keyboard Shortcuts
+          url: /best-practices/ap/keyboard_shortcuts.html
+        - title: Formatting Text Tips
+          url: /best-practices/ap/formatting_text_tips.html
+        - title: Tagging Tips
+          url: /best-practices/ap/tagging_tips.html
         - title: Page Navigation
-          url: /best-practices/gt/page_nav.html
+          url: /best-practices/ap/page_navigation.html
+    - title: Content Optimization
+      id: co
+      sections: 
+        - title: Readability
+          url: /best-practices/co/readability.html
+        - title: Search engine optimization
+          url: /best-practices/co/search_engine_optimization.html
+        - title: Content promotion
+          url: /best-practices/co/content_promotion.html

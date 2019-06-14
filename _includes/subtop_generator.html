@@ -40,17 +40,19 @@
                                         {% endif %}
                                     {% endfor %}
                                     </div>
+                                {% when 'hr' %}
+                                    <hr class="support-hr">                          
                                 {% when 'note' %}
                                     <div class="supp-post-it topic-text-note">
-                                        <strong>Note: </strong>{{ part[1] }}
+                                        <strong>NOTE: </strong>{{ part[1] }}
                                     </div>
                                 {% when 'learn' %}
                                     <div class="supp-post-it topic-text-learn">
-                                        <strong>Learn more </strong>{{ part[1] }}
+                                        {{ part[1] }}
                                     </div>
                                 {% when 'tip' %}
                                     <div class="supp-post-it topic-text-tip">
-                                        <strong>Tip: </strong>{{ part[1] }}
+                                        <strong>TIP: </strong>{{ part[1] }}
                                     </div>
                                 {% when 'itemlist' %}
                                     {% for li in section.itemlist %}
@@ -66,7 +68,7 @@
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %}
                                                         {% if item[1] %}
-                                                            <li class="bullet-item">&nbsp{{ item[1] }}:</li>
+                                                            <li class="bullet-item">{{ item[1] }}:</li>
                                                                 <ul>
                                                         {% else %}
                                                                 <ul>
@@ -77,7 +79,7 @@
                                                 {% endfor %}
                                                             </ul>
                                             {% else %}
-                                                    <li class="bullet-item">&nbsp{{ each[1] }}</li>
+                                                    <li class="bullet-item">{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
                                                 </ul>
@@ -96,7 +98,7 @@
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %}
                                                         {% if item[1] %}
-                                                            <li class="num-item">&nbsp{{ item[1] }}:</li>
+                                                            <li class="num-item">{{ item[1] }}:</li>
                                                                 <ul>
                                                         {% else %}
                                                                 <ul>
@@ -107,7 +109,7 @@
                                                 {% endfor %}
                                                             </ul>
                                             {% else %}
-                                                    <li class="num-item">&nbsp{{ each[1] }}</li>
+                                                    <li class="num-item">{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
                                                 </ol>
