@@ -23,18 +23,17 @@
       - subtitle: What is CORE?
         sections:
           - sectiontitle:            
-            video: src="https://www.youtube.com/embed/jv96WKme3Mo"
-            para1: Welcome to <a class="underline-link" href="../../../../">CORE Support</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
-            para2: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on www.army.mil, expanding your local story to national and global audiences.
+            para1: Welcome to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! CORE provides a simple, free and effective way for Army Public Affairs professionals to tell their Army story online.
+            para2: As a CORE user, you can easily package and publish articles to create professional, branded products, perfect for engaging your digital audience. Published articles are automatically distributed to your followers in CORE and have the potential to reach millions on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, expanding your local story to national and global audiences.
           - sectiontitle: Who is eligible for a CORE Account?
             itemlist:
               - listname: CORE is intented for
                 one: 46Q/46R/46Z or 46A Soldiers,
                 two: 1035- or 1082-series DA civilians, and
                 three: Contractors and DA civilians serving in a public affairs capacity.
-            para1: In order to publicly release content to the www.army.mil community, you must be a Public Affairs professional who has graduated from the Defense Information School (DINFOS), and have release authority for your command or organization. The release authority can also grant others permission to release content, as long as the content is reviewed by the releasing authority.
-            para2: Anyone with a Common Access Card (CAC) or an AKO account can create a CORE account, allowing them to join an Army organization and submit content for review. However, all content produced by these contributors requires approval and release by a DINFOS-trained Public Affairs professional.
-            note: Commanders must ensure all people who publish information on web pages within the Army.mil domain, receive DINFOS/OPSEC IA training in accordance with AR 530-1. This is Public Affairs Officer/OPSEC training specific to people whose duties include operating or maintaining Army.mil sites.
+            para1: In order to publicly release content to the <a class="underline-link" href="https://www.army.mil">www.army.mil</a> community, you must be a Public Affairs professional who has graduated from the <a class="underline-link" href="https://iatraining.us.army.mil/index.html">Defense Information School (DINFOS)</a>, and have release authority for your command or organization. The release authority can also grant others permission to release content, as long as the content is reviewed by the releasing authority.
+            para2: Anyone with a Common Access Card (CAC) or an AKO account can <a class="underline-link" href="./log_in.html">create a CORE account</a>, allowing them to join an Army organization and submit content for review. However, all content produced by these contributors requires approval and release by a DINFOS-trained Public Affairs professional.
+            note: Commanders must ensure all people who publish information on web pages within the Army.mil domain, receive DINFOS/<a class="underline-link" href="https://iatraining.us.army.mil/index.html">OPSEC IA training</a> in accordance with AR 530-1. This is Public Affairs Officer/OPSEC training specific to people whose duties include operating or maintaining Army.mil sites.
           - sectiontitle: Your Organization
             para1: CORE is comprised of Army organizations, and each one is made up of team members with varying roles and permissions. Administrators manage capabilities for all users within their organization, allowing members to produce articles, upload media, edit and release content, or publish the organization’s web page. This team management tool simplifies the content approval process.
             itemlist:
@@ -44,18 +43,19 @@
                 three: Editor(s)
                 four: Contributor(s)
           - sectiontitle:
-            learn: <a class="underline-link" href="./roles_and.html">Roles and permissions in CORE</a>
+            learn: Learn more about <a class="underline-link" href="./roles_and.html">Roles and permissions in CORE</a>.
           - sectiontitle: Content Approval Process
             image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_cap_animation_600x58px.gif">
-            para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your Inbox, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.
+            para1: The above workflow displays the general content approval process in CORE. Once created, all of your content is managed through your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a>, filtered by the article status (drafts, submissions, or released). Contributors manage their own content, while editors have the ability to update and release content created by anyone in their organization.
             itemlist:
               - listname: After an article is released, it is automatically
-                one: Published to www.army.mil
+                one: Published to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>
                 two: Added to your organization’s RSS feed
                 three: Distributed to your followers in CORE
                 four: Available in CORE search results, making it easy for other users to find and share your articles
           - sectiontitle: Your Page
-            para1: CORE also offers qualifying organizations the ability to promote their content and organization information further through an Organization Page, hosted on www.army.mil  (www.army.mil/organization_name). We provide a branded, mobile-optimized template and publishers to customize the navigation and page layout to highlight content that is important to their organization, such as featured articles, videos, leaders, and resources.
-            learn: <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Pages</a>
+            para1: CORE also offers qualifying organizations the ability to promote their content and organization information further through an Organization Page, hosted on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> (<em>www.army.mil/organization_name</em>). We provide a branded, mobile-optimized template and publishers to customize the navigation and page layout to highlight content that is important to their organization, such as featured articles, videos, leaders, and resources.
+            learn: Learn more about <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Pages</a>
           - sectiontitle: Public Affairs Community
             para1: A key feature of the Community section is the User Directory. This is a searchable list of public affairs professionals in the Army that provides organization and contact information about each user. This is a great way for you to connect and coordinate with other members of the Army public affairs community.
+            para2: <strong>Have more questions?</strong> Feel free to reach out to the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a>.

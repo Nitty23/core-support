@@ -53,23 +53,31 @@
                                         <strong>Tip: </strong>{{ part[1] }}
                                     </div>
                                 {% when 'itemlist' %}
-                                    {% for li in section.itemlist %}   
+                                    {% for li in section.itemlist %}
                                         {% for each in li %}
-                                            {% if forloop.first == true %}
-                                                <h4 class="list-title">{{ each[1] }}:</h4>
-                                                <ul>
-                                            {% elsif each[0] == 'list' %}
+                                            {% if each[0] == 'listname' %}
+                                                {% if each[1] %} <!-- if listname exists -->
+                                                    <h4 class="list-title">{{ each[1] }}:</h4>
+                                                    <ul>
+                                                {% else %} <!-- no listname -->
+                                                    <ul>
+                                                {% endif %}
+                                            {% elsif each[0] == 'list' %} <!-- if sublist exists -->
                                                 {% for item in li.list %}
-                                                    {% if forloop.first == true %} 
-                                                    <li class="bullet-item">{{ item[1] }}:</li>
-                                                        <ul>
+                                                    {% if forloop.first == true %}
+                                                        {% if item[1] %}
+                                                            <li class="bullet-item">&nbsp{{ item[1] }}:</li>
+                                                                <ul>
+                                                        {% else %}
+                                                                <ul>
+                                                        {% endif %}
                                                     {% else %}
-                                                            <li class="subbullet-item">{{ item[1] }}</li>
+                                                                <li class="subbullet-item">{{ item[1] }}</li>
                                                     {% endif %}
                                                 {% endfor %}
-                                                        </ul>
+                                                            </ul>
                                             {% else %}
-                                                    <li class="bullet-item">{{ each[1] }}</li>
+                                                    <li class="bullet-item">&nbsp{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
                                                 </ul>
@@ -77,26 +85,34 @@
                                 {% when 'numlist' %}
                                     {% for li in section.numlist %}
                                         {% for each in li %}
-                                            {% if forloop.first == true %}
-                                                <h4 class="list-title">{{ each[1] }}:</h4>
-                                                <ol>
-                                            {% elsif each[0] == 'list' %}
+                                            {% if each[0] == 'listname' %}
+                                                {% if each[1] %} <!-- if listname exists -->
+                                                    <h4 class="list-title">{{ each[1] }}:</h4>
+                                                    <ol>
+                                                {% else %} <!-- no listname -->
+                                                    <ol>
+                                                {% endif %}
+                                            {% elsif each[0] == 'list' %} <!-- if sublist exists -->
                                                 {% for item in li.list %}
                                                     {% if forloop.first == true %}
-                                                    <li class="num-item">&nbsp{{ item[1] }}:</li>
-                                                        <ul>
+                                                        {% if item[1] %}
+                                                            <li class="num-item">&nbsp{{ item[1] }}:</li>
+                                                                <ul>
+                                                        {% else %}
+                                                                <ul>
+                                                        {% endif %}
                                                     {% else %}
-                                                            <li class="subbullet-item">{{ item[1] }}</li>
+                                                                <li class="subbullet-item">{{ item[1] }}</li>
                                                     {% endif %}
                                                 {% endfor %}
-                                                        </ul>
+                                                            </ul>
                                             {% else %}
                                                     <li class="num-item">&nbsp{{ each[1] }}</li>
                                             {% endif %}
                                         {% endfor %}
                                                 </ol>
                                     {% endfor %}
-                                {% else %}
+                                {% else %} <!-- The Catch All for article parts -->
                                     <p class="article-para">{{ part[1] }}</p>
                             {% endcase %}
                         {% endfor %}

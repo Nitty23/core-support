@@ -23,17 +23,15 @@
       - subtitle: Preview Articles
         sections:
           - sectiontitle:
-            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats <br> https://www.army.mil/article-id/  and  https://www.army.mil/article-id/article-title
-            para2: Keep reading below to learn about some basic features available in our article editor.
-            video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
-          - sectiontitle: <strong>Step 1 - Create a New Article</strong>
-            para1: 1. Click <strong>Create</strong> on the main menu.
-            para2: 2. Click <strong>New Article</strong> to open a draft article page.
-          - sectiontitle: <strong>Step 2 - Add a Title</strong>
-            para1: 1. Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-            note: At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.
-          - sectiontitle: <strong>Step 3 - Customize the Author</strong>
-            para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
-            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
-            para3: 
+            para1: You can preview how your article appears on mobile, tablet, and desktop screens. This is a great way to test the responsive design as you edit your article.
+            para2: Preview mode hides the editing and navigation panels and displays a full-screen preview of your article. You can switch between Edit and Preview mode, even if your article is already released.
+          - sectiontitle: Accessing Preview Mode
+            numlist:
+              - listname: 
+                one: On your article page, click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the top-right corner of the main action bar.
+                two: Select <strong>Preview Article</strong> from the dropdown menu to enter Preview mode.
+                three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device.
+                four: To exit Preview mode and go back to editing your article, click the <strong>Exit Preview</strong> icon.
+            para1: Readers don’t see the device options across the top of Preview mode. This is just a tool for you to use when you’re logged into CORE and managing your article.
+            para2: Changing the device view gives you a general idea of how your article appears on a typical mobile browser. It's not 100% accurate for every phone or tablet, since window sizes vary between devices. Some features may behave differently on an actual mobile device than they do in Preview mode.
+            note: If you’ve made updates to a released article, Preview mode will allow you to see those changes as they would appear on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, but it does not update your live article. You must click Release to publish your changes.

@@ -32,12 +32,11 @@
             - title: Releasing Contributor
               definition: Releasing Contributors have access to the same standard features as a Contributor, but they have authority to release their own content.
             - title: Editor
-              definition: Editors can edit, release and retract articles from all users within their organization. They can permanently delete their own articles, but not team members’ content.
-              note: Only the original creator can permanently delete a package from CORE. 
+              definition: Editors can edit, release and retract articles from all users within their organization. They can permanently delete their own articles, but not team members’ content. Only the original creator can permanently delete a package from CORE.
             - title: Publisher
               definition: Publishers have access to managing all aspects of their organization’s content and webpage. This includes updating metadata, social media, and contact information, as well as adding content elements (e.g. news lists, video players, and leader boxes).
             - title: Administrators
-              definition: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <i>Owner</i>.
+              definition: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <strong>Owner</strong>.
               note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
             - title: Owners
               definition: An owner is the sole user responsible for a CORE organization. They control all of the same management and settings as administrators, but owners also have the ability to delete the organization and transfer ownership to a new user.
@@ -48,10 +47,6 @@
               definition: Master Editors have access to edit and release content from any user within CORE. This role does not have any administrative access to users, pages or organizations.
             - title: Super Admin
               definition: Super Admin control the highest-level security and administrative settings for all CORE users, pages and organizations. This role is reserved for Army.mil Web team and Digital Media Division personnel to assist with support to the entire CORE community.
-        - sectiontitle: Roles and Permissions
-          para1: Read the table below to see more of what each role can do.
-          para2: <a class="underline-link" href="https://docs.google.com/spreadsheets/d/1J7MKicP9OFMG8cMkTEPT4rORU_8kx9_sMo-1OCZwewQ/edit#gid=0">Features can be pulled from this Google Sheets</a>
-          para3: (suggest leaving off Master editor and Super Admin and just keep it to the organization roles)
         - sectiontitle: Changing User Roles
           para1: User roles can only be changed by an administrator. If you’d like to change someone’s role within your organization, please follow the direction on <a class="underline-link" href="../../topics/#core-community">Change User Roles</a>.
           note: If you are not an administrator and would like to change your permissions level, please contact your administrator to upgrade your role. You can locate contact information for your administrator(s) on your <a  class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
