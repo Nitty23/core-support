@@ -160,11 +160,16 @@
 - title: CORE Community
   id: core-community
   articles:
+<<<<<<< HEAD
     - title: My Organization
+=======
+    - title: Admin Management
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
       id: mo
       sections:
         - title: Navigating My Organization
           url: /core-community/mo/navigating_my_organization.html
+<<<<<<< HEAD
         - title: Edit Profile
           url: /core-community/mo/edit_profile.html
         - title: Change Organization
@@ -174,6 +179,17 @@
         - title: Change User Roles
           url: /core-community/mo/change_user_roles.html
         - title: Remove user from your Organization
+=======
+        - title: Edit profile
+          url: /core-community/mo/edit_profile.html
+        - title: Change organization
+          url: /core-community/mo/change_organization.html
+        - title: Join an organization
+          url: /core-community/mo/join_organization.html
+        - title: Change user roles
+          url: /core-community/mo/change_user_roles.html
+        - title: Remove user from your organization
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /core-community/mo/remove_user_from_organization.html
     - title: Connecting
       id: c
@@ -182,7 +198,11 @@
           url: /core-community/c/user_directory.html
         - title: Organization Directory
           url: /core-community/c/organization_directory.html
+<<<<<<< HEAD
         - title: Request a New Organization
+=======
+        - title: Request a new organization
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /core-community/c/request_new_organization.html
           
 - title: Best Practices
@@ -191,17 +211,29 @@
     - title: Articles and Pages
       id: ap
       sections: 
+<<<<<<< HEAD
         - title: The Importance of Quality Headlines
           url: /best-practices/ap/quality_headlines.html
         - title: Selecting Quality Imagery
+=======
+        - title: The importance of quality headlines
+          url: /best-practices/ap/quality_headlines.html
+        - title: Selecting quality imagery
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /best-practices/ap/selecting_quality_imagery.html
         - title: Army.mil Style Guide
           url: /best-practices/ap/army_style_guide.html
         - title: Keyboard Shortcuts
           url: /best-practices/ap/keyboard_shortcuts.html
+<<<<<<< HEAD
         - title: Formatting Text Tips
           url: /best-practices/ap/formatting_text_tips.html
         - title: Tagging Tips
+=======
+        - title: Formatting text tips
+          url: /best-practices/ap/formatting_text_tips.html
+        - title: Tagging tips
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /best-practices/ap/tagging_tips.html
         - title: Page Navigation
           url: /best-practices/ap/page_navigation.html
@@ -214,3 +246,7 @@
           url: /best-practices/co/search_engine_optimization.html
         - title: Content promotion
           url: /best-practices/co/content_promotion.html
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
