@@ -51,7 +51,7 @@
             para2: <hr>
           - sectiontitle: 
             paratitle: How do I change fonts?
-            para1: It is not possible to change the font for your articles and pages. All products released on <a class="underline-link" href="https://www.army.mil>www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
+            para1: It is not possible to change the font for your articles and pages. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
           - sectiontitle: 
             paratitle: Can I underline text?
             para1: No, the WYSIWYG Text Editor doesn’t have an editing function to underline text.
