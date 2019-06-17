@@ -50,8 +50,8 @@
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
-                two: Click on the formatting options in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
-            note: Check out <a class="underline-link" href="./form_text.html">Formatting Text</a> to learn more about all the formatting features.
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.png">
+            note: Check out Formatting Text to learn more about all the formatting features.
           - sectiontitle: Step 5 - Add Media
             para1: From the WYSIWYG editor, you can also upload images and documents, or embed a video from YouTube. These media elements can be inserted anywhere within your article body.
             numlist:  

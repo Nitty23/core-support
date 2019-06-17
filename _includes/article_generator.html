@@ -28,26 +28,23 @@
                                     <div class="responsive-embed widescreen">
                                         <iframe class="article-para" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen {{ part[1] }}></iframe>
                                     </div>
-
                                 {% when 'table' %}
-                                <div class="row">
                                     <table class="columns large-12 medium-12 small-12 table-style">
                                     {% for tablerow in section.table %}
                                         {% if tablerow.heading1 %}
                                         <tr>
-                                            <th class="columns large-4 medium-4 small-4 table-header-style"><strong>{{ tablerow.heading1 }}</strong></th>
-                                            <th class="columns large-8 medium-8 small-8 table-header-style"><strong>{{ tablerow.heading2 }}</strong></th>
+                                            <th class="columns large-5 medium-5 small-5 table-header-style"><strong>{{ tablerow.heading1 }}</strong></th>
+                                            <th class="columns large-7 medium-7 small-7 table-header-style"><strong>{{ tablerow.heading2 }}</strong></th>
                                         </tr>
                                         {% endif %}
-                                        {% if tablerow.columns1 %}
+                                        {% if tablerow.col1 %}
                                         <tr>
-                                            <td class="columns large-4 medium-4 small-4 table-row-style">{{ tablerow.columns1 }}</td>
-                                            <td class="columns large-8 medium-8 small-8 table-row-style">{{ tablerow.columns2 }}</td>
+                                            <td class="columns large-5 medium-5 small-5 table-row-style">{{ tablerow.col1 }}</td>
+                                            <td class="columns large-7 medium-7 small-7 table-row-style">{{ tablerow.col2 }}</td>
                                         </tr>
                                         {% endif %}
                                     {% endfor %}
                                     </table>
-                                </div>
                                 {% when 'lexicon' %}
                                     <div class="row">
                                     {% for term in section.lexicon %}

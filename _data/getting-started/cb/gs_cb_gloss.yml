@@ -60,9 +60,9 @@
             table:
               - heading1: TO
                 heading2: DO THE FOLLOWING
-              - columns1: Save the article as a draft
-                columns2: Click Save.
-              - columns1: Schedule the article to publish in the future
-                columns2: Click the <em>Calendar icon</em>. Select a date and time and click the Schedule for Release button. To learn more, visit Schedule a Release.
-              - columns1: Publish the article publicly to www.army.mil 
-                columns2: Click Release.
+              - col1: Save the article as a draft
+                col2: Click Save.
+              - col1: Schedule the article to publish in the future
+                col2: Click the <em>Calendar icon</em>. Select a date and time and click the Schedule for Release button. To learn more, visit Schedule a Release.
+              - col1: Publish the article publicly to www.army.mil 
+                col2: Click Release.
