@@ -55,6 +55,7 @@
           - sectiontitle:
             paratitle: Customize SEO Metadata
             para1: You can add a custom title and description of your article if you want to have one title for search results and social media sharing, and a different one on the article page itself.
+            lexicon:
               - title: SEO Title
                 description: The SEO title appears in browser address bars, search engine results, and sometimes in social shares. The first 60 characters of your article title will automatically populate this field.
               - title: Meta Description
@@ -64,6 +65,7 @@
             para3: <hr>
           - sectiontitle:
             paratitle: Advanced Options
+            lexicon:
               - title: History Log
                 description: The history log shows recent changes made to your article, including content and status updates. This allows you to track user activity throughout the content approval process.
               - title: Google Analytics Tracking ID
