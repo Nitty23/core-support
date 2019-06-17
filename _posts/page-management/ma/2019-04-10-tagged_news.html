@@ -1,16 +1,15 @@
 --- 
 layout: topics 
 metatitle: U.S. Army CORE Support | Topics Page
-title: Featured News Articles
+title: Tagged News
 area: page-management
 areatitle: Page Management
 topicid: ma
-topictitle: Managing Articles on Page
-permalink: page-management/pa/tagged_news.html
+topictitle: Managing Articles
+permalink: page-management/ma/tagged_news.html
 tohome: ../../
 tags: [writing, article, news, content, media, features, featured]
-summary: Generic summary for the topic article summary
 ---
-{% assign datafile = site.data.toc.temp%}
+{% assign datafile = site.data.toc.temp %}
 {% assign filemod = page.last_modified_at %}
-{% include subtop_page.html %}
+{% include article_page.html %}

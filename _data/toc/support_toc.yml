@@ -39,9 +39,9 @@
         - title: Create an article
           url: /creating-content/wa/create_article.html
         - title: Import from DVIDS
-          url: /creating-content/wa/import_from.html
+          url: /creating-content/wa/import_from_dvids.html
         - title: Formatting text
-          url: /creating-content/wa/form_text.html
+          url: /creating-content/wa/formatting_text.html
         - title: Images
           url: /creating-content/wa/images.html
         - title: Video
@@ -65,29 +65,29 @@
           url: /creating-content/ai/cropping_img.html
         - title: Moving Images
           url: /creating-content/ai/moving_img.html
-    - title: Managing Articles
-      id: ma
+    - title: Managing New Articles
+      id: mna
       sections: 
         - title: Inbox 101
-          url: /creating-content/ma/inbox_101.html
+          url: /creating-content/mna/inbox_101.html
         - title: Edit Articles
-          url: /creating-content/ma/edit_article.html
+          url: /creating-content/mna/edit_article.html
         - title: Submit Drafts
-          url: /creating-content/ma/submit_drafts.html
+          url: /creating-content/mna/submit_drafts.html
         - title: Review Drafts
-          url: /creating-content/ma/review_drafts.html
+          url: /creating-content/mna/review_drafts.html
         - title: Schedule a Release
-          url: /creating-content/ma/scheduled_rel.html
+          url: /creating-content/mna/scheduled_release.html
         - title: Change the Release Date
-          url: /creating-content/ma/change_release.html
+          url: /creating-content/mna/change_release.html
         - title: Retract an Article
-          url: /creating-content/ma/retract_article.html
+          url: /creating-content/mna/retract_article.html
         - title: Delete an Article
-          url: /creating-content/ma/delete_article.html
+          url: /creating-content/mna/delete_article.html
         - title: Restore a Deleted Article
-          url: /creating-content/ma/restore_deleted.html
+          url: /creating-content/mna/restore_deleted.html
         - title: View Article Page Traffic
-          url: /creating-content/ma/page_traffic.html
+          url: /creating-content/mna/page_traffic.html
     - title: Released Content
       id: rc
       sections:
@@ -145,7 +145,7 @@
           url: /page-management/pl/move_a.html
         - title: Delete a Content Section
           url: /page-management/pl/delete_a.html
-    - title: Managing Articles on Page
+    - title: Managing Articles
       id: ma
       sections: 
         - title: Latest News
@@ -156,20 +156,15 @@
           url: /page-management/ma/featured_news.html
         - title: Remove Articles
           url: /page-management/ma/remove_articles.html
-          
+
 - title: CORE Community
   id: core-community
   articles:
-<<<<<<< HEAD
     - title: My Organization
-=======
-    - title: Admin Management
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
       id: mo
       sections:
         - title: Navigating My Organization
           url: /core-community/mo/navigating_my_organization.html
-<<<<<<< HEAD
         - title: Edit Profile
           url: /core-community/mo/edit_profile.html
         - title: Change Organization
@@ -179,17 +174,6 @@
         - title: Change User Roles
           url: /core-community/mo/change_user_roles.html
         - title: Remove user from your Organization
-=======
-        - title: Edit profile
-          url: /core-community/mo/edit_profile.html
-        - title: Change organization
-          url: /core-community/mo/change_organization.html
-        - title: Join an organization
-          url: /core-community/mo/join_organization.html
-        - title: Change user roles
-          url: /core-community/mo/change_user_roles.html
-        - title: Remove user from your organization
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /core-community/mo/remove_user_from_organization.html
     - title: Connecting
       id: c
@@ -198,11 +182,7 @@
           url: /core-community/c/user_directory.html
         - title: Organization Directory
           url: /core-community/c/organization_directory.html
-<<<<<<< HEAD
         - title: Request a New Organization
-=======
-        - title: Request a new organization
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /core-community/c/request_new_organization.html
           
 - title: Best Practices
@@ -211,29 +191,17 @@
     - title: Articles and Pages
       id: ap
       sections: 
-<<<<<<< HEAD
         - title: The Importance of Quality Headlines
           url: /best-practices/ap/quality_headlines.html
         - title: Selecting Quality Imagery
-=======
-        - title: The importance of quality headlines
-          url: /best-practices/ap/quality_headlines.html
-        - title: Selecting quality imagery
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /best-practices/ap/selecting_quality_imagery.html
         - title: Army.mil Style Guide
           url: /best-practices/ap/army_style_guide.html
         - title: Keyboard Shortcuts
           url: /best-practices/ap/keyboard_shortcuts.html
-<<<<<<< HEAD
         - title: Formatting Text Tips
           url: /best-practices/ap/formatting_text_tips.html
         - title: Tagging Tips
-=======
-        - title: Formatting text tips
-          url: /best-practices/ap/formatting_text_tips.html
-        - title: Tagging tips
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae
           url: /best-practices/ap/tagging_tips.html
         - title: Page Navigation
           url: /best-practices/ap/page_navigation.html
@@ -246,7 +214,3 @@
           url: /best-practices/co/search_engine_optimization.html
         - title: Content promotion
           url: /best-practices/co/content_promotion.html
-<<<<<<< HEAD
-=======
-
->>>>>>> 95086ed0c6df2d79f27579c8ed65757195cd84ae

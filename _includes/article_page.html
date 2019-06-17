@@ -10,10 +10,10 @@
                         <nav>
                             <a href="{{ page.tohome }}./topics/#{{ page.area }}" class="topnav-bread">{{ page.areatitle }}</a><span class="topnav-arrow-bread">&#10095</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-arrow-bread">&#10095</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
                         </nav>
-                        {% include subtop_generator.html %}
+                        {% include article_generator.html %}
                     </div>
                 </div> <!-- End of Second column here -->
-                {% include subtop_sidenav.html %}
+                {% include article_sidenav.html %}
             </div>
         </div> <!-- End of inner containter here -->
         {% include cantfind.html %}
