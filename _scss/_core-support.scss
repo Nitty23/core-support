@@ -182,6 +182,24 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1.25rem;
 }
 
+.table-row-style{
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-header-style{
+    background-color: lightgray;
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-style{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 .icons-container{
     margin-top: 1rem;
 }
