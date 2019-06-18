@@ -23,9 +23,9 @@
       - subtitle: Tags
         sections:
           - sectiontitle:
-            para1: Tags are keywords that categorize articles by a particular topic, allowing more people to discover your content within CORE and Army.mil. They are used to populate released articles in search results, Tag Feeds, Tagged News Lists on organization pages, as well as Related Stories. 
+            para1: Tags are keywords that categorize articles by a particular topic, allowing more people to discover your content within CORE and Army.mil. They are used to populate <a class="underline-link" href="../rc/all_content.html">released articles</a> in search results, <a class="underline-link" href="../rc/tag_feeds.html">Tag Feeds</a>, <a class="underline-link" href="../../page-management/ma/tagged_news.html">Tagged News Lists</a> on organization pages, as well as Related Stories. 
             para2: Not only do tags provide a useful way to group your related content, but they also quickly tell readers what your article is about.
-            para3: Tags are similar to Army Themes, but they are generally used to describe your article in more detail. The use of tags is completely optional.
+            para3: Tags are similar to <a class="underline-link" href="./army_themes.html">Army Themes</a>, but they are generally used to describe your article in more detail. The use of tags is completely optional.
           - sectiontitle: Add Tags to your Article
             numlist: 
               - listname: To add a tag to your articles
@@ -46,6 +46,7 @@
           - sectiontitle: Tag Feeds and Search Results
             para1: Your released articles will appear in the search results and <a class="underline-link" href="#">Tag Feeds</a> of any tags that you use. Thus, assigning relevant tags to your article increases the chance that other users will see your content.
             para2: The keyword is <strong>relevant!</strong> You don’t want unrelated content showing up in your news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the <strong>five most relevant keywords</strong>. Avoid adding more than 15 tags.
+            image: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_tag_feeds.png">
             para3: <hr>
           - sectiontitle: 
             paratitle: What is the difference between Army Themes and tags?
