@@ -5,9 +5,9 @@
       id: cb
       sections:
         - title: What is CORE?
-          url: /getting-started/cb/what_is.html
+          url: /getting-started/cb/what_is_core.html
         - title: CORE Glossary
-          url: /getting-started/cb/core_gloss.html
+          url: /getting-started/cb/core_glossary.html
         - title: Roles and Permissions
           url: /getting-started/cb/roles_and_preferences.html
         - title: Log in to CORE
@@ -18,17 +18,17 @@
         - title: Your Profile
           url: /getting-started/as/your_profile.html
         - title: Your Organization
-          url: /getting-started/as/your_org.html
+          url: /getting-started/as/your_organization.html
         - title: Email Preferences
-          url: /getting-started/as/email_pref.html
+          url: /getting-started/as/email_preferences.html
         - title: Connect your social media accounts
-          url: /getting-started/as/connect_social.html
+          url: /getting-started/as/connect_social_media.html
         - title: Upload Profile Photo
-          url: /getting-started/as/upload.html
+          url: /getting-started/as/upload_profile_photo.html
         - title: Delete or Deactivate your Account
-          url: /getting-started/as/delete_or.html
+          url: /getting-started/as/delete_or_deactivate_account.html
         - title: Connect your account to Google Analytics
-          url: /getting-started/as/google_analytics.html
+          url: /getting-started/as/connect_account_to_google_analytics.html
 
 - title: Creating Content
   id: creating-content
