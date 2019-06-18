@@ -23,17 +23,56 @@
       - subtitle: Videos
         sections:
           - sectiontitle:
-            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats <br> https://www.army.mil/article-id/  and  https://www.army.mil/article-id/article-title
-            para2: Keep reading below to learn about some basic features available in our article editor.
-            video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
-          - sectiontitle: <strong>Step 1 - Create a New Article</strong>
-            para1: 1. Click <strong>Create</strong> on the main menu.
-            para2: 2. Click <strong>New Article</strong> to open a draft article page.
-          - sectiontitle: <strong>Step 2 - Add a Title</strong>
-            para1: 1. Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-            note: At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.
-          - sectiontitle: <strong>Step 3 - Customize the Author</strong>
-            para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
-            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
-            para3: 
+            para1: CORE supports embedding videos from YouTube, which is a free service highly respected for streaming quality, upload ease, and video playback control. Embedding videos from another host helps your page load faster and enables visitors to share your videos.
+            para2: For these reasons, there is no option to upload a video directly to CORE. 
+          - sectiontitle: Add a Video
+            numlist:
+              - listname:
+                one: To start, you must upload your video(s) to YouTube.
+                list: 
+                  listname: Once your video is uploaded, copy the URL from your browser’s address bar. Accepted YouTube URLs will look something like this
+                  one: <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a>
+                  two: <strong>Playlist</strong> - <a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
+                three: In the body of your article, go to a new line and click the <img class="art_icons" src="/e2/images/rv7/core-support/ui-media/video.svg"> in the WYSIWYG Toolbar.
+                four: In the <strong>Add Video</strong> lightbox editor, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL (see step 2).
+                five: Press <strong>Enter</strong> to search for your video. A YouTube embed of your video will appear. 
+                six: The video description also automatically imports from YouTube. By default, it will display below the video player in your article. You can edit this text, or choose not to display the caption at all.
+                seven: Click the <strong>Add</strong> button to close the lightbox and place your video player in the article.
+            para1: Videos on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> do not autoplay when a user visits your article. When clicked, they will play with sound.
+            note: Only public videos will display properly on your article.
+          - sectiontitle: Edit a Video Caption
+            numlist:
+              - listname:
+                one: Click on the video you want to edit. A toolbar will appear at the top of the video.
+                two: Click the <img class="art_icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> to open the Edit Video lightbox.
+                three: Edit your caption text. You can also choose not to display the caption at all by turning the toggle to OFF.
+                four: Click <strong>Save</strong> to close the lightbox.
+          - sectiontitle: Move a Video
+            numlist:
+              - listname:
+                one: Hover over the video you want to move. Your cursor will turn into a crosshair.
+                two: Click and drag the video player to move it around your article.
+                three: As you drag the video, use the yellow guideline to choose a new placement.
+                four: Release the video when it’s in the desired position.
+          - sectiontitle: Delete a Video
+            numlist:
+              - listname:
+                one: Click on the video you want to delete. A toolbar will appear at the top of the video.
+                two: Click the <img class="art_icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">, or click <strong>Delete</strong> on your keyboard (<strong>Backspace</strong> on Windows).
+                three: Click <strong>Delete</strong> from the confirmation dialog box.
+            para1: <hr>
+          - sectiontitle:
+            paratitle: Can I embed a video from other video platforms?
+            para1: At this time, CORE only supports embedding video from YouTube. We plan to expand this feature to other video hosting services in the future. If there is a specific video hosting service that you would like available through CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Video Request">CORE Support Team</a> to let us know how we can help.
+          - sectiontitle:
+            paratitle: How do I change the video thumbnail?
+            para1: It is not possible to customize a video thumbnail in CORE. You must change the image directly in YouTube.
+          - sectiontitle:
+            paratitle: Why won't my video play on my article?
+            para1: A thumbnail image of your video is displayed within the article body, so you are not able to play the video directly from your Edit Article page. If you want to preview the video, click <img class="art_icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the main action bar and select <strong>Preview</strong> from the dropdown options. A rich version of the video embed will replace the thumbnail placeholder.
+          - sectiontitle:
+            paratitle: Can I remove the related YouTube videos that appear after playing my video?
+            para1: YouTube automatically displays related videos after a video finishes playing. This is a YouTube feature that isn't controlled by CORE and can't be disabled.
+          - sectiontitle:
+            paratitle: Do plays on my article count in YouTube?
+            para1: YouTube doesn't count views of embedded videos. However, YouTube provides a breakdown of where viewers are finding your videos. Learn more in <a class="underline-link" href="https://support.google.com/youtube/answer/1714323">YouTube Analytics documentation</a>.
