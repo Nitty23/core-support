@@ -20,7 +20,7 @@
 
   - title: CORE Basics
     articles:
-      - subtitle: Logging in to CORE
+      - subtitle: Log in to CORE
         sections:
           - sectiontitle:
             description: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system, which manages access to secure Army sites by verifying a user’s identity and permissions. All personnel issued a Common Access Card (CAC) are automatically provisioned in the EAMS-A enterprise directory, giving them access to login to CORE.
