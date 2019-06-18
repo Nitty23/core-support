@@ -44,18 +44,18 @@
           url: /creating-content/wa/formatting_text.html
         - title: Images
           url: /creating-content/wa/images.html
-        - title: Video
-          url: /creating-content/wa/video.html
+        - title: Videos
+          url: /creating-content/wa/videos.html
         - title: Documents
-          url: /creating-content/wa/docs.html
+          url: /creating-content/wa/documents.html
         - title: Article Settings
           url: /creating-content/wa/article_settings.html
         - title: Tags
           url: /creating-content/wa/tags.html
         - title: Army Themes
           url: /creating-content/wa/army_themes.html
-        - title: Preview Articles
-          url: /creating-content/wa/preview_articles.html
+        - title: Preview an Article
+          url: /creating-content/wa/preview_article.html
     - title: Article Images
       id: ai
       sections: 
