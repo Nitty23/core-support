@@ -22,8 +22,37 @@
     articles:
       - subtitle: Army Themes
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: Army Themes are categories based on the Secretary of the Army’s enduring and focused strategic priorities. Aligning your article with one of these themes will allow you, as an Army public affairs professional, to stay on message and support the Army Communication Enterprise monthly objectives.
+            learn: For a description of these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal</a> (Log in with CAC EMAIL certificate).
+            para2: Army Themes are similar to <a class="underline-link" href="./tags.html">tags</a> in that they help to organize your content. However, they are broader, more overarching topics that are predefined within CORE; whereas, tags are more specific keywords that are chosen by CORE users to associate related content.
+          - sectiontitle: Benefits of Army Themes
+            numlist: 
+              - listname: While selecting an Army Theme is not currently required, we highly recommend that you align your articles with at least one of the themes. This will enable you to take advantage of the following benefits
+                one: <strong>Discoverability</strong><br>
+                Your articles appear in search results and news feeds for any themes that you use. Assigning a theme increases the chance that people will find your content within CORE and Army.mil.
+                two: <strong>Promotion</strong><br>
+                Content that aligns with the Army’s strategic priorities typically has a broader reach, making it more likely to get used by other Army organizations. Aligned articles have the potential to be featured on the Army.mil Homepage and various Army organization pages, as well as to be amplified on Army social media platforms. 
+                three: <strong>Assessments</strong><br>
+                In the future, you will be able to track your organization’s communication efforts, based on your alignment with each strategic priority. This will serve as a guide to help your organization support the Army Communication Enterprise objectives each month.
+          - sectiontitle: Selecting an Army Theme
+            numlist:
+              - listname: To select an Army Theme:
+                one: On your article page, locate the <strong>Army Themes and Tags</strong> section in the <a class="underline-link" href="./article_settings.html">Article Settings</a> sidebar on the right side of your screen.
+                two: Click <strong>Add a strategic theme…</strong>
+                three: Select a theme from the dropdown list. The theme will appear as a tag.
+                four: You can add more themes, or remove a theme by clicking the <strong>x</strong> to the right of the tag.
+            tip: Although you can add multiple themes to your article, we recommend only adding <strong>1 or 2 themes per article</strong> to streamline your communication efforts. 
+            para1: <hr>
+          - sectiontitle: 
+            paratitle: What is the difference between Army Themes and tags?
+            para1: Army Themes and <a class="underline-link" href="./tags.html">tags</a> are very similar. They both allow you to organize content that can then be used in a variety of ways. However, there are a few differences.
+            para2: <strong>Army Themes</strong> are <strong>broad categories</strong> that align your article with the Secretary of the Army’s priorities. These overarching topics are predefined in CORE and help Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal</a> (Log in with CAC EMAIL certificate).
+            para3: <strong>Tags</strong> are much more <strong>specific topics</strong> that are chosen by CORE users to group related articles. Tags quickly tell readers what an article is about and make it easier for people to find your content. 
+          - sectiontitle: 
+            paratitle: Do I have to select an Army Theme?
+            para1: It is currently optional to add an Army Theme to your article. However, we <strong>highly recommend</strong> that you align your article with at least one of the themes.
+            para2: In the future, we plan to enhance your search and analytics capabilities in regards to these Army Themes. Your current efforts to align content with these strategic priorities will help to populate these new features, making them more effective and comprehensive. Stay tuned!
+          - sectiontitle: 
+            paratitle: Is there a limit to the number of themes I can add?
+            para1: You can add as many themes as you like to an article. As a rule of thumb, we recommend that you add <strong>no more than 2 themes per article</strong> to streamline your communication efforts without spamming news feeds and search results with irrelevant articles.
