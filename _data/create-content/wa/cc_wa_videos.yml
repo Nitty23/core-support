@@ -29,10 +29,11 @@
             numlist:
               - listname:
                 one: To start, you must upload your video(s) to YouTube.
-                two: Once your video is uploaded, copy the URL from your browser’s address bar. <br>
-                Accepted YouTube URLs will look something like this: <br>
-                <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a> <br>
-                <strong>Playlist</strong> - <a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
+                two: Once your video is uploaded, copy the URL from your browser’s address bar. 
+                list: 
+                  listname: Accepted YouTube URLs will look something like this
+                  one: <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a>
+                  two: <strong>Playlist</strong> - <a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
                 three: In your article, go to a new line and click the <img class="art_icons" src="/e2/images/rv7/core-support/ui-media/video.svg"> in the WYSIWYG Toolbar.
                 four: In the <strong>Add Video</strong> lightbox editor, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL (see step 2).
                 five: Press <strong>Enter</strong> to search for your video. A YouTube embed of your video will appear. 
