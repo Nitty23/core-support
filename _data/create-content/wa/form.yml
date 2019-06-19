@@ -47,7 +47,7 @@
           - sectiontitle: Bullets
             para1: To add bullets, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new bullet to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> to apply the list formatting.
           - sectiontitle: Remove Formatting
-            para1: To clear formatting, select the existing text that you want to reset and click the  <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/eraser.svg">.
+            para1: To clear formatting, select the existing text that you want to reset and click the  <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg">.
             para2: <hr>
           - sectiontitle: 
             paratitle: How do I change fonts?
@@ -58,4 +58,4 @@
             para2: Underlined text is strongly perceived as being a clickable hyperlink on websites, and users get confused and frustrated if underlined text doesn’t match their expectations. If you need to emphasize certain words or sentences, consider using <em>italics</em> or <strong>bold</strong> in place of underline.
           - sectiontitle: 
             paratitle: Can I change the text color?
-            para1: It is not possible to change text color. All products released on <a class="underline-link" href="https://www.army.mil>www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
+            para1: It is not possible to change text color. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
