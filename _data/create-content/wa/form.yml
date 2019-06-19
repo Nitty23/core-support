@@ -37,8 +37,8 @@
             para2: Keyboard shortcut - <strong>⌘ + i / Ctrl + i</strong>
           - sectiontitle: Headers and subheaders
             para1: Click the  in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the  to apply the header formatting.
-          - sectiontitle: Quotes
-            para1: To add a blockquote, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/quote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/quote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/quote.svg"> until text returns to default.
+          - sectiontitle: Blockquote
+            para1: To add a blockquote, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/quote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/quote.svg"> until text returns to default.
           - sectiontitle: Hyperlink
             para1: Copy and paste or type a link (for example, <a class="underline-link" href="https://www.army.mil">www.army.mil</a>) into your article. To convert this text to a hyperlink, select the URL text and click on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/link.svg"> in the text editor toolbar.
             para2: Keyboard shortcut - <strong>⌘ + K / Ctrl + K</strong>
