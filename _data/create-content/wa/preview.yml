@@ -20,7 +20,7 @@
 
   - title: Creating Content
     articles:
-      - subtitle: Preview a article
+      - subtitle: Preview an article
         sections:
           - sectiontitle:
             para1: You can preview how your article appears on mobile, tablet, and desktop screens. This is a great way to test the responsive design as you edit your article.
