@@ -20,7 +20,7 @@
 
   - title: Creating Content
     articles:
-      - subtitle: Create an Article
+      - subtitle: Create an article
         sections:
           - sectiontitle:
             para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats - <br> <em>https://www.army.mil/article-id/</em>  and  <em>https://www.army.mil/article-id/article-title</em>
