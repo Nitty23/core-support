@@ -20,7 +20,7 @@
 
   - title: Account Settings
     articles:
-      - subtitle: Upload Profile Photo
+      - subtitle: Upload profile photo
         sections:
           - sectiontitle:
             para1: Your profile photo is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, as well as to your team members on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a>. It helps other members of the CORE Community identify you and your content, but it will never be available on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> in conjunction with your released articles. You can also see your profile photo in the top right corner of the page when you're logged into CORE.
