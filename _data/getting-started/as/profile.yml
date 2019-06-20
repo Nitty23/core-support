@@ -20,7 +20,7 @@
 
   - title: Account Settings
     articles:
-      - subtitle: Your Profile
+      - subtitle: Your profile
         sections:
           - sectiontitle:
             para1: Your profile in CORE consists of information linked to your account settings, and it helps members of the CORE Community identify you and your content. It is publicly accessible to all CORE users in the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, as well as to your team members on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a>.
