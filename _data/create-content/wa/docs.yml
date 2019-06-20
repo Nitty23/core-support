@@ -23,17 +23,70 @@
       - subtitle: Documents
         sections:
           - sectiontitle:
-            para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats <br> https://www.army.mil/article-id/  and  https://www.army.mil/article-id/article-title
-            para2: Keep reading below to learn about some basic features available in our article editor.
-            video: <img src="/e2/images/rv7/core-support/test/videoplaceholder.jpg">
-          - sectiontitle: <strong>Step 1 - Create a New Article</strong>
-            para1: 1. Click <strong>Create</strong> on the main menu.
-            para2: 2. Click <strong>New Article</strong> to open a draft article page.
-          - sectiontitle: <strong>Step 2 - Add a Title</strong>
-            para1: 1. Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
-            note: At this time, you must contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil">CORE Support Team</a> and request to deactivate or delete your account. We plan to give users the capability to deactivate their own account in the future. However, permanent deletion of an account will still require a request to the CORE Support Team.
-          - sectiontitle: <strong>Step 3 - Customize the Author</strong>
-            para1: The author creates a byline that tell visitors who wrote the article they’re reading—either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
-            para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
-            para3: 
+            para1: You can upload files and attach them as text hyperlinks throughout your article. When clicked, the file will download or open in a new tab/window, depending on your visitor’s browser. Visitors can also right-click and select <strong>Save link as…</strong> (or OPTION + click on a Mac) to download the file.
+          - sectiontitle: Document Specifications
+            itemlist:
+              - listname: Use these guidelines when uploading a new document
+                one: Accepted file formats - .pdf, .doc, .docx, .ppt, .pptx, .txt
+                two: Max file size - 25 MB
+          - sectiontitle: Add a new document
+            numlist: 
+              - listname: 
+                one: In the body of your article, position your cursor where you want to insert a link to your document (on a new line or within a paragraph). You can also select existing text in your article to apply the hyperlink formatting.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg"> icon in the WYSIWYG Toolbar. 
+                three: In the lightbox editor, click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> to browse and select a file from your computer. You can also drag and drop file(s) from your computer directly into the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"><strong>Drag & Drop</strong> box.
+                four: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail to open a Document Details panel.
+                five: Edit the link text that you want to display within your article. By default, this text will be the file name of the document that you uploaded. 
+                six: Click <strong>Save</strong> to return to the Add Document panel.
+                seven: You can add or edit additional documents, as well as rearrange their order. 
+                eight: Click <strong>Insert</strong> to close the lightbox and place your document(s) in the article.
+            para1: Your new document(s) will display as a hyperlink within your article, followed by the file type and size. This file information lets your readers know exactly what they will be downloading when they click on the hyperlink. If you prefer not to display this information, then you can delete it the same way that you remove normal text in your article.
+            note: If you upload multiple documents at the same time, they will display as a list of hyperlinks on separate lines. You can highlight the link text and drag it to a new position within your article.
+          - sectiontitle: Add an existing document
+            para1: Once you upload a file, it is saved to your article and can be accessed from your previous uploads. This allows you to place a document in multiple locations within your article or link to an existing file without needing to re-upload it.
+            numlist:
+              - listname:
+                one: In the body of your article, position your cursor where you want to insert a link to your document and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg"> icon in the WYSIWYG Toolbar. 
+                two: In the lightbox editor, click <strong>Show Previous Uploads</strong>.
+                three: Hover over the document that you want to add from the list of existing files, and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> icon to move the file into your document queue.
+                four: If you want to change the link text that will display within your article, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail to open a Document Details panel.
+                five: Click <strong>Insert</strong> to close the lightbox and place your existing document(s) in the article.
+            note: At this time, you can only access files that were uploaded to the current article. We plan to implement a media library in the future that will expand your capabilities to manage your images and files, as well as use media assets from other CORE users. Stay tuned!
+          - sectiontitle: Edit or remove a document link
+            para1: Once a document is placed in your article, it is treated just like a regular hyperlink. You can inline edit the link text, or select the link text and delete it from the body of your article altogether. Don’t worry, the file is connected to your article so it is still available in your previous uploads, if you need to add it again.
+            numlist:
+              - listname: If the hyperlink to your document is within a paragraph, you may not want to delete the text altogether. To simple remove a hyperlink without deleting the text
+                one: Click the link text in your article to open the Edit Link dialog box.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg"> to remove the hyperlink.
+            tip: While you can edit the link text in your article, you cannot change the document filename or URL once it is uploaded to CORE. If you would like to change these, you will need to update the filename on your computer and re-upload a new version of the document.
+          - sectiontitle: Delete a document
+            para1: Removing a hyperlink from your article body does not permanently delete the document from the previous uploads that are connected to your article.
+            numlist:
+              - listname: To permanently delete a document from your previous uploads
+                one: Click the  icon in the WYSIWYG Toolbar to open the lightbox editor. 
+                two: Click Show Previous Uploads.
+                three: Click the  icon for the document that you want to delete from the list of existing files.
+                four: Click the  icon on your document thumbnail.
+                five: Click the (trashcan icon) in the bottom right corner of the Edit Document lightbox.
+                six: Click Delete from the confirmation dialog box.
+            para2: <hr>
+          - sectiontitle:
+            paratitle: I have a new version of my document. Can I replace the existing document?
+            para1: At this time, you can not overwrite an old version of your document by uploading a new version. When you upload the new version, it will have a different URL.
+          - sectiontitle:
+            paratitle: Can I change the URL for my document?
+            para1: If you want to customize the URL to your document, you must change the filename prior to uploading it to CORE.
+          - sectiontitle:
+            paratitle: Where do I find the link to my file?
+            para1: There are two ways to access the direct URL to your document.
+            numlist: 
+              - listname: <strong>OPTION 1 - From article body</strong>
+                one: Click on the link text in your article to open the Edit Link dialog box.
+                two: Click on the document filename to open your document in a new browser tab.
+                three: Copy the URL from your browser’s address bar.
+          - sectiontitle:
+            numlist: 
+              - listname: <strong>OPTION 2 - From Add Documents lightbox</strong>
+                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg"> icon in the WYSIWYG Toolbar to open the lightbox editor. 
+                two: Upload a new file, or click <strong>Show Previous Uploads</strong> to add an existing file to your document queue.
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail to open a Document Details panel.
