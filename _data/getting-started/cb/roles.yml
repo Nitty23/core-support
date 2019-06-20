@@ -20,7 +20,7 @@
 
 - title: CORE Basics
   articles:
-    - subtitle: Roles and Permissions
+    - subtitle: Roles and permissions
       sections:
         - sectiontitle:
           para1: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
