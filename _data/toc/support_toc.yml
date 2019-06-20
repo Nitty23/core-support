@@ -182,7 +182,7 @@
         - title: Connect your organization to Google Analytics
           url: /core-community/mo/remove_user_from_organization.html
         - title: Deactivate or delete your organization
-          url: /core-community/mo/remove_user_from_organization.html
+          url: /core-community/mo/deactivate_or_delete_organization.html
     - title: Connecting
       id: c
       sections:
