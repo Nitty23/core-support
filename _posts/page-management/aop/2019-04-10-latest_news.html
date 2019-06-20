@@ -1,0 +1,15 @@
+--- 
+layout: topics 
+metatitle: U.S. Army CORE Support | Topics Page
+title: Latest News Articles
+area: page-management
+areatitle: Page Management
+topicid: aop
+topictitle: Articles on Page
+permalink: page-management/aop/latest_news.html
+tohome: ../../
+tags: [latest]
+---
+{% assign datafile = site.data.page-management.aop.latest %}
+{% assign filemod = page.last_modified_at %}
+{% include article_page.html %}

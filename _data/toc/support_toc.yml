@@ -66,28 +66,28 @@
         - title: Moving images
           url: /creating-content/ai/moving_img.html
     - title: Managing Articles
-      id: mna
+      id: ma
       sections: 
         - title: Inbox 101
-          url: /creating-content/mna/inbox_101.html
+          url: /creating-content/ma/inbox_101.html
         - title: Edit an article
-          url: /creating-content/mna/edit_article.html
+          url: /creating-content/ma/edit_article.html
         - title: Submit a draft
-          url: /creating-content/mna/submit_draft.html
+          url: /creating-content/ma/submit_draft.html
         - title: Review a draft
-          url: /creating-content/mna/review_draft.html
+          url: /creating-content/ma/review_draft.html
         - title: Schedule a release
-          url: /creating-content/mna/scheduled_release.html
+          url: /creating-content/ma/scheduled_release.html
         - title: Change the release date
-          url: /creating-content/mna/change_release.html
+          url: /creating-content/ma/change_release.html
         - title: Retract an article
-          url: /creating-content/mna/retract_article.html
+          url: /creating-content/ma/retract_article.html
         - title: Delete an article
-          url: /creating-content/mna/delete_article.html
+          url: /creating-content/ma/delete_article.html
         - title: Restore a deleted article
-          url: /creating-content/mna/restore_deleted.html
+          url: /creating-content/ma/restore_deleted.html
         - title: View article page traffic
-          url: /creating-content/mna/page_traffic.html
+          url: /creating-content/ma/page_traffic.html
     - title: Released Content
       id: rc
       sections:
@@ -145,17 +145,17 @@
           url: /page-management/pl/move_content_section.html
         - title: Delete a content section
           url: /page-management/pl/delete_content_section.html
-    - title: Managing Articles
-      id: ma
+    - title: Articles on Page
+      id: aop
       sections: 
         - title: Latest News
-          url: /page-management/ma/latest_news.html
+          url: /page-management/aop/latest_news.html
         - title: Tagged News
-          url: /page-management/ma/tagged_news.html
+          url: /page-management/aop/tagged_news.html
         - title: Featured News
-          url: /page-management/ma/featured_news.html
+          url: /page-management/aop/featured_news.html
         - title: Remove articles from Featured News
-          url: /page-management/ma/remove_articles.html
+          url: /page-management/aop/remove_articles.html
 
 - title: CORE Community
   id: core-community
@@ -163,26 +163,26 @@
     - title: My Organization
       id: mo
       sections:
-        - title: Navigating My Organization
-          url: /core-community/mo/navigating_my_organization.html
-        - title: Edit profile
-          url: /core-community/mo/edit_profile.html
         - title: Change organization
           url: /core-community/mo/change_organization.html
-        - title: Join an organization
-          url: /core-community/mo/join_organization.html
         - title: Change user roles
           url: /core-community/mo/change_user_roles.html
-        - title: Remove user from your organization
-          url: /core-community/mo/remove_user_from_organization.html
+        - title: Deactivate or delete your organization
+          url: /core-community/mo/deactivate_or_delete_organization.html
         - title: Edit organization settings
           url: /core-community/mo/edit_organization_settings.html
+        - title: Edit profile
+          url: /core-community/mo/edit_profile.html
+        - title: Join an organization
+          url: /core-community/mo/join_organization.html
+        - title: Navigating My Organization
+          url: /core-community/mo/navigating_my_organization.html
+        - title: Remove user from your organization
+          url: /core-community/mo/remove_user_from_organization.html
         - title: Upload organization logo
           url: /core-community/mo/upload_organization_logo.html
         - title: Connect your organization to Google Analytics
-          url: /core-community/mo/remove_user_from_organization.html
-        - title: Deactivate or delete your organization
-          url: /core-community/mo/deactivate_or_delete_organization.html
+          url: /core-community/mo/connect_your_organization_to_google_analytics.html
     - title: Connecting
       id: c
       sections:
