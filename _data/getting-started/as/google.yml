@@ -43,4 +43,4 @@
             para4: <hr>
           - sectiontitle: 
             paratitle: How do I set up a Google Analytics account to track my entire organization?
-            para1: If your Google Analytics account was set-up to track content from your entire organization, please contact your administrator to ensure the tracking ID is added to your organization information on My Organization page. This will ensure your content is associated with the appropriate organization, even if you move to a new team. Learn how to <a class="underline-link" href="#">connect your organization to Google Analytics.</a>
+            para1: If your Google Analytics account was set-up to track content from your entire organization, please contact your administrator to ensure the tracking ID is added to your organization information on My Organization page. This will ensure your content is associated with the appropriate organization, even if you move to a new team. Learn how to <a class="underline-link" href="../../core-community/mo/connect_your_organization_to_google_analytics.html">connect your organization to Google Analytics.</a>
