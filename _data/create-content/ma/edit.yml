@@ -23,7 +23,7 @@
       - subtitle: Edit an article
         sections:
           - sectiontitle: 
-            para1: You can return to a draft or published article at any time during the article creation and editing process. All articles are managed in your Inbox, filtered by the article status: Draft, Released or Deleted.
+            para1: You can return to a draft or published article at any time during the article creation and editing process. All articles are managed in your Inbox, filtered by the article status - Draft, Released or Deleted.
           - sectiontitle: Editing privileges        
             para1: Only the person that created an article can access and edit it when it is in a draft state. Once the draft is submitted, it is available to editors within your organization. The following outlines the editing access, based on user roles within an organization -
             lexicon:
