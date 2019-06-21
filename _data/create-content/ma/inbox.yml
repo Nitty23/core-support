@@ -31,7 +31,7 @@
               - title: Pending Review
                 definition: Draft that has been submitted for review by a contributor. It can be edited and released by any supervisor within the organization. Submitted articles are displayed in both the owner and editor’s Drafts folder with a “Pending Review” label.
               - title: Released
-                definition: Finished article that is publicly visible on www.army.mil. It is also searchable from the All Content page, making it available for other CORE user to post it on their organization page or share it via their social media platforms
+                definition: Finished article that is publicly visible on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. It is also searchable from the All Content page, making it available for other CORE user to post it on their organization page or share it via their social media platforms
               - title: Scheduled
                 definition: Finished article that is set to automatically release at a future date and time. Scheduled articles are displayed in both the owner and editor’s Released folder with a “Scheduled” label. 
               - title: Deleted
@@ -41,32 +41,33 @@
             para2: The following is an overview of all icons and their corresponding action, broken down by Inbox folders
             para3: <strong>Draft Actions</strong>
             lexicon:
-              - title: Edit
+              - title: <a class="underline-link" href="./edit_article.html">Edit</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">
                 definition: Opens article page to make changes. This action is also available in the Released folder.
-              - title: Submit
+              - title: <a class="underline-link" href="./submit_article.html">Submit</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/submit_article.svg">
                 definition: Sends a draft to the organization’s Editor Inbox.This action is only available to contributors, since they do not have authority to release their own content.
-              - title: Release
+              - title: <a class="underline-link" href="#">Release</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg">
                 definition: Publishes the article to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, making it publicly accessible from its own dedicated URL - https://www.army.mil/<em>article-id</em>
-              - title: Reject
+              - title: <a class="underline-link" href="./release_article.html">Reject</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg">
                 definition: Removes a submitted article from an Editor’s Inbox and sends it back to the contributor’s Drafts folder. This action indicates that the article needs more work before it is ready to be released.
-              - title: Delete
+              - title: <a class="underline-link" href="./delete_article.html">Delete</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">
                 definition: Moves an article to the creator’s Deleted folder. This action indicates the article will not be publicly released and it should be archived. This action is also available in the Released folder.
               para4: <hr>
             - sectiontitle:
               para1: <strong>Released Actions</strong>
               lexicon:
-                - title: Edit
+                - title: <a class="underline-link" href="./edit_article.html">Edit</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">
                   definition: Opens article page to make changes. This action is also available in the Drafts folder.
-                - title: Retract
+                - title: <a class="underline-link" href="./retract_article.html">Retract</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg">
                   definition: Unpublishes an article from www.army.mil. It is reverted to a draft and is moved to the creator’s Drafts folder.
-                - title: Delete
+                - title: <a class="underline-link" href="/delete_article.html">Delete</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">
                   definition: Moves an article to the creator’s Deleted folder. This action indicates that the article will not be publicly released and it should be archived. This action is also available in the Drafts folder.
               para2: <hr>
             - sectiontitle:
               para1: <strong>Deleted Actions</strong>
               lexicon:
-                - title: Restore
+                - title: <a class="underline-link" href="/restore_article.html">Restore</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/restore_article.svg">
                   definition: Reverts a previously deleted article to a draft.
-                - title: Archive
+                - title: Archive <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/archive_article.svg">
                   definition: Completely removes an article from your Inbox. Only the person who created the article can permanently archive it.
+            - sectiontitle:
               note: All Inbox actions are also available from the main action bar at the top of an article page. The Inbox simply acts as a shortcut if you know what you want to do to an article without needing to review it.
