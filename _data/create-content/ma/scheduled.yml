@@ -32,7 +32,7 @@
                 two: Use the left and right arrows to change calendar month.
                 three: Click on the future date you want your article to publish. A yellow circle will appear around your selected release date.
                 four: Adjust the time you want your article to publish. Military time will automatically convert to standard time.
-                five: Click Schedule for <strong>Release</strong> to close the calendar.
+                five: Click <strong>Schedule for Release</strong> to close the calendar.
             para1:  Any changes made to the article before the release date and time will be published. Scheduling is not cancelled or modified because of edits.Your article status is now Scheduled for Release, and the future release date is displayed in the overview section of your article page. If you need to access the article prior to the release date, it will be available at the top of the <strong>Released</strong> folder of your <strong>Inbox</strong>, labelled as Scheduled.
             para2: On its release date, your article will automatically publish, making it available for anyone to read on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. The article will still be available from the Released folder of your Inbox, but the Scheduled label will be removed.
             tip: All release times are based on your local timezone. If you would like to schedule an article to release at a certain time in a different timezone, then you will need to calculate the difference before entering it into CORE. 
@@ -43,7 +43,7 @@
                 two: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open your article page.
                 three: In Edit mode, click the current schedule date located in the overview section of your Article Settings sidebar.
                 four: Select a new date and time from the calendar.
-                five: Click the Schedule for Release button to close the calendar.
+                five: Click the <strong>Schedule for Release</strong> button to close the calendar.
             para1: Your new scheduled release date is now displayed on your overview section.
           - sectiontitle: Cancel a scheduled release 
             numlist:
