@@ -58,3 +58,5 @@
           - sectiontitle:
             paratitle: What is the difference between reject, retract and delete in my Inbox?
             para1: <strong>Reject</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> will send a submitted draft from the Editor’s Inbox back to the creator’s Drafts. The editor can provide feedback, and the article can be edited and submitted for review again. The intention of a rejected article is to release it after changes have been applied.
+            para2: <strong>Retract</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
+            para3: <strong>Delete</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete_article.svg"> will move a draft or released article to the creator’s Deleted folder. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
