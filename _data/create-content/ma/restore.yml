@@ -23,7 +23,7 @@
       - subtitle: Restore a deleted article
         sections:
           - sectiontitle: 
-            para1: You can restore an article that was deleted in the last 60 days. A restored article will revert to a drat, allowing you to review the content before submitting it for review or releasing it. 
+            para1: You can restore an article that was deleted in the last 60 days. A restored article will revert to a draft, allowing you to review the content before submitting it for review or releasing it. 
           - sectiontitle:            
             numlist:
               - listname: To restore a deleted article
