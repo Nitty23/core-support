@@ -18,12 +18,47 @@
 # 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
-  - title: Manage New Articles
+  - title: Manage Articles
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Schedule a release
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: You can schedule an article to release in the future. This is useful if you want to publish an article at a specific time, but won’t be available to publish it manually.
+            note: This action is not available to contributors since they do not have release authority. 
+          - sectiontitle: Schedule an article 
+            numlist:
+              - listname: To set an article to release at a particular date and time
+                one: From your article page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> button located in the top-right corner of the action bar. A calendar module will appear with today’s date highlighted with a yellow outline.
+                two: Use the left and right arrows to change calendar month.
+                three: Click on the future date you want your article to publish. A yellow circle will appear around your selected release date.
+                four: Adjust the time you want your article to publish. Military time will automatically convert to standard time.
+                five: Click Schedule for <strong>Release</strong> to close the calendar.
+            para1:  Any changes made to the article before the release date and time will be published. Scheduling is not cancelled or modified because of edits.Your article status is now Scheduled for Release, and the future release date is displayed in the overview section of your article page. If you need to access the article prior to the release date, it will be available at the top of the <strong>Released</strong> folder of your <strong>Inbox</strong>, labelled as Scheduled.
+            para2: On its release date, your article will automatically publish, making it available for anyone to read on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. The article will still be available from the Released folder of your Inbox, but the Scheduled label will be removed.
+            tip: All release times are based on your local timezone. If you would like to schedule an article to release at a certain time in a different timezone, then you will need to calculate the difference before entering it into CORE. 
+          - sectiontitle: Change a scheduled date 
+            numlist:
+              - listname: To change the date and/or time for a scheduled article
+                one: From your <strong>Inbox</strong>, navigate to the <strong>Released</strong> folder. Your scheduled article will have a yellow SCHEDULED label displayed above the title.
+                two: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open your article page.
+                three: In Edit mode, click the current schedule date located in the overview section of your Article Settings sidebar.
+                four: Select a new date and time from the calendar.
+                five: Click the Schedule for Release button to close the calendar.
+            para1: Your new scheduled release date is now displayed on your overview section.
+          - sectiontitle: Cancel a scheduled release 
+            numlist:
+              - listname: To cancel a scheduled release
+                one: From your article page, click the current schedule date located in the overview section of your Article Settings sidebar.
+                two: Click <strong>Cancel Scheduling</strong> at the top of the calendar.
+            para1: Your article status is reverted to a draft, and the future release date is removed from the overview section of your article page.
+          - sectiontitle: Backdating
+            numlist:
+              - listname: You can also use the scheduling calendar if you want to backdate an article prior to releasing it. To backdate an article
+                one: From your article page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> button.
+                two: Select a previous date and time from the calendar. The Schedule for Release button will change to Backdate & Release.
+                three: Click the <strong>Backdate & Release</strong> button to close the calendar.
+            para1: Your article will immediately release, making it available for anyone to read on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. In the overview section of your article page, you’ll notice that the release date is now backdated to the day and time that you selected. The live article will also display this previous release date.
+            para2: <hr>
+          - sectiontitle:
+            paratitle: Can I change a release date after it is released?
+            para1: Yes. You can change the release date of an article before or after it’s published. For help changing a release date, visit <a class="underline-link" href="./change_release.html">Change the release date</a>.
