@@ -18,9 +18,9 @@
 # 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
 # 0) Code Assumption - Only one Note and only one Learn per section.
 
-  - title: Manage New Articles
+  - title: Manage Articles
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Review an article
         sections:
           - sectiontitle: First test section Starts Here
             para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
