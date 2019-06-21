@@ -39,7 +39,7 @@
           - sectiontitle: Managing your articles
             para1: You can manage your articles directly from your Inbox, simply by clicking the action icons located on the far right side of each title. Depending on your role within an organization, you will have different actions available. 
             para2: The following is an overview of all icons and their corresponding action, broken down by Inbox folders
-            paratitle: Draft Actions
+            para3: <strong>Draft Actions</strong>
             lexicon:
               - title: Edit
                 definition: Opens article page to make changes. This action is also available in the Released folder.
@@ -51,18 +51,19 @@
                 definition: Removes a submitted article from an Editor’s Inbox and sends it back to the contributor’s Drafts folder. This action indicates that the article needs more work before it is ready to be released.
               - title: Delete
                 definition: Moves an article to the creator’s Deleted folder. This action indicates the article will not be publicly released and it should be archived. This action is also available in the Released folder.
-              para3: <hr>
+              para4: <hr>
             - sectiontitle:
-              paratitle: Released Actions
-              - title: Edit
-                definition: Opens article page to make changes. This action is also available in the Drafts folder.
-              - title: Retract
-                definition: Unpublishes an article from www.army.mil. It is reverted to a draft and is moved to the creator’s Drafts folder.
-              - title: Delete
-                definition: Moves an article to the creator’s Deleted folder. This action indicates that the article will not be publicly released and it should be archived. This action is also available in the Drafts folder.
-              para1: <hr>
+              para1: <strong>Released Actions</strong>
+              lexicon:
+                - title: Edit
+                  definition: Opens article page to make changes. This action is also available in the Drafts folder.
+                - title: Retract
+                  definition: Unpublishes an article from www.army.mil. It is reverted to a draft and is moved to the creator’s Drafts folder.
+                - title: Delete
+                  definition: Moves an article to the creator’s Deleted folder. This action indicates that the article will not be publicly released and it should be archived. This action is also available in the Drafts folder.
+              para2: <hr>
             - sectiontitle:
-              paratitle: Deleted Actions
+              para1: <strong>Deleted Actions</strong>
               lexicon:
                 - title: Restore
                   definition: Reverts a previously deleted article to a draft.
