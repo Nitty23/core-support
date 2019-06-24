@@ -37,7 +37,7 @@
                 five: Email addresses
                 six: Short bio description
                 seven: Social media accounts
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_profile_settings.png">
           - sectiontitle: 
             itemlist:
               - listname: The following content is not considered profile information and will not be deleted as part of a request to deactivate or delete an account
