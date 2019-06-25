@@ -45,12 +45,12 @@
             para1: Removing a hyperlink from your article body does not permanently delete the document from the previous uploads that are connected to your article.
             numlist:
               - listname: To permanently delete a document from your previous uploads
-                one: Click the  icon in the WYSIWYG Toolbar to open the lightbox editor. 
-                two: Click Show Previous Uploads.
-                three: Click the  icon for the document that you want to delete from the list of existing files.
-                four: Click the  icon on your document thumbnail.
-                five: Click the (trashcan icon) in the bottom right corner of the Edit Document lightbox.
-                six: Click Delete from the confirmation dialog box.
+                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg"> icon in the WYSIWYG Toolbar to open the lightbox editor. 
+                two: Click <strong>Show Previous Uploads</strong>.
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> icon for the document that you want to delete from the list of existing files.
+                four: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail.
+                five: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> in the bottom right corner of the Edit Document lightbox.
+                six: Click <strong>Delete</strong> from the confirmation dialog box.
             para2: <hr>
           - sectiontitle:
             paratitle: I have a new version of my document. Can I replace the existing document?
