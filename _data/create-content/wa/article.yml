@@ -1,22 +1,4 @@
-# Layout in Levels:
-# 
-# topic\                     (ie CORE Basics)
-#       article\             (ie What is CORE?)
-#                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
-# ******************************************************************************************
-# Rules & Assumptions- 
-#
-# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
-# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
-# 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
-# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
-# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
-# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
-# 0) Code Assumption - Only one Note and only one Learn per section.
+# Any Comments:
 
   - title: Creating Content
     articles:
@@ -36,13 +18,13 @@
               - title: Article Status
                 definition: Refers to the release state on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> (Draft, Pending Review, Scheduled for Release, Released, Rejected, or Deleted)
               - title: Release Date
-                definition: Date and time that the article was released. To edit, visit <a class="underline-link" href="#">Change the release date</a>.
+                definition: Date and time that the article was released. To edit, visit <a class="underline-link" href="../../creating-content/ma/change_release.html">Change the release date</a>.
               - title: Revisions
                 definition: Provides an at-a-glance summary of the history log, showing the number of actions that have been made to the article
               - title: Last Update
                 definition: Date and time of the last action
               - title: Pageviews
-                definition: Displays the total number of pageviews that your article has received since it was released. To learn more, visit <a class="underline-link" href="#">Viewing Article Page Traffic</a>.
+                definition: Displays the total number of pageviews that your article has received since it was released. To learn more, visit <a class="underline-link" href="../../creating-content/ma/page_traffic.html">Viewing article page traffic</a>.
             para2: <hr>
           - sectiontitle: Army Themes & Tags
             lexicon:                
@@ -59,11 +41,11 @@
               - title: SEO Description
                 definition: Also called a meta description, this text appears below your article title and link in search engine results and in social shares. The first 155 characters of your article body will automatically populate this field.
             para2: Your title will automatically populate the <strong>Short Title</strong> field in the <strong>Customize SEO Metadata</strong> section in the right sidebar (up of 60 characters). This will appear in browser address bars, search engine results, and social shares. 
-            tip: Visitors read these titles and descriptions to decide if they want to click on your article in search results and on social media. To make your article inviting, we recommend that you make your metadata short, readable and informative. Incorporate relevant keywords to improve your SEO, but avoid cramming your descriptions with keywords in a way that doesn't form cohesive sentences. To learn more, visit <a class="underline-link" href="#">Search Engine Optimization</a>.
+            tip: Visitors read these titles and descriptions to decide if they want to click on your article in search results and on social media. To make your article inviting, we recommend that you make your metadata short, readable and informative. Incorporate relevant keywords to improve your SEO, but avoid cramming your descriptions with keywords in a way that doesn't form cohesive sentences. To learn more, visit <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">Search Engine Optimization</a>.
             para3: <hr>
           - sectiontitle: Advanced Options
             lexicon:                
               - title: History Log
                 definition: The history log shows recent changes made to your article, including content and status updates. This allows you to track user activity throughout the content approval process.
               - title: Google Analytics Tracking ID
-                definition: Add a Google Analytics tracking ID to dive deeper into Page metrics. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account. To learn more, visit <a class="underline-link" href="#">Connect your Page to Google Analytics</a>.
+                definition: Add a Google Analytics tracking ID to dive deeper into Page metrics. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account. To learn more, visit <a class="underline-link" href="../../page-management/ps/connect_page_to_google_analytics.html">Connect your Page to Google Analytics</a>.

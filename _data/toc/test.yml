@@ -1,22 +1,5 @@
 # Layout in Levels:
-# 
-# topic\                     (ie CORE Basics)
-#       article\             (ie What is CORE?)
-#                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
-# ******************************************************************************************
-# Rules & Assumptions- 
-#
-# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
-# 3) Keys can not have the same name inside a Level...An example to use is 'definition' followed by 'para2'
-# 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
-# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
-# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
-# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
-# 0) Code Assumption - Only one Note and only one Learn per section.
+
 
   - title: CORE Basics
     articles:

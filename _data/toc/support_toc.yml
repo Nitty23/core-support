@@ -1,3 +1,5 @@
+# Any Comments:
+
 - title: Getting Started
   id: getting-started
   articles:
@@ -48,7 +50,7 @@
           url: /creating-content/wa/videos.html
         - title: Documents
           url: /creating-content/wa/documents.html
-        - title: Article Settings
+        - title: Article settings
           url: /creating-content/wa/article_settings.html
         - title: Tags
           url: /creating-content/wa/tags.html

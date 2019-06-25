@@ -1,22 +1,4 @@
-# Layout in Levels:
-# 
-# topic\                     (ie CORE Basics)
-#       article\             (ie What is CORE?)
-#                section\      (ie Who is eligible for a CORE Account?)
-#                        part\  (ie titles, paragraphs, images, notes, learns, itemlists, numlists)
-# ******************************************************************************************
-# Rules & Assumptions- 
-#
-# 1) (The basic syntax for yml data) Key : Value pairings and Levels.
-# 2) Levels are distinguished by the indentation of that column and use of the dash '-'.
-# 3) Keys can not have the same name inside a Level...An example to use is 'para1' followed by 'para2'
-# 4) Do not use tabs, use two spaces when declaring a new level.
-# 5) Write external links as <a class="underline-link" href="http://www.google.com">Google</a> and internal as <a class="underline-link" href="/topics/#as">Account Settings</a>
-# 6) Surround bold content in parts as such - <strong> your bold content </strong> as needed.
-# 7) DO NOT USE ':' in any text or titles of keys or values except in link urls
-# 8) Code Assumption - Titles are always ordered first, with content following in sections, and only one title per level.
-# 9) Code Assumption - Article titles always get followed by a "updated-last" statement.
-# 0) Code Assumption - Only one Note and only one Learn per section.
+# Any Comments:
 
   - title: Creating Content
     articles:
@@ -50,14 +32,14 @@
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
-                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.png">
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
             note: Check out Formatting Text to learn more about all the formatting features.
           - sectiontitle: Step 5 - Add Media
             para1: From the WYSIWYG editor, you can also upload images and documents, or embed a video from YouTube. These media elements can be inserted anywhere within your article body.
             numlist:  
               - listname: To add an image, document or video
                 one: Go to a new line in your article body and position your cursor where you want to insert your media element.
-                two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/image_icon.svg">, <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/document_icon.svg">, or <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/video_icon.svg"> in the WYSIWYG Toolbar.
+                two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/image_icon.svg">, <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg">, or <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/video.svg"> in the WYSIWYG Toolbar.
                 list: 
                   listname: A lightbox editor will appear, depending on the type of media that you selected to insert
                   one: For <strong>Images</strong> or <strong>Documents</strong>, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> <strong>Drag & Drop</strong> placeholder box.
