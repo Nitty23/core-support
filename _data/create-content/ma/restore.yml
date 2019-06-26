@@ -6,11 +6,12 @@
         sections:
           - sectiontitle: 
             para1: You can restore an article that was deleted in the last 60 days. A restored article will revert to a draft, allowing you to review the content before submitting it for review or releasing it. 
-          - sectiontitle:            
+            note: Only the person who created an article has access to restore or archive it in their Deleted folder. Keep in mind, administrators can delete a team member’s article, but they will no longer be able to access it.
+          - sectiontitle: Restore a deleted article           
             numlist:
               - listname: To restore a deleted article
                 one: Click <strong>Inbox</strong> from the main menu.
                 two: Click on the <strong>Deleted</strong> tab, and locate the article that you want to restore.
                 three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/restore_article.svg"> icon located at the far right side.
-            para1: Your restored article will revert as a draft. To make edits or republish the article, simply click on the <strong>Drafts</strong> folder and locate the article title at the top of the list.
-            note: You can also click on the article title from the Deleted list to open the article page. Click <strong>Restore</strong> at the top-right corner of the main action bar. The article status is reverted to draft, and you can make changes to the article.
+            para1: To access the restored article, simply click on the <strong>Drafts</strong> tab and locate the article title at the top of the list.
+            note: You can also restore a deleted article directly from the article page, simply by clicking <strong>Restore</strong> at the top right corner of the action bar. The article status reverts to Draft, and you are able to edit, submit or release the article again.
