@@ -29,7 +29,7 @@
                 one: The article status is changed to Pending Review in the overview section.
                 two: The article is added to the <strong>Drafts & Submissions</strong> folder of your supervising editors’ Inboxes.
                 three: A notification is sent to all editors in your organization to notify them of the pending request.
-                four: A yellow label is displayed next to the article in your Inbox, as well as your Editor’s Inbox.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.png">
+                four: A yellow label is displayed next to the article in your Inbox, as well as your Editor’s Inbox.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.png">
                 five: You and you editors will be able to edit and save changes on your article. Prior to submitting, only the person that created an article can edit it.
           - sectiontitle:  
             paratitle: Why can’t I release content?
