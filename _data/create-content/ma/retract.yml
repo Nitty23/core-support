@@ -6,7 +6,7 @@
         sections:
           - sectiontitle: 
             para1: You can retract a released article to unpublish it from <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. The article will revert to a draft and move to the Drafts folder of your Inbox.
-          - sectiontitle: Retract Privilieges       
+          - sectiontitle: Retracting Privilieges       
             para1: Some users have permission to retract articles that are created by other members within their organization. In this case, the article is removed from the Editor’s Inbox and moves to creator’s Drafts folder. The following outlines these permissions, based on user roles.
             lexicon:
               - title: Contributors
