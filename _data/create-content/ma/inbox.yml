@@ -11,11 +11,11 @@
               - title: Draft
                 definition: Unfinished article that has not been released yet. You are the only person that can view and edit your drafts.
               - title: Pending Review
-                definition: Draft that has been submitted for review by a contributor. It can be edited and released by any supervisor within the organization. Submitted articles are displayed in both the owner and editor’s Drafts folder with a “Pending Review” label.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.jpg">
+                definition: Draft that has been submitted for review by a contributor. It can be edited and released by any supervisor within the organization. Submitted articles are displayed in both the owner and editor’s Drafts folder with a “Pending Review” label.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.png">
               - title: Released
                 definition: Finished article that is publicly visible on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. It is also searchable from the All Content page, making it available for other CORE user to post it on their organization page or share it via their social media platforms
               - title: Scheduled
-                definition: Finished article that is set to automatically release at a future date and time. Scheduled articles are displayed in both the owner and editor’s Released folder with a “Scheduled” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_scheduled_label.jpg">
+                definition: Finished article that is set to automatically release at a future date and time. Scheduled articles are displayed in both the owner and editor’s Released folder with a “Scheduled” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_scheduled_label.png">
               - title: Rejected
                 definition: Draft that was not approved by a supervisor within the organization. You are the only person that can view or edit your rejected articles, allowing you to make changes and submit them for review again. Rejected articles are displayed in your Drafts folder with a “Rejected” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_scheduled_label.png">
               - title: Deleted
