@@ -17,7 +17,7 @@
               - title: Scheduled
                 definition: Finished article that is set to automatically release at a future date and time. Scheduled articles are displayed in both the owner and editor’s Released folder with a “Scheduled” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_scheduled_label.png">
               - title: Rejected
-                definition: Draft that was not approved by a supervisor within the organization. You are the only person that can view or edit your rejected articles, allowing you to make changes and submit them for review again. Rejected articles are displayed in your Drafts folder with a “Rejected” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_scheduled_label.png">
+                definition: Draft that was not approved by a supervisor within the organization. You are the only person that can view or edit your rejected articles, allowing you to make changes and submit them for review again. Rejected articles are displayed in your Drafts folder with a “Rejected” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_rejected_label.png">
               - title: Deleted
                 definition: Unfinished article that is no longer needed. As the creator, you are the only person that can view, restore or archive your deleted articles.
           - sectiontitle: Managing your articles
