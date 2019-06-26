@@ -9,7 +9,7 @@
           - sectiontitle: Retract Privilieges       
             para1: Some users have permission to retract articles that are created by other members within their organization. In this case, the article is removed from the Editor’s Inbox and moves to creator’s Drafts folder. The following outlines these permissions, based on user roles.
             lexicon:
-              - title: Contributors and Releasing Contributors
+              - title: Contributors
                 definition: Have access to retract their own released articles.
               - title: Editors, Publishers and Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization.
