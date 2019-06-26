@@ -28,14 +28,14 @@
                 col2: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> and select <strong>Reject Article</strong> from the dropdown options.
             tip: You can also <strong>release</strong> or <strong>reject</strong> a submitted article directly from the <strong>Drafts and Submissions</strong> tab of your Inbox. Simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located on the far right side of the pending article that you want to modify.
           - sectiontitle: What happens when you approve or reject a submitted article?
-            numlist: 
+            itemlist: 
               - listname: When you <strong>schedule</strong> or <strong>release</strong> an article
                 one: The article moves to the <strong>Released</strong> folder in your Inbox. It is still accessible to the creator and all organization supervisors for future updates, if needed.
                 two: The article status is changed from Pending Review to Released in the overview section of the article settings. The yellow “Pending Review” label is also removed from your Inbox.
                 three: A notification is sent to the creator to alert them of the newly released content, pending the user’s account settings.
                 four: The article is available on the <a class="underline-link" href="../../creating-content/rc/all_content.html">All Content</a> page, <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag Feeds</a> and search results, making it available for other CORE users to post on their organization page or share via their social media platforms.
           - sectiontitle:
-            numlist:
+            itemlist: 
               - listname: When you <strong>reject</strong> an article
                 one: The article is removed from your Inbox and moved to the creator’s <strong>Drafts</strong> folder, tagged with a yellow “Rejected” label.
                 two: The article status is changed from Pending Review to Rejected in the overview section of the article settings.
