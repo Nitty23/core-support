@@ -26,7 +26,7 @@
             numlist:
               - listname: OPTION 2 - From the Article Page
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
-                two: Select <strong>Delete</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown">
+                two: Select <strong>Delete</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, we recommend that you <a class="underline-link" href="./retract_article.html">retract</a> it, rather than delete it. This action will revert the article to a draft and it can be re-released at any time.
             para1: <hr>
