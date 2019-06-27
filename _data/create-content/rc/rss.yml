@@ -2,7 +2,7 @@
 
   - title: Released Content
     articles:
-      - subtitle: Rss feeds
+      - subtitle: RSS feeds
         sections:
           - sectiontitle: 
             para1: Really Simple Syndication, or RSS, is a type of web feed that contains your latest content. This allows visitors to receive your articles in their browser or RSS feed readers as soon as they are released, without having to manually visit your website to check for updates.
