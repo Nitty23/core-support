@@ -15,13 +15,13 @@
               - listname: OPTION 1 - From the Inbox
                 one: Click <strong>Inbox</strong> on the main menu.
                 two: Click on the <strong>Drafts</strong> or <strong>Released</strong> folder, and locate the article that you want to delete.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> icon located on the far right of the title.
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> icon located on the far right of the title. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_delete_article.png">
                 four: Click <strong>Delete</strong> from the confirmation dialog box.
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - From the Article Page
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
-                two: Select <strong>Delete</strong> from the dropdown menu.
+                two: Select <strong>Delete</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, retract it instead. This action will revert the article to a draft and it can be re-released at any time.
             para1: <hr>
