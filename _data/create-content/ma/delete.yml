@@ -6,32 +6,27 @@
         sections:
           - sectiontitle: 
             para1: When you delete an article, it is moved to the <strong>Deleted</strong> folder of your Inbox. This feature allows you to remove articles from your Inbox without accidently or permanently deleting them from CORE. Articles within your Deleted folder can be restored or archived within 60 days of the time the article was trashed.
-          - sectiontitle: Deleting privileges          
-            para1: Some users have permission to delete articles that are created by other members within their organization. In this case, the article is removed from the supervisor’s Inbox and moves to creator’s Deleted folder. The following outlines these permissions, based on user roles.
-            lexicon:
-              - title: Contributors, Editors and Publishers
-                definition: Have access to delete their own drafts and released articles.
-              - title: Administrators
-                definition: Have access to retract their own articles, as well as released articles from other members of their organization. 
-            note: Once an article is deleted, only the person who created an article can restore or archive it from their Deleted folder. If an authorized user deletes another user’s article, they can no longer access it.
+          - sectiontitle: Administrator privileges          
+            para1: Administrators have permission to delete released articles that are created by other members of their organization. This action removes the article from the Administrator’s Inbox and moves it to the creator’s Deleted folder.
+            note: Only the person who created an article can restore or archive it from their Deleted folder. If an authorized user deletes another user’s article, they can no longer access it.
           - sectiontitle: Moving an article to deleted folder
             para1: There are two ways to move an article to your Deleted folder.
             numlist:
               - listname: OPTION 1 - From the Inbox
                 one: Click <strong>Inbox</strong> on the main menu.
                 two: Click on the <strong>Drafts</strong> or <strong>Released</strong> folder, and locate the article that you want to delete.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> icon located on the far right of the title. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_delete_article.png">
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> icon located on the far right of the title.
                 four: Click <strong>Delete</strong> from the confirmation dialog box.
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - From the Article Page
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
-                two: Select <strong>Delete</strong> from the dropdown menu. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
+                two: Select <strong>Delete</strong> from the dropdown menu.
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
-            note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, we recommend that you <a class="underline-link" href="./retract_article.html">retract</a> it, rather than delete it. This action will revert the article to a draft and it can be re-released at any time.
+            note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, retract it instead. This action will revert the article to a draft and it can be re-released at any time.
             para1: <hr>
           - sectiontitle:
-            paratitle: My administrator deleted my article, but I want to edit it again. How do I restore my article?
+            paratitle: My administrator deleted my article, but I want to access it again. How do I restore my article?
             para1: For help restoring a deleted article, visit <a class="underline-link" href="./restore_deleted.html">Restore a deleted article</a>.
           - sectiontitle:
             paratitle: How do I permanently delete an article from CORE?
