@@ -11,7 +11,7 @@
             numlist:
               - listname: To access articles pending your review
                 one: Click <strong>Inbox</strong> on the main menu.
-                two: From your <strong>Drafts and Submissions</strong> tab, locate the article that you want to review. A yellow label is displayed above all articles that are pending your review.
+                two: From your <strong>Drafts and Submissions</strong> tab, locate the article that you want to review. A yellow label is displayed above all articles that are pending your review.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.jpg">
                 three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open the article page.
                 four: Make any necessary changes to the article.
                 five: Once you’re done reviewing, you have a few options
