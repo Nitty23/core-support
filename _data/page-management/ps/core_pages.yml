@@ -4,8 +4,40 @@
     articles:
       - subtitle: Content Coming Soon
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: CORE Pages offer organizations a great way to connect with their Army community on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. You can use this centralized space to promote news and information that are important to your digital audience.
+          - sectiontitle: Key features of CORE Pages    
+            itemlist:
+              - listname: 
+                one: Customizable navigation and page layout options
+                two: Hosted on Army.mil domain (URL format: www.army.mil/organization_name)
+                three: Branded, mobile-optimized template
+                four: Tied to your organization’s article submission and review process
+          - sectiontitle: CORE Page requirements
+            numlist:
+              - listname: In order to qualify for a CORE Page
+                one: Your organization must be a two-star level command and above.
+                two: Your Page must be updated at least once a month. This means your team must produce enough content to keep the page up-to-date.
+            learn: <strong>Want a CORE Page but you don’t meet the organizational requirements?</strong> Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Page Request">CORE Support Team</a> and provide a brief justification for why your unit/command/organization would like a CORE Page – geographically isolated from the rest of the command, losing your print publication, etc.
+          - sectiontitle: User functions
+            para1: Each Page is owned by a single organization, so CORE users must be an administrator or publisher of that organization to access the Page.
+            lexicon:
+              - title: Administrators
+                definition: Full access to manage the page and add other team members as Publishers to assist with page content management
+              - title: Publishers
+                definition: Customize all Page information and content, including the header, navigation tabs, sections, and metadata
+              - title: Editors
+                definition: Access to edit articles that appear on Page; No access to any Page management features
+            note: If a Page contains a News List section set to most recently released or tagged articles, then an editor can automatically populate your Page with articles, simply by releasing articles from their Inbox.
+          - sectiontitle: Creating and customizing your Page
+            para1: All publishers and administrators within a qualifying organization have access to create and/or modify their Page, simply by clicking on the <strong>Page</strong> main menu option. From here, you will either be prompted to <a class="underline-link" href="./create_page.html">create a new Page</a> or be directed to the edit your existing one. 
+            itemlist:
+              - listname: We drastically expanded a Publisher’s page management capabilities, so you no longer need to contact the CORE Support Team to request changes to your Page. You can now
+                one: Adjust page banner content (page title, subtitle, <a class="underline-link" href="./page_logo.html">logo</a>, and <a class="underline-link" href="./social_media.html">social media links</a>)
+                two: <a class="underline-link" href="page_settings.html">Update Page settings</a> (SEO metadata and Google Analytics)
+                three: <a class="underline-link" href="../../page-management/pl/page_navigation.html">Customize navigation tabs</a>
+                four: <a class="underline-link" href="../../page-management/pl/content_sections.html">Add content sections</a>
+                five: Edit, <a class="underline-link" href="../../page-management/pl/move_content_section.html">move</a> and <a class="underline-link" href="../../page-management/pl/delete_content_section.html">delete sections</a> to customize your page layout 
+          - sectiontitle: Deactivating your Page
+            para1: If your organization no longer wishes to feature a Page on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, then your Administrators have the ability to <a class="underline-link" href="./deactivate_pages.html">deactivate your Page</a>. Your page will be removed from www.army.mil/<em>page_name</em> within a few minutes, but all of your content will still be available in CORE. The Administrator can login to reactivate your Page at any time.
+            note: If your organization wants to permanently delete a Page and all of its associated content from CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a>.
