@@ -12,7 +12,7 @@
               - listname: You can access a feed directly from your organization’s page
                 one: Navigate to your page URL - www.army.mil/<em>pagetitle</em>
                 two: Click on the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/rss_square.svg">  icon that is located in your page banner.
-                three: Your browser will be directed to your organization’s RSS feed. As an example, here is the feed of the U.S. Army Homepage: <a class="underline-link" href="https://www.army.mil/rss/static/1.xml">https://www.army.mil/rss/static/1.xml</a>.
+                three: Your browser will be directed to your organization’s RSS feed. As an example, here is the feed of the U.S. Army Homepage - <a class="underline-link" href="https://www.army.mil/rss/static/1.xml">https://www.army.mil/rss/static/1.xml</a>.
           - sectiontitle: Subscribe to an RSS feed
             para1: One of the most common uses for RSS feeds is to allow visitors to subscribe to your content via feed readers. Most browsers and email clients can read feeds, but you can also use a feed reading service to aggregate multiple RSS into a single application. Simply copy and paste the URL into your RSS reader or news aggregator to subscribe.
             para2: <hr>
