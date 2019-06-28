@@ -2,10 +2,39 @@
 
   - title: Page Settings
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Display social media accounts
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: You can add your organization’s social media accounts to your Page’s header and footer. This allows your audience to connect with you via other digital platforms. 
+          - sectiontitle: Accepted Social Media Platforms
+            itemlist:
+              - listname: The following platforms are accepted in CORE when you add a new organizational social media account
+                one: Facebook
+                two: Twitter
+                three: Instagram
+                four: YouTube
+                five: LinkedIn
+                six: Flickr
+                seven: SmugMug
+                eight: Vimeo
+                nine: SoundCloud
+                ten: Ustream
+                eleven: Pinterest
+                tweleve: Slideshare
+                thirteen: Blogger
+                forteen: Periscope
+                fifteen: Issuu
+          - sectiontitle: Add a social media account
+            numlist: 
+              - listname: 
+                one: Click on <strong>Page</strong> from the main menu.
+                two: From your <strong>Edit Page</strong> screen, locate the <strong>Connect to Social Media</strong> section of your settings in the right sidebar.
+                three: Enter or copy/paste the link to your organization’s social media account in the <strong>Social Media</strong> section.
+                four: A corresponding platform icon appears next to all accepted social media platforms. Clicking on the icon will direct you to the link that will appear in your Page header. 
+                five: Once you have verified the link, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/right_arrow.svg"> or hit <strong>Enter</strong> on your keyboard.
+                six: You can drag and drop each account to reorder the corresponding icons in your header.
+          - sectiontitle: Add a social media account
+            numlist: 
+              - listname: Remove a social media account
+                one: Locate the <strong>Connect to Social Media</strong> section of your settings.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> next to the account you want to remove.
