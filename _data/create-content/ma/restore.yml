@@ -12,6 +12,6 @@
               - listname: To restore a deleted article
                 one: Click <strong>Inbox</strong> from the main menu.
                 two: Click on the <strong>Deleted</strong> tab, and locate the article that you want to restore.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/restore_article.svg"> icon located at the far right side.
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/restore_article.svg"> icon located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_restore_article.png">
             para1: To access the restored article, simply click on the <strong>Drafts</strong> tab and locate the article title at the top of the list.
             note: You can also restore a deleted article directly from the article page, simply by clicking <strong>Restore</strong> at the top right corner of the action bar. The article status reverts to Draft, and you are able to edit, submit or release the article again.
