@@ -1,0 +1,23 @@
+# Any Comments:
+
+  - title: Page Settings
+    articles:
+      - subtitle: Connect your Page to Google Analytics
+        sections:
+          - sectiontitle: 
+            para1: The Page Overview section provides basic performance details with the total pageviews. If your organization would like to dive deeper into metrics, then an administrator can connect your Page to a Google Analytics account. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account.
+          - sectiontitle: Connect your Page to Google Analytics
+            numlist:
+              - listname: 
+                one: To start, you’ll need to <a class="underline-link" href="https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/">sign up for a Google Analytics account</a>.
+                two: Once your account is set up, <a class="underline-link" href="https://support.google.com/analytics/answer/1032385?hl=en">locate your tracking ID</a>. It will look something like UA-00000000–2.
+                three: From the <strong>Advanced Settings</strong> section, click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"><strong>Add your organization’s tracking ID</strong>.
+                four: Copy and paste your Google Analytics tracking ID into the Edit Organization Settings lightbox.
+                five: Click <strong>Update</strong> to close the lightbox.
+            para1: This tracking ID is now added to the <strong>Advanced Settings</strong> section of your Page, and you can monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your organization’s Google Analytics account.
+            para2: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking setup immediately</a>.
+            note: In addition to tracking your CORE Page, this tracking ID will be added to every article created by your team members. You can track data on all products released in CORE, giving you a more comprehensive view of your organization’s digital footprint.
+            para3: <hr>
+          - sectiontitle: 
+            paratitle: How do I change my Google Analytics Tracking ID?
+            para1: Administrators can also change their organization’s Google Analytics tracking ID by <a class="underline-link" href="../../core-community/mo/edit_organization_settings.html">editing their organization settings</a> on My Organization.
