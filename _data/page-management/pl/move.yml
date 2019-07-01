@@ -2,10 +2,31 @@
 
   - title: Page Layout
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Move a content section
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: Once you have added multiple content sections to your Page, you can rearrange them to create a custom page layout.
+            note: A section can only be moved within the page content area where it was added. Sections cannot be moved between tabs or into a separate content area, such as the header and footer.
+          - sectiontitle: Using borders and placeholders
+            para1: To help you move sections around your Page, borders and placeholders will appear as you drag and drop.
+            itemlist:
+              - listname: 
+                one: <strong>Borders</strong> appear around the entire section when you hover over it. This helps you visualize the entire content area that will be moved.
+                two: <strong>Placeholders</strong> represent the section you are moving and show you where you can place a section. 
+          - sectiontitle: Move sections on your Page
+            numlist:
+              - listname: 
+                one: Hover over the section you want to move. Your cursor will turn into a crosshair.
+                two: Click and drag the section to move it around the page.
+                three: As you drag the section, use the placeholder to choose a new placement.
+                four: Release the section when it’s in the desired position.
+            para1: <hr>
+          - sectiontitle:
+            paratitle: Can I move sections to create columns on my Page?
+            para1: Currently, it is not possible to move content sections to create columns . All sections will stack vertically on top of each other. We plan to work on this capability in the future to expand your page layout customization options.
+          - sectiontitle:
+            paratitle: Can I move a content section from one navigation tab to another?
+            para1: It is not possible to move a content section from one navigation tab to another. If you want to move a section to a new tab, we recommend that you create a new section on the correct tab, and copy/paste content from the old section to the new one. Once all of the content is duplicated, you can <a class="underline-link" href="./delete_content_section.html">delete the old section</a>.
+          - sectiontitle:
+            paratitle: Can I move a section to my header or footer?
+            para1: It is not possible to move sections to your header or footer. They can only be moved within the main content area on the tab where they were added. To learn how to customize your header or footer, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
