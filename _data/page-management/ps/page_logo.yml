@@ -23,11 +23,13 @@
             numlist:
               - listname: OPTION 1 - Drag and Drop
                 one: Select your new image from your computer.
-                two: Drag and drop the file on top of the <strong>Upload Logo</strong> icon.
+                two: Drag and drop the file on top of the 
+<img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
           - sectiontitle:
             numlist:
               - listname: OPTION 2 - Browse Computer
-                one: Click on the  <strong>Upload Logo</strong> icon.
+                one: Click on the  
+<img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
                 two: Click <strong>Upload New Logo</strong> from the dropdown.
                 three: Browse and select a new image from your computer.
             para1: <strong>4</strong>When you’re done with making changes, click the Save/Publish button in the top-right corner of the action bar.
