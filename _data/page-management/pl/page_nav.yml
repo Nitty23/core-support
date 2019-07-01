@@ -29,11 +29,11 @@
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - Edit labels
-                one: Click the located on the far right.
+                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">  located on the far right.
                 two: Enter a new tab label.
-                three: Click Add to close the dialog box.
+                three: Click <strong>Add</strong> to close the dialog box.
           - sectiontitle: 
-            para1: <strong>3.</strong> When you’re ready, click Save to close the Navigation Management lightbox. You’ll see the change appear in your navigation menu.
+            para1: <strong>3.</strong> When you’re ready, click <strong>Save</strong> to close the Navigation Management lightbox. You’ll see the change appear in your navigation menu.
           - sectiontitle: Remove tab on navigation bar
             numlist:
               - listname: 
