@@ -2,10 +2,45 @@
 
   - title: Page Layout
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: About content sections
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: Sections are the foundation of your Page. They serve as the primary means of adding content, including text, articles, videos and more. You can arrange multiple sections on your page and drag and drop them to create a customized layout.
+          - sectiontitle: Type of content sections
+            itemlist:
+              - listname: The following sections are the basic units that makes up your Page’s content
+                one: <a class="underline-link" href="./news_list_section.html">News List</a> - Displays released articles in a grid layout
+                two: <a class="underline-link" href="./text_section.html">Text</a> - Adds text to your site, including heading, quotes, preformatted text, links and list
+                three: <a class="underline-link" href="./video_section.html">Video</a> - Adds an externally hosted video (YouTube)
+                four: <a class="underline-link" href="./leader_section.html">Leaders</a> - Adds a profile card to highlight each leader in your organization, including their name, position, official photo, and link to a document or URL 
+                five: <a class="underline-link" href="./accordion_section.html">Accordion</a> - Adds a list of topics, each with a collapsible content area
+            learn: <strong>What content sections would you like to see in CORE?</strong> We plan to implement more types of content sections in the future. Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Page Request">CORE Support Team</a> to let us know how we can help your organization.
+          - sectiontitle: Add a section to your Page
+            numlist: 
+              - listname: 
+                one: Click on <strong>Page</strong> from the main menu.
+                two: From your <strong>Edit Page</strong> screen, select the tab that you want to edit from the navigation bar. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add sections to a single page layout.)
+                three: Hover over the area where you want to add a section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear showing you where you are able to insert a new section.
+                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open the Section menu.
+                five: In the menu, select the type of section that you want to add.
+                six: A lightbox editor will open, allowing you to customize the section. To learn about the options available in each section, click on the section types listed above.
+                seven: Once you’ve finished editing your section, click <strong>Add</strong> to close the lightbox. The new section will appear on the Page with placeholder content. 
+            note: Once you’ve added multiple content sections to your Page, you can rearrange them to create a custom page layout. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a Content Section</a>.
+          - sectiontitle: Edit an existing section
+            numlist: 
+              - listname: 
+                one: From your <strong>Edit Page</strong> screen, hover over the content section that you want to update. A <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button will appear in the top-right corner of the section.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button to open the lightbox editor.
+                three: Edit the section title and customize additional options, depending on the type of section. You will see your changes immediately reflected on your Page. Click <strong>Cancel</strong> if you want to revert these changes.
+                four: You can also <a class="underline-link" href="./delete_content_section.html">delete a section</a> by clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
+                five: Once you’ve finished editing your section, click <strong>Save</strong> to close the lightbox.
+            para1: <hr>
+          - sectiontitle:
+            paratitle: Why can’t I add a section to my header or footer?
+            para1: It is not possible to add sections to your header or footer. Sections can only be added to the main content area of your Page. To learn how to customize these areas, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
+          - sectiontitle:
+            paratitle: How do I move sections?
+            para1: Sections can be moved within the content area of the navigation tab where they was added. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a content section</a>.
+          - sectiontitle:
+            paratitle: How will my sections look on a mobile device?
+            para1: To keep your Page legible and prevent visitors from having to pinch, zoom, and scroll to see your content, CORE's responsive design automatically stacks sections vertically on mobile devices. The order of your sections will depend on the structure of your page layout.
