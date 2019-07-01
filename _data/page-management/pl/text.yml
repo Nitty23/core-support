@@ -2,10 +2,32 @@
 
   - title: Page Layout
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Text section
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: The <strong>Text</strong> section is the primary means of adding text to your Page. You can use Text sections to add headings, links, lists, quotes and preformatted text.
+          - sectiontitle: Add a Text section     
+            numlist: 
+              - listname:
+                one: Click on <strong>Page</strong> from the main menu.
+                two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your text section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
+                five: Select <strong>Text</strong> in the menu.
+                six: In the <strong>Text</strong> lightbox editor, you can customize several options.
+            lexicon: 
+             - title: Section Title
+               definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+             - title: Add Text
+               definition: To add text, click Enter text here… and begin typing. Press Enter to create a new paragraph.
+             - title: Format Text
+               definition: Use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to reformat your text. To learn about the text toolbar and your formatting options, visit Formatting Text.
+            para1: <strong>7.</strong> Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
+          - sectiontitle: Tips for adding text
+            itemlist: 
+              - listname: When adding text to your site, follow these best practices
+                one: We recommend entering text directly in CORE to avoid formatting issues.
+                two: If you're pasting text from another source, paste it as plain text. This action removes formatting that can interfere with how your text displays. For preparing text outside of CORE, consider using a plain text editor such as Notepad for Windows or TextEdit for Mac. For more tips, visit <a class="underline-link" href="../../best-practices/ap/formatting_text_tips.html">Tips for formatting text</a>.
+                three: Use <a class="underline-link" href="../../best-practices/ap/keyboard_shortcuts.html">keyboard shortcuts</a> to quickly formatting text.
+          - sectiontitle: Sample
+            learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
