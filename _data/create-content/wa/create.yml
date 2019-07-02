@@ -40,7 +40,7 @@
               - listname: To add an image, document or video
                 one: Go to a new line in your article body and position your cursor where you want to insert your media element.
                 two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/image_icon.svg">, <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg">, or <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/video.svg"> in the WYSIWYG Toolbar.
-                list: 
+                sublist: 
                   listname: A lightbox editor will appear, depending on the type of media that you selected to insert
                   one: For <strong>Images</strong> or <strong>Documents</strong>, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> <strong>Drag & Drop</strong> placeholder box.
                   two: For <strong>Videos</strong>, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL.<img class="data-img" src="/e2/images/rv7/core-support/test/320x460_img_placeholder.png">

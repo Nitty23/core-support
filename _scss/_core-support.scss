@@ -199,6 +199,7 @@ h1, h2, h3, h4, h5 {
 
 .table-style{
     border-collapse: collapse;
+    margin-bottom: 1.25rem;
 }
 
 .icons-container{
@@ -340,20 +341,6 @@ h3:after, h4:after, h5:after {
     background: black;
     display: flex;
     height: 60px;
-}
-
-.mast-title-container{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.mast-title{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif !important;
-    color: white;
-    font-size: 2rem;
 }
 
 .mast-img{
@@ -669,8 +656,12 @@ a:hover.topic-box{
 .num-item{
     display: list-item; 
     list-style-type: decimal;
-    padding-left: .5em;
-    margin-left: 2em;
+    padding-left: .5rem;
+    margin-left: 2rem;
+}
+
+.subnumlist{
+    padding-left: 2.5rem;
 }
 
 .topic-text-learn{
@@ -812,17 +803,169 @@ a:hover.topic-box{
     margin: 0 0 !important;
 }
 
+.mast-title-container{
+    position: absolute;
+    top: 13.3125rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 51.875rem;
+    @include breakpoint(mobile) {
+        top: 45%;
+        width: 50rem;
+    }
+    @include breakpoint(nav) {
+        top: 42%;
+        width: 50rem;
+    }
+    @include breakpoint(tablet) {
+        top: 16.9375rem;
+        width: 50rem;
+    }
+    @include breakpoint(lg_tablet) {
+        top: 50%;
+        width: 50rem;
+    }
+    @include breakpoint(sm_desktop) {
+        top: 13.3125rem;
+        width: 50rem;
+    }
+    @include breakpoint(desktop) {
+        top: 30%;
+        width: 50rem;
+    }
+    @include breakpoint(large) {
+        top: 30%;
+        width: 50rem;
+    }
+    @include breakpoint(really_big) {
+        top: 34%;
+        width: 50rem;
+    }
+}
+
+.mast-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white;
+    font-size: 5.25rem;
+    @include breakpoint(mobile) {
+        font-size: 1.7rem;
+    }
+    @include breakpoint(nav) {
+        font-size: 3rem;
+    }
+    @include breakpoint(tablet) {
+        font-size: 4.75rem;
+    }
+    @include breakpoint(lg_tablet) {
+        font-size: 4.75rem;
+    }
+    @include breakpoint(sm_desktop) {
+        font-size: 4.25rem;
+    }
+    @include breakpoint(desktop) {
+        font-size: 4.25rem;
+    }
+    @include breakpoint(large) {
+        font-size: 4.25rem;
+    }
+    @include breakpoint(really_big) {
+        font-size: 4.25rem;
+    }
+}
+
 .mast-search-container{
     display: flex;
     justify-content: space-between;
     border-radius: 28px;
     background: white;
     color: lightgrey;
-    width: 600px;
+    width: 51.875rem;
+    height: 3.75rem;
     position: absolute;
-    bottom: 35%;
+    bottom: 13.3125em;
     left: 50%;
     transform: translate(-50%, -50%);
+    @include breakpoint(mobile) {
+        bottom: 18%;
+        width: 15rem;
+    }
+    @include breakpoint(nav) {
+        bottom: 18%;
+        width: 28rem;
+    }
+    @include breakpoint(tablet) {
+        bottom: 20%;
+        width: 39.375rem;
+    }
+    @include breakpoint(lg_tablet) {
+        bottom: 5rem;
+        width: 43rem;
+    }
+    @include breakpoint(sm_desktop) {
+        bottom: 20%;
+        width: 51.875rem;
+    }
+    @include breakpoint(desktop) {
+        bottom: 45%;
+        width: 51.875rem;
+    }
+    @include breakpoint(large) {
+        bottom: 38%;
+        width: 51.875rem;
+    }
+    @include breakpoint(really_big) {
+        bottom: 26%;
+        width: 51.875rem;
+    }
+}
+
+.full_width_image {
+    background-color: #fff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 0 0 23%;
+
+    &#profile_image {
+      // default image
+      background-image: url(nth($mastheads, 5));
+      @each $img in $mastheads {
+        $i: index($mastheads, $img);
+        @include masthead($i) {
+          background-image: url($img);
+        }
+      }
+    }
+    @include breakpoint(mobile) {
+        padding: 0 0 117%;
+    }
+    @include breakpoint(nav) {
+        padding: 0 0 74%;
+    }
+    @include breakpoint(tablet) {
+        padding: 0 0 73%;
+    }
+    @include breakpoint(lg_tablet) {
+        padding: 0 0 57%;
+    }
+    @include breakpoint(sm_desktop) {
+        padding: 0 0 47%;
+    }
+    @include breakpoint(desktop) {
+        padding: 0 0 57%;
+    }
+    @include breakpoint(large) {
+        padding: 0 0 47%;
+    }
+    @include breakpoint(really_big) {
+        padding: 0 0 23%;
+    }
 }
 
 .mast-search-input{
@@ -835,7 +978,9 @@ a:hover.topic-box{
 .mast-search-icon{
     color: #fec325;
     font-size: 126%;
-    margin: 12px 20px;
+    top: 30%;
+    right: 5%;
+    position: relative;
 }
 
 .search-mast{
@@ -984,14 +1129,6 @@ a:hover.topic-box{
         width: 300px;
     }
 
-    .mast-title-container{
-        top: 30%;
-    }
-
-    .mast-search-container{
-        bottom: 30%;
-    }
-
     .find-mobile{
         margin: 2.1875rem 0 2.1875rem 0;
         overflow: visible;
@@ -1108,16 +1245,6 @@ a:hover.topic-box{
     @keyframes slide {
         from {padding-top: 9% }
         to {padding-top: 21% }
-    }
-
-    .mast-title-container{
-        top: 45%;
-        width: 300px;
-    }
-
-    .mast-search-container{
-        bottom: 10%;
-        width: 300px;
     }
 
 }

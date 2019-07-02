@@ -31,7 +31,7 @@
             numlist:
               - listname: <strong>OPTION 1 - From your Account Settings</strong>
                 one: Click on your avatar in the top-right corner of the page and click <strong>Profile & Settings</strong> from the dropdown.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
-                list:
+                sublist:
                   listname: From your profile page, you can
                   one: Change your display name and contact information
                   two: Enter a short description about yourself (up to 350 characters)
