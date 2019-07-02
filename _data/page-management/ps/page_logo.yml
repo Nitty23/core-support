@@ -23,16 +23,14 @@
             numlist:
               - listname: OPTION 1 - Drag and Drop
                 one: Select your new image from your computer.
-                two: Drag and drop the file on top of the 
-<img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
+                two: Drag and drop the file on top of the <img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
           - sectiontitle:
             numlist:
               - listname: OPTION 2 - Browse Computer
-                one: Click on the  
-<img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
+                one: Click on the <img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
                 two: Click <strong>Upload New Logo</strong> from the dropdown.
                 three: Browse and select a new image from your computer.
-            para1: 4. When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
+            para1: 4 When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
           - sectiontitle: Change an existing logo
             numlist: 
               - listname: 
@@ -41,16 +39,16 @@
                 three: There are two options for uploading a file
           - sectiontitle:
             numlist:
-              - listname: OPTION 1 - Drag and Drop
+              - listname: <strong>OPTION 1 - Drag and Drop</strong>
                 one: Select your new image from your computer.
                 two: Drag and drop the file on top of your existing logo.
           - sectiontitle:
             numlist:
-              - listname: OPTION 2 - Browse Computer
+              - listname: <strong>OPTION 2 - Browse Computer</strong>
                 one: Click on the  <strong>Upload Logo</strong> icon.
                 two: Click <strong>Change Logo</strong> from the dropdown.
                 three: Browse and select a new image from your computer.
-            para1:4. When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
+            para1:4 When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
           - sectiontitle: Remove logo
             numlist:
               - listname: 
