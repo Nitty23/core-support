@@ -7,13 +7,16 @@
           - sectiontitle: 
             para1: For an article to be added to your Page, members from your organization must first <a class="underline-link" href="../../creating-content/wa/create_article.html">write the article</a>, submit it for review, and release it. To learn more about the content creation and approval process, visit <a class="underline-link" href="/creating-content/ma/inbox_101.html">Inbox 101</a>.
             para2: Once an article is released, it can be displayed on your Page in a <strong>News List</strong> section. 
-          - sectiontitle: Types of News Lists          
-            itemlist: 
-              - listname: There are three types of news lists available in CORE
-                one: <strong>Latest News</strong> - Displays the most recently published articles from your organization.
-                two: <strong>Tagged News</strong> - Displays the most recently published articles tagged with a specific keyword.
-                three: <strong>Featured News</strong> - Displays specific articles chosen by the Page publisher. 
-            para1: There are a few things to keep in mind when deciding on what type of news list you want to feature on your Page. 
+          - sectiontitle: Types of News Lists
+            para1: There are three types of news lists available in CORE.
+            lexicon: 
+              - title: Latest News
+                definition: Displays the most recently published articles from your organization.
+              - title: Tagged News
+                definition: Displays the most recently published articles tagged with a specific keyword.
+              - title: Featured News
+                definition: Displays specific articles chosen by the Page publisher. 
+            para2: There are a few things to keep in mind when deciding on what type of news list you want to feature on your Page. 
           - sectiontitle:          
             itemlist: 
               - listname: For <strong>Latest News</strong> or <strong>Tagged News</strong> lists
