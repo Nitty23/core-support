@@ -19,9 +19,9 @@
              - title: Section Title
                definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
              - title: Add Text
-               definition: To add text, click Enter text here… and begin typing. Press Enter to create a new paragraph.
+               definition: To add text, click <strong>Enter text here…</strong> and begin typing. Press <strong>Enter</strong> to create a new paragraph.
              - title: Format Text
-               definition: Use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to reformat your text. To learn about the text toolbar and your formatting options, visit Formatting Text.
+               definition: Use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to reformat your text. To learn about the text toolbar and your formatting options, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting Text</a>.
             para1: <strong>7.</strong> Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
           - sectiontitle: Tips for adding text
             itemlist: 
