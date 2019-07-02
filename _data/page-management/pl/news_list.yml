@@ -5,7 +5,7 @@
       - subtitle: News List section
         sections:
           - sectiontitle: 
-            para1: For an article to be added to your Page, members from your organization must first <a class="underline-link" href="../../creating-content/wa/create_article.html">write the article</a>, submit it for review, and release it. To learn more about the content creation and approval process, visit <a class="underline-link" href="/creating-content/ma/inbox_101.html">Inbox 101</a>.
+            para1: For an article to be added to your Page, members from your organization must first <a class="underline-link" href="../../creating-content/wa/create_article.html">write the article</a>, submit it for review, and release it. To learn more about the content creation and approval process, visit <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox 101</a>.
             para2: Once an article is released, it can be displayed on your Page in a <strong>News List</strong> section. 
           - sectiontitle: Types of News Lists
             para1: There are three types of news lists available in CORE.
