@@ -2,10 +2,13 @@
 
   - title: Page Settings
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Disabled Pages
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: As a publisher or administrator, you have access to your organization’s web page through the <a class="underline-link" href="./core_pages.html">Page</a> option in the main menu. Some organizations, however, do not qualify to have a page, so this menu option is disabled. 
+          - sectiontitle: CORE Page Requirements         
+            numlist:
+              - listname: In order to qualify for a CORE Page
+                one: Your organization must be a two-star level command and above.  
+                two: Your Page must be updated at least once a month. This means your team must produce enough content to keep the page up-to-date.
+            learn: <strong>Want a CORE Page but your organization doesn’t meet these requirements?</strong> We may still be able to help! Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Page Request">CORE Support Team</a> and provide a brief justification for why your unit/command/organization would like a CORE Page – geographically isolated from the rest of the command, losing your print publication, etc.

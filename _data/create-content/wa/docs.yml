@@ -22,7 +22,7 @@
                 six: Click <strong>Save</strong> to return to the Add Document panel.
                 seven: You can add or edit additional documents, as well as rearrange their order. 
                 eight: Click <strong>Insert</strong> to close the lightbox and place your document(s) in the article.
-            para1: Your new document(s) will display as a hyperlink within your article, followed by the file type and size. This file information lets your readers know exactly what they will be downloading when they click on the hyperlink. If you prefer not to display this information, then you can delete it the same way that you remove normal text in your article.
+            para1: Your new document(s) will display as a hyperlink within your article, followed by the file type and size. This file information lets your readers know exactly what they will be downloading when they click on the hyperlink. If you prefer not to display this information, then you can delete it the same way that you remove normal text in your article. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_document_hyperlink.png">
             note: If you upload multiple documents at the same time, they will display as a list of hyperlinks on separate lines. You can highlight the link text and drag it to a new position within your article.
           - sectiontitle: Add an existing document
             para1: Once you upload a file, it is saved to your article and can be accessed from your previous uploads. This allows you to place a document in multiple locations within your article or link to an existing file without needing to re-upload it.

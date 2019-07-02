@@ -88,8 +88,6 @@
           url: /creating-content/ma/delete_article.html
         - title: Restore a deleted article
           url: /creating-content/ma/restore_deleted.html
-        - title: View article page traffic
-          url: /creating-content/ma/page_traffic.html
     - title: Released Content
       id: rc
       sections:
@@ -112,8 +110,6 @@
           url: /page-management/ps/create_page.html
         - title: Page Settings
           url: /page-management/ps/page_settings.html
-        - title: Organization Page traffic
-          url: /page-management/ps/organization_page_traffic.html
         - title: Page logo
           url: /page-management/ps/page_logo.html
         - title: Social media

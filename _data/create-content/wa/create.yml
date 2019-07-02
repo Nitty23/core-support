@@ -74,7 +74,7 @@
                 heading2: DO THE FOLLOWING
               - col1: Save the article as a draft
                 col2: Click <strong>Save</strong>.
-              - col1: Publish the article publicly to <a class="underline-link" href="https://www.army.mil">www.army.mil 
+              - col1: Publish the article publicly to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>
                 col2: Click <strong>Release</strong>.
               - col1: Schedule the article to publish in the future
                 col2: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.

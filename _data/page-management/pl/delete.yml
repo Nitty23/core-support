@@ -2,10 +2,21 @@
 
   - title: Page Layout
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Delete a content section
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: You can remove content from a page by deleting sections. 
+          - sectiontitle: Delete a content section
+            numlist: 
+              - listname: 
+                one: From your <strong>Edit Page</strong> screen, hover over the section that you want to delete. A <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> edit button will appear in the top-right corner of the section.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button to open the lightbox editor. 
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
+                four: Click <strong>Delete</strong> from the confirmation dialog box.
+            para1: <hr>
+          - sectiontitle: 
+            paratitle: Can I recover a deleted section?
+            para1: If you clicked <strong>Delete</strong> on the confirmation dialog box, it is not possible to restore the section. There aren’t currently undo/redo options in page management.
+          - sectiontitle: 
+            paratitle: Can I remove multiple sections at once?
+            para1: If you <a class="underline-link" href="./page_navigation.html">remove a tab from the navigation bar</a>, then all of the sections that were added to it will also be deleted. Otherwise, it is not possible to delete multiple sections at once.
