@@ -7,7 +7,7 @@
           - sectiontitle: 
             para1: You can return to a draft or published article at any time during the article creation and editing process. All articles are managed in your Inbox, filtered by the article status - Draft, Released or Deleted.
           - sectiontitle: Editing privileges        
-            para1: Only the person that created an article can access and edit it when it is in a draft state. Once the draft is submitted, it is available to editors within your organization. The following outlines the editing access, based on user roles within an organization -
+            para1: Only the person that created an article can access and edit it when it is in a draft state. Once the draft is submitted, it is available to editors within your organization. The following outlines the editing access, based on user roles within an organization.
             lexicon:
               - title: Contributors
                 definition: Only have access to edit their own articles. Any changes made to a released article will need to be re-submitted and approved by your chain of command.
@@ -18,15 +18,13 @@
           - sectiontitle: Edit an article
             numlist:
               - listname: 
-                one: Click <strong>Inbox</strong> on the main menu.
+                one: Click <strong>Inbox</strong> on the main menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_inbox_main_menu.png">
                 two: Click on the <strong>Drafts</strong> or <strong>Released</strong> folder, and locate the article that you want to edit.
                 three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open your article page.
-                four: Once you’re done making changes, you can either click <strong>Release</strong> at the top of your article to make it immediately visible on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, or you can click <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to <a class="underline-link" href="./scheduled_release.html">schedule it for a future release date</a>. 
-          - sectiontitle: 
-            note: Publishers and administrators can also access a released article to make edits directly from their organization page. From the Page, simply navigate to a news list section and click on the article title that you want to edit.
-            para1: <hr>
+                four: Once you’re done making changes, you can either click <strong>Release</strong> at the top of your article to make it immediately visible on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, or you can click <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to <a class="underline-link" href="./scheduled_release.html">schedule it for a future release date</a>.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_inbox_release_preview.png"> 
+            para1: <strong>Publishers</strong> and <strong>administrators</strong> can also access a released article to make edits directly from their organization page. From the Page, simply navigate to a news list section and click on the article title that you want to edit.
+            note: If you make changes to a released article and click <strong>Save</strong>, the original version of your article will remain live on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and a version with your changes can be accessed via the <strong>Drafts</strong> folder in your Inbox.
+            para2: <hr>
           - sectiontitle: 
             paratitle: How do I edit the release date?
             para1: You can change the release date of an article before or after it’s published. This changes the order in which the article appears in your Inbox, All Content feeds and on your organization page news feeds. To learn more, visit <a class="underline-link" href="./change_release.html">Change the release date</a>.
-            
-

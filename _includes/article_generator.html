@@ -48,7 +48,7 @@
                                 {% when 'lexicon' %}
                                     <div class="row">
                                     {% for term in section.lexicon %}
-                                        <dfn class="columns large-3 medium-3 small-3 gloss-title">{{ term.title }}</dfn>
+                                        <dfn class="columns large-3 medium-4 small-3 gloss-title">{{ term.title }}</dfn>
                                         <dd class="columns large-8 medium-8 small-8 large-offset-1 gloss-def">{{ term.definition }}</dd>
                                         {% if term.note %}
                                         <div class="columns large-12 medium-12 small-12 supp-post-it topic-text-note">
@@ -111,8 +111,8 @@
                                                 {% else %} <!-- no listname -->
                                                     <ol>
                                                 {% endif %}
-                                            {% elsif each[0] == 'list' %} <!-- if sublist exists -->
-                                                {% for item in li.list %}
+                                            {% elsif each[0] == 'sublist' %} <!-- if sublist exists -->
+                                                {% for item in li.sublist %}
                                                     {% if forloop.first == true %}
                                                         {% if item[1] %}
                                                             <li class="num-item">{{ item[1] }}:</li>
@@ -125,6 +125,74 @@
                                                     {% endif %}
                                                 {% endfor %}
                                                             </ul>
+                                            <!-- if subnumlist exists -->
+                                            {% elsif each[0] == 'subnumlist' %} 
+                                                {% for item in li.subnumlist %}
+                                                    {% if forloop.first == true %}
+                                                        {% if li.subnumlist.namewithcolon  %}
+                                                            <li class="num-item">{{ item[1] }}:</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist.namewithout %} 
+                                                            <li class="num-item">{{ item[1] }}</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist.namednoneitem %}
+                                                                <br>
+                                                                <subtitle class="subnumlist">{{ item[1] }}</subtitle>
+                                                                <ul class="subnumlist">
+                                                        {% else %}
+                                                                <ul class="subnumlist">
+                                                        {% endif %}
+                                                    {% else %}
+                                                                <li class="num-item">{{ item[1] }}</li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                                            </ul>
+                                            <!-- end subnumlist -->
+
+                                            {% elsif each[0] == 'subnumlist2' %} <!-- if 2nd subnumlist  -->
+                                                {% for item in li.subnumlist2 %}
+                                                    {% if forloop.first == true %}
+                                                        {% if li.subnumlist2.namewithcolon  %}
+                                                            <li class="num-item">{{ item[1] }}:</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist2.namewithout %} 
+                                                            <li class="num-item">{{ item[1] }}</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist2.namednoneitem %} 
+                                                                <subtitle class="subnumlist">{{ item[1] }}</subtitle>
+                                                                <ul class="subnumlist">
+                                                        {% else %}
+                                                                <ul class="subnumlist">
+                                                        {% endif %}
+                                                    {% else %}
+                                                                <li class="num-item">{{ item[1] }}</li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                                            </ul>
+                                                <!-- end 2nd subnumlist -->
+
+                                            {% elsif each[0] == 'subnumlist3' %} <!-- if 3rd subnumlist  -->
+                                                {% for item in li.subnumlist3 %}
+                                                    {% if forloop.first == true %}
+                                                        {% if li.subnumlist3.namewithcolon  %}
+                                                            <li class="num-item">{{ item[1] }}:</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist3.namewithout %} 
+                                                            <li class="num-item">{{ item[1] }}</li>
+                                                                <ul class="subnumlist">
+                                                        {% elsif li.subnumlist3.namednoneitem %} 
+                                                                <subtitle class="subnumlist">{{ item[1] }}</subtitle>
+                                                                <ul class="subnumlist">
+                                                        {% else %}
+                                                                <ul class="subnumlist">
+                                                        {% endif %}
+                                                    {% else %}
+                                                                <li class="num-item">{{ item[1] }}</li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                                            </ul>
+                                                <!-- end 3rd subnumlist -->
+                                                <!-- below finishes the parent list -->
                                             {% else %}
                                                     <li class="num-item">{{ each[1] }}</li>
                                             {% endif %}

@@ -11,14 +11,14 @@
             para2: <strong>OPTION 1 - From the Inbox</strong>
             numlist:
               - listname: 
-                one: Click <strong>Inbox</strong> on the main menu.
+                one: Click <strong>Inbox</strong> on the main menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_inbox_main_menu.png">
                 two: Locate the article that you want to submit from the <strong>Drafts</strong> folder.
                 three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/submit_article.svg"> icon located on the far right of the title. 
           - sectiontitle:  
             para1: <strong>OPTION 2 - From the Article Page</strong>
             numlist:
               - listname: 
-                one: Click <strong>Submit for Review</strong> at the top-right corner of the action bar.
+                one: Click <strong>Submit for Review</strong> at the top-right corner of the action bar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_submit_for_review.png">
             para2: Your article status is now Pending Review. You’ll notice this change on the article page overview section, as well as in the Drafts folder of your Inbox.
             note: Once you submit an article, you and your editors will be able to edit and save changes on your article. Prior to submitting, only the person that created an article can edit it.
             para3: <hr>
@@ -29,7 +29,7 @@
                 one: The article status is changed to Pending Review in the overview section.
                 two: The article is added to the <strong>Drafts & Submissions</strong> folder of your supervising editors’ Inboxes.
                 three: A notification is sent to all editors in your organization to notify them of the pending request.
-                four: A yellow label is displayed next to the article in your Inbox, as well as your Editor’s Inbox.
+                four: A yellow label is displayed next to the article in your Inbox, as well as your Editor’s Inbox.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.png">
                 five: You and you editors will be able to edit and save changes on your article. Prior to submitting, only the person that created an article can edit it.
           - sectiontitle:  
             paratitle: Why can’t I release content?

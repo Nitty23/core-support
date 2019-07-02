@@ -6,10 +6,10 @@
         sections:
           - sectiontitle: 
             para1: You can retract a released article to unpublish it from <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. The article will revert to a draft and move to the Drafts folder of your Inbox.
-          - sectiontitle: Retract Privilieges       
+          - sectiontitle: Retracting Privilieges       
             para1: Some users have permission to retract articles that are created by other members within their organization. In this case, the article is removed from the Editor’s Inbox and moves to creator’s Drafts folder. The following outlines these permissions, based on user roles.
             lexicon:
-              - title: Contributors and Releasing Contributors
+              - title: Contributors
                 definition: Have access to retract their own released articles.
               - title: Editors, Publishers and Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization.
@@ -20,13 +20,13 @@
               - listname: OPTION 1 - From the Inbox
                 one: Click <strong>Inbox</strong> on the main menu.
                 two: Click on the <strong>Released</strong> folder, and locate the article that you want to retract.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> icon located on the far right of the title. 
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> icon located on the far right of the title. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_an_article.png">
                 four: Click <strong>Retract</strong> from the confirmation dialog box.
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - From the Article Page
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
-                two: Select <strong>Retract</strong> from the dropdown menu.
+                two: Select <strong>Retract</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
                 three: Click <strong>Retract</strong> from the confirmation dialog box.
             para1: The article status is changed from Released to Draft. At this point, you can edit, submit, release or schedule the article just like any other draft. If you retracted another user’s article, the draft becomes read only.
             para2: <hr>
