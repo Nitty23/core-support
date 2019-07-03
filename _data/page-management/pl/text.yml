@@ -15,14 +15,14 @@
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 five: Select <strong>Text</strong> in the menu.
                 six: In the <strong>Text</strong> lightbox editor, you can customize several options.
-            lexicon: 
-             - title: Section Title
-               definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-             - title: Add Text
-               definition: To add text, click <strong>Enter text here…</strong> and begin typing. Press <strong>Enter</strong> to create a new paragraph.
-             - title: Format Text
-               definition: Use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to reformat your text. To learn about the text toolbar and your formatting options, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting Text</a>.
-            para1: <strong>7.</strong> Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
+                lexicon: 
+                - title: Section Title
+                  definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+                - title: Add Text
+                  definition: To add text, click <strong>Enter text here…</strong> and begin typing. Press <strong>Enter</strong> to create a new paragraph.
+                - title: Format Text
+                  definition: Use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to reformat your text. To learn about the text toolbar and your formatting options, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting Text</a>.
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
           - sectiontitle: Tips for adding text
             itemlist: 
               - listname: When adding text to your site, follow these best practices
