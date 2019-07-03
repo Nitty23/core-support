@@ -25,27 +25,25 @@
             para1: From the Leaders lightbox editor, you can add more leaders, or choose to edit, reorder or remove the existing profiles.
             numlist:
               - listname: <strong>To add a new leader</strong>
-                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader<strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. 
+                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. 
                 two: Enter your leader’s name and position.
                 three: Upload your leader’s official photo by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select an image from your device. You can also drag and drop an image on top of the box.
                 four: You have the option to display a button that links to a PDF or custom URL. This is typically used for your leader’s official biography. Click the ON toggle button.
-          - sectiontitle:
-            numlist:
-              - listname: OPTION 1 - Link to a Document
-                one: Enter text that you want to appear on your button (e.g. Official Biography)
-                two: Upload a PDF by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select a file from your device. You can also drag and drop a file on top of the box. 
-                three: Once the document has uploaded, you will see a file details, including a direct link to the PDF, file size, and upload date. 
-                four: Click the <strong>Delete File</strong> button to remove this file and upload a new PDF.	
-          - sectiontitle:
-            numlist:
-              - listname: OPTION 2 - Link to a Custom URL
-                one: Enter text that you want to appear on your button (e.g. Official Biography)
-                two: On another browser tab, navigate to the website that you want linked. Copy the URL from your browser’s address bar
-                three: In CORE, paste the URL into the <strong>Enter link…</strong> field.
-                four: Click the optional <strong>Open in a New Window</strong> checkbox if you want your visitors to open this link in a new browser tab when they click the button.
-            para1: <strong>5.</strong> When you’re ready, click <strong>Add Leader</strong> to close the Add a New Leader panel and return to your list of leaders.
-            para2: <strong>6.</strong> You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
-            para3: <strong>7.</strong> Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page. 
+                subnumlist:
+                  namednoneitem: <strong>OPTION 1 - Link to a Document</strong>
+                  one: Enter text that you want to appear on your button (e.g. Official Biography)
+                  two: Upload a PDF by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select a file from your device. You can also drag and drop a file on top of the box. 
+                  three: Once the document has uploaded, you will see a file details, including a direct link to the PDF, file size, and upload date. 
+                  four: Click the <strong>Delete File</strong> button to remove this file and upload a new PDF.	
+                subnumlist2:
+                  namednoneitem: <strong>OPTION 2 - Link to a Custom URL</strong>
+                  one: Enter text that you want to appear on your button (e.g. Official Biography)
+                  two: On another browser tab, navigate to the website that you want linked. Copy the URL from your browser’s address bar
+                  three: In CORE, paste the URL into the <strong>Enter link…</strong> field.
+                  four: Click the optional <strong>Open in a New Window</strong> checkbox if you want your visitors to open this link in a new browser tab when they click the button.
+                five: When you’re ready, click <strong>Add Leader</strong> to close the Add a New Leader panel and return to your list of leaders.
+                six: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
+                seven: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page. 
           - sectiontitle:
             numlist: 
               - listname: <strong>To edit your existing leaders</strong>
@@ -69,4 +67,4 @@
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
             note: You can recover your leader’s information by clicking Cancel on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click Save on the Leaders lightbox. You will have to manually re-enter all of the information.
           - sectiontitle: Sample
-            learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.      
+            learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
