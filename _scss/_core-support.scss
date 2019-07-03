@@ -181,6 +181,11 @@ h1, h2, h3, h4, h5 {
 .gloss-def{
     margin-bottom: 1.25rem;
 }
+.sublexicon{
+    margin-left: 0rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0rem !important;
+}
 
 .table-row-style{
     text-align: left;
@@ -818,15 +823,15 @@ a:hover.topic-box{
         width: 50rem;
     }
     @include breakpoint(tablet) {
-        top: 16.9375rem;
+        top: 37%;
         width: 50rem;
     }
     @include breakpoint(lg_tablet) {
-        top: 50%;
+        top: 40%;
         width: 50rem;
     }
     @include breakpoint(sm_desktop) {
-        top: 13.3125rem;
+        top: 42%;
         width: 50rem;
     }
     @include breakpoint(desktop) {
@@ -895,11 +900,11 @@ a:hover.topic-box{
         width: 28rem;
     }
     @include breakpoint(tablet) {
-        bottom: 20%;
+        bottom: 32%;
         width: 39.375rem;
     }
     @include breakpoint(lg_tablet) {
-        bottom: 5rem;
+        bottom: 25%;
         width: 43rem;
     }
     @include breakpoint(sm_desktop) {
