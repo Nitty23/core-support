@@ -39,18 +39,17 @@
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open the Section menu.
                 five: Select <strong>News List</strong> in the menu.
                 six: In the <strong>News List</strong> lightbox editor, you can customize several options.
-                
-            lexicon: 
-              - title: Section Title
-                definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-              - title: Choose a Source
-                definition: Click the down arrow next to Source to select a type of news list. (See <strong>Types of News Lists</strong> above for a description of each)
-              - title: Number of Articles
-                definition: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> and <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/minus_icon.svg"> buttons to change the number of articles that appear in the section. You can display up to 30 articles.<br> This option applies to <strong>Latest News</strong> and <strong>Tagged News</strong> lists.
-              - title: Tag Filter
-                definition: Enter a tag in this field and click <strong>Enter</strong>. You can enter multiple tags. Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to remove a tag.<br>This option only applies to <strong>Tagged News</strong> lists. Keep in mind, you must add tags to all articles that you want to appear in this section.
-              - title: Add Articles
-                definition: Search for specific released articles and add them to a custom news feed.<br>This option only applies to <strong>Featured News</strong> lists. To learn more, visit <a class="underline-link" href="../../page-management/aop/featured_news.html">Features News</a>.
-            para1: <strong>7.</strong> Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+                lexicon: 
+                - title: Section Title
+                  definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+                - title: Choose a Source
+                  definition: Click the down arrow next to Source to select a type of news list. (See <strong>Types of News Lists</strong> above for a description of each)
+                - title: Number of Articles
+                  definition: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> and <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/minus_icon.svg"> buttons to change the number of articles that appear in the section. You can display up to 30 articles.<br> This option applies to <strong>Latest News</strong> and <strong>Tagged News</strong> lists.
+                - title: Tag Filter
+                  definition: Enter a tag in this field and click <strong>Enter</strong>. You can enter multiple tags. Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to remove a tag.<br>This option only applies to <strong>Tagged News</strong> lists. Keep in mind, you must add tags to all articles that you want to appear in this section.
+                - title: Add Articles
+                  definition: Search for specific released articles and add them to a custom news feed.<br>This option only applies to <strong>Featured News</strong> lists. To learn more, visit <a class="underline-link" href="../../page-management/aop/featured_news.html">Features News</a>.
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
             note: You can only feature content from one source (latest news, tagged news, or featured news) in each section. However, you can add multiple News List sections to a page to feature all of the content you want.
           - sectiontitle: Sample            
