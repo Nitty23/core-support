@@ -9,7 +9,7 @@
           - sectiontitle: Add navigation to Page
             numlist:
               - listname: 
-                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Navigation</strong> located below your Page headers. <br> By default, you will have one tab called “News” available in the Navigation Management lightbox. As a one-page site, all new content sections are added to this tab, but no navigation bar is displayed.
+                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Navigation</strong> located below your Page headers. <br> <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_nav_box.png"><br>By default, you will have one tab called “News” available in the Navigation Management lightbox. As a one-page site, all new content sections are added to this tab, but no navigation bar is displayed.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_navigation_management.png">
                 two: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Tab</strong> to create a new navigation element.
                 three: Enter a label to display on that tab.
                 four: Click <strong>Add</strong> to close the dialog box. 
@@ -21,23 +21,20 @@
               - listname: 
                 one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> on the right side of the navigation bar.
                 two: From the <strong>Navigation Management</strong> lightbox, you have two options for modifying existing tabs.
-          - sectiontitle: 
-            numlist:
-              - listname: OPTION 1 - Reorder
-                one: Click and drag a tab you want to move.
-                two: Release the tab when it’s in the desired position.
-          - sectiontitle: 
-            numlist:
-              - listname: OPTION 2 - Edit labels
-                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">  located on the far right.
-                two: Enter a new tab label.
-                three: Click <strong>Add</strong> to close the dialog box.
-          - sectiontitle: 
-            para1: <strong>3.</strong> When you’re ready, click <strong>Save</strong> to close the Navigation Management lightbox. You’ll see the change appear in your navigation menu.
+                subnumlist:
+                  namednoneitem: <strong>OPTION 1 - Reorder</strong>
+                  one: Click and drag a tab you want to move.
+                  two: Release the tab when it’s in the desired position.
+                subnumlist2:
+                  namednoneitem: <strong>OPTION 2 - Edit labels</strong>
+                  one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">  located on the far right.
+                  two: Enter a new tab label.
+                  three: Click <strong>Add</strong> to close the dialog box.
+                three: When you’re ready, click <strong>Save</strong> to close the Navigation Management lightbox. You’ll see the change appear in your navigation menu.
           - sectiontitle: Remove tab on navigation bar
             numlist:
               - listname: 
-                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> on the right side of the navigation bar.
+                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> on the right side of the navigation bar.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_nav_bar.png">
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the tab that you would like to remove.
-                three: If there is content placed on the tab, then a confirmation dialog box will appear. Select the <strong>Confirm</strong> button to permanently remove the tab and all content that was placed on the tab.
+                three: If there is content placed on the tab, then a confirmation dialog box will appear. Select the <strong>Confirm</strong> button to permanently remove the tab and all content that was placed on the tab.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_nav_managment_delete_confirm.png">
             note: Deleting a tab from the navigation will remove all content sections that are on it. If you want to keep this content, please move it to a new tab before editing the navigation.
