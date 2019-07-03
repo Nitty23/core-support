@@ -15,14 +15,14 @@
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 five: Select <strong>Leaders</strong> in the menu.
                 six: In the <strong>Leaders</strong> lightbox editor, you can customize several options.
-            lexicon: 
-             - title: Section Title
-               definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-             - title: Add a Leader
-               definition: Add a profile card containing your leader’s name, position, official photo, and an optional button that links to a PDF or external link. See Customize Leaders Section below for more details.
-            para1: <strong>7.</strong> Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
-          - sectiontitle: Customize a Leader section
-            para1: From the Leaders lightbox editor, you can add more leaders, or choose to edit, reorder or remove the existing profiles.
+                lexicon: 
+                - title: Section Title
+                  definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+                - title: Add a Leader
+                  definition: Add a profile card containing your leader’s name, position, official photo, and an optional button that links to a PDF or external link. See Customize Leaders Section below for more details.
+                seven: From the Leader lightbox editor, you can also edit, reorder or remove existing leader profiles.
+                eight: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
+          - sectiontitle: Add a new leader profile card
             numlist:
               - listname: <strong>To add a new leader</strong>
                 one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. 
@@ -44,22 +44,22 @@
                 five: When you’re ready, click <strong>Add Leader</strong> to close the Add a New Leader panel and return to your list of leaders.
                 six: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
                 seven: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page. 
-          - sectiontitle:
+          - sectiontitle: Edit an existing leader profile card
             numlist: 
-              - listname: <strong>To edit your existing leaders</strong>
+              - listname: <strong>To edit your existing leader</strong>
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> located on the far right of the leader that you would like to edit. The Edit Leader Information panel will slide into view. 
                 two: Edit your leader’s name and position; upload a new image; and/or change the button link.
                 three: Click <strong>Save</strong> to close the Edit Leader Information panel and return to your list of leaders.
                 four: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
                 five: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page.
-          - sectiontitle:
+          - sectiontitle: Reorder your leader cards
             numlist: 
               - listname: <strong>To reorder your leader cards</strong>
                 one: Hover over the leader you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the leader’s name to reorder.
                 three: Release the leader’s name when it’s in the desired position. You’ll see the cards reorder on your Page, as well.
                 four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.
-          - sectiontitle:
+          - sectiontitle: Remove an existing leader
             numlist: 
               - listname: <strong>To remove an existing leader</strong>
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the leader that you would like to remove.
