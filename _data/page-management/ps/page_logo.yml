@@ -44,7 +44,7 @@
                   one: Click on the  <strong>Upload Logo</strong> icon.
                   two: Click <strong>Change Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
-                four: To update your Page on www.army.mil, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
+                four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
           - sectiontitle: Remove logo
             numlist:
               - listname: 
