@@ -28,7 +28,7 @@
                 one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. 
                 two: Enter your leader’s name and position.
                 three: Upload your leader’s official photo by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select an image from your device. You can also drag and drop an image on top of the box.
-                four: You have the option to display a button that links to a PDF or custom URL. This is typically used for your leader’s official biography. Click the ON toggle button.
+                four: You have the option to display a button that links to a PDF or custom URL. This is typically used for your leader’s official biography. Click the <strong>ON toggle</strong> button.
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Link to a Document</strong>
                   one: Enter text that you want to appear on your button (e.g. Official Biography)
@@ -65,6 +65,6 @@
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the leader that you would like to remove.
                 two: Click <strong>Delete</strong> from the confirmation dialog box to permanently remove the leader’s information from CORE.
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
-            note: You can recover your leader’s information by clicking Cancel on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click Save on the Leaders lightbox. You will have to manually re-enter all of the information.
+            note: You can recover your leader’s information by clicking <strong>Cancel</strong> on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click <strong>Save</strong> on the Leaders lightbox. You will have to manually re-enter all of the information.
           - sectiontitle: Sample
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
