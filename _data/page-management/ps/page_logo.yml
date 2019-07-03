@@ -18,23 +18,23 @@
               - listname: 
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, locate the <strong>Basic Information</strong> section of your settings in the right sidebar.
-                three: There are two options for uploading a file
+                three: There are two options for uploading a file.
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Drag and Drop</strong>
                   one: Select your new image from your computer.
-                  two: Drag and drop the file on top of the <img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
+                  two: Drag and drop the file on top of the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.
                 subnumlist2:
                   namednoneitem: <strong>OPTION 2 - Browse Computer</strong>
-                  one: Click on the <img class="data-img" src="/e2/images/rv7/core-support/ui_media/camera.svg"><strong>Upload Logo</strong> icon.
+                  one: Click on the <img class="data-img" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.
                   two: Click <strong>Upload New Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
-                four: When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
+                four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
           - sectiontitle: Change an existing logo
             numlist: 
               - listname: 
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, locate the <strong>Basic Information</strong> section of your settings in the right sidebar.
-                three: There are two options for uploading a file
+                three: There are two options for uploading a file.
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Drag and Drop</strong>
                   one: Select your new image from your computer.
@@ -44,7 +44,7 @@
                   one: Click on the  <strong>Upload Logo</strong> icon.
                   two: Click <strong>Change Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
-                four: When you’re done with making changes, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
+                four: To update your Page on www.army.mil, click the <strong>Save/Publish</strong> button in the top-right corner of the action bar.
           - sectiontitle: Remove logo
             numlist:
               - listname: 
