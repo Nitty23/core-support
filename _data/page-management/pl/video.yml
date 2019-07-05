@@ -11,29 +11,26 @@
             numlist: 
               - listname: 
                 one: To start, you must <a class="underline-link" href="https://support.google.com/youtube/answer/57407">upload your video(s) to YouTube</a>.
-                list: 
-                  listname: Once your video is uploaded, copy the URL from your browser’s address bar. Accepted YouTube URLs will look something like this
-                  one: <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo ">https://www.youtube.com/watch?v=jv96WKme3Mo 
-                  two: <strong>Playlist</strong> - <a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy
+                two: Once your video is uploaded, copy the URL from your browser’s address bar.<br> <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_copy_video_url.png"><br>Accepted YouTube URLs will look something like this<br> <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a><br><strong>Playlist</strong> - <br><a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
                 three: In CORE, click on <strong>Page</strong> from the main menu.
                 four: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your video section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                five: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                five: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Content</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content.png">
                 six: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 seven: Select <strong>Video</strong> in the menu.
                 eight: In the <strong>Video</strong> lightbox editor, you can customize several options.
-            lexicon:
-              - title: Section Title
-                definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-              - title: Embed Video
-                definition: Click <strong>Enter a video link…</strong> and paste the YouTube video URL (see step 2). Press <strong>Enter</strong> to add your video player.
-              - title: Video Caption
-                definition: Your video description will automatically import from YouTube and display below your video player. You can edit this text at any time, or choose not to display the caption.
-            para1: <strong>7.</strong>Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+                lexicon:
+                - title: Section Title
+                  definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+                - title: Embed Video
+                  definition: Click <strong>Enter a video link…</strong> and paste the YouTube video URL (see step 2). Press <strong>Enter</strong> to add your video player.
+                - title: Video Caption
+                  definition: Your video description will automatically import from YouTube and display below your video player. You can edit this text at any time, or choose not to display the caption.
+                nine: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
             para2: Videos on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> do not autoplay when a user visits your Page. When clicked, they will play with sound.
             note: Only public videos will display properly on your Page.
           - sectiontitle: Sample
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
-            para1: <hr>
+            hr:
           - sectiontitle: 
             paratitle: Can I embed a video from other video platforms?
             para1: At this time, CORE only supports embedding video from YouTube. We plan to expand this feature to other video hosting services in the future. If there is a specific video hosting service that you would like available through CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Video Request">CORE Support Team</a> to let us know how we can help.
