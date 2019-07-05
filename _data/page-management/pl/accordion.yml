@@ -15,12 +15,12 @@
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 five: Select <strong>Accordion</strong> in the menu.
                 six: In the <strong>Accordion</strong> lightbox editor, you can customize several options.
-            lexicon:
-              - title: Section Title
-                definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-              - title: Add a Category
-                definition: Add a category title and body text that will be collapsed. See <strong>Customize an Accordion section</strong> below for more details.
-            para1: 7....Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+                lexicon:
+                - title: Section Title
+                  definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
+                - title: Add a Category
+                  definition: Add a category title and body text that will be collapsed. See <strong>Customize an Accordion section</strong> below for more details.
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
           - sectiontitle: Customize an Accordion section
             para1: From the <strong>Accordion</strong> lightbox editor, you can add more categories, or choose to edit, reorder or remove the existing categories.
             numlist: 
