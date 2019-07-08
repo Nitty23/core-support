@@ -18,17 +18,19 @@
                 lexicon: 
                 - title: Section Title
                   definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
-                - title: Add a Leader
-                  definition: Add a profile card containing your leader’s name, position, official photo, and an optional button that links to a PDF or external link. See Customize Leaders Section below for more details.
-                seven: From the Leader lightbox editor, you can also edit, reorder or remove existing leader profiles.
-                eight: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
+                - title: Add a New Leader
+                  definition: Add a profile card containing your leader’s name, position, official photo, and an optional button that links to a PDF or external link. See <strong>Add a new leader profile card</strong> below for more details.
+                - title: Cusotmize Existing Leaders
+                  definition: You can edit, reorder or remove any existing leader profiles. Continue reading below for more details on each of these customization options.
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page.
+            hr:
           - sectiontitle: Add a new leader profile card
             numlist:
-              - listname: <strong>To add a new leader</strong>
+              - listname: 
                 one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. 
                 two: Enter your leader’s name and position.
                 three: Upload your leader’s official photo by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select an image from your device. You can also drag and drop an image on top of the box.
-                four: You have the option to display a button that links to a PDF or custom URL. This is typically used for your leader’s official biography. Click the <strong>ON toggle</strong> button.
+                four: Click the <strong>ON toggle</strong> button to display a button underneath your leader's name and photo. This optio, which allows you to link to a PDF or custom URL, is typically used for your leader’s official biography. 
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Link to a Document</strong>
                   one: Enter text that you want to appear on your button (e.g. Official Biography)
@@ -46,22 +48,22 @@
                 seven: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page. 
           - sectiontitle: Edit an existing leader profile card
             numlist: 
-              - listname: <strong>To edit your existing leader</strong>
+              - listname:
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> located on the far right of the leader that you would like to edit. The Edit Leader Information panel will slide into view. 
-                two: Edit your leader’s name and position; upload a new image; and/or change the button link.
+                two: Edit your leader’s name and position, upload a new image, and/or change the button link.
                 three: Click <strong>Save</strong> to close the Edit Leader Information panel and return to your list of leaders.
                 four: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
                 five: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page.
           - sectiontitle: Reorder your leader cards
             numlist: 
-              - listname: <strong>To reorder your leader cards</strong>
+              - listname: 
                 one: Hover over the leader you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the leader’s name to reorder.
                 three: Release the leader’s name when it’s in the desired position. You’ll see the cards reorder on your Page, as well.
                 four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.
           - sectiontitle: Remove an existing leader
             numlist: 
-              - listname: <strong>To remove an existing leader</strong>
+              - listname:
                 one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the leader that you would like to remove.
                 two: Click <strong>Delete</strong> from the confirmation dialog box to permanently remove the leader’s information from CORE.
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
