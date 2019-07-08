@@ -4,8 +4,32 @@
     articles:
       - subtitle: Join an organization
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: Your affiliation with an organization is one of the most important settings in CORE. It ensures that your content is pushed to the proper chain of command and makes it easier for other CORE members to find and share your content.
+            para2: When you create a CORE account, the first thing you must do is to join an organization. You can <a class="underline-link" href="../../getting-started/as/your_organization.html">change your organization</a> at any time in your Account Settings. However, you must be affiliated with a team to access basic CORE functionality, such as writing and submitting articles. 
+          - sectiontitle: Unaffiliated user
+            para1: If an administrator removes you from their organization, then you become an unaffiliated user and your access to basic CORE functionality is restricted.
+            itemlist: 
+              - listname: As an unaffiliated user, you can no longer
+                one: Create new articles
+                two: Import articles from DVIDS
+                three: Edit or submit existing articles in your Inbox (Preview only)
+          - sectiontitle: Join an organization
+            para1: In order to restore your access to basic article and inbox features, you will need to join a new organization.
+            numlist:
+              - listname: 
+                one: Click on <strong>Community</strong> on the main menu.
+                two: You will notice that your <strong>My Organization</strong> tab displays an alert to join a new organization, in place of a team roster.
+                three: Click <strong>Join a New Organization</strong> to open the lightbox editor.
+                four: Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. 
+                five: Select an organization from the list.
+                sixe: Click <strong>Join Organization</strong> to confirm your new organization and close the lightbox.
+            para2: Your new organization and team members automatically display on My Organization page. All articles that you create will be associated with this organization and will be pushed to the appropriate change of command.
+            note: You don’t need approval to join a new organization. You will automatically become a contributor with the ability to edit and submit content. Please contact the administrator(s) of your new organization to upgrade your role, if needed. To learn more about CORE user roles, visit <a class="underline-link" href="../../getting-started/as/roles_and_preferences.html">Roles and Permissions</a>.
+            hr:
+          - sectiontitle:
+            paratitle: My organization is not available when I search for it in the Join a New Organization lightbox. What do I do?
+            para1: CORE will only auto-suggest organizations that are currently in the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a>. First, visit the Organization Directory and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization is added to CORE.
+          - sectiontitle:
+            paratitle: Why do I have to be affiliated with an organization to create an article?
+            para1: Each organization has at least one person with release authority that can publicly publish content to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. This release authority can grant others permission to release content on behalf of the organization, or they can opt to have contributors create and submit content for review. Consequently, if you are not affiliated with an organization, then you will not have permission to submit or release content on www.army.mil. 
