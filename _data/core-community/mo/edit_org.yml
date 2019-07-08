@@ -17,7 +17,7 @@
           - sectiontitle: Organization Settings Overview
             lexicon: 
               - title: Organization Logo
-                definition: This logo appears next to your organization’s name in most places within CORE, including the Organization Directory and when users change their organization. It helps members of the CORE Community visually identify your organization. To learn more, visit <a class="underline-link" href="../../upload_organization_logo.html">Upload Organization Logo</a>.
+                definition: This logo appears next to your organization’s name in most places within CORE, including the Organization Directory and when users change their organization. It helps members of the CORE Community visually identify your organization. To learn more, visit <a class="underline-link" href="./upload_organization_logo.html">Upload Organization Logo</a>.
               - title: Organization Name
                 definition: This name displays anywhere your organization is referred to in CORE, such as in the User and Organization Directories, on article pages, as well as in released content and tagged article lists. 
               - title: Organization Abbreviation	
@@ -25,4 +25,4 @@
               - title: Type of Organization
                 definition: Select an Army Component&#58; Active Duty, National Guard or Army Reserve. This classifies content produced by your organization to help other user’s filter released articles and search results.
               - title: Google Analytics Tracking ID	
-                definition: Add a Google Analytics tracking ID to dive deeper into article and page metrics. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account. To learn more, visit <a class="underline-link" href="../../connect_your_organization_to_google_analytics.html">Connect your organization to Google Analytics</a>.
+                definition: Add a Google Analytics tracking ID to dive deeper into article and page metrics. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account. To learn more, visit <a class="underline-link" href="./connect_your_organization_to_google_analytics.html">Connect your organization to Google Analytics</a>.
