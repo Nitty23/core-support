@@ -14,8 +14,8 @@
                 one: Create new articles
                 two: Import articles from DVIDS
                 three: Edit or submit existing articles in your Inbox (Preview only)
+            para2: In order to restore your access to basic article and inbox features, you will need to join a new organization. Continue reading to learn more.
           - sectiontitle: Join an organization
-            para1: In order to restore your access to basic article and inbox features, you will need to join a new organization.
             numlist:
               - listname: 
                 one: Click on <strong>Community</strong> on the main menu.
@@ -32,4 +32,4 @@
             para1: CORE will only auto-suggest organizations that are currently in the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a>. First, visit the Organization Directory and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization is added to CORE.
           - sectiontitle:
             paratitle: Why do I have to be affiliated with an organization to create an article?
-            para1: Each organization has at least one person with release authority that can publicly publish content to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. This release authority can grant others permission to release content on behalf of the organization, or they can opt to have contributors create and submit content for review. Consequently, if you are not affiliated with an organization, then you will not have permission to submit or release content on www.army.mil. 
+            para1: Each organization has at least one person with release authority that can publicly publish content to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. This release authority can grant others permission to release content on behalf of the organization, or they can opt to have contributors create and submit content for review. Consequently, if you are not affiliated with an organization, then you will not have permission to submit or release content on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. 
