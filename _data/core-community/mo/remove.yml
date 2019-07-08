@@ -4,8 +4,35 @@
     articles:
       - subtitle: Remove user from your organization
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: As an <strong>administrator</strong>, you are responsible for managing the team members within your organization. If a user is no longer part of your organization, you may choose to remove them. Regardless of their role, this action will restrict the user’s access to all content and page settings for your organization.
+            para2: All team management settings are adjusted via your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
+          - sectiontitle: Remove User
+            para1: To remove a user from your organization, you must be an administrator.
+            numlist: 
+              - listname: 
+                one: Click on <strong>Community</strong> from the main menu.
+                two: From <strong>My Organization</strong> page, locate the user that you want to remove from your team member list. 
+                three: Click the  located at the far right side.
+                four: Select <strong>Remove from Organization</strong> from the dropdown options. 
+                five: Select <strong>Remove</strong> from the confirmation dialog box.
+            para2: The user will immediately be removed from your team member list, and an email will be sent to notify the user that he/she has been removed from your organization. 
+            note: You will only see the option to remove a user from your organization if you are an administrator.
+            hr:
+          - sectiontitle: 
+            paratitle: What happens when a user is removed from my organization?
+            itemlist: 
+              - listname: 
+                one: The user is immediately removed from your team member list on My Organization.
+                two: The user receives an email notification that they were removed from your organization. This email will prompt him/her to join a new organization. 
+                three: The user can no longer make updates to any content created while associated with your organization. All editing rights are transferred to the organization.
+                sublist: 
+                  namedwithcolon: The user becomes unaffiliated. This affects the following until the user joins a new organization
+                  one: User’s role is reverted to a contributor.
+                  two: User cannot create new articles or import from DVIDS.
+                  three: User cannot edit or submit existing drafts in their Inbox (preview only).
+          - sectiontitle: 
+            paratitle: If a user is removed from an organization, can he/she make changes to content that they created while associated with it? 
+            para1: Each article is tied to the user that created it, as well as the organization that the user belonged to at the time it was released. If the creator is removed or changes organizations, all editing rights are transferred to the organization. The article remains accessible to any editor, publisher or administrator in the organization via the Released tab of their Inbox.
+            para2: Since the article is also tied to the creator, he/she will have a read-only version available in the Released tab of their Inbox. The user must contact a member of the original organization if any changes are needed.
+            para3: Keep in mind, an article is only synced to an organization once it is released (or submitted for release by a contributor). This means that any article in a Draft state when the user leaves an organization is solely owned by the user. The user must join a new organization to make changes, submit it for review, or release it.
