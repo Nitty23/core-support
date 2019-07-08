@@ -161,26 +161,26 @@
     - title: My Organization
       id: mo
       sections:
-        - title: Change organization
-          url: /core-community/mo/change_organization.html
-        - title: Change user roles
-          url: /core-community/mo/change_user_roles.html
-        - title: Deactivate or delete your organization
-          url: /core-community/mo/deactivate_or_delete_organization.html
-        - title: Edit organization settings
-          url: /core-community/mo/edit_organization_settings.html
-        - title: Edit profile
-          url: /core-community/mo/edit_profile.html
-        - title: Join an organization
-          url: /core-community/mo/join_organization.html
         - title: Navigating my organization
           url: /core-community/mo/navigating_my_organization.html
+        - title: Edit profile
+          url: /core-community/mo/edit_profile.html
+        - title: Change organization
+          url: /core-community/mo/change_organization.html
+        - title: Join an organization
+          url: /core-community/mo/join_organization.html
+        - title: Change user roles
+          url: /core-community/mo/change_user_roles.html
         - title: Remove user from your organization
           url: /core-community/mo/remove_user_from_organization.html
+        - title: Edit organization settings
+          url: /core-community/mo/edit_organization_settings.html
         - title: Upload organization logo
           url: /core-community/mo/upload_organization_logo.html
         - title: Connect your organization to Google Analytics
           url: /core-community/mo/connect_your_organization_to_google_analytics.html
+        - title: Deactivate or delete your organization
+          url: /core-community/mo/deactivate_or_delete_organization.html
     - title: Connecting
       id: c
       sections:
@@ -197,16 +197,16 @@
     - title: Articles and Pages
       id: ap
       sections: 
-        - title: The importance of quality headlines
+        - title: Importance of quality headlines
           url: /best-practices/ap/quality_headlines.html
         - title: Selecting quality imagery
           url: /best-practices/ap/selecting_quality_imagery.html
         - title: Army.mil Style Guide
           url: /best-practices/ap/army_style_guide.html
+        - title: Tips for formatting text
+          url: /best-practices/ap/formatting_text_tips.html
         - title: Keyboard shortcuts
           url: /best-practices/ap/keyboard_shortcuts.html
-        - title: Formatting text tips
-          url: /best-practices/ap/formatting_text_tips.html
         - title: Tagging tips
           url: /best-practices/ap/tagging_tips.html
         - title: Page navigation
