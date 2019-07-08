@@ -27,7 +27,7 @@
                 two: The user receives an email notification that they were removed from your organization. This email will prompt him/her to join a new organization. 
                 three: The user can no longer make updates to any content created while associated with your organization. All editing rights are transferred to the organization.
                 sublist: 
-                  namedwithcolon: The user becomes unaffiliated. This affects the following until the user joins a new organization
+                  namewithcolon: The user becomes unaffiliated. This affects the following until the user joins a new organization
                   one: User’s role is reverted to a contributor.
                   two: User cannot create new articles or import from DVIDS.
                   three: User cannot edit or submit existing drafts in their Inbox (preview only).
