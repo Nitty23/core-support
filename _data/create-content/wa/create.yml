@@ -7,17 +7,17 @@
           - sectiontitle:
             para1: As a publishing platform, CORE allows you to tell your Army story to the world. You can do this by writing articles and publicly releasing them to <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. Each article has its own dedicated URL, based on the following formats&#58; <br> <em>https://www.army.mil/article-id/</em>  and  <em>https://www.army.mil/article-id/article-title</em>
             para2: Keep reading below to learn about some basic features available in our article editor.
-          - sectiontitle: Step 1 - Create a New Article
+          - sectiontitle: Step 1 - Create a new article
             numlist:
               - listname:
                 one: Click <strong>Create</strong> on the main menu.
                 two: Click <strong>New Article</strong> to open a draft article page. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article.jpg">
-          - sectiontitle: Step 2 - Add a Title
+          - sectiontitle: Step 2 - Add a title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline1.jpg">
             image2: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_clear_headline.png">
             note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit <a class="underline-link" href="../../best-practices/ap/headlines.html">The Importance of a Quality Headline</a>.
-          - sectiontitle: Step 3 - Customize the Author
+          - sectiontitle: Step 3 - Customize the author
             para1: The author creates a byline that tell visitors who wrote the article they’re reading — either a person or an organization name. By default, the person who first created the article is automatically set as the author, but you can change the author manually to attribute it to a different person or organization.
             para2: The creator’s name appears next to the article wherever it is displayed in CORE, but the author’s name displays below the title of your released article on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_customize_the_author.jpg">
@@ -27,14 +27,14 @@
                 two: Edit your name, or change it to another person’s name altogether.
                 three: If you co-wrote an article, click on <strong>Add an author...</strong> and enter a new name.
                 four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_an_author.jpg">
-          - sectiontitle: Step 4 - Write and Format
+          - sectiontitle: Step 4 - Write and format
             para1: Your new draft includes a basic text box to help you get started. Click <strong>Start typing, or copy and paste your article here…</strong>
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
                 two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
             note: Check out Formatting Text to learn more about all the formatting features.
-          - sectiontitle: Step 5 - Add Media
+          - sectiontitle: Step 5 - Add media
             para1: From the WYSIWYG editor, you can also upload images and documents, or embed a video from YouTube. These media elements can be inserted anywhere within your article body.
             numlist:  
               - listname: To add an image, document or video
@@ -67,7 +67,7 @@
             note: Although you can add multiple tags and themes to your article, we recommend only adding <strong>1 or 2 themes and up to 5 tags per article</strong> to streamline your communication efforts.
           - sectiontitle: 
             learn: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics. To learn more, visit <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article Settings</a>
-          - sectiontitle: Step 7 - Save or Release
+          - sectiontitle: Step 7 - Finalize your article
             para1: Once you’re done with your article, you have a few options
             table:
               - heading1: TO
