@@ -17,11 +17,9 @@
               definition: Editors can edit, release and retract articles from all users within their organization. They can permanently delete their own articles, but not team members’ content. Only the original creator can permanently delete a package from CORE.
             - title: Publisher
               definition: Publishers have access to managing all aspects of their organization’s content and webpage. This includes updating metadata, social media, and contact information, as well as adding content elements (e.g. news lists, video players, and leader boxes).
-            - title: Administrators
+            - title: Administrator
               definition: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <strong>Owner</strong>.
-              note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
-            - title: Owners
-              definition: An owner is the sole user responsible for a CORE organization. They control all of the same management and settings as administrators, but owners also have the ability to delete the organization and transfer ownership to a new user.
+          note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
         - sectiontitle: Special Roles
           para1: There are two additional roles you should know about. <strong>Master Editor</strong> and <strong>CORE Administrators</strong>. They are roles reserved for HQDA-level personnel and manage all users and organizations in CORE.
           lexicon: 
