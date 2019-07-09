@@ -22,7 +22,7 @@
                 three: Select a theme from the dropdown list. The theme will appear as a tag.
                 four: You can add more themes, or remove a theme by clicking the <strong>x</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_to_add_an_army_theme.jpg">
             tip: Although you can add multiple themes to your article, we recommend only adding <strong>1 or 2 themes per article</strong> to streamline your communication efforts. 
-            para1: <hr>
+            hr:
           - sectiontitle: 
             paratitle: What is the difference between Army Themes and tags?
             para1: Army Themes and <a class="underline-link" href="./tags.html">tags</a> are very similar. They both allow you to organize content that can then be used in a variety of ways. However, there are a few differences.
