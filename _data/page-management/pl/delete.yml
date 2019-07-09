@@ -12,7 +12,7 @@
                 one: From your <strong>Edit Page</strong> screen, hover over the section that you want to delete. A <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> edit button will appear in the top-right corner of the section.
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button to open the lightbox editor. 
                 three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
-                four: Click <strong>Delete</strong> from the confirmation dialog box.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_delete_confirm.jpg">
+                four: Click <strong>Delete</strong> from the confirmation dialog box.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_delete_confirm.jpg">
             hr: 
           - sectiontitle: 
             paratitle: Can I recover a deleted section?
