@@ -11,9 +11,10 @@
             para1: Use these guidelines when uploading a new organization logo.
             itemlist: 
               - listname: 
-                one: Accepted file format&#58; JPG, PNG or GIF file (no animated GIFs)
+                one: Accepted file format&#58; .jpg, .jpeg, .png, .gif
                 two: Minimum image size&#58; 200 x 200 pixels
                 three: Transparent background (recommended)
+                four: Avoid animated image files. The first frame of the animation will be converted to a picture (.png format).
           - sectiontitle: Upload a New Organization Logo
             para1: To customize your organization’s logo, you must be an administrator.
             numlist: 
