@@ -17,7 +17,7 @@
             para1: This tracking ID is now added to the <strong>Advanced Settings</strong> section of your Page, and you can monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your organization’s Google Analytics account.
             para2: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking setup immediately</a>.
             note: In addition to tracking your CORE Page, this tracking ID will be added to every article created by your team members. You can track data on all products released in CORE, giving you a more comprehensive view of your organization’s digital footprint.
-            para3: <hr>
+            hr: 
           - sectiontitle: 
             paratitle: How do I change my Google Analytics Tracking ID?
             para1: Administrators can also change their organization’s Google Analytics tracking ID by <a class="underline-link" href="../../core-community/mo/edit_organization_settings.html">editing their organization settings</a> on My Organization.
