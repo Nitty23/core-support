@@ -6,7 +6,7 @@
         sections:
           - sectiontitle:
             para1: You can use Article Settings to add tags, track alignment with Army priorities, as well as customize search engine optimization (SEO) titles and descriptions. This reference guide walks you through the universal settings available on all articles.
-          - sectiontitle: Access your Article Settings
+          - sectiontitle: Access your article settings
             numlist:
               - listname:
                 one: Click on <strong>Create</strong> from the main menu, or open an existing article by clicking on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> next to any article in your <strong>Inbox</strong>.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_your_inbox.jpg">
