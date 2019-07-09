@@ -77,7 +77,7 @@
               - col1: Publish the article publicly to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>
                 col2: Click <strong>Release</strong>.
               - col1: Schedule the article to publish in the future
-                col2: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
+                col2: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
               - col1: Submit article for review by a senior editor
                 col2: Click <strong>Submit for Review</strong>. To learn more, visit <a class="underline-link" href="../../creating-content/ma/submit_drafts.html">Submit a Draft</a>.
             hr:
