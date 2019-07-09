@@ -6,7 +6,7 @@
         sections:
           - sectiontitle:
             para1: You can upload files and attach them as text hyperlinks throughout your article. When clicked, the file will download or open in a new tab/window, depending on your visitor’s browser. Visitors can also right-click and select <strong>Save link as…</strong> (or OPTION + click on a Mac) to download the file.
-          - sectiontitle: Document Specifications
+          - sectiontitle: Document specifications
             itemlist:
               - listname: Use these guidelines when uploading a new document
                 one: Accepted file formats&#58; .pdf, .doc, .docx, .ppt, .pptx, .txt
