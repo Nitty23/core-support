@@ -9,9 +9,10 @@
           - sectiontitle: Logo specifications
             itemlist:
               - listname: Use these guidelines when uploading a new organization logo
-                one: Accepted file format&#58; JPG, PNG or GIF file (no animated GIFs)
+                one: Accepted file format&#58; .jpg, .jpeg, .png, .gif
                 two: Minimum image size&#58; 200 x 200 pixels
                 three: Transparent background (recommended)
+                four: Avoid animated image files. The first frame of the animation will be converted to a picture (.png format).
             note: Your logo will appear on top of a dark background, so you may need to reverse the logo colors for better legibility. 
           - sectiontitle: Upload a new logo
             numlist: 
