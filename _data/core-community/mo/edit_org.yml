@@ -6,6 +6,15 @@
         sections:
           - sectiontitle: 
             para1: As an <strong>administrator</strong>, you can manage your organization’s name, logo, component type, and other options through your Organization Settings. This reference guide walks you through the universal settings available for all organizations.
+          - sectiontitle: Access your organization settings
+            para1: To edit your organization’s settings, you must be an administrator.
+            numlist: 
+              - listname: 
+                one: Click on <strong>Community</strong> from the main menu.
+                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.
+                three: Make any changes to your settings. See Organization Settings Overview below for more details. 
+                four: Click <strong>Update</strong> to close the Edit Organization Settings lightbox.
+            hr:
           - sectiontitle: Organization Settings Overview
             lexicon: 
               - title: Organization Logo
@@ -18,12 +27,3 @@
                 definition: Select an Army Component&#58; Active Duty, National Guard or Army Reserve. This classifies content produced by your organization to help other user’s filter released articles and search results.
               - title: Google Analytics Tracking ID	
                 definition: Add a Google Analytics tracking ID to dive deeper into article and page metrics. This will allow you to track data such as traffic-referral information, user characteristics and browsing information directly from your organization’s Google Analytics account. To learn more, visit <a class="underline-link" href="./connect_your_organization_to_google_analytics.html">Connect your organization to Google Analytics</a>.
-            hr:
-          - sectiontitle: Edit organization settings
-            para1: To access your organization’s settings, you must be an administrator.
-            numlist: 
-              - listname: 
-                one: Click on <strong>Community</strong> from the main menu.
-                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.
-                three: Make any changes to your settings. See Organization Settings Overview below for more details. 
-                four: Click <strong>Update</strong> to close the Edit Organization Settings lightbox.
