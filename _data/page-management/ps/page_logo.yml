@@ -8,10 +8,10 @@
             para1: Organization publishers and administrators have access to customize the image that appears in their Page header. This image can be uploaded when the Page is first created or modified in Page Settings at any time.
           - sectiontitle: Logo specifications
             itemlist:
-              - listname: Use these recommended guidelines when uploading a new organization logo
-                one: JPG, PNG or GIF file (no animated GIFs)
-                two: Transparent background (recommended)
-                three: Minimum of 200 X 200 px
+              - listname: Use these guidelines when uploading a new organization logo
+                one: Accepted file format&#58; JPG, PNG or GIF file (no animated GIFs)
+                two: Minimum image size&#58; 200 x 200 pixels
+                three: Transparent background (recommended)
             note: Your logo will appear on top of a dark background, so you may need to reverse the logo colors for better legibility. 
           - sectiontitle: Upload a new logo
             numlist: 
