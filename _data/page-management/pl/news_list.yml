@@ -54,4 +54,4 @@
             note: You can only feature content from one source (latest news, tagged news, or featured news) in each section. However, you can add multiple News List sections to a page to feature all of the content you want.
           - sectiontitle: Sample 
             para1: Here’s a sample News List section
-            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_newslist_sample.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_newslist_sample.png">
