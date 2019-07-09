@@ -35,7 +35,7 @@
                 definition: Removes a submitted article from an Editor’s Inbox and sends it back to the contributor’s Drafts folder. This action indicates that the article needs more work before it is ready to be released.
               - title: <a class="underline-link" href="./delete_article.html">Delete</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">
                 definition: Moves an article to the creator’s Deleted folder. This action indicates the article will not be publicly released and it should be archived. This action is also available in the Released folder.
-            para4: <hr>
+            hr:
           - sectiontitle:
             para1: <strong>Released Actions</strong>
             lexicon:
@@ -45,7 +45,7 @@
                 definition: Unpublishes an article from www.army.mil. It is reverted to a draft and is moved to the creator’s Drafts folder.
               - title: <a class="underline-link" href="./delete_article.html">Delete</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg">
                 definition: Moves an article to the creator’s Deleted folder. This action indicates that the article will not be publicly released and it should be archived. This action is also available in the Drafts folder.
-            para2: <hr>
+            hr:
           - sectiontitle:
             para1: <strong>Deleted Actions</strong>
             lexicon:
