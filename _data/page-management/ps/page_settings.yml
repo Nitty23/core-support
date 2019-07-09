@@ -14,6 +14,7 @@
                 three: Click the arrow located in the top-right corner of your Page’s action toolbar to show and hide the settings. This will slide the drawer out of view, allowing you to see a preview of your page content.
                 four: Make any changes to your settings in the Basic Information, Customize SEO, Connect to Social Media, and Advanced Options sections. To learn more, see the chart below.
                 five: Click <strong>Publish</strong> in the top-right corner of the action bar, to publicly release changes to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. 
+            hr:
           - sectiontitle: Page Overview
             para1: The information in the overview section cannot be modified by publishers or administrators.
             lexicon:
