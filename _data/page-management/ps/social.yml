@@ -33,8 +33,8 @@
                 four: A corresponding platform icon appears next to all accepted social media platforms. Clicking on the icon will direct you to the link that will appear in your Page header. 
                 five: Once you have verified the link, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/right_arrow.svg"> or hit <strong>Enter</strong> on your keyboard.
                 six: You can drag and drop each account to reorder the corresponding icons in your header.<img class="data-img" src="/e2/images/rv7/core-support/page-management/ps/ps_social_media_sidebar.png">
-          - sectiontitle: Add a social media account
+          - sectiontitle: Remove a social media account
             numlist: 
-              - listname: Remove a social media account
+              - listname: 
                 one: Locate the <strong>Connect to Social Media</strong> section of your settings.
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> next to the account you want to remove.
