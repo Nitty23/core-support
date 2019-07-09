@@ -7,7 +7,7 @@
           - sectiontitle: 
             para1: Your organization logo displays anywhere your organization is referred to in CORE, including the Organization Directory and when users change their organization.
             para2: Administrators have the option to modify this insignia in their <a class="underline-link" href="./edit_organization_settings.html">Organization Settings</a> at any time.
-          - sectiontitle: Logo Specifications
+          - sectiontitle: Logo specifications
             para1: Use these guidelines when uploading a new organization logo.
             itemlist: 
               - listname: 
@@ -15,7 +15,7 @@
                 two: Minimum image size&#58; 200 x 200 pixels
                 three: Transparent background (recommended)
                 four: Avoid animated image files. The first frame of the animation will be converted to a picture (.png format).
-          - sectiontitle: Upload a New Organization Logo
+          - sectiontitle: Upload a new organization logo
             para1: To customize your organization’s logo, you must be an administrator.
             numlist: 
               - listname:
@@ -47,7 +47,7 @@
                   two: Click <strong>Change Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
                 three: A loading bar will appear to show the upload progress. Once your logo has successfully uploaded, click the <strong>Update</strong> button to close the lightbox.
-          - sectiontitle: Remove Images
+          - sectiontitle: Remove logo
             numlist:
               - listname: 
                 one: Open the <strong>Edit Organization Settings</strong> lightbox.
