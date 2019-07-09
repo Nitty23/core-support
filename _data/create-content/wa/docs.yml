@@ -10,7 +10,7 @@
             itemlist:
               - listname: Use these guidelines when uploading a new document
                 one: Accepted file formats&#58; .pdf, .doc, .docx, .ppt, .pptx, .txt
-                two: Max file size&#58; 25 MB
+                two: Max file size&#58; 20 MB
           - sectiontitle: Add a new document
             numlist: 
               - listname: 
