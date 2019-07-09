@@ -80,7 +80,7 @@
                 col2: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
               - col1: Submit article for review by a senior editor
                 col2: Click <strong>Submit for Review</strong>. To learn more, visit <a class="underline-link" href="../../creating-content/ma/submit_drafts.html">Submit a Draft</a>.
-            para2: <hr>
+            hr:
           - sectiontitle: 
             paratitle: Why can’t I release my article?
             para2: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.

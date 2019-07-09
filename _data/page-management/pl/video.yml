@@ -29,8 +29,8 @@
             para2: Videos on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> do not autoplay when a user visits your Page. When clicked, they will play with sound.
             note: Only public videos will display properly on your Page.
           - sectiontitle: Sample
-            paratitle: Here's a sample Video section.
-            para1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_video_sample.png">
+            para1: Here's a sample Video section.
+            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_video_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
             hr:
           - sectiontitle: 

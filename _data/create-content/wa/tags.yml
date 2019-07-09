@@ -29,7 +29,7 @@
             para1: Your released articles will appear in the search results and <a class="underline-link" href="../rc/tag_feeds.html">Tag Feeds</a> of any tags that you use. Thus, assigning relevant tags to your article increases the chance that other users will see your content.
             para2: The keyword is <strong>relevant!</strong> You don’t want unrelated content showing up in your news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the <strong>five most relevant keywords</strong>. Avoid adding more than 15 tags.
             image: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_keyword_example.png">
-            para3: <hr>
+            hr:
           - sectiontitle: 
             paratitle: What is the difference between Army Themes and tags?
             para1: <a class="underline-link" href="./army_themes.html">Army Themes</a> and tags are very similar. They both allow you to organize content that can then be used in a variety of ways. However, there are a few differences.

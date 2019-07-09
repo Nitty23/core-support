@@ -19,7 +19,7 @@
                 three: Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_core_dashboard.png">
           - sectiontitle:
             learn: <strong>First time user?</strong> If you are logging into CORE for the first time, you will be directed to an account creation page. You will be prompted to join an organization to ensure that your content is pushed to the proper chain of command. Once you join an organization, you can set up <a class="underline-link" href="./your_profile.html">your profile</a> or navigate to the CORE Dashboard.
-            para1: <hr>
+            hr: 
           - sectiontitle: 
             paratitle: How do I obtain an username and password?
             para1: If you don’t have access to a CAC reader, you will only be able to login with your AKO username and password. If you don’t have an AKO account, click Create Account (AKO), located underneath the Login buttons. This will redirect you to the AKO Account Registration page.

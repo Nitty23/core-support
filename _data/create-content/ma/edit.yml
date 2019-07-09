@@ -24,7 +24,7 @@
                 four: Once you’re done making changes, you can either click <strong>Release</strong> at the top of your article to make it immediately visible on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, or you can click <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to <a class="underline-link" href="./scheduled_release.html">schedule it for a future release date</a>.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_inbox_release_preview.png"> 
             para1: <strong>Publishers</strong> and <strong>administrators</strong> can also access a released article to make edits directly from their organization page. From the Page, simply navigate to a news list section and click on the article title that you want to edit.
             note: If you make changes to a released article and click <strong>Save</strong>, the original version of your article will remain live on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and a version with your changes can be accessed via the <strong>Drafts</strong> folder in your Inbox.
-            para2: <hr>
+            hr:
           - sectiontitle: 
             paratitle: How do I edit the release date?
             para1: You can change the release date of an article before or after it’s published. This changes the order in which the article appears in your Inbox, All Content feeds and on your organization page news feeds. To learn more, visit <a class="underline-link" href="./change_release.html">Change the release date</a>.

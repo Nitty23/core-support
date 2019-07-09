@@ -27,7 +27,7 @@
                 two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> icon.
                 three: Click <strong>View CORE Article</strong> to go to the imported article.
             para2: From the article page, you can view important information in the <a class="underline-link" href="./article_settings.html">Article Settings</a>, such as the article ID, release status, link on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and history log. With this information, you can add the article to your Page, share it on social media, or contact the CORE user who imported if changes are needed.
-            para3: <hr>
+            hr: 
           - sectiontitle:
             paratitle: Why can’t I find my content in the DVIDS Import search tool?
             numlist:

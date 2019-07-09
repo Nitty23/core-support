@@ -25,14 +25,14 @@
                 definition: Date and time of the last action
               - title: Pageviews
                 definition: Displays the total number of pageviews that your article has received since it was released. To learn more, visit <a class="underline-link" href="../../creating-content/ma/page_traffic.html">Viewing article page traffic</a>.
-            para2: <hr>
+            hr: 
           - sectiontitle: Army Themes & Tags
             lexicon:                
               - title: Tags
                 definition: Tags categorize your content, allowing more people to discover it on CORE and Army.mil. They are used in search results, in custom news feeds, and on published articles under Related Stories.
               - title: Army Themes
                 definition: Select an Army strategic theme. These themes are tracked to ensure public affairs professionals are creating content that aligns with the Secretary of the Army’s priorities. To learn more about these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal</a> (Log in with CAC EMAIL certificate).
-            para1: <hr>
+            hr: 
           - sectiontitle: Customize SEO Metadata
             para1: You can add a custom title and description of your article if you want to have one title for search results and social media sharing, and a different one on the article page itself.
             lexicon:                
@@ -42,7 +42,7 @@
                 definition: Also called a meta description, this text appears below your article title and link in search engine results and in social shares. The first 155 characters of your article body will automatically populate this field.
             para2: Your title will automatically populate the <strong>Short Title</strong> field in the <strong>Customize SEO Metadata</strong> section in the right sidebar (up of 60 characters). This will appear in browser address bars, search engine results, and social shares. 
             tip: Visitors read these titles and descriptions to decide if they want to click on your article in search results and on social media. To make your article inviting, we recommend that you make your metadata short, readable and informative. Incorporate relevant keywords to improve your SEO, but avoid cramming your descriptions with keywords in a way that doesn't form cohesive sentences. To learn more, visit <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">Search Engine Optimization</a>.
-            para3: <hr>
+            hr:
           - sectiontitle: Advanced Options
             lexicon:                
               - title: History Log

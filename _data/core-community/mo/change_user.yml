@@ -4,8 +4,31 @@
     articles:
       - subtitle: Change user roles
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: As an <strong>administrator</strong>, one of your main responsibilities is to manage the roles of your team members. You have the ability to assign different permissions based on each user’s responsibilities, ensuring that everyone has the appropriate level of access to content and page settings. 
+            para2: All team management settings are adjusted via your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
+            note: All CORE administrators must ensure the people within their commands who publish/release content on Army.mil are current on their annual Operational Security training, per AR 530-1. This will be PAO/OPSEC training specific to people whose duties include operating or maintaining Army.mil sites. For more information about the training, visit <a class="underline-link" href="https://iatraining.us.army.mil/index.html">https://iatraining.us.army.mil/index.html</a>.
+          - sectiontitle: Summary of user roles
+            lexicon:
+              - title: Contributor
+                definition: Has no publishing capability, but can write and edit his or her own articles
+              - titie: Releasing Contributor
+                definition: Can write, upload photos to, edit, and release his or her own articles
+              - titie: Editor
+                definition: Has access to edit and release articles from all users within an organization
+              - titie: Publishers
+                definition: Has access to manage all aspects of an organization’s content and webpage
+              - titie: Administrator
+                definition: Controls all team management and administrative settings
+            para1: Each user role is capable of everything that a less powerful role is capable of. In other words, Publishers can do everything that an Editor can do, Editors can do everything a Releasing Contributor can do, and so on.
+            tip: Before changing a user’s role, it is a good idea to familiarize yourself with all of the permission levels that CORE offers. For more detailed explanations on the above options, visit <a class="underline-link" href="../../getting-started/cb/roles_and_preferences.html">Roles and Permissions</a>.
+          - sectiontitle: Change User Role
+            para1: To change a user role, you must be an administrator.
+            numlist: 
+              - listname: Click on <strong>Community</strong> from the main menu.
+                one: From <strong>My Organization</strong> page, locate the user that you want to change from your team member list. 
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> located at the far right side.
+                three: Select <strong>Change User Role</strong> from the dropdown options. A list of available user roles will appear. 
+                four: Select a new role.
+            para2: An email will be sent to the user to notify him/her of the new role and access permissions.
+            note: You will only see the option to change user roles if you are an administrator for the organization.
