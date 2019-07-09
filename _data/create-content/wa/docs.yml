@@ -9,8 +9,8 @@
           - sectiontitle: Document Specifications
             itemlist:
               - listname: Use these guidelines when uploading a new document
-                one: Accepted file formats - .pdf, .doc, .docx, .ppt, .pptx, .txt
-                two: Max file size - 25 MB
+                one: Accepted file formats&#58; .pdf, .doc, .docx, .ppt, .pptx, .txt
+                two: Max file size&#58; 25 MB
           - sectiontitle: Add a new document
             numlist: 
               - listname: 
