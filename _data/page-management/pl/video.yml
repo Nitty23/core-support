@@ -7,7 +7,7 @@
           - sectiontitle: 
             para1: CORE supports embedding videos from YouTube, which is a free service highly respected for streaming quality, upload ease, and video playback control. Embedding videos from another host helps your Page load faster and enables visitors to share your videos.
             para2: For these reasons, there is no option to upload a video directly to CORE. 
-          - sectiontitle: Add a Video Section       
+          - sectiontitle: Add a Video section       
             numlist: 
               - listname: 
                 one: To start, you must <a class="underline-link" href="https://support.google.com/youtube/answer/57407">upload your video(s) to YouTube</a>.
