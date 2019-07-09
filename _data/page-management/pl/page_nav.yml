@@ -34,7 +34,7 @@
           - sectiontitle: Remove tab on navigation bar
             numlist:
               - listname: 
-                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> on the right side of the navigation bar.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_nav_bar.png">
+                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> on the right side of the navigation bar.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_page_nav_bar.png">
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the tab that you would like to remove.
-                three: If there is content placed on the tab, then a confirmation dialog box will appear. Select the <strong>Confirm</strong> button to permanently remove the tab and all content that was placed on the tab.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_nav_managment_delete_confirm.png">
+                three: If there is content placed on the tab, then a confirmation dialog box will appear. Select the <strong>Confirm</strong> button to permanently remove the tab and all content that was placed on the tab.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_nav_managment_delete_confirm.png">
             note: Deleting a tab from the navigation will remove all content sections that are on it. If you want to keep this content, please move it to a new tab before editing the navigation.
