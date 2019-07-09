@@ -12,23 +12,24 @@
             lexicon:
               - title: Contributor
                 definition: Has no publishing capability, but can write and edit his or her own articles
-              - titie: Releasing Contributor
+              - title: Releasing Contributor
                 definition: Can write, upload photos to, edit, and release his or her own articles
-              - titie: Editor
+              - title: Editor
                 definition: Has access to edit and release articles from all users within an organization
-              - titie: Publishers
+              - title: Publishers
                 definition: Has access to manage all aspects of an organization’s content and webpage
-              - titie: Administrator
+              - title: Administrator
                 definition: Controls all team management and administrative settings
             para1: Each user role is capable of everything that a less powerful role is capable of. In other words, Publishers can do everything that an Editor can do, Editors can do everything a Releasing Contributor can do, and so on.
             tip: Before changing a user’s role, it is a good idea to familiarize yourself with all of the permission levels that CORE offers. For more detailed explanations on the above options, visit <a class="underline-link" href="../../getting-started/cb/roles_and_preferences.html">Roles and Permissions</a>.
           - sectiontitle: Change User Role
             para1: To change a user role, you must be an administrator.
             numlist: 
-              - listname: Click on <strong>Community</strong> from the main menu.
-                one: From <strong>My Organization</strong> page, locate the user that you want to change from your team member list. 
-                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> located at the far right side.
-                three: Select <strong>Change User Role</strong> from the dropdown options. A list of available user roles will appear. 
-                four: Select a new role.
+              - listname: 
+                one: Click on <strong>Community</strong> from the main menu.
+                two: From <strong>My Organization</strong> page, locate the user that you want to change from your team member list. 
+                three: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.
+                four: Select <strong>Change User Role</strong> from the dropdown options. A list of available user roles will appear. 
+                five: Select a new role.
             para2: An email will be sent to the user to notify him/her of the new role and access permissions.
             note: You will only see the option to change user roles if you are an administrator for the organization.
