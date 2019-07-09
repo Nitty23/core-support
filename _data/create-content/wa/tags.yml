@@ -8,7 +8,7 @@
             para1: Tags are keywords that categorize articles by a particular topic, allowing more people to discover your content within CORE and Army.mil. They are used to populate <a class="underline-link" href="../rc/all_content.html">released articles</a> in search results, <a class="underline-link" href="../rc/tag_feeds.html">Tag Feeds</a>, <a class="underline-link" href="../../page-management/ma/tagged_news.html">Tagged News Lists</a> on organization pages, as well as Related Stories. 
             para2: Not only do tags provide a useful way to group your related content, but they also quickly tell readers what your article is about.
             para3: Tags are similar to <a class="underline-link" href="./army_themes.html">Army Themes</a>, but they are generally used to describe your article in more detail. The use of tags is completely optional.
-          - sectiontitle: Add Tags to your Article
+          - sectiontitle: Add tags to your article
             numlist: 
               - listname: To add a tag to your articles
                 one: On your article page, locate the <strong>Army Themes and Tags</strong> section in the <a class="underline-link" href="./article_settings.html">Article Settings</a> sidebar.
@@ -17,7 +17,7 @@
                 four: You can also select an existing tag from the dropdown list of matching terms that appears as your type.
                 five: To remove a tag, click the <strong>X</strong> to the right of the tag. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_sidebar.jpg">
             tip: As you type a keyword, tags that match your entry will auto-populate, along with the number of times that each tag has been added to an article. Use these suggestions to help you determine the most effective tags. For example, if you are deciding between two similar tags, it is better to opt for the one that has been tagged on more articles to increase the chance that your article will be discovered. For more tips, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging Tips</a>.
-          - sectiontitle: Formatting Tags
+          - sectiontitle: Formatting tags
             itemlist:
               - listname:
                 one: Tags must be 80 characters or fewer.
@@ -25,7 +25,7 @@
                 three: For multi-word tags, use spaces, underscores ( _ ) or hyphens ( - ). No other special characters are accepted.
                 four: Tags are NOT case-sensitive. For example, entering <em>Soldier</em>, <em>soldier</em> and <em>SOLDIER</em> will result in a single tag.
                 five: Double check for misspellings.
-          - sectiontitle: Tag Feeds and Search Results
+          - sectiontitle: Tag feeds and search results
             para1: Your released articles will appear in the search results and <a class="underline-link" href="../rc/tag_feeds.html">Tag Feeds</a> of any tags that you use. Thus, assigning relevant tags to your article increases the chance that other users will see your content.
             para2: The keyword is <strong>relevant!</strong> You don’t want unrelated content showing up in your news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the <strong>five most relevant keywords</strong>. Avoid adding more than 15 tags.
             image: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_keyword_example.png">
