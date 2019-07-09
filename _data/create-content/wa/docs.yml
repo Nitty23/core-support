@@ -51,7 +51,7 @@
                 four: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail.
                 five: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> in the bottom right corner of the Edit Document lightbox.
                 six: Click <strong>Delete</strong> from the confirmation dialog box.
-            para2: <hr>
+            hr:
           - sectiontitle:
             paratitle: I have a new version of my document. Can I replace the existing document?
             para1: At this time, you can not overwrite an old version of your document by uploading a new version. When you upload the new version, it will have a different URL.
