@@ -20,6 +20,7 @@
                 definition: Draft that was not approved by a supervisor within the organization. You are the only person that can view or edit your rejected articles, allowing you to make changes and submit them for review again. Rejected articles are displayed in your Drafts folder with a “Rejected” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_rejected_label.png">
               - title: Deleted
                 definition: Unfinished article that is no longer needed. As the creator, you are the only person that can view, restore or archive your deleted articles.
+            hr:
           - sectiontitle: Managing your articles
             para1: You can manage your articles directly from your Inbox, simply by clicking the action icons located on the far right side of each title. Depending on your role within an organization, you will have different actions available. 
             para2: The following is an overview of all icons and their corresponding action, broken down by Inbox folders
