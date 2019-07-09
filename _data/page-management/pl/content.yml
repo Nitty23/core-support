@@ -34,7 +34,7 @@
                 three: Edit the section title and customize additional options, depending on the type of section. You will see your changes immediately reflected on your Page. Click <strong>Cancel</strong> if you want to revert these changes.
                 four: You can also <a class="underline-link" href="./delete_content_section.html">delete a section</a> by clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
                 five: Once you’ve finished editing your section, click <strong>Save</strong> to close the lightbox.
-            para1: <hr>
+            hr: 
           - sectiontitle:
             paratitle: Why can’t I add a section to my header or footer?
             para1: It is not possible to add sections to your header or footer. Sections can only be added to the main content area of your Page. To learn how to customize these areas, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
