@@ -22,7 +22,8 @@
                 definition: Controls all team management and administrative settings
             para1: Each user role is capable of everything that a less powerful role is capable of. In other words, Publishers can do everything that an Editor can do, Editors can do everything a Releasing Contributor can do, and so on.
             tip: Before changing a user’s role, it is a good idea to familiarize yourself with all of the permission levels that CORE offers. For more detailed explanations on the above options, visit <a class="underline-link" href="../../getting-started/cb/roles_and_preferences.html">Roles and Permissions</a>.
-          - sectiontitle: Change User Role
+            hr:
+          - sectiontitle: Change a team member's user role
             para1: To change a user role, you must be an administrator.
             numlist: 
               - listname: 
