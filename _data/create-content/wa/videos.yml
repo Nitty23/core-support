@@ -7,7 +7,7 @@
           - sectiontitle:
             para1: CORE supports embedding videos from YouTube, which is a free service highly respected for streaming quality, upload ease, and video playback control. Embedding videos from another host helps your page load faster and enables visitors to share your videos.
             para2: For these reasons, there is no option to upload a video directly to CORE. 
-          - sectiontitle: Add a Video
+          - sectiontitle: Add a video
             numlist:
               - listname:
                 one: To start, you must upload your video(s) to YouTube.
@@ -22,21 +22,21 @@
                 seven: Click the <strong>Add</strong> button to close the lightbox and place your video player in the article.
             para1: Videos on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> do not autoplay when a user visits your article. When clicked, they will play with sound.
             note: Only public videos will display properly on your article.
-          - sectiontitle: Edit a Video Caption
+          - sectiontitle: Edit a video caption
             numlist:
               - listname:
                 one: Click on the video you want to edit. A toolbar will appear at the top of the video.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_video.png">
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> to open the Edit Video lightbox.
                 three: Edit your caption text. You can also choose not to display the caption at all by turning the toggle to OFF.
                 four: Click <strong>Save</strong> to close the lightbox.
-          - sectiontitle: Move a Video
+          - sectiontitle: Move a video
             numlist:
               - listname:
                 one: Hover over the video you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the video player to move it around your article.
                 three: As you drag the video, use the yellow guideline to choose a new placement.
                 four: Release the video when it’s in the desired position.
-          - sectiontitle: Delete a Video
+          - sectiontitle: Delete a video
             numlist:
               - listname:
                 one: Click on the video you want to delete. A toolbar will appear at the top of the video.
