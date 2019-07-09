@@ -29,7 +29,7 @@
                 two: Select <strong>Retract</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
                 three: Click <strong>Retract</strong> from the confirmation dialog box.
             para1: The article status is changed from Released to Draft. At this point, you can edit, submit, release or schedule the article just like any other draft. If you retracted another user’s article, the draft becomes read only.
-            para2: <hr>
+            hr:
           - sectiontitle:
             paratitle: How do I permanently delete a retracted article from CORE?
             para1: Due to the Freedom of Information Act (FOIA) requirements, it is not possible to permanently delete articles that have been publicly released. If you no longer wish to keep a retracted article, you can remove it from your Inbox by archiving it. This will allow you to keep your Inbox organized, yet still have the article available in CORE, if needed.
