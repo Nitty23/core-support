@@ -7,10 +7,10 @@
           - sectiontitle:
             para1: You can preview how your article appears on mobile, tablet, and desktop screens. This is a great way to test the responsive design as you edit your article.
             para2: Preview mode hides the editing and navigation panels and displays a full-screen preview of your article. You can switch between Edit and Preview mode, even if your article is already released.
-          - sectiontitle: Accessing Preview Mode
+          - sectiontitle: Access Preview Mode
             numlist:
               - listname: 
-                one: On your article page, click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the top-right corner of the main action bar.
+                one: On your article page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the top-right corner of the main action bar.
                 two: Select <strong>Preview Article</strong> from the dropdown menu to enter Preview mode.
                 three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device.
                 four: To exit Preview mode and go back to editing your article, click the <strong>Exit Preview</strong> icon.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_preview_mode.png">
