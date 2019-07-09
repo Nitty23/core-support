@@ -7,13 +7,13 @@
           - sectiontitle: 
             para1: As an <strong>administrator</strong>, you are responsible for managing the team members within your organization. If a user is no longer part of your organization, you may choose to remove them. Regardless of their role, this action will restrict the user’s access to all content and page settings for your organization.
             para2: All team management settings are adjusted via your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
-          - sectiontitle: Remove User
+          - sectiontitle: Remove user
             para1: To remove a user from your organization, you must be an administrator.
             numlist: 
               - listname: 
                 one: Click on <strong>Community</strong> from the main menu.
                 two: From <strong>My Organization</strong> page, locate the user that you want to remove from your team member list. 
-                three: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> located at the far right side.
+                three: Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.
                 four: Select <strong>Remove from Organization</strong> from the dropdown options. 
                 five: Select <strong>Remove</strong> from the confirmation dialog box.
             para2: The user will immediately be removed from your team member list, and an email will be sent to notify the user that he/she has been removed from your organization. 
