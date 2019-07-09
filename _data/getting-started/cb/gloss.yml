@@ -14,6 +14,7 @@
                 definition: Themes are the SECDEF priorities. These are tracked to ensure public affairs professionals are creating content that aligns with Army communication topics.
               - title: Tag
                 definition: Tags are keywords that categorize articles around a particular topic or organization, allowing more people to discover your content on CORE and Army.mil. They are used in search results, in custom news feeds on Pages, and on published articles under Related Stories. You can follow tags if you want to filter articles about a particular interest in your All Content feed.
+            hr:
           - sectiontitle: Article & Inbox Actions
             lexicon: 
               - title: Delete
@@ -30,6 +31,7 @@
                 definition: Submitting an article for review <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/submit_article.svg"> sends it to the organization’s editor inbox. This action is limited to Contributors, since they do not have authority to release their own content.
               - title: Preview
                 definition: Previewing an article hides all editing functionality, allowing users to see how their live article will appear on multiple devices.
+            hr:
           - sectiontitle: Page Actions
             lexicon:
               - title: Deactivate
