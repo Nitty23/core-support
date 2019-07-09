@@ -9,10 +9,10 @@
             para2: By default, your profile photo is your initials, but you can modify it in your account settings at any time. 
           - sectiontitle: Photo Specifications
             itemlist:
-              - listname: Use these recommended guidelines when uploading a new profile photo
-                one: JPG, PNG or GIF file (no animated GIFs)
-                two: Minimum of 200 X 200 px
-                three: Max file size of 20 MB
+              - listname: Use these guidelines when uploading a new profile photo
+                one: Accepted file format&#58; JPG, PNG or GIF file (no animated GIFs)
+                two: Max file size&#58; 20 MB
+                three: Minimum image size&#58; at least 200 X 200 px
             tip: If you upload an image that is not square, CORE will automatically crop your image from the center of the photo. For best results, we recommend that you make any cropping or scaling modifications to your photo, prior to upload.
           - sectiontitle: Upload a New Profile Photo
             para1: There are two options for uploading a new image.
