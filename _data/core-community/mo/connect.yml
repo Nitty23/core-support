@@ -16,7 +16,7 @@
                 five: Copy and paste your tracking ID into the “Google Analytics Tracking ID” field.
                 six: Click <strong>Update</strong> to close the lightbox.
             note: As an administrator, you can also access the Edit Organization Settings lightbox from the <strong>Advanced Settings</strong> section of your articles or Page. Simply click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"><strong>Add your organization’s tracking ID</strong>.
-            para1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/mo/mo_ga_advanced_options.png">
+            para1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/core-community/mo/mo_ga_advanced_options">
             para2: Your tracking ID is automatically added to the <strong>Advanced Settings</strong> section of every article created by every team member in your organization, as well as in the <strong>Advanced Settings</strong> section of your Page.
             para3: Once your articles and/or Page are published, you will be able to monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your organization’s Google Analytics account. 
             para4: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking setup immediately</a>.
