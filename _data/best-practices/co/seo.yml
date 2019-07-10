@@ -4,10 +4,10 @@
     articles:
       - subtitle: Search Engine Optimization
         sections:
-          - sectiontitle: First test section Starts Here
+          - sectiontitle: 
             para1: Search engine optimization, or SEO, is the process of maximizing the number of visitors to a particular website by ensuring that the site appears high on the list of results returned by search engines like Google, Bing and Yahoo. In short, it is a set of actions that you can take to help your website rank higher on search engine results pages, or SERPs. These actions include using relevant keywords, customizing metadata, adding relevant links, and much more.
             para2: Why does SEO matter? Showing up higher in search engine results means more people will find your articles, visit your website, or learn about your organization. If you want people to discover your content, then it is worth investing some time to improve your SEO. 
-          - sectiontitle: Built-In features
+          - sectiontitle: Built-in features
             itemlist: 
               - listname: There are many factors that influence where a piece of content will rank on SERPs. CORE offers some built-in features to optimize your articles and organization pages, including
                 one: <strong>Rapid Load Time</strong> - Improves page performance and offers a better user experience
