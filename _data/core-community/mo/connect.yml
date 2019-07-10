@@ -12,12 +12,13 @@
                 one: To start, you’ll need to <a class="underline-link" href="https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/">sign up for a Google Analytics account</a>.
                 two: Once your account is set up, <a class="underline-link" href="https://support.google.com/analytics/answer/1032385?hl=en">locate your tracking ID</a>. It will look something like UA-00000000–2.
                 three: In CORE, click <strong>Community</strong> on the main menu.
-                four: From <strong>My Organization</strong> page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.
+                four: From <strong>My Organization</strong> page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_edit_organization.png">
                 five: Copy and paste your tracking ID into the “Google Analytics Tracking ID” field.
                 six: Click <strong>Update</strong> to close the lightbox.
             note: As an administrator, you can also access the Edit Organization Settings lightbox from the <strong>Advanced Settings</strong> section of your articles or Page. Simply click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"><strong>Add your organization’s tracking ID</strong>.
-            para1: Your tracking ID is automatically added to the <strong>Advanced Settings</strong> section of every article created by every team member in your organization, as well as in the <strong>Advanced Settings</strong> section of your Page.
-            para2: Once your articles and/or Page are published, you will be able to monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your organization’s Google Analytics account. 
-            para3: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking setup immediately</a>.
+            para1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/mo/mo_ga_advanced_options.png">
+            para2: Your tracking ID is automatically added to the <strong>Advanced Settings</strong> section of every article created by every team member in your organization, as well as in the <strong>Advanced Settings</strong> section of your Page.
+            para3: Once your articles and/or Page are published, you will be able to monitor traffic and other reporting data such as traffic-referral information, user characteristics and browsing information directly through your organization’s Google Analytics account. 
+            para4: It can take up to 24 hours for data to appear in your reports. However, you can <a class="underline-link" href="https://support.google.com/analytics/answer/1008083">check your web-tracking setup immediately</a>.
           - sectiontitle:
             note: This tracking ID is associated with your CORE organization. If it is changed in your Organization Information, then the tracking ID will change on all of your team’s old articles, as well as your organization Page.
