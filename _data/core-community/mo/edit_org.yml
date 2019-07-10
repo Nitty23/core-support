@@ -11,7 +11,7 @@
             numlist: 
               - listname: 
                 one: Click on <strong>Community</strong> from the main menu.
-                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.
+                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_edit_organization.png">
                 three: Make any changes to your settings. See Organization Settings Overview below for more details. 
                 four: Click <strong>Update</strong> to close the Edit Organization Settings lightbox.
             hr:
