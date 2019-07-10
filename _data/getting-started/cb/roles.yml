@@ -7,7 +7,7 @@
         - sectiontitle:
           para1: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
           para2: Each user role is capable of everything that a less powerful role is capable of. In other words, Publishers can do everything that an Editor can do, Editors can do everything a Releasing Contributor can do, and so on. Continue reading to learn more about each role.
-        - sectiontitle: Summary of User Roles
+        - sectiontitle: Summary of user roles
           lexicon: 
             - title: Contributor
               definition: Contributors have access to standard features, like creating stories and uploading files to CORE. They must submit all draft content to an Editor for review, prior to release. However, they can retract and delete their own content. This is the default role for new CORE members or users that are transitioning to a new organization.
@@ -20,14 +20,13 @@
             - title: Administrator
               definition: Administrators control all team management and administrative settings for their organization. They can add or remove team members, assign user roles. An organization can have multiple Admins, but only one <strong>Owner</strong>.
           note: Administrators must have releasing authority. Delegated release authority is granted from the commander. PAOs are not authorized to speak on behalf of the unit, the commander or the Army without delegated release authority.
-        - sectiontitle: Special Roles
-          para1: There are two additional roles you should know about. <strong>Master Editor</strong> and <strong>CORE Administrators</strong>. They are roles reserved for HQDA-level personnel and manage all users and organizations in CORE.
+        - sectiontitle: Special roles
+          para1: There are two additional roles you should know about. <strong>Master Editor</strong> and <strong>Super Admin</strong>. They are roles reserved for HQDA-level personnel and manage all users and organizations in CORE.
           lexicon: 
             - title: Master Editor
               definition: Master Editors have access to edit and release content from any user within CORE. This role does not have any administrative access to users, pages or organizations.
             - title: Super Admin
               definition: Super Admin control the highest-level security and administrative settings for all CORE users, pages and organizations. This role is reserved for Army.mil Web team and Digital Media Division personnel to assist with support to the entire CORE community.
-        - sectiontitle: Changing User Roles
+        - sectiontitle: Change user roles
           para1: User roles can only be changed by an administrator. If you’d like to change someone’s role within your organization, please follow the direction on <a class="underline-link" href="../../topics/#core-community">Change User Roles</a>.
           note: If you are not an administrator and would like to change your permissions level, please contact your administrator to upgrade your role. You can locate contact information for your administrator(s) on your <a  class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
-
