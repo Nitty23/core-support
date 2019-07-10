@@ -4,8 +4,26 @@
     articles:
       - subtitle: User directory
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: The <strong>User Directory</strong> is a list of all active CORE users and serves as an internal contact roster for Army public affairs professionals. You can use this tool to get contact information and connect with members from other Army organizations.
+          - sectiontitle: Roles           
+            para1: The User Directory offers the same role options as your <a class="underline-link" href="../../core-community/mo/navigating_my_organization.html">My Organization</a> page; however, your team members are now displayed within the Army-wide public affairs community.
+            itemlist: 
+              - listname: Regardless of your role or organization, all users can
+                one: View profiles and contact information for any CORE user 
+                two: <a class="underline-link" href="../../getting-started/as/your_profile.html">Edit their own profile</a>
+                three: <a class="underline-link" href="../../getting-started/as/your_organization.html">Change their own organization</a>
+          - sectiontitle:
+            itemlist: 
+              - listname: In addition to the above, organization <strong>administrators</strong> can do the following to their team members
+                one: <a class="underline-link" href="../../core-community/mo/change_user_roles.html">Change user roles</a>
+                two: <a class="underline-link" href="../../core-community/mo/remove_user_from_organization.html">Remove users from the organization</a>
+            note: In the future, we plan to expand your capabilities within the User Directory, enabling you to follow other CORE users. This will filter content produced by specific people into your All Content page, creating a custom news feed of content that is relevant to you and your organization. Stay tuned!
+          - sectiontitle: View all CORE user profiles
+            numlist: 
+              - listname: 
+                one: Click <strong>Community</strong> in the main menu.
+                two: Click on the <strong>User Directory</strong> tab to display an alphabetized list of all CORE users. 
+                three: Use the search bar to find users by name or organization.
+                four: To quickly link to a user’s email or social media platforms, click on the icons on the far right.
+                five: Click on the user’s name to open their profile card containing contact information, social media accounts, and other user information.
