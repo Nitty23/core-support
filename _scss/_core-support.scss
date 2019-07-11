@@ -862,10 +862,10 @@ a:hover.topic-box{
     color: white;
     font-size: 2.25rem;
     @include breakpoint(nav) {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     @include breakpoint(tablet) {
-        font-size: 4.25rem;
+        font-size: 3.75rem;
     }
     @include breakpoint(lg_tablet) {
         font-size: 4.25rem;
