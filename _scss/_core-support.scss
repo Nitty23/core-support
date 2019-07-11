@@ -890,43 +890,44 @@ a:hover.topic-box{
     border-radius: 28px;
     background: white;
     color: lightgrey;
-    width: 51.875rem;
+    width: 100%;
     height: 3.75rem;
     position: absolute;
     bottom: 13.3125em;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 37.5rem
     @include breakpoint(mobile) {
         bottom: 18%;
-        width: 15rem;
+        width: 90%;
     }
     @include breakpoint(nav) {
         bottom: 18%;
-        width: 28rem;
+        width: 90%;
     }
     @include breakpoint(tablet) {
         bottom: 32%;
-        width: 39.375rem;
+        // width: 39.375rem;
     }
     @include breakpoint(lg_tablet) {
         bottom: 25%;
-        width: 43rem;
+        // width: 43rem;
     }
     @include breakpoint(sm_desktop) {
         bottom: 20%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(desktop) {
         bottom: 45%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(large) {
         bottom: 38%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(really_big) {
         bottom: 26%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
 }
 
