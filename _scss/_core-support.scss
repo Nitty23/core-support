@@ -343,7 +343,7 @@ h3:after, h4:after, h5:after {
 }
 
 .navbar {
-    background: black;
+    background: #252525;
     display: flex;
     height: 60px;
 }
@@ -710,6 +710,10 @@ a:hover.topic-box{
     background-color: #fec325;
 }
 
+.find-row .row{
+     margin-bottom: 0;
+}
+
 .find-col{
     margin-bottom:2.5%;
 }
@@ -726,7 +730,7 @@ a:hover.topic-box{
 }
 
 .find-btn:hover{
-    background-color: #EEEEEE;
+    box-shadow: 0 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
     text-decoration: none;
 }
@@ -1084,7 +1088,6 @@ a:hover.topic-box{
     }
 
     .logo {
-        background: black;
         height: 50%;
         margin: 18px;
     }
