@@ -858,19 +858,17 @@ a:hover.topic-box{
 .mast-title{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600;
     color: white;
-    font-size: 5.25rem;
-    @include breakpoint(mobile) {
-        font-size: 1.7rem;
-    }
+    font-size: 2.25rem;
     @include breakpoint(nav) {
         font-size: 3rem;
     }
     @include breakpoint(tablet) {
-        font-size: 4.75rem;
+        font-size: 4.25rem;
     }
     @include breakpoint(lg_tablet) {
-        font-size: 4.75rem;
+        font-size: 4.25rem;
     }
     @include breakpoint(sm_desktop) {
         font-size: 4.25rem;
@@ -879,10 +877,10 @@ a:hover.topic-box{
         font-size: 4.25rem;
     }
     @include breakpoint(large) {
-        font-size: 4.25rem;
+        font-size: 5.25rem;
     }
     @include breakpoint(really_big) {
-        font-size: 4.25rem;
+        font-size: 5.25rem;
     }
 }
 
