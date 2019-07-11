@@ -315,7 +315,9 @@ h3:after, h4:after, h5:after {
 
 
 .topic-hr{
-    border-top-color: inherit;
+    border: none;
+    background-color: #ddd;
+    height: 1px;
 }
 
 /*Support Header*/
