@@ -162,7 +162,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-sidenav-link:hover {
-    font-weight: 600;
     text-decoration: none;
 }
 
@@ -453,7 +452,7 @@ h3:after, h4:after, h5:after {
 .mobile-title-pills{
     color:white;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.125rem;
     //white-space: nowrap;
     text-decoration: none;
 }
@@ -466,8 +465,10 @@ h3:after, h4:after, h5:after {
 }
 
 .mobile-hr{
-    margin: 1.75em 5px 1.75rem;
-    border-color: #666666;
+    margin: 1.75em 0;
+    background-color: #333;
+    border: none;
+    height: 1px;
 }
 
 .mobile-li{
@@ -477,11 +478,12 @@ h3:after, h4:after, h5:after {
 .mobile-accord{
     line-height: 0;
     margin-bottom: 0;
+    padding: 20px
 }
 
 .mobile-dropdown-container{
-    background-color: #252525;
-    //font-size: 5rem;
+    background-color: #1a1a1a;
+    height: 100%
 }
 
 .submenu-toggle{
