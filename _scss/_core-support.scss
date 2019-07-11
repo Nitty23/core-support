@@ -161,10 +161,6 @@ h1, h2, h3, h4, h5 {
     margin-top: .75rem;
 }
 
-.article-sidenav-link:hover {
-    text-decoration: none;
-}
-
 .article-sidenav-link{
     font-size: 1rem;
     font-weight: 500;
@@ -785,10 +781,8 @@ a:hover.topic-box{
 }
 
 .search-term{
-    animation: fadein 3s;
-    color: #fec325;
+    color: #252525;
     font-weight: 600;
-    font-size: 130%;
 }
 @keyframes fadein {
     from {color: #666666; font-size: 100%; font-weight: 400;}
@@ -897,7 +891,7 @@ a:hover.topic-box{
     bottom: 13.3125em;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 37.5rem
+    max-width: 37.5rem;
     @include breakpoint(mobile) {
         bottom: 18%;
         width: 90%;
@@ -1013,7 +1007,8 @@ a:hover.topic-box{
     background: white; 
     color: lightgrey;
     margin: 3.75rem 0rem;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 #search-icons:hover{
@@ -1055,7 +1050,7 @@ a:hover.topic-box{
 
 .result-title{
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #252525
 }
 
@@ -1137,7 +1132,8 @@ a:hover.topic-box{
     }
     
     .dropdown-searchbox{
-        width: 300px;
+        margin: 2.5rem 0;
+        width: 90%;
     }
 
     .find-mobile{
