@@ -647,22 +647,25 @@ a:hover.topic-box{
 .bullet-item{
     display: list-item;
     list-style-type: disc;
-    margin-left: 1.25rem;
+    margin-left: 2.25rem;
     padding-left: 0.25rem;
+    margin-top: 10px;
 }
 
 .subbullet-item{
     display: list-item; 
     list-style-type: circle;
     padding-left: .5rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-top: 10px;
 }
 
 .num-item{
     display: list-item; 
     list-style-type: decimal;
     padding-left: .5rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    margin-top: 10px;
 }
 
 .sublist{
