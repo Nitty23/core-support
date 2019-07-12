@@ -46,7 +46,7 @@
                 sublist: 
                   listname: A lightbox editor will appear, depending on the type of media that you selected to insert <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_media_upload.png">
                   one: For <strong>Images</strong> or <strong>Documents</strong>, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> <strong>Drag & Drop</strong> placeholder box.
-                  two: For <strong>Videos</strong>, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_video_browser_bar_url.png">
+                  two: For <strong>Videos</strong>, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL.
                 four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_video_lightbox.png">
             learn: To learn more about adding and editing media in your articles, visit <a class="underline-link" href="../../creating-content/wa/images.html">Images</a>, <a class="underline-link" href="../../creating-content/wa/videos.html">Videos</a>, <a class="underline-link" href="../../creating-content/wa/docs.html">Documents</a>.
