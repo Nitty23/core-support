@@ -11,22 +11,31 @@
               - listname: There are two ways to format your text
                 one: <strong>Format as you type</strong> - What You See Is What You Get! You can easily format as you type by using the WYSIWYG Text Toolbar. Each symbol is described below.
                 two: <strong>Use keyboard shortcuts</strong> - You can also use <a class="underline-link" href="../../best-practices/ap/keyboard_shortcuts.html">keyboard shortcuts</a> to format selected text. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
+            hr:
           - sectiontitle: Bold
             para1: To bold, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">to apply the bold formatting.
             para2: Keyboard shortcut - <strong>⌘ + B / Ctrl + B</strong>
+            hr:
           - sectiontitle: Italics
             para1: To italicize, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">to apply the italics formatting.
             para2: Keyboard shortcut - <strong>⌘ + i / Ctrl + i</strong>
+            hr:
           - sectiontitle: Headers and subheaders
             para1: Click the  in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the  to apply the header formatting.
+            hr:
           - sectiontitle: Blockquote
             para1: To add a blockquote, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> until text returns to default.
+            hr:
           - sectiontitle: Hyperlink
             para1: Copy and paste or type a link (for example, <a class="underline-link" href="https://www.army.mil">www.army.mil</a>) into your article. To convert this text to a hyperlink, select the URL text and click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/link.svg">in the text editor toolbar.
             para2: Keyboard shortcut - <strong>⌘ + K / Ctrl + K</strong>
+            hr:
           - sectiontitle: Numbered List
             para1: To add a numbered list, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new number to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> to apply the list formatting.
+            hr:
           - sectiontitle: Bullets
+            para1: To add bullets, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new bullet to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> to apply the list formatting.
+            hr:
           - sectiontitle: Remove Formatting
             para1: To clear formatting, select the existing text that you want to reset and click the  <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg">.
             hr:
