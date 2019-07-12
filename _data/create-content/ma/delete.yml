@@ -14,6 +14,7 @@
               - title: Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization. 
             note: Once an article is deleted, only the person who created an article can restore or archive it from their Deleted folder. If an authorized user deletes another user’s article, they can no longer access it.
+            hr:
           - sectiontitle: Moving an article to deleted folder
             para1: There are two ways to move an article to your Deleted folder.
             numlist:
