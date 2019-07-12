@@ -15,6 +15,7 @@
                 two: Minimum image size&#58; 200 x 200 pixels
                 three: Transparent background (recommended)
                 four: Avoid animated image files. The first frame of the animation will be converted to a picture (.png format).
+            hr:
           - sectiontitle: Upload a new organization logo
             para1: To customize your organization’s logo, you must be an administrator.
             numlist: 
@@ -32,6 +33,7 @@
                   two: Click <strong>Upload New Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
                 four: A loading bar will appear to show the upload progress. Once your logo has successfully uploaded, click the <strong>Update</strong> button to close the lightbox.
+            hr:
           - sectiontitle: Change an existing logo
             numlist: 
               - listname: 
@@ -47,6 +49,7 @@
                   two: Click <strong>Change Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
                 three: A loading bar will appear to show the upload progress. Once your logo has successfully uploaded, click the <strong>Update</strong> button to close the lightbox.
+            hr:
           - sectiontitle: Remove logo
             numlist:
               - listname: 
