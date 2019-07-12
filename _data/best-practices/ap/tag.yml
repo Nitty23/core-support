@@ -36,9 +36,9 @@
                 two: They will vary depending on the type of Army organization you are in. For example, if you’re making a tag system for a U.S. Army Corps of Engineers unit, your high-level tags might be “environment,” “infrastructure,” “engineering,” “safety,” and “emergency operations.” Whereas, if you are building a system for an infantry unit, you could add tags for “operations,” “training,” “equipment,” and so forth.
                 three: If dates are important to your organization, you should also create tags for the month, year, or quarter (depending on what makes the most sense).
                 sublist: 
-                  one: Be consistent with your tags. Ask yourself these questions:
+                  one: Be consistent with your tags. Ask yourself these questions&#58;
                   two: Will you use singular or plural terms? (<em>exercise</em> versus <em>exercises</em>)
-                  three: Which word type will you use: nouns, adjectives, verbs, or a combination of the three? (<em>train</em>, <em>training</em>, or <em>trainer</em>)
+                  three: Which word type will you use&#58; nouns, adjectives, verbs, or a combination of the three? (<em>train</em>, <em>training</em>, or <em>trainer</em>)
                   four: What is the appropriate format for abbreviations? (<em>1BCT</em> versus <em>1st BCT</em>)
                   five: Will you incorporate symbols and characters? 
                 four: Once you’ve come up with at least 10 tags, create a master list and provide it to your team members. Remember to periodically review this list and update it, as needed.
