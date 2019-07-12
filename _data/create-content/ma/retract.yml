@@ -14,6 +14,7 @@
               - title: Editors, Publishers and Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization.
             note: If you retract another user’s article, you will no longer be able to access it. You will need to coordinate with the person that created the article to edit and re-release the draft. If you wish to make changes to the released article, we recommend that you edit and release your updates without retracting it.
+            hr:
           - sectiontitle: Retract an article
             para1: There are two ways to unpublish an article.
             numlist:
