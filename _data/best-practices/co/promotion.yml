@@ -37,7 +37,7 @@
               - title: Join a Content Community
                 definition: <strong>Submit</strong> your content with a community for increasing brand awareness, building credibility and trust. Examples YouTube, Flickr, and Subreddits.
             hr:
-          - sectiontitle: Promote your content
+          - sectiontitle: Content promotion tips
             numlist:
               - listname:
                 one: <strong>Know your audience</strong><br>This means you have an idea about what type of content interests them, what they are likely to share, and on what platforms they will likely share it. You can start to understand your audience and their behaviors with Google Analytics or social analytics tools. CORE enables you to <a class="underline-link" href="../../getting-started/as/connect_account_to_google_analytics.html">connect your articles to a Google Analytics account</a> to track pageviews and basic traffic data. Administrators can also track content from your entire team by <a class="underline-link" href="../../core-community/mo/connect_your_organization_to_google_analytics.html">connecting your organization to Google Analytics</a>.
