@@ -8,6 +8,7 @@
             para1: Content readability affects user engagement, page views and search performance. Use the following tips to help guide you as you create content.
           - sectiontitle: Tip &#35;1&#58; Keep in mind your audience
             para1: Generally, writing for an eighth-grade reading level will make your content easy to absorb and understand by readers. 
+            hr:
           - sectiontitle: Tip &#35;2&#58; Easy to read and scan
             itemlist: 
               - listname: For easier understanding by readers and/or search crawlers
@@ -15,8 +16,10 @@
                 two: Write short sentences – average sentence length should be 18-20 words
                 three: Include bullets – easy to scan content
                 four: Use bolded fonts – easy to scan and highlight
+            hr:
           - sectiontitle: Tip &#35;3&#58; Limit use of difficult words
             para1: Use natural, clear and simple language with easy to understand words. 
+            hr:
           - sectiontitle: Tip &#35;3&#58; Avoid using passive voice.
             para1: Readers stay engaged when active voice is used.
             tip: Take advantage of online tools that test the readability of your content and check for grammatical errors. You can paste in your text, and the app will tell you where you can make improvements.
