@@ -15,10 +15,12 @@
                 four: Position Army.mil – and your articles – as the primary source for Army news
             para3: In public affairs, one of your many roles is to disseminate information to the public. The public doesn’t always make this easy, as viewers decide almost instantaneously whether an article is worth their time based on the headline.
             tip: Another way to enhance your article is by using eye-catching photos. Learn more about <a class="underline-link" href="./selecting_quality_imagery.html">Selecting quality imagery</a>.
+            hr:
           - sectiontitle: The power of a good headline      
             para1: According to one study, 59% of articles are shared by people who haven’t even read the article – that is, their share was based solely on the headline of the article.
             para2: Your headline is your first (and only) chance at drawing viewers in. Without a great headline, your article won’t be read. 
             para3: By improving your headlines, the story that you have worked so hard on will get views and leave people wanting more.
+            hr:
           - sectiontitle: Golden rules for headlines
             numlist:
               - listname: Here are several rules to headline writing for Army.mil articles that will help improve your article’s chances of being read
@@ -27,6 +29,7 @@
                 three: <strong>It must be concise.</strong> A wordy headline will not be read. Keep your headline short and to the point.
                 four: <strong>It must be exciting.</strong> Don't bore your reader - excite them, amuse them, make them curious. (What would make you want to read a story?)
                 five: <strong>It must refrain from acronyms.</strong> If you want your article to get more views, you have to think outside of the Army; will civilians and Families of Soldiers understand what you’re saying?
+            hr:
           - sectiontitle: Example headlines
             para1: Here’s an example of a recent headline uploaded to CORE&#58;
             para2: <strong>“Pushing forward, never wavering”</strong>
@@ -34,6 +37,7 @@
             para4: Updating the headline to the following makes it more appealing to the viewer, prompting them to want to learn more&#58;
             para5: <strong>“Escaping urban jungle, man finds ‘perfect fit’ with Army”</strong>
             para6: (See article at <a class="underline-link" href="https://www.army.mil/article/215589">https://www.army.mil/article/215589</a>)
+            hr:
           - sectiontitle: Headline analyzer tool
             para1: CoSchedule has developed a great online resource which will help you develop your headlines&#58; <a class="underline-link" href="https://coschedule.com/headline-analyzer">https://coschedule.com/headline-analyzer</a>
             para2: It gives each headline a score based on common headline types, character count, word type balance, etc. It's not foolproof, but it's useful. 
