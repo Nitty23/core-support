@@ -13,6 +13,7 @@
                 two: Enter your page title, URL, description, and contact email address. These steps are required to create a Page.
                 three: Additionally, you can add an organization logo that will appear in your header. To upload an image, click on the  <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> and select an image from your computer. You can also drag and drop an image on top of the <strong>Upload Photo</strong> circle.
                 four: Click <strong>Create Page</strong> at the top-right corner to go to the Edit Page screen.
+            hr:
           - sectiontitle: Selecting a Page Address (URL)
             itemlist:
               - listname: When selecting a URL, keep these formatting requirements in mind
