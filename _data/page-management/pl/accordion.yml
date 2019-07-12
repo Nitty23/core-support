@@ -19,7 +19,7 @@
                 - title: Section Title
                   definition: Add an optional title for the section. If this field is left blank, then no title will appear above the section.
                 - title: Add a Category
-                  definition: Add a category title and body text that will be collapsed. See <strong>Customize an Accordion section</strong> below for more details.
+                  definition: Add a category title and body text that will be collapsed. See <strong>Add a new category</strong> below for more details.
                 - title: Customize Existing Categories
                   definition: You can edit, reorder or remove any existing category. Continue reading below for more details on each of these customization options.
                 seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
