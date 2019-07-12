@@ -16,6 +16,7 @@
                 five: You can continue to add more tabs, or choose to edit labels, reorder or remove the existing tabs.
                 six: When you’re ready, click <strong>Save</strong> to close the Navigation Management lightbox.
             para1: A navigation bar now appears below the Page header. Clicking on a tab will navigate you to that page to add or edit content sections.
+            hr:
           - sectiontitle: Edit tabs on navigation bar
             numlist:
               - listname: 
@@ -31,6 +32,7 @@
                   two: Enter a new tab label.
                   three: Click <strong>Add</strong> to close the dialog box.
                 three: When you’re ready, click <strong>Save</strong> to close the Navigation Management lightbox. You’ll see the change appear in your navigation menu.
+            hr:
           - sectiontitle: Remove tab on navigation bar
             numlist:
               - listname: 
