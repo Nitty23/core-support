@@ -16,6 +16,7 @@
                 five: Select a new date and time from the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_change_date_of_released_article.png">
                 six: Click the <strong>Change Release Date</strong> button to close the calendar.
             para1: Your new release date is now displayed on your overview section and will automatically update everywhere that it is referred to in CORE and on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
+            hr:
           - sectiontitle: Backdate an article before releasing          
             numlist: 
               - listname: You can also use the scheduling calendar if you want to backdate an article prior to releasing it. This action is not available to contributors since they do not have release authority. To backdate an article
