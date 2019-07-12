@@ -20,6 +20,7 @@
             para2: On its release date, your article will automatically publish, making it available for anyone to read on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. The article will still be available from the Released folder of your Inbox, but the Scheduled label will be removed.
           - sectiontitle: 
             tip: All release times are based on your local timezone. If you would like to schedule an article to release at a certain time in a different timezone, then you will need to calculate the difference before entering it into CORE. 
+            hr:
           - sectiontitle: Change a scheduled date 
             numlist:
               - listname: To change the date and/or time for a scheduled article
@@ -29,12 +30,14 @@
                 four: Select a new date and time from the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_change_schedule_date.png">
                 five: Click the <strong>Schedule for Release</strong> button to close the calendar.
             para1: Your new scheduled release date is now displayed on your overview section.
+            hr:
           - sectiontitle: Cancel a scheduled release 
             numlist:
               - listname: To cancel a scheduled release
                 one: From your article page, click the current schedule date located in the overview section of your Article Settings sidebar.
                 two: Click <strong>Cancel Scheduling</strong> at the top of the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_cancel_scheduling.png">
             para1: Your article status is reverted to a draft, and the future release date is removed from the overview section of your article page.
+            hr:
           - sectiontitle: Backdating
             numlist:
               - listname: You can also use the scheduling calendar if you want to backdate an article prior to releasing it. To backdate an article
