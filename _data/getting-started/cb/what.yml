@@ -41,6 +41,7 @@
           - sectiontitle: Your Page
             para1: CORE also offers qualifying organizations the ability to promote their content and organization information further through an Organization Page, hosted on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> (<em>www.army.mil/organization_name</em>). We provide a branded, mobile-optimized template and publishers to customize the navigation and page layout to highlight content that is important to their organization, such as featured articles, videos, leaders, and resources.
             learn: Learn more about <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Pages</a>
+            hr:
           - sectiontitle: Public Affairs Community
             para1: A key feature of the Community section is the User Directory. This is a searchable list of public affairs professionals in the Army that provides organization and contact information about each user. This is a great way for you to connect and coordinate with other members of the Army public affairs community.
             para2: <strong>Have more questions?</strong> Feel free to reach out to the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a>.
