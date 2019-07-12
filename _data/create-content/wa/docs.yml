@@ -11,6 +11,7 @@
               - listname: Use these guidelines when uploading a new document
                 one: Accepted file formats&#58; .pdf, .doc, .docx, .ppt, .pptx, .txt
                 two: Max file size&#58; 20 MB
+            hr:
           - sectiontitle: Add a new document
             numlist: 
               - listname: 
@@ -24,6 +25,7 @@
                 eight: Click <strong>Insert</strong> to close the lightbox and place your document(s) in the article.
             para1: Your new document(s) will display as a hyperlink within your article, followed by the file type and size. This file information lets your readers know exactly what they will be downloading when they click on the hyperlink. If you prefer not to display this information, then you can delete it the same way that you remove normal text in your article. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_document_hyperlink.png">
             note: If you upload multiple documents at the same time, they will display as a list of hyperlinks on separate lines. You can highlight the link text and drag it to a new position within your article.
+            hr:
           - sectiontitle: Add an existing document
             para1: Once you upload a file, it is saved to your article and can be accessed from your previous uploads. This allows you to place a document in multiple locations within your article or link to an existing file without needing to re-upload it.
             numlist:
@@ -34,6 +36,7 @@
                 four: If you want to change the link text that will display within your article, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail to open a Document Details panel.
                 five: Click <strong>Insert</strong> to close the lightbox and place your existing document(s) in the article.
             note: At this time, you can only access files that were uploaded to the current article. We plan to implement a media library in the future that will expand your capabilities to manage your images and files, as well as use media assets from other CORE users. Stay tuned!
+            hr:
           - sectiontitle: Edit or remove a document link
             para1: Once a document is placed in your article, it is treated just like a regular hyperlink. You can inline edit the link text, or select the link text and delete it from the body of your article altogether. Don’t worry, the file is connected to your article so it is still available in your previous uploads, if you need to add it again.
             numlist:
@@ -41,6 +44,7 @@
                 one: Click the link text in your article to open the Edit Link dialog box.
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg"> to remove the hyperlink.
             tip: While you can edit the link text in your article, you cannot change the document filename or URL once it is uploaded to CORE. If you would like to change these, you will need to update the filename on your computer and re-upload a new version of the document.
+            hr:
           - sectiontitle: Delete a document
             para1: Removing a hyperlink from your article body does not permanently delete the document from the previous uploads that are connected to your article.
             numlist:
