@@ -9,6 +9,7 @@
             para2: To avoid formatting issues, we recommend entering text directly in CORE. If you like working in a word processor and pasting into CORE, consider using a plain text editor such as Notepad for Windows or TextEdit for Mac, instead of other programs.
             para3: The sections below cover steps you can take to troubleshoot text formatting, reformat text, and prevent these issues from reoccurring. 
             para4: For detailed information about all the ways you can format text with CORE, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting text</a>.
+            hr:
           - sectiontitle: Paste new content as plain text
             para1: When copying and pasting text, we recommend pasting as plain text. This option strips all stray formatting that carries over from an external program so you can apply appropriate text styles using the CORE text editor.
             numlist: 
@@ -16,6 +17,7 @@
                 one: Copy the text from your external program.
                 two: In CORE, position your mouse where you want to insert the text in your text editor
                 three: Enter <strong>⌘ + Shift + V</strong> (Mac) or <strong>Ctrl + Shift + V</strong> (Windows) using your keyboard to paste plain text.
+            hr:
           - sectiontitle: Remove existing formatting
             para1: If you’ve already pasted text into CORE, it may be easier to remove the current formatting rather than start over.
             numlist: 
@@ -24,5 +26,6 @@
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/eraser.svg"> in the WYSIWYG Text Toolbar.<img class="data-img" src="/e2/images/rv7/core-support/best-practices/ap/ap_wysiwyg_tool_bar.png">
                 three: Any highlighted text is now restored to its original formatting. You can reformat this text using the formatting guidelines outlined above.
             para2: Keyboard Shortcut&#58; <strong>⌘ + Space / Ctrl + Space</strong>
+            hr:
           - sectiontitle: Troubleshoot special characters
             para1: Special characters may cause formatting issues in a text editor, causing HTML code to appear in place of the special characters. This issue may be due to browser variations in rendering special characters. If you copied and pasted this text, try typing the text directly into CORE.
