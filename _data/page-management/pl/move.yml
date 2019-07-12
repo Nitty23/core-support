@@ -13,6 +13,7 @@
               - listname: 
                 one: <strong>Borders</strong> appear around the entire section when you hover over it. This helps you visualize the entire content area that will be moved.
                 two: <strong>Placeholders</strong> represent the section you are moving and show you where you can place a section. 
+            hr:
           - sectiontitle: Move sections on your Page
             numlist:
               - listname: 
