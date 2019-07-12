@@ -19,6 +19,7 @@
                 one: <a class="underline-link" href="../../core-community/mo/change_user_roles.html">Change user roles</a>
                 two: <a class="underline-link" href="../../core-community/mo/remove_user_from_organization.html">Remove users from the organization</a>
             note: In the future, we plan to expand your capabilities within the User Directory, enabling you to follow other CORE users. This will filter content produced by specific people into your All Content page, creating a custom news feed of content that is relevant to you and your organization. Stay tuned!
+            hr:
           - sectiontitle: View all CORE user profiles
             numlist: 
               - listname: 
