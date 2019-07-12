@@ -6,3 +6,40 @@
         sections:
           - sectiontitle: 
             para1: Tags are tremendously useful for enabling people to find related content on CORE and Army.mil. In order to provide the best experience for your visitors, this requires a well-defined and consistent tag taxonomy. Continue reading below for tips and best practices on tagging your content.
+          - sectiontitle: &#35;1&#58; Make your tags relevant and descriptive
+            para1: Remember, tags are supposed to help other users in navigating your content. If you tag everything with “Army,” it is going to be hard for people to sort through your articles.
+            para2: As a rule of thumb, keep your tags to two words or less. If you find yourself going over that limit, it may make more sense to create two separate tags.
+            hr: 
+          - sectiontitle: &#35;2&#58; Use 15 tags or fewer
+            para1: While you can add as many tags to your article as you’d like, we recommend that you limit the number of tags to <strong>five to 15 tags per article</strong>. This cap helps to keep spam content out of news feeds and search results, and serves as a good rule of thumb to ensure that you only use the <strong>most relevant tags</strong> for each article.
+            hr:
+          - sectiontite: &#35;3&#58; Use a combination of broad and specific tags
+            para1: Our advice is to mix a few general terms with more specific ones, to appeal to multiple groups of potential readers.
+            para2: Broad tags will get your article noticed soon after it is released, as more people search for general topics. The shelf life is limited, however, because your article will be pushed down in news feeds and search results by newer articles tagged with the same popular topics.
+            para3: Using more specific tags may mean that fewer people will search for them. However, those who do will find your article somewhat relevant. Not only does your article find the <em>right</em> audience, but it also stays easily accessible in search results for a much longer time since the tag is less popular.
+            para4: There is no exact science for how many of each type of tag you should use. To figure out what works best for your organization’s content, try different tags and assess your stats to see how popular they are.
+            hr:
+          - sectiontitle: &#35;4&#58; Use existing tags
+            para1: Tempted to create a new tag? First, consider whether an existing tag will work.
+            para2: As you enter a tag, CORE provides a list of popular tags that match the keyword, along with the number of times that each tag has been added. Use these suggestions to help you determine the most effective tags.
+            para3: If you choose to create a new tag, make sure it relates to existing content, rather than creating a solo tag. Remember, the main purpose of tags is to help people discover new content, so a tag used only once is a useless dead end. You can add this new tag to older content to ensure that people can always find more related content.
+            hr:
+          - sectiontitle: &#35;5&#58; Avoid redundancy
+            para1: You should avoid using synonyms and slight grammar variations for tags. For example, <em>soldier</em> and <em>soldiers</em> will create two separate tags. Similarly, <em>train</em>, <em>training</em>, <em>trained</em> and <em>trainer</em> will create four different tags.
+            para2: Long tag lists add visual clutter to your article and news feeds, making it harder for users to make decisions or discover new content. Furthermore, these redundancies no longer improve SEO for your article. If they sound similar, they are similar; choose one.
+            hr:
+          - sectiontitle: &#35;6&#58; Establish a Tag System
+            para1: Now that you know some best practices for tagging, you can establish a tag system for your organization. This will standardize tags across multiple authors, making it easier to avoid redundancy and keep your tags lists short and relevant. 
+            numlist: 
+              - listname: 
+                one: Determine your high-level tags. These types of tags divide your content into the most general categories possible.
+                two: They will vary depending on the type of Army organization you are in. For example, if you’re making a tag system for a U.S. Army Corps of Engineers unit, your high-level tags might be “environment,” “infrastructure,” “engineering,” “safety,” and “emergency operations.” Whereas, if you are building a system for an infantry unit, you could add tags for “operations,” “training,” “equipment,” and so forth.
+                three: If dates are important to your organization, you should also create tags for the month, year, or quarter (depending on what makes the most sense).
+                sublist: 
+                  one: Be consistent with your tags. Ask yourself these questions:
+                  two: Will you use singular or plural terms? (<em>exercise</em> versus <em>exercises</em>)
+                  three: Which word type will you use: nouns, adjectives, verbs, or a combination of the three? (<em>train</em>, <em>training</em>, or <em>trainer</em>)
+                  four: What is the appropriate format for abbreviations? (<em>1BCT</em> versus <em>1st BCT</em>)
+                  five: Will you incorporate symbols and characters? 
+                four: Once you’ve come up with at least 10 tags, create a master list and provide it to your team members. Remember to periodically review this list and update it, as needed.
+            note: To learn more about utilizing tags, visit <a class="underline-link" href="../../creating-content/wa/tags.html">Tags</a>, <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag Feeds</a>, and <a class="underline-link" href="../../page-management/aop/tagged_news.html">Tagged News Lists</a>.
