@@ -19,6 +19,7 @@
             para1: Articles that are imported as released will automatically be backdated to the original publish date in DVIDS. However, if you make any changes to the article in CORE and then re-publish it, then the release date will be updated.
             para2: Although you cannot directly import media assets using the DVIDS import tool, all images associated with a news story will automatically import and display in a slideshow at the top of your article. You can change images to display in a grid layout or move them to a new position in the article at any time. To learn more, visit Adding Images to Articles.
             note: CORE only supports embedded videos from YouTube, so you cannot import videos directly from DVIDS. To add a video to your article or Page, you will need to download it from DVIDS and upload it to YouTube first. To learn more, visit <a class="underline-link" href="./videos.html">Adding Video to Articles</a>.
+            hr:
           - sectiontitle: View imported articles
             para1: If a DVIDS article has already been imported into CORE, you will see a green “Imported” button in the DVIDS news feed.
             numlist:
