@@ -17,6 +17,7 @@
                 four: You can also select an existing tag from the dropdown list of matching terms that appears as your type.
                 five: To remove a tag, click the <strong>X</strong> to the right of the tag. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_sidebar.jpg">
             tip: As you type a keyword, tags that match your entry will auto-populate, along with the number of times that each tag has been added to an article. Use these suggestions to help you determine the most effective tags. For example, if you are deciding between two similar tags, it is better to opt for the one that has been tagged on more articles to increase the chance that your article will be discovered. For more tips, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
+            hr:
           - sectiontitle: Formatting tags
             itemlist:
               - listname:
@@ -25,6 +26,7 @@
                 three: For multi-word tags, use spaces, underscores ( _ ) or hyphens ( - ). No other special characters are accepted.
                 four: Tags are NOT case-sensitive. For example, entering <em>Soldier</em>, <em>soldier</em> and <em>SOLDIER</em> will result in a single tag.
                 five: Double check for misspellings.
+            hr:
           - sectiontitle: Tag feeds and search results
             para1: Your released articles will appear in the search results and <a class="underline-link" href="../rc/tag_feeds.html">Tag Feeds</a> of any tags that you use. Thus, assigning relevant tags to your article increases the chance that other users will see your content.
             para2: The keyword is <strong>relevant!</strong> You don’t want unrelated content showing up in your news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the <strong>five most relevant keywords</strong>. Avoid adding more than 15 tags.
