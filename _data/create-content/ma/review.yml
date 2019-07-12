@@ -27,7 +27,8 @@
               - col1: Reject the submitted draft
                 col2: Click<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">and select <strong>Reject Article</strong> from the dropdown options.
             tip: You can also <strong>release</strong> or <strong>reject</strong> a submitted article directly from the <strong>Drafts and Submissions</strong> tab of your Inbox. Simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located on the far right side of the pending article that you want to modify.
-          - sectiontitle: What happens when you approve or reject a submitted article?
+            hr:
+          - sectiontitle: Approve or reject a submitted article
             itemlist: 
               - listname: When you <strong>schedule</strong> or <strong>release</strong> an article
                 one: The article moves to the <strong>Released</strong> folder in your Inbox. It is still accessible to the creator and all organization supervisors for future updates, if needed.
