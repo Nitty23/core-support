@@ -18,6 +18,7 @@
                 col2: Grow your email marketing list, making future emails more effective
               - col1: Links back to your article
                 col2: Rank higher in search engines
+            hr:
           - sectiontitle: Promote your content
             para1: Once you have released your article, consider the following techniques for promotion&#58;
             lexicon: 
@@ -35,6 +36,7 @@
                 definition: <strong>Connect</strong> with influencers who are willing to share your content.
               - title: Join a Content Community
                 definition: <strong>Submit</strong> your content with a community for increasing brand awareness, building credibility and trust. Examples YouTube, Flickr, and Subreddits.
+            hr:
           - sectiontitle: Promote your content
             numlist:
               - listname:
