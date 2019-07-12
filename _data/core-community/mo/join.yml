@@ -15,6 +15,7 @@
                 two: Import articles from DVIDS
                 three: Edit or submit existing articles in your Inbox (Preview only)
             para2: In order to restore your access to basic article and inbox features, you will need to join a new organization. Continue reading to learn more.
+            hr:
           - sectiontitle: Join an organization
             numlist:
               - listname: 
