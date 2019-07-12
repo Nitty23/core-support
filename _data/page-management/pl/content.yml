@@ -15,6 +15,7 @@
                 four: <a class="underline-link" href="./leader_section.html">Leaders</a> - Adds a profile card to highlight each leader in your organization, including their name, position, official photo, and link to a document or URL 
                 five: <a class="underline-link" href="./accordion_section.html">Accordion</a> - Adds a list of topics, each with a collapsible content area
             learn: <strong>What content sections would you like to see in CORE?</strong> We plan to implement more types of content sections in the future. Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Page Request">CORE Support Team</a> to let us know how we can help your organization.
+            hr:
           - sectiontitle: Add a section to your Page
             numlist: 
               - listname: 
@@ -26,6 +27,7 @@
                 six: A lightbox editor will open, allowing you to customize the section. To learn about the options available in each section, click on the section types listed above.
                 seven: Once you’ve finished editing your section, click <strong>Add</strong> to close the lightbox. The new section will appear on the Page with placeholder content. 
             note: Once you’ve added multiple content sections to your Page, you can rearrange them to create a custom page layout. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a Content Section</a>.
+            hr:
           - sectiontitle: Edit an existing section
             numlist: 
               - listname: 
