@@ -14,6 +14,7 @@
                 three: Have release authority for your command or organization
             para1: If your request is approved, you will become the primary owner of your organization, making you responsible for all information that is released to the public on behalf of the organization. 
             para2: While you can delegate permissions to allow other team members to release content, you must ensure that all people who publish information on web pages within the Army.mil domain have also received <a class="underline-link" href="https://iatraining.us.army.mil/index.html">OPSEC training</a>, in accordance with AR 530-1.
+            hr:
           - sectiontitle: Request a new organization
             para1: When you attempt to join a new team, you will be asked to search for the organization. CORE will auto-suggest options that match your search term, based on the current <a class="underline-link" href="./organization_directory.html">Organization Directory</a>. 
             itemlist:
