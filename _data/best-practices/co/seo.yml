@@ -18,7 +18,7 @@
                 six: <strong>Default Meta Tags</strong> - Adds preset meta tags that describe your content to search engines. You can custom this metadata on your <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article settings</a> and <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
             para1: In addition to CORE’s built-in features, there are some actions that you can take to optimize your web content.
             hr:
-          - sectiontitle: SEO Tip &#35;1&#58; Research and use relevant keywords
+          - sectiontitle: Tip &#35;1&#58; Research and use relevant keywords
             para1: One of the easiest ways to help search engines prioritize your content is to use relevant keywords throughout your articles and organization pages. When there’s a match between the words people are typing into a search engine and the words you’ve incorporated into your content and SEO settings, then your page is more likely to appear in the search results.
             para2: The first step is to <strong>brainstorm a list of two to five-word phrases</strong> that potential visitors might look for when searching for content like yours. Choose specific and targeted terms that describe your organization, what you do, where you do it, etc.
             para3: Search engines themselves provide a great resource for keyword ideas. Enter some phrases that you are considering into the search box and assess the results. Take note of the sites that rank high and determine if your content is on the right track for each term. 
@@ -28,35 +28,35 @@
             tip: Broad keywords will always have a higher search volume, but your content is more likely to get lost in SERPs among thousands of other sites. Consider narrowing your keywords to more <strong>specific terms</strong> to attract more targeted visitors, increasing the chances that your content is found by the right audience.	
             para7: Once you narrow your list to the ideal phrases that are most commonly searched, scatter them throughout your content, <a class="underline-link" href="../../best-practices/ap/quality_headlines.html">headlines</a>, image alt text, and SEO metadata to help search engines prioritize your content in search results. 
             hr:
-          - sectiontitle: SEO Tip &#35;2&#58; Know what is trending
+          - sectiontitle: Tip &#35;2&#58; Know what is trending
             para1: While keywords will vary based on the topic, it’s important to pay attention to trending topics that could help people find your content. Each day, Google tracks their top trending news items.
             para2: Incorporating these trending topics into your content and SEO settings will add some specificity to your keywords and help to prioritize your content in SERPs. For example, if your story is about how Guardsmen are helping local residents during a hurricane, including the name of the hurricane in the headline and title tag. 
             tip: Watch for seasonal trends. You’ll notice that some phrases have huge spikes at certain times of the year, such as holidays or monthly commemorations. Plan ahead to target these seasonal keywords.
             hr:
-          - sectiontitle: SEO Tip &#35;3&#58; Use simple language
+          - sectiontitle: Tip &#35;3&#58; Use simple language
             para1: Use common, simple language and avoid the use of acronyms. Ask yourself what the central element of the news story is, and what you would type into a search engine to find out more information on the topic. 
             para2: Although it is important to incorporate keywords into your content and SEO metadata for search engines, don’t forget to <strong>write for humans</strong>. Overloading your articles with the same repetitive keywords can lead to some not-so-great content. Instead, consider swapping out some keywords with relevant, contextually-related phrases. This will help your content sound more natural, while making it easier for search engines to understand the context of your article or organization web page.
             hr:
-          - sectiontitle: SEO Tip &#35;4&#58; Customize your metadata
+          - sectiontitle: Tip &#35;4&#58; Customize your metadata
             para1: Your metadata includes the title tag and meta description for your article or organization page. Both elements are invisible on the web page; however, they are the first thing that people see when your content appears in search results, on browser tabs, and in shared links on social media. Thus, customizing metadata is your opportunity to provide a positive user experience before visitors even get to your content.
             para2: First, always write <strong> unique titles and descriptions</strong>! If you use the same metadata across multiple pages, search engines may think your site has duplicate content and won’t know how to rank each page. This could penalize your site’s overall search ranking.
             para3: Use <strong>clear, descriptive and eye-catching</strong> language to entice people to click on your page, as opposed to another search result. Clicks from search results are associated with a better ranking, so the more people that click on your page, the better!
             para4: Lastly, be sure to include your <strong>relevant keywords</strong> in your title tag (see tip &#35;1) to increase the chances of your content being ranked higher in SERPs for those terms. The most important keywords should be at the beginning of the tag. Remember, you are trying to inform and entice visitors with your title, so avoid overloading it with the same keywords, as this will dissuade people from clicking on it. If you would like to use additional keywords, consider incorporating them into your meta description.
             learn: Learn how to customize your SEO metadata in your <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article settings</a> and <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
             hr:
-          - sectiontitle: SEO Tip &#35;5&#58; Link to other relevant content, both internal and external
+          - sectiontitle: Tip &#35;5&#58; Link to other relevant content, both internal and external
             para1: Search engines crawl websites by following links – both internal and external – and use them to find out what content is related and valuable. Adding related links to your content will help to increase visibility and prioritize it on SERPs.
             para2: Cross promote your articles by linking to them from your relevant articles. Using these <strong>internal links</strong> will help search engines to more quickly find and rank your content, and also improves user experience by offering a way for your visitors to find related information. You can link directly from sentences in your copy or add a related links section at the end of your article. For more tips on how to promote your articles, visit <a class="underline-link" href="./content_promotion.html">Content promotion</a>.
             para3: Although it seems counter-intuitive to link to an external website and direct a visitor away from your site, using <strong>external links</strong> can actually help your SEO. By linking to external websites, you are creating a useful resource for the topic and improving user experience. Search engines typically reward sites that do this by improving their search engine ranking.
             hr:
-          - sectiontitle: SEO Tip &#35;6&#58; Link text matters
+          - sectiontitle: Tip &#35;6&#58; Link text matters
             para1: Whether it is an internal or external link, the wording in your anchor text matters. Anchor text – the clickable text that visitors see within your article – should be <strong>relevant and descriptive</strong>, providing context to help visitors navigate your website. Avoid using generic anchor text like, “Click here,” since this does not tell people where they will go or what they will see if they click the link.
             para2: Similar to your titles and meta descriptions, make sure the link text looks natural in your copy and, if possible, use keywords (see tip &#35;1).
             tip: Anchor text is a great way to boost your SEO, but keep in mind that excessive linking or adding the exact same keywords to every anchor text could raise red flags as search engines crawl your content.
             hr:
-          - sectiontitle: SEO Tip &#35;7&#58; Encourage other Army organizations to link to you
+          - sectiontitle: Tip &#35;7&#58; Encourage other Army organizations to link to you
             para1: <strong>Inbound links</strong> are links on external websites that direct visitors and search engines to your content. They serve as a key variable in SEO, because they demonstrate to search engines that other websites find your content credible, reliable, and authoritative on your topic.
             para2: As a result, it's important to create a network with as many sites as possible linking back to you. The <a class="underline-link" href="https://core-odev.us.army.mil/community/users">CORE User Directory</a> is a great resource for contacting other members from Army public affairs community that could help to share your content on their organization’s websites. The more links, the better! 
             hr:
-          - sectiontitle: SEO Tip &#35;7&#58; Keep your organization page active
+          - sectiontitle: Tip &#35;8&#58; Keep your organization page active
             para1: If you want your organization’s web page to rank well, you should continually create fresh, well-written content. This will send the message to visitors and search engines that your site is still active and relevant. Writing articles is a relatively easy way to generate new content on a regular basis.          
