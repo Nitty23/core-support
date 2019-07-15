@@ -14,7 +14,7 @@
             para5: <strong>Known leader name acceptable in title</strong> “Milley visits Fort Hood”
             para6: <strong>Postal code abbreviations</strong> The eight states that are not abbreviated in text&#58; AK (Alaska), HI (Hawaii), ID (Idaho), IA (Iowa), ME (Maine), OH (Ohio), TX (Texas), UT (Utah). Also&#58; District of Columbia (DC).
             para7: <strong>Miscellaneous</strong> Use <em>New York state</em> when necessary to distinguish the state from <em>New York City</em>. Use <em>state of Washington</em> or <em>Washington state</em> when necessary to distinguish the state from the <em>District of Columbia</em>.
-            hr:
+            hr: 
           - sectiontitle: Body Text
             para1: <strong>Dateline format “NEWPORT NEWS, Va. (April 1, 2017) – Article text...”<br>Except for cities that stand alone in datelines, use the state name in textual material when the city or town is not in the same state as the dateline, or where necessary to avoid confusion&#58; <em>Springfield, Massachusetts</em>, or <em>Springfield, Illinois</em>. Provide a state identification for the city if the story has no dateline, or if the city is not in the same state as the dateline. However, cities that stand alone in datelines may be used alone in stories that have no dateline if no confusion would result.
             para2: <strong>Numerals</strong> In general, spell out <strong>1-9, 1st-9th</strong>.
@@ -53,6 +53,8 @@
             hr:
           - sectiontitle: Force Structure
             table:
+              - heading1: <embed class="hider">
+                heading2: <embed class="hider">
               - col1: Soldier
                 col2: Individual
               - col1: Squad/Section
@@ -71,3 +73,45 @@
                 col2: 20,000 to 45,000 Soldiers; 2 to 5 divisions
               - col1: Army
                 col2: 50,000+ Soldiers
+            hr:
+          - sectiontitle: A
+            lexicon:
+              - title: abbreviations/acronyms
+                definition: Only use abbreviations on second reference. The abbreviations should be established on first reference, preferably without using parenthesis&#58; <em>Soldiers should check their Leave and Earnings Statement, known as an LES, to ensure the changes were implemented.</em>
+              - title: active duty (noun) active-duty (compound modifier)
+                definition: Hyphenate when used as a compound modifier&#58; <em>He was active duty before becoming a reserve Soldier. He was an active-duty Soldier before becoming a reserve Soldier.</em>
+              - title: African American (noun) African-American Soldier (adjective)
+                definition: Black is the preferred adjective according to AP style.
+              - title: all hands (noun) all-hands (adjective/compound modifier)
+                definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The commanding officer called all hands to the meeting. The Sailors attended the all-hands call.</em>
+              - title: American flag, U.S. flag
+                definition: Lowercase flag.
+            hr: 
+          - sectiontitle: C
+            lexicon:
+              - title: career branches
+                definition: Capitalize when referring to a specific branch&#58; <em>Infantry, Armor, Field Artillery, Signal, Public Affairs, Medical Service</em>. Lowercase when referring to a job title&#58; <em>infantryman, paratrooper, military police</em>. 
+              - title: cavalry
+                definition: Lowercase unless it is part of a unit name. Do not confuse with Calvary, which is a religious term.
+              - title: change of command ceremony (compound modifier)
+                definition: Do not hyphenate.
+              - title: civilian titles
+                definition: Do not use courtesy titles such <em>Mr., Mrs., Miss, or Ms.</em> unless requested by the named person. Other formal titles such as <em>Dr., Sen. or Gov.</em> should be used where applicable. Do not use such titles on second reference unless necessary to differentiate two people with the same last name.
+              - title: civilian (generic reference)
+                definition: Lowercase unless referring to <em>Department of the Army Civilians</em> (proper noun).
+              - title: citizen-Soldiers
+                definition: Lowercase citizen.
+              - title: colors
+                definition: The preferred style is <em>American flag</em> or <em>U.S. flag</em>. Do not use in reference to flags of other nations. Acceptable when referring to unit flags and guidons. <em>The battalion colors were furled during a transfer of authority ceremony.</em>
+              - title: commander in chief
+                definition: Do not hyphenate; lowercase unless it appears before a name.
+              - title: congressional
+                definition: Lowercase unless part of a proper name&#58; <em>congressional salaries, the Congressional Quarterly, the Congressional Record.</em>
+              - title: contingency operating base
+                definition: Lowercase unless it accompanies the name of a specific location. COB is acceptable on second reference.
+              - title: corps
+                definition: Lowercase, shortened reference to units as a stand alone, except when referring to the U.S. Army Corps of Engineers.
+              - title: Corps
+                definition: Capitalized refers to the U.S. Marine Corps.
+              - title: counter improvised explosive device 
+                definition: Do not hyphenate or capitalize. <em>Counter IED</em> is acceptable on second reference.
