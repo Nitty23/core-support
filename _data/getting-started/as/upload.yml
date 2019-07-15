@@ -50,3 +50,4 @@
                 one: Click on your existing image.
                 two: Select <strong>Remove Photo</strong> from the dropdown.
                 three: You existing image is replaced with a placeholder <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> <strong>Upload Photo</strong> icon, allowing you to begin the image upload process again.
+            para1:<img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_profile_animation.gif">
