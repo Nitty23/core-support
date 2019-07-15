@@ -7,7 +7,7 @@
           - sectiontitle: 
             para1: Keyboard shortcuts are useful for quickly accomplishing common tasks. Use the following shortcuts when adding text to your articles and pages.
             table:
-              - heading1: TEST
+              - heading1:
                 heading2: MAC / WINDOWS
               - col1: Bold
                 col2: ⌘ + B  /  Ctrl + B
