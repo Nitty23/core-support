@@ -12,7 +12,7 @@
               - listname: 
                 one: On your article page, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">in the top-right corner of the main action bar.
                 two: Select <strong>Preview Article</strong> from the dropdown menu to enter Preview mode.
-                three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_article_preview_600px_forever_loop.gif">
+                three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device.<img class="data-img-no-border" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_article_preview_600px_forever_loop.gif">
                 four: To exit Preview mode and go back to editing your article, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> icon.
             para1: Readers don’t see the device options across the top of Preview mode. This is just a tool for you to use when you’re logged into CORE and managing your article.
             para2: Changing the device view gives you a general idea of how your article appears on a typical mobile browser. It's not 100% accurate for every phone or tablet, since window sizes vary between devices. Some features may behave differently on an actual mobile device than they do in Preview mode.
