@@ -11,15 +11,16 @@
               - listname: 
                 one: Click <strong>Inbox</strong> from the main menu.
                 two: Click on the <strong>Released</strong> folder, and locate the article that you want to edit.
-                three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open your article page.
+                three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">icon to open your article page.
                 four: In Edit mode, click the current release date located in the overview section of your Article Settings sidebar.
                 five: Select a new date and time from the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_change_date_of_released_article.png">
                 six: Click the <strong>Change Release Date</strong> button to close the calendar.
             para1: Your new release date is now displayed on your overview section and will automatically update everywhere that it is referred to in CORE and on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
+            hr:
           - sectiontitle: Backdate an article before releasing          
             numlist: 
               - listname: You can also use the scheduling calendar if you want to backdate an article prior to releasing it. This action is not available to contributors since they do not have release authority. To backdate an article
-                one: From your article page, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> button located in the top-right corner of the action bar.
+                one: From your article page, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">button located in the top-right corner of the action bar.
                 two: Select a previous date and time from the calendar. The Schedule for Release button will change to Backdate & Release.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_backdate_and_release.png">
                 three: Click the <strong>Backdate & Release</strong> button to close the calendar.
             para1: Your article will immediately release, making it available for anyone to read on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. In the overview section of your article page, you’ll notice that the release date is now backdated to the day and time that you selected. The live article will also display this previous release date.

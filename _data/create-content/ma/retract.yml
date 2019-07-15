@@ -14,6 +14,7 @@
               - title: Editors, Publishers and Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization.
             note: If you retract another user’s article, you will no longer be able to access it. You will need to coordinate with the person that created the article to edit and re-release the draft. If you wish to make changes to the released article, we recommend that you edit and release your updates without retracting it.
+            hr:
           - sectiontitle: Retract an article
             para1: There are two ways to unpublish an article.
             numlist:
@@ -25,7 +26,7 @@
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - From the Article Page
-                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
+                one: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">at the top right corner of the action bar.
                 two: Select <strong>Retract</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_retract_article_dropdown.png">
                 three: Click <strong>Retract</strong> from the confirmation dialog box.
             para1: The article status is changed from Released to Draft. At this point, you can edit, submit, release or schedule the article just like any other draft. If you retracted another user’s article, the draft becomes read only.

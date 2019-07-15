@@ -5,15 +5,16 @@
       - subtitle: Edit organization settings
         sections:
           - sectiontitle: 
-            para1: As an <strong>administrator</strong>, you can use Organization Settings to edit your organization’s name, logo, component type, and other options. This reference guide walks you through the universal settings available for all organizations.
-          - sectiontitle: Edit Organization Settings
-            para1: To access your organization’s settings, you must be an administrator.
+            para1: As an <strong>administrator</strong>, you can manage your organization’s name, logo, component type, and other options through your Organization Settings. This reference guide walks you through the universal settings available for all organizations.
+          - sectiontitle: Access your organization settings
+            para1: To edit your organization’s settings, you must be an administrator.
             numlist: 
               - listname: 
                 one: Click on <strong>Community</strong> from the main menu.
-                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.
+                two: From <strong>My Organization</strong> page, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/cog_wheel.svg"> icon in the top-right corner of the page to open the Edit Organization Settings lightbox.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_edit_organization.png">
                 three: Make any changes to your settings. See Organization Settings Overview below for more details. 
                 four: Click <strong>Update</strong> to close the Edit Organization Settings lightbox.
+            hr:
           - sectiontitle: Organization Settings Overview
             lexicon: 
               - title: Organization Logo

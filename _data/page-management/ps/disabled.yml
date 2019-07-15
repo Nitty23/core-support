@@ -6,7 +6,7 @@
         sections:
           - sectiontitle: 
             para1: As a publisher or administrator, you have access to your organization’s web page through the <a class="underline-link" href="./core_pages.html">Page</a> option in the main menu. Some organizations, however, do not qualify to have a page, so this menu option is disabled. 
-          - sectiontitle: CORE Page Requirements         
+          - sectiontitle: CORE Page requirements         
             numlist:
               - listname: In order to qualify for a CORE Page
                 one: Your organization must be a two-star level command and above.  

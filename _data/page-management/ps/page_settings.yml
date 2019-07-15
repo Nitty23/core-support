@@ -14,6 +14,7 @@
                 three: Click the arrow located in the top-right corner of your Page’s action toolbar to show and hide the settings. This will slide the drawer out of view, allowing you to see a preview of your page content.
                 four: Make any changes to your settings in the Basic Information, Customize SEO, Connect to Social Media, and Advanced Options sections. To learn more, see the chart below.
                 five: Click <strong>Publish</strong> in the top-right corner of the action bar, to publicly release changes to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. 
+            hr:
           - sectiontitle: Page Overview
             para1: The information in the overview section cannot be modified by publishers or administrators.
             lexicon:
@@ -25,7 +26,7 @@
                 definition: The CORE organization that owns this Page.
               - title: Page URL
                 definition: The exact web address for your Page. If you want to change your Page URL, please submit a request to the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=Request Page URL Change">CORE Support Team</a>.
-            para2: <hr>
+            hr: 
           - sectiontitle: Basic Information
             lexicon:
               - title: Page Title
@@ -36,7 +37,7 @@
                 definition: The email address is used on the Contact Us link in your Page footer. This email will be publicly accessible, so we recommend using an organization mailbox, instead of a personal email.
               - title: Header Logo
                 definition: Add an organization logo to your Page header. To learn more, visit <a class="underline-link" href="./page_logo.html">Customize your Page logo</a>.
-            para1: <hr>
+            hr: 
           - sectiontitle: Customize SEO Metadata
             lexicon:
               - title: Page Title
@@ -44,12 +45,12 @@
               - title: SEO Description
                 definition: The text appears below a page title/link in search engine results and in social shares. Also called page meta description.
             note: Visitors read these titles and descriptions to decide if they want to click on your web page in search results and on social media. To make your site inviting, we recommend that you make your metadata short, readable and informative. Incorporate relevant keywords to improve your SEO, but avoid cramming your descriptions with keywords in a way that doesn't form cohesive sentences. For more SEO tips, visit <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">Search Engine Optimization</a>.
-            para1: <hr>
+            hr: 
           - sectiontitle: Connect to Social Media
             lexicon:
               - title: Social Media
                 definition: Add your organization’s social media accounts. Icons for these platforms appear in your Page header and footer, allowing your audience to connect with you via other digital platforms. To learn more, visit <a class="underline-link" href="./social_media.html">Customize your social media accounts</a>.
-            para1: <hr>
+            hr: 
           - sectiontitle: Advanced Options
             lexicon:
               - title: Google Analytics Tracking ID

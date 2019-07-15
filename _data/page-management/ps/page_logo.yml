@@ -8,11 +8,13 @@
             para1: Organization publishers and administrators have access to customize the image that appears in their Page header. This image can be uploaded when the Page is first created or modified in Page Settings at any time.
           - sectiontitle: Logo specifications
             itemlist:
-              - listname: Use these recommended guidelines when uploading a new organization logo
-                one: JPG, PNG or GIF file (no animated GIFs)
-                two: Transparent background (recommended)
-                three: Minimum of 200 X 200 px
+              - listname: Use these guidelines when uploading a new organization logo
+                one: Accepted file format&#58; .jpg, .jpeg, .png, .gif
+                two: Minimum image size&#58; 200 x 200 pixels
+                three: Transparent background (recommended)
+                four: Avoid animated image files. The first frame of the animation will be converted to a picture (.png format).
             note: Your logo will appear on top of a dark background, so you may need to reverse the logo colors for better legibility. 
+            hr:
           - sectiontitle: Upload a new logo
             numlist: 
               - listname: 
@@ -29,6 +31,7 @@
                   two: Click <strong>Upload New Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
                 four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
+            hr:
           - sectiontitle: Change an existing logo
             numlist: 
               - listname: 
@@ -45,6 +48,7 @@
                   two: Click <strong>Change Logo</strong> from the dropdown.
                   three: Browse and select a new image from your computer.
                 four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
+            hr:
           - sectiontitle: Remove logo
             numlist:
               - listname: 

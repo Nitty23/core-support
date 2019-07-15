@@ -14,6 +14,7 @@
                 two: Any CORE member who has permission to release articles can also publish content to your Page. Rest assured, all content that appears in your feed has been reviewed and approved by users with the authority to release content on behalf of their organization and the Army.
                 three: You cannot change the order of articles, unless you change the release date on the article.
                 four: You cannot remove an article from this list, unless you retract the article and remove it from www.army.mil altogether.
+            hr:
           - sectiontitle: Add a Tagged News List
             numlist:
               - listname: To add a Tagged News List to your organization Page
@@ -29,10 +30,11 @@
                 ten: Enter a keyword and click <strong>Enter</strong> or <strong>Return</strong> on your keyboard to add your specific tag. You can enter multiple tags. Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> to remove a tag.
                 eleven: To change the number of articles that appear in the feed, click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_square.svg"> and <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/minus_square.svg"> buttons. You can display up to 30 articles.
                 twelve: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+            hr:
           - sectiontitle: Get your content to appear in Tagged News Lists
             para1: You can add relevant tags to your article at any time during the content creation and publishing process. Once released, your content will automatically appear in the <a class="underline-link" href="../../creating-content/rc/all_content.html">search results</a>, <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag Feeds</a>, and Tagged News Lists of any tags you use, allowing people to find related articles around that topic. To learn more about how to add tags, visit <a class="underline-link" href="../../creating-content/wa/tags.html">Tags</a>.
             para2: Keep in mind that while adding tags can increase the chance that your content is discovered, you don’t want irrelevant content showing up in news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the five most relevant tags.
-            tip: Ensure that all members of your team know what keyword(s) you are using in your Tagged News Lists, so that they can accurately tag their content too. For more suggestions on how to establish a tag system within your organization, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging Tips</a>.
+            tip: Ensure that all members of your team know what keyword(s) you are using in your Tagged News Lists, so that they can accurately tag their content too. For more suggestions on how to establish a tag system within your organization, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
           - sectiontitle: 
             paratitle: Can I customize my Tagged News List to only display articles that were released from members of my organization? 

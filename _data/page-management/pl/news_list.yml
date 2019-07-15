@@ -30,6 +30,7 @@
                 one: You must manually add each article and re-publish to make updates appear live on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
                 two: You have complete control over the articles that are featured on your Page. Team members that have permission to release an article CANNOT automatically publish content to your Page.
                 three: You can add, remove and change the order of articles that appear in this section.
+            hr:
           - sectiontitle: Add a News List section
             numlist:
               - listname: 
@@ -52,6 +53,7 @@
                   definition: Search for specific released articles and add them to a custom news feed.<br>This option only applies to <strong>Featured News</strong> lists. To learn more, visit <a class="underline-link" href="../../page-management/aop/featured_news.html">Features News</a>.
                 seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
             note: You can only feature content from one source (latest news, tagged news, or featured news) in each section. However, you can add multiple News List sections to a page to feature all of the content you want.
+            hr:
           - sectiontitle: Sample 
-            para1: Here’s a sample News List section
-            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_newslist_sample.png">
+            para1: Here’s a sample News List section.
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_newslist_sample.png">

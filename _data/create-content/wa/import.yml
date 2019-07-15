@@ -19,12 +19,13 @@
             para1: Articles that are imported as released will automatically be backdated to the original publish date in DVIDS. However, if you make any changes to the article in CORE and then re-publish it, then the release date will be updated.
             para2: Although you cannot directly import media assets using the DVIDS import tool, all images associated with a news story will automatically import and display in a slideshow at the top of your article. You can change images to display in a grid layout or move them to a new position in the article at any time. To learn more, visit Adding Images to Articles.
             note: CORE only supports embedded videos from YouTube, so you cannot import videos directly from DVIDS. To add a video to your article or Page, you will need to download it from DVIDS and upload it to YouTube first. To learn more, visit <a class="underline-link" href="./videos.html">Adding Video to Articles</a>.
-          - sectiontitle: View Imported Articles
+            hr:
+          - sectiontitle: View imported articles
             para1: If a DVIDS article has already been imported into CORE, you will see a green “Imported” button in the DVIDS news feed.
             numlist:
               - listname:
                 one: From the <strong>DVIDS Import</strong> tool, locate the article that you want.
-                two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> icon.
+                two: Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">icon.
                 three: Click <strong>View CORE Article</strong> to go to the imported article.
             para2: From the article page, you can view important information in the <a class="underline-link" href="./article_settings.html">Article Settings</a>, such as the article ID, release status, link on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and history log. With this information, you can add the article to your Page, share it on social media, or contact the CORE user who imported if changes are needed.
             hr: 

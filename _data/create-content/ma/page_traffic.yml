@@ -20,10 +20,12 @@
                 two: Search for the article(s) that you want statistics for. Use filters on the right column to narrow your search results.
                 three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/graph.svg"> to open analytics details. Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/graph.svg"> again to close.
             note: Your article must be released in order to view these features.
+            hr:
           - sectiontitle: Understanding analytics details
             para1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_analytics_details.png">
             para2: <strong>Total Pageviews</strong> are the total number of views your article has received since the release date. Repeated views of a single page are counted.
             para3: The <strong>line chart</strong> represents traffic over the last thirty days, giving you a visualization of audience interest over time. Hover over any date to see how many views you received on that day.
+            hr:
           - sectiontitle: Connecting to a Google Analytics account
             para1: If you would like to dive deeper into metrics, you can also connect your profile and/or organization to a Google Analytics account, enabling you to track page traffic for all content created by you and/or your team members. Simply enter your Google Analytics tracking ID (e.g., UA-000000-2) into your Advanced Settings and/or your Edit Organization Settings.
             para2: To track page traffic for all articles that you create, <a class="underline-link" href="../../getting-started/as/connect_account_to_google_analytics.html">connect your account to Google Analytics</a> through your Advanced Settings.

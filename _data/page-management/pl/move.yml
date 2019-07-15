@@ -13,14 +13,15 @@
               - listname: 
                 one: <strong>Borders</strong> appear around the entire section when you hover over it. This helps you visualize the entire content area that will be moved.
                 two: <strong>Placeholders</strong> represent the section you are moving and show you where you can place a section. 
+            hr:
           - sectiontitle: Move sections on your Page
             numlist:
               - listname: 
-                one: Hover over the section you want to move. Your cursor will turn into a crosshair.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_move_sections_example.jpg">
+                one: Hover over the section you want to move. Your cursor will turn into a crosshair.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_move_page_sections.jpg">
                 two: Click and drag the section to move it around the page.
-                three: As you drag the section, use the placeholder to choose a new placement.
+                three: As you drag the section, use the yellow guidelines to choose the new placement.
                 four: Release the section when it’s in the desired position.
-            para1: <hr>
+            hr: 
           - sectiontitle:
             paratitle: Can I move sections to create columns on my Page?
             para1: Currently, it is not possible to move content sections to create columns . All sections will stack vertically on top of each other. We plan to work on this capability in the future to expand your page layout customization options.

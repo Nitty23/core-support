@@ -11,7 +11,7 @@
         - title: CORE glossary
           url: /getting-started/cb/core_glossary.html
         - title: Roles and permissions
-          url: /getting-started/cb/roles_and_preferences.html
+          url: /getting-started/cb/roles_and_permissions.html
         - title: Log in to CORE
           url: /getting-started/cb/log_in.html
     - title: Account Settings
@@ -108,7 +108,7 @@
           url: /page-management/ps/core_pages.html
         - title: Create a Page
           url: /page-management/ps/create_page.html
-        - title: Page Settings
+        - title: Page settings
           url: /page-management/ps/page_settings.html
         - title: Page logo
           url: /page-management/ps/page_logo.html

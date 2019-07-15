@@ -7,13 +7,13 @@
           - sectiontitle:
             para1: You can preview how your article appears on mobile, tablet, and desktop screens. This is a great way to test the responsive design as you edit your article.
             para2: Preview mode hides the editing and navigation panels and displays a full-screen preview of your article. You can switch between Edit and Preview mode, even if your article is already released.
-          - sectiontitle: Accessing Preview Mode
+          - sectiontitle: Access your article in preview mode
             numlist:
               - listname: 
-                one: On your article page, click the <img class="  art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the top-right corner of the main action bar.
+                one: On your article page, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">in the top-right corner of the main action bar.
                 two: Select <strong>Preview Article</strong> from the dropdown menu to enter Preview mode.
-                three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device.
-                four: To exit Preview mode and go back to editing your article, click the <strong>Exit Preview</strong> icon.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_preview_mode.png">
+                three: A preview of your article will display full screen in desktop view. Click on a device icon to view your article on the corresponding device. <img class="data-img-no-border" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_article_preview_600px_forever_loop.gif">
+                four: To exit Preview mode and go back to editing your article, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> icon.
             para1: Readers don’t see the device options across the top of Preview mode. This is just a tool for you to use when you’re logged into CORE and managing your article.
             para2: Changing the device view gives you a general idea of how your article appears on a typical mobile browser. It's not 100% accurate for every phone or tablet, since window sizes vary between devices. Some features may behave differently on an actual mobile device than they do in Preview mode.
             note: If you’ve made updates to a released article, Preview mode will allow you to see those changes as they would appear on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, but it does not update your live article. You must click Release to publish your changes.

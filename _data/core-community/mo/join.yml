@@ -15,11 +15,12 @@
                 two: Import articles from DVIDS
                 three: Edit or submit existing articles in your Inbox (Preview only)
             para2: In order to restore your access to basic article and inbox features, you will need to join a new organization. Continue reading to learn more.
+            hr:
           - sectiontitle: Join an organization
             numlist:
               - listname: 
                 one: Click on <strong>Community</strong> on the main menu.
-                two: You will notice that your <strong>My Organization</strong> tab displays an alert to join a new organization, in place of a team roster.
+                two: You will notice that your <strong>My Organization</strong> tab displays an alert to join a new organization, in place of a team roster.<img class="data-img-no-border" src="/e2/images/rv7/core-support/core-community/mo/mo_join_an_org.png">
                 three: Click <strong>Join a New Organization</strong> to open the lightbox editor.
                 four: Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. 
                 five: Select an organization from the list.

@@ -13,10 +13,11 @@
                 one: Click <strong>All Content</strong> on the main menu, or search for a specific keyword using the global search at the top of your screen.
                 two: From the list of released articles, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). <img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_tag_list_example.png">
                 three: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_large_tag_feed.png">
+            hr:
           - sectiontitle: Get your content to appear in tag feeds
             para1: You can add relevant tags to your article at any time during the content creation and publishing process. Once released, your content will automatically appear in the <a class="underline-link" href="./all_content.html">search results</a>, Tag Feeds and <a class="underline-link" href="../../page-management/aop/tagged_news.html">Tagged News Lists</a> of any tags you use, allowing people to find related articles around that topic. To learn more about how to add tags, visit <a class="underline-link" href="../../creating-content/wa/tags.html">Tags</a>.
             para2: Keep in mind that while adding tags can increase the chance that other CORE users will discover your content, you don’t want irrelevant content showing up in news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the five most relevant tags.
-            tip: Tags should be used to summarize what your article is about. If you’re having trouble choosing tags, try thinking about what tags you would search for if you wanted to find a similar article. For best practices on tagging your content, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging Tips</a>.
+            tip: Tags should be used to summarize what your article is about. If you’re having trouble choosing tags, try thinking about what tags you would search for if you wanted to find a similar article. For best practices on tagging your content, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
           - sectiontitle: 
             paratitle: I frequently look for articles related to a specific topic. Is there a way to save or favorite a Tag Feed?

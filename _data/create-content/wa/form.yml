@@ -6,30 +6,30 @@
         sections:
           - sectiontitle:
             para1: You can add clarity and detail to your articles and pages by formatting text. Formatting helps you organize content and creates a basic text structure, including headers, lists, indentations, and bold/italics. You can format text while you’re writing or editing it.
-            note: To avoid formatting issues, we recommend entering text directly in CORE. If you like working in a word processor and pasting into CORE, consider using a plain text editor such as Notepad for Windows or TextEdit for Mac. For other tips, visit <a class="underline-link" href="../../best-practices/ap/formatting_text_tips.html">Troubleshooting / Tips for Formatting Text</a>.
+            note: To avoid formatting issues, we recommend entering text directly in CORE. If you like working in a word processor and pasting into CORE, consider using a plain text editor such as Notepad for Windows or TextEdit for Mac. For help with troubleshooting format issues, visit <a class="underline-link" href="../../best-practices/ap/formatting_text_tips.html">Tips for formatting text</a>.
             numlist:
               - listname: There are two ways to format your text
-                one: <strong>Format as you type</strong> - What You See Is What You Get! You can easily format as you type by using the WYSIWYG Text Toolbar. Each symbol is described below.
-                two: <strong>Use keyboard shortcuts</strong> - You can also use <a class="underline-link" href="../../best-practices/ap/keyboard_shortcuts.html">keyboard shortcuts</a> to format selected text. <img class= "data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
-          - sectiontitle: Bold
-            para1: To bold, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg"> in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg"> to apply the bold formatting.
-            para2: Keyboard shortcut - <strong>⌘ + B / Ctrl + B</strong>
-          - sectiontitle: Italics
-            para1: To italicize, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg"> in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg"> to apply the italics formatting.
-            para2: Keyboard shortcut - <strong>⌘ + i / Ctrl + i</strong>
-          - sectiontitle: Headers and subheaders
-            para1: Click the  in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the  to apply the header formatting.
-          - sectiontitle: Blockquote
-            para1: To add a blockquote, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> until text returns to default.
-          - sectiontitle: Hyperlink
-            para1: Copy and paste or type a link (for example, <a class="underline-link" href="https://www.army.mil">www.army.mil</a>) into your article. To convert this text to a hyperlink, select the URL text and click on the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/link.svg"> in the text editor toolbar.
-            para2: Keyboard shortcut - <strong>⌘ + K / Ctrl + K</strong>
-          - sectiontitle: Numbered List
-            para1: To add a numbered list, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new number to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> to apply the list formatting.
-          - sectiontitle: Bullets
-            para1: To add bullets, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new bullet to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> to apply the list formatting.
-          - sectiontitle: Remove Formatting
-            para1: To clear formatting, select the existing text that you want to reset and click the  <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg">.
+                one: <strong>Format as you type&#58;</strong> What You See Is What You Get! You can easily format as you type by using the WYSIWYG Text Toolbar. Each symbol is described below.
+                two: <strong>Use keyboard shortcuts&#58;</strong> You can also use <a class="underline-link" href="../../best-practices/ap/keyboard_shortcuts.html">keyboard shortcuts</a> to format selected text. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
+            hr:
+          - sectiontitle:
+            lexicon:
+              - title: Bold
+                definition: To bold, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">to apply the bold formatting. Keyboard shortcut&#58;<strong> ⌘ + B / Ctrl + B</strong>
+              - title: Italics
+                definition: To italicize, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">to apply the italics formatting. Keyboard shortcut&#58;<strong>⌘ + i / Ctrl + i</strong>
+              - title: Headers and subheaders
+                definition: Click the  in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the  to apply the header formatting.
+              - title: Blockquote
+                definition: To add a blockquote, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> until text returns to default.
+              - title: Hyperlink
+                definition: Copy and paste or type a link (for example, <a class="underline-link" href="https://www.army.mil">www.army.mil</a>) into your article. To convert this text to a hyperlink, select the URL text and click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/link.svg">in the text editor toolbar. Keyboard shortcut&#58;<strong> ⌘ + K / Ctrl + K</strong>
+              - title: Numbered List
+                definition: To add a numbered list, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new number to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/list_ordered.svg"> to apply the list formatting.
+              - title: Bullets
+                definition: To add bullets, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> in the text toolbar and begin typing. Click <strong>Enter</strong> to add a new bullet to the list. Click the icon again to remove the formatting. You can also select existing text and click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/list_unordered.svg"> to apply the list formatting.
+              - title: Remove Formatting
+                definition: To clear formatting, select the existing text that you want to reset and click the  <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg">.
             hr:
           - sectiontitle: 
             paratitle: How do I change fonts?

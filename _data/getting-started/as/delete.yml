@@ -9,6 +9,7 @@
           - sectiontitle: So what’s the difference?
             para1: <strong>Deactivating your account</strong> is temporary and can be restored at any time, simply by signing in to the deactivated account. Your profile is removed from <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> and the <a class="underline-link" href="http://core.ardev.us/community/users">User Directory</a>, but your account information is still in our database.
             para2: <strong>Deleting an account</strong> is permanent and cannot be undone. Your profile information and settings are completely removed from the CORE database.
+            hr: 
           - sectiontitle: Your Profile Information
             itemlist:
               - listname: Your profile information includes

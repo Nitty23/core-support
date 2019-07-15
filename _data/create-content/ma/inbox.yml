@@ -6,7 +6,7 @@
         sections:
           - sectiontitle: 
             para1: All articles that you have created or have access to edit are located in your Inbox, filtered by Drafts, Released and Deleted folders.
-            para2: There are five types of articles that you will see in your CORE Inbox.
+            para2: There are five types of articles that you will see in your CORE Inbox&#58; 
             lexicon: 
               - title: Draft
                 definition: Unfinished article that has not been released yet. You are the only person that can view and edit your drafts.
@@ -20,9 +20,10 @@
                 definition: Draft that was not approved by a supervisor within the organization. You are the only person that can view or edit your rejected articles, allowing you to make changes and submit them for review again. Rejected articles are displayed in your Drafts folder with a “Rejected” label. <img src="/e2/images/rv7/core-support/creating-content/ma/ma_rejected_label.png">
               - title: Deleted
                 definition: Unfinished article that is no longer needed. As the creator, you are the only person that can view, restore or archive your deleted articles.
+            hr:
           - sectiontitle: Managing your articles
             para1: You can manage your articles directly from your Inbox, simply by clicking the action icons located on the far right side of each title. Depending on your role within an organization, you will have different actions available. 
-            para2: The following is an overview of all icons and their corresponding action, broken down by Inbox folders
+            para2: The following is an overview of all icons and their corresponding action, broken down by Inbox folders&#58; 
             para3: <strong>Draft Actions</strong>
             lexicon:
               - title: <a class="underline-link" href="./edit_article.html">Edit</a> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">

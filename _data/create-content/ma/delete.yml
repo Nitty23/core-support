@@ -14,6 +14,7 @@
               - title: Administrators
                 definition: Have access to retract their own articles, as well as released articles from other members of their organization. 
             note: Once an article is deleted, only the person who created an article can restore or archive it from their Deleted folder. If an authorized user deletes another user’s article, they can no longer access it.
+            hr:
           - sectiontitle: Moving an article to deleted folder
             para1: There are two ways to move an article to your Deleted folder.
             numlist:
@@ -25,7 +26,7 @@
           - sectiontitle: 
             numlist:
               - listname: OPTION 2 - From the Article Page
-                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of the action bar.
+                one: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">at the top right corner of the action bar.
                 two: Select <strong>Delete</strong> from the dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_delete_article_dropdown.png">
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, retract it instead. This action will revert the article to a draft and it can be re-released at any time.

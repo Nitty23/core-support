@@ -10,11 +10,11 @@
             numlist:
               - listname: To deactivate your Page
                 one: Click on <strong>Page</strong> from the main menu.
-                two: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> at the top right corner of your <strong>Edit Page</strong> action bar.
+                two: Click on the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">at the top right corner of your <strong>Edit Page</strong> action bar.
                 three: Click <strong>Deactivate Page</strong> option from the dropdown menu.
                 four: Review the Deactivate Page confirmation message to understand the effects of this action.
                 five: Click <strong>Deactivate</strong> button.
-            para1: <hr>
+            hr: 
           - sectiontitle: 
             paratitle: What happens when I deactivate my Page?
             itemlist:

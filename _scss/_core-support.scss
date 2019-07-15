@@ -161,11 +161,6 @@ h1, h2, h3, h4, h5 {
     margin-top: .75rem;
 }
 
-.article-sidenav-link:hover {
-    font-weight: 600;
-    text-decoration: none;
-}
-
 .article-sidenav-link{
     font-size: 1rem;
     font-weight: 500;
@@ -221,6 +216,7 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
     text-align: center;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .art-icons{
@@ -230,7 +226,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .data-img{
-    margin: 25px 0 10px 0;
+    margin: 1.5em 0;
     border: 1px solid #ddd;
     display: block;
     margin-left: auto;
@@ -238,7 +234,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .data-img-no-border{
-    margin: 25px 0 10px 0;
+    margin: 1.5em 0;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -276,7 +272,7 @@ h3:after, h4:after, h5:after {
 }
 
 .support-hr{
-    margin: 1.75em 0;
+    margin: 2.5em 0;
     border: none;
     background-color: #ddd;
     height: 1px;
@@ -315,13 +311,14 @@ h3:after, h4:after, h5:after {
 
 
 .topic-hr{
-    border-top-color: inherit;
+    border: none;
+    background-color: #ddd;
+    height: 1px;
 }
 
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
-    background: black;
     height: 20px;
     margin: 20px;
 }
@@ -343,7 +340,7 @@ h3:after, h4:after, h5:after {
 }
 
 .navbar {
-    background: black;
+    background: #252525;
     display: flex;
     height: 60px;
 }
@@ -452,8 +449,12 @@ h3:after, h4:after, h5:after {
 .mobile-title-pills{
     color:white;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.125rem;
     //white-space: nowrap;
+    text-decoration: none;
+}
+
+.mobile-title-pills:hover{
     text-decoration: none;
 }
 
@@ -465,8 +466,10 @@ h3:after, h4:after, h5:after {
 }
 
 .mobile-hr{
-    margin: 1.75em 5px 1.75rem;
-    border-color: #666666;
+    margin: 1.75em 0;
+    background-color: #333;
+    border: none;
+    height: 1px;
 }
 
 .mobile-li{
@@ -476,11 +479,12 @@ h3:after, h4:after, h5:after {
 .mobile-accord{
     line-height: 0;
     margin-bottom: 0;
+    padding: 20px
 }
 
 .mobile-dropdown-container{
-    background-color: #252525;
-    //font-size: 5rem;
+    background-color: #1a1a1a;
+    height: 100%
 }
 
 .submenu-toggle{
@@ -583,9 +587,9 @@ a:hover.topic-box{
 }
 
 .topics-title{
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: #fec325;
+    color: #f9b21b;
 }
 
 .underline-link{
@@ -647,8 +651,9 @@ a:hover.topic-box{
 .bullet-item{
     display: list-item;
     list-style-type: disc;
-    margin-left: 1.25rem;
+    margin-left: 2.25rem;
     padding-left: 0.25rem;
+    margin-top: 10px;
 }
 
 .subbullet-item{
@@ -656,6 +661,7 @@ a:hover.topic-box{
     list-style-type: circle;
     padding-left: .5rem;
     margin-left: 4rem;
+    margin-top: 10px;
 }
 
 .num-item{
@@ -663,6 +669,7 @@ a:hover.topic-box{
     list-style-type: decimal;
     padding-left: .5rem;
     margin-left: 2rem;
+    margin-top: 10px;
 }
 
 .sublist{
@@ -706,8 +713,12 @@ a:hover.topic-box{
 /*------------------------------------------------------------------------*/
 .find-row{
     margin-bottom: 3.125rem;
-    padding: 3% 0%;
+    padding: 50px 20px;
     background-color: #fec325;
+}
+
+.find-row .row{
+     margin-bottom: 0;
 }
 
 .find-col{
@@ -717,7 +728,7 @@ a:hover.topic-box{
 .find-btn{
     background-color: white;
     border-radius: 55px;
-    padding: 15px 30px;
+    padding: 20px 30px 15px;
     // height: 50px;
     // width: 250px;
     outline: none;
@@ -726,26 +737,26 @@ a:hover.topic-box{
 }
 
 .find-btn:hover{
-    background-color: #EEEEEE;
+    box-shadow: 0 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
     text-decoration: none;
 }
 
 .find-title{
     font-size: 1.65rem;
-    color: #231f20;
+    color: #252525;
     font-weight: bold; 
 }
 
 .find-text{
-    font-size: 1.3rem;
-    color: #231f20;
+    font-size: 1.5rem;
+    color: #252525;
 }
 
 .find-btn-text{
     font-weight: bold; 
     font-size: 1.25rem;
-    color: #231f20;
+    color: #252525;
 }
 
 /*Search Content*/
@@ -755,7 +766,7 @@ a:hover.topic-box{
     outline: none;
     margin: 10px 20px;
     font-size: 1rem;
-    color: black;
+    color: #252525;
     border: none;
     width: 100%;
 }
@@ -777,10 +788,8 @@ a:hover.topic-box{
 }
 
 .search-term{
-    animation: fadein 3s;
-    color: #fec325;
+    color: #252525;
     font-weight: 600;
-    font-size: 130%;
 }
 @keyframes fadein {
     from {color: #666666; font-size: 100%; font-weight: 400;}
@@ -851,19 +860,17 @@ a:hover.topic-box{
 .mast-title{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600;
     color: white;
-    font-size: 5.25rem;
-    @include breakpoint(mobile) {
-        font-size: 1.7rem;
-    }
+    font-size: 2.25rem;
     @include breakpoint(nav) {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     @include breakpoint(tablet) {
-        font-size: 4.75rem;
+        font-size: 3.75rem;
     }
     @include breakpoint(lg_tablet) {
-        font-size: 4.75rem;
+        font-size: 4.25rem;
     }
     @include breakpoint(sm_desktop) {
         font-size: 4.25rem;
@@ -872,10 +879,10 @@ a:hover.topic-box{
         font-size: 4.25rem;
     }
     @include breakpoint(large) {
-        font-size: 4.25rem;
+        font-size: 5.25rem;
     }
     @include breakpoint(really_big) {
-        font-size: 4.25rem;
+        font-size: 5.25rem;
     }
 }
 
@@ -885,43 +892,44 @@ a:hover.topic-box{
     border-radius: 28px;
     background: white;
     color: lightgrey;
-    width: 51.875rem;
+    width: 100%;
     height: 3.75rem;
     position: absolute;
     bottom: 13.3125em;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 37.5rem;
     @include breakpoint(mobile) {
         bottom: 18%;
-        width: 15rem;
+        width: 90%;
     }
     @include breakpoint(nav) {
         bottom: 18%;
-        width: 28rem;
+        width: 90%;
     }
     @include breakpoint(tablet) {
         bottom: 32%;
-        width: 39.375rem;
+        // width: 39.375rem;
     }
     @include breakpoint(lg_tablet) {
         bottom: 25%;
-        width: 43rem;
+        // width: 43rem;
     }
     @include breakpoint(sm_desktop) {
         bottom: 20%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(desktop) {
         bottom: 45%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(large) {
         bottom: 38%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
     @include breakpoint(really_big) {
         bottom: 26%;
-        width: 51.875rem;
+        // width: 51.875rem;
     }
 }
 
@@ -1001,12 +1009,13 @@ a:hover.topic-box{
 .dropdown-searchbox{
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    border: 1px solid #ccc;
     border-radius: 28px;
     background: white; 
     color: lightgrey;
     margin: 3.75rem 0rem;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 #search-icons:hover{
@@ -1048,7 +1057,7 @@ a:hover.topic-box{
 
 .result-title{
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #252525
 }
 
@@ -1084,7 +1093,6 @@ a:hover.topic-box{
     }
 
     .logo {
-        background: black;
         height: 50%;
         margin: 18px;
     }
@@ -1131,11 +1139,12 @@ a:hover.topic-box{
     }
     
     .dropdown-searchbox{
-        width: 300px;
+        margin: 2.5rem 0;
+        width: 90%;
     }
 
     .find-mobile{
-        margin: 2.1875rem 0 2.1875rem 0;
+        margin: 2.1875rem 0 .75rem 0;
         overflow: visible;
     }
 
@@ -1220,7 +1229,7 @@ a:hover.topic-box{
     }
     
     .find-mobile{
-        margin: 2.1875rem 0 2.1875rem 0;
+        margin: 2.1875rem 0 .75rem 0;
         overflow: visible;
     }
 

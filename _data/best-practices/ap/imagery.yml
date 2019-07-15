@@ -4,8 +4,16 @@
     articles:
       - subtitle: Selecting quality imagery
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: Imagery should be as compelling to the audience as your <a class="underline-link" href="./quality_headlines.html">headline</a>, and draw them to your piece. Images add an exciting and eye catching element to enhance your story.
+            itemlist:
+              - listname: 
+                one: <strong>Images grab attention&#58;</strong> If you include an image in an article, it will grab the reader’s attention better than a block of text. This may lead to more people reading the article that accompanies the image.
+                two: <strong>Images tell a story&#58;</strong> Sometimes a picture is better at communicating a story than the written word. For example, a very emotional scene of a family that has just been reunited after a traumatic event may connect with a reader more than if the scene was only written.
+                three: <strong>Images can convey a message quickly&#58;</strong> People often skim through website articles without stopping to read the full article. A picture is a great way to convey your message quickly to an audience without them reading through a lot of text.
+                four: <strong>Shareability&#58;</strong> Images can be easily shared by other people, which means your story will be seen by a larger audience. You could even link the image back to an article you want your target audience to read.
+            note: When taking photos for your news story, try to take horizontal – not vertical – pictures. These format better when uploaded to the Army.mil article page and are more appealing when your story is shared on social media.
+            hr:
+          - sectiontitle: Example images
+            para1: <strong>GOOD&#58; Horizontal</strong><img class="data-img" src="/e2/images/rv7/core-support/best-practices/ap/ap_good_horizontal_sample.png">
+            para2: <strong>NOT GOOD&#58; Vertical</strong><img class="data-img" src="/e2/images/rv7/core-support/best-practices/ap/ap_not_good_vertical_sample.png">

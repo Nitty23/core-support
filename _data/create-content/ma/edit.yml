@@ -15,6 +15,7 @@
                 definition: Only have access to edit their own articles. Releasing Contributors can release any changes made to a previously released article.
               - title: Editors, Publishers and Admin
                 definition: Have access to edit their own articles, as well as submitted and released articles from other members of their organization.
+            hr:
           - sectiontitle: Edit an article
             numlist:
               - listname: 

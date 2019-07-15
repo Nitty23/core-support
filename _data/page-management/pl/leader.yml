@@ -46,6 +46,7 @@
                 five: When you’re ready, click <strong>Add Leader</strong> to close the Add a New Leader panel and return to your list of leaders.
                 six: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
                 seven: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page. 
+            hr:
           - sectiontitle: Edit an existing leader profile card
             numlist: 
               - listname:
@@ -54,6 +55,7 @@
                 three: Click <strong>Save</strong> to close the Edit Leader Information panel and return to your list of leaders.
                 four: You can continue to add more leaders, or choose to edit, reorder or remove the existing leaders.
                 five: Click <strong>Save</strong> to close the lightbox. Changes to the section will appear on your Page.
+            hr:
           - sectiontitle: Reorder your leader cards
             numlist: 
               - listname: 
@@ -61,6 +63,7 @@
                 two: Click and drag the leader’s name to reorder.
                 three: Release the leader’s name when it’s in the desired position. You’ll see the cards reorder on your Page, as well.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_reorder_leader_cards.jpg">
                 four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.
+            hr:
           - sectiontitle: Remove an existing leader
             numlist: 
               - listname:
@@ -69,4 +72,6 @@
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
             note: You can recover your leader’s information by clicking <strong>Cancel</strong> on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click <strong>Save</strong> on the Leaders lightbox. You will have to manually re-enter all of the information.
           - sectiontitle: Sample
+            para1: Here's a sample Leaders section.
+            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_army_senior_leaders_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
