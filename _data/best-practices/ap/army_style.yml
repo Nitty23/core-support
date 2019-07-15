@@ -13,15 +13,31 @@
             para7: <strong>Miscellaneous</strong> Use <em>New York state</em> when necessary to distinguish the state from <em>New York City</em>. Use <em>state of Washington</em> or <em>Washington state</em> when necessary to distinguish the state from the <em>District of Columbia</em>.
             hr: 
           - sectiontitle: Body Text
-            para1: <strong>Dateline format “NEWPORT NEWS, Va. (April 1, 2017) – Article text...”<br>Except for cities that stand alone in datelines, use the state name in textual material when the city or town is not in the same state as the dateline, or where necessary to avoid confusion&#58; <em>Springfield, Massachusetts</em>, or <em>Springfield, Illinois</em>. Provide a state identification for the city if the story has no dateline, or if the city is not in the same state as the dateline. However, cities that stand alone in datelines may be used alone in stories that have no dateline if no confusion would result.
+            para1: <strong>Dateline format</strong> “NEWPORT NEWS, Va. (April 1, 2017) – Article text...”<br>Except for cities that stand alone in datelines, use the state name in textual material when the city or town is not in the same state as the dateline, or where necessary to avoid confusion&#58; <em>Springfield, Massachusetts</em>, or <em>Springfield, Illinois</em>. Provide a state identification for the city if the story has no dateline, or if the city is not in the same state as the dateline. However, cities that stand alone in datelines may be used alone in stories that have no dateline if no confusion would result.
             para2: <strong>Numerals</strong> In general, spell out <strong>1-9, 1st-9th</strong>.
             hr:
           - sectiontitle: Military Titles and Ranks 
             para1: Refer to AP Stylebook.
           - sectiontitle: Proper Unit Names
-            para1: Some unit names include information behind the element name, in parenthesis. This is part of the proper name of the unit, and should be included on all references. For example&#58;<br><em>3rd U.S. Infantry Regiment (The Old Guard)</em> – The proper name of the Army unit that handles ceremonial responsibilities at Arlington National Cemetery.<br><em>10th Mountain Division (Light Infantry)<br>101st Airborne Division (Air Assault)<br>5th Special Forces Group (Airborne)</em>
+            itemlist: 
+              - listname: Some unit names include information behind the element name, in parenthesis. This is part of the proper name of the unit, and should be included on all references. For example
+                one: <em>3rd U.S. Infantry Regiment (The Old Guard)</em> – The proper name of the Army unit that handles ceremonial responsibilities at Arlington National Cemetery.
+                two: <em>10th Mountain Division (Light Infantry)</em>
+                three: <em>101st Airborne Division (Air Assault)</em>
+                four: <em>5th Special Forces Group (Airborne)</em>
             hr:
           - sectiontitle: State Names
             para1: U.S. states should be <strong>spelled out</strong> when used in the body of a story, whether standing alone or in conjunction with a city, town, village or military base. State name is not necessary if it is the same as the dateline. This also applies to newspapers cited in a story. For example, a story datelined Providence, R.I., would reference the Providence Journal, not the Providence (R.I.) Journal. 
             para2: <strong>Abbreviations</strong> In conjunction with the name of a city, town, village or military base in most datelines. In lists, agate, tabular material, non-publishable editor’s notes and credit lines. In short-form listings of party affiliation&#58; D-Ala., R-Mont. Use the <strong>two-letter Postal Service abbreviations</strong> only with full addresses, including ZIP code.
             hr: 
+          - sectiontitle: Modifiers
+            table:
+              - heading1: Nouns
+                heading2: Compound Modifiers/Adjectives
+              - col1: Reserve Component
+                col2: reserve-component Soldier
+              - col1: Active Component
+                col2: active-component Soldier
+              - col1: Active Duty
+                col2: active-duty Soldiers
+              - col1: National Guard
