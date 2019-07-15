@@ -12,7 +12,7 @@
                 one: <strong>Format as you type&#58;</strong> What You See Is What You Get! You can easily format as you type by using the WYSIWYG Text Toolbar. Each symbol is described below.
                 two: <strong>Use keyboard shortcuts&#58;</strong> You can also use <a class="underline-link" href="../../best-practices/ap/keyboard_shortcuts.html">keyboard shortcuts</a> to format selected text. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
             hr:
-          - lexicon:
+            lexicon:
               - title: Bold
                 definition: To bold, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/bold.svg">to apply the bold formatting. Keyboard shortcut&#58;<strong> ⌘ + B / Ctrl + B</strong>
               - title: Italics
