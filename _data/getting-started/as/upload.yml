@@ -17,8 +17,7 @@
             tip: If you upload an image that is not square, CORE will automatically crop your image from the center of the photo. For best results, we recommend that you make any cropping or scaling modifications to your photo, prior to upload.
             hr: 
           - sectiontitle: Upload a new profile photo
-            para1:<img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_profile_animation.gif"
-            para2: There are two options for uploading a new image.
+            para1: There are two options for uploading a new image.
             numlist:  
               - listname: <strong>OPTION 1 - Drag and Drop</strong>
                 one: Select your new image from your computer. <img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_new_image_from_computer.jpg">
@@ -30,6 +29,7 @@
                 two: Click <strong>Upload New Photo</strong> from the dropdown. <img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_upload_new_photo_superadmin.png">
                 three: Browse and select a new image from your computer. <img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_upload_bar.png">
             para1: A loading bar will appear to show the image upload progress. It will be replaced with your image once it has successfully uploaded.
+            para2:<img class="data-img-no-border" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_profile_animation.gif"
             hr: 
           - sectiontitle: Change an existing photo
             para1: There are two options for uploading a new image.
