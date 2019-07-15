@@ -19,7 +19,7 @@
               - title: Italics
                 definition: To italicize, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/italic.svg">to apply the italics formatting. Keyboard shortcut&#58;<strong>⌘ + i / Ctrl + i</strong>
               - title: Headers and subheaders
-                definition: Click the  in the text toolbar and begin typing. Click the icon again to remove the formatting. You can also select existing text and click the  to apply the header formatting.
+                definition: Click the <strong>paragraph styles</strong> dropdown menu in the text toolbar. Select a text style option - <strong>Normal</strong>, <strong>Header</strong> or <strong>Subheader</strong> - and begin typing. You can also select existing text and choose a paragraph style from the dropdown menu to apply the header or subheader formatting to the entire paragraph.
               - title: Blockquote
                 definition: To add a blockquote, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> from text editor toolbar and begin typing. You can also select existing text and click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> icon to apply the blockquote formatting. Remove quote formatting by selecting the text and clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/blockquote.svg"> until text returns to default.
               - title: Hyperlink
