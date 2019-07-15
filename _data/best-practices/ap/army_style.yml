@@ -4,8 +4,38 @@
     articles:
       - subtitle: Army Style Guide
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            note: NOTE: Styles are taken from the 2017 AP Stylebook and Defense Imagery Style Guide, along with established Army Public Affairs style AR 360-1. When not mentioned, adhere to the AP Stylebook. If AP Stylebook entry does not cover a word or specific usage, refer to the Webster’s Dictionary.
+          - sectiontitle: Headlines
+            para1: Only the first word and proper nouns are capitalized. Exception&#58; First word after colon is capitalized. Avoid using state abbreviations in headlines whenever possible. Use single quotes for quotation marks. Use numerals for all numbers except in casual uses&#58; <em>hundreds</em> instead of <em>100s</em>. Do not use periods in US, UK, UN along with state abbreviations with two capital letters (NY, NJ ...), retain periods for orher states (Ky., Mont. ...) when used due to space constraints.
+            para2: <strong>Sentence case, present</strong> “Dwell time decreases for deployed Soldiers”
+            para3: <strong>Sentence case, future</strong> “Dwell time to decrease for deployed Soldiers”
+            para4: <strong>Common leader acronym acceptable in title</strong> “CSA to visit Fort Hood”
+            para5: <strong>Known leader name acceptable in title</strong> “Milley visits Fort Hood”
+            para6: <strong>Postal code abbreviations</strong> The eight states that are not abbreviated in text&#58; AK (Alaska), HI (Hawaii), ID (Idaho), IA (Iowa), ME (Maine), OH (Ohio), TX (Texas), UT (Utah). Also&#58; District of Columbia (DC).
+            para7: <strong>Miscellaneous</strong> Use <em>New York state</em> when necessary to distinguish the state from <em>New York City</em>. Use <em>state of Washington</em> or <em>Washington state</em> when necessary to distinguish the state from the <em>District of Columbia</em>.
+            hr:
+          - sectiontitle: Body Text
+            para1: <strong>Dateline format “NEWPORT NEWS, Va. (April 1, 2017) – Article text...”<br>Except for cities that stand alone in datelines, use the state name in textual material when the city or town is not in the same state as the dateline, or where necessary to avoid confusion&#58; <em>Springfield, Massachusetts</em>, or <em>Springfield, Illinois</em>. Provide a state identification for the city if the story has no dateline, or if the city is not in the same state as the dateline. However, cities that stand alone in datelines may be used alone in stories that have no dateline if no confusion would result.
+            para2: <strong>Numerals</strong> In general, spell out <strong>1-9, 1st-9th</strong>.
+            hr:
+          - sectiontitle: Military Titles and Ranks 
+            para1: Refer to AP Stylebook.
+          - sectiontitle: Proper Unit Names
+            para1: Some unit names include information behind the element name, in parenthesis. This is part of the proper name of the unit, and should be included on all references. For example&#58;<br><em>3rd U.S. Infantry Regiment (The Old Guard)</em> – The proper name of the Army unit that handles ceremonial responsibilities at Arlington National Cemetery.<br><em>10th Mountain Division (Light Infantry)<br>101st Airborne Division (Air Assault)<br>5th Special Forces Group (Airborne)</em>
+            hr:
+          - sectiontitle: State Names
+            para1: U.S. states should be <strong>spelled out</strong> when used in the body of a story, whether standing alone or in conjunction with a city, town, village or military base. State name is not necessary if it is the same as the dateline. This also applies to newspapers cited in a story. For example, a story datelined Providence, R.I., would reference the Providence Journal, not the Providence (R.I.) Journal. 
+            para2: <strong>Abbreviations</strong> In conjunction with the name of a city, town, village or military base in most datelines. In lists, agate, tabular material, non-publishable editor’s notes and credit lines. In short-form listings of party affiliation&#58; D-Ala., R-Mont. Use the <strong>two-letter Postal Service abbreviations</strong> only with full addresses, including ZIP code.
+            hr: 
+          - sectiontitle: Modifiers
+            table:
+              - heading1: Nouns
+                heading2: Compound Modifiers/Adjectives
+              - col1: Reserve Component
+                col2: reserve-component Soldier
+              - col1: Active Component
+                col2: active-component Soldier
+              - col1: Active Duty
+                col2: active-duty Soldiers
+              - col1: National Guard
