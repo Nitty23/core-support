@@ -14,41 +14,4 @@
             para5: <strong>Known leader name acceptable in title</strong> “Milley visits Fort Hood”
             para6: <strong>Postal code abbreviations</strong> The eight states that are not abbreviated in text&#58; AK (Alaska), HI (Hawaii), ID (Idaho), IA (Iowa), ME (Maine), OH (Ohio), TX (Texas), UT (Utah). Also&#58; District of Columbia (DC).
             para7: <strong>Miscellaneous</strong> Use <em>New York state</em> when necessary to distinguish the state from <em>New York City</em>. Use <em>state of Washington</em> or <em>Washington state</em> when necessary to distinguish the state from the <em>District of Columbia</em>.
-            hr: 
-          - sectiontitle: Body Text
-            para1: <strong>Dateline format “NEWPORT NEWS, Va. (April 1, 2017) – Article text...”<br>Except for cities that stand alone in datelines, use the state name in textual material when the city or town is not in the same state as the dateline, or where necessary to avoid confusion&#58; <em>Springfield, Massachusetts</em>, or <em>Springfield, Illinois</em>. Provide a state identification for the city if the story has no dateline, or if the city is not in the same state as the dateline. However, cities that stand alone in datelines may be used alone in stories that have no dateline if no confusion would result.
-            para2: <strong>Numerals</strong> In general, spell out <strong>1-9, 1st-9th</strong>.
-            hr:
-          - sectiontitle: Military Titles and Ranks 
-            para1: Refer to AP Stylebook.
-          - sectiontitle: Proper Unit Names
-            para1: Some unit names include information behind the element name, in parenthesis. This is part of the proper name of the unit, and should be included on all references. For example&#58;<br><em>3rd U.S. Infantry Regiment (The Old Guard)</em> – The proper name of the Army unit that handles ceremonial responsibilities at Arlington National Cemetery.<br><em>10th Mountain Division (Light Infantry)<br>101st Airborne Division (Air Assault)<br>5th Special Forces Group (Airborne)</em>
-            hr:
-          - sectiontitle: State Names
-            para1: U.S. states should be <strong>spelled out</strong> when used in the body of a story, whether standing alone or in conjunction with a city, town, village or military base. State name is not necessary if it is the same as the dateline. This also applies to newspapers cited in a story. For example, a story datelined Providence, R.I., would reference the Providence Journal, not the Providence (R.I.) Journal. 
-            para2: <strong>Abbreviations</strong> In conjunction with the name of a city, town, village or military base in most datelines. In lists, agate, tabular material, non-publishable editor’s notes and credit lines. In short-form listings of party affiliation&#58; D-Ala., R-Mont. Use the <strong>two-letter Postal Service abbreviations</strong> only with full addresses, including ZIP code.
-            hr: 
-          - sectiontitle: Modifiers
-            table:
-              - heading1: Nouns
-                heading2: Compound Modifiers/Adjectives
-              - col1: Reserve Component
-                col2: reserve-component Soldier
-              - col1: Active Component
-                col2: active-component Soldier
-              - col1: Active Duty
-                col2: active-duty Soldiers
-              - col1: National Guard
-            hr:
-          - sectiontitle: Army Units
-            para1: AP Style for military units, going from <strong>smallest</strong> to <strong>largest</strong>, with units separated by commas&#58; <em>“I’m tired,” said Sgt. Joe Snuffy, with 1st Battalion, 3rd Brigade Combat Team, 101st Airborne Division (Air Assault). “I can’t wait to get home to my family.”</em> Abbreviate Army units using standard acronym rules; note if it is a National Guard unit.
-            para2: Army units can be tricky. It does not suffice to say that a Soldier simply belongs to Alpha Company, 1st Battalion, as there are a multitude of Alpha Companies and 1st Battalions throughout the Army. Be sure to get the unit’s regimental, brigade or division affiliation; in other words, make sure a <strong>precise, unique</strong> unit name is listed.
-            para3: <strong>Army&#58;</strong> Numbered armies (e.g., <em>First Army</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the numbered army or it’s a wide shot of a numbered army event.
-            para4: <strong>CORPS&#58;</strong> Corps (e.g., <em>XVIII Airborne Corps</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the corps or it’s a wide shot of a corps event except when referring to the U.S. Army Corps of Engineers</em>.
-            para5: <strong>DIVISION&#58;</strong> Divisions (e.g., <em>1st Cavalry Division</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the division or it’s a wide shot of a division event.
-            para6: <strong>BRIGADE/BRIGADE COMBAT TEAM&#58;</strong> Most brigades/brigade combat teams numbered lower than 5 are part of a larger division. For example, each activeduty division has a 1st brigade combat team, so be sure to list the division affiliation: <em>1st Brigade Combat Team, 82nd Airborne Division</em>. There are a number of active-duty and National Guard standalone brigade combat teams, and they generally can be listed without a division. If it’s a National Guard unit, be sure to list the state it’s affiliated with&#58; <em>30th Heavy Brigade Combat Team, North Carolina Army National Guard</em>.
-            para7: <strong>REGIMENT&#58;</strong> Do not use the shorthand for these units. For example, instead of writing <em>1/120th Infantry</em>, write out the full name&#58; <em>1st Battalion, 120th Infantry Regiment</em>. Always list the subordinate unit before the name of the regiment&#58; <em>1st Battalion, 2nd Squadron</em>. While the Army generally does not use the regimental command structure like it used to, the regimental heritage is kept to maintain the history and heraldry of many units.
-            para8: <strong>BATTALION/SQUADRON&#58;</strong> Most combat arms (e.g., <em>infantry, artillery, cavalry and armor</em>) battalions and squadrons belong to a numbered regiment, which must be listed in captions&#58; <em>the 2nd Squadron, 14th Cavalry Regiment, 2nd Brigade Combat Team, 25th Infantry Division</em>. Many combat support and combat service support battalions do not have a specific regimental affiliation, but it’s best to list the brigade and/or division to which they belong&#58; <em>the 82nd Brigade Support Battalion, 3rd Brigade Combat Team, 82nd Airborne Division</em>.
-            para9: <strong>COMPANY/TROOP/BATTERY&#58;</strong> Companies starting with a letter always belong to a numbered battalion and regiment, which will be listed in the caption as well. Spell out such company names using the phonetic alphabet&#58; <em>Charlie Company, 1st Battalion, 120th Infantry Regiment, 30th Brigade Combat Team, North Carolina Army National Guard</em>. NOTE&#58; Some company-level units use non-standard nicknames&#58; <em>“Killer Company.”</em>
-            hr:
 
