@@ -53,27 +53,25 @@
             para8: <strong>BATTALION/SQUADRON&#58;</strong> Most combat arms (e.g., <em>infantry, artillery, cavalry and armor</em>) battalions and squadrons belong to a numbered regiment, which must be listed in captions&#58; <em>the 2nd Squadron, 14th Cavalry Regiment, 2nd Brigade Combat Team, 25th Infantry Division</em>. Many combat support and combat service support battalions do not have a specific regimental affiliation, but it’s best to list the brigade and/or division to which they belong&#58; <em>the 82nd Brigade Support Battalion, 3rd Brigade Combat Team, 82nd Airborne Division</em>.
             para9: <strong>COMPANY/TROOP/BATTERY&#58;</strong> Companies starting with a letter always belong to a numbered battalion and regiment, which will be listed in the caption as well. Spell out such company names using the phonetic alphabet&#58; <em>Charlie Company, 1st Battalion, 120th Infantry Regiment, 30th Brigade Combat Team, North Carolina Army National Guard</em>. NOTE&#58; Some company-level units use non-standard nicknames&#58; <em>“Killer Company.”</em>
           - sectiontitle: Force Structure
-            table:
-              - heading1: <embed class="hider">
-                heading2: <embed class="hider">
-              - col1: Soldier
-                col2: Individual
-              - col1: Squad/Section
-                col2: 9 to 10 Soldiers
-              - col1: Platoon
-                col2: 16 to 44 Soldiers; 2 to 4 squads
-              - col1: Company or Battery/Troop
-                col2: 62 to 190 Soldiers; 3 to 5 platoons
-              - col1: Battalion or Squadron 
-                col2: 300 to 1,000 Soldiers; 4 to 6 companies
-              - col1: Brigade or Group/Regiment
-                col2: 3,000 to 5,000 Soldiers; 2 to 5 battalions
-              - col1: Division
-                col2: 10,000 to 15,000 Soldiers; 3 brigades
-              - col1: Corps
-                col2: 20,000 to 45,000 Soldiers; 2 to 5 divisions
-              - col1: Army
-                col2: 50,000+ Soldiers
+            lexicon:
+              - title: Soldier
+                definition: Individual
+              - title: Squad/Section
+                definition: 9 to 10 Soldiers
+              - title: Platoon
+                definition: 16 to 44 Soldiers; 2 to 4 squads
+              - title: Company or Battery/Troop
+                definition: 62 to 190 Soldiers; 3 to 5 platoons
+              - title: Battalion or Squadron 
+                definition: 300 to 1,000 Soldiers; 4 to 6 companies
+              - title: Brigade or Group/Regiment
+                definition: 3,000 to 5,000 Soldiers; 2 to 5 battalions
+              - title: Division
+                definition: 10,000 to 15,000 Soldiers; 3 brigades
+              - title: Corps
+                definition: 20,000 to 45,000 Soldiers; 2 to 5 divisions
+              - title: Army
+                definition: 50,000+ Soldiers
             hr:
           - sectiontitle: A
             lexicon:
