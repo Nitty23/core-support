@@ -1,2 +1,14 @@
 //  Foundation for Sites Settings
 //  -----------------------------
+
+$breakpoints: (
+  small: 0px,      // 0-480px
+  medium: 481px,   // 480-768px
+  large: 769px,    // 769-1155px
+  xlarge: 1156px,  // 1155-1600px
+  xxlarge: 1601px, // 1601px and up
+);
+
+$breakpoint-classes: (small medium large xlarge xxlarge);
+
+$accordionmenu-arrows: false;

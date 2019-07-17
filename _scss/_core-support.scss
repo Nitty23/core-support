@@ -204,6 +204,35 @@ h1, h2, h3, h4, h5 {
 
 .icons-container{
     margin-top: 1rem;
+    margin-bottom: 40px;
+    @include breakpoint(small) {
+        margin-left: 3.375rem;
+        margin-right: 3.375rem
+    }
+    @include breakpoint(medium) {
+        margin-left: 3.375rem;
+        margin-right: 3.375rem
+    }
+}
+
+.homepage-container{
+    @include xy-grid-container;
+    max-width: 54rem;
+    @include breakpoint(small) {
+        max-width: 26rem;
+    }
+    @include breakpoint(medium) {
+        max-width: 44rem;
+    }
+    @include breakpoint(large) {
+        max-width: 48rem;
+    }
+    @include breakpoint(xlarge) {
+        max-width: 64rem;
+    }
+    @include breakpoint(xxlarge) {
+        max-width: 69rem;
+    }
 }
 
 .sect-space{
@@ -353,6 +382,7 @@ h3:after, h4:after, h5:after {
     position: relative;
     text-align: center;
     color: white;
+    margin-top: 60px;
 }
 
 .overlay-effect{
@@ -764,11 +794,10 @@ a:hover.topic-box{
 
 #search-input { 
     outline: none;
-    margin: 10px 20px;
+    margin: 10px 0px 10px 20px;
     font-size: 1rem;
     color: #252525;
     border: none;
-    width: 100%;
 }
 
 .supp-searchbox{
@@ -817,167 +846,62 @@ a:hover.topic-box{
     margin: 0 0 !important;
 }
 
-.mast-title-container{
-    position: absolute;
-    top: 13.3125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 51.875rem;
-    @include breakpoint(mobile) {
-        top: 45%;
-        width: 50rem;
-    }
-    @include breakpoint(nav) {
-        top: 42%;
-        width: 50rem;
-    }
-    @include breakpoint(tablet) {
-        top: 37%;
-        width: 50rem;
-    }
-    @include breakpoint(lg_tablet) {
-        top: 40%;
-        width: 50rem;
-    }
-    @include breakpoint(sm_desktop) {
-        top: 42%;
-        width: 50rem;
-    }
-    @include breakpoint(desktop) {
-        top: 30%;
-        width: 50rem;
-    }
-    @include breakpoint(large) {
-        top: 30%;
-        width: 50rem;
-    }
-    @include breakpoint(really_big) {
-        top: 34%;
-        width: 50rem;
-    }
-}
-
 .mast-title{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 600;
     color: white;
-    font-size: 2.25rem;
-    @include breakpoint(nav) {
+    position: relative;
+    margin-bottom: 40px;
+    text-transform: none;
+    line-height: 1.3em;
+    @include breakpoint(small) {
         font-size: 2.5rem;
     }
-    @include breakpoint(tablet) {
-        font-size: 3.75rem;
-    }
-    @include breakpoint(lg_tablet) {
-        font-size: 4.25rem;
-    }
-    @include breakpoint(sm_desktop) {
-        font-size: 4.25rem;
-    }
-    @include breakpoint(desktop) {
-        font-size: 4.25rem;
+    @include breakpoint(medium) {
+        font-size: 2.5rem;
     }
     @include breakpoint(large) {
+        font-size: 4.75rem;
+    }
+    @include breakpoint(xlarge) {
         font-size: 5.25rem;
     }
-    @include breakpoint(really_big) {
+    @include breakpoint(xxlarge) {
         font-size: 5.25rem;
     }
+}
+
+.mast-inner-container{   
+    margin: 0 auto;
+    padding: 70px 0 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: -webkit-center;
 }
 
 .mast-search-container{
+    background-color: white;
+    border-radius: 35px;
     display: flex;
-    justify-content: space-between;
-    border-radius: 28px;
-    background: white;
-    color: lightgrey;
-    width: 100%;
-    height: 3.75rem;
-    position: absolute;
-    bottom: 13.3125em;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 37.5rem;
-    @include breakpoint(mobile) {
-        bottom: 18%;
-        width: 90%;
+    justify-content: start;
+    @include breakpoint(small) {
+        width: 19rem;
     }
-    @include breakpoint(nav) {
-        bottom: 18%;
-        width: 90%;
-    }
-    @include breakpoint(tablet) {
-        bottom: 32%;
-        // width: 39.375rem;
-    }
-    @include breakpoint(lg_tablet) {
-        bottom: 25%;
-        // width: 43rem;
-    }
-    @include breakpoint(sm_desktop) {
-        bottom: 20%;
-        // width: 51.875rem;
-    }
-    @include breakpoint(desktop) {
-        bottom: 45%;
-        // width: 51.875rem;
+    @include breakpoint(medium) {
+        width: 27rem;
     }
     @include breakpoint(large) {
-        bottom: 38%;
-        // width: 51.875rem;
+        width: 39.375rem;
     }
-    @include breakpoint(really_big) {
-        bottom: 26%;
-        // width: 51.875rem;
+    @include breakpoint(xlarge) {
+        width: 51.875rem;
     }
-}
-
-.full_width_image {
-    background-color: #fff;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding: 0 0 23%;
-
-    &#profile_image {
-      // default image
-      background-image: url(nth($mastheads, 5));
-      @each $img in $mastheads {
-        $i: index($mastheads, $img);
-        @include masthead($i) {
-          background-image: url($img);
-        }
-      }
-    }
-    @include breakpoint(mobile) {
-        padding: 0 0 117%;
-    }
-    @include breakpoint(nav) {
-        padding: 0 0 74%;
-    }
-    @include breakpoint(tablet) {
-        padding: 0 0 73%;
-    }
-    @include breakpoint(lg_tablet) {
-        padding: 0 0 57%;
-    }
-    @include breakpoint(sm_desktop) {
-        padding: 0 0 47%;
-    }
-    @include breakpoint(desktop) {
-        padding: 0 0 57%;
-    }
-    @include breakpoint(large) {
-        padding: 0 0 47%;
-    }
-    @include breakpoint(really_big) {
-        padding: 0 0 23%;
+    @include breakpoint(xxlarge) {
+        width: 51.875rem;
     }
 }
 
@@ -986,14 +910,28 @@ a:hover.topic-box{
     font-style: normal;
     font-size: 1rem;
     color: #B3B3B3;
+    width: 90%;
 }
 
 .mast-search-icon{
     color: #fec325;
     font-size: 126%;
-    top: 30%;
-    right: 5%;
-    position: relative;
+
+    @include breakpoint(small) {
+        line-height: 40px;
+    }
+    @include breakpoint(medium) {
+        line-height: 40px;
+    }
+    @include breakpoint(large) {
+        line-height: 60px;
+    }
+    @include breakpoint(xlarge) {
+        line-height: 60px;
+    }
+    @include breakpoint(xxlarge) {
+        line-height: 60px;
+    }
 }
 
 .search-mast{

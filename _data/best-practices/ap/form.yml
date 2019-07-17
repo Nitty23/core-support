@@ -24,7 +24,7 @@
               - listname: To remove existing formatting
                 one: Select the text that you want to adjust.
                 two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/eraser.svg"> in the WYSIWYG Text Toolbar.<img class="data-img" src="/e2/images/rv7/core-support/best-practices/ap/ap_wysiwyg_tool_bar.png">
-                three: Any highlighted text is now restored to its original formatting. You can reformat this text using the formatting guidelines outlined above.
+                three: Any highlighted text is now restored to its original formatting. You can reformat this text using the guidelines outlined on <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting text</a>.
             para2: Keyboard Shortcut&#58; <strong>⌘ + Space / Ctrl + Space</strong>
             hr:
           - sectiontitle: Troubleshoot special characters
