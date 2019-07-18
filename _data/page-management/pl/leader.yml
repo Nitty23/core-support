@@ -27,7 +27,7 @@
           - sectiontitle: Add a new leader profile card
             numlist:
               - listname: 
-                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_leader_profile_card.png">
+                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Leader</strong> located below your existing leaders. The <strong>Add a New Leader</strong> panel will slide into view. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pm_pl_new_leader_card_anime.gif">
                 two: Enter your leader’s name and position.
                 three: Upload your leader’s official photo by clicking on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> and select an image from your device. You can also drag and drop an image on top of the box.
                 four: Click the <strong>ON toggle</strong> button to display a button underneath your leader's name and photo. This optio, which allows you to link to a PDF or custom URL, is typically used for your leader’s official biography. 
