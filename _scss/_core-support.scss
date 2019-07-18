@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-.homepage-container{
+.container{
     @include xy-grid-container;
     max-width: 54rem;
     @include breakpoint(small) {
@@ -975,7 +975,7 @@ a:hover.topic-box{
 }
 
 .search-page-container{
-    margin-top: 11% !important;
+    margin-top: 17% !important;
 }
 
 #results-container{
