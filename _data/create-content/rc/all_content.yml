@@ -2,10 +2,50 @@
 
   - title: Released Content
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: All Content 101
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: The <strong>All Content</strong> feed is a centralized place for you to find the content that matters from the people who matter to you. It hosts every article that has been publicly released to <a class="underline-link" href="https://www.army.mil">www.army.mil</a> through CORE, including <a class="underline-link" href="../../creating-content/wa/import_from_dvids.html">stories imported from DVIDS</a>. Thus, the feed serves as a searchable archive of approved content from the entire Army public affairs community.
+            para2: This resource is especially useful if you are an Army web page publisher and social media manager, who is responsible for updating your organization’s digital platforms. You can <strong>curate approved content</strong> to share with your digital audiences, allowing you to keep your platforms active and relevant with little effort.
+            itemlist:
+              - listname: Simply click All Content on the main menu and browse through all of the most recently released articles. As you discover relevant stories, you can easily
+                one: <strong>Add</strong> them to your <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>
+                two: <strong>Post</strong> them to your social media platforms
+                three: <strong>Share</strong> them with your Army network via email marketing or influencer outreach
+                four: <strong>Link</strong> to them within your own related articles
+            tip: Adding related links - both internal and external - to your content will help to increase visibility and prioritize it on search engine results pages, or SERPS. The All Content feed is a great resource for finding related content to cross promote within your own articles, providing a way for your visitors to continue exploring Army topics. For other tips on improving your SEO, visit <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">search engine optimization</a>.
+            para3: Continue reading to learn about ways to customize your feed to display users, organizations and topics, making it easier to find content that interests you and your organization’s audience.
+          - sectiontitle: Filter articles by user or organization         
+            para1: By default, your news feed will display articles from all CORE users with the most recently released content at the top. You can customize this list simply by adjusting filters located on the right sidebar.
+            numlist: 
+              - listname: To filter articles from a specific user or organization
+                one: From the <strong>All Content</strong> page, locate the <strong>Articles From</strong> filter on the right sidebar.
+                two: Click <strong>Enter a name or organization</strong>.
+                three: Begin typing the name of a user or organization. CORE will suggest options that match your search term, based on full names and abbreviations that are in the <a class="underline-link" href="../../core-community/c/user_directory.html">User Directory</a> and <a class="underline-link" href="../../core-community/c/organization_directory.html">Organization Directory</a>.
+                four: Select the user or organization from the auto-suggested list.
+            para2: You will notice that your news feed automatically displays articles created by the person or organization that you selected. Keep in mind, there will be multiple user names in the feed when you filter by an organization, because the feed contains articles created by every member of the team.
+            para3: You can change your filter option at any point by clicking <strong>Enter a name or organization</strong> again. To clear the filter, simply click the <strong>All CORE users</strong> option.
+            tip: You can also quickly filter by clicking on the user or organization name that is displayed underneath the article title as you browse the news feed. This will apply the Article From filter and narrow your results to display only articles from the selected user or organization. To remove the filter, click on the user or organization name within the news feed again.
+          - sectiontitle: Filter articles by tags
+            para1: You can do a simple keyword search to find articles based on a particular topic. However, your search results will include articles that reference your keyword in multiple locations, including the title, body copy, metadata, tags and more. <a class="underline-link" href="../../creating-content/rc/tag_feeds.html"><strong>Tag feeds</strong></a> filter your results to display only articles that contain a specific <a class="underline-link" href="../../creating-content/wa/tags.html">tag</a>.
+            numlist: 
+              - listname: To filter articles by a tag
+                one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). 
+                two: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.
+          - sectiontitle: Select a custom date range
+            para1: You can filter articles by the released date. By default, your feed will display articles released within the Last week with the most recent first. You can select from the following pre-determined options - Last week, Last month, Last 90 days, Last year - or select a custom date range.
+            numlist: 
+              - listname: To select a custom date range
+                one: From the <strong>All Content</strong> page, locate the Date Released filter on the right sidebar.
+                two: Click <strong>Custom Range</strong>.
+                three: Click <strong>Starting</strong> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to open a calendar module.
+                four: Use the left and right arrows to change the calendar month, if needed.
+                five: Click on the date you want to start filtering articles. Your selected date will appear next to the Starting label, and the news feed will automatically filter to display all articles after the selected date.
+                six: If you would like to change the end date from today, click <strong>Ending</strong> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to open another calendar module.
+                seven: Click on the date you want to stop filtering articles. Your selected end date will appear next to the End label, and the news feed will automatically filter to display all articles after the selected start date and before the selected end date.
+            para2: To change a selected date, click on the starting or ending date and choose a different date from the calendar module.
+            para3: To remove a custom date filter, simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> icon located to the right of your selected date.
+            note: You do not have to select a date range. For extra customization options, you can choose to set a Start date, an End date, or both to customize your date range. The news feed will automatically adjust to display articles before, after or between your selected dates.
+          - sectiontitle: 
+            paratitle: Can I customize my All Content news feed to display my favorite users, organizations, and topics?
+            para1: Currently, you can only customize your All Content feed by adjusting filters in the right sidebar or by accessing a Tag feed. In the future, we plan to expand your capabilities on the All Content page, enabling you to follow users, organizations and tags. This will aggregate articles into a custom news feed that is relevant to you and your organization. Stay tuned!
