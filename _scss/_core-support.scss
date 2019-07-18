@@ -141,7 +141,21 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     border-bottom: 2px solid #fec325;
     background-color: rgba(255, 234, 179, .15);
-    margin-left: 18%
+    @include breakpoint(small) {
+        margin-left: unset;
+    }
+    @include breakpoint(medium) {
+        margin-left: unset;
+    }
+    @include breakpoint(large) {
+        margin-left: 18%;
+    }
+    @include breakpoint(xlarge) {
+        margin-left: 18%;
+    }
+    @include breakpoint(xxlarge) {
+        margin-left: 18%;
+    }
 }
 
 .article-sidenav-list{
