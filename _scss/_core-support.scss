@@ -202,16 +202,26 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1.25rem;
 }
 
-.icons-container{
-    margin-top: 1rem;
-    margin-bottom: 40px;
+.inner-container{
     @include breakpoint(small) {
-        margin-left: 3.375rem;
-        margin-right: 3.375rem
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     @include breakpoint(medium) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    @include breakpoint(large) {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    @include breakpoint(xlarge) {
         margin-left: 3.375rem;
-        margin-right: 3.375rem
+        margin-right: 3.375rem;
+    }
+    @include breakpoint(xxlarge) {
+        margin-left: 3.375rem;
+        margin-right: 3.375rem;
     }
 }
 
@@ -269,12 +279,14 @@ h1, h2, h3, h4, h5 {
     margin-right: auto
 }
 
-.topicspan{    
+.topicspan {    
     padding-top: 6%;
-}
-
-.topicspan{    
-    padding-top: 6%;
+    @include breakpoint(small) {
+        padding-top: 10% !important;
+    }
+    @include breakpoint(medium) {
+        padding-top: 9%;
+    }
 }
 
 .tab { margin-left: 40px; }
@@ -282,6 +294,14 @@ h1, h2, h3, h4, h5 {
 .topicspan-plus{    
     padding-top: 6%;
     animation: slideBack 0.7s;
+    @include breakpoint(small) {
+        padding-top: 10%;
+        animation: slideBack 0.7s;
+    }
+    @include breakpoint(medium) {
+        padding-top: 9%;
+        animation: slideBack 0.7s;
+    }
 }
 
 @keyframes slideBack {
@@ -343,6 +363,10 @@ h3:after, h4:after, h5:after {
     border: none;
     background-color: #ddd;
     height: 1px;
+    @include breakpoint(small) {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
 }
 
 /*Support Header*/
@@ -350,15 +374,43 @@ h3:after, h4:after, h5:after {
 .logo {
     height: 20px;
     margin: 20px;
+    @include breakpoint(small) {
+        height: 50%;
+        margin: 18px;
+    }
 }
 
 .logo-container {
     width: 66%;
     display: flex;
+    @include breakpoint(small) {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .hamburger-container{
-    width:0%;
+    @include breakpoint(small) {
+        width:33%;
+        display: flex;
+    }
+    @include breakpoint(medium) {
+        width:33%;
+        display: flex;
+    }
+    @include breakpoint(large) {
+        width:0%;
+        display: unset;
+    }
+    @include breakpoint(xlarge) {
+        width:0%;
+        display: unset;
+    }
+    @include breakpoint(xxlarge) {
+        width:0%;
+        display: unset;
+    }
 }
 
 .cs-header{
@@ -563,12 +615,8 @@ h3:after, h4:after, h5:after {
 /*------------------------------------------------------------------------*/
 
 .topic-box{
-    display: block;
-    position: relative;
-    overflow: hidden;
     padding: 30px;
     border: solid 1px #ccc;
-    height: 250px;
 }
 
 a:hover.topic-box{
@@ -737,22 +785,18 @@ a:hover.topic-box{
 
 .topics-content{
     padding-right: 0;
+    @include breakpoint(small) {
+        padding: 0% 1%;
+        margin-top: 5%;
+    }
 }
 
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
 .find-row{
-    margin-bottom: 3.125rem;
+    margin: 3.75rem 0rem;
     padding: 50px 20px;
     background-color: #fec325;
-}
-
-.find-row .row{
-     margin-bottom: 0;
-}
-
-.find-col{
-    margin-bottom:2.5%;
 }
 
 .find-btn{
@@ -916,7 +960,6 @@ a:hover.topic-box{
 .mast-search-icon{
     color: #fec325;
     font-size: 126%;
-
     @include breakpoint(small) {
         line-height: 40px;
     }
@@ -952,8 +995,21 @@ a:hover.topic-box{
     background: white; 
     color: lightgrey;
     margin: 3.75rem 0rem;
-    max-width: 600px;
-    width: 100%;
+    @include breakpoint(small) {
+        width: 19rem;
+    }
+    @include breakpoint(medium) {
+        width: 27rem;
+    }
+    @include breakpoint(large) {
+        width: 39.375rem;
+    }
+    @include breakpoint(xlarge) {
+        width: 51.875rem;
+    }
+    @include breakpoint(xxlarge) {
+        width: 51.875rem;
+    }
 }
 
 #search-icons:hover{
@@ -1011,7 +1067,7 @@ a:hover.topic-box{
 
 
 @keyframes slide {
-    from {padding-top: 6% }
+    from {padding-top: 6% };
     to {padding-top: 13% }
 }
 
@@ -1019,75 +1075,28 @@ a:hover.topic-box{
     display: none;
 }
 
+.mobile-center { 
+    @include breakpoint(small) {
+        text-align: center;
+    }
+    @include breakpoint(medium) {
+        text-align: center;
+    }
+}
 
 /*------------------------------------------------------------------------*/
 /*
 /*              Responsive Mobile Style
 /*
 /*------------------------------------------------------------------------*/
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 480px) {
     h1, h2, h3, h4, h5 {
         text-align: left;
-    }
-
-    .logo {
-        height: 50%;
-        margin: 18px;
-    }
-
-    .logo-container {
-        width: 33%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .topic-hr {
-        margin-top: 0em;
-        margin-bottom: 1em;
-    }
-
-    .topic-box{
-        height: 277px !important;
-        width: 140% !important;
-        margin-left: -20% !important;
-    }
-  
-    .topicspan{
-        padding-top: 10% !important;
-    }
-
-    .hamburger-container{
-        width:33%;
-        display: flex;
-    }
-
-    .topicspan-plus{    
-        padding-top: 10%;
-        animation: slideBack 0.7s;
     }
 
     @keyframes slideBack {
         from {padding-top: 13% }
         to {padding-top: 10% }
-    }
-
-    .topics-content{
-        padding: 0% 1%;
-        margin-top: 5%;
-    }
-    
-    .dropdown-searchbox{
-        margin: 2.5rem 0;
-        width: 90%;
-    }
-
-    .find-mobile{
-        margin: 2.1875rem 0 .75rem 0;
-        overflow: visible;
-    }
-
-    .find-col{
-        margin-bottom:10% !important;
     }
     
     .supp-mobile-navbar {
@@ -1112,12 +1121,12 @@ a:hover.topic-box{
     z-index: 2;
     }
 
-    .row{
+    .row {
         margin-bottom: 30px !important;
         margin-top: 30px !important;
     }
 
-    .remove-space{
+    .remove-space {
         margin-top: 0rem;
     }
 
@@ -1125,7 +1134,7 @@ a:hover.topic-box{
         padding-top: 2%;
     }
 
-    .article-sidenav{
+    .article-sidenav {
         margin-top: .5rem;
         margin-left: 0%;
         margin-bottom: 1.5rem;
@@ -1134,22 +1143,17 @@ a:hover.topic-box{
 
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
-    .topic-text{
+    .topic-text {
         font-size: small;
     }
 
-    .subtopic-title{
+    .subtopic-title {
         font-size: smaller
-    }
-
-    .mobile-center{
-        text-align:center;
     }
 
     .search-page-container{
         margin-top: 45% !important;
     }
-
 }
 
 /*------------------------------------------------------------------------*/
@@ -1157,27 +1161,9 @@ a:hover.topic-box{
 /*              Responsive Tablet Style
 /*
 /*------------------------------------------------------------------------*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     h1, h2, h3, h4, h5 {
         text-align: left;
-    }
-
-    .mobile-center{
-        text-align: center;
-    }
-    
-    .find-mobile{
-        margin: 2.1875rem 0 .75rem 0;
-        overflow: visible;
-    }
-
-    .topicspan{
-        padding-top: 9%;
-    }
-
-    .topicspan-plus{    
-        padding-top: 9%;
-        animation: slideBack 0.7s;
     }
 
     @keyframes slideBack {
@@ -1189,7 +1175,7 @@ a:hover.topic-box{
         margin: 0% 7%;
     }
 
-    .searchbox-space{
+    .searchbox-space {
         animation: slide 0.5s;
         padding-top: 30%;
     }
