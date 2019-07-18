@@ -2,7 +2,7 @@
     <nav class="cs-header">
         <div class="navbar">
             <div class="hamburger-container">
-                <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
+                <button id="mobile-nav-btn" class="nav-btn hide-for-large">
                     <i class="fas fa-bars search-icons"></i>
                 </button>
             </div>
@@ -34,7 +34,7 @@
             </div>
         </div>            
     </div>
-    <nav id="mobile-dropdown-menu" class="hider show-for-small-only mobile-dropdown-container">
+    <nav id="mobile-dropdown-menu" class="hider hide-for-large mobile-dropdown-container">
         <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
             {% for topic in site.data.toc.support_toc %}
                     <li style="padding:0px 10px">                             
@@ -61,8 +61,8 @@
     <div class="container">
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
-            <div class="row ">
-                <aside class="column large-3 medium-4 topics-pill-menu hide-for-small-only">
+            <div class="grid-x grid-margin-x grid-margin-y align-left">
+                <aside class="cell large-4 topics-pill-menu show-for-large">
                     <nav>
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
@@ -81,7 +81,7 @@
                     </nav>                 
                 </aside>
                 
-                <div class="column large-9 medium-8 small-12 medium-offset-4 large-offset-3">
+                <div class="cell large-8 medium-12 small-12 large-offset-3">
                     <div class="topics-content">
                         {% include topic_generator.html %}
                     </div>

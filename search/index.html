@@ -12,7 +12,7 @@ tohome: ../
     <nav class="cs-header">
         <div class="navbar">
             <div class="hamburger-container">
-                <button id="mobile-nav-btn" class="nav-btn show-for-small-only">
+                <button id="mobile-nav-btn" class="nav-btn hide-for-large">
                     <i class="fas fa-bars search-icons"></i>
                 </button>
             </div>
@@ -38,7 +38,7 @@ tohome: ../
             </div>
         </div>            
     </div>
-    <nav id="mobile-dropdown-menu" class="hider show-for-small-only mobile-dropdown-container">
+    <nav id="mobile-dropdown-menu" class="hider hide-for-large mobile-dropdown-container">
         <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
             {% for topic in site.data.toc.support_toc %}
                     <li style="padding:0px 10px">                             
