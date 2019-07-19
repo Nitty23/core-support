@@ -8,14 +8,10 @@
             </div>
             <div class="logo-container">
                 <a href="{{page.tohome}}">
-                    <img class="logo"
-                        srcset="
-                            /e2/images/rv7/core-support/ui-media/coresupport_logo.svg 2500w, 
-                            /e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg 768w
-                            "
-                        src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg"
-                        alt="CORE Support Logo"
-                    />
+                    <picture class="logo">
+                        <source media="(max-width: 768px)" srcset="/e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg" type="image/svg+xml">
+                        <img src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg" alt="CORE Support Logo" style="width:auto;" type="image/svg+xml">
+                    </picture>
                 </a>
             </div>
             <div style="width:33%; display: flex; justify-content: flex-end;">
@@ -62,7 +58,7 @@
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
             <div class="grid-x grid-margin-x grid-margin-y align-left">
-                <aside class="cell large-4 topics-pill-menu show-for-large">
+                <aside class="cell large-2 topics-pill-menu show-for-large">
                     <nav>
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
