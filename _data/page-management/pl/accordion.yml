@@ -22,7 +22,7 @@
                   definition: Add a category title and body text that will be collapsed. See <strong>Add a new category</strong> below for more details.
                 - title: Customize Existing Categories
                   definition: You can edit, reorder or remove any existing category. Continue reading below for more details on each of these customization options.
-                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/accordion_test.jpg">
             hr:
           - sectiontitle: Add a new category
             numlist: 
