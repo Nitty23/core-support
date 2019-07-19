@@ -852,7 +852,7 @@ a:hover.topic-box{
 
 #search-input { 
     outline: none;
-    margin: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 25px;
     font-size: 1rem;
     color: #252525;
     border: none;
@@ -910,17 +910,18 @@ a:hover.topic-box{
     font-weight: 600;
     color: white;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: none;
     line-height: 1.3em;
     @include breakpoint(small) {
         font-size: 2.5rem;
     }
     @include breakpoint(medium) {
-        font-size: 2.5rem;
+        font-size: 3.25rem;
     }
     @include breakpoint(large) {
         font-size: 4.75rem;
+        margin-bottom: 40px;
     }
     @include breakpoint(xlarge) {
         font-size: 5.25rem;
@@ -932,13 +933,16 @@ a:hover.topic-box{
 
 .mast-inner-container{   
     margin: 0 auto;
-    padding: 70px 0 150px;
+    padding: 0 25px 15px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: -webkit-center;
+    @include breakpoint(xlarge) {
+        padding: 0 25px 30px;
+    }
 }
 
 .mast-search-container{
@@ -946,21 +950,7 @@ a:hover.topic-box{
     border-radius: 35px;
     display: flex;
     justify-content: start;
-    @include breakpoint(small) {
-        width: 19rem;
-    }
-    @include breakpoint(medium) {
-        width: 27rem;
-    }
-    @include breakpoint(large) {
-        width: 39.375rem;
-    }
-    @include breakpoint(xlarge) {
-        width: 51.875rem;
-    }
-    @include breakpoint(xxlarge) {
-        width: 51.875rem;
-    }
+    max-width: 600px;
 }
 
 .mast-search-input{
@@ -968,27 +958,15 @@ a:hover.topic-box{
     font-style: normal;
     font-size: 1rem;
     color: #B3B3B3;
-    width: 90%;
+    width: calc(100% - 70px);
 }
 
 .mast-search-icon{
-    color: #fec325;
-    font-size: 126%;
-    @include breakpoint(small) {
-        line-height: 40px;
-    }
-    @include breakpoint(medium) {
-        line-height: 40px;
-    }
-    @include breakpoint(large) {
-        line-height: 60px;
-    }
-    @include breakpoint(xlarge) {
-        line-height: 60px;
-    }
-    @include breakpoint(xxlarge) {
-        line-height: 60px;
-    }
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -259px -74px;
+    height: 21px;
+    margin: 18px 0;
+    width: 24px;
 }
 
 .search-mast{
