@@ -798,13 +798,13 @@ a:hover.topic-box{
     font-weight: normal;
 }
 
-.topics-content{
-    padding-right: 0;
-    @include breakpoint(small) {
-        padding: 0% 1%;
-        margin-top: 5%;
-    }
-}
+// .topics-content{
+//     padding-right: 0;
+//     @include breakpoint(small) {
+//         padding: 0% 1%;
+//         margin-top: 5%;
+//     }
+// }
 
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
