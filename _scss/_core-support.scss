@@ -852,7 +852,7 @@ a:hover.topic-box{
 
 #search-input { 
     outline: none;
-    margin: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 20px;
     font-size: 1rem;
     color: #252525;
     border: none;
@@ -910,17 +910,18 @@ a:hover.topic-box{
     font-weight: 600;
     color: white;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: none;
     line-height: 1.3em;
     @include breakpoint(small) {
         font-size: 2.5rem;
     }
     @include breakpoint(medium) {
-        font-size: 2.5rem;
+        font-size: 3.25rem;
     }
     @include breakpoint(large) {
         font-size: 4.75rem;
+        margin-bottom: 40px;
     }
     @include breakpoint(xlarge) {
         font-size: 5.25rem;
@@ -946,21 +947,7 @@ a:hover.topic-box{
     border-radius: 35px;
     display: flex;
     justify-content: start;
-    @include breakpoint(small) {
-        width: 19rem;
-    }
-    @include breakpoint(medium) {
-        width: 27rem;
-    }
-    @include breakpoint(large) {
-        width: 39.375rem;
-    }
-    @include breakpoint(xlarge) {
-        width: 51.875rem;
-    }
-    @include breakpoint(xxlarge) {
-        width: 51.875rem;
-    }
+    max-width: 600px;
 }
 
 .mast-search-input{
@@ -968,17 +955,17 @@ a:hover.topic-box{
     font-style: normal;
     font-size: 1rem;
     color: #B3B3B3;
-    width: 90%;
+    width: calc(100% - 70px);
 }
 
 .mast-search-icon{
     color: #fec325;
     font-size: 126%;
     @include breakpoint(small) {
-        line-height: 40px;
+        line-height: 50px;
     }
     @include breakpoint(medium) {
-        line-height: 40px;
+        line-height: 50px;
     }
     @include breakpoint(large) {
         line-height: 60px;
