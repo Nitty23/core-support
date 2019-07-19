@@ -217,46 +217,47 @@ h1, h2, h3, h4, h5 {
 }
 
 .inner-container{
-    @include breakpoint(small) {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    @include breakpoint(medium) {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+    padding: 0 .9375rem;
+//    @include breakpoint(small) {
+//        margin-left: 2rem;
+//        margin-right: 2rem;
+//    }
+//    @include breakpoint(medium) {
+//        margin-left: 1rem;
+//        margin-right: 1rem;
+//    }
     @include breakpoint(large) {
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin: 0 .9375rem;
     }
-    @include breakpoint(xlarge) {
-        margin-left: 3.375rem;
-        margin-right: 3.375rem;
-    }
-    @include breakpoint(xxlarge) {
-        margin-left: 3.375rem;
-        margin-right: 3.375rem;
-    }
+//    @include breakpoint(xlarge) {
+//        margin-left: 3.375rem;
+//        margin-right: 3.375rem;
+//    }
+//    @include breakpoint(xxlarge) {
+//        margin-left: 3.375rem;
+//        margin-right: 3.375rem;
+//    }
 }
 
 .container{
     @include xy-grid-container;
-    max-width: 54rem;
-    @include breakpoint(small) {
-        max-width: 26rem;
-    }
-    @include breakpoint(medium) {
-        max-width: 44rem;
-    }
-    @include breakpoint(large) {
-        max-width: 48rem;
-    }
-    @include breakpoint(xlarge) {
-        max-width: 64rem;
-    }
-    @include breakpoint(xxlarge) {
-        max-width: 69rem;
-    }
+    margin: 60px auto;
+    max-width: 64rem;
+//    @include breakpoint(small) {
+//        max-width: 26rem;
+//    }
+//    @include breakpoint(medium) {
+//        max-width: 44rem;
+//    }
+//    @include breakpoint(large) {
+//        max-width: 48rem;
+//    }
+//    @include breakpoint(xlarge) {
+//        max-width: 64rem;
+//    }
+//    @include breakpoint(xxlarge) {
+//        max-width: 69rem;
+//    }
 }
 
 .sect-space{
