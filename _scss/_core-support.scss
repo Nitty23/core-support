@@ -933,13 +933,16 @@ a:hover.topic-box{
 
 .mast-inner-container{   
     margin: 0 auto;
-    padding: 70px 0 150px;
+    padding: 0 25px 15px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: -webkit-center;
+    @include breakpoint(xlarge) {
+        padding: 0 25px 30px;
+    }
 }
 
 .mast-search-container{
