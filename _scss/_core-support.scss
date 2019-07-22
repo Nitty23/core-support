@@ -148,13 +148,13 @@ h1, h2, h3, h4, h5 {
         margin-left: unset;
     }
     @include breakpoint(large) {
-        margin-left: 18%;
+        margin-left: 2%;
     }
     @include breakpoint(xlarge) {
-        margin-left: 18%;
+        margin-left: 12%;
     }
     @include breakpoint(xxlarge) {
-        margin-left: 18%;
+        margin-left: 12%;
     }
 }
 
