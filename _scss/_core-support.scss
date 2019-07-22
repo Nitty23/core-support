@@ -218,25 +218,6 @@ h1, h2, h3, h4, h5 {
 
 .inner-container{
     padding: 0 .9375rem;
-//    @include breakpoint(small) {
-//        margin-left: 2rem;
-//        margin-right: 2rem;
-//    }
-//    @include breakpoint(medium) {
-//        margin-left: 1rem;
-//        margin-right: 1rem;
-//    }
-    @include breakpoint(large) {
-        margin: 0 .9375rem;
-    }
-//    @include breakpoint(xlarge) {
-//        margin-left: 3.375rem;
-//        margin-right: 3.375rem;
-//    }
-//    @include breakpoint(xxlarge) {
-//        margin-left: 3.375rem;
-//        margin-right: 3.375rem;
-//    }
 }
 
 .container{
@@ -812,6 +793,10 @@ a:hover.topic-box{
     margin: 3.75rem 0rem;
     padding: 50px 20px;
     background-color: #fec325;
+}
+
+.find-row .row {
+    margin-bottom: 0;
 }
 
 .find-btn{
