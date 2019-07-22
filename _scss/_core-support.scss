@@ -825,6 +825,10 @@ a:hover.topic-box{
 .find-text{
     font-size: 1.5rem;
     color: #252525;
+    margin-bottom: 30px;
+    @include breakpoint(large) {
+        margin-bottom: 0;
+    }
 }
 
 .find-btn-text{
@@ -1054,11 +1058,9 @@ a:hover.topic-box{
 }
 
 .mobile-center { 
-    @include breakpoint(small) {
-        text-align: center;
-    }
-    @include breakpoint(medium) {
-        text-align: center;
+    text-align: center;
+    @include breakpoint(large) {
+        text-align: unset;
     }
 }
 
