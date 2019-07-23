@@ -5,10 +5,10 @@
       - subtitle: All Content 101
         sections:
           - sectiontitle: 
-            para1: The <strong>All Content</strong> feed is a centralized place for you to find the content that matters from the people who matter to you. It hosts every article that has been publicly released to <a class="underline-link" href="https://www.army.mil">www.army.mil</a> through CORE, including <a class="underline-link" href="../../creating-content/wa/import_from_dvids.html">stories imported from DVIDS</a>. Thus, the feed serves as a searchable archive of approved content from the entire Army public affairs community.
+            para1: The <strong>All Content</strong> feed is a centralized place for you to find the <em>content that matters</em> from the <em>people who matter</em> to you. It hosts every article that has been publicly released to <a class="underline-link" href="https://www.army.mil">www.army.mil</a> through CORE, including <a class="underline-link" href="../../creating-content/wa/import_from_dvids.html">stories imported from DVIDS</a>. Thus, the feed serves as a searchable archive of approved content from the entire Army public affairs community.
             para2: This resource is especially useful if you are an Army web page publisher and social media manager, who is responsible for updating your organization’s digital platforms. You can <strong>curate approved content</strong> to share with your digital audiences, allowing you to keep your platforms active and relevant with little effort.
             itemlist:
-              - listname: Simply click All Content on the main menu and browse through all of the most recently released articles. As you discover relevant stories, you can easily
+              - listname: Simply click <strong>All Content</strong> on the main menu and browse through all of the most recently released articles. As you discover relevant stories, you can easily
                 one: <strong>Add</strong> them to your <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>
                 two: <strong>Post</strong> them to your social media platforms
                 three: <strong>Share</strong> them with your Army network via email marketing or influencer outreach
@@ -26,10 +26,10 @@
                 four: Select the user or organization from the auto-suggested list.
             para2: You will notice that your news feed automatically displays articles created by the person or organization that you selected. Keep in mind, there will be multiple user names in the feed when you filter by an organization, because the feed contains articles created by every member of the team.
             para3: You can change your filter option at any point by clicking <strong>Enter a name or organization</strong> again. To clear the filter, simply click the <strong>All CORE users</strong> option.
-            tip: You can also quickly filter by clicking on the user or organization name that is displayed underneath the article title as you browse the news feed. This will apply the Article From filter and narrow your results to display only articles from the selected user or organization. To remove the filter, click on the user or organization name within the news feed again.
+            tip: You can also quickly filter by clicking on the user or organization name that is displayed underneath the article title as you browse the news feed. This will apply the <strong>Article From</strong> filter and narrow your results to display only articles from the selected user or organization. To remove the filter, click on the user or organization name within the news feed again.
             hr:
           - sectiontitle: Filter articles by tags
-            para1: You can do a simple keyword search to find articles based on a particular topic. However, your search results will include articles that reference your keyword in multiple locations, including the title, body copy, metadata, tags and more. <a class="underline-link" href="../../creating-content/rc/tag_feeds.html"><strong>Tag feeds</strong></a> filter your results to display only articles that contain a specific <a class="underline-link" href="../../creating-content/wa/tags.html">tag</a>.
+            para1: You can do a simple keyword search to find articles based on a particular topic. However, your search results will include articles that reference your keyword in multiple locations, including the title, body copy, metadata, tags and more. <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag feeds</a> allow you to filter your results to display only articles that contain a specific <a class="underline-link" href="../../creating-content/wa/tags.html">tag</a>.
             numlist: 
               - listname: To filter articles by a tag
                 one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). 
@@ -39,7 +39,7 @@
             para1: You can filter articles by the released date. By default, your feed will display articles released within the Last week with the most recent first. You can select from the following pre-determined options - Last week, Last month, Last 90 days, Last year - or select a custom date range.
             numlist: 
               - listname: To select a custom date range
-                one: From the <strong>All Content</strong> page, locate the Date Released filter on the right sidebar.
+                one: From the <strong>All Content</strong> page, locate the <strong>Date Released</strong> filter on the right sidebar.
                 two: Click <strong>Custom Range</strong>.
                 three: Click <strong>Starting</strong> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to open a calendar module.
                 four: Use the left and right arrows to change the calendar month, if needed.
