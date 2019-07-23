@@ -5,8 +5,9 @@
       - subtitle: Latest News List
         sections:
           - sectiontitle:
-            para1: A <strong>Latest News List<strong> is the easiest way to keep the content on your organization page fresh with minimal effort. This content section will auto-populate with the most recently released articles from every member of your organization. 
+            para1: A <strong>Latest News List</strong> is the easiest way to keep the content on your organization page fresh with minimal effort. This content section will auto-populate with the most recently released articles from every member of your organization. 
             para2: Not only does a Latest News List encourage your visitors to stay engaged by finding more content that interests them, it also helps with <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">search engine optimization</a>. By just having an up-to-date organization page, you send the message to visitors and search engines that your site is active and relevant.
+            note: You must be a <strong>publisher</strong> or <strong>administrator</strong> to be able to add a <a class="underline-link" href="../../page-management/pl/content_sections.html">content section</a> to your organization’s Page.
           - sectiontitle: Things to consider
             itemlist:
               - listname: There are a few things to consider before you add a Latest News List to your Page
