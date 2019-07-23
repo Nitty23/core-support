@@ -5,14 +5,14 @@
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
             <div class="grid-x grid-margin-x grid-margin-y align-left">
+                <nav class="cell small-12">
+                    <a href="{{ page.tohome }}./topics/#{{ page.area }}" class="topnav-bread">{{ page.areatitle }}</a><span class="topnav-arrow-bread">&#10095</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-arrow-bread">&#10095</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
+                </nav>
                 <div class="cell large-8 medium-12 small-12">
-                    <div class="topics-content">
-                        <nav>
-                            <a href="{{ page.tohome }}./topics/#{{ page.area }}" class="topnav-bread">{{ page.areatitle }}</a><span class="topnav-arrow-bread">&#10095</span><a href="{{ page.tohome }}./topics/#{{ page.topicid }}" class="topnav-bread">{{ page.topictitle }}</a><span class="topnav-arrow-bread">&#10095</span><span class="topnav-subtopic topnav-bread">{{ page.title }}</span>
-                        </nav>
+                    <div class="topics-content">                        
                         {% include article_generator.html %}
                     </div>
-                </div> <!-- End of Second column here -->
+                </div> <!-- End of Second cell here -->
                 {% include article_sidenav.html %}
             </div>
         </div> <!-- End of inner containter here -->
