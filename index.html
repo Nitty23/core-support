@@ -131,21 +131,10 @@ $(document.getElementById('search-input')).on('keyup', function (e) {
 <script>$(document).foundation();</script>
 <script type="text/javascript">
     $(document).ready(function(){
-        // $('.mobile-title-pills').click(function(e){
-        //     $('.is-accordion-submenu-parent').foundation('hideAll');            
-        // });
-        // $('.mobile-title-pills').click(function(e){
-        //     $(this.parentElement.parentElement).foundation('showAll');
-        // });
         $("#mobile-nav-btn").click(function(){
             $( this ).children("i" ).toggleClass( "fa-bars fa-times" );
             $( "#mobile-dropdown-menu" ).slideToggle();
         });
-        // $(".mobile-sec-pills").click(function(){
-        //     $( "#mobile-dropdown-menu" ).slideToggle();
-        //     $( "#mobile-nav-btn" ).children( "i" ).toggleClass( "fa-bars fa-times" );
-        // });
-
             // Hides all dropdown menus except clicked
         $('.mobile-title-pills').click(function(e){
             $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');

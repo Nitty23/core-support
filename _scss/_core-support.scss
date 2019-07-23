@@ -289,25 +289,6 @@ h1, h2, h3, h4, h5 {
 
 .tab { margin-left: 40px; }
 
-.topicspan-plus{    
-    padding-top: 6%;
-    animation: slideBack 0.7s;
-    @include breakpoint(small) {
-        padding-top: 10%;
-        animation: slideBack 0.7s;
-    }
-    @include breakpoint(medium) {
-        padding-top: 9%;
-        animation: slideBack 0.7s;
-    }
-}
-
-@keyframes slideBack {
-    from {padding-top: 13% }
-    to {padding-top: 6% }
-}
-
-
 h3, h4, h5 {
     font-style: normal;
     color: black;
@@ -862,6 +843,7 @@ a:hover.topic-box{
     font-size: 1rem;
     color: #252525;
     border: none;
+    width: calc(100% - 70px);
 }
 
 .supp-searchbox{
@@ -964,12 +946,27 @@ a:hover.topic-box{
     font-style: normal;
     font-size: 1rem;
     color: #B3B3B3;
-    width: calc(100% - 70px);
 }
 
 .mast-search-icon{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -259px -74px;
+    height: 21px;
+    margin: 18px 0;
+    width: 24px;
+}
+
+.header-search-icon{
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -259px -74px;
+    height: 21px;
+    margin: 18px 0;
+    width: 24px;
+}
+
+.header-close-icon{
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -282px -48px;
     height: 21px;
     margin: 18px 0;
     width: 24px;
@@ -987,7 +984,7 @@ a:hover.topic-box{
 
 .dropdown-searchbox{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     border: 1px solid #ccc;
     border-radius: 28px;
     background: white; 
@@ -1014,6 +1011,10 @@ a:hover.topic-box{
     background-color:#666666;
 }
 
+.nav-btn{
+    display: flex;
+}
+
 .nav-btn:focus{
     outline: none;
 }
@@ -1021,11 +1022,6 @@ a:hover.topic-box{
 .search-btn-container{
     display: flex;
     justify-content: center;
-}
-
-.searchbox-space{
-    animation: slide 0.7s;
-    padding-top: 13%;
 }
 
 .search-page-container{
@@ -1063,12 +1059,6 @@ a:hover.topic-box{
     font-size: 1rem;
 }
 
-
-@keyframes slide {
-    from {padding-top: 6% };
-    to {padding-top: 13% }
-}
-
 .hider{
     display: none;
 }
@@ -1088,11 +1078,6 @@ a:hover.topic-box{
 @media screen and (max-width: 480px) {
     h1, h2, h3, h4, h5 {
         text-align: left;
-    }
-
-    @keyframes slideBack {
-        from {padding-top: 13% }
-        to {padding-top: 10% }
     }
     
     .supp-mobile-navbar {
@@ -1126,10 +1111,6 @@ a:hover.topic-box{
         margin-top: 0rem;
     }
 
-    .searchbox-space {
-        padding-top: 2%;
-    }
-
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/
     .topic-text {
@@ -1155,23 +1136,8 @@ a:hover.topic-box{
         text-align: left;
     }
 
-    @keyframes slideBack {
-        from {padding-top: 21% }
-        to {padding-top: 9% }
-    }
-
     .support-text-centered {
         margin: 0% 7%;
-    }
-
-    .searchbox-space {
-        animation: slide 0.5s;
-        padding-top: 30%;
-    }
-    
-    @keyframes slide {
-        from {padding-top: 9% }
-        to {padding-top: 21% }
     }
 
 }

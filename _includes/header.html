@@ -16,7 +16,7 @@
             </div>
             <div style="width:33%; display: flex; justify-content: flex-end;">
                 <button id="search-btn" class="nav-btn">
-                    <i class="fas fa-search search-icons"></i>
+                    <i class="header-search-icon search-icons"></i>
                 </button> 
             </div>            
         </div>
@@ -25,7 +25,7 @@
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
                 <input type="search" id="search-input" aria-label="Search through site content" placeholder="Search ...">
-                <i class="fas fa-search search-icons"></i>
+                <i class="header-search-icon search-icons"></i>
             </div>
         </div>            
     </div>
@@ -59,19 +59,17 @@
 $(document).ready(function(){
     //       Search button logic *************
     $("#search-btn").click(function(){
-        $( ".topicspan" ).addClass("topicspan-plus");
-        $( this, "i" ).toggleClass( "fa-search fa-times" );
-        $( "#search-sect" ).slideToggle();
-        $( "#topic-sect-spacer" ).toggleClass( "topicspan searchbox-space" );
+        $( this ).children("i" ).toggleClass("header-search-icon header-close-icon");
+        $( "#search-sect" ).slideToggle(750);
     });
     //       End Search button logic *************
     $("#mobile-nav-btn").click(function(){
-        $( this ).children("i" ).toggleClass( "fa-bars fa-times" );
+        $( this ).children("i" ).toggleClass("fa-bars fa-times" );
         $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
     });
     $(".mobile-sec-pills").click(function(){
         $( "#mobile-dropdown-menu" ).slideToggle();
-        $( "#mobile-nav-btn" ).children( "i" ).toggleClass( "fa-bars fa-times" );
+        $( "#mobile-nav-btn" ).children("i").toggleClass("fa-bars fa-times");
     });
 });
     var searchLocation = '';
