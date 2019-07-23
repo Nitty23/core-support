@@ -809,7 +809,7 @@ a:hover.topic-box{
 }
 
 .find-row .row {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .find-btn{
@@ -836,11 +836,14 @@ a:hover.topic-box{
 }
 
 .find-text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #252525;
-    margin-bottom: 30px;
-    @include breakpoint(large) {
-        margin-bottom: 0;
+    @include breakpoint(small) {
+        margin-top: 0px !important;
+        margin-bottom: 30px !important;
+    }
+    @include breakpoint(medium) {
+        margin-bottom: 30px !important;
     }
 }
 
@@ -1126,13 +1129,6 @@ a:hover.topic-box{
     .searchbox-space {
         padding-top: 2%;
     }
-
-    .article-sidenav {
-        margin-top: .5rem;
-        margin-left: 0%;
-        margin-bottom: 1.5rem;
-    }
-
 
     /*Support Cant Find Section*/
     /*------------------------------------------------------------------------*/

@@ -7,7 +7,7 @@
         - sectiontitle:
           para1: Every member of a CORE organization has a role, each with its own level of permissions and access to content. Visit your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page to see the members and roles for your team.
           para2: Each user role is capable of everything that a less powerful role is capable of. In other words, Publishers can do everything that an Editor can do, Editors can do everything a Releasing Contributor can do, and so on. Continue reading to learn more about each role.
-        - sectiontitle: Summary of User Roles
+        - sectiontitle: Summary of user roles
           lexicon: 
             - title: Contributor
               definition: Contributors have access to standard features, like creating stories and uploading files to CORE. They must submit all draft content to an Editor for review, prior to release. However, they can retract and delete their own content. This is the default role for new CORE members or users that are transitioning to a new organization.
