@@ -2,10 +2,35 @@
 
   - title: Managing Articles
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Latest News List
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle:
+            para1: A <strong>Latest News List<strong> is the easiest way to keep the content on your organization page fresh with minimal effort. This content section will auto-populate with the most recently released articles from every member of your organization. 
+            para2: Not only does a Latest News List encourage your visitors to stay engaged by finding more content that interests them, it also helps with <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">search engine optimization</a>. By just having an up-to-date organization page, you send the message to visitors and search engines that your site is active and relevant.
+          - sectiontitle: Things to consider
+            itemlist:
+              - listname: There are a few things to consider before you add a Latest News List to your Page
+                one: Articles will automatically appear live on your Page once they are released. No need to re-publish your Page in CORE.
+                two: Any team member who has permission to release articles can also publish content to your Page. 
+                three: You cannot change the order of articles, unless you change the release date on the article.
+                four: You cannot remove an article from this list, unless you retract the article and remove it from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> altogether.
+            hr:
+          - sectiontitle: Add a Latest News List
+            numlist:
+              - listname: To add a Latest News List to your Page
+                one: Click on <strong>Page</strong> from the main menu.
+                two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your news list. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="../../page-management/pl/page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                four: Click  <strong>Add Section</strong> to open a dropdown menu.
+                five: Select <strong>News List</strong> in the menu.
+                six: In the <strong>News List</strong> lightbox editor, enter a title for your section. This is an optional field, so you can also click the OFF button to hide the title on your page. 
+                seven: By default, the source is set to <strong>Latest News</strong>.
+                eight: To change the number of articles that appear in the feed, click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_square.svg"> and <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/minus_square.svg"> buttons. You can display up to 30 articles.
+                nine: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. 
+            para1: You’ll notice that a News List section is now added to your Page and is populated with your organization’s most recently released articles. To update this content in this list, you or a team member with release authority simply needs to approve new articles from your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a>. No need to re-publish your Page.
+            hr:
+          - sectiontitle:
+            paratitle: Why don’t I see articles in my Latest News List?
+            para1: This likely means that no articles have been released from your organization yet. Navigate to your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a> and make sure you have at least one article in the Released list. If not, you or a member of your team will need to <a class="underline-link" href="../../creating-content/wa/create_article.html">create a new article</a> and send it through the content approval process. 
+            para2: You may also consider changing this content section to a <a class="underline-link" href="./tagged_news.html">Tagged News List</a>, which will auto-populate with all released articles that contain a specific tag. This allows you to utilize the CORE Community to keep your page updated with topics that interest your audience.
+
