@@ -6,7 +6,8 @@
         sections:
           - sectiontitle: 
             para1: Want to feature articles about a specific topic on your organization page? You can do this with a <strong>Tagged News List</strong> that auto-populates with the most recently published articles <a class="underline-link" href="../../creating-content/wa/tags.html">tagged with a particular keyword</a>. This allows you to keep the content on your page fresh with little effort, while also helping to share and promote related content from other Army public affairs professionals.
-            para2: Not only does a Tagged News List encourage your visitors to stay engaged by finding content that interests them, it also helps with <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">search engine optimization</a>. By just having an up-to-date organization page, you send the message to visitors and search engines that your site is active and relevant.
+            para2: Not only does a Tagged News List encourage your visitors to stay engaged by finding content thatinterests them, it also helps with <a class="underline-link" href="../../best-practices/co/search_engine_optimization.html">search engine optimization</a>. By just having an up-to-date organization page, you send the message to visitors and search engines that your site is active and relevant.
+            note: You must be a <strong>publisher</strong> or <strong>administrator</strong> to be able to add a content section to your organization’s Page.
           - sectiontitle: Things to consider        
             itemlist: 
               - listname: There are a few things to consider before you add a Tagged News List to your Page
