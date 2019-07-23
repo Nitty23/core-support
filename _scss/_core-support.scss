@@ -222,26 +222,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .inner-container{
-    margin: 0 1.25rem;
+    margin: 0 .625rem;
+    @include breakpoint(large) {
+        margin: 0 .9375rem;
+    }
 }
 
 .container{
     @include xy-grid-container;
     margin: 0 auto;
     max-width: 64rem;
-    padding: 0;
-//     @include breakpoint(small) {
-//        padding: 0 .9375rem;
-//    }
-//    @include breakpoint(medium) {
-//        padding: 0 .9375rem;
-//    }
-//    @include breakpoint(large) {
-//        padding: 0 .625rem;
-//    }
-//    @include breakpoint(xlarge) {
-//        padding: 0;
-//    }
 }
 
 .sect-space{
