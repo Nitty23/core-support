@@ -150,15 +150,15 @@ h1, h2, h3, h4, h5 {
         margin-right: -5%;
     }
     @include breakpoint(large) {
-        margin-left: 18%;
+        margin-left: 2%;
         margin-right: 0%;
     }
     @include breakpoint(xlarge) {
-        margin-left: 18%;
+        margin-left: 12%;
         margin-right: 0%;
     }
     @include breakpoint(xxlarge) {
-        margin-left: 18%;
+        margin-left: 12%;
         margin-right: 0%;
     }
 }
@@ -222,47 +222,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .inner-container{
-    padding: 0 .9375rem;
-//    @include breakpoint(small) {
-//        margin-left: 2rem;
-//        margin-right: 2rem;
-//    }
-//    @include breakpoint(medium) {
-//        margin-left: 1rem;
-//        margin-right: 1rem;
-//    }
-    @include breakpoint(large) {
-        margin: 0 .9375rem;
-    }
-//    @include breakpoint(xlarge) {
-//        margin-left: 3.375rem;
-//        margin-right: 3.375rem;
-//    }
-//    @include breakpoint(xxlarge) {
-//        margin-left: 3.375rem;
-//        margin-right: 3.375rem;
-//    }
+    margin: 0 .9375rem;
 }
 
 .container{
     @include xy-grid-container;
     margin: 60px auto;
     max-width: 64rem;
-//    @include breakpoint(small) {
-//        max-width: 26rem;
-//    }
-//    @include breakpoint(medium) {
-//        max-width: 44rem;
-//    }
-//    @include breakpoint(large) {
-//        max-width: 48rem;
-//    }
-//    @include breakpoint(xlarge) {
-//        max-width: 64rem;
-//    }
-//    @include breakpoint(xxlarge) {
-//        max-width: 69rem;
-//    }
+    @include breakpoint(small) {
+       padding: 0 .9375rem;
+   }
+   @include breakpoint(medium) {
+       padding: 0 .9375rem;
+   }
+   @include breakpoint(large) {
+       padding: 0 .625rem;
+   }
+   @include breakpoint(xlarge) {
+       padding: 0 !important;
+   }
 }
 
 .sect-space{
@@ -376,8 +354,6 @@ h3:after, h4:after, h5:after {
     margin: 5rem;
     display: block;
 }
-
-
 
 .topic-hr{
     border: none;
@@ -816,13 +792,13 @@ a:hover.topic-box{
     font-weight: normal;
 }
 
-.topics-content{
-    padding-right: 0;
-    @include breakpoint(small) {
-        padding: 0% 1%;
-        margin-top: 5%;
-    }
-}
+// .topics-content{
+//     padding-right: 0;
+//     @include breakpoint(small) {
+//         padding: 0% 1%;
+//         margin-top: 5%;
+//     }
+// }
 
 /*Support Cant Find Section*/
 /*------------------------------------------------------------------------*/
@@ -830,6 +806,10 @@ a:hover.topic-box{
     margin: 3.75rem 0rem;
     padding: 50px 20px;
     background-color: #fec325;
+}
+
+.find-row .row {
+    margin-bottom: 0;
 }
 
 .find-btn{
@@ -858,6 +838,10 @@ a:hover.topic-box{
 .find-text{
     font-size: 1.5rem;
     color: #252525;
+    margin-bottom: 30px;
+    @include breakpoint(large) {
+        margin-bottom: 0;
+    }
 }
 
 .find-btn-text{
@@ -1087,11 +1071,9 @@ a:hover.topic-box{
 }
 
 .mobile-center { 
-    @include breakpoint(small) {
-        text-align: center;
-    }
-    @include breakpoint(medium) {
-        text-align: center;
+    text-align: center;
+    @include breakpoint(large) {
+        text-align: unset;
     }
 }
 
