@@ -61,7 +61,7 @@ tohome: ../
     <div class="container">
         <div class="inner-container">        
             <div class="row align-center search-page-container">
-                <div class="column" style="margin-top: 50px; min-height: 13em;">
+                <div class="column" style="min-height: 13em;">
                     <h3 id="results-title">Search Results</h3>
                     <div style="text-align: center;">
                         <span id="result-total">...</span>
@@ -134,7 +134,7 @@ tohome: ../
             }
             // idk    
             $("topics").each(function() {
-                $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>'" + sessionStorage.searchTerm + "'</span>"));
+                $(this).html($(this).html().replace(sessionStorage.searchTerm, "<span class='search-term'>" + sessionStorage.searchTerm + "</span>"));
                 turnonSearchSect();
             })
         setTimeout(() => {
