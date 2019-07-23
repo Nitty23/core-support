@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-space{
-    margin-top: 3.125rem;
+    margin-top: 1.875rem;
 }
 
 .article-para {
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-sidenav{
-    margin-top: 5.25rem;
+    margin-top: 1.875rem;
     border-top: 5px solid #fec325;
     padding: 20px;
     border-bottom: 2px solid #fec325;
@@ -222,25 +222,26 @@ h1, h2, h3, h4, h5 {
 }
 
 .inner-container{
-    margin: 0 .9375rem;
+    margin: 0 1.25rem;
 }
 
 .container{
     @include xy-grid-container;
-    margin: 60px auto;
+    margin: 0 auto;
     max-width: 64rem;
-    @include breakpoint(small) {
-       padding: 0 .9375rem;
-   }
-   @include breakpoint(medium) {
-       padding: 0 .9375rem;
-   }
-   @include breakpoint(large) {
-       padding: 0 .625rem;
-   }
-   @include breakpoint(xlarge) {
-       padding: 0 !important;
-   }
+    padding: 0;
+//     @include breakpoint(small) {
+//        padding: 0 .9375rem;
+//    }
+//    @include breakpoint(medium) {
+//        padding: 0 .9375rem;
+//    }
+//    @include breakpoint(large) {
+//        padding: 0 .625rem;
+//    }
+//    @include breakpoint(xlarge) {
+//        padding: 0;
+//    }
 }
 
 .sect-space{
@@ -652,6 +653,7 @@ a:hover.topic-box{
     font-size: 2rem;
     font-weight: 600;
     color: #252525;
+    margin-top: 0;
 }
 
 .topics-title{
