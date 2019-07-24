@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5 {
 
 .article-sidenav-link{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: none;
     color: #252525;
 }
@@ -191,11 +191,18 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
     margin-bottom: 1.25rem;
     padding-left: 0;
+    @include breakpoint(small) {
+        margin-bottom: 0;
+        padding: 0;
+    }
 }
 
 .gloss-def{
     margin-bottom: 1.25rem;
     padding-right: 0;
+    @include breakpoint(small) {
+        padding: 0;
+    }
 }
 .sublexicon{
     margin-left: 2.5rem !important;
@@ -550,24 +557,10 @@ h3:after, h4:after, h5:after {
 }
 
 .topnav-bread{
-    font-weight: 500;
     color: #252525;
+    display: inline-block;
     font-size: 1rem;
-    @include breakpoint(small) {
-        font-size: 0.8rem;
-    }
-    @include breakpoint(medium) {
-        font-size: 0.8rem;
-    }
-    @include breakpoint(large) {
-        font-size: 1rem;
-    }
-    @include breakpoint(xlarge) {
-        font-size: 1rem;
-    }
-    @include breakpoint(xxlarge) {
-        font-size: 1rem;
-    }
+    font-weight: 400;
 }
 
 .topnav-subtopic{
@@ -865,7 +858,7 @@ a:hover.topic-box{
 
 #search-term{
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #252525;
 }
 
