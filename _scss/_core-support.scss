@@ -190,13 +190,15 @@ h1, h2, h3, h4, h5 {
 .gloss-title{
     font-weight: 600;
     margin-bottom: 1.25rem;
+    padding-left: 0;
 }
 
 .gloss-def{
     margin-bottom: 1.25rem;
+    padding-right: 0;
 }
 .sublexicon{
-    margin-left: 1.5625rem !important;
+    margin-left: 2.5rem !important;
     margin-top: 1rem !important;
     margin-bottom: 0rem !important;
 }
@@ -718,7 +720,7 @@ a:hover.topic-box{
     display: list-item; 
     list-style-type: circle;
     padding-left: .5rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 10px;
 }
 
