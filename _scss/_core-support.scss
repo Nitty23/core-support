@@ -112,14 +112,12 @@ h1, h2, h3, h4, h5 {
     left: 0px;
     top: -110px;
     @include breakpoint(medium) {
-        top: 120px;
+        top: -120px;
     }
     @include breakpoint(large) {
-        top: 140px;
+        top: -130px;
     }
 }
-
-
 
 .anchor {
     position: relative;
@@ -130,10 +128,10 @@ h1, h2, h3, h4, h5 {
     left: 0px;
     top: -110px;
     @include breakpoint(medium) {
-        top: 120px;
+        top: -120px;
     }
     @include breakpoint(large) {
-        top: 140px;
+        top: -130px;
     }
 }
 
@@ -293,7 +291,7 @@ h1, h2, h3, h4, h5 {
         height: 120px;
     }
     @include breakpoint(large) {
-        height: 140px;
+        height: 130px;
     }
 }
 
@@ -342,8 +340,8 @@ h3:after, h4:after, h5:after {
 }
 
 .subtopic-spacer{
-    margin: 5rem;
     display: block;
+    height: 35px;
 }
 
 .topic-hr{
