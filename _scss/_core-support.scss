@@ -111,6 +111,12 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     left: 0px;
     top: -110px;
+    @include breakpoint(medium) {
+        top: -120px;
+    }
+    @include breakpoint(large) {
+        top: -130px;
+    }
 }
 
 .anchor {
@@ -120,15 +126,29 @@ h1, h2, h3, h4, h5 {
 .sub-anchor a{
     position: absolute;
     left: 0px;
-    top: -120px;
+    top: -110px;
+    @include breakpoint(medium) {
+        top: -120px;
+    }
+    @include breakpoint(large) {
+        top: -130px;
+    }
 }
 
 .sub-anchor {
     position: relative;
+    padding-left: 0;
+}
+
+.topic-list-item {
+    padding: 0;
 }
 
 .article-space{
-    margin-top: 1.875rem;
+    margin-top: .9375rem;
+    @include breakpoint(large) {
+        margin-top: 1.875rem;
+    }
 }
 
 .article-para {
@@ -136,30 +156,17 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-sidenav{
-    margin-top: 1.875rem;
     border-top: 5px solid #fec325;
-    padding: 20px;
     border-bottom: 2px solid #fec325;
     background-color: rgba(255, 234, 179, .15);
-    @include breakpoint(small) {
-        margin-left: -9%;
-        margin-right: -9%;
-    }
-    @include breakpoint(medium) {
-        margin-left: -5%;
-        margin-right: -5%;
-    }
+    margin: 0 -1.5625rem;
+    padding: 1.5625rem;
     @include breakpoint(large) {
-        margin-left: 2%;
-        margin-right: 0%;
+        margin: 1.875rem 0 0 2%;
+        padding: 20px;
     }
     @include breakpoint(xlarge) {
-        margin-left: 12%;
-        margin-right: 0%;
-    }
-    @include breakpoint(xxlarge) {
-        margin-left: 12%;
-        margin-right: 0%;
+        margin: 1.875rem 0 0 12%;
     }
 }
 
@@ -182,7 +189,7 @@ h1, h2, h3, h4, h5 {
 
 .article-sidenav-link{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: none;
     color: #252525;
 }
@@ -190,13 +197,22 @@ h1, h2, h3, h4, h5 {
 .gloss-title{
     font-weight: 600;
     margin-bottom: 1.25rem;
+    padding-left: 0;
+    @include breakpoint(small) {
+        margin-bottom: 0;
+        padding: 0;
+    }
 }
 
 .gloss-def{
     margin-bottom: 1.25rem;
+    padding-right: 0;
+    @include breakpoint(small) {
+        padding: 0;
+    }
 }
 .sublexicon{
-    margin-left: 1.5625rem !important;
+    margin-left: 2.5rem !important;
     margin-top: 1rem !important;
     margin-bottom: 0rem !important;
 }
@@ -222,26 +238,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .inner-container{
-    margin: 0 1.25rem;
+    margin: 0 .625rem;
+    @include breakpoint(large) {
+        margin: 0 .9375rem;
+    }
 }
 
 .container{
     @include xy-grid-container;
     margin: 0 auto;
     max-width: 64rem;
-    padding: 0;
-//     @include breakpoint(small) {
-//        padding: 0 .9375rem;
-//    }
-//    @include breakpoint(medium) {
-//        padding: 0 .9375rem;
-//    }
-//    @include breakpoint(large) {
-//        padding: 0 .625rem;
-//    }
-//    @include breakpoint(xlarge) {
-//        padding: 0;
-//    }
 }
 
 .sect-space{
@@ -261,6 +267,7 @@ h1, h2, h3, h4, h5 {
     max-width: 20px;
     max-height: 16px;
     margin: 0 3px;
+    vertical-align: baseline;
 }
 
 .data-img{
@@ -279,9 +286,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .topicspan {    
-    height: 100px;
+    height: 110px;
+    @include breakpoint(medium) {
+        height: 120px;
+    }
     @include breakpoint(large) {
-        height: 140px;
+        height: 130px;
     }
 }
 
@@ -289,7 +299,7 @@ h1, h2, h3, h4, h5 {
 
 h3, h4, h5 {
     font-style: normal;
-    color: black;
+    color: #252525;
     text-transform: none;
 }
 
@@ -330,18 +340,19 @@ h3:after, h4:after, h5:after {
 }
 
 .subtopic-spacer{
-    margin: 5rem;
     display: block;
+    height: 35px;
 }
 
 .topic-hr{
     border: none;
     background-color: #ddd;
     height: 1px;
-    @include breakpoint(small) {
-        margin-top: 0em;
-        margin-bottom: 1em;
-    }
+    margin: 4rem 0;
+//     @include breakpoint(small) {
+//         margin-top: 0em;
+//         margin-bottom: 1em;
+//     }
 }
 
 /*Support Header*/
@@ -448,7 +459,7 @@ h3:after, h4:after, h5:after {
 .mast-container{
     position: relative;
     text-align: center;
-    color: white;
+    color: #fff;
     margin-top: 60px;
 }
 
@@ -501,7 +512,7 @@ h3:after, h4:after, h5:after {
 
 .topics-pill-menu{
     position: fixed;
-    background-color: white;
+//     background-color: #fff;
 }
 
 .title-pill{
@@ -544,7 +555,7 @@ h3:after, h4:after, h5:after {
 }
 
 .mobile-title-pills{
-    color:white;
+    color: #fff;
     font-weight: 600;
     font-size: 1.125rem;
     //white-space: nowrap;
@@ -557,7 +568,7 @@ h3:after, h4:after, h5:after {
 
 .mobile-sec-pills{
     font-size: 1rem !important;
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: normal
 }
@@ -585,7 +596,7 @@ h3:after, h4:after, h5:after {
 }
 
 .submenu-toggle{
-    outline-color: white;
+    outline-color: #fff;
     height: 25px;
     font-size: large;
     transform: rotate(180deg);
@@ -597,24 +608,10 @@ h3:after, h4:after, h5:after {
 }
 
 .topnav-bread{
-    font-weight: 500;
     color: #252525;
+    display: inline-block;
     font-size: 1rem;
-    @include breakpoint(small) {
-        font-size: 0.8rem;
-    }
-    @include breakpoint(medium) {
-        font-size: 0.8rem;
-    }
-    @include breakpoint(large) {
-        font-size: 1rem;
-    }
-    @include breakpoint(xlarge) {
-        font-size: 1rem;
-    }
-    @include breakpoint(xxlarge) {
-        font-size: 1rem;
-    }
+    font-weight: 400;
 }
 
 .topnav-subtopic{
@@ -635,7 +632,7 @@ h3:after, h4:after, h5:after {
 }
 
 .is-active-parent{
-    color: black !important;
+    color: #252525 !important;
     font-weight: bold !important;
 }
 
@@ -671,7 +668,7 @@ a:hover.topic-box{
 }
 
 .supp-topic-title{
-    color: black;
+    color: #252525;
     text-align: center;
     align-content: center;
     font-size: 18px;
@@ -730,19 +727,19 @@ a:hover.topic-box{
 }
 
 .topic-text{
-    color: black;
+    color: #252525;
     font-weight: normal !important;
 }
 
 .para-title{
-    color: black;
+    color: #252525;
     font-weight: bold;
     font-size: 1rem;
     text-transform: inherit;
 }
 
 .list-title{
-    color: black;
+    color: #252525;
     font-weight: normal;
     font-size: 1rem;
     text-transform: inherit;
@@ -767,7 +764,7 @@ a:hover.topic-box{
     display: list-item; 
     list-style-type: circle;
     padding-left: .5rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 10px;
 }
 
@@ -833,7 +830,7 @@ a:hover.topic-box{
 }
 
 .find-btn{
-    background-color: white;
+    background-color: #fff;
     border-radius: 55px;
     padding: 20px 30px 15px;
     // height: 50px;
@@ -890,10 +887,10 @@ a:hover.topic-box{
     margin: 12% 5% 0% 15%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
+    border: 1px solid #fff;
     border-radius: 28px;
-    background: white; 
-    color: lightgrey;
+    background: #fff; 
+    color: #ccc;
     min-width: 70%;
 }
 
@@ -912,7 +909,7 @@ a:hover.topic-box{
 
 #search-term{
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #252525;
 }
 
@@ -935,7 +932,7 @@ a:hover.topic-box{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 600;
-    color: white;
+    color: #fff;
     position: relative;
     margin-bottom: 20px;
     text-transform: none;
@@ -973,7 +970,7 @@ a:hover.topic-box{
 }
 
 .mast-search-container{
-    background-color: white;
+    background-color: #fff;
     border-radius: 35px;
     display: flex;
     justify-content: start;
@@ -1026,23 +1023,16 @@ a:hover.topic-box{
     justify-content: start;
     border: 1px solid #ccc;
     border-radius: 28px;
-    background: white; 
-    color: lightgrey;
-    margin: 3.75rem 0rem;
-    @include breakpoint(small) {
-        width: 19rem;
-    }
+    background: #fff; 
+    color: #ccc;
+    margin: 2.5rem 1.25rem;
+    max-width: 60rem;       
+    width: 100%;
     @include breakpoint(medium) {
-        width: 27rem;
+        margin: 3rem 1.5625rem;
     }
     @include breakpoint(large) {
-        width: 39.375rem;
-    }
-    @include breakpoint(xlarge) {
-        width: 51.875rem;
-    }
-    @include breakpoint(xxlarge) {
-        width: 51.875rem;
+        margin: 3.75rem 1.875rem;
     }
 }
 
@@ -1126,7 +1116,7 @@ a:hover.topic-box{
     }
     
     .supp-mobile-navbar {
-        background: black;
+        background: #252525;
         display: flex;
         height: 55px;
         position: relative;

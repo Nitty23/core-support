@@ -12,7 +12,7 @@
                 one: Click on <strong>Page</strong> from the main menu.
                 two: Enter your page title, URL, description, and contact email address. These steps are required to create a Page.
                 three: Additionally, you can add an organization logo that will appear in your header. To upload an image, click on the  <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"> and select an image from your computer. You can also drag and drop an image on top of the <strong>Upload Photo</strong> circle.
-                four: Click <strong>Create Page</strong> at the top-right corner to go to the Edit Page screen.
+                four: Click <strong>Create Page</strong> at the top-right corner to go to the Edit Page screen.<img class="data-img" src="/e2/images/rv7/core-support/page-management/ps/ps_create_page.jpg">
             hr:
           - sectiontitle: Selecting a Page Address (URL)
             itemlist:
@@ -20,7 +20,7 @@
                 one: Use all lowercase. Any uppercase characters you enter will automatically change to lowercase.
                 two: Use alphanumeric characters. No special characters are accepted, except for underscores (_) and dashes (-).
                 three: Must be between 3 and 250 characters.
-                four: Must be unique. You will not be able to enter a URL that already exists on the <a class="underline-link" href="https://www.army.mil">www.army.mil</a> domain.<img class="data-img" src="/e2/images/rv7/core-support/page-management/ps/ps_create_page.jpg">
+                four: Must be unique. You will not be able to enter a URL that already exists on the <a class="underline-link" href="https://www.army.mil">www.army.mil</a> domain.
             note: For best results, your organization logo should be <strong>at least 200 x 200 pixels</strong> and have a <strong>transparent background</strong>. It will appear on top of a dark background, so you may need to reverse the logo colors for better legibility. To learn more, visit <a class="underline-link" href="./page_logo.html">Customize your Page logo</a>.
             hr: 
           - sectiontitle:

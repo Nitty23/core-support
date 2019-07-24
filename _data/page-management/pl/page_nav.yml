@@ -9,7 +9,7 @@
           - sectiontitle: Add navigation to Page
             numlist:
               - listname: 
-                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Navigation</strong> located below your Page headers. <br> <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_add_nav_box_550px.png"><br>By default, you will have one tab called “News” available in the Navigation Management lightbox. As a one-page site, all new content sections are added to this tab, but no navigation bar is displayed.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_navigation_management.png">
+                one: From your <strong>Edit Page</strong> screen, click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Navigation</strong> located below your Page headers. <br> <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_add_nav_box_550px.png"><br>By default, you will have one tab called “News” available in the Navigation Management lightbox. As a one-page site, all new content sections are added to this tab, but no navigation bar is displayed.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_navigation_management.png">
                 two: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Tab</strong> to create a new navigation element.
                 three: Enter a label to display on that tab.
                 four: Click <strong>Add</strong> to close the dialog box. 

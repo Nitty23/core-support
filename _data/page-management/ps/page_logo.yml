@@ -24,12 +24,12 @@
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Drag and Drop</strong>
                   one: Select your new image from your computer.
-                  two: Drag and drop the file on top of the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_drag_drop_new_logo_anime.gif">
+                  two: Drag and drop the file on top of the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_page_logo_drag_drop_steps.png"> 
                 subnumlist2:
                   namednoneitem: <strong>OPTION 2 - Browse Computer</strong>
                   one: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.
                   two: Click <strong>Upload New Logo</strong> from the dropdown.
-                  three: Browse and select a new image from your computer.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_upload_page_logo_anime.gif">
+                  three: Browse and select a new image from your computer.<img class="data-img" src="/e2/images/rv7/core-support/page-management/ps/ps_upload_page_logo_anime.gif">
                 four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
             hr:
           - sectiontitle: Change an existing logo
@@ -41,16 +41,16 @@
                 subnumlist:
                   namednoneitem: <strong>OPTION 1 - Drag and Drop</strong>
                   one: Select your new image from your computer.
-                  two: Drag and drop the file on top of your existing logo.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_drag_drop_change_logo_anime.gif">
+                  two: Drag and drop the file on top of your existing logo.
                 subnumlist2:
                   namednoneitem: <strong>OPTION 2 - Browse Computer</strong>
                   one: Click on the  <strong>Upload Logo</strong> icon.
                   two: Click <strong>Change Logo</strong> from the dropdown.
-                  three: Browse and select a new image from your computer.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_change_page_logo_anime.gif">
+                  three: Browse and select a new image from your computer.
                 four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
             hr:
           - sectiontitle: Remove logo
             numlist:
               - listname: 
                 one: Click on the your existing logo.
-                two: Select <strong>Remove Logo</strong> from the dropdown.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_remove_page_logo_anime.gif">
+                two: Select <strong>Remove Logo</strong> from the dropdown.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_remove_photo.png">
