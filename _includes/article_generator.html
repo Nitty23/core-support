@@ -47,8 +47,8 @@
                                 {% when 'lexicon' %}
                                     <div class="row">
                                     {% for term in section.lexicon %}
-                                        <dfn class="columns large-3 medium-4 small-3 gloss-title">{{ term.title }}</dfn>
-                                        <dd class="columns large-8 medium-8 small-8 large-offset-1 gloss-def">{{ term.definition }}</dd>
+                                        <dfn class="columns large-4 medium-4 small-3 gloss-title">{{ term.title }}</dfn>
+                                        <dd class="columns large-8 medium-8 small-8 gloss-def">{{ term.definition }}</dd>
                                         {% if term.note %}
                                         <div class="columns large-12 medium-12 small-12 supp-post-it topic-text-note">
                                             <strong>Note: </strong>{{ term.note }}
@@ -121,8 +121,8 @@
                                             {% elsif each[0] == 'lexicon' %} <!-- if sublexicon exists -->
                                                 <div class="row sublexicon">
                                                 {% for term in li.lexicon %}
-                                                    <dfn class="columns large-3 medium-4 small-4 gloss-title">{{ term.title }}</dfn>
-                                                    <dd class="columns large-8 medium-8 small-8 large-offset-1 gloss-def">{{ term.definition }}</dd>
+                                                    <dfn class="columns large-4 medium-4 small-4 gloss-title">{{ term.title }}</dfn>
+                                                    <dd class="columns large-8 medium-8 small-8 gloss-def">{{ term.definition }}</dd>
                                                     {% if term.note %}
                                                     <div class="columns large-12 medium-12 small-12 supp-post-it topic-text-note">
                                                         <strong>Note: </strong>{{ term.note }}
