@@ -110,8 +110,16 @@ h1, h2, h3, h4, h5 {
 .anchor a {
     position: absolute;
     left: 0px;
-    top: -120px;
+    top: -110px;
+    @include breakpoint(medium) {
+        top: 120px;
+    }
+    @include breakpoint(large) {
+        top: 140px;
+    }
 }
+
+
 
 .anchor {
     position: relative;
@@ -120,7 +128,13 @@ h1, h2, h3, h4, h5 {
 .sub-anchor a{
     position: absolute;
     left: 0px;
-    top: -120px;
+    top: -110px;
+    @include breakpoint(medium) {
+        top: 120px;
+    }
+    @include breakpoint(large) {
+        top: 140px;
+    }
 }
 
 .sub-anchor {
