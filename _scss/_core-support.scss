@@ -347,11 +347,31 @@ h3:after, h4:after, h5:after {
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
-    height: 20px;
     margin: 20px;
     @include breakpoint(small) {
-        height: 50%;
+        width: 70px;
+        text-align: center;
         margin: 18px;
+    }
+    @include breakpoint(medium) {
+        width: 70px;
+        text-align: center;
+        margin: 18px;
+    }
+    @include breakpoint(large) {
+        width: 250px;
+        text-align: center;
+        margin: 16px;
+    }
+    @include breakpoint(xlarge) {
+        width: 250px;
+        text-align: center;
+        margin: 16px;
+    }
+    @include breakpoint(xxlarge) {
+        width: 250px;
+        text-align: center;
+        margin: 16px;
     }
 }
 
@@ -362,6 +382,26 @@ h3:after, h4:after, h5:after {
         width: 33%;
         display: flex;
         justify-content: center;
+    }
+    @include breakpoint(medium) {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
+    @include breakpoint(large) {
+        width: 66%;
+        display: flex;
+        justify-content: left;
+    }
+    @include breakpoint(xlarge) {
+        width: 66%;
+        display: flex;
+        justify-content: left;
+    }
+    @include breakpoint(xxlarge) {
+        width: 66%;
+        display: flex;
+        justify-content: left;
     }
 }
 
@@ -959,7 +999,7 @@ a:hover.topic-box{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -259px -74px;
     height: 21px;
-    margin: 18px 0;
+    margin: 18px 10px;
     width: 24px;
 }
 
@@ -967,7 +1007,7 @@ a:hover.topic-box{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -282px -48px;
     height: 21px;
-    margin: 18px 0;
+    margin: 18px 10px;
     width: 24px;
 }
 
@@ -1008,6 +1048,12 @@ a:hover.topic-box{
 
 #search-icons:hover{
     background-color:#666666;
+}
+
+#search-btn{
+    width:33%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-btn{
