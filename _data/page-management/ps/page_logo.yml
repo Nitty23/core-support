@@ -29,7 +29,7 @@
                   namednoneitem: <strong>OPTION 2 - Browse Computer</strong>
                   one: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon.
                   two: Click <strong>Upload New Logo</strong> from the dropdown.
-                  three: Browse and select a new image from your computer.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_upload_page_logo_anime.gif">
+                  three: Browse and select a new image from your computer.<img class="data-img" src="/e2/images/rv7/core-support/page-management/ps/ps_upload_page_logo_anime.gif">
                 four: To update your Page on www.army.mil, click the <strong>Publish</strong> button in the top-right corner of the action bar.
             hr:
           - sectiontitle: Change an existing logo
