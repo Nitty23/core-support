@@ -125,6 +125,11 @@ h1, h2, h3, h4, h5 {
 
 .sub-anchor {
     position: relative;
+    padding-left: 0;
+}
+
+.topic-list-item {
+    padding: 0;
 }
 
 .article-space{
@@ -331,10 +336,11 @@ h3:after, h4:after, h5:after {
     border: none;
     background-color: #ddd;
     height: 1px;
-    @include breakpoint(small) {
-        margin-top: 0em;
-        margin-bottom: 1em;
-    }
+    margin: 2.5rem 0;
+//     @include breakpoint(small) {
+//         margin-top: 0em;
+//         margin-bottom: 1em;
+//     }
 }
 
 /*Support Header*/
