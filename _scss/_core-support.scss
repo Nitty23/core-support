@@ -128,7 +128,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .article-space{
-    margin-top: 1.875rem;
+    margin-top: .9375rem;
+    @include breakpoint(large) {
+        margin-top: 1.875rem;
+    }
 }
 
 .article-para {
@@ -266,7 +269,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .topicspan {    
-    height: 100px;
+    height: 110px;
+    @include breakpoint(medium) {
+        height: 120px;
+    }
     @include breakpoint(large) {
         height: 140px;
     }
