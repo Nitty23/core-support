@@ -7,6 +7,7 @@ exclude: ['buildspec.yml','package-lock.json','Gemfile', 'Gemfile.lock', 'Gruntf
 plugins:
   - octopress-minify-html
   - jekyll-last-modified-at
+  - jekyll-paginate
   
 sass:
   sass_dir: _scss
@@ -16,3 +17,6 @@ title: Core-Support
 
 jekyll-minifier:
   exclude: ['*.html','*.css','*.scss']
+
+paginate: 4
+paginate_path: "/search/page:num/"

@@ -26,7 +26,7 @@ tohome: ../
             </div>    
         </div>
     </nav>
-    <div class="search-mast hider" id="search-sect">
+    <div class="search-mast hider" id="search-sect" style="display: block">
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
                 <input type="search" id="search-input" aria-label="Search through site content" placeholder="Search ...">
@@ -159,6 +159,7 @@ tohome: ../
         // json: '../search.json' PRODUCTION,
         searchResultTemplate: '<li class="result-topic-container"><a class="result-title" href="..{url}?query={query}" title="{desc}">{title}</a><br></span><topics class="result-excerpt">{excerpt}</topics>',
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
+        limit: 300,
         fuzzy: false,
         success: winner
     });

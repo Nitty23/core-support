@@ -532,7 +532,21 @@ h3:after, h4:after, h5:after {
 
 .topics-pill-menu{
     position: fixed;
-//     background-color: #fff;
+    @include breakpoint(small) {
+        display: none;
+    }
+    @include breakpoint(medium) {
+        display: none;
+    }
+    @include breakpoint(large) {
+        display: unset;
+    }
+    @include breakpoint(xlarge) {
+        display: unset;
+    }
+    @include breakpoint(xxlarge) {
+        display: unset;
+    }
 }
 
 .title-pill{
@@ -921,6 +935,11 @@ a:hover.topic-box{
 
 .search-text{
     color: #666666;
+}
+
+.search-excerpt{
+    color: white;
+    display: none;
 }
 
 .search-term{
