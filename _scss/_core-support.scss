@@ -98,6 +98,10 @@ h1, h2, h3, h4, h5 {
     text-align: left;
 }
 
+strong {
+    color: #333;
+}
+
 .row{
     margin-bottom: 30px;
 }
@@ -732,7 +736,7 @@ a:hover.topic-box{
 }
 
 .para-title{
-    color: #252525;
+    color: #333;
     font-weight: bold;
     font-size: 1rem;
     text-transform: inherit;
