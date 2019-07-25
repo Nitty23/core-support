@@ -11,8 +11,8 @@
               - listname:
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your text section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content.png">
-                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_accordion.jpg">
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content.png">
+                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_accordion.jpg">
                 five: Select <strong>Accordion</strong> in the menu.
                 six: In the <strong>Accordion</strong> lightbox editor, you can customize several options.
                 lexicon:
@@ -22,12 +22,12 @@
                   definition: Add a category title and body text that will be collapsed. See <strong>Add a new category</strong> below for more details.
                 - title: Customize Existing Categories
                   definition: You can edit, reorder or remove any existing category. Continue reading below for more details on each of these customization options.
-                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_new_accordion_anime.gif">
+                seven: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. <img class="data" src="/e2/images/rv7/core-support/page-management/pl/pl_new_accordion_anime.gif">
             hr:
           - sectiontitle: Add a new category
             numlist: 
               - listname: 
-                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Category</strong> located below your existing categories. The Add a New Category panel will slide into view.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_add_new_accordion_category.png"> 
+                one: Click on <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add New Category</strong> located below your existing categories. The Add a New Category panel will slide into view.<img class="data" src="/e2/images/rv7/core-support/page-management/pl/pl_add_new_accordion_category.png"> 
                 two: Enter your category title. This title will always be visible on your accordion.
                 three: To add your collapsible body text, click <strong>Enter text here…</strong> and begin typing. Press <strong>Enter</strong> to create a new paragraph. By default, this text will be hidden on your accordion. When a visitor clicks on your category title, a panel will expand to display the text.
                 four: To format, use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to create headers, lists, links and bold/italics. To learn about the text toolbar and your formatting options, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting Text</a>.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_format_text_bar.png"> 
@@ -62,5 +62,5 @@
             hr:
           - sectiontitle: Sample
             para1: Here's a sample Accordion section.
-            image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_accordion_sample.png">
+            image1: <img class="data" src="/e2/images/rv7/core-support/page-management/pl/pl_accordion_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
