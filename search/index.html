@@ -13,17 +13,17 @@ tohome: ../
         <div class="navbar">
             <div class="hamburger-container">
                 <button id="mobile-nav-btn" class="nav-btn hide-for-large">
-                    <i class="fas fa-bars search-icons"></i>
+                    <i class="hamburger-icon"></i>
                 </button>
-            </div>
+            </div>   
             <div class="logo-container">
-                <a href="{{page.tohome}}">
-                    <picture class="logo">
+                <a href="{{page.tohome}}" class="logo">
+                    <picture>
                         <source media="(max-width: 768px)" srcset="/e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg" type="image/svg+xml">
                         <img src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg" alt="CORE Support Logo" style="width:auto;" type="image/svg+xml">
                     </picture>
                 </a>
-            </div>            
+            </div>    
         </div>
     </nav>
     <div class="search-mast hider" id="search-sect">
@@ -35,26 +35,25 @@ tohome: ../
         </div>            
     </div>
     <nav id="mobile-dropdown-menu" class="hider hide-for-large mobile-dropdown-container">
-        <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
-            {% for topic in site.data.toc.support_toc %}
-                    <li style="padding:0px 10px">                             
-                        <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
-                        <hr class="mobile-hr">
-                        <ul class="menu vertical nested">
-                {% for article in topic.articles %}  
-                            <li class="mobile-li">
-                                <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
-                            </li>
-                            {% if forloop.last == true %}
-                            <hr class="mobile-hr" style="margin-left: -3%;">
-                            {% endif %}
-                {% endfor %}
-                        </ul>                       
-                    </li>
+        {% for topic in site.data.toc.support_toc %}
+            <ul class="vertical menu accordion-menu" data-accordion-menu>
+                <li style="padding:0px 10px">                             
+                    <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
+                    <hr class="mobile-hr">
+                    <ul class="menu vertical nested">
+            {% for article in topic.articles %}  
+                        <li class="mobile-li">
+                            <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
+                        </li>
+                        {% if forloop.last == true %}
+                        <hr class="mobile-hr" style="margin-left: -3%;">
+                        {% endif %}
             {% endfor %}
+                    </ul>                       
+                </li>
             </ul>
-        </div>            
-    </nav>    
+        {% endfor %}           
+    </nav>       
 </header>
 
 <div class="main" role="main">
@@ -99,11 +98,12 @@ tohome: ../
         });
         //       End Search button logic *************
         $("#mobile-nav-btn").click(function(){
-            $( this ).children("i" ).toggleClass("fa-bars fa-times");
-            $( "#mobile-dropdown-menu" ).slideToggle();
+            $( this ).children("i" ).toggleClass("hamburger-icon hamburger-icon-open");
+            $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
+            $( "#search-btn" ).toggleClass("nav-btn hider"); //temp remove search icon
         });
         $(".mobile-sec-pills").click(function(){
-            $( "#mobile-dropdown-menu" ).slideToggle();
+            $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
             $( "#mobile-nav-btn" ).children("i").toggleClass("fa-bars fa-times");
         });
     });

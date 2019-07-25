@@ -3,9 +3,9 @@
         <div class="navbar">
             <div class="hamburger-container">
                 <button id="mobile-nav-btn" class="nav-btn hide-for-large">
-                    <i class="fas fa-bars search-icons"></i>
+                    <i class="hamburger-icon"></i>
                 </button>
-            </div>
+            </div>            
             <div class="logo-container">
                 <a href="{{page.tohome}}" class="logo">
                     <picture>
@@ -14,38 +14,40 @@
                     </picture>
                 </a>
             </div>
-            <button id="search-btn" class="nav-btn">
-                <i class="header-search-icon search-icons"></i>
-            </button>           
+            <div class="mobile-search-btn-container">
+                <button id="search-btn" class="nav-btn">
+                    <i class="header-search-icon"></i>
+                </button>   
+            </div>                    
         </div>
     </nav>
     <div class="search-mast hider" id="search-sect">
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
                 <input type="search" id="search-input" aria-label="Search through site content" placeholder="Search ...">
-                <i class="header-search-icon search-icons"></i>
+                <i class="header-search-icon"></i>
             </div>
         </div>            
     </div>
     <nav id="mobile-dropdown-menu" class="hider hide-for-large mobile-dropdown-container">
-    {% for topic in site.data.toc.support_toc %}
-        <ul class="vertical menu accordion-menu mobile-accord" data-accordion-menu>
-            <li style="padding:0px 10px">                             
-                <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot">&#x2303;</span></a>
-                <hr class="mobile-hr">
-                <ul class="menu vertical nested">
-                {% for article in topic.articles %}  
-                    <li class="mobile-li">
-                        <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
-                    </li>
-                    {% if forloop.last == true %}
-                    <hr class="mobile-hr" style="margin-left: -3%;">
-                    {% endif %}
-                {% endfor %}
-                </ul>                       
-            </li>            
-        </ul>
-    {% endfor %}   
+        {% for topic in site.data.toc.support_toc %}
+            <ul class="vertical menu accordion-menu" data-accordion-menu>
+                <li style="padding:0px 10px">                             
+                    <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
+                    <hr class="mobile-hr">
+                    <ul class="menu vertical nested">
+            {% for article in topic.articles %}  
+                        <li class="mobile-li">
+                            <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
+                        </li>
+                        {% if forloop.last == true %}
+                        <hr class="mobile-hr" style="margin-left: -3%;">
+                        {% endif %}
+            {% endfor %}
+                    </ul>                       
+                </li>
+            </ul>
+        {% endfor %}           
     </nav>    
 </header>
 
@@ -62,13 +64,34 @@ $(document).ready(function(){
     });
     //       End Search button logic *************
     $("#mobile-nav-btn").click(function(){
-        $( this ).children("i" ).toggleClass("fa-bars fa-times" );
+        $( this ).children("i" ).toggleClass("hamburger-icon hamburger-icon-open");
         $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
+        $( "#search-btn" ).toggleClass("nav-btn hider"); //temp remove search icon
     });
     $(".mobile-sec-pills").click(function(){
-        $( "#mobile-dropdown-menu" ).slideToggle();
+        $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
         $( "#mobile-nav-btn" ).children("i").toggleClass("fa-bars fa-times");
     });
+
+    // Hides all dropdown menus except clicked
+    $('.title-pill').click(function(e){
+        var activeMenu = null;
+        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+    // Adds Carrot symbol to active menu item only
+        activeMenu = $('.title-pill-carrot', this);
+        $('.title-pill-carrot').not(activeMenu).addClass('hider');
+        $(activeMenu).toggleClass('hider');
+    });
+    // Hides all MOBILE dropdown menus
+    $('.mobile-title-pills').click(function(e){
+        var activeMenu = null;
+        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+    // Adds Carrot symbol to active menu item only
+        activeMenu = $('.title-pill-carrot', this);
+        $('.title-pill-carrot').not(activeMenu).addClass('hider');
+        $(activeMenu).toggleClass('hider');
+    });
+
 });
     var searchLocation = '';
     function setSearchPath(){

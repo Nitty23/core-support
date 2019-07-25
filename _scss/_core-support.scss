@@ -439,6 +439,22 @@ h3:after, h4:after, h5:after {
     }
 }
 
+.hamburger-icon{
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -312px -52px;
+    height: 21px;
+    margin: 18px 10px;
+    width: 24px;
+}
+
+.hamburger-icon-open{
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -312px -27px;
+    height: 21px;
+    margin: 18px 10px;
+    width: 24px;
+}
+
 .cs-header{
     padding: 0;
     min-width: 100%;
@@ -527,8 +543,13 @@ h3:after, h4:after, h5:after {
 }
 
 .title-pill-carrot{
-    padding-left: 32px;
-    vertical-align: sub;
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -181px -50px;
+    height: 21px;
+    margin: 18px 10px;
+    width: 24px;
+    // padding-left: 32px;
+    // vertical-align: sub;
 }
 
 .mobile-nested{
@@ -581,7 +602,7 @@ h3:after, h4:after, h5:after {
 }
 
 .mobile-li{
-    //max-height: 40px;
+    margin-bottom: 25px;
 }
 
 .mobile-accord{
@@ -917,12 +938,6 @@ a:hover.topic-box{
     margin: 1em 0;
 }
 
-.search-icons{
-    color:#fec325;
-    font-size:126%;
-    margin:12px 20px;
-}
-
 .searchbox-hr{
     width: 100%;
     margin: 0 0 !important;
@@ -1036,11 +1051,7 @@ a:hover.topic-box{
     }
 }
 
-#search-icons:hover{
-    background-color:#666666;
-}
-
-#search-btn{
+.mobile-search-btn-container{
     width:33%;
     display: flex;
     justify-content: flex-end;
