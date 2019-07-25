@@ -362,82 +362,42 @@ h3:after, h4:after, h5:after {
 /*Support Header*/
 /*------------------------------------------------------------------------*/
 .logo {
-    margin: 20px;
-    @include breakpoint(small) {
-        width: 70px;
-        text-align: center;
-        margin: 18px;
-    }
+    margin: 11px;
+    text-align: center;
+    width: 100px;
     @include breakpoint(medium) {
-        width: 70px;
+        margin: 18px 0;
         text-align: center;
-        margin: 18px;
+        width: 330px;
     }
     @include breakpoint(large) {
-        width: 250px;
+        margin: 18px 0;
         text-align: center;
-        margin: 16px;
-    }
-    @include breakpoint(xlarge) {
-        width: 250px;
-        text-align: center;
-        margin: 16px;
-    }
-    @include breakpoint(xxlarge) {
-        width: 250px;
-        text-align: center;
-        margin: 16px;
+        width: 330px;
     }
 }
 
 .logo-container {
-    width: 66%;
+    width: 60%;
     display: flex;
-    @include breakpoint(small) {
-        width: 33%;
-        display: flex;
-        justify-content: center;
-    }
+    justify-content: center;
     @include breakpoint(medium) {
-        width: 33%;
-        display: flex;
-        justify-content: center;
+        width: 70%;
     }
     @include breakpoint(large) {
-        width: 66%;
-        display: flex;
-        justify-content: left;
-    }
-    @include breakpoint(xlarge) {
-        width: 66%;
-        display: flex;
-        justify-content: left;
-    }
-    @include breakpoint(xxlarge) {
-        width: 66%;
-        display: flex;
+        width: 80%;
         justify-content: left;
     }
 }
 
 .hamburger-container{
-    @include breakpoint(small) {
-        width:33%;
-        display: flex;
-    }
+    width:20%;
+    display: flex;
     @include breakpoint(medium) {
-        width:33%;
+        width:15%;
         display: flex;
     }
     @include breakpoint(large) {
-        width:0%;
-        display: unset;
-    }
-    @include breakpoint(xlarge) {
-        width:0%;
-        display: unset;
-    }
-    @include breakpoint(xxlarge) {
         width:0%;
         display: unset;
     }
@@ -445,31 +405,37 @@ h3:after, h4:after, h5:after {
 
 .hamburger-icon{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -312px -52px;
+    background-position: -233px 0;
     height: 21px;
-    margin: 18px 10px;
+    margin: 20px;
     width: 24px;
 }
 
 .hamburger-icon-open{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -312px -27px;
+    background-position: -233px 0;
     height: 21px;
-    margin: 18px 10px;
-    width: 24px;
+    margin: 20px 22px;
+    width: 21px;
 }
 
 .cs-header{
-    padding: 0;
+    background: #252525;
     min-width: 100%;
-    z-index: 3;
+    padding: 0;
     position: fixed;
+    z-index: 3;
 }
 
 .navbar {
-    background: #252525;
     display: flex;
     height: 60px;
+    margin: 0 auto;
+    max-width: 64em;
+    padding: 0;
+    @include breakpoint(large) {
+        padding: 0 1.875rem;
+    }
 }
 
 .mast-img{
@@ -812,18 +778,26 @@ a:hover.topic-box{
     margin-bottom: 1rem;
 }
 
-.topic-text-note{
+.topic-text-note {
     background-color: #fbf2d0;
     color: #06363C;
     border-left: 5px solid #D1CAAD;
     margin-bottom: 1rem;
+     
+    strong {
+        color: #06363C;
+    }
 }
 
-.topic-text-tip{
+.topic-text-tip {
     background-color: #def1f4;
     color: #06363C;
     border-left: 5px solid #BECFD1;
     margin-bottom: 1rem;
+    
+    strong {
+        color: #06363C;
+    }
 }
 
 .topic-link{
@@ -1013,18 +987,18 @@ a:hover.topic-box{
 
 .header-search-icon{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -259px -74px;
+    background-position: -259px 0;
     height: 21px;
-    margin: 18px 10px;
+    margin: 20px;
     width: 24px;
 }
 
 .header-close-icon{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -282px -48px;
+    background-position: -284px 0;
     height: 21px;
-    margin: 18px 10px;
-    width: 24px;
+    margin: 20px 22px;
+    width: 21px;
 }
 
 .search-mast{
@@ -1056,7 +1030,7 @@ a:hover.topic-box{
 }
 
 .mobile-search-btn-container{
-    width:33%;
+    width:20%;
     display: flex;
     justify-content: flex-end;
 }
