@@ -106,6 +106,14 @@ tohome: ../
             $( "#mobile-dropdown-menu" ).slideToggle(); //opens-closes hamburger menu
             $( "#mobile-nav-btn" ).children("i").toggleClass("fa-bars fa-times");
         });
+        // Hides all dropdown menus except clicked
+        $('.title-pill').click(function(e){
+            $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
+        // Adds Carrot symbol to active menu item only
+            var activeMenu = $('.title-pill-carrot', this);
+            $('.title-pill-carrot').not(activeMenu).addClass('hider');
+            $(activeMenu).toggleClass('hider');
+        });
     });
     document.getElementById('search-input').value = sessionStorage.searchTerm;
     function winner(){
@@ -153,14 +161,6 @@ tohome: ../
         noResultsText: "Try again by typing a valid search term, then press 'Enter'",
         fuzzy: false,
         success: winner
-    });
-    // Hides all dropdown menus except clicked
-    $('.title-pill').click(function(e){
-        $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
-    // Adds Carrot symbol to active menu item only
-        var activeMenu = $('.title-pill-carrot', this);
-        $('.title-pill-carrot').not(activeMenu).addClass('hider');
-        $(activeMenu).toggleClass('hider');
     });
 </script>
 
