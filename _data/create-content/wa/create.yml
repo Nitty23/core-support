@@ -26,7 +26,7 @@
                 one: Click on the creator’s name to activate the author field.
                 two: Edit your name, or change it to another person’s name altogether.
                 three: If you co-wrote an article, click on <strong>Add an author...</strong> and enter a new name.
-                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img-no-border" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_authors_animation.gif">
+                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_authors_animation.gif">
             hr:
           - sectiontitle: Step 4 - Write and format
             para1: Your new draft includes a basic text box to help you get started. Click <strong>Start typing, or copy and paste your article here…</strong>
