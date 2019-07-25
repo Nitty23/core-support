@@ -22,5 +22,5 @@
               - listname: You can also use the scheduling calendar if you want to backdate an article prior to releasing it. This action is not available to contributors since they do not have release authority. To backdate an article
                 one: From your article page, click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">button located in the top-right corner of the action bar.
                 two: Select a previous date and time from the calendar. The Schedule for Release button will change to Backdate & Release.
-                three: Click the <strong>Backdate & Release</strong> button to close the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/cc_ma_back_date_article_anime.gif">
+                three: Click the <strong>Backdate & Release</strong> button to close the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/cc_ma_backdate_before_release_anime.gif">
             para1: Your article will immediately release, making it available for anyone to read on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>. In the overview section of your article page, you’ll notice that the release date is now backdated to the day and time that you selected. The live article will also display this previous release date.
