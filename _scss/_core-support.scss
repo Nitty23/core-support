@@ -381,9 +381,6 @@ h3:after, h4:after, h5:after {
     width: 60%;
     display: flex;
     justify-content: center;
-    @include breakpoint(medium) {
-        width: 70%;
-    }
     @include breakpoint(large) {
         width: 80%;
         justify-content: left;
@@ -393,10 +390,6 @@ h3:after, h4:after, h5:after {
 .hamburger-container{
     width:20%;
     display: flex;
-    @include breakpoint(medium) {
-        width:15%;
-        display: flex;
-    }
     @include breakpoint(large) {
         width:0%;
         display: unset;
@@ -434,7 +427,7 @@ h3:after, h4:after, h5:after {
     max-width: 64em;
     padding: 0;
     @include breakpoint(large) {
-        padding: 0 1.875rem;
+        padding: 0 .625rem 0 1.875rem;
     }
 }
 
