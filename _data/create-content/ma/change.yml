@@ -14,7 +14,7 @@
                 three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg">icon to open your article page.
                 four: In Edit mode, click the current release date located in the overview section of your Article Settings sidebar.
                 five: Select a new date and time from the calendar.
-                six: Click the <strong>Change Release Date</strong> button to close the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/cc_ma_cancel_scheduled_article_anime.gif">
+                six: Click the <strong>Change Release Date</strong> button to close the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/cc_ma_change_scheduled_date_anime.gif">
             para1: Your new release date is now displayed on your overview section and will automatically update everywhere that it is referred to in CORE and on <a class="underline-link" href="http://www.army.mil">www.army.mil</a>.
             hr:
           - sectiontitle: Backdate an article before releasing          
