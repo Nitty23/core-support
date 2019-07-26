@@ -828,7 +828,7 @@ a:hover.topic-box{
 /*------------------------------------------------------------------------*/
 .find-row{
     margin: 3.75rem 0rem;
-    padding: 50px 20px;
+    padding: 50px 0;
     background-color: #fec325;
 }
 
@@ -878,7 +878,7 @@ a:hover.topic-box{
     font-size: 1.2rem;
     color: #252525;
     margin-top: 0px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 1.5rem !important;
     @include breakpoint(large) {
         margin-bottom: 0 !important;
     }
