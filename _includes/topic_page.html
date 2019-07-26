@@ -61,7 +61,7 @@
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
-                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
+                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot-closed">&nbsp;&nbsp;&nbsp;</span></a>
                                 <ul class="menu vertical nested">
                         {% for article in topic.articles %}  
                                     <li>
@@ -90,14 +90,20 @@
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
 <script>$(document).foundation();</script>
 <script type="text/javascript">
-    // Hides all dropdown menus except clicked
+    // When Topic Page Sidnav is clicked...
     $('.title-pill').click(function(e){
-        var activeMenu = null;
+        // Close all menus excepted click target...
         $('.accordion-menu').not($(this.closest( "ul" ))).foundation('hideAll');
-    // Adds Carrot symbol to active menu item only
-        activeMenu = $('.title-pill-carrot', this);
-        $('.title-pill-carrot').not(activeMenu).addClass('hider');
-        $(activeMenu).toggleClass('hider');
+        if($(this).children("span").hasClass("title-pill-carrot-open")){
+            $(this).children("span").removeClass("title-pill-carrot-open");
+            console.log("The if statement");
+        }else{
+            var activeMenu = $('.title-pill-carrot-closed', this);
+            // Adds open carrot to target
+            $('.title-pill-carrot-closed').not(activeMenu).removeClass('title-pill-carrot-open');
+            $(activeMenu).addClass('title-pill-carrot-open');
+            console.log("The else statement");
+        }
     });
     // Hides all MOBILE dropdown menus
     $('.mobile-title-pills').click(function(e){
