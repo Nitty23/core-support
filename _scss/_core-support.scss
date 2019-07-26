@@ -834,8 +834,12 @@ a:hover.topic-box{
 
 .find-row .row {
     margin-bottom: 0 !important;
+    margin-top: 0 !important;
     max-width: 64em;
-    padding: 0 .9375rem;
+    padding: 0 .625rem;
+    @include breakpoint(medium) {
+        padding: 0.9375rem;
+    }    
 }
 
 .find-mobile {
@@ -851,6 +855,7 @@ a:hover.topic-box{
     background-color: #fff;
     border-radius: 55px;
     font-size: 1.25rem;
+    font-weight: 700;
     padding: 20px 30px 15px;
     outline: none;
     -webkit-transition-duration: 0.4s; /* Safari */
