@@ -834,14 +834,24 @@ a:hover.topic-box{
 
 .find-row .row {
     margin-bottom: 0 !important;
+    max-width: 64em;
+    padding: 0 .9375rem;
+}
+
+.find-mobile {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    @include breakpoint(large) {
+        justify-content: flex-end;
+    }
 }
 
 .find-btn{
     background-color: #fff;
     border-radius: 55px;
+    font-size: 1.25rem;
     padding: 20px 30px 15px;
-    // height: 50px;
-    // width: 250px;
     outline: none;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -862,19 +872,11 @@ a:hover.topic-box{
 .find-text{
     font-size: 1.2rem;
     color: #252525;
-    @include breakpoint(small) {
-        margin-top: 0px !important;
-        margin-bottom: 30px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+    @include breakpoint(large) {
+        margin-bottom: 0 !important;
     }
-    @include breakpoint(medium) {
-        margin-bottom: 30px !important;
-    }
-}
-
-.find-btn-text{
-    font-weight: bold; 
-    font-size: 1.25rem;
-    color: #252525;
 }
 
 /*Search Content*/
