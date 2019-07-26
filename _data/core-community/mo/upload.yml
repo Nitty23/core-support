@@ -30,7 +30,7 @@
                 subnumlist2: 
                   namednoneitem: <strong>OPTION 2 - Browse Computer</strong>
                   one: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon. 
-                  two: Click <strong>Upload New Logo</strong> from the dropdown.
+                  two: Click <strong>Upload New Logo</strong> from the dropdown.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_upload_new_org_photo.png">
                   three: Browse and select a new image from your computer.
                 four: A loading bar will appear to show the upload progress. Once your logo has successfully uploaded, click the <strong>Update</strong> button to close the lightbox.
             hr:
@@ -55,5 +55,5 @@
               - listname: 
                 one: Open the <strong>Edit Organization Settings</strong> lightbox.
                 two: Click on your existing image.
-                three: Select <strong>Remove Photo</strong> from the dropdown.
+                three: Select <strong>Remove Photo</strong> from the dropdown.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_replace_org_photo.png">
                 four: You existing image is replaced with a placeholder <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/camera.svg"><strong>Upload Logo</strong> icon, allowing you to begin the image upload process again.
