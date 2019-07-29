@@ -577,6 +577,7 @@ h3:after, h4:after, h5:after {
     }
     
     .title-pill-carrot.hider {
+       display: unset;
        transform: rotate(-90deg);
        transition-duration: .25s;
     }
