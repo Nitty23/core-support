@@ -1,6 +1,6 @@
 --- 
 layout: topics
-metatitle: U.S. Army CORE Support | Results Page
+metatitle: Results Page | CORE Support
 title: Results Page
 area: search-results
 topicid: cb
@@ -30,23 +30,21 @@ tohome: ../
         <div class="search-btn-container">
             <div class="dropdown-searchbox">
                 <input type="search" id="search-input" aria-label="Search through site content" placeholder="Search ...">
-                <i class="header-search-icon"></i>
+                <i class="mast-search-icon"></i>
             </div>
         </div>            
     </div>
     <nav id="mobile-dropdown-menu" class="hider hide-for-large mobile-dropdown-container">
         {% for topic in site.data.toc.support_toc %}
             <ul class="vertical menu accordion-menu" data-accordion-menu>
-                <li style="padding:0px 10px">                             
+                <li>                             
                     <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
-                    <hr class="mobile-hr">
                     <ul class="menu vertical nested">
             {% for article in topic.articles %}  
-                        <li class="mobile-li">
+                        <li>
                             <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
                         </li>
                         {% if forloop.last == true %}
-                        <hr class="mobile-hr" style="margin-left: -3%;">
                         {% endif %}
             {% endfor %}
                     </ul>                       
