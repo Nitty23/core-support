@@ -34,14 +34,12 @@
             <ul class="vertical menu accordion-menu" data-accordion-menu>
                 <li style="padding:0px 10px">                             
                     <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
-                    <hr class="mobile-hr">
                     <ul class="menu vertical nested">
             {% for article in topic.articles %}  
                         <li class="mobile-li">
                             <a href="{{page.tohome}}topics/#{{ article.id }}" class="mobile-sec-pills article-sidenav-link">{{ article.title }}</a>
                         </li>
                         {% if forloop.last == true %}
-                        <hr class="mobile-hr" style="margin-left: -3%;">
                         {% endif %}
             {% endfor %}
                     </ul>                       
