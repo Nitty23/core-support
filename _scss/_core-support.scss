@@ -560,6 +560,10 @@ h3:after, h4:after, h5:after {
     width: 100%;
     padding: 30px 10px 0;
     
+    ul {
+        margin-bottom: 0;
+    }
+    
     .title-pill-carrot {
         background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
         background-position: -600px -179px;
@@ -611,13 +615,9 @@ h3:after, h4:after, h5:after {
 
 .mobile-hr{
     margin: 0;
-    background-color: #333;
+    background-color: #ff0000;
     border: none;
     height: 1px;
-}
-
-.mobile-li{
-    margin-bottom: 25px;
 }
 
 .mobile-accord{
