@@ -491,21 +491,11 @@ h3:after, h4:after, h5:after {
 /*------------------------------------------------------------------------*/
 
 .topics-pill-menu{
-    position: fixed;
-    @include breakpoint(small) {
-        display: none;
-    }
-    @include breakpoint(medium) {
-        display: none;
-    }
+    display: none;
     @include breakpoint(large) {
         display: unset;
-    }
-    @include breakpoint(xlarge) {
-        display: unset;
-    }
-    @include breakpoint(xxlarge) {
-        display: unset;
+        max-width: 200px;
+        position: fixed;
     }
 }
 
@@ -528,7 +518,7 @@ h3:after, h4:after, h5:after {
     
 //     &.title-pill-carrot-closed{
 //         background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-//         background-position: -574px -175px;
+//         background-position: -576px -175px;
 //         height: 9px;
 //         margin: 7px 1rem;
 //         position: absolute;
@@ -541,7 +531,7 @@ h3:after, h4:after, h5:after {
     
 .title-pill:hover .title-pill-carrot-closed {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -574px -175px;
+    background-position: -576px -175px;
     height: 9px;
     margin: 7px 1rem;
     position: absolute;
