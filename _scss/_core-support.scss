@@ -517,6 +517,10 @@ h3:after, h4:after, h5:after {
     padding: 0 !important;
     justify-content: space-between;
     white-space: nowrap;
+    
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 // .title-pill:hover{
@@ -533,9 +537,7 @@ h3:after, h4:after, h5:after {
 //     }
 // }
 
-.title-pill:hover {
-    text-decoration: none;
-}
+
     
 .title-pill:hover .title-pill-carrot-closed {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
