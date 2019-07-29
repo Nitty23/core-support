@@ -519,21 +519,35 @@ h3:after, h4:after, h5:after {
     white-space: nowrap;
 }
 
-.title-pill:hover{
-    text-decoration: none;
+// .title-pill:hover{
+//     text-decoration: none;
     
-    &.title-pill-carrot-closed{
-        background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-        background-position: -168px -50px;
-        height: 9px;
-        margin: 7px 1rem;
-        position: absolute;
-        right: 0;
-        width: 12px;
-    }
+//     &.title-pill-carrot-closed{
+//         background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+//         background-position: -168px -50px;
+//         height: 9px;
+//         margin: 7px 1rem;
+//         position: absolute;
+//         right: 0;
+//         width: 12px;
+//     }
+// }
+
+.title-pill:hover {
+    text-decoration: none;
+}
+    
+.title-pill:hover .title-pill-carrot-closed {
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -168px -50px;
+    height: 9px;
+    margin: 7px 1rem;
+    position: absolute;
+    right: 0;
+    width: 12px;
 }
 
-.title-pill-carrot-open{
+.title-pill-carrot-open, .title-pill:focus .title-pill-carrot-open {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -180px -50px;
     height: 9px;
@@ -616,7 +630,7 @@ h3:after, h4:after, h5:after {
 
 //fix
 .is-accordion-submenu{
-    margin: 5%;
+    margin: 10px 0 0 4px !important;
 }
 
 .topnav-bread{
