@@ -9,7 +9,7 @@
             <div class="logo-container">
                 <a href="{{page.tohome}}" class="logo">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="/e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg" type="image/svg+xml">
+                        <source media="(max-width: 480px)" srcset="/e2/images/rv7/core-support/ui-media/coresupport_mobile_logo.svg" type="image/svg+xml">
                         <img src="/e2/images/rv7/core-support/ui-media/coresupport_logo.svg" alt="CORE Support Logo" style="width:auto;" type="image/svg+xml">
                     </picture>
                 </a>
@@ -56,8 +56,8 @@
         <div class="inner-container">
             <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
             <div class="grid-x grid-margin-x grid-margin-y align-left">
-                <aside class="cell large-2 topics-pill-menu">
-                    <nav>
+                <aside class="cell large-3">
+                    <nav class="topics-pill-menu">
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
@@ -75,7 +75,7 @@
                     </nav>                 
                 </aside>
                 
-                <div class="cell large-8 medium-12 small-12 large-offset-3">
+                <div class="cell large-9 medium-12 small-12 large-offset-3">
                     <div class="topics-content">
                         {% include topic_generator.html %}
                     </div>
