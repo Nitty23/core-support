@@ -33,7 +33,7 @@
         {% for topic in site.data.toc.support_toc %}
             <ul class="vertical menu accordion-menu" data-accordion-menu>
                 <li style="padding:0px 10px">                             
-                    <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider">&nbsp;&nbsp;&nbsp;</span></a>
+                    <a href="#" class="mobile-title-pills article-sidenav-link">{{ topic.title }}<span class="title-pill-carrot hider"></span></a>
                     <ul class="menu vertical nested">
             {% for article in topic.articles %}  
                         <li class="mobile-li">
@@ -52,14 +52,14 @@
 <div class="main" role="main">
     <div class="container">
         <div class="inner-container">
-            <div id="topic-sect-spacer" class="topicspan">&nbsp;</div>
+            <div id="topic-sect-spacer" class="topicspan"></div>
             <div class="grid-x grid-margin-x grid-margin-y align-left">
                 <aside class="cell xlarge-3 large-4 topics-pill-menu">
                     <nav>
                     {% for topic in site.data.toc.support_toc %}
                         <ul class="vertical menu accordion-menu" data-accordion-menu>
                             <li>                                
-                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot-closed">&nbsp;&nbsp;&nbsp;</span></a>
+                                <a href="#" class="title-pill">{{ topic.title }}<span class="title-pill-carrot-closed"></span></a>
                                 <ul class="menu vertical nested">
                         {% for article in topic.articles %}  
                                     <li>
