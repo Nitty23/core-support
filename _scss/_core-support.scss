@@ -511,35 +511,37 @@ h3:after, h4:after, h5:after {
 
 .title-pill{
     color:#252525;
-    font-weight: 600;
-    font-size: 1rem;
-    white-space: nowrap;
     display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 !important;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.title-pill:hover {
+.title-pill:hover{
     text-decoration: none;
-}
-
-.title-pill-carrot-closed{
-    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-    background-position: -168px -50px;
-    height: 9px;
-    margin: 18px 10px;
-    position: absolute;
-    width: 12px;
+    
+    &.title-pill-carrot-closed{
+        background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+        background-position: -168px -50px;
+        height: 9px;
+        margin: 7px 1rem;
+        position: absolute;
+        right: 0;
+        width: 12px;
+    }
 }
 
 .title-pill-carrot-open{
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -180px -50px;
     height: 9px;
-    margin: 18px 10px;
+    margin: 7px 1rem;
     position: absolute;
+    right: 0;
     width: 12px;
 }
-
 
 .mobile-nested{
     margin-top: -60px !important;
