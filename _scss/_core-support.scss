@@ -512,9 +512,6 @@ h3:after, h4:after, h5:after {
         text-decoration: none;
     }
 }
-
-// .title-pill:hover{
-//     text-decoration: none;
     
 //     &.title-pill-carrot-closed{
 //         background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
@@ -554,14 +551,20 @@ h3:after, h4:after, h5:after {
 }
 
 #mobile-dropdown-menu{
+    padding: 30px 20px 0;
     position: fixed;
-    z-index: 3;
     top: 60px;
     width: 100%;
-    padding: 30px 10px 0;
+    z-index: 3;
     
     ul {
         margin-bottom: 0;
+    }
+    
+    .submenu {
+        border-bottom: 1px solid #333;
+        margin: 0 !important;
+        padding: 1.125rem .75rem !important;
     }
     
     .title-pill-carrot {
@@ -594,31 +597,24 @@ h3:after, h4:after, h5:after {
     font-size: 1rem;
 }
 
-.mobile-title-pills{
+.mobile-title-pills {
     border-bottom: 1px solid #333;
     color: #fff;
     font-weight: 600;
     font-size: 1.125rem;
-    padding: 1.5rem 1rem !important;
+    padding: 1.5rem .75rem !important;
     text-decoration: none;
     
-    &:hover{
+    &:hover {
         text-decoration: none;
     }
 }
 
-.mobile-sec-pills{
+.mobile-sec-pills {
     font-size: 1rem !important;
     color: #fff;
     text-decoration: none;
     font-weight: normal
-}
-
-.mobile-hr{
-    margin: 0;
-    background-color: #ff0000;
-    border: none;
-    height: 1px;
 }
 
 .mobile-accord{
