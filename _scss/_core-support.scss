@@ -556,9 +556,26 @@ h3:after, h4:after, h5:after {
 #mobile-dropdown-menu{
     position: fixed;
     z-index: 3;
-    top: 59px;
+    top: 60px;
     width: 100%;
     padding: 30px 10px 0;
+    
+    .title-pill-carrot {
+        background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+        background-position: -600px -179px;
+        height: 13px;
+        margin: 4px 0;
+        position: absolute;
+        right: 1rem;
+        transform: rotate(-180deg);
+        transition-duration: .25s;
+        width: 24px;
+    }
+    
+    .title-pill-carrot.hider {
+       transform: rotate(-90deg);
+       transition-duration: .25s;
+    }
 }
 
 .secondary-pill{
@@ -573,6 +590,7 @@ h3:after, h4:after, h5:after {
 }
 
 .mobile-title-pills{
+    border-bottom: 1px solid #333;
     color: #fff;
     font-weight: 600;
     font-size: 1.125rem;
