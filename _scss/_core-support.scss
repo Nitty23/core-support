@@ -1077,6 +1077,7 @@ a:hover.topic-box {
 
 .search-page-container {
     margin-top: 215px;
+    max-width: 48rem;
     
     @include breakpoint(large) {
         margin-top: 240px;
