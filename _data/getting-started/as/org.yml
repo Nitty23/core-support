@@ -39,7 +39,7 @@
             note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
             image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_organization.png">
             hr:
-          - sectiontitle: Frequently Asked Question
+          - sectiontitle: Frequently Asked Questions
             paratitle: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
             para1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization in CORE.
           - sectiontitle: 
