@@ -1076,7 +1076,11 @@ a:hover.topic-box {
 }
 
 .search-page-container {
-    margin-top: 25%;
+    margin-top: 215px;
+    
+    @include breakpoint(large) {
+        margin-top: 240px;
+    }
 }
 
 #results-container {
@@ -1172,7 +1176,7 @@ a:hover.topic-box {
     }
 
     .search-page-container {
-        margin-top: 45% !important;
+        margin-top: 200px !important;
     }
 }
 
