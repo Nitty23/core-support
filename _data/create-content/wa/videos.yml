@@ -45,7 +45,7 @@
                 one: Click on the video you want to delete. A toolbar will appear at the top of the video.
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             hr:
-          - sectiontitle:
+          - sectiontitle: Frequently Asked Questions
             paratitle: Can I embed a video from other video platforms?
             para1: At this time, CORE only supports embedding video from YouTube. We plan to expand this feature to other video hosting services in the future. If there is a specific video hosting service that you would like available through CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Video Request">CORE Support Team</a> to let us know how we can help.
           - sectiontitle:
