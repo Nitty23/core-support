@@ -21,7 +21,7 @@
               - listname: 
                 one: From the <strong>Profile</strong> tab, your current organization is displayed at the top.
                 two: Click <strong>Change Organization</strong>.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_organization.png">
-                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img class="data-img" scr="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_lightbox.png">
+                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_dropdown_list.png">
                 four: Select an organization from the auto-suggested list.
                 five: Click <strong>Update</strong> to confirm your new organization. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_update.png">
           - sectiontitle:
