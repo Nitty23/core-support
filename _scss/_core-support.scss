@@ -501,28 +501,18 @@ h3:after, h4:after, h5:after {
     
     &:hover {
         text-decoration: none;
-        
-        &.title-pill-carrot-closed {
-            background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-            background-position: -576px -175px;
-            height: 9px;
-            margin: 7px 1rem;
-            position: absolute;
-            right: 0;
-            width: 15px;
-        }
     }
 }
  
-// .title-pill:hover .title-pill-carrot-closed {
-//     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
-//     background-position: -576px -175px;
-//     height: 9px;
-//     margin: 7px 1rem;
-//     position: absolute;
-//     right: 0;
-//     width: 15px;
-// }
+.title-pill:hover .title-pill-carrot-closed {
+    background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
+    background-position: -576px -175px;
+    height: 9px;
+    margin: 7px 1rem;
+    position: absolute;
+    right: 0;
+    width: 15px;
+}
 
 .title-pill-carrot-open, .title-pill:focus .title-pill-carrot-open {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
