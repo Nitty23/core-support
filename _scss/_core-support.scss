@@ -206,7 +206,7 @@ strong {
     
     @include breakpoint(medium) {
         margin-bottom: 1.25rem;
-        padding-left: .9375rem;
+        padding-right: .9375rem;
     }
 }
 
@@ -215,7 +215,7 @@ strong {
     padding: 0;
     
     @include breakpoint(medium) {
-        padding-right: .9375rem;
+        padding-left: .9375rem;
     }
 }
 
