@@ -31,7 +31,7 @@
                   one: User’s role is reverted to a contributor.
                   two: User cannot create new articles or import from DVIDS.
                   three: User cannot edit or submit existing drafts in their Inbox (preview only).
-          - sectiontitle: 
+          - sectiontitle: Frequently Asked Questions
             paratitle: If a user is removed from an organization, can he/she make changes to content that they created while associated with it? 
             para1: Each article is tied to the user that created it, as well as the organization that the user belonged to at the time it was released. If the creator is removed or changes organizations, all editing rights are transferred to the organization. The article remains accessible to any editor, publisher or administrator in the organization via the Released tab of their Inbox.
             para2: Since the article is also tied to the creator, he/she will have a read-only version available in the Released tab of their Inbox. The user must contact a member of the original organization if any changes are needed.
