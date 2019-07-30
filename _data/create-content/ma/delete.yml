@@ -31,7 +31,7 @@
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, retract it instead. This action will revert the article to a draft and it can be re-released at any time.
             hr:
-          - sectiontitle:
+          - sectiontitle: Frequently Asked Questions
             paratitle: My administrator deleted my article, but I want to access it again. How do I restore my article?
             para1: For help restoring a deleted article, visit <a class="underline-link" href="./restore_deleted.html">Restore a deleted article</a>.
           - sectiontitle:
