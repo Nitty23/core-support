@@ -31,6 +31,6 @@
                 three: A notification is sent to all editors in your organization to notify them of the pending request.
                 four: A yellow label is displayed next to the article in your Inbox, as well as your Editor’s Inbox.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.png">
                 five: You and you editors will be able to edit and save changes on your article. Prior to submitting, only the person that created an article can edit it.
-          - sectiontitle:  
+          - sectiontitle: Frequently Asked Questions
             paratitle: Why can’t I release content?
             para1: Administrators have releasing authority for their command or organization. They can also grant others permission to release content, as long as the content is reviewed by the releasing authority. Please contact the administrator(s) of your organization with questions regarding your role. You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
