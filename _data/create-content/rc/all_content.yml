@@ -32,7 +32,7 @@
             para1: You can do a simple keyword search to find articles based on a particular topic. However, your search results will include articles that reference your keyword in multiple locations, including the title, body copy, metadata, tags and more. <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag feeds</a> allow you to filter your results to display only articles that contain a specific <a class="underline-link" href="../../creating-content/wa/tags.html">tag</a>.
             numlist: 
               - listname: To filter articles by a tag
-                one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). 
+                one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action).<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_filter_articles_by_tags.png">
                 two: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.
             hr:
           - sectiontitle: Select a custom date range

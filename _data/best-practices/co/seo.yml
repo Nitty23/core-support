@@ -8,15 +8,21 @@
             para1: Search engine optimization, or SEO, is the process of maximizing the number of visitors to a particular website by ensuring that the site appears high on the list of results returned by search engines like Google, Bing and Yahoo. In short, it is a set of actions that you can take to help your website rank higher on search engine results pages, or SERPs. These actions include using relevant keywords, customizing metadata, adding relevant links, and much more.
             para2: Why does SEO matter? Showing up higher in search engine results means more people will find your articles, visit your website, or learn about your organization. If you want people to discover your content, then it is worth investing some time to improve your SEO. 
           - sectiontitle: Built-in features
-            itemlist: 
-              - listname: There are many factors that influence where a piece of content will rank on SERPs. CORE offers some built-in features to optimize your articles and organization pages, including
-                one: <strong>Rapid Load Time</strong> - Improves page performance and offers a better user experience
-                two: <strong>Mobile Optimized</strong> - Automatically creates mobile-friendly versions, guaranteeing pages perform well across devices
-                three: <strong>Google Indexing</strong> - Gets your content listed on Google search result pages quickly
-                four: <strong>Secure Hosting</strong> - Provides an SSL certificate for all of your pages, encrypting data over an HTTPS connection
-                five: <strong>XML Sitemap</strong> - Creates an outline of Army.mil, which helps search engines to find and crawl all of your content
-                six: <strong>Default Meta Tags</strong> - Adds preset meta tags that describe your content to search engines. You can custom this metadata on your <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article settings</a> and <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
-            para1: In addition to CORE’s built-in features, there are some actions that you can take to optimize your web content.
+            para1: There are many factors that influence where a piece of content will rank on SERPs. CORE offers some built-in features to optimize your articles and organization pages, including&#58;
+            lexicon: 
+              - title: Rapid Load Time
+                definition: Improves page performance and offers a better user experience
+              - title: Mobile Optimized
+                definition: Automatically creates mobile-friendly versions, guaranteeing pages perform well across devices
+              - title: Google Indexing
+                definiton: Gets your content listed on Google search result pages quickly
+              - title: Secure Hosting
+                definition: Provides an SSL certificate for all of your pages, encrypting data over an HTTPS connection
+              - title: XML Sitemap
+                definition: Creates an outline of Army.mil, which helps search engines to find and crawl all of your content
+              - title: Default Meta Tags
+                definition: Adds preset meta tags that describe your content to search engines. You can custom this metadata on your <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article settings</a> and <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
+            para2: In addition to CORE’s built-in features, there are some actions that you can take to optimize your web content.
             hr:
           - sectiontitle: Tip &#35;1&#58; Research and use relevant keywords
             para1: One of the easiest ways to help search engines prioritize your content is to use relevant keywords throughout your articles and organization pages. When there’s a match between the words people are typing into a search engine and the words you’ve incorporated into your content and SEO settings, then your page is more likely to appear in the search results.
