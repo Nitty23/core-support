@@ -19,7 +19,7 @@
             para2: The user will immediately be removed from your team member list, and an email will be sent to notify the user that he/she has been removed from your organization. 
             note: You will only see the option to remove a user from your organization if you are an administrator.
             hr:
-          - sectiontitle: 
+          - sectiontitle: Frequently Asked Questions
             paratitle: What happens when a user is removed from my organization?
             itemlist: 
               - listname: 

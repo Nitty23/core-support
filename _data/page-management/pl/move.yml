@@ -22,7 +22,7 @@
                 three: As you drag the section, use the yellow guidelines to choose the new placement.
                 four: Release the section when it’s in the desired position.
             hr: 
-          - sectiontitle:
+          - sectiontitle: Frequently Asked Questions
             paratitle: Can I move sections to create columns on my Page?
             para1: Currently, it is not possible to move content sections to create columns . All sections will stack vertically on top of each other. We plan to work on this capability in the future to expand your page layout customization options.
           - sectiontitle:

@@ -163,10 +163,6 @@
       sections:
         - title: Navigating my organization
           url: /core-community/mo/navigating_my_organization.html
-        - title: Edit profile
-          url: /core-community/mo/edit_profile.html
-        - title: Change organization
-          url: /core-community/mo/change_organization.html
         - title: Join an organization
           url: /core-community/mo/join_organization.html
         - title: Change user roles

@@ -201,25 +201,32 @@ strong {
 
 .gloss-title {
     font-weight: 600;
-    margin-bottom: 1.25rem;
-    padding-left: 0;
-    @include breakpoint(small) {
-        margin-bottom: 0;
-        padding: 0;
+    margin-bottom: 0;
+    padding: 0;
+    
+    @include breakpoint(medium) {
+        margin-bottom: 1.25rem;
+        padding-right: .9375rem;
     }
 }
 
 .gloss-def {
     margin-bottom: 1.25rem;
-    padding-right: 0;
-    @include breakpoint(small) {
-        padding: 0;
+    padding: 0;
+    
+    @include breakpoint(medium) {
+        padding-left: .9375rem;
     }
 }
+
 .sublexicon {
-    margin-left: 2.5rem !important;
+    margin-left: 2rem !important;
     margin-top: 1rem !important;
     margin-bottom: 0rem !important;
+    
+    @include breakpoint(large) {
+        margin-left: 2.5rem !important;
+    }
 }
 
 .table-row-style {
@@ -819,29 +826,45 @@ a:hover.topic-box {
 .bullet-item {
     display: list-item;
     list-style-type: disc;
-    margin-left: 2.25rem;
+    margin-left: 1.75rem;
     margin-top: 10px;
     padding-left: 0.25rem;
+    
+    @include breakpoint(large) {
+        margin-left: 2.25rem;
+    }
 }
 
 .subbullet-item {
     display: list-item; 
     list-style-type: circle;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 10px;
     padding-left: .5rem;
+    
+    @include breakpoint(large) {
+        margin-left: 2rem;
+    }
 }
 
 .num-item {
     display: list-item; 
     list-style-type: decimal;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 10px;
     padding-left: .5rem;
+    
+    @include breakpoint(large) {
+        margin-left: 2rem;
+    }
 }
 
 .sublist {
-    padding-left: 2.5rem;
+    padding-left: 2rem;
+    
+    @include breakpoint(large) {
+        padding-left: 2.5rem;
+    }
 }
 
 .topic-text-learn {

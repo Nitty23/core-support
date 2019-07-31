@@ -14,7 +14,7 @@
                 three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
                 four: Click <strong>Delete</strong> from the confirmation dialog box.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_delete_confirm.jpg">
             hr: 
-          - sectiontitle: 
+          - sectiontitle: Frequently Asked Questions
             paratitle: Can I recover a deleted section?
             para1: If you clicked <strong>Delete</strong> on the confirmation dialog box, it is not possible to restore the section. There aren’t currently undo/redo options in page management.
           - sectiontitle: 

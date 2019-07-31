@@ -42,6 +42,6 @@
                 two: The article status is changed from Pending Review to Rejected in the overview section of the article settings.
                 three: Only the person that created the article can edit it. Organization supervisors can no longer access the article, unless it is submitted for review again.
             hr:
-          - sectiontitle: 
+          - sectiontitle: Frequently Asked Questions
             paratitle: Why didn’t I receive a notification about articles submitted to my Inbox?
             para1: Your notifications are managed within your <a class="underline-link" href="http://core.ardev.us/settings/notifications">Account Settings</a>. Double check that your settings are turned on for when new articles are sent to your inbox.
