@@ -9,10 +9,11 @@
             note: A section can only be moved within the page content area where it was added. Sections cannot be moved between tabs or into a separate content area, such as the header and footer.
           - sectiontitle: Using borders and placeholders
             para1: To help you move sections around your Page, borders and placeholders will appear as you drag and drop.
-            itemlist:
-              - listname: 
-                one: <strong>Borders</strong> appear around the entire section when you hover over it. This helps you visualize the entire content area that will be moved.
-                two: <strong>Placeholders</strong> represent the section you are moving and show you where you can place a section. 
+            lexicon:
+              - title: Borders
+                definition: Appear around the entire section when you hover over it. This helps you visualize the entire content area that will be moved.
+              - title: Placeholders
+                definition: Represent the section you are moving and show you where you can place a section. 
             hr:
           - sectiontitle: Move sections on your Page
             numlist:
