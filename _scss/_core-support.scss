@@ -308,7 +308,7 @@ strong {
     animation: slideBack-sm 0.5s;
     @include breakpoint(medium) {
         height: 120px;
-        animation: slideBack-smd 0.5s;
+        animation: slideBack-med 0.5s;
     }
     @include breakpoint(large) {
         height: 130px;
