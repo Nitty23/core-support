@@ -249,6 +249,39 @@ strong {
     margin-bottom: 1.25rem;
 }
 
+.faq-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom-style: solid;
+    border-bottom-color: #fec325;
+    border-bottom-width: 5px;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+.faq-question{
+    font-size: 1rem;
+    font-weight: 600;
+    border-left-style: solid;
+    border-left-color: #fec325;
+    border-left-width: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.faq-answer{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 10px 10px 15px;
+    margin: 0px;
+}
+.faq-box{
+    background-color: #f5f5f5;
+    border-bottom-color: #cccccc;;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 30px;
+}
+
 .inner-container {
     margin: 0 .625rem;
     @include breakpoint(large) {

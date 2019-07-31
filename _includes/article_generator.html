@@ -24,6 +24,39 @@
                                     {% endif %}
                                 {% when 'paratitle' %}
                                     <h3 class="para-title">{{ part[1] }}</h3>
+                                {% when 'faq' %}
+                                    {% for faqsect in section.faq %}
+                                        {% if faqsect.title %}
+                                            <header>
+                                                <h2 class="faq-title">{{ faqsect.title }}</h2>
+                                            </header>
+                                        {% elsif faqsect.qa %}
+                                            <div class="faq-box">
+                                                {% for item in faqsect.qa %}
+                                                    {% if item[0] == 'question' %}
+                                                        <h3 class="faq-question">Q: {{ item[1] }}</h3>
+                                                    {% elsif item[0] == 'answer' %}
+                                                        <p class="faq-answer">{{ item[1] }}</p>
+                                                    {% elsif item[0] == 'list' %}
+                                                        <ul class="faq-answer">
+                                                        {% for li in item[1] %}
+                                                            {% for each in li %}
+                                                                {% if each[0] == 'listname' %}
+                                                                    <h4 class="list-title">{{ each[1] }}</h4>
+                                                                {% else %}
+                                                                    <li class="bullet-item">{{ each[1] }}</li>
+                                                                {% endif %}
+                                                            {% endfor %} 
+                                                        {% endfor %}                                                        
+                                                        </ul>
+                                                    {% else %}
+                                                        <p class="faq-answer">{{ item[1] }}</p>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+
                                 {% when 'video' %}
                                     <div class="responsive-embed widescreen">
                                         <iframe class="article-para" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen {{ part[1] }}></iframe>
