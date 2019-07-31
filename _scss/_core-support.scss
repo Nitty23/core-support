@@ -318,42 +318,42 @@ strong {
 
 .topicspan-plus{
     animation: slide-sm 0.7s;
-    height: 260px;
+    height: 200px;
     @include breakpoint(medium) {
         animation: slide-med 0.7s;
-        height: 270px;
+        height: 215px;
     }
     @include breakpoint(large) {
         animation: slide-lg 0.7s;
-        height: 280px; 
+        height: 240px; 
     }
 }
 
 @keyframes slideBack-sm {
-    from {height: 260px; }
+    from {height: 200px; }
     to {height: 110px; }
 }
 @keyframes slideBack-med {
-    from {height: 270px; }
+    from {height: 215px; }
     to {height: 120px; }
 }
 @keyframes slideBack-lg {
-    from {height: 280px; }
+    from {height: 240px; }
     to {height: 130px; }
 }
 
 
 @keyframes slide-sm {
     from {height: 110px; }
-    to {height: 260px; }
+    to {height: 200px; }
 }
 @keyframes slide-med {
     from {height: 120px; }
-    to {height: 270px; }
+    to {height: 215px; }
 }
 @keyframes slide-lg {
     from {height: 130px; }
-    to {height: 280px; }
+    to {height: 240px; }
 }
 
 .tab { margin-left: 40px; }
