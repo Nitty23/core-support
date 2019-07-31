@@ -58,7 +58,10 @@ $(document).ready(function(){
     //       Search button logic *************
     $("#search-btn").click(function(){
         $( this ).children("i" ).toggleClass("header-search-icon header-close-icon");
-        $( "#search-sect" ).slideToggle(500);
+        $( "#search-sect" ).slideToggle("linear");
+        //       Searchbox sliding anime code *************
+        $( ".topicspan-start").replaceWith('<div id="topic-sect-spacer" class="topicspan"></div>');
+        $( "#topic-sect-spacer" ).toggleClass("topicspan topicspan-plus");
     });
     //       End Search button logic *************
     $("#mobile-nav-btn").click(function(){

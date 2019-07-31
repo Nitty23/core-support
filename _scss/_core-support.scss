@@ -286,7 +286,7 @@ strong {
     margin: 1.5em auto;
 }
 
-.topicspan {    
+.topicspan-start{
     height: 110px;
     @include breakpoint(medium) {
         height: 120px;
@@ -294,6 +294,59 @@ strong {
     @include breakpoint(large) {
         height: 130px;
     }
+}
+
+.topicspan {    
+    height: 110px;
+    animation: slideBack-sm 0.7s;
+    @include breakpoint(medium) {
+        height: 120px;
+        animation: slideBack-smd 0.7s;
+    }
+    @include breakpoint(large) {
+        height: 130px;
+        animation: slideBack-lg 0.7s;
+    }
+}
+
+.topicspan-plus{
+    animation: slide-sm 0.7s;
+    height: 260px;
+    @include breakpoint(medium) {
+        animation: slide-med 0.7s;
+        height: 270px;
+    }
+    @include breakpoint(large) {
+        animation: slide-lg 0.7s;
+        height: 280px; 
+    }
+}
+
+@keyframes slideBack-sm {
+    from {height: 260px; }
+    to {height: 110px; }
+}
+@keyframes slideBack-med {
+    from {height: 270px; }
+    to {height: 120px; }
+}
+@keyframes slideBack-lg {
+    from {height: 280px; }
+    to {height: 130px; }
+}
+
+
+@keyframes slide-sm {
+    from {height: 110px; }
+    to {height: 260px; }
+}
+@keyframes slide-med {
+    from {height: 120px; }
+    to {height: 270px; }
+}
+@keyframes slide-lg {
+    from {height: 130px; }
+    to {height: 280px; }
 }
 
 .tab { margin-left: 40px; }
