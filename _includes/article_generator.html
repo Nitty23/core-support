@@ -26,28 +26,59 @@
                                     <h3 class="para-title">{{ part[1] }}</h3>
                                 {% when 'faq' %}
                                     {% for faqsect in section.faq %}
-                                        {% if faqsect.title %}
+                                        {% if faqsect.title %}  <!-- for the faq title name -->
                                                 <h2 class="faq-title">{{ faqsect.title }}</h2>
-                                        {% else %}
+                                        {% else %} 
                                             <div class="faq-box">
                                                 {% for item in faqsect %}
                                                     {% if item[0] == 'question' %}
                                                         <h3 class="faq-question">Q: {{ item[1] }}</h3>
-                                                    {% elsif item[0] == 'answer' %}
-                                                        <p class="faq-answer">{{ item[1] }}</p>
-                                                    {% elsif item[0] == 'list' %}
+                                                    {% elsif item[0] == 'qa' %}
+                                                    {% elsif item[0] == 'itemlist' %} <!-- if a unordered list -->
                                                         <ul class="faq-answer">
                                                         {% for li in item[1] %}
                                                             {% for each in li %}
                                                                 {% if each[0] == 'listname' %}
                                                                     <h4 class="list-title">{{ each[1] }}</h4>
+                                                                {% elsif each[0] == 'sublist' %} <!-- if sublist exists -->
+                                                                    {% for item in li.sublist %}
+                                                                        {% if forloop.first == true %}
+                                                                            <li class="bullet-item">{{ item[1] }}</li>
+                                                                                <ul class="sublist">
+                                                                        {% else %}
+                                                                                    <li class="subbullet-item">{{ item[1] }}</li>
+                                                                        {% endif %}
+                                                                    {% endfor %}
+                                                                                </ul>
                                                                 {% else %}
                                                                     <li class="bullet-item">{{ each[1] }}</li>
                                                                 {% endif %}
                                                             {% endfor %} 
                                                         {% endfor %}                                                        
                                                         </ul>
-                                                    {% else %}
+                                                    {% elsif item[0] == 'numlist' %}  <!-- if a numbered list -->
+                                                        <ol class="faq-answer">
+                                                        {% for li in item[1] %}
+                                                            {% for each in li %}
+                                                                {% if each[0] == 'listname' %}
+                                                                    <h4 class="list-title">{{ each[1] }}</h4>
+                                                                {% elsif each[0] == 'sublist' %} <!-- if sublist exists -->
+                                                                    {% for item in li.sublist %}
+                                                                        {% if forloop.first == true %}
+                                                                            <li class="num-item">{{ item[1] }}</li>
+                                                                                <ul class="sublist">
+                                                                        {% else %}
+                                                                                    <li class="subbullet-item">{{ item[1] }}</li>
+                                                                        {% endif %}
+                                                                    {% endfor %}
+                                                                                </ul>
+                                                                {% else %}
+                                                                    <li class="num-item">{{ each[1] }}</li>
+                                                                {% endif %}
+                                                            {% endfor %} 
+                                                        {% endfor %}                                                        
+                                                        </ol>
+                                                    {% else %} <!-- else a regular faq answer -->
                                                         <p class="faq-answer">{{ item[1] }}</p>
                                                     {% endif %}
                                                 {% endfor %}
@@ -149,7 +180,6 @@
                                                 {% else %} <!-- no listname -->
                                                     <ol>
                                                 {% endif %}
-
                                             {% elsif each[0] == 'lexicon' %} <!-- if sublexicon exists -->
                                                 <div class="row sublexicon">
                                                 {% for term in li.lexicon %}
