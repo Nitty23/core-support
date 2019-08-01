@@ -27,12 +27,10 @@
                                 {% when 'faq' %}
                                     {% for faqsect in section.faq %}
                                         {% if faqsect.title %}
-                                            <header>
                                                 <h2 class="faq-title">{{ faqsect.title }}</h2>
-                                            </header>
-                                        {% elsif faqsect.qa %}
+                                        {% else %}
                                             <div class="faq-box">
-                                                {% for item in faqsect.qa %}
+                                                {% for item in faqsect %}
                                                     {% if item[0] == 'question' %}
                                                         <h3 class="faq-question">Q: {{ item[1] }}</h3>
                                                     {% elsif item[0] == 'answer' %}
