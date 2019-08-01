@@ -44,7 +44,7 @@
                 three: Select <strong>Edit Profile & Settings</strong> from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_edit_profile.png"><img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_profile_lightbox.png">
                 four: When you’re done making changes, click the <strong>Update</strong> button at the bottom of the Edit Profile lightbox.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_profile_update.png"> 
             hr:
-              - sectiontitle: 
+          - sectiontitle: 
             faq:
               - title: Frequently Asked Questions
               - qa:
