@@ -20,12 +20,15 @@
           - sectiontitle:
             learn: <strong>First time user?</strong> If you are logging into CORE for the first time, you will be directed to an account creation page. You will be prompted to join an organization to ensure that your content is pushed to the proper chain of command. Once you join an organization, you can set up <a class="underline-link" href="./your_profile.html">your profile</a> or navigate to the CORE Dashboard.
             hr: 
-          - sectiontitle: Frequently Asked Questions
-            paratitle: How do I obtain an username and password?
-            para1: If you don’t have access to a CAC reader, you will only be able to login with your AKO username and password. If you don’t have an AKO account, click Create Account (AKO), located underneath the Login buttons. This will redirect you to the AKO Account Registration page.
           - sectiontitle: 
-            paratitle: What if I forgot my AKO password?
-            para1: If you forgot your AKO password, click <strong>Reset Password (AKO)</strong> on the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page, and you will be prompted to enter your username or email address to choose a method to reset your password. 
-          - sectiontitle: 
-            paratitle: Can I set up or change my password?
-            para1: CORE does not support passwords. Your password to access CORE via the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page is the same password you use to access AKO. If you would like to change it, then click <strong>Reset Password (AKO)</strong>, located underneath the Login buttons. You can also directly login to AKO and change it through your account settings.
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: How do I obtain an username and password?
+                answer1: If you don’t have access to a CAC reader, you will only be able to login with your AKO username and password. If you don’t have an AKO account, click Create Account (AKO), located underneath the Login buttons. This will redirect you to the AKO Account Registration page.
+              - qa: 
+                question: What if I forgot my AKO password?
+                answer1: If you forgot your AKO password, click <strong>Reset Password (AKO)</strong> on the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page, and you will be prompted to enter your username or email address to choose a method to reset your password. 
+              - qa: 
+                question: Can I set up or change my password?
+                answer1: CORE does not support passwords. Your password to access CORE via the <a class="underline-link" href="https://federation.eams.army.mil/sso/authenticate/?u=https://core.us.army.mil/login/action&m=GET&r=t">EAMS-A Single Sign-On</a> page is the same password you use to access AKO. If you would like to change it, then click <strong>Reset Password (AKO)</strong>, located underneath the Login buttons. You can also directly login to AKO and change it through your account settings.
