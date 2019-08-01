@@ -44,9 +44,12 @@
                 three: Select <strong>Edit Profile & Settings</strong> from the dropdown options. This opens a lightbox with the same profile information that is editable in your Account Settings.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_edit_profile.png"><img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_community_profile_lightbox.png">
                 four: When you’re done making changes, click the <strong>Update</strong> button at the bottom of the Edit Profile lightbox.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_profile_update.png"> 
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Why can’t I change my username?        
-            para1: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system to verify a user’s identity and permissions. Your CORE username is tied to your AKO account and can only be changed through the AKO system.
-          - sectiontitle: 
-            paratitle: Why can’t I change my role in CORE?         
-            para1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
+              - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: Why can’t I change my username?
+                answer1: CORE utilizes the Enterprise Access Management Service-Army (EAMS-A) authentication system to verify a user’s identity and permissions. Your CORE username is tied to your AKO account and can only be changed through the AKO system.
+              - qa: 
+                question: Why can’t I change my role in CORE?
+                answer1: Your role and permissions are managed by your organization’s administrator(s). You can locate contact information for your administrator(s) on your My Organization page.
