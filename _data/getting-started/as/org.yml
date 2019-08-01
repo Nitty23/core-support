@@ -44,21 +44,21 @@
               - title: Frequently Asked Questions
               - qa:
                 question: My organization is not available when I search for it in the Change Organization lightbox. What do I do?
-                answer1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a> and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization in CORE.
+                answer1: CORE will only auto-suggest organizations that are currently in the Organization Directory. First, visit the Organization Directory and search for the full name or abbreviation of your organization. If you still can’t find it, contact the CORE Support Team to request a new organization in CORE.
               - qa: 
-                question: What if I forgot my AKO password? What happens when I change my organization?
-           list:
-            - listname: 
-              one: Your Profile is updated.
-              two: Your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page displays your new organization name and team members.
-              three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
-              four: You role is reverted to contributor.
+                question: What happens when I change my organization?
+                list:
+                  - listname:
+                    one: Your Profile is updated.
+                    two: Your My Organization page displays your new organization name and team members.
+                    three: All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
+                    four: You role is reverted to contributor.
               - qa: 
-                question:  Why did my role change when I changed organizations?
+                question: Why did my role change when I changed organizations?
                 answer1: While you can change your organization without needing approval, your role within the new team is controlled by your new administrator. We automatically send a notification to your administrator when you join their organization, encouraging them to take action regarding your role.
-                answer2: In the meantime, your role is reverted to a contributor, so that you can continue to create new content and submit it for review with the appropriate organization. If you need advanced permissions, please reach out to your administrator(s) directly. You can locate their contact information on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
+                answer2: In the meantime, your role is reverted to a contributor, so that you can continue to create new content and submit it for review with the appropriate organization. If you need advanced permissions, please reach out to your administrator(s) directly. You can locate their contact information on your My Organization page.
               - qa: 
-                question:  I joined a new organization, but now I cannot make changes to content I created while I was part of my previous organization. Why?
+                question: I joined a new organization, but now I cannot make changes to content I created while I was part of my previous organization. Why?
                 answer1: Each article is tied to the user that created it, as well as the organization that the user belonged to at the time it was released. If the creator is removed or changes organizations, all editing rights are transferred to the organization. The article remains accessible to any editor, publisher or administrator in the organization via the Released tab of their Inbox.
                 answer2: As the creator, the article is still tied to you, so a read-only version is available in the Released tab of your Inbox. You must contact a member of your previous organization if any changes are needed.
                 answer3: Keep in mind, an article is only synced to an organization once it is released (or submitted for release by a contributor). This means that any article in a Draft state when you changed organizations is solely owned by you. Depending on your role, you can make changes, submit it for review, or release it on behalf of your new organization.
