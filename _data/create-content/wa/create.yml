@@ -84,14 +84,16 @@
                 col2: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
               - col1: Submit article for review by a senior editor
                 col2: Click <strong>Submit for Review</strong>. To learn more, visit <a class="underline-link" href="../../creating-content/ma/submit_drafts.html">Submit a Draft</a>.
-            hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Why can’t I release my article?
-            para2: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.
-            para3: Double check your role on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page. If you are a Contributor, you will have the ability to <strong>Submit for Review</strong>, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
-          - sectiontitle:
-            paratitle: What happens when I release my article?
-            itemlist:  
+            hr: 
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: Why can’t I release my article?
+                answer1: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.
+               answer2: Double check your role on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page. If you are a Contributor, you will have the ability to <strong>Submit for Review</strong>, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
+                question: What happens when I release my article?
+                list:
               - listname: When you release an article in CORE
                 one: Your article will have a permanent URL on www.army.mil/article/[<em>articleID</em>], and will be available for anyone to read.
                 two: Your article will be discoverable by search engines such as Google, and by the search feature on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> itself.
@@ -101,9 +103,9 @@
                 six: Your article will automatically display on any organization page that has a Tagged News section based on tags added to your article.
                 seven: If your organization page has a Latest News section, your article will automatically display at the beginning of this feed.
                 eight: If your organization page has a Featured News section, your article will be available for publisher’s to manually add to the news feed.
-          - sectiontitle:
-            paratitle: What can I do with my content after it is released?
-            itemlist:  
+              - qa:
+                question: What can I do with my content after it is released?
+                list:
               - listname: One word...engage! Now that your article is visible to the public, use it to reach your audiences on a digital platform. You can do this by
                 one: Featuring it on your organization’s CORE Page
                 two: Posting it to your social media accounts
