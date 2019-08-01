@@ -91,25 +91,25 @@
               - qa:
                 question: Why can’t I release my article?
                 answer1: As a basic function of CORE, every user has the ability to create an article. However, not everyone has the ability to publicly release content on behalf of their Army organization.
-                answer2:Double check your role on My Organization page. If you are a Contributor, you will have the ability to Submit for Review, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
+                answer2: Double check your role on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page. If you are a Contributor, you will have the ability to <strong>Submit for Review</strong>, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
               - qa: 
                 question: What happens when I release my article?
                 answer1: When you release an article in CORE
                 list:
                 -listname:
-                one:
-                two:
-                three:
-                four:
-                five:
-                six:
-                seven:
-                eight:
+                one: Your article will have a permanent URL on www.army.mil/article/[articleID], and will be available for anyone to read.
+                two: Your article will be discoverable by search engines such as Google, and by the search feature on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> itself.
+                three: Your article will be available to update in the Released list of your <strong>Inbox</strong>, as well as your <strong>Editor’s Inbox</strong>. 
+                four: Your article will be displayed in the <a class="underline-link" href="../../creating-content/rc/all_content.html">All Content</a> feed and will be available for CORE users to preview, post to social media, or add to their organization page.
+                five: If you added tags to your article, it will be displayed on all relevant tag pages. CORE users can access these pages by clicking a tag in the All Content feed.
+                six: Your article will automatically display on any organization page that has a Tagged News section based on tags added to your article.
+                seven: If your organization page has a Latest News section, your article will automatically display at the beginning of this feed.
+                eight:If your organization page has a Featured News section, your article will be available for publisher’s to manually add to the news feed.
               - qa: 
                 question: What can I do with my content after it is released?
                 answer1: One word...engage! Now that your article is visible to the public, use it to reach your audiences on a digital platform. You can do this by
                 list:
                 -listname:
-                one:
-                two:
-                three:
+                one: Featuring it on your organization’s CORE Page
+                two: Posting it to your social media accounts
+                three: Sharing it with other users across the Army network
