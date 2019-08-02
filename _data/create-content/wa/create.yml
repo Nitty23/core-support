@@ -81,8 +81,9 @@
                 answer2: Double check your role on <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page. If you are a Contributor, you will have the ability to <strong>Submit for Review</strong>, instead of release, on your article page. This will push the article to your editor’s inbox for approval and release.
               - qa: 
                 question: What happens when I release my article?
+                answer1: When you release an article in CORE:
                 list: 
-                  - listname: When you release an article in CORE:
+                  - listname:
                     one: Your article will have a permanent URL on www.army.mil/article/[articleID], and will be available for anyone to read.
                     two: Your article will be discoverable by search engines such as Google, and by the search feature on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> itself.
                     three: Your article will be available to update in the Released list of your <strong>Inbox</strong>, as well as your <strong>Editor’s Inbox</strong>.
