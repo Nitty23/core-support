@@ -70,7 +70,8 @@
             note: Although you can add multiple tags and themes to your article, we recommend only adding <strong>1 or 2 themes and up to 5 tags per article</strong> to streamline your communication efforts.
           - sectiontitle: 
             learn: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics. To learn more, visit <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article Settings</a>
-            hr: 
+            hr:
+        sections:
           - sectiontitle: 
             faq:
               - title: Frequently Asked Questions
@@ -93,9 +94,9 @@
                     eight: If your organization page has a Featured News section, your article will be available for publisher’s to manually add to the news feed.
               - qa: 
                 question: What can I do with my content after it is released?
-                answer1: One word...engage! Now that your article is visible to the public, use it to reach your audiences on a digital platform.
+                answer1: One word...engage! Now that your article is visible to the public, use it to reach your audiences on a digital platform. You can do this by:
                 list:
-                  - listname: You can do this by
+                  - listname: 
                     one: Featuring it on your organization’s CORE Page
                     two: Posting it to your social media accounts
                     three: Sharing it with other users across the Army network
