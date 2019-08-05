@@ -50,6 +50,9 @@
             para3: To remove a custom date filter, simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> icon located to the right of your selected date.
             note: You do not have to select a date range. For extra customization options, you can choose to set a Start date, an End date, or both to customize your date range. The news feed will automatically adjust to display articles before, after or between your selected dates.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Can I customize my All Content news feed to display my favorite users, organizations, and topics?
-            para1: Currently, you can only customize your All Content feed by adjusting filters in the right sidebar or by accessing a Tag feed. In the future, we plan to expand your capabilities on the All Content page, enabling you to follow users, organizations and tags. This will aggregate articles into a custom news feed that is relevant to you and your organization. Stay tuned!
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa: 
+                question: Can I customize my All Content news feed to display my favorite users, organizations, and topics?
+                answer1: Currently, you can only customize your All Content feed by adjusting filters in the right sidebar or by accessing a Tag feed. In the future, we plan to expand your capabilities on the All Content page, enabling you to follow users, organizations and tags. This will aggregate articles into a custom news feed that is relevant to you and your organization. Stay tuned!
