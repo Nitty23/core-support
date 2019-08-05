@@ -37,12 +37,15 @@
                 four: You can also <a class="underline-link" href="./delete_content_section.html">delete a section</a> by clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
                 five: Once you’ve finished editing your section, click <strong>Save</strong> to close the lightbox.
             hr: 
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Why can’t I add a section to my header or footer?
-            para1: It is not possible to add sections to your header or footer. Sections can only be added to the main content area of your Page. To learn how to customize these areas, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
-          - sectiontitle:
-            paratitle: How do I move sections?
-            para1: Sections can be moved within the content area of the navigation tab where they was added. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a content section</a>.
-          - sectiontitle:
-            paratitle: How will my sections look on a mobile device?
-            para1: To keep your Page legible and prevent visitors from having to pinch, zoom, and scroll to see your content, CORE's responsive design automatically stacks sections vertically on mobile devices. The order of your sections will depend on the structure of your page layout.
+          - sectiontitle: 
+            faq: 
+              - title: Frequently Asked Questions
+              - qa:
+                question: Why can’t I add a section to my header or footer?
+                answer1: It is not possible to add sections to your header or footer. Sections can only be added to the main content area of your Page. To learn how to customize these areas, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
+              - qa:
+                question: How do I move sections?
+                answer1: Sections can be moved within the content area of the navigation tab where they was added. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a content section</a>.
+              - qa:
+                question: How will my sections look on a mobile device?
+                answer1: To keep your Page legible and prevent visitors from having to pinch, zoom, and scroll to see your content, CORE's responsive design automatically stacks sections vertically on mobile devices. The order of your sections will depend on the structure of your page layout.
