@@ -31,15 +31,18 @@
                 three: Click <strong>Retract</strong> from the confirmation dialog box.
             para1: The article status is changed from Released to Draft. At this point, you can edit, submit, release or schedule the article just like any other draft. If you retracted another user’s article, the draft becomes read only.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: How do I permanently delete a retracted article from CORE?
-            para1: Due to the Freedom of Information Act (FOIA) requirements, it is not possible to permanently delete articles that have been publicly released. If you no longer wish to keep a retracted article, you can remove it from your Inbox by archiving it. This will allow you to keep your Inbox organized, yet still have the article available in CORE, if needed.
-            para2: Please contact the CORE Support Team if you have any questions or concerns about removing a particular article.
-          - sectiontitle:
-            paratitle: Can I access retracted articles from my team members?
-            para1: No. Once an article is retracted, it reverts to a draft that belongs to the person that created it. It is no longer accessible in an Editor’s Inbox. You will need to coordinate with the person that created the article to edit and re-release the draft, if needed.
-          - sectiontitle:
-            paratitle: What is the difference between reject, retract and delete in my Inbox?
-            para1: <strong>Reject</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> will send a submitted draft from the Editor’s Inbox back to the creator’s Drafts. The editor can provide feedback, and the article can be edited and submitted for review again. The intention of a rejected article is to release it after changes have been applied.
-            para2: <strong>Retract</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
-            para3: <strong>Delete</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> will move a draft or released article to the creator’s Deleted folder. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: How do I permanently delete a retracted article from CORE?
+                answer1: Due to the Freedom of Information Act (FOIA) requirements, it is not possible to permanently delete articles that have been publicly released. If you no longer wish to keep a retracted article, you can remove it from your Inbox by archiving it. This will allow you to keep your Inbox organized, yet still have the article available in CORE, if needed.
+                answer2: Please contact the CORE Support Team if you have any questions or concerns about removing a particular article.
+              - qa:
+                question: Can I access retracted articles from my team members?
+                answer1: No. Once an article is retracted, it reverts to a draft that belongs to the person that created it. It is no longer accessible in an Editor’s Inbox. You will need to coordinate with the person that created the article to edit and re-release the draft, if needed.
+              - qa:
+                question: What is the difference between reject, retract and delete in my Inbox?
+                answer1: <strong>Reject</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> will send a submitted draft from the Editor’s Inbox back to the creator’s Drafts. The editor can provide feedback, and the article can be edited and submitted for review again. The intention of a rejected article is to release it after changes have been applied.
+                answer2: <strong>Retract</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
+                answer3: <strong>Delete</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> will move a draft or released article to the creator’s Deleted folder. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
