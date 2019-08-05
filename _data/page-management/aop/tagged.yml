@@ -38,8 +38,11 @@
             tip: Ensure that all members of your team know what keyword(s) you are using in your Tagged News Lists, so that they can accurately tag their content too. For more suggestions on how to establish a tag system within your organization, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
           - sectiontitle: 
-            paratitle: Can I customize my Tagged News List to only display articles that were released from members of my organization? 
-            para1: At this time, Tagged News Lists display articles released from any CORE user that adds the keyword tag. It will pull the same content as the <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag Feed</a> for that keyword. We plan to enhance your customization capabilities in the future, so you can limit the content to your organization only.
-          - sectiontitle: 
-            paratitle: Why don’t I see articles in my Tagged News List?
-            para1: This likely means that no articles have been tagged with your specific keyword. First, click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> to open the Edit News List lightbox and double check the spelling of your tag. Next, navigate to the Released tab of your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a> and make sure you have at least one article tagged with the keyword. If not, you or a member of your team will need to <a class="underline-link" href="../../creating-content/wa/create_article.html">create new content</a> and tag it appropriately, or consider choosing a more popular keyword for your Tagged News List.
+            faq: 
+              - title: Frquently Asked Questions
+              - qa:
+                question: Can I customize my Tagged News List to only display articles that were released from members of my organization? 
+                answer1: At this time, Tagged News Lists display articles released from any CORE user that adds the keyword tag. It will pull the same content as the <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag Feed</a> for that keyword. We plan to enhance your customization capabilities in the future, so you can limit the content to your organization only.
+              - qa: 
+                question: Why don’t I see articles in my Tagged News List?
+                answer1: This likely means that no articles have been tagged with your specific keyword. First, click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> to open the Edit News List lightbox and double check the spelling of your tag. Next, navigate to the Released tab of your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a> and make sure you have at least one article tagged with the keyword. If not, you or a member of your team will need to <a class="underline-link" href="../../creating-content/wa/create_article.html">create new content</a> and tag it appropriately, or consider choosing a more popular keyword for your Tagged News List.
