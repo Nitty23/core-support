@@ -19,20 +19,22 @@
             para2: The user will immediately be removed from your team member list, and an email will be sent to notify the user that he/she has been removed from your organization. 
             note: You will only see the option to remove a user from your organization if you are an administrator.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: What happens when a user is removed from my organization?
-            itemlist: 
-              - listname: 
-                one: The user is immediately removed from your team member list on My Organization.
-                two: The user receives an email notification that they were removed from your organization. This email will prompt him/her to join a new organization. 
-                three: The user can no longer make updates to any content created while associated with your organization. All editing rights are transferred to the organization.
-                sublist: 
-                  namewithcolon: The user becomes unaffiliated. This affects the following until the user joins a new organization
-                  one: User’s role is reverted to a contributor.
-                  two: User cannot create new articles or import from DVIDS.
-                  three: User cannot edit or submit existing drafts in their Inbox (preview only).
           - sectiontitle: 
-            paratitle: If a user is removed from an organization, can he/she make changes to content that they created while associated with it? 
-            para1: Each article is tied to the user that created it, as well as the organization that the user belonged to at the time it was released. If the creator is removed or changes organizations, all editing rights are transferred to the organization. The article remains accessible to any editor, publisher or administrator in the organization via the Released tab of their Inbox.
-            para2: Since the article is also tied to the creator, he/she will have a read-only version available in the Released tab of their Inbox. The user must contact a member of the original organization if any changes are needed.
-            para3: Keep in mind, an article is only synced to an organization once it is released (or submitted for release by a contributor). This means that any article in a Draft state when the user leaves an organization is solely owned by the user. The user must join a new organization to make changes, submit it for review, or release it.
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: What happens when a user is removed from my organization?
+                itemlist: 
+                  - one: The user is immediately removed from your team member list on My Organization.
+                    two: The user receives an email notification that they were removed from your organization. This email will prompt him/her to join a new organization. 
+                    three: The user can no longer make updates to any content created while associated with your organization. All editing rights are transferred to the organization.
+                    sublist: 
+                      listname: The user becomes unaffiliated. This affects the following until the user joins a new organization&#58;
+                      one: User’s role is reverted to a contributor.
+                      two: User cannot create new articles or import from DVIDS.
+                      three: User cannot edit or submit existing drafts in their Inbox (preview only).
+              - qa: 
+                question: If a user is removed from an organization, can he/she make changes to content that they created while associated with it? 
+                answer1: Each article is tied to the user that created it, as well as the organization that the user belonged to at the time it was released. If the creator is removed or changes organizations, all editing rights are transferred to the organization. The article remains accessible to any editor, publisher or administrator in the organization via the Released tab of their Inbox.
+                answer2: Since the article is also tied to the creator, he/she will have a read-only version available in the Released tab of their Inbox. The user must contact a member of the original organization if any changes are needed.
+                answer3: Keep in mind, an article is only synced to an organization once it is released (or submitted for release by a contributor). This means that any article in a Draft state when the user leaves an organization is solely owned by the user. The user must join a new organization to make changes, submit it for review, or release it.
