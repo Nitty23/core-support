@@ -19,6 +19,9 @@
             para2: Keep in mind that while adding tags can increase the chance that other CORE users will discover your content, you don’t want irrelevant content showing up in news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the five most relevant tags.
             tip: Tags should be used to summarize what your article is about. If you’re having trouble choosing tags, try thinking about what tags you would search for if you wanted to find a similar article. For best practices on tagging your content, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: I frequently look for articles related to a specific topic. Is there a way to save or favorite a Tag Feed?
-            para1: Currently, you can only access a list of related articles by clicking on a tag on the All Content page or on search results. In the future, we plan to implement the ability to follow tags, which will aggregate articles tagged with all of your favorite topics into a single feed. You will also be able to follow users and organizations, turning your All Content page into a customized feed of the topics, people and organizations that interest you most. Stay tuned!
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa: 
+                question: I frequently look for articles related to a specific topic. Is there a way to save or favorite a Tag Feed?
+                answer1: Currently, you can only access a list of related articles by clicking on a tag on the All Content page or on search results. In the future, we plan to implement the ability to follow tags, which will aggregate articles tagged with all of your favorite topics into a single feed. You will also be able to follow users and organizations, turning your All Content page into a customized feed of the topics, people and organizations that interest you most. Stay tuned!
