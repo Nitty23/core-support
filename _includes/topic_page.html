@@ -155,13 +155,18 @@ $(document).ready(function(){
             }
         }
     }
-    
+    // search event trigger for 'return' key
     $(document.getElementById('search-input')).on('keyup', function (e) {
-    if (e.keyCode == 13) {
+        if (e.keyCode == 13) {
+            sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+            setSearchPath();
+            // Navigates to results page, depending on origin of search
+            window.location.href = searchLocation;
+        }    
+    });
+    $('.mast-search-icon').click(function(e){
         sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
         setSearchPath();
-        console.log("SEARCHLOC: " + searchLocation)
         window.location.href = searchLocation;
-    }
-});
+    });
 </script>

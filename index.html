@@ -113,21 +113,39 @@ tohome: ./
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/jquery/jquery-3.3.1(f).min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/e2/js/rv7/3rdparty/sjs/simple-jekyll-search.min.js"></script>
-<script type="text/javascript">
 
-var searchLocation = './search/';
-$(document.getElementById('search-input')).on('keyup', function (e) {
-    if (e.keyCode == 13) {
-        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
-        window.location.href = searchLocation;
-    }
-});
-</script>
 
 <script type="text/javascript" src="/e2/js/rv7/3rdparty/foundation/foundation-6.5.1(accordion_grid_vis_embed_only).min.js"></script>
 <script>$(document).foundation();</script>
 <script type="text/javascript">
     $(document).ready(function(){
+
+        var searchLocation = './search/';
+        $(document.getElementById('search-input')).on('keyup', function (e) {
+            if (e.keyCode == 13) {
+                sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+                window.location.href = searchLocation;
+            }
+        });
+        function setSearchPath(){
+            if(window.location.hostname === '127.0.0.1'){
+                if (window.location.pathname === '/topics/'){
+                    searchLocation = '../search/';
+                }else if (window.location.pathname === '/search/'){
+                    searchLocation = './';
+                }else{
+                    searchLocation = '../../search/';
+                }
+            }else{
+                if (window.location.pathname === '/core-support/topics/'){
+                    searchLocation = '../search/';
+                }else if (window.location.pathname === '/core-support/search/'){
+                    searchLocation = './';
+                }else{
+                    searchLocation = '../../search/';
+                }
+            }
+        }
 
         $("#mobile-nav-btn").click(function(){
             $( this ).children("i" ).toggleClass("hamburger-icon hamburger-icon-open");
@@ -146,6 +164,21 @@ $(document.getElementById('search-input')).on('keyup', function (e) {
             var activeMenu = $('.title-pill-carrot', this);
             $('.title-pill-carrot').not(activeMenu).addClass('hider');
             $(activeMenu).toggleClass('hider');
+        });
+
+            // search event trigger for 'return' key
+        $(document.getElementById('search-input')).on('keyup', function (e) {
+            if (e.keyCode == 13) {
+                sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+                setSearchPath();
+                // Navigates to results page, depending on origin of search
+                window.location.href = searchLocation;
+            }    
+        });
+        $('.mast-search-icon').click(function(e){
+            sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+            setSearchPath();
+            window.location.href = searchLocation;
         });
     });
 </script>

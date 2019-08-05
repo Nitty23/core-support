@@ -255,8 +255,9 @@ strong {
     border-bottom-style: solid;
     border-bottom-color: #fec325;
     border-bottom-width: 5px;
-    width: max-content;
+    width: fit-content;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 .faq-question{

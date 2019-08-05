@@ -86,8 +86,9 @@ tohome: ../
     $(document).ready(function(){
         turnonSearchSect();
         $("#search-input").focus(function(){
-            $("#results-container").fadeOut(1000);
+            $("#results-container").fadeOut(1000); // resets search results
             document.getElementById('result-total').textContent="0 results for";
+            document.getElementById('search-term').textContent="' '";
         });
         //       Search button logic *************
         $("#search-btn").click(function(){
@@ -215,12 +216,19 @@ tohome: ../
             }
         }
     }
+    
+    // search event trigger for 'return' key
     $(document.getElementById('search-input')).on('keyup', function (e) {
         if (e.keyCode == 13) {
             sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
             setSearchPath();
-            console.log("SEARCHLOC: " + searchLocation)
+            // Navigates to results page, depending on origin of search
             window.location.href = searchLocation;
-        }
+        }    
+    });
+    $('.mast-search-icon').click(function(e){
+        sessionStorage.setItem("searchTerm", document.getElementById('search-input').value);
+        setSearchPath();
+        window.location.href = searchLocation;
     });
 </script>
