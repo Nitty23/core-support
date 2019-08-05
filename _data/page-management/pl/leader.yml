@@ -72,6 +72,5 @@
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
             note: You can recover your leader’s information by clicking <strong>Cancel</strong> on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click <strong>Save</strong> on the Leaders lightbox. You will have to manually re-enter all of the information.
           - sectiontitle: Sample
-            para1: Here's a sample Leaders section.
-            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_army_senior_leaders_sample.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_army_senior_leaders_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
