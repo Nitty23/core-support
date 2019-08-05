@@ -34,9 +34,9 @@
               - title: Frequently Asked Questions
               - qa: 
                 question: Why can’t I find my content in the DVIDS Import search tool?
+                answer1: At this time, CORE only imports news assets released from the Army. As a result, your content may not display in the DVIDS Import search tool if&#58;
                 numlist:
-                  - listname: At this time, CORE only imports news assets released from the Army. As a result, your content may not display in the DVIDS Import search tool if
-                    one: The news asset was released by a DVIDS user that is associated with another military branch (i.e. Joint, Navy, Marines, Air Force, Coast Guard or Civilian). If this occurs, you will need to copy/paste your story from DVIDS into a new draft and release.
+                  - one: The news asset was released by a DVIDS user that is associated with another military branch (i.e. Joint, Navy, Marines, Air Force, Coast Guard or Civilian). If this occurs, you will need to copy/paste your story from DVIDS into a new draft and release.
                     two: The asset is any type of content other than news, to include images, videos, audio, graphics, publications, podcasts, and webcasts. If this occurs, you will need to download the asset and upload the media file directly to your article or Page.
               - qa:
                 question: I searched for my article using the DVIDS story ID, but there are no results available for import. Why?
