@@ -271,11 +271,15 @@ strong {
     padding: 10px 10px 10px 15px;
     margin: 0px;
     
-    .bullet-item:first-child {
+    & h4.list-title {
+        margin: 0 0 1rem 0;
+    }
+    
+    & .bullet-item:first-child {
         margin-top: 0;
     }
     
-    .num-item:first-child {
+    & .num-item:first-child {
         margin-top: 0;
     }
 }
