@@ -31,18 +31,21 @@
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             note: To temporarily remove an article from <a class="underline-link" href="https://www.army.mil">www.army.mil</a> or from your organization page, retract it instead. This action will revert the article to a draft and it can be re-released at any time.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: My administrator deleted my article, but I want to access it again. How do I restore my article?
-            para1: For help restoring a deleted article, visit <a class="underline-link" href="./restore_deleted.html">Restore a deleted article</a>.
-          - sectiontitle:
-            paratitle: How do I permanently delete an article from CORE?
-            para1: Due to the Freedom of Information Act (FOIA) requirements, it is not possible to permanently delete articles that have been publicly released. You can remove an article from your Inbox by archiving it in your Deleted folder. This will allow you to keep your Inbox organized, yet still have archived articles available in CORE, if needed.
-            para2: Please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a> if you have any questions or concerns about deleting a particular article.
-          - sectiontitle:
-            paratitle: My article was deleted, but I cannot find it in my Deleted folder. Why? 
-            para1: You can access articles in your Deleted folder for <strong>60 days</strong> from the time the article. After that, articles are automatically archived.
-          - sectiontitle:
-            paratitle: What is the difference between reject, retract and delete in my Inbox?
-            para1: <strong>Reject</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> will send a submitted draft from the Editor’s Inbox back to the creator’s Drafts. The editor can provide feedback, and the article can be edited and submitted for review again. The intention of a rejected article is to release it after changes have been applied.
-            para2: <strong>Retract</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
-            para3: <strong>Delete</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> will move a draft or released article to the creator’s Deleted folder. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: My administrator deleted my article, but I want to access it again. How do I restore my article?
+                answer1: For help restoring a deleted article, visit <a class="underline-link" href="./restore_deleted.html">Restore a deleted article</a>.
+              - qa:
+                question: How do I permanently delete an article from CORE?
+                answer1: Due to the Freedom of Information Act (FOIA) requirements, it is not possible to permanently delete articles that have been publicly released. You can remove an article from your Inbox by archiving it in your Deleted folder. This will allow you to keep your Inbox organized, yet still have archived articles available in CORE, if needed.
+                answer2: Please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a> if you have any questions or concerns about deleting a particular article.
+              - qa:
+                question: My article was deleted, but I cannot find it in my Deleted folder. Why? 
+                answer1: You can access articles in your Deleted folder for <strong>60 days</strong> from the time the article. After that, articles are automatically archived.
+              - qa:
+                question: What is the difference between reject, retract and delete in my Inbox?
+                answer1: <strong>Reject</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/reject_article.svg"> will send a submitted draft from the Editor’s Inbox back to the creator’s Drafts. The editor can provide feedback, and the article can be edited and submitted for review again. The intention of a rejected article is to release it after changes have been applied.
+                answer2: <strong>Retract</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/retract_article.svg"> will unpublish a released article. This removes it from the Editor’s Inbox and sends it back to the creator’s Drafts.
+                answer3: <strong>Delete</strong> <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> will move a draft or released article to the creator’s Deleted folder. While the creator of an article can restore it to a draft, the overall intention of deleting an article is to remove it from CORE, since it will not be publicly released.
