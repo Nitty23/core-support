@@ -31,13 +31,16 @@
               - title: Remove Formatting
                 definition: To clear formatting, select the existing text that you want to reset and click the  <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/remove_format.svg">.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: How do I change fonts?
-            para1: It is not possible to change the font for your articles and pages. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
           - sectiontitle: 
-            paratitle: Can I underline text?
-            para1: No, the WYSIWYG Text Editor doesn’t have an editing function to underline text.
-            para2: Underlined text is strongly perceived as being a clickable hyperlink on websites, and users get confused and frustrated if underlined text doesn’t match their expectations. If you need to emphasize certain words or sentences, consider using <em>italics</em> or <strong>bold</strong> in place of underline.
-          - sectiontitle: 
-            paratitle: Can I change the text color?
-            para1: It is not possible to change text color. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
+            faq:
+              - title: Frequently Asked Questions
+              - qa: 
+                question: How do I change fonts?
+                answer1: It is not possible to change the font for your articles and pages. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
+              - qa: 
+                question: Can I underline text?
+                answer1: No, the WYSIWYG Text Editor doesn’t have an editing function to underline text.
+                answer2: Underlined text is strongly perceived as being a clickable hyperlink on websites, and users get confused and frustrated if underlined text doesn’t match their expectations. If you need to emphasize certain words or sentences, consider using <em>italics</em> or <strong>bold</strong> in place of underline.
+              - qa: 
+                question: Can I change the text color?
+                answer1: It is not possible to change text color. All products released on <a class="underline-link" href="https://www.army.mil">www.army.mil</a> follow the Army’s branding guidelines to create a cohesive look across digital platforms.
