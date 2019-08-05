@@ -25,4 +25,6 @@
                     two: The overview section of your Page Settings changes to Deactivated. 
                     three: Publishers and Administrators can edit content sections and Page Settings. However, they can no longer have access to the <strong>Publish</strong> button to publicly release updates.
                     four: Administrators have the ability to re-activate your Page at any time, simply by clicking the <strong>Activate Page</strong> button in the top right corner of the Edit Page action bar. This will revert the Page to a Draft and enable the publishing capability again.
-            learn: <strong>Want to delete your Page from CORE?</strong> If your organization wants to permanently delete a Page and all of its associated content from CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a>.
+              - qa:
+                question:: How do I delete my Page from CORE?
+                answer1: If your organization wants to permanently delete a Page and all of its associated content from CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Deactivate/Delete user account">CORE Support Team</a>.
