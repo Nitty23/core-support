@@ -271,6 +271,10 @@ strong {
     padding: 10px 10px 10px 15px;
     margin: 0px;
     
+    .bullet-item:first-child {
+        margin-top: 0;
+    }
+    
     .num-item:first-child {
         margin-top: 0;
     }
