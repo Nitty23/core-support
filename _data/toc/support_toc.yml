@@ -146,11 +146,11 @@
     - title: Articles on Page
       id: aop
       sections: 
-        - title: Latest News
+        - title: Customizing your Latest News List
           url: /page-management/aop/latest_news.html
-        - title: Tagged News
+        - title: Customizing your Tagged News List
           url: /page-management/aop/tagged_news.html
-        - title: Featured News
+        - title: Managing articles in a Featured News List
           url: /page-management/aop/featured_news.html
 
 - title: CORE Community
