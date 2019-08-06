@@ -11,11 +11,11 @@
             lexicon:
               - title: abbreviations/acronyms
                 definition: Only use abbreviations on second reference. The abbreviations should be established on first reference, preferably without using parenthesis&#58; <em>Soldiers should check their Leave and Earnings Statement, known as an LES, to ensure the changes were implemented.</em>
-              - title: active duty (noun) active-duty (compound modifier)
+              - title: active duty <span class="normal-text">(noun)</span> active-duty <span class="normal-text">(compound modifier)</span>
                 definition: Hyphenate when used as a compound modifier&#58; <em>He was active duty before becoming a reserve Soldier. He was an active-duty Soldier before becoming a reserve Soldier.</em>
-              - title: African American (noun) African-American Soldier (adjective)
+              - title: African American <span class="normal-text">(noun)</span> African-American Soldier <span class="normal-text">(adjective)</span>
                 definition: Black is the preferred adjective according to AP style.
-              - title: all hands (noun) all-hands (adjective/compound modifier)
+              - title: all hands <span class="normal-text">(noun)</span> all-hands <span class="normal-text">(adjective/compound modifier)</span>
                 definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The commanding officer called all hands to the meeting. The Sailors attended the all-hands call.</em>
               - title: American flag, U.S. flag
                 definition: Lowercase flag.
@@ -26,11 +26,11 @@
                 definition: Capitalize when referring to a specific branch&#58; <em>Infantry, Armor, Field Artillery, Signal, Public Affairs, Medical Service</em>. Lowercase when referring to a job title&#58; <em>infantryman, paratrooper, military police</em>. 
               - title: cavalry
                 definition: Lowercase unless it is part of a unit name. Do not confuse with Calvary, which is a religious term.
-              - title: change of command ceremony (compound modifier)
+              - title: change of command ceremony <span class="normal-text">(compound modifier)</span>
                 definition: Do not hyphenate.
               - title: civilian titles
                 definition: Do not use courtesy titles such <em>Mr., Mrs., Miss, or Ms.</em> unless requested by the named person. Other formal titles such as <em>Dr., Sen. or Gov.</em> should be used where applicable. Do not use such titles on second reference unless necessary to differentiate two people with the same last name.
-              - title: civilian (generic reference)
+              - title: civilian <span class="normal-text">(generic reference)</span>
                 definition: Lowercase unless referring to <em>Department of the Army Civilians</em> (proper noun).
               - title: citizen-Soldiers
                 definition: Lowercase citizen.
@@ -102,7 +102,7 @@
                 definition: Singular and plural. Lowercase unless identifying a specific numbered LCAC&#58; <em>Landing Craft, Air Cushion 8. LCAC</em> is acceptable on second reference.
               - title: landing craft utility
                 definition: Lowercase unless identifying a specific numbered LCU&#58; <em>Landing Craft Utility 1627. LCAC</em> is acceptable on second reference.
-              - title: live fire (noun) live-fire (adjective/compound modifier)
+              - title: live fire <span class="normal-text">(noun)</span> live-fire <span class="normal-text">(adjective/compound modifier)</span>
                 definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The practice range was for shooting blanks only; it did not allow live fire. The live-fire exercise lasted all day.</em>
             hr: 
           - sectiontitle: M
