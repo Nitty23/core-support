@@ -5,7 +5,7 @@
       - subtitle: Managing article in a Featured News List
         sections:
           - sectiontitle: 
-            para1: A Featured News List offers you the most control over articles that appear on your <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>. Unlike <a class="underline-link" href="./latest_news.html">Latest News</a> and <a class="underline-link" href="./tagged_news.html">Tagged News Lists</a> that automatically populate content as it is released by your team members, a Featured News List allows you to manually choose articles and select the order that they appear.
+            para1: A <strong>Featured News List</strong> offers you the most control over articles that appear on your <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>. Unlike <a class="underline-link" href="./latest_news.html">Latest News</a> and <a class="underline-link" href="./tagged_news.html">Tagged News Lists</a> that automatically populate content as it is released by your team members, a Featured News List allows you to manually choose articles and select the order that they appear.
             hr:
           - sectiontitle: Things to consider
             itemlist:
@@ -28,7 +28,7 @@
                 - title: Choose a Source
                   definition: Click on <strong>Source</strong> and select <strong>Featured News</strong> from the dropdown options. By default, the source is set to Latest News.
                 - title: Add a New Article
-                  definition: Search for specific released articles and add them to a custom news feed. To learn more, visit <strong>Adding articles to Features News</strong>.
+                  definition: Search for specific released articles and add them to a custom news feed. To learn more, read <strong>Adding articles to Features News</strong> below.
                 - title: Customize Existing Articles
                   definition: You can reorder or remove any articles that have been placed on your Page. See the sections below for more details on these customization options.
                 six: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
@@ -45,7 +45,7 @@
                 seven: The Add Article panel slides out of view and all of the articles in your queue are now listed in your News List lightbox.
                 eight: You can add more articles, as well as reorder or remove existing articles.
                 nine: When you are finished, click <strong>Add</strong> to close the lightbox and place your Featured News List on your Page.
-            tip: 
+            tip: You can add up to 30 articles to your Featured News List. However, we recommend limiting the number of articles that appear in each section and creating multiple News Lists broken out by topics or subordinate commands. For best visual display on your Page, we recommend adding articles in multiples of three.
             hr: 
           - sectiontitle: Reorder your articles
             numlist:
