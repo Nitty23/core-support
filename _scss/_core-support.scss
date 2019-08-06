@@ -204,6 +204,10 @@ strong {
     margin-bottom: 0;
     padding: 0;
     
+    .normal-text {
+        font-weight: 400;
+    }
+    
     @include breakpoint(medium) {
         margin-bottom: 1.25rem;
         padding-right: .9375rem;
