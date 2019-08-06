@@ -152,8 +152,6 @@
           url: /page-management/aop/tagged_news.html
         - title: Featured News
           url: /page-management/aop/featured_news.html
-        - title: Remove articles from Featured News
-          url: /page-management/aop/remove_articles.html
 
 - title: CORE Community
   id: core-community
