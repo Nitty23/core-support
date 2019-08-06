@@ -36,7 +36,7 @@
           - sectiontitle: Add articles to a Features News section
             numlist: 
               - listname:
-                one: Click on Add New Articles to open the Add Stories panel.
+                one: Click on <strong>Add New Articles</strong> to open the Add Stories panel.
                 two: Locate the specific article that you would like to add to your News List. The most recently released articles from your organization are displayed.
                 three: Use the search box at the top of the panel to find any article that was released in CORE. You search by entering a topic, tag or article ID.
                 four: Once you’ve located the article that you want to add, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> on the far right side.
