@@ -45,7 +45,7 @@
           - sectiontitle: Army Units
             para1: AP Style for military units, going from <strong>smallest</strong> to <strong>largest</strong>, with units separated by commas&#58; <em>“I’m tired,” said Sgt. Joe Snuffy, with 1st Battalion, 3rd Brigade Combat Team, 101st Airborne Division (Air Assault). “I can’t wait to get home to my family.”</em> Abbreviate Army units using standard acronym rules; note if it is a National Guard unit.
             para2: Army units can be tricky. It does not suffice to say that a Soldier simply belongs to Alpha Company, 1st Battalion, as there are a multitude of Alpha Companies and 1st Battalions throughout the Army. Be sure to get the unit’s regimental, brigade or division affiliation; in other words, make sure a <strong>precise, unique</strong> unit name is listed.
-            para3: <strong>Army&#58;</strong> Numbered armies (e.g., <em>First Army</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the numbered army or it’s a wide shot of a numbered army event.
+            para3: <strong>ARMY&#58;</strong> Numbered armies (e.g., <em>First Army</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the numbered army or it’s a wide shot of a numbered army event.
             para4: <strong>CORPS&#58;</strong> Corps (e.g., <em>XVIII Airborne Corps</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the corps or it’s a wide shot of a corps event except when referring to the U.S. Army Corps of Engineers</em>.
             para5: <strong>DIVISION&#58;</strong> Divisions (e.g., <em>1st Cavalry Division</em>) can generally stand alone if the Soldiers depicted are assigned to various units within the division or it’s a wide shot of a division event.
             para6: <strong>BRIGADE/BRIGADE COMBAT TEAM&#58;</strong> Most brigades/brigade combat teams numbered lower than 5 are part of a larger division. For example, each activeduty division has a 1st brigade combat team, so be sure to list the division affiliation&#58; <em>1st Brigade Combat Team, 82nd Airborne Division</em>. There are a number of active-duty and National Guard standalone brigade combat teams, and they generally can be listed without a division. If it’s a National Guard unit, be sure to list the state it’s affiliated with&#58; <em>30th Heavy Brigade Combat Team, North Carolina Army National Guard</em>.
@@ -72,45 +72,3 @@
                 definition: 20,000 to 45,000 Soldiers; 2 to 5 divisions
               - title: Army
                 definition: 50,000+ Soldiers
-            hr:
-          - sectiontitle: A
-            lexicon:
-              - title: abbreviations/acronyms
-                definition: Only use abbreviations on second reference. The abbreviations should be established on first reference, preferably without using parenthesis&#58; <em>Soldiers should check their Leave and Earnings Statement, known as an LES, to ensure the changes were implemented.</em>
-              - title: active duty (noun) active-duty (compound modifier)
-                definition: Hyphenate when used as a compound modifier&#58; <em>He was active duty before becoming a reserve Soldier. He was an active-duty Soldier before becoming a reserve Soldier.</em>
-              - title: African American (noun) African-American Soldier (adjective)
-                definition: Black is the preferred adjective according to AP style.
-              - title: all hands (noun) all-hands (adjective/compound modifier)
-                definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The commanding officer called all hands to the meeting. The Sailors attended the all-hands call.</em>
-              - title: American flag, U.S. flag
-                definition: Lowercase flag.
-            hr: 
-          - sectiontitle: C
-            lexicon:
-              - title: career branches
-                definition: Capitalize when referring to a specific branch&#58; <em>Infantry, Armor, Field Artillery, Signal, Public Affairs, Medical Service</em>. Lowercase when referring to a job title&#58; <em>infantryman, paratrooper, military police</em>. 
-              - title: cavalry
-                definition: Lowercase unless it is part of a unit name. Do not confuse with Calvary, which is a religious term.
-              - title: change of command ceremony (compound modifier)
-                definition: Do not hyphenate.
-              - title: civilian titles
-                definition: Do not use courtesy titles such <em>Mr., Mrs., Miss, or Ms.</em> unless requested by the named person. Other formal titles such as <em>Dr., Sen. or Gov.</em> should be used where applicable. Do not use such titles on second reference unless necessary to differentiate two people with the same last name.
-              - title: civilian (generic reference)
-                definition: Lowercase unless referring to <em>Department of the Army Civilians</em> (proper noun).
-              - title: citizen-Soldiers
-                definition: Lowercase citizen.
-              - title: colors
-                definition: The preferred style is <em>American flag</em> or <em>U.S. flag</em>. Do not use in reference to flags of other nations. Acceptable when referring to unit flags and guidons. <em>The battalion colors were furled during a transfer of authority ceremony.</em>
-              - title: commander in chief
-                definition: Do not hyphenate; lowercase unless it appears before a name.
-              - title: congressional
-                definition: Lowercase unless part of a proper name&#58; <em>congressional salaries, the Congressional Quarterly, the Congressional Record.</em>
-              - title: contingency operating base
-                definition: Lowercase unless it accompanies the name of a specific location. COB is acceptable on second reference.
-              - title: corps
-                definition: Lowercase, shortened reference to units as a stand alone, except when referring to the U.S. Army Corps of Engineers.
-              - title: Corps
-                definition: Capitalized refers to the U.S. Marine Corps.
-              - title: counter improvised explosive device 
-                definition: Do not hyphenate or capitalize. <em>Counter IED</em> is acceptable on second reference.
