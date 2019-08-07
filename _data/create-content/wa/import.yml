@@ -10,7 +10,7 @@
             numlist:
               - listname: 
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>Import from DVIDS</strong> to open the import tool. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids1.jpg">
+                two: Click <strong>Import from DVIDS</strong> to open the import tool. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids1.png">
                 three: Paste the URL of the DVIDS article you'd like to import into the search field. You can also search by keyword, author, unit or story ID.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids2.png">
                 four: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/dvids_import.svg"> button located at the far right side.
                 five: Select one of the two import options from the dropdown menu. <br> <strong>OPTION 1 - Import as Draft</strong> will open an editable version of the article. <br> <strong>OPTION 2 - Import as Released</strong> will automatically publish the article on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_dvids_import_drop_down.jpg">
