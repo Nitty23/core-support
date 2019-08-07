@@ -45,7 +45,7 @@
                 seven: The Add Article panel slides out of view and all of the articles in your queue are now listed in your News List lightbox.
                 eight: You can add more articles, as well as reorder or remove existing articles.
                 nine: When you are finished, click <strong>Add</strong> to close the lightbox and place your Featured News List on your Page.
-            tip: You can add up to 30 articles to your Featured News List. However, we recommend limiting the number of articles that appear in each section and creating multiple News Lists broken out by topics or subordinate commands. For best visual display on your Page, we recommend adding articles in multiples of three.
+            tip: While you can add up to 30 articles to your Featured News List, we recommend that you limit the number of articles to six to nine articles per section. If you want to feature more news on your Page, consider adding multiple News Lists to categorize your content by topics or subordinate commands. This will allow your visitors to more easily scan your Page to find the content that is most relevant to them.
             hr: 
           - sectiontitle: Reorder your articles
             numlist:
