@@ -33,7 +33,7 @@
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
-                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.jpg">
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.png">
             note: Check out Formatting Text to learn more about all the formatting features.
             hr:
           - sectiontitle: Step 5 - Add media
@@ -65,8 +65,8 @@
             numlist:  
               - listname: To add an Army Theme
                 one: Click <strong>Add a strategic theme…</strong> in the right sidebar.
-                two: Select a theme from the dropdown list. The theme will appear as a tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_theme_dropdown_list.jpg">
-                three: You can add more themes, or remove a theme by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_remove_theme.jpg">
+                two: Select a theme from the dropdown list. The theme will appear as a tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_theme_dropdown_list.png">
+                three: You can add more themes, or remove a theme by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_remove_theme.png">
             note: Although you can add multiple tags and themes to your article, we recommend only adding <strong>1 or 2 themes and up to 5 tags per article</strong> to streamline your communication efforts.
           - sectiontitle: 
             learn: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics. To learn more, visit <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article Settings</a>
