@@ -146,9 +146,9 @@
     - title: Articles on Page
       id: aop
       sections: 
-        - title: Customizing your Latest News List
+        - title: Customizing your Latest News
           url: /page-management/aop/latest_news.html
-        - title: Customizing your Tagged News List
+        - title: Customizing your Tagged News
           url: /page-management/aop/tagged_news.html
         - title: Managing articles in a Featured News List
           url: /page-management/aop/featured_news.html
