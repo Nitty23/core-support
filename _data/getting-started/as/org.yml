@@ -28,12 +28,12 @@
             para1: <strong>OPTION 2 - From My Organization&#58;</strong>
             numlist:  
               - listname: 
-                one: Click <strong>Community</strong> in the main menu. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_viewyourprofile1.png">
+                one: Click <strong>Community</strong> in the main menu.
                 two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
                 three: Select <strong>Change Organization</strong> from the dropdown options. 
-                four: This opens the same <strong>Change Organization</strong> lightbox as your Profile. Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_search.png">
+                four: This opens the same <strong>Change Organization</strong> lightbox as your Profile. Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory.
                 five: Select an organization from the auto-suggested list.
-                six: Click <strong>Update</strong> to confirm your new organization and close the lightbox. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_search_save.png">
+                six: Click <strong>Update</strong> to confirm your new organization and close the lightbox.
           - sectiontitle: 
             para1: You will notice that your organization and team members automatically change on My Organization tab. All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
             note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
