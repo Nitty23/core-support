@@ -11,7 +11,7 @@
             numlist:
               - listname:
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>New Article</strong> to open a draft article page. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article300.png"><img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article72.png">
+                two: Click <strong>New Article</strong> to open a draft article page. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article300.png">
             hr:
           - sectiontitle: Step 2 - Add a title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
