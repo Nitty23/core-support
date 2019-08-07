@@ -15,7 +15,7 @@
                 two: Click <strong>Add a tag…</strong>
                 three: Enter a keyword and click <strong>Enter</strong> or <strong>Return</strong> on your keyboard to add a new tag.
                 four: You can also select an existing tag from the dropdown list of matching terms that appears as your type.
-                five: To remove a tag, click the <strong>X</strong> to the right of the tag. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_sidebar.jpg">
+                five: To remove a tag, click the <strong>X</strong> to the right of the tag. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_sidebar.png">
             tip: As you type a keyword, tags that match your entry will auto-populate, along with the number of times that each tag has been added to an article. Use these suggestions to help you determine the most effective tags. For example, if you are deciding between two similar tags, it is better to opt for the one that has been tagged on more articles to increase the chance that your article will be discovered. For more tips, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
           - sectiontitle: Formatting tags
