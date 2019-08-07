@@ -40,7 +40,7 @@
                 two: Locate the specific article that you would like to add to your News List. The most recently released articles from your organization are displayed.
                 three: Use the search box at the top of the panel to find any article that was released in CORE. You search by entering a topic, tag or article ID.
                 four: Once you’ve located the article that you want to add, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> on the far right side.
-                five: The <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> will turn into a <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> and a 1 appears on the Add button at the bottom of the panel. This indicates that the article was added to your queue.
+                five: The <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> will turn into a <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> and a <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/featured_news_number.png"> appears on the Add button at the bottom of the panel. This indicates that the article was added to your queue.
                 six: You can continue searching for articles and adding them to your queue. Once you are ready, click <strong>Add</strong>.
                 seven: The Add Article panel slides out of view and all of the articles in your queue are now listed in your News List lightbox.
                 eight: You can add more articles, as well as reorder or remove existing articles.
