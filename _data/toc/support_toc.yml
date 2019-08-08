@@ -58,15 +58,15 @@
           url: /creating-content/wa/army_themes.html
         - title: Preview an article
           url: /creating-content/wa/preview_article.html
-    - title: Article Images
-      id: ai
-      sections: 
-        - title: Editing images
-          url: /creating-content/ai/editing_img.html
-        - title: Cropping images
-          url: /creating-content/ai/cropping_img.html
-        - title: Moving images
-          url: /creating-content/ai/moving_img.html
+#     - title: Article Images
+#       id: ai
+#       sections: 
+#         - title: Editing images
+#           url: /creating-content/ai/editing_img.html
+#         - title: Cropping images
+#           url: /creating-content/ai/cropping_img.html
+#         - title: Moving images
+#           url: /creating-content/ai/moving_img.html
     - title: Managing Articles
       id: ma
       sections: 
