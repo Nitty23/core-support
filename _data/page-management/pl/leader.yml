@@ -11,7 +11,7 @@
               - listname:
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your text section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_add_content.png">
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 five: Select <strong>Leaders</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_leaders.jpg">
                 six: In the <strong>Leaders</strong> lightbox editor, you can customize several options.
