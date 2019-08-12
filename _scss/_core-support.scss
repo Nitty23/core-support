@@ -204,6 +204,10 @@ strong {
     margin-bottom: 0;
     padding: 0;
     
+    .normal-text {
+        font-weight: 400;
+    }
+    
     @include breakpoint(medium) {
         margin-bottom: 1.25rem;
         padding-right: .9375rem;
@@ -249,37 +253,45 @@ strong {
     margin-bottom: 1.25rem;
 }
 
-.faq-title{
+.faq-title {
+    border-bottom: 5px solid #fec325;
     font-size: 1.5rem;
     font-weight: 600;
-    border-bottom-style: solid;
-    border-bottom-color: #fec325;
-    border-bottom-width: 5px;
-    width: fit-content;
     margin-bottom: 30px;
+    text-transform: inherit;
+    width: fit-content;
     word-wrap: break-word;
 }
 
-.faq-question{
+.faq-question {
+    border-left: 5px solid #fec325;
     font-size: 1rem;
     font-weight: 600;
-    border-left-style: solid;
-    border-left-color: #fec325;
-    border-left-width: 5px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
-.faq-answer{
+.faq-answer {
     font-size: 1rem;
     font-weight: 400;
     padding: 10px 10px 10px 15px;
     margin: 0px;
+    
+    & h4.list-title {
+        margin: 0 0 1rem 0;
+    }
+    
+    & .bullet-item:first-child {
+        margin-top: 0;
+    }
+    
+    & .num-item:first-child {
+        margin-top: 0;
+    }
 }
-.faq-box{
+
+.faq-box {
     background-color: #f5f5f5;
-    border-bottom-color: #cccccc;;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom: 1px solid #cccccc;;
     margin-bottom: 30px;
 }
 
@@ -1120,6 +1132,7 @@ a:hover.topic-box {
 .mast-search-icon {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -259px -74px;
+    cursor: pointer;
     height: 21px;
     margin: 18px 0;
     width: 24px;
@@ -1128,6 +1141,7 @@ a:hover.topic-box {
 .header-search-icon {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -259px 0;
+    cursor: pointer;
     height: 21px;
     margin: 20px;
     width: 24px;
@@ -1136,6 +1150,7 @@ a:hover.topic-box {
 .header-close-icon {
     background-image: url(/e2/images/rv7/mobile_redesign_sprite_icons_v3.svg);
     background-position: -284px 0;
+    cursor: pointer;
     height: 21px;
     margin: 20px 22px;
     width: 21px;

@@ -46,6 +46,9 @@
                 three: Click the <strong>Backdate & Release</strong> button to close the calendar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/cc_ma_back_date_article_anime.gif">
             para1: Your article will immediately release, making it available for anyone to read on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. In the overview section of your article page, you’ll notice that the release date is now backdated to the day and time that you selected. The live article will also display this previous release date.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Can I change a release date after it is released?
-            para1: Yes. You can change the release date of an article before or after it’s published. For help changing a release date, visit <a class="underline-link" href="./change_release.html">Change the release date</a>.
+          - sectiontitle: 
+            faq: 
+              - title: Frequently Asked Questions
+              - qa: 
+                question: Can I change a release date after it is released?
+                answer: Yes. You can change the release date of an article before or after it’s published. For help changing a release date, visit <a class="underline-link" href="./change_release.html">Change the release date</a>.

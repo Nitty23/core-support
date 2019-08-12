@@ -1,0 +1,192 @@
+# Any Comments:
+
+  - title: Article and Pages
+    articles:
+      - subtitle: Commonly Used Terms
+        sections:
+          - sectiontitle: 
+            para1: This following alphabetical listing provides the correct style for commonly used terms within DoD captions. The list is by no means comprehensive; if a term does not appear below, refer to <a class="underline-link" href="https://www.apstylebook.com/">The Associated Press Stylebook</a> or Webster’s New World College Dictionary for the appropriate style and spelling. You can also refer to our <a class="underline-link" href="./ap_stylebook_quick_reference.html">AP Stylebook quick reference</a> or the <a class="underline-link" href="https://www.dimoc.mil/VI-Training/DoD-VI-Style-Guide/">Defense of Defense Visual Information Style Guide</a> for supplemental guidance on spelling, grammar, puncutation and general style outline by AP.
+          - sectiontitle: A
+            lexicon:
+              - title: abbreviations/acronyms
+                definition: Only use abbreviations on second reference. The abbreviations should be established on first reference, preferably without using parenthesis&#58; <em>Soldiers should check their Leave and Earnings Statement, known as an LES, to ensure the changes were implemented.</em>
+              - title: active duty <span class="normal-text">(noun)</span> active-duty <span class="normal-text">(compound modifier)</span>
+                definition: Hyphenate when used as a compound modifier&#58; <em>He was active duty before becoming a reserve Soldier. He was an active-duty Soldier before becoming a reserve Soldier.</em>
+              - title: African American <span class="normal-text">(noun)</span> African-American Soldier <span class="normal-text">(adjective)</span>
+                definition: Black is the preferred adjective according to AP style.
+              - title: all hands <span class="normal-text">(noun)</span> all-hands <span class="normal-text">(adjective/compound modifier)</span>
+                definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The commanding officer called all hands to the meeting. The Sailors attended the all-hands call.</em>
+              - title: American flag, U.S. flag
+                definition: Lowercase flag.
+            hr: 
+          - sectiontitle: C
+            lexicon:
+              - title: career branches
+                definition: Capitalize when referring to a specific branch&#58; <em>Infantry, Armor, Field Artillery, Signal, Public Affairs, Medical Service</em>. Lowercase when referring to a job title&#58; <em>infantryman, paratrooper, military police</em>. 
+              - title: cavalry
+                definition: Lowercase unless it is part of a unit name. Do not confuse with Calvary, which is a religious term.
+              - title: change of command ceremony <span class="normal-text">(compound modifier)</span>
+                definition: Do not hyphenate.
+              - title: civilian titles
+                definition: Do not use courtesy titles such <em>Mr., Mrs., Miss, or Ms.</em> unless requested by the named person. Other formal titles such as <em>Dr., Sen. or Gov.</em> should be used where applicable. Do not use such titles on second reference unless necessary to differentiate two people with the same last name.
+              - title: civilian <span class="normal-text">(generic reference)</span>
+                definition: Lowercase unless referring to <em>Department of the Army Civilians</em> (proper noun).
+              - title: citizen-Soldiers
+                definition: Lowercase citizen.
+              - title: colors
+                definition: The preferred style is <em>American flag</em> or <em>U.S. flag</em>. Do not use in reference to flags of other nations. Acceptable when referring to unit flags and guidons. <em>The battalion colors were furled during a transfer of authority ceremony.</em>
+              - title: commander in chief
+                definition: Do not hyphenate; lowercase unless it appears before a name.
+              - title: congressional
+                definition: Lowercase unless part of a proper name&#58; <em>congressional salaries, the Congressional Quarterly, the Congressional Record.</em>
+              - title: contingency operating base
+                definition: Lowercase unless it accompanies the name of a specific location. COB is acceptable on second reference.
+              - title: corps
+                definition: Lowercase, shortened reference to units as a stand alone, except when referring to the U.S. Army Corps of Engineers.
+              - title: Corps
+                definition: Capitalized refers to the U.S. Marine Corps.
+              - title: counter improvised explosive device 
+                definition: Do not hyphenate or capitalize. <em>Counter IED</em> is acceptable on second reference.
+            hr: 
+          - sectiontitle: D
+            lexicon:
+              - title: demining 
+                definition: Do not hyphenate.
+              - title: Dr. 
+                definition: Using the title before a name is OK. This differs from AP Style.
+              - title: DOD
+                definition: Abbreviation for <em>Department of Defense</em>. All caps. <em>DOD</em> is acceptable on first reference.
+            hr: 
+          - sectiontitle: E
+            lexicon:
+              - title: email 
+                definition: Acceptable in all references for <em>electronic mail</em>. Use a hyphen with other e-terms&#58; <em>e-book, e-business, e-commerce</em>.
+              - title: exercises
+                definition: Capitalize uniquely named exercises, but only capitalize the descriptive word exercise if it is part of the official title of the exercise. Lowercase generic descriptors for exercises&#58; <em>operational readiness exercise, joint task force exercise, composite training unit exercise</em>.
+              - title: explosive ordnance disposal
+                definition: Lowercase, unless part of a unit name or operation name. <em>EOD</em> is acceptable on second reference.
+            hr: 
+          - sectiontitle: F
+            lexicon:
+              - title: Family
+                definition:  Capitalize when referring to Army Families (AR 360-1, para. 13-12b). 
+              - title: Family names
+                definition: Capitalize words denoting family relationships only when they precede the name of a person or when they stand unmodified as a substitute for a person’s name&#58; <em>“I wrote Grandfather Smith. I wrote Mother a letter. I wrote my mother a letter.”</em>
+              - title: female engagement team 
+                definition: Lowercase unless writing about a specific team.
+              - title: firefighter
+                definition: One word.
+              - title: Fort
+                definition: Do not use Ft. Lowercase unless it precedes the name of a specific fort.
+              - title: forward operating base 
+                definition: Lowercase unless it accompanies the name of a specific location. <em>FOB</em> is acceptable on second reference.
+              - title: from 
+                definition: Do not use from to describe a Service member’s affiliation with a military unit. Use with, assigned to or attached to. The term from implies hometown or native country. <em>“U.S. Army Spc. Joe Snuffy is an infantryman assigned to the 1st Battalion, 333rd Infantry Regiment.”</em>
+            hr: 
+          - sectiontitle: I
+            lexicon:
+              - title: IED 
+                definition: Abbreviation for improvised explosive device. IED is acceptable on first reference.
+            hr: 
+          - sectiontitle: J
+            lexicon:
+              - title: joint 
+                definition: Lowercase unless used as a proper noun as part of a unit.
+            hr: 
+          - sectiontitle: L
+            lexicon:
+              - title: landing zone 
+                definition: Lowercase unless it accompanies the name of a specific location&#58; <em>U.S. Soldiers gather their gear after parachuting onto Landing Zone Tombstone. The landing zone was not cleared</em>. <em>LZ</em> is acceptable on second reference.
+              - title: landing craft, air cushion 
+                definition: Singular and plural. Lowercase unless identifying a specific numbered LCAC&#58; <em>Landing Craft, Air Cushion 8. LCAC</em> is acceptable on second reference.
+              - title: landing craft utility
+                definition: Lowercase unless identifying a specific numbered LCU&#58; <em>Landing Craft Utility 1627. LCAC</em> is acceptable on second reference.
+              - title: live fire <span class="normal-text">(noun)</span> live-fire <span class="normal-text">(adjective/compound modifier)</span>
+                definition: Hyphenate when used as an adjective/compound modifier&#58; <em>The practice range was for shooting blanks only; it did not allow live fire. The live-fire exercise lasted all day.</em>
+            hr: 
+          - sectiontitle: M
+            lexicon:
+              - title: mass casualty/mass casualty exercise 
+                definition: Do not hyphenate.
+              - title: Medal of Honor
+                definition: The nation’s highest military honor, awarded by Congress for risk of life in combat beyond the call of duty. Use <em>Medal of Honor recipient</em> or a synonym, but not winner. There is no <em>Congressional Medal of Honor</em>.
+              - title: MedEvac 
+                definition: Abbreviation for <em>medical evacuation. MedEvac</em> is acceptable on first reference.
+              - title: military operations on urban terrain
+                definition:  MOUT is an out-of-favor term; the preferred term is urban operations (UO). The term <em>MOUT</em> is still in limited use and may be used when referring to a specific <em>MOUT city</em> or <em>MOUT site</em>, but should not be used in the following senses&#58; “... train for military operations on urban terrain ...” or “... conducts military operations on urban terrain training.”
+              - title: MIA/POW(s) 
+                definition: Abbreviation for <em>missing in action/prisoner(s) of war. MIA/POW</em> is acceptable on first reference. This differs from the AP Stylebook.
+            hr: 
+          - sectiontitle: N
+            lexicon:
+              - title: nation 
+                definition: Lowercase.
+              - title: national anthem
+                definition: Lowercase. But&#58; <em>“The Star-Spangled Banner.”</em>
+              - title: NCO
+                definition: Abbreviation for <em>noncommissioned officer. NCO</em> is acceptable on first reference.
+              - title: noncommissioned officer in charge
+                definition: Do not hyphenate. Lowercase unless it appears before a name. <em>NCOIC</em> is acceptable on second reference.
+            hr: 
+          - sectiontitle: O
+            lexicon:
+              - title: officer in charge 
+                definition: Do not hyphenate. Lowercase unless it appears before a name. <em>OIC</em> is acceptable on second reference.
+              - title: Organizations
+                definition: Capitalize the full names of organizations and institutions. Some are widely recognized by their abbreviations, refer to abbreviations/acronyms entry&#58; <em>U.S. Army Corps of Engineer</em>s is the proper organizational name. <em>USACE</em> is acceptable on second reference. Do not use corps or any unofficial abbreviations, such as ACOE, USA COE, COE.
+            hr: 
+          - sectiontitle: P
+            lexicon:
+              - title: pass in review 
+
+                definition: Not pass and review.
+              - title: paratrooper
+                definition: Lowercase.
+              - title: Pentagon
+                definition: Use WASHINGTON in dateline; use Arlington, Virginia, to describe the location of the Pentagon, if the location is relevant to the story.
+              - title: POW(s)/MIA 
+                definition: Abbreviation for <em>Prisoner(s) of war/missing in action. POW/MIA</em> is acceptable on first reference. This differs from the AP Stylebook.
+            hr: 
+          - sectiontitle: R
+            lexicon:
+              - title: rappel, rappelling/repel, repelling 
+                definition: To <em>rappel</em> is to use ropes to lower oneself from a high place, such as a cliff, building or helicopter. To <em>repel</em> is to fend something off.
+              - title: Reserve
+                definition: Capitalize when referring to <em>U.S. Army Reserve</em> (not <em>Reserves</em>). Lowercase in reference to members of these backup forces&#58; reserve Soldiers. Only use the term <em>reserves</em> when referring to the reserve components collectively. Do not use the term reservist.
+              - title: Retired
+                definition: Do not use (Ret.) when describing a retired service member. Capitalize the word Retired and place it before the service (if applicable), rank and name&#58; <em>Retired U.S. Army Command Sgt. Maj. Joe Smith, left, delivers a speech</em>.
+              - title: rifle salute
+                definition: A salute to the deceased at military funerals, usually by seven riflemen each firing three shots in unison. Do not confuse this with a <strong>21-gun salute</strong>.
+            hr: 
+          - sectiontitle: S
+            lexicon:
+              - title: Sept. 11 
+                definition: When referring to the terrorist attacks of this day, use <em>Sept. 11 attack</em> or <em>Sept. 11 terrorist attack</em>, or <em>9/11</em>. Use 2001 only if needed for clarity.
+              - title: service member 
+                definition: Two words; lowercase&#58; <em>U.S. service members help clean up in New York City after Hurricane Sandy.</em>
+              - title: Soldier
+                definition: Capitalize when referring to U.S. Soldiers (AR 360-1, para. 13-12b).
+              - title: Special Forces 
+                definition: Do not use interchangeably with <em>special operations forces</em>. Capitalize when referring specifically to the U.S. Special Forces, also known as Green Berets. Others, such as Army Rangers, should be called special operations forces.
+              - title: Special Operations Forces 
+                definition: Use this term to describe U.S. special warfare units or members of those units when their exact service or unit affiliation is not clear, or when special warfare units of multiple services are conducting joint operations. Do not use special operator or commando. Capitalize when referring specifically to the U.S. Special Operations Forces&#58; <em>A U.S. Special Operations Forces Service member patrols in a field near Kandahar, Afghanistan, April 5, 2012.</em>
+            hr: 
+          - sectiontitle: T
+            lexicon:
+              - title: Tomb of the Unknowns 
+                definition: Not <em>Tomb of the Unknown Soldier</em>.
+              - title: troop
+                definition: Lowercase. A troop in its singular form is a group of people, often military or animals. Troops, in the plural, means several such groups. But when the plural appears with a large number, it is understood to mean individuals&#58; <em>There were an estimated 150,000 troops in Iraq</em>. But not&#58; <em>Three troops were injured</em>.
+            hr: 
+          - sectiontitle: W
+            lexicon:
+              - title: war on terrorism 
+                definition: This is the acceptable term to use; all lowercase. Do not use <em>global war on terrorism</em>, <em>GWOT</em> or <em>war on terror</em>.
+              - title: warfighter
+                definition: One word; lowercase.
+              - title: Web
+                definition: Capitalize.
+              - title: website
+                definition: One word; lowercase.
+              - title: White House
+                definition: Use <em>Washington, D.C.</em>, to describe the location.

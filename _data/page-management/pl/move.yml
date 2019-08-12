@@ -18,17 +18,20 @@
           - sectiontitle: Move sections on your Page
             numlist:
               - listname: 
-                one: Hover over the section you want to move. Your cursor will turn into a crosshair.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_move_page_sections.jpg">
+                one: Hover over the section you want to move. Your cursor will turn into a crosshair.<img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/pl/pl_move_page_sections.png">
                 two: Click and drag the section to move it around the page.
                 three: As you drag the section, use the yellow guidelines to choose the new placement.
                 four: Release the section when it’s in the desired position.
             hr: 
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Can I move sections to create columns on my Page?
-            para1: Currently, it is not possible to move content sections to create columns . All sections will stack vertically on top of each other. We plan to work on this capability in the future to expand your page layout customization options.
-          - sectiontitle:
-            paratitle: Can I move a content section from one navigation tab to another?
-            para1: It is not possible to move a content section from one navigation tab to another. If you want to move a section to a new tab, we recommend that you create a new section on the correct tab, and copy/paste content from the old section to the new one. Once all of the content is duplicated, you can <a class="underline-link" href="./delete_content_section.html">delete the old section</a>.
-          - sectiontitle:
-            paratitle: Can I move a section to my header or footer?
-            para1: It is not possible to move sections to your header or footer. They can only be moved within the main content area on the tab where they were added. To learn how to customize your header or footer, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa: 
+                question: Can I move sections to create columns on my Page?
+                answer1: Currently, it is not possible to move content sections to create columns . All sections will stack vertically on top of each other. We plan to work on this capability in the future to expand your page layout customization options.
+              - qa:
+                question: Can I move a content section from one navigation tab to another?
+                answer1: It is not possible to move a content section from one navigation tab to another. If you want to move a section to a new tab, we recommend that you create a new section on the correct tab, and copy/paste content from the old section to the new one. Once all of the content is duplicated, you can <a class="underline-link" href="./delete_content_section.html">delete the old section</a>.
+              - qa:
+                question: Can I move a section to my header or footer?
+                answer1: It is not possible to move sections to your header or footer. They can only be moved within the main content area on the tab where they were added. To learn how to customize your header or footer, visit <a class="underline-link" href="../../page-management/ps/page_settings.html">Page settings</a>.

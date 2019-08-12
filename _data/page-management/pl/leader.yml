@@ -11,9 +11,9 @@
               - listname:
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your text section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_add_content.png">
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
-                five: Select <strong>Leaders</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_leaders.jpg">
+                five: Select <strong>Leaders</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_leaders.png">
                 six: In the <strong>Leaders</strong> lightbox editor, you can customize several options.
                 lexicon: 
                 - title: Section Title
@@ -61,7 +61,7 @@
               - listname: 
                 one: Hover over the leader you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the leader’s name to reorder.
-                three: Release the leader’s name when it’s in the desired position. You’ll see the cards reorder on your Page, as well.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_reorder_leader_cards.jpg">
+                three: Release the leader’s name when it’s in the desired position. You’ll see the cards reorder on your Page, as well.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_reorder_leader_cards.png">
                 four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.
             hr:
           - sectiontitle: Remove an existing leader
@@ -72,6 +72,5 @@
                 three: Click <strong>Save</strong> to close the lightbox. At this point, your leader’s information cannot be recovered.
             note: You can recover your leader’s information by clicking <strong>Cancel</strong> on the Leaders lightbox. Your changes will be reverted and the deleted leader will reappear on your Page. It is not possible to recover your leader’s information once you click <strong>Save</strong> on the Leaders lightbox. You will have to manually re-enter all of the information.
           - sectiontitle: Sample
-            para1: Here's a sample Leaders section.
-            para2: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_army_senior_leaders_sample.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_army_sr_leaders_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.

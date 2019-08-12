@@ -32,5 +32,6 @@
                 three: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.
                 four: Select <strong>Change User Role</strong> from the dropdown options. A list of available user roles will appear. 
                 five: Select a new role.
+            image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/core-community/mo/mo_change_user_role.png">
             para2: An email will be sent to the user to notify him/her of the new role and access permissions.
             note: You will only see the option to change user roles if you are an administrator for the organization.

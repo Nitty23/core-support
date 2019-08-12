@@ -5,8 +5,9 @@
       - subtitle: News List section
         sections:
           - sectiontitle: 
-            para1: For an article to be added to your Page, members from your organization must first <a class="underline-link" href="../../creating-content/wa/create_article.html">write the article</a>, submit it for review, and release it. To learn more about the content creation and approval process, visit <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox 101</a>.
-            para2: Once an article is released, it can be displayed on your Page in a <strong>News List</strong> section. 
+            para1: As a <strong>publisher</strong> or <strong>administrator</strong>, you are responsible for updating your organization’s <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>, and one of the easiest ways to keep your content fresh is by adding released articles to it.
+            para2: For an article to be added to your Page, members from your organization must first <a class="underline-link" href="../../creating-content/wa/create_article.html">write the article</a>, submit it for review, and release it. To learn more about the content creation and approval process, visit <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox 101</a>.
+            para3: Once an article is released, it can be displayed on your Page in a <strong>News List</strong> section. 
           - sectiontitle: Types of News Lists
             para1: There are three types of news lists available in CORE.
             lexicon: 
@@ -36,9 +37,9 @@
               - listname: 
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your news list. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_newslist_add_content.png">
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_add_content.png">
                 four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open the Section menu.
-                five: Select <strong>News List</strong> in the menu. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_newslist.jpg">
+                five: Select <strong>News List</strong> in the menu. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_newslist.png">
                 six: In the <strong>News List</strong> lightbox editor, you can customize several options.
                 lexicon: 
                 - title: Section Title

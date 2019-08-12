@@ -20,7 +20,7 @@
             numlist:
               - listname: 
                 one: Click on <strong>Community</strong> on the main menu.
-                two: You will notice that your <strong>My Organization</strong> tab displays an alert to join a new organization, in place of a team roster.<img class="data-img-no-border" src="/e2/images/rv7/core-support/core-community/mo/mo_join_an_org.png">
+                two: You will notice that your <strong>My Organization</strong> tab displays an alert to join a new organization, in place of a team roster.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_join_an_org.png">
                 three: Click <strong>Join a New Organization</strong> to open the lightbox editor.
                 four: Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. 
                 five: Select an organization from the list.
@@ -28,9 +28,12 @@
             para2: Your new organization and team members automatically display on My Organization page. All articles that you create will be associated with this organization and will be pushed to the appropriate change of command.
             note: You don’t need approval to join a new organization. You will automatically become a contributor with the ability to edit and submit content. Please contact the administrator(s) of your new organization to upgrade your role, if needed. To learn more about CORE user roles, visit <a class="underline-link" href="../../getting-started/as/roles_and_preferences.html">Roles and Permissions</a>.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: My organization is not available when I search for it in the Join a New Organization lightbox. What do I do?
-            para1: CORE will only auto-suggest organizations that are currently in the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a>. First, visit the Organization Directory and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization is added to CORE.
-          - sectiontitle:
-            paratitle: Why do I have to be affiliated with an organization to create an article?
-            para1: Each organization has at least one person with release authority that can publicly publish content to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. This release authority can grant others permission to release content on behalf of the organization, or they can opt to have contributors create and submit content for review. Consequently, if you are not affiliated with an organization, then you will not have permission to submit or release content on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. 
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: My organization is not available when I search for it in the Join a New Organization lightbox. What do I do?
+                answer1: CORE will only auto-suggest organizations that are currently in the <a class="underline-link" href="http://core.ardev.us/community/organizations">Organization Directory</a>. First, visit the Organization Directory and search for the full name or abbreviation of your organization. If you still can’t find it, contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - New Organization Request">CORE Support Team</a> to request a new organization is added to CORE.
+              - qa:
+                question: Why do I have to be affiliated with an organization to create an article?
+                answer1: Each organization has at least one person with release authority that can publicly publish content to <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. This release authority can grant others permission to release content on behalf of the organization, or they can opt to have contributors create and submit content for review. Consequently, if you are not affiliated with an organization, then you will not have permission to submit or release content on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. 

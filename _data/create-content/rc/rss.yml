@@ -11,18 +11,22 @@
             numlist: 
               - listname: You can access a feed directly from your organization’s page
                 one: Navigate to your page URL&#58; www.army.mil/<em>pagetitle</em>
-                two: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/rss_square.svg">  icon that is located in your page banner.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_airborne_rss_example.png">
+                two: Click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/rss_square.svg">  icon that is located in your page banner.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_amc_rss_example.png">
                 three: Your browser will be directed to your organization’s RSS feed. As an example, here is the feed of the U.S. Army Homepage - <a class="underline-link" href="https://www.army.mil/rss/static/1.xml">https://www.army.mil/rss/static/1.xml</a>.
             hr:
           - sectiontitle: Subscribe to an RSS feed
             para1: One of the most common uses for RSS feeds is to allow visitors to subscribe to your content via feed readers. Most browsers and email clients can read feeds, but you can also use a feed reading service to aggregate multiple RSS into a single application. Simply copy and paste the URL into your RSS reader or news aggregator to subscribe.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: My organization does not have a web page. How do I find my RSS feed?
-            para1: We plan to incorporate a link to all organization RSS feeds into CORE’s Organization Directory in the future. In the meantime, you can access your feed using your organization’s ID - https://www.army.mil/rss/static/<em>organization_ID</em>.xml. Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a> to obtain your organization ID.
-          - sectiontitle:
-            paratitle: Some articles aren't appearing in my RSS feed. Why?
-            para1: CORE RSS feeds only pull the 100 most recent articles. Since RSS is designed to serve recently published content from a site, this limit avoids overwhelming readers with a full archive of articles.
-          - sectiontitle:
-            paratitle: Are other types of RSS feeds available?
-            para1: At this time, CORE only offers an RSS feed for articles released by organizations. We plan to expand this functionality in the future, to include feeds based on authors, tags and themes.
+          - sectiontitle: 
+            faq: 
+              - title: Frequently Asked Questions
+              - qa:
+                question: My organization does not have a web page. How do I find my RSS feed?
+                answer1: We plan to incorporate a link to all organization RSS feeds into CORE’s Organization Directory in the future. In the meantime, you can access your feed using your organization’s ID - https://www.army.mil/rss/static/<em>organization_ID</em>.xml. Contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support">CORE Support Team</a> to obtain your organization ID.
+              - qa:
+                question: Some articles aren't appearing in my RSS feed. Why?
+                answer1: CORE RSS feeds only pull the 100 most recent articles. Since RSS is designed to serve recently published content from a site, this limit avoids overwhelming readers with a full archive of articles.
+              - qa:
+                question: Are other types of RSS feeds available?
+                answer1: At this time, CORE only offers an RSS feed for articles released by organizations. We plan to expand this functionality in the future, to include feeds based on authors, tags and themes.
+    

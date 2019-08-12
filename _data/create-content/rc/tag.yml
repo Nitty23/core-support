@@ -11,7 +11,7 @@
             numlist:
               - listname: To access a tag feed
                 one: Click <strong>All Content</strong> on the main menu, or search for a specific keyword using the global search at the top of your screen.
-                two: From the list of released articles, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). <img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_tag_list_example.png">
+                two: From the list of released articles, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). <img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_all_content_article_with_tags.png">
                 three: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_multiple_article_tag_feed.png">
             hr:
           - sectiontitle: Get your content to appear in tag feeds
@@ -19,6 +19,9 @@
             para2: Keep in mind that while adding tags can increase the chance that other CORE users will discover your content, you don’t want irrelevant content showing up in news feeds and search results, and neither do we. That’s why we recommend limiting the number of tags you use to the five most relevant tags.
             tip: Tags should be used to summarize what your article is about. If you’re having trouble choosing tags, try thinking about what tags you would search for if you wanted to find a similar article. For best practices on tagging your content, visit <a class="underline-link" href="../../best-practices/ap/tagging_tips.html">Tagging tips</a>.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: I frequently look for articles related to a specific topic. Is there a way to save or favorite a Tag Feed?
-            para1: Currently, you can only access a list of related articles by clicking on a tag on the All Content page or on search results. In the future, we plan to implement the ability to follow tags, which will aggregate articles tagged with all of your favorite topics into a single feed. You will also be able to follow users and organizations, turning your All Content page into a customized feed of the topics, people and organizations that interest you most. Stay tuned!
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa: 
+                question: I frequently look for articles related to a specific topic. Is there a way to save or favorite a Tag Feed?
+                answer1: Currently, you can only access a list of related articles by clicking on a tag on the All Content page or on search results. In the future, we plan to implement the ability to follow tags, which will aggregate articles tagged with all of your favorite topics into a single feed. You will also be able to follow users and organizations, turning your All Content page into a customized feed of the topics, people and organizations that interest you most. Stay tuned!

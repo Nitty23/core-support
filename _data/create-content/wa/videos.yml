@@ -45,18 +45,21 @@
                 one: Click on the video you want to delete. A toolbar will appear at the top of the video.
                 three: Click <strong>Delete</strong> from the confirmation dialog box.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Can I embed a video from other video platforms?
-            para1: At this time, CORE only supports embedding video from YouTube. We plan to expand this feature to other video hosting services in the future. If there is a specific video hosting service that you would like available through CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Video Request">CORE Support Team</a> to let us know how we can help.
-          - sectiontitle:
-            paratitle: How do I change the video thumbnail?
-            para1: It is not possible to customize a video thumbnail in CORE. You must change the image directly in YouTube.
-          - sectiontitle:
-            paratitle: Why won't my video play on my article?
-            para1: A thumbnail image of your video is displayed within the article body, so you are not able to play the video directly from your Edit Article page. If you want to preview the video, click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the main action bar and select <strong>Preview</strong> from the dropdown options. A rich version of the video embed will replace the thumbnail placeholder.
-          - sectiontitle:
-            paratitle: Can I remove the related YouTube videos that appear after playing my video?
-            para1: YouTube automatically displays related videos after a video finishes playing. This is a YouTube feature that isn't controlled by CORE and can't be disabled.
-          - sectiontitle:
-            paratitle: Do plays on my article count in YouTube?
-            para1: YouTube doesn't count views of embedded videos. However, YouTube provides a breakdown of where viewers are finding your videos. Learn more in <a class="underline-link" href="https://support.google.com/youtube/answer/1714323">YouTube Analytics documentation</a>.
+          - sectiontitle: 
+            faq: 
+              - title: Frequently Asked Questions
+              - qa: 
+                question: Can I embed a video from other video platforms?
+                answer1: At this time, CORE only supports embedding video from YouTube. We plan to expand this feature to other video hosting services in the future. If there is a specific video hosting service that you would like available through CORE, please contact the <a class="underline-link" href="mailto:usarmy.pentagon.hqda-ocpa.mbx.army-core@mail.mil?subject=CORE Support - Video Request">CORE Support Team</a> to let us know how we can help.
+              - qa:
+                question: How do I change the video thumbnail?
+                answer1: It is not possible to customize a video thumbnail in CORE. You must change the image directly in YouTube.
+              - qa:
+                question: Why won't my video play on my article?
+                answer1: A thumbnail image of your video is displayed within the article body, so you are not able to play the video directly from your Edit Article page. If you want to preview the video, click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg"> in the main action bar and select <strong>Preview</strong> from the dropdown options. A rich version of the video embed will replace the thumbnail placeholder.
+              - qa:
+                question: Can I remove the related YouTube videos that appear after playing my video?
+                answer1: YouTube automatically displays related videos after a video finishes playing. This is a YouTube feature that isn't controlled by CORE and can't be disabled.
+              - qa:
+                question: Do plays on my article count in YouTube?
+                answer1: YouTube doesn't count views of embedded videos. However, YouTube provides a breakdown of where viewers are finding your videos. Learn more in <a class="underline-link" href="https://support.google.com/youtube/answer/1714323">YouTube Analytics documentation</a>.

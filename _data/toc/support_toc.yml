@@ -58,15 +58,15 @@
           url: /creating-content/wa/army_themes.html
         - title: Preview an article
           url: /creating-content/wa/preview_article.html
-    - title: Article Images
-      id: ai
-      sections: 
-        - title: Editing images
-          url: /creating-content/ai/editing_img.html
-        - title: Cropping images
-          url: /creating-content/ai/cropping_img.html
-        - title: Moving images
-          url: /creating-content/ai/moving_img.html
+#     - title: Article Images
+#       id: ai
+#       sections: 
+#         - title: Editing images
+#           url: /creating-content/ai/editing_img.html
+#         - title: Cropping images
+#           url: /creating-content/ai/cropping_img.html
+#         - title: Moving images
+#           url: /creating-content/ai/moving_img.html
     - title: Managing Articles
       id: ma
       sections: 
@@ -146,14 +146,12 @@
     - title: Articles on Page
       id: aop
       sections: 
-        - title: Latest News
+        - title: Customizing your Latest News
           url: /page-management/aop/latest_news.html
-        - title: Tagged News
+        - title: Customizing your Tagged News
           url: /page-management/aop/tagged_news.html
-        - title: Featured News
+        - title: Managing articles in a Featured News List
           url: /page-management/aop/featured_news.html
-        - title: Remove articles from Featured News
-          url: /page-management/aop/remove_articles.html
 
 - title: CORE Community
   id: core-community
@@ -197,16 +195,16 @@
           url: /best-practices/ap/quality_headlines.html
         - title: Selecting quality imagery
           url: /best-practices/ap/selecting_quality_imagery.html
-        - title: Army.mil Style Guide
-          url: /best-practices/ap/army_style_guide.html
+        - title: AP Stylebook quick reference
+          url: /best-practices/ap/ap_stylebook_quick_reference.html
+        - title: Commonly used terms
+          url: /best-practices/ap/commonly_used_terms.html
         - title: Tips for formatting text
           url: /best-practices/ap/formatting_text_tips.html
         - title: Keyboard shortcuts
           url: /best-practices/ap/keyboard_shortcuts.html
         - title: Tagging tips
           url: /best-practices/ap/tagging_tips.html
-        - title: Page navigation
-          url: /best-practices/ap/page_navigation.html
     - title: Content Optimization
       id: co
       sections: 

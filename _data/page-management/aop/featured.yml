@@ -2,10 +2,62 @@
 
   - title: Managing Articles
     articles:
-      - subtitle: Content Coming Soon
+      - subtitle: Managing article in a Featured News List
         sections:
-          - sectiontitle: First test section Starts Here
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
-            para2: This is a second paragraph for testing and content generation purposes. Here is the Army homepage website link, click <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
-          - sectiontitle: Second test section Starts Here            
-            para1: This is a placeholder paragraph. Here is a link to <a class="underline-link" href="https://www.army.mil/core">CORE</a>, the Army’s content management and publishing platform! Content will eventually populate this space on this topic, be patient!
+          - sectiontitle: 
+            para1: A <strong>Featured News List</strong> offers you the most control over articles that appear on your <a class="underline-link" href="../../page-management/ps/core_pages.html">CORE Page</a>. Unlike <a class="underline-link" href="./latest_news.html">Latest News</a> and <a class="underline-link" href="./tagged_news.html">Tagged News Lists</a> that automatically populate content as it is released by your team members, a Featured News List allows you to manually choose articles and select the order that they appear.
+            hr:
+          - sectiontitle: Things to consider
+            itemlist:
+              - listname: There are a few things to consider before you add a Featured News List on your Page
+                one: You must manually place each article and re-publish your Page to make updates appear live on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>. More control over your content requires more effort to keep it up-to-date.
+                two: <strong>Publishers</strong> and <strong>administrators</strong> have complete control over the articles that are featured on your Page. Team members that have permission to release an article CANNOT automatically publish content to your Page.
+                three: You can add, remove and change the order of articles that appear in this section. Continue reading below for more details on each of these customization options.
+            hr:
+          - sectiontitle: Add a Featured News section
+            numlist:
+              - listname: To add a Featured News List to your Page
+                one: Click on <strong>Page</strong> from the main menu.
+                two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your news list. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
+                five: In the <strong>News List</strong> lightbox editor, you can customize several options.
+                lexicon: 
+                - title: Section Title
+                  definition: Add an optional title for the section. You can also click the OFF button to hide the title on your page. 
+                - title: Choose a Source
+                  definition: Click on <strong>Source</strong> and select <strong>Featured News</strong> from the dropdown options. By default, the source is set to Latest News.
+                - title: Add a New Article
+                  definition: Search for specific released articles and add them to a custom news feed. To learn more, read <strong>Adding articles to Features News</strong> below.
+                - title: Customize Existing Articles
+                  definition: You can reorder or remove any articles that have been placed on your Page. See the sections below for more details on these customization options.
+                six: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. The new section will appear on your Page. 
+            hr:
+          - sectiontitle: Add articles to a Features News section
+            numlist: 
+              - listname:
+                one: Click on <strong>Add New Articles</strong> to open the Add Stories panel.
+                two: Locate the specific article that you would like to add to your News List. The most recently released articles from your organization are displayed.
+                three: Use the search box at the top of the panel to find any article that was released in CORE. You search by entering a topic, tag or article ID.
+                four: Once you’ve located the article that you want to add, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> on the far right side.
+                five: The <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> will turn into a <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> and a number <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/featured_news_number.png"> appears on the Add button at the bottom of the panel. This indicates that the article was added to your queue.
+                six: You can continue searching for articles and adding them to your queue. Once you are ready, click <strong>Add</strong>.
+                seven: The Add Article panel slides out of view and all of the articles in your queue are now listed in your News List lightbox.
+                eight: You can add more articles, as well as reorder or remove existing articles.
+                nine: When you are finished, click <strong>Add</strong> to close the lightbox and place your Featured News List on your Page.
+            tip: While you can add up to 30 articles to your Featured News List, we recommend that you limit the number of articles to six to nine articles per section. If you want to feature more news on your Page, consider adding multiple News Lists to categorize your content by topics or subordinate commands. This will allow your visitors to more easily scan your Page to find the content that is most relevant to them.
+            hr: 
+          - sectiontitle: Reorder your articles
+            numlist:
+              - listname: 
+                one: Hover over the article you want to move. Your cursor turns into a crosshair.
+                two: Click and drag the article to reorder.
+                three: Release the article when it’s in the desired position. You’ll see the articles reorder on your page layout, as well.
+                four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.
+            hr:
+          - sectiontitle: Remove an article
+            numlist: 
+              - listname: 
+                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the article that you would like to remove.
+                two: Click <strong>Save</strong> to close the lightbox.
+            note: If you remove an article by accident, you can recover it by clicking <strong>Cancel</strong> on the News List lightbox. All of your changes will be reverted and the deleted article will reappear on your Page. Once you click <strong>Save</strong> on the News List lightbox, you will have to manually re-add any articles that were removed.

@@ -56,23 +56,15 @@
                 five: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> in the bottom right corner of the Edit Document lightbox.
                 six: Click <strong>Delete</strong> from the confirmation dialog box.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: I have a new version of my document. Can I replace the existing document?
-            para1: At this time, you can not overwrite an old version of your document by uploading a new version. When you upload the new version, it will have a different URL.
-          - sectiontitle:
-            paratitle: Can I change the URL for my document?
-            para1: If you want to customize the URL to your document, you must change the filename prior to uploading it to CORE.
-          - sectiontitle:
-            paratitle: Where do I find the link to my file?
-            para1: There are two ways to access the direct URL to your document.
-            numlist: 
-              - listname: OPTION 1 - From article body
-                one: Click on the link text in your article to open the Edit Link dialog box.
-                two: Click on the document filename to open your document in a new browser tab.
-                three: Copy the URL from your browser’s address bar.
-          - sectiontitle:
-            numlist: 
-              - listname: OPTION 2 - From Add Documents lightbox
-                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg"> icon in the WYSIWYG Toolbar to open the lightbox editor. 
-                two: Upload a new file, or click <strong>Show Previous Uploads</strong> to add an existing file to your document queue.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon on your document thumbnail to open a Document Details panel.
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: I have a new version of my document. Can I replace the existing document?
+                answer1: At this time, you can not overwrite an old version of your document by uploading a new version. When you upload the new version, it will have a different URL.
+              - qa:
+                question: Can I change the URL for my document?
+                answer1: If you want to customize the URL to your document, you must change the filename prior to uploading it to CORE.
+              - qa:
+                question: Where do I find the link to my file?
+                answer1: The easiest way to access a direct URL to your document is to click on the link text in your article. From the Edit Link dialog box, click on the document filename to open your document in a new browser tab. Simply copy the URL from your browser’s address bar.

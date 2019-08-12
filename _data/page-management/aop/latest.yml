@@ -2,7 +2,7 @@
 
   - title: Managing Articles
     articles:
-      - subtitle: Latest News List
+      - subtitle: Customizing your Latest News
         sections:
           - sectiontitle:
             para1: A <strong>Latest News List</strong> is the easiest way to keep the content on your organization page fresh with minimal effort. This content section will auto-populate with the most recently released articles from every member of your organization. 
@@ -30,8 +30,11 @@
                 nine: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. 
             para1: You’ll notice that a News List section is now added to your Page and is populated with your organization’s most recently released articles. To update this content in this list, you or a team member with release authority simply needs to approve new articles from your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a>. No need to re-publish your Page.
             hr:
-          - sectiontitle: Frequently Asked Questions
-            paratitle: Why don’t I see articles in my Latest News List?
-            para1: This likely means that no articles have been released from your organization yet. Navigate to your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a> and make sure you have at least one article in the Released list. If not, you or a member of your team will need to <a class="underline-link" href="../../creating-content/wa/create_article.html">create a new article</a> and send it through the content approval process. 
-            para2: You may also consider changing this content section to a <a class="underline-link" href="./tagged_news.html">Tagged News List</a>, which will auto-populate with all released articles that contain a specific tag. This allows you to utilize the CORE Community to keep your page updated with topics that interest your audience.
+          - sectiontitle: 
+            faq:
+              - title: Frequently Asked Questions
+              - qa:
+                question: Why don’t I see articles in my Latest News List?
+                answer1: This likely means that no articles have been released from your organization yet. Navigate to your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a> and make sure you have at least one article in the Released list. If not, you or a member of your team will need to <a class="underline-link" href="../../creating-content/wa/create_article.html">create a new article</a> and send it through the content approval process. 
+                answer2: You may also consider changing this content section to a <a class="underline-link" href="./tagged_news.html">Tagged News List</a>, which will auto-populate with all released articles that contain a specific tag. This allows you to utilize the CORE Community to keep your page updated with topics that interest your audience.
 
