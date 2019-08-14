@@ -50,7 +50,7 @@
                 one: Hover over the category you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the category title to reorder.
                 three: Release the category title when it’s in the desired position. You’ll see the titles reorder on your Page, as well.
-                four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_reorder_accordion.jpg">
+                four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_reorder_accordion.png">
             hr: 
           - sectiontitle: Remove an existing category
             numlist: 
