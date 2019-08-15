@@ -11,8 +11,8 @@
             numlist:
               - listname: To access a tag feed
                 one: Click <strong>All Content</strong> on the main menu, or search for a specific keyword using the global search at the top of your screen.
-                two: From the list of released articles, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). <img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_all_content_article_with_tags.png">
-                three: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_multiple_article_tag_feed.png">
+                two: From the list of released articles, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action). <img class="data-img" src="/e2/images/rv7/core/support/creating-content/rc/rc_all_content_article_with_tags.png">
+                three: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/rc/rc_multiple_article_tag_feed.png">
             hr:
           - sectiontitle: Get your content to appear in tag feeds
             para1: You can add relevant tags to your article at any time during the content creation and publishing process. Once released, your content will automatically appear in the <a class="underline-link" href="./all_content.html">search results</a>, Tag Feeds and <a class="underline-link" href="../../page-management/aop/tagged_news.html">Tagged News Lists</a> of any tags you use, allowing people to find related articles around that topic. To learn more about how to add tags, visit <a class="underline-link" href="../../creating-content/wa/tags.html">Tags</a>.

@@ -19,8 +19,8 @@
               - listname: To add a Featured News List to your Page
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your news list. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
-                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted. 
+                four: Click <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
                 five: In the <strong>News List</strong> lightbox editor, you can customize several options.
                 lexicon: 
                 - title: Section Title
@@ -39,8 +39,8 @@
                 one: Click on <strong>Add New Articles</strong> to open the Add Stories panel.
                 two: Locate the specific article that you would like to add to your News List. The most recently released articles from your organization are displayed.
                 three: Use the search box at the top of the panel to find any article that was released in CORE. You search by entering a topic, tag or article ID.
-                four: Once you’ve located the article that you want to add, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> on the far right side.
-                five: The <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"> will turn into a <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> and a number <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/featured_news_number.png"> appears on the Add button at the bottom of the panel. This indicates that the article was added to your queue.
+                four: Once you’ve located the article that you want to add, click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"> on the far right side.
+                five: The <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"> will turn into a <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/release_article.svg"> and a number <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/featured_news_number.png"> appears on the Add button at the bottom of the panel. This indicates that the article was added to your queue.
                 six: You can continue searching for articles and adding them to your queue. Once you are ready, click <strong>Add</strong>.
                 seven: The Add Article panel slides out of view and all of the articles in your queue are now listed in your News List lightbox.
                 eight: You can add more articles, as well as reorder or remove existing articles.
@@ -58,6 +58,6 @@
           - sectiontitle: Remove an article
             numlist: 
               - listname: 
-                one: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located to the far right of the article that you would like to remove.
+                one: Click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/x_icon.svg"> located to the far right of the article that you would like to remove.
                 two: Click <strong>Save</strong> to close the lightbox.
             note: If you remove an article by accident, you can recover it by clicking <strong>Cancel</strong> on the News List lightbox. All of your changes will be reverted and the deleted article will reappear on your Page. Once you click <strong>Save</strong> on the News List lightbox, you will have to manually re-add any articles that were removed.

@@ -21,9 +21,9 @@
               - listname: 
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select the tab that you want to edit from the navigation bar. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add sections to a single page layout.)
-                three: Hover over the area where you want to add a section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear showing you where you are able to insert a new section.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content.png">
-                four: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open the Section menu.
-                five: In the menu, select the type of section that you want to add.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dropdown.png">
+                three: Hover over the area where you want to add a section. An <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear showing you where you are able to insert a new section.<img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_add_content.png">
+                four: Click <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open the Section menu.
+                five: In the menu, select the type of section that you want to add.<img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_add_content_dropdown.png">
                 six: A lightbox editor will open, allowing you to customize the section. To learn about the options available in each section, click on the section types listed above.
                 seven: Once you’ve finished editing your section, click <strong>Add</strong> to close the lightbox. The new section will appear on the Page with placeholder content. 
             note: Once you’ve added multiple content sections to your Page, you can rearrange them to create a custom page layout. To learn more, visit <a class="underline-link" href="./move_content_section.html">Move a Content Section</a>.
@@ -31,10 +31,10 @@
           - sectiontitle: Edit an existing section
             numlist: 
               - listname: 
-                one: From your <strong>Edit Page</strong> screen, hover over the content section that you want to update. A <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button will appear in the top-right corner of the section.
-                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> button to open the lightbox editor.
+                one: From your <strong>Edit Page</strong> screen, hover over the content section that you want to update. A <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/edit.svg"> button will appear in the top-right corner of the section.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/edit.svg"> button to open the lightbox editor.
                 three: Edit the section title and customize additional options, depending on the type of section. You will see your changes immediately reflected on your Page. Click <strong>Cancel</strong> if you want to revert these changes.
-                four: You can also <a class="underline-link" href="./delete_content_section.html">delete a section</a> by clicking the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
+                four: You can also <a class="underline-link" href="./delete_content_section.html">delete a section</a> by clicking the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/delete.svg"> button in the bottom right corner of the lightbox.
                 five: Once you’ve finished editing your section, click <strong>Save</strong> to close the lightbox.
             hr: 
           - sectiontitle: 

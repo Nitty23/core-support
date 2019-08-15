@@ -13,7 +13,7 @@
                 two: Hosted on Army.mil domain (URL format&#58; www.army.mil/<em>organization_name</em>)
                 three: Branded, mobile-optimized template
                 four: Tied to your organization’s article submission and review process
-            image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/page-management/ps/ps_pages_on_multiple_devices.jpg">
+            image1: <img class="data-img-no-border" src="/e2/images/rv7/core/support/page-management/ps/ps_pages_on_multiple_devices.jpg">
             hr:
           - sectiontitle: CORE Page requirements
             numlist:

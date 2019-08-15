@@ -13,7 +13,7 @@
               - listname: 
                 one: Click on <strong>Community</strong> from the main menu.
                 two: From <strong>My Organization</strong> page, locate the user that you want to remove from your team member list. 
-                three: Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.
+                three: Click the<img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">located at the far right side.
                 four: Select <strong>Remove from Organization</strong> from the dropdown options. 
                 five: Select <strong>Remove</strong> from the confirmation dialog box.
             para2: The user will immediately be removed from your team member list, and an email will be sent to notify the user that he/she has been removed from your organization. 

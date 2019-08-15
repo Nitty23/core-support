@@ -10,10 +10,10 @@
             numlist:
               - listname: 
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>Import from DVIDS</strong> to open the import tool. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids1.png">
-                three: Paste the URL of the DVIDS article you'd like to import into the search field. You can also search by keyword, author, unit or story ID.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_import_from_dvids2.png">
-                four: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/dvids_import.svg"> button located at the far right side.
-                five: Select one of the two import options from the dropdown menu. <br> <strong>OPTION 1 - Import as Draft</strong> will open an editable version of the article. <br> <strong>OPTION 2 - Import as Released</strong> will automatically publish the article on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_dvids_drop_down.png">
+                two: Click <strong>Import from DVIDS</strong> to open the import tool. <img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_import_from_dvids1.png">
+                three: Paste the URL of the DVIDS article you'd like to import into the search field. You can also search by keyword, author, unit or story ID.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_import_from_dvids2.png">
+                four: Click the <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/dvids_import.svg"> button located at the far right side.
+                five: Select one of the two import options from the dropdown menu. <br> <strong>OPTION 1 - Import as Draft</strong> will open an editable version of the article. <br> <strong>OPTION 2 - Import as Released</strong> will automatically publish the article on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_dvids_drop_down.png">
                 six: From your imported article page, notice the article status displayed at the top of the right sidebar. The status reflects the option that you chose in the previous step - Draft or Released.
                 seven: Edit the article and click <strong>Release</strong> to publish it on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>.
             para1: Articles that are imported as released will automatically be backdated to the original publish date in DVIDS. However, if you make any changes to the article in CORE and then re-publish it, then the release date will be updated.
@@ -25,7 +25,7 @@
             numlist:
               - listname:
                 one: From the <strong>DVIDS Import</strong> tool, locate the article that you want.
-                two: Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">icon.
+                two: Click the<img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">icon.
                 three: Click <strong>View CORE Article</strong> to go to the imported article.
             para2: From the article page, you can view important information in the <a class="underline-link" href="./article_settings.html">Article Settings</a>, such as the article ID, release status, link on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>, and history log. With this information, you can add the article to your Page, share it on social media, or contact the CORE user who imported if changes are needed.
             hr: 

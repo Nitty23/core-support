@@ -33,7 +33,7 @@
                 two: From the <strong>Profile</strong> tab, click <strong>Enter your social media link</strong> located at the bottom of the page.
                 three: Copy and paste or type the link to your social media account.
                 four: A corresponding platform icon appears next to all accepted social media platforms. Clicking on this icon will direct you to the social media account, allowing you to test the link before it appears on your profile.
-                five: Once you have verified the link, click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/right_arrow.svg"> or hit <strong>Enter</strong> on your keyboard.
+                five: Once you have verified the link, click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/right_arrow.svg"> or hit <strong>Enter</strong> on your keyboard.
                 six: If you add multiple social media accounts, you can drag and drop each account to reorder the corresponding icons in your profile.
             learn: At this time, adding your social media accounts does not allow CORE to post anything to your account. We plan to work on the capability to post directly to your platforms in the future.
             hr:
@@ -41,5 +41,5 @@
             numlist:
               - listname: 
                 one: Locate your social media links at the bottom of your <strong>Profile</strong>.
-                two: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> next to the account you want to remove.
-            note: You can also customize your social media accounts directly from your profile on the User Directory or My Organization page. Simply locate your name in either directory and click on the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side. Select <strong>Edit Profile & Settings</strong> from the dropdown options and customize your social media links from the lightbox. To learn more, visit <a class="underline-link" href="../../core-community/mo/navigating_my_organization.html">Navigating My Organization</a>.
+                two: Click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/x_icon.svg"> next to the account you want to remove.
+            note: You can also customize your social media accounts directly from your profile on the User Directory or My Organization page. Simply locate your name in either directory and click on the<img class="art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">located at the far right side. Select <strong>Edit Profile & Settings</strong> from the dropdown options and customize your social media links from the lightbox. To learn more, visit <a class="underline-link" href="../../core-community/mo/navigating_my_organization.html">Navigating My Organization</a>.

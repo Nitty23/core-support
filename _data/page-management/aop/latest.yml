@@ -21,12 +21,12 @@
               - listname: To add a Latest News List to your Page
                 one: Click on <strong>Page</strong> from the main menu.
                 two: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your news list. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="../../page-management/pl/page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted.<img class="data-img" src="/e2/images/rv7/core-support/page-management/aop/aop_add_content.png">
+                three: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> marker will appear, showing you where a new section can be inserted.<img class="data-img" src="/e2/images/rv7/core/support/page-management/aop/aop_add_content.png">
                 four: Click  <strong>Add Section</strong> to open a dropdown menu.
-                five: Select <strong>News List</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/aop/aop_add_content_newslist.png">
+                five: Select <strong>News List</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core/support/page-management/aop/aop_add_content_newslist.png">
                 six: In the <strong>News List</strong> lightbox editor, enter a title for your section. This is an optional field, so you can also click the OFF button to hide the title on your page. 
                 seven: By default, the source is set to <strong>Latest News</strong>.
-                eight: To change the number of articles that appear in the feed, click on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_square.svg"> and <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/minus_square.svg"> buttons. You can display up to 30 articles.
+                eight: To change the number of articles that appear in the feed, click on the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_square.svg"> and <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/minus_square.svg"> buttons. You can display up to 30 articles.
                 nine: Once you’ve finished setting up your section, click <strong>Add</strong> to close the lightbox. 
             para1: You’ll notice that a News List section is now added to your Page and is populated with your organization’s most recently released articles. To update this content in this list, you or a team member with release authority simply needs to approve new articles from your <a class="underline-link" href="../../creating-content/ma/inbox_101.html">Inbox</a>. No need to re-publish your Page.
             hr:
