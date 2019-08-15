@@ -27,14 +27,14 @@
                 one: Click on <strong>Community</strong> from the main menu.
                 two: From <strong>My Organization</strong> page, you’ll see a list of your team members and their roles.
                 three: You can quick link to a user’s email or social media platforms by clicking on the icons on the far right.
-                four: Click on a team member’s name to open a profile card containing contact information, social media accounts, and other user information.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_team_member_profile.png">
+                four: Click on a team member’s name to open a profile card containing contact information, social media accounts, and other user information.<img class="data-img" src="/e2/images/rv7/core/support/core-community/mo/mo_team_member_profile.png">
             hr:
           - sectiontitle: Edit your profile
             numlist:
               - listname: 
                 one: Locate your name at the top of the team roster on <strong>My Organization</strong> page. 
-                two: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_edit_profile_dropdown.png">
-                three: Select <strong>Edit Profile & Settings</strong> from the dropdown options. This opens a lightbox with the same profile information that is editable in your <a class="underline-link" href="http://core.ardev.us/settings">Account Settings</a>.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_edit_profile.png">
+                two: Click the<img class="art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core/support/core-community/mo/mo_edit_profile_dropdown.png">
+                three: Select <strong>Edit Profile & Settings</strong> from the dropdown options. This opens a lightbox with the same profile information that is editable in your <a class="underline-link" href="http://core.ardev.us/settings">Account Settings</a>.<img class="data-img" src="/e2/images/rv7/core/support/core-community/mo/mo_edit_profile.png">
                 four: When you’re done making changes, click <strong>Update</strong> button at the bottom of the Edit Profile lightbox.
             learn: Learn more about <a class="underline-link" href="../../getting-started/as/your_profile.html">Your Profile</a>.
             hr:
@@ -43,7 +43,7 @@
             numlist:
               - listname: 
                 one: Locate your name at the top of the team roster on <strong>My Organization</strong> page. 
-                two: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/core-community/mo/mo_change_org_dropdown.png">
+                two: Click the<img class="art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core/support/core-community/mo/mo_change_org_dropdown.png">
                 three: Select <strong>Change Organization</strong> from the dropdown options. This opens the Change Organization lightbox as your Profile.
                 four: Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory. 
                 five: Select an organization from the list.

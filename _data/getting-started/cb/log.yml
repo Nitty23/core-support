@@ -10,13 +10,13 @@
             para1: Whether you’re a new user trying to create an account or a more experienced member of the CORE community, you can login to CORE using EAMS-A with just a few clicks.
             numlist:
               - listname: 
-                one: From the <a class="underline-link" href="https://static.ardev.us/core/">CORE homepage</a>, click Login with EAMS-A in the page banner. This will direct you to the EAMS-A Single Sign-On page. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_eamsa_signon.png">
+                one: From the <a class="underline-link" href="https://static.ardev.us/core/">CORE homepage</a>, click Login with EAMS-A in the page banner. This will direct you to the EAMS-A Single Sign-On page. <img class="data-img" src="/e2/images/rv7/core/support/getting-started/cb/gs_cb_eamsa_signon.png">
                 two: There are two ways to login to CORE from EAMS-A Single Sign-On page.
                 sublist:
                   noname:
                   one: Insert your CAC into a card reader and click <strong>CAC/PKI Login</strong>.
                   two: If you do not have a CAC reader, enter your AKO username and password and click <strong>Login</strong>.
-                three: Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/cb/gs_cb_core_dashboard.png">
+                three: Once your account has been successfully authenticated, you will be redirected to the CORE Dashboard. <img class="data-img" src="/e2/images/rv7/core/support/getting-started/cb/gs_cb_core_dashboard.png">
           - sectiontitle:
             learn: <strong>First time user?</strong> If you are logging into CORE for the first time, you will be directed to an account creation page. You will be prompted to join an organization to ensure that your content is pushed to the proper chain of command. Once you join an organization, you can set up <a class="underline-link" href="./your_profile.html">your profile</a> or navigate to the CORE Dashboard.
             hr: 

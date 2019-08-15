@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                     src: [
                         '_js/bundled/core-support.js'
                     ],
-                    dest: 'e2/js/rv7/core-support/<%= pkg.name %>.min.js'
+                    dest: 'e2/js/rv7/core/support/<%= pkg.name %>.min.js'
                 }]
             }
         },
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'e2/css/rv7/core-support/style.css': '_scss/_style.scss'
+                    'e2/css/rv7/core/support/style.css': '_scss/_style.scss'
                 }
             }
         }

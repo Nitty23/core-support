@@ -11,12 +11,12 @@
             numlist: 
               - listname: 
                 one: To start, you must <a class="underline-link" href="https://support.google.com/youtube/answer/57407">upload your video(s) to YouTube</a>.
-                two: Once your video is uploaded, copy the URL from your browser’s address bar.<br> <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_copy_video_url.png"><br>Accepted YouTube URLs will look something like this<br> <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a><br><strong>Playlist</strong> - <br><a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
+                two: Once your video is uploaded, copy the URL from your browser’s address bar.<br> <img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_copy_video_url.png"><br>Accepted YouTube URLs will look something like this<br> <strong>Single Video</strong> - <a class="underline-link" href="https://www.youtube.com/watch?v=jv96WKme3Mo">https://www.youtube.com/watch?v=jv96WKme3Mo</a><br><strong>Playlist</strong> - <br><a class="underline-link" href="https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy">https://www.youtube.com/playlist?list=PL7Wkp7VPLbaryA085e_9PSNkDcAUb4qxy</a>
                 three: In CORE, click on <strong>Page</strong> from the main menu.
                 four: From your <strong>Edit Page</strong> screen, select a tab in the navigation bar where you want to add your video section. (If you don’t see a navigation bar below your header, you can <a class="underline-link" href="./page_navigation.html">add navigation</a> or simply add the section to a single page layout.)
-                five: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Content</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_page_add_content.png">
-                six: Click <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
-                seven: Select <strong>Video</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_add_content_dd_videos.png">
+                five: Hover over the area on the page where you want to add your section. An <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Content</strong> marker will appear, showing you where a new section can be inserted. <img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_page_add_content.png">
+                six: Click <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add Section</strong> to open a dropdown menu.
+                seven: Select <strong>Video</strong> in the menu.<img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_add_content_dd_videos.png">
                 eight: In the <strong>Video</strong> lightbox editor, you can customize several options.
                 lexicon:
                 - title: Section Title
@@ -30,7 +30,7 @@
             note: Only public videos will display properly on your Page.
             hr:
           - sectiontitle: Sample
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/page-management/pl/pl_video_sample.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_video_sample.png">
             learn: Learn how to <a class="underline-link" href="./move_content_section.html">move</a> and <a class="underline-link" href="./delete_content_section.html">delete</a> a content section.
             hr:
           - sectiontitle: 

@@ -11,18 +11,18 @@
               - listname: OPTION 1 - From your Inbox
                 one: Click on <strong>Inbox</strong> from the main menu.
                 two: Click on the <strong>Released</strong> folder.
-                three: Click the title or <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> to open your article.
-                four: Each article has a status section at the top of the right column. You’ll see the total number of pageviews that your article has received since it was released. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_stat_sidebar.png">
+                three: Click the title or <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/edit.svg"> to open your article.
+                four: Each article has a status section at the top of the right column. You’ll see the total number of pageviews that your article has received since it was released. <img class="data-img" src="/e2/images/rv7/core/support/creating-content/ma/ma_stat_sidebar.png">
           - sectiontitle: 
             numlist: 
               - listname: OPTION 2 - From your All Content
                 one: Click on <strong>All Content</strong> from the main menu.
                 two: Search for the article(s) that you want statistics for. Use filters on the right column to narrow your search results.
-                three: Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/graph.svg"> to open analytics details. Click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/graph.svg"> again to close.
+                three: Click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/graph.svg"> to open analytics details. Click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/graph.svg"> again to close.
             note: Your article must be released in order to view these features.
             hr:
           - sectiontitle: Understanding analytics details
-            para1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/ma/ma_analytics_details.png">
+            para1: <img class="data-img" src="/e2/images/rv7/core/support/creating-content/ma/ma_analytics_details.png">
             para2: <strong>Total Pageviews</strong> are the total number of views your article has received since the release date. Repeated views of a single page are counted.
             para3: The <strong>line chart</strong> represents traffic over the last thirty days, giving you a visualization of audience interest over time. Hover over any date to see how many views you received on that day.
             hr:

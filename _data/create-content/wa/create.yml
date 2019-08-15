@@ -11,11 +11,11 @@
             numlist:
               - listname:
                 one: Click <strong>Create</strong> on the main menu.
-                two: Click <strong>New Article</strong> to open a draft article page. <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_create_new_article300.png">
+                two: Click <strong>New Article</strong> to open a draft article page. <img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_create_new_article300.png">
             hr:
           - sectiontitle: Step 2 - Add a title
             para1: Click in the <strong>Title</strong> box at the top of your new draft and enter a title for your article. The title must be 100 characters or fewer.
-            image1: <img class="data-img-no-border" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_title_animation.gif">
+            image1: <img class="data-img-no-border" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_add_title_animation.gif">
             note: The title is what grabs your reader’s attention and draws them into reading your article. For tips on how to make your title more inviting, visit <a class="underline-link" href="../../best-practices/ap/headlines.html">The Importance of a Quality Headline</a>.
             hr:
           - sectiontitle: Step 3 - Customize the author
@@ -26,14 +26,14 @@
                 one: Click on the creator’s name to activate the author field.
                 two: Edit your name, or change it to another person’s name altogether.
                 three: If you co-wrote an article, click on <strong>Add an author...</strong> and enter a new name.
-                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_authors_animation.gif">
+                four: Click <strong>Enter</strong> on your keyboard or simply leave the input field to apply changes.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_add_authors_animation.gif">
             hr:
           - sectiontitle: Step 4 - Write and format
             para1: Your new draft includes a basic text box to help you get started. Click <strong>Start typing, or copy and paste your article here…</strong>
             numlist:  
               - listname: Formatting options are available in the WYSIWYG Text Toolbar, located just above your article. To apply some basic formatting
                 one: Highlight a word or phrase you want.
-                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_text_format_bar.png">
+                two: Click on <strong>Formatting Options</strong> in the toolbar.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_text_format_bar.png">
             note: Check out Formatting Text to learn more about all the formatting features.
             hr:
           - sectiontitle: Step 5 - Add media
@@ -41,17 +41,17 @@
             numlist:  
               - listname: To add an image, document or video
                 one: Go to a new line in your article body and position your cursor where you want to insert your media element.
-                two: Click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/image_icon.svg">, <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/document.svg">, or <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/video.svg"> in the WYSIWYG Toolbar.
+                two: Click the <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/image_icon.svg">, <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/document.svg">, or <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/video.svg"> in the WYSIWYG Toolbar.
                 sublist: 
-                  listname: A lightbox editor will appear, depending on the type of media that you selected to insert <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_media_upload.png">
-                  one: For <strong>Images</strong> or <strong>Documents</strong>, click the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/upload.svg"> <strong>Drag & Drop</strong> placeholder box.
+                  listname: A lightbox editor will appear, depending on the type of media that you selected to insert <img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_add_media_upload.png">
+                  one: For <strong>Images</strong> or <strong>Documents</strong>, click the <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/upload.svg"> to browse and upload images from your desktop. You can also drag and drop files on top of the <img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/upload.svg"> <strong>Drag & Drop</strong> placeholder box.
                   two: For <strong>Videos</strong>, click <strong>Enter a YouTube link…</strong> and paste the YouTube video URL.
                 four: Click <strong>Insert</strong> to close the lightbox and place your image, video embed, or link to a document in the article.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_video_lightbox.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_add_video_lightbox.png">
             learn: To learn more about adding and editing media in your articles, visit <a class="underline-link" href="../../creating-content/wa/images.html">Images</a>, <a class="underline-link" href="../../creating-content/wa/videos.html">Videos</a>, <a class="underline-link" href="../../creating-content/wa/docs.html">Documents</a>.
             hr:
           - sectiontitle: Step 6 - Add Army Themes and tags
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_adding_tags_and_themes.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_adding_tags_and_themes.png">
             para1: You can organize your article by relevant topics by adding tags and Army Themes to your Article Settings sidebar. 
             para2: <strong>Tags</strong> categorize your content by keywords, allowing more people to discover it on CORE and Army.mil. They are used in search results, in custom news feeds, as well as on published articles under Related Stories.
             numlist:  
@@ -59,14 +59,14 @@
                 one: Click <strong>Add a tag…</strong> in the right sidebar.
                 two: Enter a topic or keyword. As you type, CORE will auto-suggest popular tags along with the number of times that each tag has been added to an article.
                 three: Continue typing and click <strong>Enter</strong> on your keyboard to add a new tag, or select a popular tag from the dropdown list to increase the chance that your article is discovered.
-                four: You can add more tags, or remove a tag by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_themes_and_tags_sidebar.png">
+                four: You can add more tags, or remove a tag by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_themes_and_tags_sidebar.png">
           - sectiontitle: 
             para1: <strong>Army Themes</strong> are categories that align your article with the Secretary of the Army’s priorities. This allows Army public affairs professionals to track their organization’s communication efforts. To learn more about these priorities, visit the <a class="underline-link" href="https://army.deps.mil/army/cmds/OCPA/PAPortal/SitePages/Home.aspx">Public Affairs Portal</a> (CAC access required for login).
             numlist:  
               - listname: To add an Army Theme
                 one: Click <strong>Add a strategic theme…</strong> in the right sidebar.
-                two: Select a theme from the dropdown list. The theme will appear as a tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_theme_dropdown_list.png">
-                three: You can add more themes, or remove a theme by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/wa/cc_wa_add_remove_theme.png">
+                two: Select a theme from the dropdown list. The theme will appear as a tag.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_theme_dropdown_list.png">
+                three: You can add more themes, or remove a theme by clicking the <strong>X</strong> to the right of the tag.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/wa/cc_wa_add_remove_theme.png">
             note: Although you can add multiple tags and themes to your article, we recommend only adding <strong>1 or 2 themes and up to 5 tags per article</strong> to streamline your communication efforts.
           - sectiontitle: 
             learn: CORE offers more customization options to finalize your article, to include editing SEO metadata and connecting to Google Analytics. To learn more, visit <a class="underline-link" href="../../creating-content/wa/article_settings.html">Article Settings</a>

@@ -10,8 +10,8 @@
             numlist:  
               - listname:
                 one: Click on your avatar in the top-right corner of the page.
-                two: In the dropdown, click <strong>Profile & Settings</strong> from the dropdown. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
-                three: From the <strong>Profile</strong> tab, your current organization is also displayed at the top with the option to change to a new organization. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_acct_settings_profile.png">
+                two: In the dropdown, click <strong>Profile & Settings</strong> from the dropdown. <img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_john_doe_profile_dropdown.png">
+                three: From the <strong>Profile</strong> tab, your current organization is also displayed at the top with the option to change to a new organization. <img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_acct_settings_profile.png">
             hr: 
           - sectiontitle: Change your home organization
             para1: There are two ways to change your organization affiliation in CORE.
@@ -20,16 +20,16 @@
             numlist:  
               - listname: 
                 one: From the <strong>Profile</strong> tab, your current organization is displayed at the top.
-                two: Click <strong>Change Organization</strong>.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_organization.png">
-                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_dropdown_list.png">
+                two: Click <strong>Change Organization</strong>.<img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_change_organization.png">
+                three: In the <strong>Change Organization</strong> lightbox, enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory.<img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_change_org_dropdown_list.png">
                 four: Select an organization from the auto-suggested list.
-                five: Click <strong>Update</strong> to confirm your new organization. <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_change_org_update.png">
+                five: Click <strong>Update</strong> to confirm your new organization. <img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_change_org_update.png">
           - sectiontitle:
             para1: <strong>OPTION 2 - From My Organization&#58;</strong>
             numlist:  
               - listname: 
                 one: Click <strong>Community</strong> in the main menu.
-                two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the<img class= "art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_edit_profile_ellipsis.png">
+                two: From your <strong>My Organization</strong> page, locate your name at the top of your team member list. Click the<img class= "art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">located at the far right side.<img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_edit_profile_ellipsis.png">
                 three: Select <strong>Change Organization</strong> from the dropdown options. 
                 four: This opens the same <strong>Change Organization</strong> lightbox as your Profile. Enter your new organization into the search box. CORE will autosuggest organizations that match your search term, based on the full names and abbreviations that are in the Organization Directory.
                 five: Select an organization from the auto-suggested list.
@@ -37,7 +37,7 @@
           - sectiontitle: 
             para1: You will notice that your organization and team members automatically change on My Organization tab. All articles that you create are now associated with the new organization and will be pushed to the appropriate change of command.
             note: Changing your organization also changes your permissions level to a contributor. Please contact the administrator(s) of your new organization to upgrade your role, if needed. You can locate contact information for your administrator(s) on your <a class="underline-link" href="http://core.ardev.us/community">My Organization</a> page.
-            image1: <img class="data-img" src="/e2/images/rv7/core-support/getting-started/as/gs_as_my_organization.png">
+            image1: <img class="data-img" src="/e2/images/rv7/core/support/getting-started/as/gs_as_my_organization.png">
             hr: 
           - sectiontitle: 
             faq:

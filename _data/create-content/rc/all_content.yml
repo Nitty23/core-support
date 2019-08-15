@@ -32,8 +32,8 @@
             para1: You can do a simple keyword search to find articles based on a particular topic. However, your search results will include articles that reference your keyword in multiple locations, including the title, body copy, metadata, tags and more. <a class="underline-link" href="../../creating-content/rc/tag_feeds.html">Tag feeds</a> allow you to filter your results to display only articles that contain a specific <a class="underline-link" href="../../creating-content/wa/tags.html">tag</a>.
             numlist: 
               - listname: To filter articles by a tag
-                one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action).<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_all_content_article_with_tags.png">
-                two: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core-support/creating-content/rc/rc_filter_articles_by_tags.png">
+                one: From the <strong>All Content</strong> feed, locate an article with the tag that you are interested in. Tags are displayed underneath the article information (e.g., title, ID, author, and last action).<img class="data-img" src="/e2/images/rv7/core/support/creating-content/rc/rc_all_content_article_with_tags.png">
+                two: Click on the tag to open the Tag Feed containing all recently released articles that have been tagged with the keyword.<img class="data-img" src="/e2/images/rv7/core/support/creating-content/rc/rc_filter_articles_by_tags.png">
             hr:
           - sectiontitle: Select a custom date range
             para1: You can filter articles by the released date. By default, your feed will display articles released within the Last week with the most recent first. You can select from the following pre-determined options - Last week, Last month, Last 90 days, Last year - or select a custom date range.
@@ -41,13 +41,13 @@
               - listname: To select a custom date range
                 one: From the <strong>All Content</strong> page, locate the <strong>Date Released</strong> filter on the right sidebar.
                 two: Click <strong>Custom Range</strong>.
-                three: Click <strong>Starting</strong> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to open a calendar module.
+                three: Click <strong>Starting</strong> or the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/calendar.svg"> to open a calendar module.
                 four: Use the left and right arrows to change the calendar month, if needed.
                 five: Click on the date you want to start filtering articles. Your selected date will appear next to the Starting label, and the news feed will automatically filter to display all articles after the selected date.
-                six: If you would like to change the end date from today, click <strong>Ending</strong> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg"> to open another calendar module.
+                six: If you would like to change the end date from today, click <strong>Ending</strong> or the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/calendar.svg"> to open another calendar module.
                 seven: Click on the date you want to stop filtering articles. Your selected end date will appear next to the End label, and the news feed will automatically filter to display all articles after the selected start date and before the selected end date.
             para2: To change a selected date, click on the starting or ending date and choose a different date from the calendar module.
-            para3: To remove a custom date filter, simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> icon located to the right of your selected date.
+            para3: To remove a custom date filter, simply click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/x_icon.svg"> icon located to the right of your selected date.
             note: You do not have to select a date range. For extra customization options, you can choose to set a Start date, an End date, or both to customize your date range. The news feed will automatically adjust to display articles before, after or between your selected dates.
             hr:
           - sectiontitle: 

@@ -11,8 +11,8 @@
             numlist:
               - listname: To access articles pending your review
                 one: Click <strong>Inbox</strong> on the main menu.
-                two: From your <strong>Drafts and Submissions</strong> tab, locate the article that you want to review. A yellow label is displayed above all articles that are pending your review.<img src="/e2/images/rv7/core-support/creating-content/ma/ma_pending_review_label.jpg">
-                three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/edit.svg"> icon to open the article page.
+                two: From your <strong>Drafts and Submissions</strong> tab, locate the article that you want to review. A yellow label is displayed above all articles that are pending your review.<img src="/e2/images/rv7/core/support/creating-content/ma/ma_pending_review_label.jpg">
+                three: Click the title or on the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/edit.svg"> icon to open the article page.
                 four: Make any necessary changes to the article.
                 five: Once you’re done reviewing, you have a few options
             table:
@@ -23,10 +23,10 @@
               - col1: Approve the article for publication on <a class="underline-link" href="https://www.army.mil">www.army.mil</a>
                 col2: Click <strong>Release</strong> at the top right of the action toolbar.
               - col1: Schedule the article to publish in the future
-                col2: Click the<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
+                col2: Click the<img class="art-icons" src="/e2/images/rv7/core/support/ui-media/calendar.svg">. Select a date and time and click the <strong>Schedule for Release</strong> button. To learn more, visit <a class="underline-link" href="../../creating-content/ma/scheduled_release.html">Schedule a Release</a>.
               - col1: Reject the submitted draft
-                col2: Click<img class="art-icons" src="/e2/images/rv7/core-support/ui-media/ellipsis.svg">and select <strong>Reject Article</strong> from the dropdown options.
-            tip: You can also <strong>release</strong> or <strong>reject</strong> a submitted article directly from the <strong>Drafts and Submissions</strong> tab of your Inbox. Simply click the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/release_article.svg"> or the <img class="art-icons" src="/e2/images/rv7/core-support/ui-media/x_icon.svg"> located on the far right side of the pending article that you want to modify.
+                col2: Click<img class="art-icons" src="/e2/images/rv7/core/support/ui-media/ellipsis.svg">and select <strong>Reject Article</strong> from the dropdown options.
+            tip: You can also <strong>release</strong> or <strong>reject</strong> a submitted article directly from the <strong>Drafts and Submissions</strong> tab of your Inbox. Simply click the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/release_article.svg"> or the <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/x_icon.svg"> located on the far right side of the pending article that you want to modify.
             hr:
           - sectiontitle: Approve or reject a submitted article
             itemlist: 
