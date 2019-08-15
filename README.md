@@ -15,17 +15,13 @@ The Official Documentation, providing tutorials and guidance on the latest CORE 
 git clone https://github.com/armydotmil/core-support.git
 cd core-support
 git checkout develop
+bundle install
+npm install
 ```
-### If the initial install (otherwise skip down)
+If the initial install (otherwise skip)
 ```
 git submodule add https://github.com/armydotmil/armydotmil.github.io.git
 git submodule initgit submodule update --recursive
-```
-
-```
-bundle install
-npm install
-bundle exec jekyll serve
 ```
 
 ## Usage
@@ -47,10 +43,9 @@ git pull origin develop
 git push origin develop
 ```
 
-## Related Links
-Installation docs - http://jekyllrb.com/docs/installation/  
+## Related Links 
 Dev site at: https://static.ardev.us/core/support/  
-Stagin at: https://www.ahp.us.army.mil/core/support/  
+Staging site at: https://www.ahp.us.army.mil/core/support/  
 Live site at: https://www.army.mil/core/support/  
 
 :nerd_face:
