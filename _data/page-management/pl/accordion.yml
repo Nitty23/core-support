@@ -27,7 +27,7 @@
           - sectiontitle: Add a new category
             numlist: 
               - listname: 
-                one: Click on <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add New Category</strong> located below your existing categories. The Add a New Category panel will slide into view.<img class="data" src="/e2/images/rv7/core/support/page-management/pl/pl_add_new_accordion_category.png"> 
+                one: Click on <img class="art-icons" src="/e2/images/rv7/core/support/ui-media/plus_icon.svg"><strong>Add New Category</strong> located below your existing categories. The Add a New Category panel will slide into view.<img class="data" src="/e2/images/rv7/core/support/page-management/pl/pl_add_new_category.png"> 
                 two: Enter your category title. This title will always be visible on your accordion.
                 three: To add your collapsible body text, click <strong>Enter text here…</strong> and begin typing. Press <strong>Enter</strong> to create a new paragraph. By default, this text will be hidden on your accordion. When a visitor clicks on your category title, a panel will expand to display the text.
                 four: To format, use your mouse to highlight text. Then, use the icons in the WYSIWYG Text Toolbar to create headers, lists, links and bold/italics. To learn about the text toolbar and your formatting options, visit <a class="underline-link" href="../../creating-content/wa/formatting_text.html">Formatting Text</a>.<img class="data-img-no-border" src="/e2/images/rv7/core/support/page-management/pl/pl_format_text_bar.png"> 
@@ -50,7 +50,7 @@
                 one: Hover over the category you want to move. Your cursor will turn into a crosshair.
                 two: Click and drag the category title to reorder.
                 three: Release the category title when it’s in the desired position. You’ll see the titles reorder on your Page, as well.
-                four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.<img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_reorder_accordion.jpg">
+                four: Once you’ve finished editing, click <strong>Save</strong> to close the lightbox.<img class="data-img" src="/e2/images/rv7/core/support/page-management/pl/pl_reorder_accordion.png">
             hr: 
           - sectiontitle: Remove an existing category
             numlist: 
