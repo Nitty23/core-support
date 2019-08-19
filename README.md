@@ -1,5 +1,5 @@
 # CORE Support
-The Official Documentation, providing tutorials and guidance on the latest CORE application
+The U.S. Army's Official documentation, providing tutorials and guidance, on the latest CORE application
 
 ## Requirements
 
